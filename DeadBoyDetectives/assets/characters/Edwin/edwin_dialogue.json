@@ -1,0 +1,99 @@
+{
+"Changes": [
+	{
+        "LogName": "",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EdwinPayne",
+		"Entries": {
+			"Introduction": "Ah. You must be the new farmer then, judging by the state of your attire and tools? I am Edwin, one half of the Dead Boy Detectives.",
+			"divorced": "I cannot imagine what business you think you have with me, but I assure you, you're mistaken.",
+			"cc_Begin": "Charles and I have noted an uptick in activity and noise coming from downstairs. Is it your doing?",
+			"cc_Boulder": "I noticed quite a strange phenomenon last night while you living were sleeping. It's a shame how much you miss while attending to your bodily needs.",
+			"cc_Bridge": "I noticed quite a strange phenomenon last night while you living were sleeping. It's a shame how much you miss while attending to your bodily needs.",
+			"cc_Bus": "I hear the bus has been repaired.#$b#Of course, Charles and I can reach other destinations any time we wish simply by stepping through mirrors. But it must be a welcome change for you.",
+			"cc_Greenhouse": "My father's manor had a greenhouse, back when I was alive. I do remember enjoying the silence and the company of the plants, though I was scolded harshly for disturbing any of them.",
+			"cc_Minecart": "I hear the minecarts around town have been repaired.#$b#Of course, Charles and I can reach other destinations any time we wish simply by stepping through mirrors. But it must be a welcome change for you.",
+			"cc_Complete": "Congratulations on repairing the Community Center, though I'm curious as to how you accomplished it.#$e#Junimos, you say? I've never heard of them in any of my books. Strange.",
+			"movieTheater": "It will be nice to visit the cinema. I do have a special fondness for mystery films.",
+			
+			"MovieInvite_Invited": "You wish to see a film together? I suppose I could spare an afternoon.",
+			"DumpsterDiveComment": "You do know that when we ghosts rummage in the bins, it is because we do not have concepts such as health or hygiene to worry about? The same does not apply to you.",
+			//"SpouseStardrop": "",
+			//"FlowerDance_Accept_Spouse": "",
+			"FlowerDance_Accept": "Quite different from the dances of my time, but I would be delighted to partake with you.",
+			"FlowerDance_Decline": "I do not make a habit of dancing, no matter what lies Charles has seen fit to spread about me.",
+			"GreenRain": "I've never seen such strange weather, save for when Charles and I angered a warlock back in '09.", 
+			"GreenRain_2": "Is this to be a regular occurrence, then?#$b#I suppose it may be a good opportunity to explore the town without fear of scaring the townspeople.",
+			
+			// gift dialogue
+			"AcceptGift_(O)StardropTea": "You must know that we cannot—#$b#You mean I will be able to drink it? Goodness, I haven't had tea in over a century.#$b#Thank you, @. This means a great deal to me.",
+			"AcceptGift_category_cooking": "Charles and I are ghosts and cannot consume the food of the living.",
+			
+			// generic dialogue
+			"Mon": "I regret to inform you that we do not take on living clients. I'll thank you for not insisting.", 
+			"Tue": "You live on %farm? Charles and I may have questions for you later concerning a recent case.",
+			"Wed": "Oh, @, it's you. I must urge you to quickly state your business. We are in a bit of a time crunch.",
+			"Thu": "Have you met Charles, my associate?#$e#I am sure he can aid you with whatever it is that you require.",
+			"Fri": "I'm afraid I have little time to talk at the moment. You understand.",
+			"Sat": "Unfortunately I am not at liberty to discuss our current or past cases with you, @. We value our clients' privacy quite highly.",
+			"Sun": "The work of a ghost never stops. Now if you'll excuse me, I'm quite busy.",
+
+			"Mon2": "Oh, @, it’s you again. If you insist on having conversations you can try to make yourself useful.", 
+			"Tue2": "@, I see you enjoy spending time at the agency. I do hope you spare the same level of attention to your farm duties.",
+			"Wed2": "Have you talked to Charles, lately?#$b#I'm regrettably aware he would be delighted to talk to a living person.",
+			"Thu2": "Hmm... according to those runes...#$b#...but the readings do not match the phase of the moon...#$b#...perhaps if I take this into consideration...#$b#...Oh, @, I didn’t notice you standing there.",
+			"Fri2": "I cannot help but notice you spending time at the Agency.#$b#I assure you we would help with whatever investigation you needed if you were dead.",
+			"Sat2": "I don't suppose you have any pixie wings or small mammal bones on you?#$b#Shame. They make rather useful potion ingredients.",
+			"Sun2": "Have you visited the mines lately? Charles rather enjoys expressing his talents as the brawn there.#$b#With your stubborn attitude, I can only imagine you'll reach the bottom in no time at all.",
+
+			"Mon4": "Hello, @. I'm quite glad we got to know each other after all. You've helped me… warm up to Pelican Town.", 
+			"Tue4": "@, Charles and I were just discussing how helpful you’ve been since we’ve met.#$b#And I must say that I completely agree.",
+			"Wed4": "Hello, @. I must… apologize if I have been... harsh to you since we’ve met. I am not very good with people.",
+			"Thu4": "@, I noticed Charles has quite enjoyed his time in Pelican Town.#$b#And that is, in part, due to your acquaintanceship. In light of that I’d like to... thank you… for spending time with us.",
+			"Fri4": "@, I am aware my demeanor might come across as... rude. So I appreciate your insistence in making conversation.",
+			"Sat4": "Have you been to the library lately? I like to spend my afternoons there. I'd love to show you the best books I've found.",
+			"Sun4": "The mines are quite dangerous. You should bring Charles with you next time you go.",
+
+			"Mon6": "Pelican Town has been home to some anomalies lately, @.#$b#We’d appreciate any information you can share with us about them.",
+			"Tue6": "@, I’m glad to see you! I have some leads on a case and...#$b#...I’d like to brainstorm some actions with Charles and you...#$b#...if you’d be amenable to.",
+			"Wed6": "@, I hope you’re doing well! I couldn’t help but notice you spending time at the agency lately.#$e#If there are any books you’d like to borrow, I wouldn’t be against lending them to you.",
+			"Thu6": "Hello, @! How is the farm doing?#$b#I’m quite intrigued by some of the crops you’re growing, actually.#$b#If you have some spare time later, I’d be delighted to discuss farming techniques with you.",
+			"Fri6": "I’ve noticed some cats around, but I’ve yet to meet the Cat King of Pelican Town.#$e#I must say, I’m glad I’ve been spared this unpleasantry.",
+			"Sat6": "I've just finished this fantastic book. You should borrow it sometime so we can discuss it.",
+			"Sun6": "@, I can't help but notice your similarity to Charles in many respects.#$b#You are both beings of action, and I quite appreciate it in contrast to my own temperament.",
+
+			"Mon8": "Do you think Charles would like me to explore alternate outfits?#$b#Oh, you're right, of course he would hold me in high esteem regardless.",
+			"Tue8": "I wonder if I might visit %farm someday. With your invitation, of course. We could go for a walk about the property together.",
+			"Wed8": "I do find myself quite enjoying our talks, @. I hope you feel the same.",
+			"Thu8": "I've been experiencing so many difficult feelings as of late... How do you cope, @?",
+			"Fri8": "...Oh, it's only you, @. Pardon me, for a moment I was lost in thoughts of an unpleasant place. Excuse me.",
+			"Sat8": "If you keep up this sort of behavior, you may find yourself a probationary member of the agency soon.#$b#And that is not an invitation we extend very commonly.",
+			"Sun8": "I do admire your rather uncanny knack for gift-giving, @. It is a skill I have only perfected with Charles, and that took me several decades.",
+
+			"Mon10": "I always thought Charles would be the only best friend I'd ever need.#$b#I'm glad I was wrong.#l",
+			"Tue10": "I never thought you might grow on me this much, but now I cannot imagine my days without you.",
+			"Wed10": "You know, @, being among such good friends as you makes it difficult to remember the horrors that exist elsewhere.",
+			"Thu10": "You've been such a strong influence on the community, @.#$b#I shudder to think of how exhausting socializing with everyone in town must be.",
+			"Fri10": "Perhaps we might visit the lakeside sometime? Charles isn't overly fond, but I feel you might appreciate its beauty.",
+			"Sat10": "Have you investigated any interesting phenomena lately?#$b#Fascinating. You must tell me of your findings in more detail.",
+			"Sun10": "I daresay you've earned a place at the agency as much as Charles or I have, with how much you've helped lately.",   
+		   
+
+			// SPECIFIC DAY DIALOGUE
+			"spring_1": "During my life I always had the most dreadful allergies in the spring. Being dead is decidedly more pleasant in this regard.",
+			"summer_1": "Summer means shorter nights. Less time for Charles and I to investigate the town unmolested, but also less time for more unsavoury creatures to create trouble.",
+			"fall_1": "Fall is an extremely busy season for us. Now if you'll excuse me.",
+			"winter_1": "Do be careful not to catch a chill, @. Too many of my classmates fell ill from lack of appropriate winter attire at St. Hilarion's.",
+			"spring_12": "My father would call the children of today unlicked cubs, or worse, for participating in such a rowdy festival as tomorrow's.#$e#Good thing he is no longer here to comment.", // Day before the Egg Festival
+			"spring_23": "Charles has tried to teach me the flower dance a few times, but I'm afraid I've never quite mastered it. Nor do I enjoy the sensation of being watched.", // Day before the Flower Dance
+			"summer_10": "London has no such traditions as tomorrow's. I must say the novelty of a luau is quite intriguing.", // Day before the Luau
+			"summer_27": "Every year I attempt to study the phenomenon of the creatures who visit Pelican Town at the end of summer, but their mystery continues to elude me.", // Day before the Midnight Jellies
+			"fall_15": "I heard the Stardew Valley Fair is tomorrow.#$b#I suppose people should celebrate the town’s anniversary to their heart’s content.$u", // Day before the Stardew Fair
+			"fall_26": "Charles has been quite excited about the Haunted Maze tomorrow. Spirit's Eve is the busiest night of the year for us, but I suppose it couldn't hurt to participate, if only for him.", // Day before Spirit's Eve
+			"winter_7": "Charles has been quite dreading tomorrow's Ice Festival.#$b#I don't suppose you'll entertain a request not to go...?#$e#Of course not, that would be quite unfair. Besides, I'm sure nobody will get hurt...", // Day before the Ice Festival
+			"winter_24": "Are you participating in the gift exchange tomorrow? I've already secured my gift to Charles.", // Day before Winter Star
+					
+			}	
+		}
+	]
+}

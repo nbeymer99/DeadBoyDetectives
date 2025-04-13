@@ -1,0 +1,18 @@
+{
+    "Changes": [
+	{
+		"LogName": "EdwinStrings",
+		"Action": "EditData",
+		"Target": "Strings/Schedules/EdwinPayne",
+		"Entries": 
+        {
+            "RuneCircle.000": "I wouldn't if I were you. There's no telling what effect it may have on the living.$u",
+			"Spells.000": "%Edwin is busy casting a spell.",
+			"Reading.000": "If you don't mind, I'm rather busy at the moment. Perhaps you could come back later.",
+			"Reading.001": "A fascinating take on stone tape theory... #$b#Oh, @, it's you. Can I help you?",
+			"Saloon.000": "$2I'll never know why Charles insists on coming here, especially during loud nights.#$b#Though I'm happy to tag along if it makes him happy.$h",
+			"Writing.000": "I'm afraid that if you don't have helpful information about our current case, I cannot entertain you at the moment. Perhaps try someone else?"
+		}
+	}
+	]
+}

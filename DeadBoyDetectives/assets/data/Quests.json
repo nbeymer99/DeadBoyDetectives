@@ -1,0 +1,12 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"LogName": "Everbloom Quest",
+		"Target": "Data/Quests",
+		"Entries": {
+			"{{ModId}}_EverbloomQuest": "ItemDelivery/The Everbloom/Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin./Cultivate and harvest an Everbloom flower, then bring it to Edwin./EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/Where on Earth did you get this? It must have taken ages to grow. Thank you, @."
+		}
+	}
+	]
+}

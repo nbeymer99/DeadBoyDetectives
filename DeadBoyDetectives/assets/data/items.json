@@ -1,0 +1,147 @@
+{
+	"Changes": [
+	
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_CharlesAmulet": {
+				"Name": "{{ModId}}_CharlesAmulet",
+				"Displayname": "Charles' Amulet",
+				"Description": "Increases attack",
+				"Type": "Quest",
+				"Category": -96,
+				"Price": "9999",
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 3
+			},
+			
+			// The Everbloom was kindly loaned to me from e_va's fic "An Amateur's Guide to Auction Theory"!
+			"{{ModId}}_EverbloomSeed": {
+				"Name": "{{ModId}}_EverbloomSeed",
+				"Displayname": "Everbloom Seed",
+				"Description": "A magical, very rare seed. Blooms once a year.",
+				"Type": "Seeds",
+				"Category": -74,
+				"Price": "1500000",
+				"Texture": "Mods/{{ModId}}/Seeds",
+				"SpriteIndex": 0
+			},
+			
+			"{{ModId}}_EverbloomFlower": {
+				"Name": "{{ModId}}_EverbloomFlower",
+				"Displayname": "Everbloom",
+				"Description": "According to ancient texts, only one of these extremely rare blooms can exist at a time. Very powerful as a potion ingredient or for trade among the supernatural community.",
+				"Type": "Basic",
+				"Category": -80,
+				"Price": "2500000",
+				"Texture": "Mods/{{ModId}}/Everbloom",
+				"SpriteIndex": 0
+			},
+			
+			"{{ModId}}_Angie": {
+				"Name": "{{ModId}}_Angie",
+				"Displayname": "Angie",
+				"Description": "A terrifying sea monster who usually sticks to the depths. What is she doing so close to the surface?",
+				"Type": "Fish",
+				"Category": -4,
+				"Price": "2500",
+				"Texture": "Mods/{{ModId}}/Angie",
+				"SpriteIndex": 0,
+				"Edibility": "-200",
+				"ExcludeFromRandomSale": true,
+				"ContextTags": [
+				"color_red",
+				"fish_legendary",
+				"fish_pond_ignore"
+				]
+			},
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Data/BigCraftables",
+		"Entries": {
+			"{{ModId}}_CrystalTree": {
+				"Name": "{{ModId}}_CrystalTree",
+				"DisplayName": "Purple Sapling",
+				"Description": "A potted sapling that almost seems to glow.",
+				"Fragility": 0,
+				"CanBePlacedOutdoors": false,
+				"Price": "0",
+				"IsLamp": true,
+				"Texture": "Mods/{{ModId}}/Objects",
+				"SpriteIndex": 15,
+				"ContextTags": [ "light_source" ]
+			},
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Data/Crops",
+		"Entries": {
+			"{{ModId}}_EverbloomSeed": {
+				"Seasons": ["spring", "summer", "fall", "winter" ],
+				"DaysInPhase": [ 28, 28, 28, 28 ],
+				"HarvestItemId": "{{ModId}}_EverbloomFlower",
+				"HarvestMinQuality": 4,
+				"RegrowDays": 112,
+				"Texture": "Mods/{{ModId}}/Crops",
+				"SpriteIndex": 0
+			}
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["Entries", "Universal_Love"],
+			"Value": "{{ModId}}_EverbloomFlower",
+			"Delimiter": " "
+		},
+		
+		{
+			"Operation": "Append",
+			"Target": ["Entries", "Universal_Dislike"],
+			"Value": "{{ModId}}_Angie",
+			"Delimiter": " "
+		},
+		]
+	},
+	
+	{
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Objects",
+        "FromFile": "assets/maps/mapObjects.png"
+    },
+	
+	{
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Crops",
+        "FromFile": "assets/data/crops.png"
+    },
+	
+	{
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Everbloom",
+        "FromFile": "assets/data/Everbloom.png"
+    },
+
+	{
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Seeds",
+        "FromFile": "assets/data/EverbloomSeed.png"
+    },
+	
+	{
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/Angie",
+        "FromFile": "assets/data/angie.png"
+    },
+	]
+}
