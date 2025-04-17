@@ -1,0 +1,90 @@
+{
+"Changes": [
+	{
+        "LogName": "CharlesDialogue",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/CharlesRowland",
+		"Entries": {
+			"Introduction": "You can see me..? Aces!#$b#I'm Charles, and this is Edwin. We're the Dead Boy Detectives.",
+			"cc_Begin": "Been hearing a lot of noise from beneath the office lately. You done something, mate?",
+			"cc_Boulder": "Have you seen all those sparking bits in the water lately? Weird.",
+			"cc_Bus": "Heard you got that old bus fixed. Nice job!$h",
+			"cc_Minecart": "You fixed up the minecarts, then? Now you can get around as easy as us ghosts mirror-hopping!$2.",
+			"cc_Complete": "$hWow, the Community Center is looking better than ever!#$b#I just hope nobody is bothered by our office upstairs...",
+			"movieTheater": "Did you see that there's a cinema opening in town?#$b#I can't wait to go.",
+			"firstVisit_Mine": "Those old mines are spooky, aren't they? You look like the tough sort though.",
+			"GreenRainFinished": "What was up with that green rain? Edwin 'n I have never seen anything like it, except for that time back in '09.",
+			
+			"MovieInvite_Invited": "You bought me a ticket to the cinema? I'd love to go!$",
+			"DumpsterDiveComment": "Mate, if you need help, Edwin and I can look into it, yeah? You don't have to go digging in the bins.$2",
+			//"FlowerDance_Accept_Spouse": "",
+			"FlowerDance_Accept": "Oh, aces, I love dancing!",
+			"FlowerDance_Decline": "Would look kind of odd, wouldn't it, dancing with a ghost?",
+			"AcceptGift_(O)StardropTea": "You mean I can actually drink this? Mate, this might be the best gift anyone's ever given me.$4",
+			"divorced": "What do you want? I'm busy with a case.$5",
+			
+			// GENERIC DIALOGUE
+			"Mon": "You should come see the agency sometime. We've set up right above the old Community Center.#$b#$1Nobody ever comes in there, so they can't complain it's haunted if we're too loud.", 
+			"Tue": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
+			"Wed": "You live on %farm, yeah? That's brills! I never tried gardening myself, but it must be aces growing your own food.",
+			"Thu": "You seem pretty handy. Maybe you could help us out on a case sometime!",
+			"Fri": "Edwin and I once solved a case on %farm. That was before you came to stay, though.",
+			"Sat": "Do you go fishing very often? Careful not to fall in.$7",
+			"Sun": "Other people might have the day off, but our work never stops, huh?$1",
+
+			"Mon2": "I gotta get back to London one of these days for potion ingredients.#$b#Edwin gets moody when we're running low.",
+			"Tue2": "Edwin isn't that good with people, but you have to cut him some slack.#$b#He spent seventy years in Hell, you know?$2",
+			"Wed2": "Ever been down to Tragic Mick's? He's a good bloke, and he's got some absolutely insane items.",
+			"Thu2": "Hey @! How are things on the farm?",
+			"Fri2": "You know, we came to Pelican Town back in '06 to deal with some banshees. Yeah... Good times...",
+			"Sat2": "I bet you can't beat my high score at Junimo Kart. I've been playing arcade games longer than you've been alive!",
+			"Sun2": "We should hang around more! I could wear a disguise and you can pretend I’m an old uncle visiting.$h",
+
+			"Mon4": "We should hang around more! Folks usually don’t see me, so it gets lonely sometimes.#$e#Uhh… Please don’t tell Edwin I said that.",
+			"Tue4": "Hey, if you ever end up taking a trip to London, let me know! I'd be happy to show you around our usual haunts.$h",
+			"Wed4": "You seem pretty handy. Maybe you could help us out on a case sometime!",
+			"Thu4": "Have you ever been to Ginger Island? I hear it's proper warm there, like, all the time.",
+			"Fri4": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
+			"Sat4": "The agency is open on weekends too! Ghosts don’t really have to sleep or rest... Sigh... But I wish we would take breaks sometimes.",
+			"Sun4": "Will you grow any tomatoes this summer? My mum used to make the best spaghetti sauce. #$b#$2I miss it so much...",
+
+			"Mon6": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
+			"Tue6": "Hey, @! Been down to the mines lately? It can be dangerous, but I love a good thrill.#$e#They don't call me the brawn for nothing.$u",
+			"Wed6": "Let me know if you ever want to take a break and play some football. I've got one back at the office, and I've got rusty without anyone to play a proper match with.",
+			"Thu6": "Do you go fishing very often? Careful not to fall in.$7",
+			"Fri6": "I'm enjoying our time in Pelican Town!#$b#Especially since meeting such a good friend like you.$4",
+			"Sat6": "The agency is open on weekends too! Ghosts don’t really have to sleep or rest... Sigh... But I wish we would take breaks sometimes.",
+			"Sun6": "Last month we helped out an old ghost who was stuck in JojaMart. Can you imagine an eternity spent there?$7",
+
+			"Mon8": "Did I ever tell you about the Case of the Creeping Mandrakes?#$e#Never mind, you look pretty busy right now. Some other time!$h",
+			"Tue8": "You should come by the office sometime to hear about some cases we've solved.#$b#You never know when you might need to learn how to throw a hellhound off your scent.",
+			"Wed8": "How are you and Edwin getting along, then? Good?",
+			"Thu8": "Have you been to the Saloon lately? Gus' food always looks so good.#$e#Wish I could try some...",
+			"Fri8": "I'm enjoying our time in Pelican Town!#$b#Especially since meeting such a good friend like you.$4",
+			"Sat8": "Hey @! Say hi to %pet for me, would you?",
+			"Sun8": "I had a gift I wanted to give you, but I lost it in my bag. Sorry, next time, yeah?$4",
+
+			"Mon10": "If it isn't my favorite farmer, @! Need anything?",
+			"Tue10": "I gotta say... Being here in Pelican Town has made feel the safest I've been in a long time...$#b#$4And you're a big part of that, @.",
+			"Wed10": "I had a gift I wanted to give you, but I lost it in my bag. Sorry, next time, yeah?$4",
+			"Thu10": "You should come by the office sometime to hear about some cases we've solved.#$b#You never know when you might need to learn how to throw a hellhound off your scent.",
+			"Fri10": "Edwin's been too busy with research these days. His mind is brills, but sometimes I wish he took more breaks.",
+			"Sat10": "The agency is open on weekends too! Ghosts don’t really have to sleep or rest... Sigh... But I wish we would take breaks sometimes.",
+			"Sun10": "You know, you've been a real help to the town, @. Us included.",   
+			
+			// Festivals and Events
+			"spring_1": "Winter's finally over. Snow's nice and all, but it'll be good to see things 'round the valley growing again.",
+			"summer_1": "You know, back when I was alive, summer was actually my least favorite season? I like it well enough now, though.",
+			"fall_1": "Is fall as busy for you as it is for us?#$b#I dunno why, but it's like our caseload triples in the fall. Speaking of, gotta run!",
+			"winter_1": "Cold out, innit? That's one good thing about being a ghost. I don't have to feel it anymore.$h",
+			"spring_12": "Hey @! Excited for the Egg Festival tomorrow? 'S sorta like being a detective, innit, hunting for eggs instead of clues!",
+			"summer_10": "I heard there's a Luau at the beach tomorrow. I don't hang around the ocean too much, but I might join!",
+			"summer_27": "You know, I don't like the water much, but seeing the Moonlight Jellies tomorrow is definitely some kind of magic.",
+			"fall_15": "Free food at the fair tomorrow! Sigh... I miss eating so much...", 
+			"fall_26": "I’m trying to convince Edwin to go in the Haunted Maze with me tomorrow. Maybe you'll have better luck.$h",
+			"winter_7": "$7You're going to the Ice Festival tomorrow?#$b#Be careful...",
+			"winter_24": "I'm so excited for tomorrow! I always feel like a little kid again when this time of year comes around. ",
+			}	
+		}
+	]
+}

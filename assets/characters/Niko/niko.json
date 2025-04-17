@@ -1,0 +1,313 @@
+{
+   "Changes": [
+		
+	{
+    "Action": "Load",
+    "Target": "Portraits/NikoSasaki",
+    "FromFile": "assets/characters/Niko/niko_portraits.png",
+	},	
+	
+	{,
+    "Action": "Load",
+    "Target": "Characters/NikoSasaki",
+    "FromFile": "assets/characters/Niko/Niko_sprites.png",
+	},
+		
+	// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "NikoSasaki": {
+				
+				"UnlockConditions": "PLAYER_HAS_MAIL Host {{ModId}}_NikoCured",
+				
+				// Basic Info
+                "DisplayName": "Niko",
+                "BirthSeason": "winter",
+                "BirthDay": 6,
+                "HomeRegion": "Town",
+                "Gender": "Female",
+                "Age": "Teen",
+                "Manner": "Polite",
+                "SocialAnxiety": "Shy",
+                "Optimism": "Positive",
+				"IsDarkSkinned": false,
+				
+				// Relationships and Social
+                "CanBeRomanced": false, //to be patched with romance
+				"CanVisitIsland": false,
+				"CanCommentOnPurchasedShopItems": true,
+				"Calendar": "HiddenUntilMet",
+				"SocialTab": "HiddenUntilMet",
+				"FriendsAndFamily": {
+                    "EdwinPayne": "friend",
+					"CharlesRowland": "friend",
+					"CrystalPalace": "friend"
+                },
+					
+				"DumpsterDiveFriendshipEffect": 0,
+				"FlowerDanceCanDance": false,
+					
+				"WinterStarGifts": [
+					{
+						"Id": "{{ModId}}_NikoTree",
+						"ItemId": "{{ModId}}_NikoTree",
+						"MinStack": 1,
+						"MaxStack": 1
+					},
+					{
+						"Id": "Amethyst Ring",
+						"ItemId": "(O)529",
+						"MinStack": 1,
+						"MaxStack": 1
+					},
+					{
+						"Id": "Purple Slime Egg",
+						"ItemId": "(O)439",
+						"MinStack": 1,
+						"MaxStack": 1
+					}
+				],
+					
+				//Spawn Rules
+                "Home": [
+                    {
+						"Id": "Default",
+                        "Location": "{{ModId}}_CrystalAndNiko",
+                        "Tile": {
+							"X": 16,
+							"Y": 11
+                        },
+						"Direction": "left"
+                    }
+                ],
+				"Breather": "true",
+				//"KissSpriteIndex": 42
+            }
+        }
+    },
+		
+	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
+	
+	//{
+	//	"Action": "EditData",
+	//	"Target": "Data/Characters",
+	//	"TargetField": ["NikoSasaki", "Appearance"],
+	//	"Entries":
+	//	{
+	//		"NikoSasaki_OutfitPolo":
+	//		{
+	//			"Id": "NikoSasaki_OutfitPolo",
+	//			"Portrait": "Portraits/NikoSasakiPolo",
+	//			"Sprite": "Characters/NikoSasakiPolo",
+	//			"Indoors": true,
+	//			"Outdoors": false,
+	//			"IsIslandAttire": false,
+	//			"Condition": "TRUE",
+	//			"Precedence": 0,
+	//			"Weight": 1
+	//		},
+	//	
+	//		"NikoSasaki_OutfitBlackJacket":
+	//		{
+	//			"Id": "NikoSasaki_OutfitBlackJacket",
+	//			"Portrait": "Portraits/NikoSasakiBlackJacket",
+	//			"Sprite": "Characters/NikoSasakiBlackJacket",
+	//			"Indoors": false,
+	//			"Outdoors": true,
+	//			"IsIslandAttire": false,
+	//			"Condition": "TRUE",
+	//			"Precedence": 0,
+	//			"Weight": 1
+	//		},
+	//					
+	//		"NikoSasaki_OutfitVest":
+	//		{
+	//			"Id": "NikoPayne_OutfitVest",
+	//			"Portrait": "Portraits/NikoSasakiVest",
+	//			"Sprite": "Characters/NikoSasakiVest",
+	//			"Indoors": true,
+	//			"Outdoors": true,
+	//			"IsIslandAttire": true,
+	//			"Condition": "TRUE",
+	//			"Precedence": 0,
+	//			"Weight": 1
+	//		},
+	//	},
+	//},
+	
+		
+	//loads - portraits
+	//{
+	//	"LogName": "Conditional Portraits - Appearance Load",
+	//	"Action": "Load",
+	//	"Target": "Portraits/NikoSasakiPolo",
+	//	"FromFile": "assets/characters/Niko/Niko_portraits_polo.png",
+	//},
+	//	
+	//{
+	//	"LogName": "Conditional Portraits - Appearance Load",
+	//	"Action": "Load",
+	//	"Target": "Portraits/NikoSasakiBlackJacket",
+	//	"FromFile": "assets/characters/Niko/Niko_portraits_blackjacket.png",
+	//},
+	//	
+	//{
+	//	"LogName": "Conditional Portraits - Appearance Load",
+	//	"Action": "Load",
+	//	"Target": "Portraits/NikoSasakiVest",
+	//	"FromFile": "assets/characters/Niko/Niko_portraits_vest.png",
+	//},
+		
+	//loads - sprites
+	//{
+	//	"LogName": "Conditional Sprites - Appearance Load",
+	//	"Action": "Load",
+	//	"Target": "Characters/NikoSasakiPolo",
+	//	"FromFile": "assets/characters/Niko/Niko_sprites_polo.png",
+	//},
+	//	
+	//{
+	//	"LogName": "Conditional Sprites - Appearance Load",
+	//	"Action": "Load",
+	//	"Target": "Characters/NikoSasakiBlackJacket",
+	//	"FromFile": "assets/characters/Niko/Niko_sprites_blackjacket.png",
+	//},
+	//	
+	//{
+	//	"LogName": "Conditional Sprites - Appearance Load",
+	//	"Action": "Load",
+	//	"Target": "Characters/NikoSasakiVest",
+	//	"FromFile": "assets/characters/Niko/Niko_sprites_vest.png",
+	//},
+	
+	// gift tastes
+	{
+		"LogName": "NikoSasakiGiftTaste",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"NikoSasaki": "Wow, @, I don't even know what to say. Thank you!/62 348 342 651 611 253 395/Thanks. You didn't have to do this./206 635 595 94 118 /This is, uh... are you sure?/422 815 614 404 420 281 257/What the fuck, @?/346 148 149 205 251 414 124/Thanks, @./"
+		}
+	},
+	
+	// movie tastes
+	
+	{   "LogName": "Movie Theatre Niko",
+		"Action": "EditData", 
+		"Target": "Data/MoviesReactions",	 
+		"Entries": {
+				"NikoSasaki": {
+			"NPCName": "Niko",
+			"Reactions": [
+				{
+					"Tag": "horror",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You reckon Edwin would like this one?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Niko seems to be enjoying the special effects.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "It's been ages since I had a proper scare like that!$h Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_0"
+				},
+				
+				{
+					"Tag": "*",
+					"Response": "like",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You reckon Edwin would like this one?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Niko seems to be enjoying the special effects.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "That was brills! Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_1"
+				},
+			],
+			},
+		},
+	},
+	
+	// concessions tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/ConcessionsTastes",
+		"Entries": {
+			"Name": "NikoSasaki",
+			"LovedTags": [
+				"JasmineTea",
+				"Popcorn",
+				"Sour Slimes"
+			],
+			"LikedTags": [
+				"Fatty",
+				"Hot"
+			],
+			"DislikedTags": [
+				"Drink",
+				"Healthy",
+			],
+		}
+	},
+	
+	// include schedule
+	{
+		"LogName": "NikoSasakiSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/Niko/Niko_schedule.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "NikoSasakiAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/Niko/Niko_animations.json"
+	},
+	
+	// include Strings
+	{
+		"LogName": "NikoSasakiStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/Niko/Niko_Strings.json"
+	},
+	
+	// include dialogue
+	{
+		"LogName": "NikoSasakiDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/Niko/Niko_dialogue.json"
+	},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "NikoSasakiMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Niko/Niko_marriageDialogue.json"
+	//},
+	]
+}

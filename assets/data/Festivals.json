@@ -1,0 +1,486 @@
+{
+	"Changes": 
+	[
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			"FromFile": "assets/maps/TNTChristmas.tmx",
+			"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 14 },
+			"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas2",
+			"FromFile": "assets/maps/TNTChristmas2.tmx",
+			"FromArea": { "X": 5, "Y": 62, "Width": 17, "Height": 14 },
+			"ToArea": { "X": 5, "Y": 62, "Width": 17, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			"FromFile": "assets/maps/TNTFair.tmx",
+			"FromArea": { "X": 8, "Y": 62, "Width": 14, "Height": 14 },
+			"ToArea": { "X": 8, "Y": 62, "Width": 14, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair2",
+			"FromFile": "assets/maps/TNTFair2.tmx",
+			"FromArea": { "X": 5, "Y": 64, "Width": 11, "Height": 12 },
+			"ToArea": { "X": 5, "Y": 64, "Width": 11, "Height": 12 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			"FromFile": "assets/maps/TNTHalloween.tmx",
+			"FromArea": { "X": 7, "Y": 63, "Width": 15, "Height": 14 },
+			"ToArea": { "X": 7, "Y": 63, "Width": 15, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween2",
+			"FromFile": "assets/maps/TNTHalloween2.tmx",
+			"FromArea": { "X": 9, "Y": 66, "Width": 11, "Height": 12 },
+			"ToArea": { "X": 9, "Y": 66, "Width": 11, "Height": 12 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			"FromFile": "assets/maps/TNTEaster.tmx",
+			"FromArea": { "X": 5, "Y": 64, "Width": 23, "Height": 13 },
+			"ToArea": { "X": 5, "Y": 64, "Width": 23, "Height": 13 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival2",
+			"FromFile": "assets/maps/TNTEaster2.tmx",
+			"FromArea": { "X": 8, "Y": 61, "Width": 15, "Height": 15 },
+			"ToArea": { "X": 8, "Y": 61, "Width": 15, "Height": 15 }
+		},
+		
+		//source: (https://stardewmodding.wiki.gg/wiki/Adding_a_Custom_NPC_to_Festivals_template)
+		{	
+			"LogName": "Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "CharlesRowland 16 74 right",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "EdwinPayne 18 74 left",
+   				    "Delimiter": "/"
+				},
+				
+   				//MainEvent - during the actual hunt
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "CharlesRowland 16 74 down",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "EdwinPayne 18 74 down",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "CharlesRowland": "The egg hunt always reminds me of the Rotten Egg Debacle of '98. Right, Edwin?$h",
+			},
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "EdwinPayne": "If Charles and I could participate in the egg hunt, nobody else would stand a chance, frankly.$u",
+			},
+		},
+		{	
+			"LogName": "Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "CharlesRowland 25 29 left",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "EdwinPayne 25 28 left",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "CharlesRowland": "I taught Edwin how to dance once. For fun, not that posh nonsense from way back when.",
+			},
+		},
+		{	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "EdwinPayne": "This reminds me of the horrid events my parents made me attend as a child. I cannot imagine dancing in front of an audience would be at all enjoyable.$s",
+			},
+		},
+		{	
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "CharlesRowland 52 11 down",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "EdwinPayne 53 11 down",
+   				    "Delimiter": "/"
+				},
+				//MainEvent - during the actual tasting
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CharlesRowland 41 10 left",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CharlesRowland 41 11 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ "CharlesRowland": "Just looking at that soup is enough to make me feel sick.$s I'm glad we don't have to eat it.",
+			},
+		},
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries":
+			{ "EdwinPayne": "Remind me why we are here, again? Surely there are cases we could be working on instead.$s",
+			},
+		},
+
+		{	
+			"LogName": "Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 25 36 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 26 36 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CharlesRowland 25 36 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "EdwinPayne 26 36 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "CharlesRowland": "Being out on the water makes me nervous, but it's worth it to see the Moonlight Jellies.",
+			},
+		},
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "EdwinPayne": "Did you know, Pelican Town is the only region in the world home to such unique specimens? Fascinating.$u",
+			},
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				//SetUp (non-SVE) - I don't believe there is a "main event" one for this"
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "CharlesRowland 49 88 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "EdwinPayne 49 89 up",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "CharlesRowland 49 89 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "EdwinPayne 49 90 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		//SetUp (SVE) - SVE changes the fair a lot, so you may want different positions.
+		{	
+			"LogName": "Stardew Valley Fair - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 51 72 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 52 72 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "CharlesRowland": "Have you been to the petting zoo yet? The chickens are pretty cute.$h",
+			},
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "EdwinPayne": "Ridiculous. That fortune-teller is nothing compared to Crystal.$u",
+			},
+		},
+		{	
+			"LogName": "Spirit's Eve",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp - again, no main
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 18 12 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 19 12 left",
+					"Delimiter": "/"
+				},
+			],
+		},			
+		{	
+			"LogName": "Spirit's Eve - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp (SVE) - SVE changes the maps from year to year but I don't know the specifics, so you may need more than one set of positions for SVE compat.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 71 27 right",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 72 27 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "CharlesRowland": "It's the busiest night of the year for us. We're here to make sure nothing goes wrong, yeah?$u",
+			},
+		},
+		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "EdwinPayne": "You haven't attracted any curses or wronged any sprits lately, have you, @? I'd be careful on a night such as this one.",
+			},
+		},
+		{	
+			"LogName": "Festival of Ice",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 72 22 left",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "EdwinPayne 72 22 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - SVE compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+			[
+				//SetUp - SVE completely redoes this map too, so depending on where you are you may need compat for this.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 27 50 right",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "EdwinPayne 27 50 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ "EdwinPayne": "Charles elected not to attend, and it's little question why. I myself am only here on matters pertaining to a current case.", },
+		},
+		{	
+			"LogName": "Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations":
+			[
+				//SetUp - I think there is a MainEvent, but only during the actual gift-giving cutscene.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 28 62 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 29 62 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ "CharlesRowland": "Edwin and I already exchanged gifts this morning, but it's so fun seeing everyone else open up their presents.$h",
+			},
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries":
+			{ "EdwinPayne": "Winter was always a rare bright spot during my childhood. The Christmas holidays meant a reprieve from St. Hilarion's halls.",
+			},
+		},
+	]
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="7">
+ <properties>
+  <property name="AmbientLight" value="175 175 175"/>
+  <property name="AmbientNightLight" value="200 200 200"/>
+  <property name="DefaultWarpLocation" value="6 9"/>
+  <property name="Warp" value="5 11 handwrittenhello.dbda_DeadBoyAgency 4 5"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="72" columns="6">
+  <image source="cave.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="137" name="z_townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2313" name="z_townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3625" name="z_furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="furniture.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="6601" name="z_furniture_2" tilewidth="16" tileheight="16" tilecount="512" columns="16">
+  <image source="furniture_2.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="7113" name="z_wizard_furniture" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="wizard_furniture.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="7464" name="z_lantern" tilewidth="16" tileheight="16" tilecount="36" columns="6">
+  <image source="mapObjects.png" width="96" height="96"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="6" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="7" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <animation>
+    <frame tileid="6" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="7500" name="z_furniture_3" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="furniture_3.png" width="208" height="432"/>
+ </tileset>
+ <layer id="1" name="Back" width="12" height="12">
+  <data encoding="csv">
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65,
+65,65,65,65,65,65,65,65,65,65,65,65
+</data>
+ </layer>
+ <layer id="9" name="Back2" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,6256,0,0,0,0,0,
+0,7561,3484,3392,1101,0,0,669,670,0,0,0,
+0,7574,3516,3424,1133,7236,7237,701,702,0,0,0,
+0,0,0,3456,7249,7250,0,0,3494,3495,3496,0,
+0,0,0,0,7262,7263,0,0,3526,3527,3528,0,
+0,2684361033,2684361001,2684360969,0,0,2889,2890,2891,2892,951,0,
+0,2684361034,2684361002,2684360970,0,0,2921,2922,2923,2924,0,0,
+0,2684361035,2684361003,2684360971,0,0,2953,2954,2955,2956,0,0,
+0,2684361036,2684361004,2684360972,0,0,0,0,0,0,0,0,
+0,0,0,0,0,5292,5293,0,0,0,0,0,
+0,0,0,0,0,5324,5325,0,2516,2517,2518,0,
+0,0,0,0,0,5356,5357,2684357000,2548,2549,2550,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="12" height="12">
+  <data encoding="csv">
+65,65,65,65,65,65,65,65,65,2551,2552,65,
+65,0,0,0,0,0,7464,0,0,2583,2584,65,
+65,0,0,0,0,0,0,0,0,0,0,65,
+65,0,0,0,0,0,731,732,0,0,0,65,
+65,0,0,0,7262,0,763,764,7470,0,0,65,
+65,0,0,0,0,6731,854,0,3340,691,0,65,
+65,7366,780,781,0,885,886,0,0,723,724,65,
+65,0,7340,0,0,917,918,0,0,755,756,65,
+65,0,0,780,781,7470,3340,0,0,0,0,65,
+65,7464,0,0,0,0,0,0,0,7464,0,65,
+65,2368,780,781,7314,0,0,0,0,0,2901,65,
+65,65,65,65,65,65,65,65,65,65,65,65
+</data>
+ </layer>
+ <layer id="11" name="Buildings2" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2523,0,0,0,0,0,
+0,0,0,0,0,0,2555,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,7560,0,0,0,0,0,0,0,
+0,0,0,0,7573,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,716,717,0,6715,0,0,0,0,0,0,
+0,7353,748,749,0,853,0,0,0,0,692,0,
+0,0,7327,716,717,0,0,0,0,0,0,0,
+0,0,0,748,749,0,0,0,0,0,0,0,
+0,0,716,717,0,0,0,0,0,0,2837,0,
+0,0,748,749,7301,0,0,0,0,0,2869,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="Front2" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,7464,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,7300,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,649,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,9,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,9,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,9,0,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,9,0,0,0,0,0,0,
+0,9,0,0,0,0,0,0,0,9,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,9,9,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>

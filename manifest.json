@@ -1,0 +1,25 @@
+{
+    "Name": "Dead Boy Detectives",
+    "Author": "handwrittenhello",
+    "Version": "1.0.0",
+    "Description": "An fanmade expansion based on Netflix's Dead Boy detectives.",
+    "UniqueID": "handwrittenhello.dbda",
+    "UpdateKeys": [ "Nexus:31888", "Github:nbeymer99/DeadBoyDetectives"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueId": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Spiderbuttons.BETAS",
+			"IsRequired": true
+		}
+		]
+}

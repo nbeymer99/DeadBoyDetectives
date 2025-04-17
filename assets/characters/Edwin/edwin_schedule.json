@@ -1,0 +1,72 @@
+{
+	"Changes": [
+	// conditional schedules
+		
+		// mines accessible
+		{
+        "LogName": "Edwin Schedule Conditionals",
+        "Action": "EditData",
+        "Target": "Characters/schedules/EdwinPayne",
+		"When": {
+			"HasFlag": "landslideDone"
+			},
+		"Entries": {
+			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"summer_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"winter_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"spring_Sat": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"summer_Sat": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"winter_Sat": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			}
+		},
+		
+		// normal schedules
+		{
+        "LogName": "Edwin Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/EdwinPayne",
+		"Entries": {
+			"rain": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.000\"/0900 ArchaeologyHouse 10 11 3/1330 {{ModId}}_TragicMicks 4 22 1/1700 Saloon 32 17 2 edwin_pose/2200 {{ModId}}_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.001\"",
+			
+			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 BusStop 19 14 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"spring_Wed": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 7 8 3 edwin_write/1100 Beach 15 23 1 edwin_magnifyright/1800 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"spring_Fri": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.000\"/0900 ArchaeologyHouse 10 11 3/1330 {{ModId}}_TragicMicks 4 22 1/1700 Saloon 32 17 2 edwin_pose \"Strings\\schedules\\EdwinPayne:Saloon.000\"/2200 {{ModId}}_DeadBoyAgency 4 6 2 edwin_reading1 \"Strings\\schedules\\EdwinPayne:Reading.001\"",
+			
+			"spring_Sat": "GOTO spring_Tue",
+			
+			"summer_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"summer_Wed": "GOTO spring_Wed",
+			
+			"summer_Fri": "GOTO spring_Fri",
+			
+			"summer_Sat": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"fall": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 11 9 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.000\"/0800 Town 48 87 2 edwin_spells \"Strings\\schedules\\EdwinPayne:Spells.000\"/1630 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2",
+		
+			"winter_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"winter_Wed": "GOTO spring_Wed",
+			
+			"winter_Fri": "GOTO spring_Fri",
+			
+			"winter_Sat": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"winter": "0610 {{ModId}}_DeadBoyAgency 4 6 2/a1230 ArchaeologyHouse 10 11 3 edwin_browseleft/a1600 {{ModId}}_Lighthouse 60 23 2 edwin_write/1930 {{ModId}}_DeadBoyAgency 4 6 2 edwin_reading1",
+			
+			"summer": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/a1200 Railroad 39 41 2 edwin_pose/1700 Mountain 66 14 1 edwin_write \"Strings\\schedules\\EdwinPayne:Writing.000\"/2300 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			
+			"spring": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 2 9 3 edwin_browseleft/0900 ArchaeologyHouse 10 11 3/1400 Town 15 13 2 edwin_swingset/2200 {{ModId}}_DeadBoyAgency 4 6 2 edwin_reading1",
+			
+			"Railroad_Replacement": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/a1200 Mountain 18 7 2 edwin_magnifyleft/1700 Mountain 66 14 1 edwin_write \"Strings\\schedules\\EdwinPayne:Writing.000\"/2300 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			}
+		}
+	]
+}

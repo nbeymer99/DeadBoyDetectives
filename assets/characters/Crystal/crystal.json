@@ -1,0 +1,225 @@
+{
+   "Changes": [
+		
+	{
+		"Action": "Load",
+		"Target": "Portraits/CrystalPalace",
+		"FromFile": "assets/characters/Crystal/crystal_portrait.png",
+	},	
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/CrystalPalace",
+		"FromFile": "assets/characters/Crystal/crystal_sprites.png",
+	},
+		
+	// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "CrystalPalace": {
+				
+				// Basic Info
+                "DisplayName": "Crystal",
+                "BirthSeason": "summer",
+                "BirthDay": 2,
+                "HomeRegion": "Town",
+                "Gender": "Female",
+                "Age": "Teen",
+                "Manner": "Neutral",
+                "SocialAnxiety": "Outgoing",
+                "Optimism": "Negative",
+				"IsDarkSkinned": true,
+				
+				// Relationships and Social
+                "CanBeRomanced": false, //to be patched with romance
+				"CanVisitIsland": false,
+				"CanCommentOnPurchasedShopItems": true,
+				"Calendar": "HiddenUntilMet",
+				
+				"FriendsAndFamily": {
+                    "EdwinPayne": "frenemy",
+					"CharlesRowland": "friend",
+					"NikoSasaki": "friend"
+                },
+					
+				"DumpsterDiveFriendshipEffect": 0,
+				"FlowerDanceCanDance": false,
+					
+				"WinterStarGifts": [
+					{
+						"Id": "{{ModId}}_CrystalTree",
+						"ItemId": "{{ModId}}_CrystalTree",
+						"MinStack": 1,
+						"MaxStack": 1
+					},
+					{
+						"Id": "Amethyst Ring",
+						"ItemId": "(O)529",
+						"MinStack": 1,
+						"MaxStack": 1
+					},
+					{
+						"Id": "Purple Slime Egg",
+						"ItemId": "(O)439",
+						"MinStack": 1,
+						"MaxStack": 1
+					}
+				],
+					
+				//Spawn Rules
+                "Home": [
+                    {
+						"Id": "Default",
+                        "Location": "{{ModId}}_CrystalAndNiko",
+                        "Tile": {
+							"X": 39,
+							"Y": 13
+                        },
+						"Direction": "left"
+                    }
+                ],
+				"Breather": "true",
+				//"KissSpriteIndex": 42
+            }
+        }
+    },
+	
+	// gift tastes
+	{
+		"LogName": "CrystalPalaceGiftTaste",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"CrystalPalace": "Wow, @, I don't even know what to say. Thank you!/62 348 342 651 611 253 395/Thanks. You didn't have to do this./206 635 595 94 118 /This is, uh... are you sure?/422 815 614 404 420 281 257/What the fuck, @?/346 148 149 205 251 414 124/Thanks, @./"
+		}
+	},
+	
+	// movie tastes
+	
+	{   "LogName": "Movie Theatre Crystal",
+		"Action": "EditData", 
+		"Target": "Data/MoviesReactions",	 
+		"Entries": {
+				"CrystalPalace": {
+			"NPCName": "Crystal",
+			"Reactions": [
+				{
+					"Tag": "horror",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You know, having dealt with literal demons before, I just don't find horror movies as scary as I used to.",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Crystal is holding your hand during the scary parts.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "That was awesome. Thanks for inviting me, @.$h"
+						}
+					},
+					"ID": "reaction_0"
+				},
+				
+				{
+					"Tag": "family",
+					"Response": "reject",
+					"Whitelist": [],
+					"ID": "reaction_1"
+				},
+				
+				{
+					"Tag": "*",
+					"Response": "like",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Have you seen this one yet?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Crystal seems captivated by the movie.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "That was fun! Thanks for inviting me, @.$h"
+						}
+					},
+					"ID": "reaction_2"
+				},
+			],
+			},
+		},
+	},
+	
+	// concessions tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/ConcessionsTastes",
+		"Entries": {
+			"Name": "CrystalPalace",
+			"LovedTags": [
+				"Ice Cream Sandwich",
+				"Popcorn",
+				"Sour Slimes"
+			],
+			"LikedTags": [
+				"Fatty",
+				"Hot"
+			],
+			"DislikedTags": [
+				"Drink",
+				"Healthy",
+				"Jasmine Tea",
+			],
+		}
+	},
+	
+	// include schedule
+	{
+		"LogName": "CrystalPalaceSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/Crystal/Crystal_schedule.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "CrystalPalaceAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/Crystal/Crystal_animations.json"
+	},
+	
+	// include Strings
+	{
+		"LogName": "CrystalPalaceStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/Crystal/Crystal_Strings.json"
+	},
+	
+	// include dialogue
+	{
+		"LogName": "CrystalPalaceDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/Crystal/Crystal_dialogue.json"
+	},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "CrystalPalaceMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Crystal/Crystal_marriageDialogue.json"
+	//},
+	]
+}

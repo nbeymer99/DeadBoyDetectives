@@ -1,0 +1,109 @@
+{
+    "Changes": [
+	//Portrait loads
+	{
+		"LogName": "Load shop portraits",
+		"Action": "Load",
+		"Target": "Portraits/TragicMick",
+		"FromFile": "assets/characters/zzminorCharacters/TragicMick.png",
+	},
+	
+	//shop data
+	{
+		"LogName": "Load shop portraits",
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Jenny",
+		"FromFile": "assets/characters/zzminorCharacters/Jenny.png",
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"TragicMicks": {
+				"Owners": [
+				{
+					"Name": "AnyOrNone",
+					"Id": "Tragic Mick",
+					"Portrait": "Portraits/TragicMick",
+					"Dialogues": [
+					{
+						"Id": "TragicMicks_Default",
+						"Dialogue": "Ayup, I might have what you need."
+					}
+					]
+				}
+				],
+			
+				"Items": [
+				{
+					"Id": "TragicMick_DecorativePot",
+					"ItemId": "(O)461"
+				},
+				{
+					"Id": "TragicMick_TreasureTrove",
+					"ItemId": "(O)275",
+					"Price": 1000
+				},
+				{
+					"Id": "TragicMick_VoidEgg",
+					"ItemId": "(O)305"
+				},
+				{
+					"Id": "TragicMick_GhostCrystal",
+					"ItemId": "(O)561"
+				},
+				{
+					"Id": "TragicMick_BeachWarp",
+					"ItemId": "(O)690"
+				},
+				{
+					"Id": "TragicMick_RabbitFoot",
+					"ItemId": "(O)446"
+				},
+				{
+					"Id": "TragicMick_MermaidPendant",
+					"ItemId": "(O)460"
+				},
+				{
+					"Id": "TragicMick_EverbloomSeed",
+					"ItemId": "{{ModId}}_EverbloomSeed",
+					"Price": 1500000
+				}
+				]
+			},
+			
+			"TongueAndTail": {
+				"Owners": [
+				{
+					"Name": "AnyOrNone",
+					"Id": "Jenny",
+					"Portrait": "Portraits/{{ModId}}_Jenny",
+					"Dialogues": [
+					{
+						"Id": "Jenny_Default",
+						"Dialogue": "What do you want? I don't have all day."
+					}
+					]
+				}
+				],
+			
+				"Items": [
+				{
+					"Id": "Steak",
+					"ItemId": "{{ModId}}_Steak"
+				},
+				{
+					"Id": "Pork",
+					"ItemId": "{{ModId}}_Pork"
+				},
+				{
+					"Id": "Chicken",
+					"ItemId": "{{ModId}}_Chicken"
+				},
+				]
+			}
+		}
+	}
+	]
+}

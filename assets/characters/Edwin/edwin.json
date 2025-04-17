@@ -1,0 +1,331 @@
+{
+   "Changes": [
+	{
+       	"LogName": "Edwin Base Portraits",
+       	"Action": "Load",
+       	"Target": "Portraits/EdwinPayne",
+       	"FromFile": "assets/characters/Edwin/edwin_portrait_greysuit.png",
+   	},	
+	{
+        "LogName": "Base Sprites",
+        "Action": "Load",
+        "Target": "Characters/EdwinPayne",
+        "FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png",
+   	},
+		
+		// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "EdwinPayne": {
+				// Basic Info	
+                    "DisplayName": "Edwin",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 2,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Teen",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"Breather": "true",
+					"KissSpriteIndex": 51,
+					
+					// Relationships and Social
+                    "CanBeRomanced": false, //to be patched with romance
+					"CanVisitIsland": false,
+					"CanCommentOnPurchasedShopItems": false,
+					"Calendar": "HiddenUntilMet",
+					
+					"FriendsAndFamily": {
+                        "Charles": "best friend",
+						"Crystal": "friend",
+						"Niko": "friend"
+                    },
+					
+					"DumpsterDiveFriendshipEffect": 0,
+					"FlowerDanceCanDance": true,
+					
+					"WinterStarGifts": [
+						{
+							"Id": "Rabbit's Foot",
+							"ItemId": "(O)446",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Id": "Tea Set",
+							"ItemId": "(O)341",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Id": "Warp Totem: Farm",
+							"ItemId": "(O)688",
+							"MinStack": 10,
+							"MaxStack": 20
+						}
+					],
+					
+					//Spawn Rules
+                    "Home": [
+                        {
+							"Id": "Default",
+                            "Location": "{{ModId}}_DeadBoyAgency",
+                            "Tile": {
+								"X": 4,
+								"Y": 6
+                            },
+							"Direction": "down"
+                        }
+                    ],
+				}
+			}
+		},
+				
+	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"TargetField": ["EdwinPayne", "Appearance"],
+		"Entries":
+		{
+			"EdwinPayne_OutfitGreySuit":
+			{
+				"Id": "EdwinPayne_OutfitGreySuit",
+				"Portrait": "Portraits/EdwinPayneGreySuit",
+				"Sprite": "Characters/EdwinPayneGreySuit",
+				"Indoors": true,
+				"Outdoors": false,
+				"IsIslandAttire": false,
+				"Condition": "TRUE",
+				"Precedence": 0,
+				"Weight": 1
+			},
+			
+			"EdwinPayne_OutfitBrownJacket":
+			{
+				"Id": "EdwinPayne_OutfitBrownJacket",
+				"Portrait": "Portraits/EdwinPayneBrownJacket",
+				"Sprite": "Characters/EdwinPayneBrownJacket",
+				"Indoors": false,
+				"Outdoors": true,
+				"IsIslandAttire": false,
+				"Condition": "TRUE",
+				"Precedence": 0,
+				"Weight": 1
+			},
+						
+			"EdwinPayne_OutfitWhiteShirt":
+			{
+				"Id": "EdwinPayne_OutfitWhiteShirt",
+				"Portrait": "Portraits/EdwinPayneWhiteShirt",
+				"Sprite": "Characters/EdwinPayneWhiteShirt",
+				"Indoors": true,
+				"Outdoors": true,
+				"IsIslandAttire": true,
+				"Condition": "TRUE",
+				"Precedence": 0,
+				"Weight": 1
+			},
+		},
+	},
+		
+	//loads - portraits
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/EdwinPayneGreySuit",
+		"FromFile": "assets/characters/Edwin/edwin_portrait_greysuit.png",
+	},
+		
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/EdwinPayneBrownJacket",
+		"FromFile": "assets/characters/Edwin/edwin_portrait_brownjacket.png",
+	},
+		
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/EdwinPayneWhiteShirt",
+		"FromFile": "assets/characters/Edwin/edwin_portrait_whiteshirt.png",
+	},
+		
+	//loads - sprites
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/EdwinPayneGreySuit",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png",
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/EdwinPayneBrownJacket",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_brownjacket.png",
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/EdwinPayneWhiteShirt",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_whiteshirt.png",
+	},
+		
+	// gift tastes
+	{
+		"LogName": "EdwinPayneGiftTaste",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"EdwinPayne": "You... wish for me to have this? Are you certain? I find myself quite speechless... Thank you, @./60 446 338 561 94 104 119 125 PurpleBook SkillBook_0 SkillBook_1 SkillBook_2 SkillBook_3 SkillBook_4 Book_Trash Book_Crabbing Book_Bombs Book_Roe Book_WildSeeds Book_Woodcutting Book_Defense Book_Friendship Book_Void Book_Speed Book_Marlon Book_PriceCatalogue Book_QueenOfSauce Book_Diamonds Book_Mystery Book_AnimalCatalogue Book_Speed2 Book_Artifact Book_Horse Book_Grass/Excellent find, @. Thank you very much./-80 -28 394 96 97 98 99 261 579 580 581 582 583 584 585 586 587 588 589/Ah. Very well, @, if you insist.../22 -26/I don't appreciate this, @./-79 -75 -7 -6 -5 -17 126 127 103 -4 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873/Thank you./-4 428 170/"
+		}
+	},
+	
+	// movie tastes (from here: https://stardewmodding.wiki.gg/wiki/Tutorial:_Making_a_Custom_NPC#Movie_Concessions_and_Reactions)
+	
+	{   "LogName": "Movie Theatre Edwin",
+		"Action": "EditData", 
+		"Target": "Data/MoviesReactions",	 
+		"Entries": {
+				"EdwinPayne": {
+			"NPCName": "Edwin",
+			"Reactions": [
+				{
+					"Tag": "classic",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "It's been some time since I've seen this one.",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Edwin is leaning forward in his chair, rapt.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Even better than I remembered.$h Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_0"
+				},
+				
+				{
+					"Tag": "comedy",
+					"Response": "dislike",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "I'm not usually one for comedy, but perhaps this one will be more enjoyable with you by my side.",
+						},
+						"DuringMovie": null,
+							"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "I must say, I found the humor somewhat derivative. I simply do not understand why the audience was so enraptured. Still, I appreciate the invitation, @."
+						}
+					},
+					"ID": "reaction_1"
+				},
+				
+				{
+					"Tag": "horror",
+					"Response": "like",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Charles usually enjoys the horror genre more than I, but this one promises to be interesting.",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Edwin doesn't appear to be scared at all.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Quite enjoyable overall, though I do think it could have benefited from the addition of a little mystery.$u What do you think?"
+						}
+					},
+					"ID": "reaction_2"
+				},
+			],
+			},
+		},
+	},
+		
+	// include schedules
+	{
+		"LogName": "EdwinPayneSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/Edwin/edwin_schedule.json"
+	},
+	
+	// include Strings
+	{
+		"LogName": "EdwinPayneStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/Edwin/edwin_Strings.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "EdwinPayneAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/Edwin/edwin_animations.json"
+	},
+	
+	// modify animations (SpaceCore)
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+		"Entries":
+		{
+		"edwin_spells": { 
+			"SourceRectSize": "32, 32", 
+            /* One thing to note about SourceRectSize is it changes how your sprites are indexed. 
+            If you take a look at the clint_hammer animation, it lists sprite indices 8 and 9,
+            But the animation starts at the normal index of 16. That's because when you change the
+            sprite size, it changes how sprites are indexed. You need to count by the new sprite size,
+            not the original one. So if you count by each 32x32 area in Clint's sprite, it comes out to
+            indices 8 and 9. */
+			"DrawOffset": "0, 0", 
+			"AppearanceOverride": null, 
+			"OnStart": { "Emote": null, "PlaySound": "fireball" }, 
+			"OnEnd": { "Emote": null, "PlaySound": null },
+			"OnFrame": { // Do something on a particular frame of the animation. Remember, animations loop! These are based on what you have in Data/animationDescriptions
+            1: { "Emote": null, "PlaySound": "fireball" },
+				}
+			}
+		}
+    },
+	
+	// include dialogue
+	{
+		"LogName": "EdwinPayneDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/Edwin/edwin_dialogue.json"
+	},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "EdwinPayneMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Edwin/edwin_marriageDialogue.json"
+	//},
+	]
+}

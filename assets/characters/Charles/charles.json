@@ -1,0 +1,315 @@
+{
+   "Changes": [
+		
+	{
+    "LogName": "Charles Base Portraits",
+    "Action": "Load",
+    "Target": "Portraits/CharlesRowland",
+    "FromFile": "assets/characters/Charles/charles_portraits_polo.png",
+	},	
+	
+	{
+    "LogName": "Base Portraits",
+    "Action": "Load",
+    "Target": "Characters/CharlesRowland",
+    "FromFile": "assets/characters/Charles/charles_sprites_polo.png",
+	},
+		
+	// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "CharlesRowland": {
+				// Basic Info
+		
+                "DisplayName": "Charles",
+                "BirthSeason": "spring",
+                "BirthDay": 25,
+                "HomeRegion": "Town",
+                "Gender": "Male",
+                "Age": "Teen",
+                "Manner": "Neutral",
+                "SocialAnxiety": "Outgoing",
+                "Optimism": "Positive",
+				"IsDarkSkinned": true,
+				
+				// Relationships and Social
+                "CanBeRomanced": false, //to be patched with romance
+				"CanVisitIsland": false,
+				"CanCommentOnPurchasedShopItems": false,
+				"Calendar": "HiddenUntilMet",
+				
+				"FriendsAndFamily": {
+                    "Edwin": "best mate",
+					"Crystal": "friend",
+					"Niko": "friend"
+                },
+					
+				"DumpsterDiveFriendshipEffect": 0,
+				"FlowerDanceCanDance": true,
+					
+				"WinterStarGifts": [
+					{
+						"Id": "Elvish Jewelry",
+						"ItemId": "(O)104",
+						"MinStack": 1,
+						"MaxStack": 1
+					},
+					{
+						"Id": "Mega Bombs",
+						"ItemId": "(O)288",
+						"MinStack": 1,
+						"MaxStack": 20
+					},
+					{
+						"Id": "Red Slime Egg",
+						"ItemId": "(O)437",
+						"MinStack": 1,
+						"MaxStack": 1
+					}
+				],
+					
+				//Spawn Rules
+                "Home": [
+                    {
+						"Id": "Default",
+                        "Location": "{{ModId}}_DeadBoyAgency",
+                        "Tile": {
+							"X": 10,
+							"Y": 7
+                        },
+						"Direction": "left"
+                    }
+                ],
+				"Breather": "true",
+				"KissSpriteIndex": 42
+            }
+        }
+    },
+		
+	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"TargetField": ["CharlesRowland", "Appearance"],
+		"Entries":
+		{
+			"CharlesRowland_OutfitPolo":
+			{
+				"Id": "CharlesRowland_OutfitPolo",
+				"Portrait": "Portraits/CharlesRowlandPolo",
+				"Sprite": "Characters/CharlesRowlandPolo",
+				"Indoors": true,
+				"Outdoors": false,
+				"IsIslandAttire": false,
+				"Condition": "TRUE",
+				"Precedence": 0,
+				"Weight": 1
+			},
+		
+			"CharlesRowland_OutfitBlackJacket":
+			{
+				"Id": "CharlesRowland_OutfitBlackJacket",
+				"Portrait": "Portraits/CharlesRowlandBlackJacket",
+				"Sprite": "Characters/CharlesRowlandBlackJacket",
+				"Indoors": false,
+				"Outdoors": true,
+				"IsIslandAttire": false,
+				"Condition": "TRUE",
+				"Precedence": 0,
+				"Weight": 1
+			},
+						
+			"CharlesRowland_OutfitVest":
+			{
+				"Id": "CharlesPayne_OutfitVest",
+				"Portrait": "Portraits/CharlesRowlandVest",
+				"Sprite": "Characters/CharlesRowlandVest",
+				"Indoors": true,
+				"Outdoors": true,
+				"IsIslandAttire": true,
+				"Condition": "TRUE",
+				"Precedence": 0,
+				"Weight": 1
+			},
+		},
+	},
+		
+	//loads - portraits
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CharlesRowlandPolo",
+		"FromFile": "assets/characters/Charles/Charles_portraits_polo.png",
+	},
+		
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CharlesRowlandBlackJacket",
+		"FromFile": "assets/characters/Charles/Charles_portraits_blackjacket.png",
+	},
+		
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CharlesRowlandVest",
+		"FromFile": "assets/characters/Charles/Charles_portraits_vest.png",
+	},
+		
+	//loads - sprites
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CharlesRowlandPolo",
+		"FromFile": "assets/characters/Charles/Charles_sprites_polo.png",
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CharlesRowlandBlackJacket",
+		"FromFile": "assets/characters/Charles/Charles_sprites_blackjacket.png",
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CharlesRowlandVest",
+		"FromFile": "assets/characters/Charles/Charles_sprites_vest.png",
+	},
+	
+	// gift tastes
+	
+	//loves: ruby 64, battery pack 787, ghost crystal 561, rabbit's foot 446, fire quartz 82, ancient sword 109, -8 crafting, -28 monster loot
+	
+	//likes: all rings 516-534, precious stones -2, golden relic 125, golden mask 124, nautilus shell 392, flowers -80, minerals -12
+	
+	//dislikes: wheat flour 246, garlic 248, artisan goods -26, , caviar 445, aged roe 447, mead 459, green tea 614, 
+	
+	//hates: trash -20, ancient doll 103, strange doll 126 127, eggs -5, milk -6, recipes -7, crops -75, fruit -79
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"CharlesRowland": "Oh, this is brills! Thanks, @!/64 787 561 446 82 109 275 -8 -28 Book_Mystery Book_Bombs/Another item for the agency? Aces!428 /516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 -2 125 124 392 -80 -12/Oh... I guess we could find a use for this at the agency.../246 248 -26 -27 -4/Is this some sort of joke? It's not funny, mate./-20 103 126 127 -5 -6 -7 -75 -79 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873/Cheers, mate.//"
+		}
+	},
+	
+	// movie tastes
+	
+	{   "LogName": "Movie Theatre Charles",
+		"Action": "EditData", 
+		"Target": "Data/MoviesReactions",	 
+		"Entries": {
+				"CharlesRowland": {
+			"NPCName": "Charles",
+			"Reactions": [
+				{
+					"Tag": "horror",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You reckon Edwin would like this one?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Charles seems to be enjoying the special effects.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "It's been ages since I had a proper scare like that!$h Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_0"
+				},
+				
+				{
+					"Tag": "*",
+					"Response": "like",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You reckon Edwin would like this one?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Charles seems to be enjoying the special effects.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "That was brills! Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_1"
+				},
+			],
+			},
+		},
+	},
+	
+	// include schedule
+	{
+		"LogName": "CharlesRowlandSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/Charles/charles_schedule.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "CharlesRowlandAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/Charles/charles_animations.json"
+	},
+	
+	// include Strings
+	{
+		"LogName": "CharlesRowlandStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/Charles/charles_Strings.json"
+	},
+	
+	// modify animations (SpaceCore)
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+		"Entries":
+		{
+		"charles_batswing": { 
+			"SourceRectSize": "32, 32", 
+			"DrawOffset": "16, 0", 
+			"AppearanceOverride": null, 
+			"OnStart": { "Emote": null, "PlaySound": "clubhit" }, 
+			"OnEnd": { "Emote": null, "PlaySound": null },
+			"OnFrame": { 
+            8: { "Emote": null, "PlaySound": "clubhit" },
+				}
+			}
+		},
+	},
+	
+	// include dialogue
+	{
+		"LogName": "CharlesRowlandDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/Charles/charles_dialogue.json"
+	},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "CharlesRowlandMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Charles/charles_marriageDialogue.json"
+	//},
+	]
+}

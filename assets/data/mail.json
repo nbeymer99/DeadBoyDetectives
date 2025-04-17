@@ -1,0 +1,23 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Mail",
+		"Entries": {
+			"{{ModId}}_EdwinProtectionSpellInvite": "Dear @,^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^Your friend,^    -Edwin[#]Edwin's Invitation",
+			
+			"{{ModId}}_CharlesAmuletInvite": "Hey @,^You've been such a good friend lately, and I want to repay the favor.^Meet me at the agency--I've got a surprise I think you'll like. :)^    -Charles[#]Charles' Gift",
+			
+			"{{ModId}}_GiveEverbloomQuest": "@,^I found this old seed we got as payment probably thirty years ago. The bloke who gave it to us said the blossom might make for a good spell ingredient.^^You've got way more of a green thumb than me, so I was wondering if you would try and grow one? I'd like to surprise Edwin with it.^^Thanks, mate!%item id {{ModId}}_EverbloomSeed %% %item quest {{ModId}}_EverbloomQuest true %% [#]The Everbloom",
+			
+			"{{ModId}}_CatchAngie": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy[#]Sea Monsters",
+			
+			"{{ModId}}_SeanceInvitation": "Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.[#]The Seance",
+			
+			"{{ModId}}_SeanceIngredientsComplete": "You brought the required ingredients for the improved seance to the Dead Boy Detectives.[#]Spell Ingredients",
+			
+			"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
+		}
+	}
+	]
+}

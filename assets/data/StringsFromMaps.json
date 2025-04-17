@@ -1,0 +1,15 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+			"{{ModId}}_TNTConstruction": "Under construction.^^If you have a problem, blame the fucking witch that blew up my shop.^^-Jenny",
+			
+			"{{ModID}}_TNTPrices": "PRICES^^Beef...$6/lb^Chicken...$4/lb^Pork...$5/lb^^NO REFUNDS",
+			
+			"{{ModId}}_LighthouseSign": "Beach >\n Lighthouse @",
+		}
+	},
+	]
+}

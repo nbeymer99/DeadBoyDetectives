@@ -1,0 +1,212 @@
+{
+   "Changes": [
+		
+	{
+		"Action": "Load",
+		"Target": "Portraits/JennyButcher",
+		"FromFile": "assets/characters/zzminorCharacters/Jenny.png",
+	},	
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/JennyButcher",
+		"FromFile": "assets/characters/zzminorCharacters/jenny_sprites.png",
+	},
+		
+	// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "JennyButcher": {
+				
+				// Basic Info
+                "DisplayName": "Jenny",
+                "BirthSeason": "fall",
+                "BirthDay": 28,
+                "HomeRegion": "Town",
+                "Gender": "Female",
+                "Age": "Adult",
+                "Manner": "Rude",
+                "SocialAnxiety": "Neutral",
+                "Optimism": "Negative",
+				"IsDarkSkinned": false,
+				
+				// Relationships and Social
+                "CanBeRomanced": false,
+				"CanVisitIsland": false,
+				"CanCommentOnPurchasedShopItems": true,
+				"Calendar": "HiddenUntilMet",
+				
+				"FriendsAndFamily": {
+                    "EdwinPayne": "weird ghost kid",
+					"CharlesRowland": "weird ghost kid",
+					"NikoSasaki": "tenant",
+					"CrystalPalace": "tenant"
+                },
+					
+				"DumpsterDiveFriendshipEffect": -10,
+				"FlowerDanceCanDance": false,
+					
+				"WinterStarGifts": [
+					{
+						"Id": "Amethyst Ring",
+						"ItemId": "(O)529",
+						"MinStack": 1,
+						"MaxStack": 1
+					},
+					{
+						"Id": "Purple Slime Egg",
+						"ItemId": "(O)439",
+						"MinStack": 1,
+						"MaxStack": 1
+					}
+				],
+					
+				//Spawn Rules
+                "Home": [
+                    {
+						"Id": "Default",
+                        "Location": "{{ModId}}_CrystalAndNiko",
+                        "Tile": {
+							"X": 39,
+							"Y": 13
+                        },
+						"Direction": "left"
+                    }
+                ],
+				"Breather": "true",
+				//"KissSpriteIndex": 42
+            }
+        }
+    },
+	
+	// gift tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"JennyButcher": "Wow, @, I don't even know what to say. Thank you!/62 348 342 651 611 253 395/Thanks. You didn't have to do this./206 635 595 94 118 /This is, uh... are you sure?/422 815 614 404 420 281 257/What the fuck, @?/346 148 149 205 251 414 124/Thanks, @./"
+		}
+	},
+	
+	// movie tastes
+	
+	{
+		"Action": "EditData", 
+		"Target": "Data/MoviesReactions",	 
+		"Entries": {
+				"JennyButcher": {
+			"NPCName": "Jenny",
+			"Reactions": [
+				{
+					"Tag": "horror",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You reckon Edwin would like this one?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Jenny seems to be enjoying the special effects.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "It's been ages since I had a proper scare like that!$h Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_0"
+				},
+				
+				{
+					"Tag": "*",
+					"Response": "like",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "You reckon Edwin would like this one?",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Jenny seems to be enjoying the special effects.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "That was brills! Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_1"
+				},
+			],
+			},
+		},
+	},
+	
+	// concessions tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/ConcessionsTastes",
+		"Entries": {
+			"Name": "JennyButcher",
+			"LovedTags": [
+				"Ice Cream Sandwich",
+				"Popcorn",
+				"Sour Slimes"
+			],
+			"LikedTags": [
+				"Fatty",
+				"Hot"
+			],
+			"DislikedTags": [
+				"Drink",
+				"Healthy",
+				"Jasmine Tea",
+			],
+		}
+	},
+	
+	// include schedule
+	{
+		"LogName": "JennyButcherSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/Charles/charles_schedule.json"
+	},
+	
+	// include animations
+	//{
+	//	"LogName": "JennyButcherAnimations",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Jenny/Jenny_animations.json"
+	//},
+	
+	// include Strings
+	//{
+	//	"LogName": "JennyButcherStrings",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Jenny/Jenny_Strings.json"
+	//},
+	
+	// include dialogue
+	//{
+	//	"LogName": "JennyButcherDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Jenny/Jenny_dialogue.json"
+	//},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "JennyButcherMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Jenny/Jenny_marriageDialogue.json"
+	//},
+	]
+}

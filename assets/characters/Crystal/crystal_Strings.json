@@ -1,0 +1,21 @@
+{
+    "Changes": [
+	{
+		
+		"Action": "EditData",
+		"Target": "Strings/schedules/CharlesRowland",
+		"Entries": 
+        {
+            "Graveyard.000": "Hey, @. Fall is a busy season for us ghosts. Is something up?",
+			"Soccer.000": "...twenty-nine, thirty, thirty-one...",
+			"Music.000": "%Charles' music is too loud to hear you.",
+			"Bag.000": "%Charles is busy sorting through his bag. Better not distract him.",
+			"Reading.000": "Hey, @. Here to help with research?",
+			"Batswing.000": "I like to practice in case we ever run into any monsters. 'S why I'm the brawn, innit?",
+			"Waterside.000": "%Charles looks lost in thought and doesn't see you.",
+			"Saloon.000": "Betcha you can't beat my high score. I've been playing since before you were born.",
+			"Painting.000": "These runes can be a bit tricky if you don't know what you're doing. Edwin usually lets me handle them."
+		}
+	}
+	]
+}

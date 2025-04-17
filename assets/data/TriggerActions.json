@@ -1,0 +1,196 @@
+{
+	"Changes": [
+		// replace buffs tilesheet
+		{
+		"LogName": "BuffSheet",
+		"Action": "Load",
+		"Target": "Tilesheets/BuffsIcons",
+		"FromFile": "assets/data/BuffsIcons.png"
+		},
+		
+		//add buffs
+		{
+		"LogName": "AddBuffs",
+		"Action": "EditData",
+		"Target": "Data/Buffs",
+		"Entries": {
+			"edwin_defense": {
+				"DisplayName": "Spell of Protection",
+				"Description": "Edwin's way of keeping you safe.",
+				"IsDebuff": false,
+				"GlowColor": null,
+				"Duration": -2,
+				"MaxDuration": -1,
+				"IconTexture": "TileSheets\\BuffsIcons",
+				"IconSpriteIndex": 42,
+				"Effects": {
+					"CombatLevel": 0,
+					"FarmingLevel": 0,
+					"FishingLevel": 0,
+					"MiningLevel": 0,
+					"LuckLevel": 1,
+					"ForagingLevel": 0,
+					"MaxStamina": 0,
+					"MagneticRadius": 0,
+					"Speed": 0,
+					"Defense": 3,
+					"Attack": 0,
+					"AttackMultiplier": 0,
+					"Immunity": 0,
+					"KnockbackMultiplier": 0,
+					"WeaponSpeedMultiplier": 0,
+					"CriticalChanceMultiplier": 0,
+					"CriticalPowerMultiplier": 0,
+					"WeaponPrecisionMultiplier": 0
+				},
+				"ActionsOnApply": null,
+				"CustomFields": null
+			},
+			
+			"charles_attack": {
+				"DisplayName": "Charles' Gift",
+				"Description": "Charles' enchanted amulet gives you a bonus to your attacks.",
+				"IsDebuff": false,
+				"GlowColor": null,
+				"Duration": -2,
+				"MaxDuration": -1,
+				"IconTexture": "TileSheets\\BuffsIcons",
+				"IconSpriteIndex": 43,
+				"Effects": {
+					"CombatLevel": 0,
+					"FarmingLevel": 0,
+					"FishingLevel": 0,
+					"MiningLevel": 0,
+					"LuckLevel": 0,
+					"ForagingLevel": 0,
+					"MaxStamina": 0,
+					"MagneticRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 3,
+					"AttackMultiplier": 1.5,
+					"Immunity": 0,
+					"KnockbackMultiplier": 0,
+					"WeaponSpeedMultiplier": 1.5,
+					"CriticalChanceMultiplier": 0,
+					"CriticalPowerMultiplier": 0,
+					"WeaponPrecisionMultiplier": 0
+					},
+				"ActionsOnApply": null,
+				"CustomFields": null
+				},
+			}
+		},
+		
+		//send mail - angie quest
+		{
+		"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}AngieQuestMail": {
+					"Id": "{{ModId}}_AngieQuestMail",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_BASE_FISHING_LEVEL Current 7",
+					"Actions": [
+						"AddMail Current {{ModId}}_CatchAngie now",
+					]
+				}
+			}
+		},
+		
+		// send mail - edwin 10 hearts
+		{
+		"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}Edwin10hearts": {
+					"Id": "{{ModId}}_EdwinHearts10",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 2500",
+					"Actions": [
+						"AddMail Current {{ModId}}_EdwinProtectionSpellInvite now",
+					]
+				}
+			}
+		},
+		// send mail - charles 10 hearts
+		{
+		"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}Charles10hearts": {
+					"Id": "{{ModId}}_CharlesHearts10",
+					"Trigger": "DayStarted",
+					"Condition": "PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 2500",
+					"Actions": [
+						"AddMail Current {{ModId}}_CharlesAmuletInvite now",
+					]
+				}
+			}
+		},
+		
+		// check mail flag - edwin 10 hearts buff
+		{
+		"LogName": "ApplyEdwinBuff",
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"EdwinPayne_10": {
+				"Id": "{{ModId}}_EdwinProtectionSpell",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_edwinhearts10",
+				"HostOnly": false,
+				"MarkActionApplied": false,
+				"Actions": [
+					"AddBuff edwin_defense"
+					]
+				}
+			}
+		},
+		
+		// check mail flag - charles 10 hearts buff
+		{
+		"LogName": "ApplyCharlesBuff",
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"CharlesRowland_10": {
+				"Id": "CharlesRowland_10",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_charleshearts10",
+				"HostOnly": false,
+				"MarkActionApplied": false,
+				"Actions": [
+					"AddBuff charles_attack"
+					]
+				}
+			}
+		},
+		
+		{
+		"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				// give everbloom quest
+				"{{ModId}}_EverbloomQuest": {
+					"Id": "{{ModId}}_EverbloomQuest",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_FARMING_LEVEL Current 5",
+					"Actions": [
+						"AddMail Current {{ModId}}_GiveEverbloomQuest tomorrow"
+					]
+				},
+				
+				// elevator ding
+				"{{ModId}}_CCElevator": {
+					"Id": "CCElevator",
+					"Trigger": "Manual",
+					"Actions": [
+						"spacechase0.SpaceCore_PlaySound crystal true",
+						"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_DeadBoyAgency 6 18 0"
+						]
+				}
+			}
+		},
+	]
+}

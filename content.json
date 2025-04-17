@@ -1,0 +1,147 @@
+{
+"Format": "2.6.1",
+    "Changes": [
+		
+		// Blank Loads
+		{
+   		 "LogName": "Blank JSON load", 
+        	"Action": "Load",
+        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki",
+        	"FromFile": "assets/blank.json"
+		},
+
+		//Characters
+		{
+			"Action": "Include",
+			"FromFile": "assets/characters/Charles/charles.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/characters/Edwin/edwin.json"
+		},
+		//{
+		//	"Action": "Include",
+		//	"FromFile": "assets/characters/Crystal/crystal.json"
+		//},
+		//{
+		//	"Action": "Include",
+		//	"FromFile": "assets/characters/Niko/niko.json"
+		//},
+		//{
+		//	"Action": "Include",
+		//	"FromFile": "assets/characters/zzminorCharacters/jenny.json"
+		//},
+		
+		// Events
+		{
+			"Action": "Include",
+			"FromFile": "assets/Data/Events.json"
+		},
+		
+		// Festivals
+		{
+			"Action": "Include",
+			"FromFile": "assets/data/Festivals.json"
+		},
+		
+		// Fish
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Entries": {
+				"{{ModId}}_Angie": "Angie/90/mixed/60/240/1800 2600/winter/both/690 .4 685 .1/4/.1/.5/6/0"
+			}
+		},
+		
+		// Fixes
+		
+			//prevent vincent collision with tongue and tail
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Vincent",
+			"Entries": {
+				"spring": "900 SamHouse 4 8 0/1100 SamHouse 2 15 2 vincent_play/1400 Town 19 75 2 square_5_3/1700 SamHouse 5 7 3/1900 SamHouse 11 22 2 vincent_play/2000 SamHouse 8 22 3 vincent_sleep"
+			}
+		},
+		
+		// Garbage Cans
+		{
+			"Action": "EditData",
+			"Target": "Data/GarbageCans",
+			"TargetField": [ "GarbageCans" ],
+			"Entries": {
+				"{{ModID}}_TNT": {
+					"Items": [],
+				},
+			}
+		},
+		
+		//Items
+		{
+			"LogName": "Items Include",
+			"Action": "Include",
+			"FromFile": "assets/data/items.json"
+		},
+		
+		// Mail
+		{
+			"Action": "Include",
+			"FromFile": "assets/data/mail.json"
+		},
+		
+		// Maps and Locations
+		{
+			"Action": "Include",
+			"FromFile": "assets/maps/mapImplementation.json"
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/mapObjects",
+			"FromFile": "assets/maps/mapObjects.png",
+		},
+		//Warp 14 29 handwrittenhello.dbda_TongueAndTail
+		//Warp 13 29 handwrittenhello.dbda_TongueAndTail
+		 
+		// Quests
+		{
+			"Action": "Include",
+			"FromFile": "assets/data/Quests.json"
+		},
+		
+		// Shops
+		{
+			"Action": "Include",
+			"FromFile": "assets/data/Shops.json"
+		},
+		
+		// Strings
+		{
+			"Action": "Include",
+			"FromFile": "assets/data/StringsFromMaps.json"
+		},
+		
+		// Trigger Actions
+		{
+			"Action": "Include",
+			"FromFile": "assets/data/TriggerActions.json"
+		}
+    ],
+	
+	// Dynamic Tokens
+	"DynamicTokens": [
+	{
+		"Name": "FestivalYear",
+			"Value": "", 
+	},
+		
+	{
+		"Name": "FestivalYear",
+		"Value": "_y2", 
+		"When":
+		{
+		"Query: {{Year}} % 2 = 0": true,
+		}
+	},
+	]
+}

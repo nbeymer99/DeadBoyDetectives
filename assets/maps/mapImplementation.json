@@ -1,0 +1,387 @@
+{
+    "Changes": [
+		// CREATE LOCATIONS
+		{
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_DeadBoyAgency": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_DeadBoyAgency"
+                    }
+                },
+				
+                "{{ModId}}_TragicMicks": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TragicMicks"
+                    }
+                },
+				
+				"{{ModId}}_Lighthouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_Lighthouse"
+					}
+				},
+				
+				"{{ModId}}_DeadBoyAgencyCauldron": {
+                    "CreateOnLoad": { 
+                        "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
+                    }
+                },
+				
+				"{{ModId}}_Backpack": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Backpack"
+                    }
+                },
+				
+				"{{ModId}}_TongueAndTail": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_TNTInterior"
+                    }
+                },
+				
+				"{{ModId}}_CrystalAndNiko": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_CrystalAndNiko"
+                    }
+                },
+
+				"{{ModId}}_Roof": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Roof"
+                    }
+                },
+				
+				"{{ModId}}_SeanceMap": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_SeanceMap"
+                    }
+                }
+			}
+		},
+		
+		// LOADS
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_DeadBoyAgency",
+            "FromFile": "assets/maps/DeadBoyAgency.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_Lighthouse",
+            "FromFile": "assets/maps/Lighthouse.tmx"
+        },
+		
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_DeadBoyAgencyCauldron",
+            "FromFile": "assets/maps/DeadBoyAgencyCauldron.tmx"
+        },
+		
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_TragicMicks",
+            "FromFile": "assets/maps/TragicMicks.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_Backpack",
+            "FromFile": "assets/maps/Backpack.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_Roof",
+            "FromFile": "assets/maps/Roof.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_TNTInterior",
+            "FromFile": "assets/maps/TNTInterior.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_CrystalAndNiko",
+            "FromFile": "assets/maps/CrystalAndNiko.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_SeanceMap",
+            "FromFile": "assets/maps/Seance.tmx"
+        },
+		
+		// MAP PATCHES
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Ruins",
+			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
+			"FromArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 },
+			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Refurbished",
+			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
+			"FromArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 },
+			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Joja",
+			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
+			"FromArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 },
+			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach",
+			"FromFile": "assets/maps/Beach_DBDA.tmx",
+			"FromArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 },
+			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 }			
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/maps/TongueAndTail.tmx",
+			"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+			"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"FromFile": "assets/maps/Town_Swing.tmx",
+			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
+			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
+		},
+		
+		// MAP EDITS
+			// Elevator NPC warp
+		{
+			"Action":"EditMap",
+			"Target":"Maps/CommunityCenter_Refurb",
+			"AddNPCWarps": [
+				"50 18 {{ModId}}_DeadBoyAgency 6 18"
+				],
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/CommunityCenter_Ruins",
+			"AddNPCWarps": [
+				"50 18 {{ModId}}_DeadBoyAgency 6 18"
+				],
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/CommunityCenter_Joja",
+			"AddNPCWarps": [
+				"50 18 {{ModId}}_DeadBoyAgency 6 18"
+				],
+		},
+			//beach NPC warp
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Beach",
+			"MapProperties":{
+			"NPCWarp": "0 6 {{ModId}}_Lighthouse 103 8"
+			}
+		},
+			// beach warps
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach",
+			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10"],
+		},
+		
+		// from https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_a_New_Fish
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"LogName": "Add Angie",
+			"TargetField": [
+				"{{ModId}}_Lighthouse",
+				"Fish"
+			],
+			"Entries": {
+				"{{ModId}}_Angie": {
+					"ID": "Angie",
+					"ItemId": "{{ModId}}_Angie",
+					"Chance": 0.5,
+					"Season": "Winter",
+					"MinFishingLevel": 6,
+					"ApplyDailyLuck": true,
+					"CuriosityLureBuff": 2,
+					"CatchLimit": 1,
+					"CanUseTrainingRod": false,
+					"IsBossFish": true
+				}
+			}
+		},
+		
+		// SVE compat
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Lighthouse",
+			"FromFile": "assets/maps/Lighthouse_SVE.tmx",
+			"FromArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
+			"ToArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_BlueMoonVineyard",
+			"AddWarps": [
+				"56 61 {{ModId}}_Lighthouse 32 1",
+				"56 62 {{ModId}}_Lighthouse 32 1",
+				"56 63 {{ModId}}_Lighthouse 32 1",
+				"56 64 {{ModId}}_Lighthouse 32 1"
+			],
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Lighthouse",
+			"AddWarps": [
+				"32 0 Custom_BlueMoonVineyard 55 63"
+			],
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			}
+		},
+		
+		// EDIT TOWN MAP
+		//
+			// day/night tiles and lighting
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "NightTiles"],
+				"Value": "AlwaysFront 18 70 11 AlwaysFront 19 70 12 AlwaysFront 18 71 24 AlwaysFront 19 71 25 AlwaysFront 18 72 37 AlwaysFront 19 72 38",
+				"Delimiter": " "
+			},
+			
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "DayTiles"],
+				"Value": "AlwaysFront 18 70 50 AlwaysFront 19 70 51 AlwaysFront 18 71 63 AlwaysFront 19 71 64 AlwaysFront 18 72 76 AlwaysFront 19 72 77",
+				"Delimiter": " "
+			},
+			
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+				"Value": "18 70 4 1 50 255 255 19 70 4 1 50 255 255 18 71 4 1 50 255 255 19 71 4 1 50 255 255 19 72 4 1 50 255 255",
+				"Delimiter": " "
+			},
+			]
+		},
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town-Halloween",
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+				"Value": "17 70 4 1 50 255 255 18 70 4 1 50 255 255 17 71 4 1 50 255 255 18 71 4 1 50 255 255 18 72 4 1 50 255 255",
+				"Delimiter": " "
+			},
+			]
+		},
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town-Halloween2",
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+				"Value": "17 74 4 1 50 255 255 18 74 4 1 50 255 255 17 75 4 1 50 255 255 18 75 4 1 50 255 255 18 74 4 1 50 255 255",
+				"Delimiter": " "
+			},
+			]
+		},
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Roof",
+			"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "NightTiles"],
+				"Value": "AlwaysFront 18 70 11 AlwaysFront 19 70 12 AlwaysFront 18 71 24 AlwaysFront 19 71 25 AlwaysFront 18 72 37 AlwaysFront 19 72 38",
+				"Delimiter": " "
+			},
+			
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "DayTiles"],
+				"Value": "AlwaysFront 18 70 50 AlwaysFront 19 70 51 AlwaysFront 18 71 63 AlwaysFront 19 71 64 AlwaysFront 18 72 76 AlwaysFront 19 72 77",
+				"Delimiter": " "
+			},
+			
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "Light"],
+				"Value": "13 63 4",
+				"Delimiter": " "
+			},
+			
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+				"Value": "18 70 4 1 50 255 255 19 70 4 1 50 255 255 18 71 4 1 50 255 255 19 71 4 1 50 255 255 19 72 4 1 50 255 255",
+				"Delimiter": " "
+			},
+			]
+		},
+		
+			// swing passable
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Passable": "T"
+                    }
+                },
+            ]
+        },
+		
+			// edit Agency map - rune circle passable
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_DeadBoyAgency",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 3,
+                        "Y": 17
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Passable": "T"
+                    }
+                },
+            ]
+        },
+	]
+}
+	
