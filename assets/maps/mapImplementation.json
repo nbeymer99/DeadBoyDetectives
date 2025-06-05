@@ -23,6 +23,12 @@
 					}
 				},
 				
+				"{{ModId}}_LighthouseScary": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_LighthouseScary"
+					}
+				},
+				
 				"{{ModId}}_DeadBoyAgencyCauldron": {
                     "CreateOnLoad": { 
                         "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
@@ -72,6 +78,12 @@
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Lighthouse",
             "FromFile": "assets/maps/Lighthouse.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_LighthouseScary",
+            "FromFile": "assets/maps/LighthouseScary.tmx"
         },
 		
         {

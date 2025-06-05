@@ -19,14 +19,14 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/Edwin/edwin.json"
 		},
-		//{
-		//	"Action": "Include",
-		//	"FromFile": "assets/characters/Crystal/crystal.json"
-		//},
-		//{
-		//	"Action": "Include",
-		//	"FromFile": "assets/characters/Niko/niko.json"
-		//},
+		{
+			"Action": "Include",
+			"FromFile": "assets/characters/Crystal/crystal.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/characters/Niko/niko.json"
+		},
 		//{
 		//	"Action": "Include",
 		//	"FromFile": "assets/characters/zzminorCharacters/jenny.json"

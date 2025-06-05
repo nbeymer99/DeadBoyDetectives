@@ -1,15 +1,15 @@
 {
 	"Changes": [
 		// replace buffs tilesheet
-		{
+	{
 		"LogName": "BuffSheet",
 		"Action": "Load",
 		"Target": "Tilesheets/BuffsIcons",
 		"FromFile": "assets/data/BuffsIcons.png"
-		},
+	},
 		
 		//add buffs
-		{
+	{
 		"LogName": "AddBuffs",
 		"Action": "EditData",
 		"Target": "Data/Buffs",
@@ -78,63 +78,42 @@
 					},
 				"ActionsOnApply": null,
 				"CustomFields": null
-				},
-			}
-		},
-		
-		//send mail - angie quest
-		{
-		"Action": "EditData",
-			"Target": "Data/TriggerActions",
-			"Entries": {
-				"{{ModId}}AngieQuestMail": {
-					"Id": "{{ModId}}_AngieQuestMail",
-					"Trigger": "DayStarted",
-					"Condition": "PLAYER_BASE_FISHING_LEVEL Current 7",
-					"Actions": [
-						"AddMail Current {{ModId}}_CatchAngie now",
-					]
-				}
-			}
-		},
-		
-		// send mail - edwin 10 hearts
-		{
-		"Action": "EditData",
-			"Target": "Data/TriggerActions",
-			"Entries": {
-				"{{ModId}}Edwin10hearts": {
-					"Id": "{{ModId}}_EdwinHearts10",
-					"Trigger": "DayStarted",
-					"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 2500",
-					"Actions": [
-						"AddMail Current {{ModId}}_EdwinProtectionSpellInvite now",
-					]
-				}
-			}
-		},
-		// send mail - charles 10 hearts
-		{
-		"Action": "EditData",
-			"Target": "Data/TriggerActions",
-			"Entries": {
-				"{{ModId}}Charles10hearts": {
-					"Id": "{{ModId}}_CharlesHearts10",
-					"Trigger": "DayStarted",
-					"Condition": "PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 2500",
-					"Actions": [
-						"AddMail Current {{ModId}}_CharlesAmuletInvite now",
-					]
-				}
-			}
-		},
-		
-		// check mail flag - edwin 10 hearts buff
-		{
-		"LogName": "ApplyEdwinBuff",
+			},
+		}
+	},
+	// TRIGGER ACTIONS
+	{
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
+			//send mail - angie quest
+			"{{ModId}}AngieQuestMail": {
+				"Id": "{{ModId}}_AngieQuestMail",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 7",
+				"Actions": [
+					"AddMail Current {{ModId}}_CatchAngie now",
+				]
+			},
+			// send edwin 10 heart event invite
+			"{{ModId}}Edwin10hearts": {
+				"Id": "{{ModId}}_EdwinHearts10",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 2500",
+				"Actions": [
+					"AddMail Current {{ModId}}_EdwinProtectionSpellInvite now",
+				]
+			},
+			// send charles 10 heart event invite
+			"{{ModId}}Charles10hearts": {
+				"Id": "{{ModId}}_CharlesHearts10",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 2500",
+				"Actions": [
+					"AddMail Current {{ModId}}_CharlesAmuletInvite now",
+				]
+			},
+			// add edwin's 10 heart buff
 			"EdwinPayne_10": {
 				"Id": "{{ModId}}_EdwinProtectionSpell",
 				"Trigger": "DayStarted",
@@ -143,17 +122,9 @@
 				"MarkActionApplied": false,
 				"Actions": [
 					"AddBuff edwin_defense"
-					]
-				}
-			}
-		},
-		
-		// check mail flag - charles 10 hearts buff
-		{
-		"LogName": "ApplyCharlesBuff",
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
+				]
+			},
+			//add charles' 10 heart buff
 			"CharlesRowland_10": {
 				"Id": "CharlesRowland_10",
 				"Trigger": "DayStarted",
@@ -162,35 +133,38 @@
 				"MarkActionApplied": false,
 				"Actions": [
 					"AddBuff charles_attack"
-					]
-				}
+				]
+			},
+			// gathering ingredients quests complete
+			"SeanceIngredients": {
+				"Id": "SeanceIngredients",
+				"Trigger": "LocationChanged",
+				"Condition": "(PLAYER_HAS_MAIL Host SeanceIngredients1), (PLAYER_HAS_MAIL Host SeanceIngredients2), (PLAYER_HAS_MAIL Host SeanceIngredients3)",
+				"HostOnly": true,
+				"MarkActionApplied": true,
+				"Actions": [
+					"AddMail Host {{ModId}}_SeanceIngredientsComplete received",
+				]
+			}, 
+			// give everbloom quest
+			"{{ModId}}_EverbloomQuest": {
+				"Id": "{{ModId}}_EverbloomQuest",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_FARMING_LEVEL Current 5",
+				"Actions": [
+					"AddMail Current {{ModId}}_GiveEverbloomQuest tomorrow"
+				]
+			},
+			// elevator ding
+			"{{ModId}}_CCElevator": {
+				"Id": "CCElevator",
+				"Trigger": "Manual",
+				"Actions": [
+					"spacechase0.SpaceCore_PlaySound crystal true",
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_DeadBoyAgency 6 18 0"
+				]
 			}
-		},
-		
-		{
-		"Action": "EditData",
-			"Target": "Data/TriggerActions",
-			"Entries": {
-				// give everbloom quest
-				"{{ModId}}_EverbloomQuest": {
-					"Id": "{{ModId}}_EverbloomQuest",
-					"Trigger": "DayEnding",
-					"Condition": "PLAYER_FARMING_LEVEL Current 5",
-					"Actions": [
-						"AddMail Current {{ModId}}_GiveEverbloomQuest tomorrow"
-					]
-				},
-				
-				// elevator ding
-				"{{ModId}}_CCElevator": {
-					"Id": "CCElevator",
-					"Trigger": "Manual",
-					"Actions": [
-						"spacechase0.SpaceCore_PlaySound crystal true",
-						"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_DeadBoyAgency 6 18 0"
-						]
-				}
-			}
-		},
+		}
+	},
 	]
 }

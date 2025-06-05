@@ -7,10 +7,10 @@
     "FromFile": "assets/characters/Niko/niko_portraits.png",
 	},	
 	
-	{,
+	{
     "Action": "Load",
     "Target": "Characters/NikoSasaki",
-    "FromFile": "assets/characters/Niko/Niko_sprites.png",
+    "FromFile": "assets/characters/Niko/niko_sprites.png",
 	},
 		
 	// edit game data
@@ -46,25 +46,26 @@
 					"CrystalPalace": "friend"
                 },
 					
-				"DumpsterDiveFriendshipEffect": 0,
+				"DumpsterDiveFriendshipEffect": -15,
 				"FlowerDanceCanDance": false,
 					
 				"WinterStarGifts": [
+					
 					{
-						"Id": "{{ModId}}_NikoTree",
-						"ItemId": "{{ModId}}_NikoTree",
+						"Id": "Dried Starfish",
+						"ItemId": "(O)116",
+						"MinStack": 2,
+						"MaxStack": 2
+					},
+					{
+						"Id": "Tea Set",
+						"ItemId": "(O)341",
 						"MinStack": 1,
 						"MaxStack": 1
 					},
 					{
-						"Id": "Amethyst Ring",
-						"ItemId": "(O)529",
-						"MinStack": 1,
-						"MaxStack": 1
-					},
-					{
-						"Id": "Purple Slime Egg",
-						"ItemId": "(O)439",
+						"Id": "Peach Sapling",
+						"ItemId": "(O)631",
 						"MinStack": 1,
 						"MaxStack": 1
 					}
@@ -87,100 +88,6 @@
             }
         }
     },
-		
-	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
-	
-	//{
-	//	"Action": "EditData",
-	//	"Target": "Data/Characters",
-	//	"TargetField": ["NikoSasaki", "Appearance"],
-	//	"Entries":
-	//	{
-	//		"NikoSasaki_OutfitPolo":
-	//		{
-	//			"Id": "NikoSasaki_OutfitPolo",
-	//			"Portrait": "Portraits/NikoSasakiPolo",
-	//			"Sprite": "Characters/NikoSasakiPolo",
-	//			"Indoors": true,
-	//			"Outdoors": false,
-	//			"IsIslandAttire": false,
-	//			"Condition": "TRUE",
-	//			"Precedence": 0,
-	//			"Weight": 1
-	//		},
-	//	
-	//		"NikoSasaki_OutfitBlackJacket":
-	//		{
-	//			"Id": "NikoSasaki_OutfitBlackJacket",
-	//			"Portrait": "Portraits/NikoSasakiBlackJacket",
-	//			"Sprite": "Characters/NikoSasakiBlackJacket",
-	//			"Indoors": false,
-	//			"Outdoors": true,
-	//			"IsIslandAttire": false,
-	//			"Condition": "TRUE",
-	//			"Precedence": 0,
-	//			"Weight": 1
-	//		},
-	//					
-	//		"NikoSasaki_OutfitVest":
-	//		{
-	//			"Id": "NikoPayne_OutfitVest",
-	//			"Portrait": "Portraits/NikoSasakiVest",
-	//			"Sprite": "Characters/NikoSasakiVest",
-	//			"Indoors": true,
-	//			"Outdoors": true,
-	//			"IsIslandAttire": true,
-	//			"Condition": "TRUE",
-	//			"Precedence": 0,
-	//			"Weight": 1
-	//		},
-	//	},
-	//},
-	
-		
-	//loads - portraits
-	//{
-	//	"LogName": "Conditional Portraits - Appearance Load",
-	//	"Action": "Load",
-	//	"Target": "Portraits/NikoSasakiPolo",
-	//	"FromFile": "assets/characters/Niko/Niko_portraits_polo.png",
-	//},
-	//	
-	//{
-	//	"LogName": "Conditional Portraits - Appearance Load",
-	//	"Action": "Load",
-	//	"Target": "Portraits/NikoSasakiBlackJacket",
-	//	"FromFile": "assets/characters/Niko/Niko_portraits_blackjacket.png",
-	//},
-	//	
-	//{
-	//	"LogName": "Conditional Portraits - Appearance Load",
-	//	"Action": "Load",
-	//	"Target": "Portraits/NikoSasakiVest",
-	//	"FromFile": "assets/characters/Niko/Niko_portraits_vest.png",
-	//},
-		
-	//loads - sprites
-	//{
-	//	"LogName": "Conditional Sprites - Appearance Load",
-	//	"Action": "Load",
-	//	"Target": "Characters/NikoSasakiPolo",
-	//	"FromFile": "assets/characters/Niko/Niko_sprites_polo.png",
-	//},
-	//	
-	//{
-	//	"LogName": "Conditional Sprites - Appearance Load",
-	//	"Action": "Load",
-	//	"Target": "Characters/NikoSasakiBlackJacket",
-	//	"FromFile": "assets/characters/Niko/Niko_sprites_blackjacket.png",
-	//},
-	//	
-	//{
-	//	"LogName": "Conditional Sprites - Appearance Load",
-	//	"Action": "Load",
-	//	"Target": "Characters/NikoSasakiVest",
-	//	"FromFile": "assets/characters/Niko/Niko_sprites_vest.png",
-	//},
 	
 	// gift tastes
 	{
@@ -188,7 +95,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"NikoSasaki": "Wow, @, I don't even know what to say. Thank you!/62 348 342 651 611 253 395/Thanks. You didn't have to do this./206 635 595 94 118 /This is, uh... are you sure?/422 815 614 404 420 281 257/What the fuck, @?/346 148 149 205 251 414 124/Thanks, @./"
+			"NikoSasaki": "This is amazing, @!/555 815 341 614 226 227 228 400 116 /Oh, this is pretty cool, thank you! /577 578 595 251 -79 18 -80 /Oh... okay.../422 404 420 281 257 346/I don't really want this... but thanks, I guess./22/For me? Thank you!/"
 		}
 	},
 	
@@ -202,51 +109,99 @@
 			"NPCName": "Niko",
 			"Reactions": [
 				{
-					"Tag": "horror",
+					"Tag": "romance",
 					"Response": "love",
 					"Whitelist": [],
 					"SpecialResponses": {
 						"BeforeMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "You reckon Edwin would like this one?",
+							"Text": "I've been looking forward to this all day!",
 						},
 						"DuringMovie": {
 							"ResponsePoint": null,
-							"Script": "message \"Niko seems to be enjoying the special effects.\"",
+							"Script": "message \"Niko seems to be enjoying the romance between the characters.\"",
 							"Text": ""
 						},
 						"AfterMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "It's been ages since I had a proper scare like that!$h Thanks for taking me, @."
+							"Text": "That was sooo cute! This was fun."
 						}
 					},
 					"ID": "reaction_0"
 				},
 				
 				{
-					"Tag": "*",
+					"Tag": "family",
 					"Response": "like",
 					"Whitelist": [],
 					"SpecialResponses": {
 						"BeforeMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "You reckon Edwin would like this one?",
+							"Text": "The poster for this one looked cute!",
 						},
 						"DuringMovie": {
 							"ResponsePoint": null,
-							"Script": "message \"Niko seems to be enjoying the special effects.\"",
+							"Script": "message \"Niko is glued to the screen.\"",
 							"Text": ""
 						},
 						"AfterMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "That was brills! Thanks for taking me, @."
+							"Text": "That was so much fun! We should do this again sometime."
 						}
 					},
 					"ID": "reaction_1"
+				},
+				
+				{
+					"Tag": "comedy",
+					"Response": "like",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Are you excited? It's been a while since I've been to the movies.",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Niko is full of laughter.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Wow, that was really funny! What was your favorite part?"
+						}
+					},
+					"ID": "reaction_2"
+				},
+				
+				{
+					"Tag": "horror",
+					"Response": "dislike",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "This one looked kind of scary in the trailer...",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Niko keeps covering her eyes during the scary parts.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Wow, that was a lot scarier than I was expecting. I hope I can sleep tonight..."
+						}
+					},
+					"ID": "reaction_3"
 				},
 			],
 			},
@@ -261,16 +216,15 @@
 			"Name": "NikoSasaki",
 			"LovedTags": [
 				"JasmineTea",
-				"Popcorn",
-				"Sour Slimes"
+				"Salty"
 			],
 			"LikedTags": [
-				"Fatty",
+				"Candy",
 				"Hot"
 			],
 			"DislikedTags": [
-				"Drink",
-				"Healthy",
+				"Cold",
+				"Gourmet",
 			],
 		}
 	},

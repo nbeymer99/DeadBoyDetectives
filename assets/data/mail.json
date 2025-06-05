@@ -12,11 +12,11 @@
 			
 			"{{ModId}}_CatchAngie": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy[#]Sea Monsters",
 			
-			"{{ModId}}_SeanceInvitation": "Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.[#]The Seance",
+			"{{ModId}}_SeanceInvitation1": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.%item quest {{ModId}}_SeanceInvitationQuest true %%[#]The Seance",
 			
-			"{{ModId}}_SeanceIngredientsComplete": "You brought the required ingredients for the improved seance to the Dead Boy Detectives.[#]Spell Ingredients",
+			"{{ModId}}_SeanceIngredients": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin%item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%",
 			
-			"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
+			//"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
 		}
 	}
 	]
