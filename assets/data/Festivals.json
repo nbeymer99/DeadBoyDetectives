@@ -80,6 +80,13 @@
    				    "Delimiter": "/"
 				},
 				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "CrystalPalace 17 75 up",
+   				    "Delimiter": "/"
+				},
+				
    				//MainEvent - during the actual hunt
 				{
    				    "Operation": "Append",
@@ -92,6 +99,13 @@
    				    "Operation": "Append",
    				    "Target": ["Entries", "MainEvent_additionalCharacters"],
    				    "Value": "EdwinPayne 18 74 down",
+   				    "Delimiter": "/"
+				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "CrystalPalace 17 75 down",
    				    "Delimiter": "/"
 				},
 			],
@@ -110,6 +124,14 @@
 			"Target": "Data/Festivals/spring13",
 			"Entries": 
 			{ "EdwinPayne": "If Charles and I could participate in the egg hunt, nobody else would stand a chance, frankly.$u",
+			},
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "CrystalPalace": "I hate hardboiled eggs. The smell reminds me of that poltergeist we dealt with last year.",
 			},
 		},
 		{	
@@ -132,6 +154,33 @@
    				    "Value": "EdwinPayne 25 28 left",
    				    "Delimiter": "/"
 				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "CrystalPalace 24 27 down",
+   				    "Delimiter": "/"
+				},
+				
+				//Main Event
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "EdwinPayne 17 32 up",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 18 32 up",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 19 32 up",
+					"Delimiter": "/"
+				},
 			],
 		},
 		{	
@@ -148,6 +197,14 @@
 			"Target": "Data/Festivals/spring24",
 			"Entries": 
 			{ "EdwinPayne": "This reminds me of the horrid events my parents made me attend as a child. I cannot imagine dancing in front of an audience would be at all enjoyable.$s",
+			},
+		},
+		{	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "CrystalPalace": "I'm more used to the kind of dancing that happens in clubs, not whatever this is.",
 			},
 		},
 		{	
@@ -170,6 +227,13 @@
    				    "Value": "EdwinPayne 53 11 down",
    				    "Delimiter": "/"
 				},
+				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "CrystalPalace 51 12 right",
+   				    "Delimiter": "/"
+				},
 				//MainEvent - during the actual tasting
 				{
 					"Operation": "Append",
@@ -181,7 +245,14 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "CharlesRowland 41 11 left",
+					"Value": "EdwinPayne 41 11 left",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CrystalPalace 41 12 left",
 					"Delimiter": "/"
 				},
 			],
@@ -191,7 +262,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": 
-			{ "CharlesRowland": "Just looking at that soup is enough to make me feel sick.$s I'm glad we don't have to eat it.",
+			{ "CharlesRowland": "Just looking at that soup is enough to make me feel sick.$s I'm glad I don't have to eat it.",
 			},
 		},
 		{	
@@ -200,6 +271,15 @@
 			"Target": "Data/Festivals/summer11",
 			"Entries":
 			{ "EdwinPayne": "Remind me why we are here, again? Surely there are cases we could be working on instead.$s",
+			},
+		},
+		
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries":
+			{ "CrystalPalace": "The soup kind of reminds me of what the housekeeper would throw together whenever I got sick.#$b#That's why I threw in some noodles--I always liked her noodle soup best.",
 			},
 		},
 
@@ -223,6 +303,13 @@
 					"Value": "EdwinPayne 26 36 down",
 					"Delimiter": "/"
 				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 13 32 right",
+					"Delimiter": "/"
+				},
 				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
 				{
 					"Operation": "Append",
@@ -235,6 +322,13 @@
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
 					"Value": "EdwinPayne 26 36 down",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CrystalPalace 13 32 down",
 					"Delimiter": "/"
 				},
 			],
@@ -255,6 +349,27 @@
 			{ "EdwinPayne": "Did you know, Pelican Town is the only region in the world home to such unique specimens? Fascinating.$u",
 			},
 		},
+		
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "CrystalPalace": "I'm so glad Niko is here to see this...",
+			},
+			"When": {
+				"HasSeenEvent": "{{ModId}}_Seance2"
+			},
+		},
+		
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "CrystalPalace": "I wish Niko were here to see this...",
+			},
+		},
 		{	
 			"LogName": "Stardew Valley Fair",
 			"Action": "EditData",
@@ -266,14 +381,20 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "CharlesRowland 49 88 down",
+					"Value": "CharlesRowland 44 89 down",
 					"Delimiter": "/"
 				},
 				
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "EdwinPayne 49 89 up",
+					"Value": "EdwinPayne 43 90 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "CrystalPalace 45 89 down",
 					"Delimiter": "/"
 				},
 				{
@@ -287,6 +408,13 @@
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
 					"Value": "EdwinPayne 49 90 up",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "CrystalPalace 48 90 right",
 					"Delimiter": "/"
 				},
 			],
@@ -312,6 +440,12 @@
 					"Value": "EdwinPayne 52 72 down",
 					"Delimiter": "/"
 				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 50 73 right",
+					"Delimiter": "/"
+				},
 			],
 		},
 		{	
@@ -328,6 +462,14 @@
 			"Target": "Data/Festivals/fall16",
 			"Entries": 
 			{ "EdwinPayne": "Ridiculous. That fortune-teller is nothing compared to Crystal.$u",
+			},
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "CrystalPalace": "Wow, did Edwin just compliment me? Is he running a fever?$h",
 			},
 		},
 		{	
@@ -348,6 +490,12 @@
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
 					"Value": "EdwinPayne 19 12 left",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 33 73 up",
 					"Delimiter": "/"
 				},
 			],
@@ -373,6 +521,13 @@
 					"Value": "EdwinPayne 72 27 right",
 					"Delimiter": "/"
 				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 28 54 down",
+					"Delimiter": "/"
+				},
 			],
 		},
 		{	
@@ -392,6 +547,14 @@
 			},
 		},
 		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "CrystalPalace": "I don't care what Edwin says about keeping an eye on things--you couldn't pay me to go in that creepy-ass maze.#$b#I can't exactly walk through walls.",
+			},
+		},
+		{	
 			"LogName": "Festival of Ice",
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
@@ -405,11 +568,23 @@
 					"Value": "EdwinPayne 72 22 left",
 					"Delimiter": "/"
 				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 71 21 down",
+					"Delimiter": "/"
+				},
 				//MainEvent - during the actual contest
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
 					"Value": "EdwinPayne 72 22 left",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CrystalPalace 71 21 down",
 					"Delimiter": "/"
 				},
 			],
@@ -428,11 +603,24 @@
 					"Value": "EdwinPayne 27 50 right",
 					"Delimiter": "/"
 				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 29 50 left",
+					"Delimiter": "/"
+				},
 				//MainEvent - during the actual contest
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
 					"Value": "EdwinPayne 27 50 right",
+					"Delimiter": "/"
+				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "CrystalPalace 29 50 left",
 					"Delimiter": "/"
 				},
 			],
@@ -443,6 +631,13 @@
 			"Target": "Data/Festivals/winter8",
 			"Entries": 
 			{ "EdwinPayne": "Charles elected not to attend, and it's little question why. I myself am only here on matters pertaining to a current case.", },
+		},
+		{	
+			"LogName": "Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ "CrystalPalace": "I'm kind of worried about Charles. He didn't look so good when Edwin and I left.", },
 		},
 		{	
 			"LogName": "Feast of the Winter Star",
@@ -464,6 +659,13 @@
 					"Value": "EdwinPayne 29 62 down",
 					"Delimiter": "/"
 				},
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CrystalPalace 30 62 down",
+					"Delimiter": "/"
+				},
 			],
 		},
 		{	
@@ -471,7 +673,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
 			"Entries": 
-			{ "CharlesRowland": "Edwin and I already exchanged gifts this morning, but it's so fun seeing everyone else open up their presents.$h",
+			{ "CharlesRowland": "Edwin, Crystal and I already exchanged gifts this morning, but it's so fun seeing everyone else open up their presents.$h",
 			},
 		},
 		{	
@@ -480,6 +682,14 @@
 			"Target": "Data/Festivals/winter25",
 			"Entries":
 			{ "EdwinPayne": "Winter was always a rare bright spot during my childhood. The Christmas holidays meant a reprieve from St. Hilarion's halls.",
+			},
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries":
+			{ "CrystalPalace": "It's so nice actually spending the holidays with people you like.#$b#My mom and dad used to drag me to every fancy party they could.#$e#When I turned thirteen I just started going home on my own as soon as they got drunk.",
 			},
 		},
 	]

@@ -23,15 +23,15 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/Crystal/crystal.json"
 		},
-		{
+		/* {
 			"Action": "Include",
 			"FromFile": "assets/characters/Niko/niko.json"
 		},
-		//{
-		//	"Action": "Include",
-		//	"FromFile": "assets/characters/zzminorCharacters/jenny.json"
-		//},
-		
+		{
+			"Action": "Include",
+			"FromFile": "assets/characters/zzminorCharacters/jenny.json"
+		},
+		 */
 		// Events
 		{
 			"Action": "Include",
@@ -102,6 +102,8 @@
 		},
 		//Warp 14 29 handwrittenhello.dbda_TongueAndTail
 		//Warp 13 29 handwrittenhello.dbda_TongueAndTail
+		
+		//Letter handwrittenhello.dbda_TNTConstruction
 		 
 		// Quests
 		{

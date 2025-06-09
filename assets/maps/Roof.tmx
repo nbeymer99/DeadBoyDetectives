@@ -9,7 +9,7 @@
   <property name="Outdoors" value="T"/>
   <property name="Spring_Objects" value="T"/>
   <property name="Summer_Objects" value="T"/>
-  <property name="Warp" value="-1 53 BusStop 42 23 -1 54 BusStop 42 23 -1 55 BusStop 42 24 79 -1 Mountain 15 40 80 -1 Mountain 15 40 81 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 -1 89 Forest 118 25 -1 90 Forest 118 25 -1 91 Forest 118 25 -1 92 Forest 118 25 -1 93 Forest 118 26 53 110 Beach 38 0 54 110 Beach 38 0 55 110 Beach 38 0 90 -1 Mountain 57 40 98 -1 Mountain 85 40 94 110 Beach 67 0"/>
+  <property name="Warp" value=""/>
   <property name="Winter_Objects" value="T"/>
  </properties>
  <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
@@ -4062,16 +4062,6 @@
  <objectgroup id="10" name="Back2"/>
  <objectgroup id="11" name="Back3"/>
  <objectgroup id="12" name="Buildings">
-  <object id="3" name="TileData" x="832" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="WarpCommunityCenter"/>
-   </properties>
-  </object>
-  <object id="4" name="TileData" x="848" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="WarpCommunityCenter"/>
-   </properties>
-  </object>
   <object id="5" name="TileData" x="1744" y="416" width="16" height="16">
    <properties>
     <property name="Action" value="Bookseller"/>
@@ -4080,21 +4070,6 @@
   <object id="6" name="TileData" x="1760" y="416" width="16" height="16">
    <properties>
     <property name="Action" value="Bookseller"/>
-   </properties>
-  </object>
-  <object id="7" name="TileData" x="1520" y="800" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 13 29 JojaMart 900 2300"/>
-   </properties>
-  </object>
-  <object id="8" name="TileData" x="1536" y="800" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 14 29 JojaMart 900 2300"/>
-   </properties>
-  </object>
-  <object id="9" name="TileData" x="576" y="880" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 10 19 Hospital 900 1500"/>
    </properties>
   </object>
   <object id="10" name="TileData" x="592" y="880" width="16" height="16">
@@ -4112,16 +4087,6 @@
     <property name="Action" value="Billboard 3"/>
    </properties>
   </object>
-  <object id="13" name="TileData" x="688" y="896" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 6 29 SeedShop 900 2100"/>
-   </properties>
-  </object>
-  <object id="14" name="TileData" x="704" y="896" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 6 29 SeedShop 900 2100"/>
-   </properties>
-  </object>
   <object id="15" name="TileData" x="1760" y="896" width="16" height="16">
    <properties>
     <property name="Action" value="Garbage JojaMart"/>
@@ -4137,11 +4102,6 @@
     <property name="Action" value="Garbage Evelyn"/>
    </properties>
   </object>
-  <object id="18" name="TileData" x="912" y="1008" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 9 24 JoshHouse 800 2000"/>
-   </properties>
-  </object>
   <object id="19" name="TileData" x="1600" y="1056" width="16" height="16">
    <properties>
     <property name="Action" value="HMTGF"/>
@@ -4150,11 +4110,6 @@
   <object id="20" name="TileData" x="1152" y="1088" width="16" height="16">
    <properties>
     <property name="Action" value="LockedDoorWarp 12 9 Trailer 900 2000"/>
-   </properties>
-  </object>
-  <object id="21" name="TileData" x="720" y="1120" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 14 24 Saloon 1200 2400"/>
    </properties>
   </object>
   <object id="22" name="TileData" x="752" y="1120" width="16" height="16">
@@ -4167,16 +4122,6 @@
     <property name="Action" value="Garbage Blacksmith"/>
    </properties>
   </object>
-  <object id="24" name="TileData" x="1504" y="1296" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 5 19 Blacksmith 900 1600"/>
-   </properties>
-  </object>
-  <object id="25" name="TileData" x="160" y="1360" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 4 23 SamHouse 900 2000"/>
-   </properties>
-  </object>
   <object id="26" name="TileData" x="672" y="1360" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;Town.3&quot;"/>
@@ -4185,16 +4130,6 @@
   <object id="27" name="TileData" x="896" y="1360" width="16" height="16">
    <properties>
     <property name="Action" value="Garbage Mayor"/>
-   </properties>
-  </object>
-  <object id="28" name="TileData" x="928" y="1360" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 4 11 ManorHouse 830 2200"/>
-   </properties>
-  </object>
-  <object id="29" name="TileData" x="944" y="1360" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 5 11 ManorHouse 830 2200"/>
    </properties>
   </object>
   <object id="30" name="TileData" x="208" y="1376" width="16" height="16">
@@ -4217,19 +4152,9 @@
     <property name="Action" value="TownMailbox 1"/>
    </properties>
   </object>
-  <object id="34" name="TileData" x="320" y="1408" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 2 24 HaleyHouse 900 2000"/>
-   </properties>
-  </object>
   <object id="35" name="TileData" x="304" y="1424" width="16" height="16">
    <properties>
     <property name="Action" value="Garbage EmilyAndHaley"/>
-   </properties>
-  </object>
-  <object id="36" name="TileData" x="1616" y="1424" width="16" height="16">
-   <properties>
-    <property name="Action" value="LockedDoorWarp 3 14 ArchaeologyHouse 800 1800"/>
    </properties>
   </object>
   <object id="37" name="TileData" x="1632" y="1424" width="16" height="16">
@@ -4270,16 +4195,6 @@
   <object id="44" name="TileData" x="560" y="1536" width="16" height="16">
    <properties>
     <property name="Action" value="EnterSewer"/>
-   </properties>
-  </object>
-  <object id="45" name="TileData" x="192" y="1152" width="16" height="16">
-   <properties>
-    <property name="Action" value="Warp handwrittenhello.dbda_TNT 6 18"/>
-   </properties>
-  </object>
-  <object id="46" name="TileData" x="208" y="1152" width="16" height="16">
-   <properties>
-    <property name="Action" value="Warp handwrittenhello.dbda_TNT 6 18"/>
    </properties>
   </object>
   <object id="47" name="TileData" x="192" y="1024" width="16" height="16">

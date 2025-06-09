@@ -1,7 +1,7 @@
 {
     "Name": "Dead Boy Detectives",
     "Author": "handwrittenhello",
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Description": "An fanmade expansion based on Netflix's Dead Boy detectives.",
     "UniqueID": "handwrittenhello.dbda",
     "UpdateKeys": [ "Nexus:31888", "Github:nbeymer99/DeadBoyDetectives"],

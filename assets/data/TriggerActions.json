@@ -135,7 +135,7 @@
 					"AddBuff charles_attack"
 				]
 			},
-			// gathering ingredients quests complete
+			/* // gathering ingredients quests complete
 			"SeanceIngredients": {
 				"Id": "SeanceIngredients",
 				"Trigger": "LocationChanged",
@@ -145,7 +145,7 @@
 				"Actions": [
 					"AddMail Host {{ModId}}_SeanceIngredientsComplete received",
 				]
-			}, 
+			},  */
 			// give everbloom quest
 			"{{ModId}}_EverbloomQuest": {
 				"Id": "{{ModId}}_EverbloomQuest",

@@ -4274,12 +4274,12 @@
   </object>
   <object id="45" name="TileData" x="192" y="1152" width="16" height="16">
    <properties>
-    <property name="Action" value="Letter handwrittenhello.dbda_TNTConstruction"/>
+    <property name="Action" value="Warp 13 29 handwrittenhello.dbda_TongueAndTail"/>
    </properties>
   </object>
   <object id="46" name="TileData" x="208" y="1152" width="16" height="16">
    <properties>
-    <property name="Action" value="Letter handwrittenhello.dbda_TNTConstruction"/>
+    <property name="Action" value="Warp 14 29 handwrittenhello.dbda_TongueAndTail"/>
    </properties>
   </object>
   <object id="47" name="TileData" x="160" y="1168" width="16" height="16">

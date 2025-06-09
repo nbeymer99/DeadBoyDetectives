@@ -191,35 +191,54 @@
 	{
 		"LogName": "CrystalPalaceSchedule",
 		"Action": "Include",
-		"FromFile": "assets/characters/Crystal/Crystal_schedule.json"
+		"FromFile": "assets/characters/Crystal/crystal_schedule.json"
 	},
 	
 	// include animations
 	{
 		"LogName": "CrystalPalaceAnimations",
 		"Action": "Include",
-		"FromFile": "assets/characters/Crystal/Crystal_animations.json"
+		"FromFile": "assets/characters/Crystal/crystal_animations.json"
 	},
 	
 	// include Strings
 	{
 		"LogName": "CrystalPalaceStrings",
 		"Action": "Include",
-		"FromFile": "assets/characters/Crystal/Crystal_Strings.json"
+		"FromFile": "assets/characters/Crystal/crystal_Strings.json"
+	},
+	
+	// modify animations (SpaceCore)
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+		"Entries":
+		{
+		"crystal_laptop": { 
+			"SourceRectSize": "32, 32", 
+			"DrawOffset": "-8, 0", 
+			"AppearanceOverride": null, 
+			"OnStart": { "Emote": null, "PlaySound": "keyboardTyping" }, 
+			"OnEnd": { "Emote": null, "PlaySound": null },
+			"OnFrame": { 
+            1: { "Emote": null, "PlaySound": "keyboardTyping" },
+				}
+			}
+		},
 	},
 	
 	// include dialogue
 	{
 		"LogName": "CrystalPalaceDialogue",
 		"Action": "Include",
-		"FromFile": "assets/characters/Crystal/Crystal_dialogue.json"
+		"FromFile": "assets/characters/Crystal/crystal_dialogue.json"
 	},
 	
 	// include marriage dialogue
 	//{
 	//	"LogName": "CrystalPalaceMarriageDialogue",
 	//	"Action": "Include",
-	//	"FromFile": "assets/characters/Crystal/Crystal_marriageDialogue.json"
+	//	"FromFile": "assets/characters/Crystal/crystal_marriageDialogue.json"
 	//},
 	]
 }

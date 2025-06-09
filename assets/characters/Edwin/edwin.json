@@ -297,12 +297,6 @@
 		{
 		"edwin_spells": { 
 			"SourceRectSize": "32, 32", 
-            /* One thing to note about SourceRectSize is it changes how your sprites are indexed. 
-            If you take a look at the clint_hammer animation, it lists sprite indices 8 and 9,
-            But the animation starts at the normal index of 16. That's because when you change the
-            sprite size, it changes how sprites are indexed. You need to count by the new sprite size,
-            not the original one. So if you count by each 32x32 area in Clint's sprite, it comes out to
-            indices 8 and 9. */
 			"DrawOffset": "0, 0", 
 			"AppearanceOverride": null, 
 			"OnStart": { "Emote": null, "PlaySound": "fireball" }, 

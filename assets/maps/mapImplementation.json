@@ -8,61 +8,158 @@
                 "{{ModId}}_DeadBoyAgency": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_DeadBoyAgency"
-                    }
+                    },
+					"DisplayName": "Dead Boy Detective Agency",
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 18,
+					},
                 },
 				
                 "{{ModId}}_TragicMicks": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_TragicMicks"
-                    }
+                    },
+					"DisplayName": "Tragic Mick's",
+					"DefaultArrivalTile": {
+						"X": 8,
+						"Y": 23,
+					},
                 },
 				
 				"{{ModId}}_Lighthouse": {
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_Lighthouse"
-					}
+					},
+					"DisplayName": "Point No Point Lighthouse",
+					"DefaultArrivalTile": {
+						"X": 85,
+						"Y": 13,
+					},
+					"Fish": [
+						{
+						"Chance": 0.66,
+						"Season": null,
+						"FishAreaId": "Ocean",
+						"BobberPosition": null,
+						"PlayerPosition": null,
+						"MinFishingLevel": 0,
+						"MinDistanceFromShore": 0,
+						"MaxDistanceFromShore": -1,
+						"ApplyDailyLuck": false,
+						"CuriosityLureBuff": -1.0,
+						"SpecificBaitBuff": 0.0,
+						"SpecificBaitMultiplier": 1.66,
+						"CatchLimit": -1,
+						"CanUseTrainingRod": null,
+						"IsBossFish": false,
+						"SetFlagOnCatch": null,
+						"RequireMagicBait": false,
+						"Precedence": 0,
+						"IgnoreFishDataRequirements": true,
+						"CanBeInherited": true,
+						"ChanceModifiers": null,
+						"ChanceModifierMode": "Stack",
+						"ChanceBoostPerLuckLevel": 0.0,
+						"UseFishCaughtSeededRandom": false,
+						"Condition": null,
+						"Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+						"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": -1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ObjectColor": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+						},
+					],
 				},
 				
 				"{{ModId}}_LighthouseScary": {
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_LighthouseScary"
-					}
+					},
+					"DisplayName": "Point No Point Lighthouse",
+					"DefaultArrivalTile": {
+						"X": 85,
+						"Y": 13,
+					},
 				},
 				
 				"{{ModId}}_DeadBoyAgencyCauldron": {
                     "CreateOnLoad": { 
                         "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
-                    }
+                    },
+					"DisplayName": "Dead Boy Detective Agency",
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 18,
+					},
                 },
 				
 				"{{ModId}}_Backpack": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_Backpack"
-                    }
+                    },
+					"DisplayName": "Charles' Bag",
+					"DefaultArrivalTile": {
+						"X": 6,
+						"Y": 10,
+					},
                 },
 				
 				"{{ModId}}_TongueAndTail": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_TNTInterior"
-                    }
+                    },
+					"DisplayName": "Tongue and Tail Butcher Shop",
+					"DefaultArrivalTile": {
+						"X": 14,
+						"Y": 28,
+					},
                 },
 				
 				"{{ModId}}_CrystalAndNiko": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_CrystalAndNiko"
-                    }
+                    },
+					"DisplayName": "Crystal and Niko's Rooms",
+					"DefaultArrivalTile": {
+						"X": 25,
+						"Y": 23,
+					},
                 },
 
 				"{{ModId}}_Roof": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_Roof"
-                    }
+                    },
+					"DisplayName": "Tongue and Tail Roof",
+					"DefaultArrivalTile": {
+						"X": 12,
+						"Y": 65,
+					},
                 },
 				
 				"{{ModId}}_SeanceMap": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_SeanceMap"
-                    }
+                    },
+					"DisplayName": "Town",
+					"DefaultArrivalTile": {
+						"X": 45,
+						"Y": 95,
+					},
                 }
 			}
 		},
