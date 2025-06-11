@@ -1,0 +1,63 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Animals/SquidAdult",
+			"FromFile": "assets/objects/squid.png",
+		},
+		{
+			"Action": "Load",
+			"Target": "Animals/SquidBaby",
+			"FromFile": "assets/objects/squid_baby.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Entries": {
+				"{{ModId}}_Squid": {
+					"DisplayName": "Magic Squid",
+					"House": "Coop",
+					"Gender": "MaleOrFemale",
+					
+					"RequiredBuilding": "Coop",
+					"UnlockCondition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 750",
+					
+					"EggItemIds": [ "{{ModId}}_SquidEgg" ],
+					"IncubationTime": 12000,
+					"BirthText": "Your glowing egg has hatched.",
+					"DaysToMature": "14",
+					
+					"ProduceItemIds": [
+						{
+							"ItemId": "(O)909",
+							"MinimumFriendship": 0,
+						},
+					],
+					"DaysToProduce": 4,
+					"HarvestType": "DropOvernight",
+					
+					"Sound": "bob",
+					"Texture": "Animals/SquidAdult",
+					"BabyTexture": "Animals/SquidBaby",
+					"UseFlippedRightForLeft": true,
+					"Shadow": {
+						"Offset": {
+							"X": 16,
+							"Y": 0
+						}
+					},
+					
+					"ProfessionForFasterProduce": 2,
+					"ProfessionForHappinessBoost": 2,
+					
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 0,
+					"HappinessDrain": 50,
+					"SellPrice": 7500,
+					"ShowInSummitCredits": true,
+				},
+			},
+		},
+	]
+}

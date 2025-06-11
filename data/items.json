@@ -1,6 +1,5 @@
 {
 	"Changes": [
-	
 	{
 		"Action": "EditData",
 		"Target": "Data/Objects",
@@ -8,12 +7,30 @@
 			"{{ModId}}_CharlesAmulet": {
 				"Name": "{{ModId}}_CharlesAmulet",
 				"Displayname": "Charles' Amulet",
-				"Description": "Increases attack",
+				"Description": "Increases attack power and speed.",
 				"Type": "Quest",
+				"Category": -100,
+				"Price": "9999",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 2,
+				"CanBeGivenAsGift": false,
+				"CanBeTrashed": false,
+				"ExcludeFromRandomSale": true,
+			},
+			
+			"{{ModId}}_CrystalRing": {
+				"Name": "{{ModId}}_CrystalRing",
+				"Displayname": "Crystal Ring",
+				"Description": "Increases stamina and immunity.",
+				"Type": "Ring",
 				"Category": -96,
 				"Price": "9999",
-				"Texture": "Mods/{{ModId}}/Objects",
-				"SpriteIndex": 3
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 12,
+				"CanBeGivenAsGift": false,
+				"CanBeTrashed": false,
+				"ExcludeFromRandomSale": true,
+				
 			},
 			
 			// The Everbloom was kindly loaned to me from e_va's fic "An Amateur's Guide to Auction Theory"!
@@ -24,8 +41,9 @@
 				"Type": "Seeds",
 				"Category": -74,
 				"Price": "1500000",
-				"Texture": "Mods/{{ModId}}/Seeds",
-				"SpriteIndex": 0
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 1,
+				"ContextTags": [ "seedmaker_banned" ],
 			},
 			
 			"{{ModId}}_EverbloomFlower": {
@@ -35,8 +53,30 @@
 				"Type": "Basic",
 				"Category": -80,
 				"Price": "2500000",
-				"Texture": "Mods/{{ModId}}/Everbloom",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 0
+			},
+			
+			"{{ModId}}_SquidEgg": {
+				"Name": "{{ModId}}_SquidEgg",
+				"Displayname": "Glowing Egg",
+				"Description": "A glowing green egg. Hatches into a magical glowing squid when placed in an incubator.",
+				"Type": "Basic",
+				"Category": -5,
+				"Price": "1500",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 3
+			},
+			
+			"{{ModId}}_Magic8Ball": {
+				"Name": "{{ModId}}_Magic8Ball",
+				"Displayname": "Magic 8 Ball",
+				"Description": "It just keeps saying 'Outlook not so good'.",
+				"Type": "Basic",
+				"Category": -24,
+				"Price": "6000",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 10
 			},
 			
 			"{{ModId}}_Angie": {
@@ -46,8 +86,8 @@
 				"Type": "Fish",
 				"Category": -4,
 				"Price": "2500",
-				"Texture": "Mods/{{ModId}}/Angie",
-				"SpriteIndex": 0,
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 11,
 				"Edibility": "-200",
 				"ExcludeFromRandomSale": true,
 				"ContextTags": [
@@ -68,14 +108,43 @@
 				"DisplayName": "Purple Sapling",
 				"Description": "A potted sapling that almost seems to glow.",
 				"Fragility": 0,
-				"CanBePlacedOutdoors": false,
+				"CanBePlacedOutdoors": true,
 				"Price": "0",
 				"IsLamp": true,
-				"Texture": "Mods/{{ModId}}/Objects",
-				"SpriteIndex": 15,
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 10,
 				"ContextTags": [ "light_source" ]
 			},
+			
+			"{{ModId}}_RecordPlayer": {
+				"Name": "{{ModId}}_RecordPlayer",
+				"DisplayName": "Record Player",
+				"Description": "A vintage record player from around 1989.",
+				"Fragility": 0,
+				"CanBePlacedOutdoors": false,
+				"Price": "0",
+				"IsLamp": false,
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 11,
+			},
 		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"{{ModId}}_DandelionSpriteJar": {
+				"Name": "{{ModId}}_DandelionSpriteJar",
+				"Displayname": "Sprite Jar",
+				"Description": "Home to two very angry dandelion sprites. Their vocabulary sure is colorful.",
+				"Type": "Basic",
+				"Category": -24,
+				"Price": "6000",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 13
+			},
+		},
 	},
 	
 	{
@@ -113,35 +182,17 @@
 		},
 		]
 	},
-	
+
 	{
         "Action": "Load",
-        "Target": "Mods/{{ModId}}/Objects",
-        "FromFile": "assets/maps/mapObjects.png"
+        "Target": "Mods/{{ModId}}/itemsAndFurniture",
+        "FromFile": "assets/objects/itemsAndFurniture.png"
     },
 	
 	{
         "Action": "Load",
         "Target": "Mods/{{ModId}}/Crops",
-        "FromFile": "assets/data/crops.png"
-    },
-	
-	{
-        "Action": "Load",
-        "Target": "Mods/{{ModId}}/Everbloom",
-        "FromFile": "assets/data/Everbloom.png"
-    },
-
-	{
-        "Action": "Load",
-        "Target": "Mods/{{ModId}}/Seeds",
-        "FromFile": "assets/data/EverbloomSeed.png"
-    },
-	
-	{
-        "Action": "Load",
-        "Target": "Mods/{{ModId}}/Angie",
-        "FromFile": "assets/data/angie.png"
+        "FromFile": "assets/objects/crops.png"
     },
 	]
 }

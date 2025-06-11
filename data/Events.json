@@ -20,6 +20,23 @@
 		}
 	},
 	
+	// CRYSTAL/NIKO ROOMS
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/{{ModId}}_CrystalAndNiko",
+		"Entries": {
+			// crystal 2 hearts - begin niko quest
+			"{{ModId}}_Niko1/f CrystalPalace 250/f CharlesRowland 250/f EdwinPayne 250": "echos/34 13/farmer 34 19 0 CrystalPalace 33 13 2 EdwinPayne 35 13 3 CharlesRowland 32 14 1/broadcastEvent true/skippable/setSkipActions AddMail All {{ModId}}_SeanceInvitation1/animate CrystalPalace false true 120 16/pause 1500/speak EdwinPayne \"I do not see why you find this so difficult, Crystal. You were able to defeat that forest elemental we encountered quite handily.\"/speak CharlesRowland \"Don't be so hard on her, mate. Not exactly a life-and-death situation, is it?\"/speak EdwinPayne \"Perhaps we ought to make it one, then, to ensure expediency...$3\"/stopAnimation CrystalPalace/faceDirection CrystalPalace 1/speak CrystalPalace \"I'm sorry, when did you become a psychic, again?$6#$b#Oh, you're not? Then be quiet and let me think.$6\"/faceDirection CrystalPalace 2/animate CrystalPalace false false 1000 16 17/animate CrystalPalace false true 120 18/move farmer 0 -4 3/pause 1000/speak CharlesRowland \"Oh, hey, @. We're just helping Crystal practice.#$b#Edwin thought he saw something odd in the graveyard the other day, so she's gonna try and read it.\"/pause 1000/speak CrystalPalace \"I think I see something...$u\"/globalFade/viewport -1000 -1000/changeLocation Town/viewport 47 89/pause 1000/speak CrystalPalace \"I can feel something... sad.$u\"/pause 1000/speak CrystalPalace \"It's... it's lonely, whatever it is. I can't tell...$u\"/temporaryAnimatedSprite Characters\\Monsters\\Ghost 0 0 16 24 500 4 9999 46 89 false false 5 0.0007 1 0 0 0/pause 1000/speak CrystalPalace \"It's another ghost, but... wrong, somehow.$u\"/playSound ghost/globalFade/viewport -1000 -1000/changeLocation {{ModId}}_CrystalAndNiko/viewport 34 13/pause 2000/speak CharlesRowland \"Well, that sounds like a case for us, don't it?$h\"/speak EdwinPayne \"Quite. We shall need to prepare.#$b#@, you may as well come along on this case, if you wish.#$b#You can expect a letter from us shortly with further instructions.\"/mail {{ModId}}_SeanceInvitation1/end",
+			
+			// crystal 7 hearts - cactus
+			"{{ModId}}_crystalCactus/f CrystalPalace 1750/NPCVisibleHere CrystalPalace": "continue/30 13/farmer 31 13 3 CrystalPalace 30 12 2/skippable/speak CrystalPalace \"Cute, huh?#$b#I'm not huge on plants, or anything that relies on me not to die, really.\"/emote farmer 8/pause 500/speak CrystalPalace \"It's just... I've fucked up before. Like, a lot. I was barely keeping my own head above water, never mind keeping something else alive.\"/pause 2000/speak CrystalPalace \"Edwin gave it to me. I thought it was a joke, you know...#$b#'Haha, Crystal, it's prickly and needs a lot of attention, just like you.'#$b#But... I kept taking care of it, because if I can't even keep a damn plant alive, then what use am I?\"/pause 3000/speak CrystalPalace \"You know what he said then? He said it reminded him of me, but not because of its sharp spines or whatever.#$b#He said cacti are remarkably resilient and can bounce back from nearly anything if given enough time and care.\"/emote CrystalPalace 20/speak CrystalPalace \"And then he thinks he can get away with a handshake instead of a hug!\"/end",
+			
+			// crystal 10 hearts - concerned about niko?
+			//"{{ModId}}_crystalHearts10/f CrystalPalace 2500/f NikoSasaki 250": "continue/x y/farmer x y z Niko Sasaki x y z CrystalPalace x y z/skippable/setSkipActions/end",
+
+		}
+	},
+	
 	// LIBRARY
 	{
 		"Action": "EditData",
@@ -29,15 +46,6 @@
 			"{{ModId}}_edwinhearts7/f EdwinPayne 1750": "continue/22 13/farmer 18 14 1 EdwinPayne 22 10 3/skippable/animate EdwinPayne false true 120 24/move farmer 4 0 1/move farmer 0 -1 0/pause 1800/stopAnimation EdwinPayne/faceDirection EdwinPayne 2/animate EdwinPayne false true 120 19/pause 200/speak EdwinPayne \"Oh, hello, @. I was just browsing the shelves for any books I haven't read yet.#$b#I don't suppose you have any recommendations?\"/question null \"What book would you recommend to Edwin?#Murder at Magnolia Mansion#My Life as a Teenage Werewolf#1001 Curses and Cures\"/pause 200/stopAnimation EdwinPayne/animate EdwinPayne false true 120 18/pause 500/speak EdwinPayne \"Fascinating. I shall give it a try.\"/stopAnimation EdwinPayne/move EdwinPayne 0 2 2/pause 500/speak EdwinPayne \"I'm glad we ran into each other, as it happens.#$b#This is... difficult for me to say, but...$s#$b#I apologize. I treated you quite rudely upon our first acquaintance... and for some time thereafter.$s\"/pause 1000/speak EdwinPayne \"I'm glad in the end that you have remained steadfast in your attempts to become friends.$h\"/pause 500/speak EdwinPayne \"Can you forgive me for acting so coldly toward you?$2\"/question fork1 \"Can you forgive me for acting so coldly to you?#Yes#No\"/fork notForgive/pause 500/emote EdwinPayne 20/speak EdwinPayne \"I'm relieved.$h#$b#And here - will you accept this book as a token of apology from me?$h\"/faceDirection farmer 2/addItem Book_Friendship/itemAboveHead (O)Book_Friendship/pause 1200/faceDirection farmer 0/end",
 			
 			"notForgive": "friendship EdwinPayne -125/pause 500/animate EdwinPayne false true 120 40/emote EdwinPayne 28/pause 1000/speak EdwinPayne \"I suppose that's fair.#$b#Please accept my further apology for having asked.$s\"/pause 200/stopAnimation EdwinPayne/faceDirection EdwinPayne 0/move EdwinPayne 0 -5 0/end",
-		}
-	},
-	
-	// TEMPORARY
-	{
-		"Action": "EditData",
-		"Target": "Data/Events/Temp",
-		"Entries": {
-			"laughAtEdwin": "emote EdwinPayne 12/friendship EdwinPayne -125/stopAnimation EdwinPayne/animate EdwinPayne false true 120 31/speak EdwinPayne \"I don't understand. It should have worked...$6#$b#You've distracted me, @.$6#$b#I don't need your help cleaning this up, so kindly leave me to my embarrassment.$6\"/viewport move 0 4 600/move farmer 0 3 2/move farmer -2 0 3/move farmer 0 3 2/pause 300/eventSeen {{ModId}}_edwinhearts2 true/end",
 		}
 	},
 	
@@ -56,28 +64,24 @@
 		}
 	},
 	
-	// TRAGIC MICK'S
+	// SEED SHOP
 	{
 		"Action": "EditData",
-		"Target": "Data/Events/{{ModId}}_TragicMicks",
+		"Target": "Data/Events/SeedShop",
 		"Entries": {
-			// charles 10 hearts - amulet
-			"{{ModId}}_charleshearts10/f CharlesRowland 2500": "junimoKart_whaleMusic/8 15/farmer 6 20 0 CharlesRowland 9 14 1 EdwinPayne 10 13 2/skippable/animate EdwinPayne false true 1000 19/move farmer 0 -4 1/move farmer 3 0 0/pause 1000/speak CharlesRowland \"...but what color do you think ${he'd^she'd^they'd}$ like...?\"/speak EdwinPayne \"Don't ask me, Charles. You're the one who insisted on this gift.\"/pause 1000/faceDirection CharlesRowland 2/speak CharlesRowland \"@! I didn't see you there, haha...$l\"/faceDirection CharlesRowland 1/speak CharlesRowland \"Well I guess now that you're here...\"/pause 400/speak CharlesRowland \"I was going to surprise you, but... here.\"/move CharlesRowland 0 1 2/addItem (O){{ModId}}_CharlesAmulet/itemAboveHead (O){{ModId}}_CharlesAmulet/pause 3500/faceDirection farmer 0/speak CharlesRowland \"It's been really aces being your friend.#$b#Ever since we came to Pelican Town, you've made it easier, you know?#$b#You always listen, even when I can't really explain what I'm feeling...#$b#And it's like you always know how to cheer me up. And...#$b#I just thought I'd come here and find something to say thank you.$h#$b#It's an enchanted amulet. Supposed to make you better at fighting or something.\"/pause 200/emote farmer 20/speak CharlesRowland \"You like it, then?$l\"/pause 200/speak CharlesRowland \"Good. And if you ever need anything, I mean *anything*, I'm here for you, yeah?\"/emote CharlesRowland 32/stopAnimation EdwinPayne/eventSeen {{ModId}}_charleshearts10/end",
-		}
+			// crystal 4 hearts - haley is a bitch
+			"{{ModId}}_crystalhearts5/f CrystalPalace 1000": "continue/8 22/farmer 7 19 0 CrystalPalace 10 23 0 Haley 1000 1000 0 Pierre 3 17 2 Gus 11 20 0/skippable/pause 1000/playSound door/warp Haley 6 29 0/move Haley 0 -6 1/pause 4000/move Haley 2 0 1/faceDirection CrystalPalace 3/speak Haley \"Oh, hi. You're... Crystal, right? Pretty name.\"/faceDirection farmer 2/pause 200/speak Haley \"Kind of a shame that your face doesn't match...#$b#Come to me if you want a makeover, okay?\"/emote CrystalPalace anger/pause 400/speak CrystalPalace \"Sure, if I ever want to learn how to look faker than a Barbie doll, I'll let you know.$a\"/emote Haley shock/pause 400/speak Haley \"Hmph! I was just trying to help!$a\"/emote Haley anger/move Haley -2 0 2/pause 4000/move Haley 0 6 2/proceedPosition Haley/playSound door/warp Haley 1000 1000/emote Crystal Palace sad/pause 800/speak CrystalPalace \"Oh my god, why did I say that? What the hell is wrong with me?\"/move farmer 0 4 1/proceedPosition farmer/quickQuestion \"\"#\"She deserved it.\"#\"That was rude. You should apologize.\"(break)speak CrystalPalace \"No, she didn't deserve that... She just reminded me of who I don't want to be anymore.\"\\friendship CrystalPalace -50(break)speak CrystalPalace \"Yeah, you're right... She just reminded me of who I don't want to be anymore.\"/move farmer 1 0 1/pause 1000/speak CrystalPalace \"It's a really long story, but basically I lost all my memories a while back...#$b#I got them back eventually, but remembering that I used to be actually really shitty to a lot of people? It wasn't fun, let me just say that.#$b#I could try and make excuses for it--#$b#My parents were never home, I was acting out to get attention, I didn't have good role models--#$b#But it doesn't change the fact that I hurt a lot of people for a long time.\"/emote farmer sad/pause 2000/speak CrystalPalace \"...Do you think I can make it up to Haley?\"/question null \"Do you think I can make it up to Haley?#You should apologize and take her up on the offer.#You should apologize with a gift.#You should forget about it--neither of you meant to be mean.#You should explain to her why you reacted like that.#I'm staying out of this.\"/pause 500/speak CrystalPalace \"Okay. I'll think about it.\"/pause 2000/speak CrystalPalace \"Thanks for the advice. I should get going.\"/viewport move 0 320 3000/fade/end",
+		},
 	},
 	
-	// CRYSTAL/NIKO ROOMS
-	/* {
+	// TEMPORARY
+	{
 		"Action": "EditData",
-		"Target": "Data/Events/{{ModId}}_CrystalAndNiko",
+		"Target": "Data/Events/Temp",
 		"Entries": {
-			// crystal 7 hearts - cactus
-			"{{ModId}}_crystalCactus/f CrystalPalace 1750/NPCVisibleHere CrystalPalace": "continue/30 13/farmer 31 13 3 CrystalPalace 30 12 2/skippable/speak CrystalPalace \"Cute, huh?#$b#I'm not huge on plants, or anything that relies on me not to die, really.\"/emote farmer 8/pause 500/speak CrystalPalace \"It's just... I've fucked up before. Like, a lot. I was barely keeping my own head above water, never mind keeping something else alive.\"/pause 2000/speak CrystalPalace \"Edwin gave it to me. I thought it was a joke, you know...#$b#'Haha, Crystal, it's prickly and needs a lot of attention, just like you.'#$b#But... I kept taking care of it, because if I can't even keep a damn plant alive, then what use am I?\"/pause 3000/speak CrystalPalace \"You know what he said then? He said it reminded him of me, but not because of its sharp spines or whatever.#$b#He said cacti are remarkably resilient and can bounce back from nearly anything if given enough time and care.\"/emote CrystalPalace 20/speak CrystalPalace \"And then he thinks he can get away with a handshake instead of a hug!\"/end",
-			
-			//everyone 1 heart - begin niko quest
-			"{{ModId}}_Niko1/f CrystalPalace 250/f CharlesRowland 250/f EdwinPayne 250": "echos/34 13/farmer 34 19 0 CrystalPalace 33 13 2 EdwinPayne 35 13 3 CharlesRowland 32 14 1/broadcastEvent true/skippable/setSkipActions AddMail All {{ModId}}_SeanceInvitation1/animate CrystalPalace false true 120 16/pause 1500/speak EdwinPayne \"I do not see why you find this so difficult, Crystal. You were able to defeat that forest elemental we encountered quite handily.\"/speak CharlesRowland \"Don't be so hard on her, mate. Not exactly a life-and-death situation, is it?\"/speak EdwinPayne \"Perhaps we ought to make it one, then, to ensure expediency...$3\"/stopAnimation CrystalPalace/faceDirection CrystalPalace 1/speak CrystalPalace \"I'm sorry, when did you become a psychic, again?$6#$b#Oh, you're not? Then be quiet and let me think.$6\"/faceDirection CrystalPalace 2/animate CrystalPalace false false 1000 16 17/animate CrystalPalace false true 120 18/move farmer 0 -4 3/pause 1000/speak CharlesRowland \"Oh, hey, @. We're just helping Crystal practice.#$b#Edwin thought he saw something odd in the graveyard the other day, so she's gonna try and read it.\"/pause 1000/speak CrystalPalace \"I think I see something...$u\"/globalFade/viewport -1000 -1000/changeLocation Town/viewport 47 89/pause 1000/speak CrystalPalace \"I can feel something... sad.$u\"/pause 1000/speak CrystalPalace \"It's... it's lonely, whatever it is. I can't tell...$u\"/temporaryAnimatedSprite Characters\\Monsters\\Ghost 0 0 16 24 500 4 9999 46 89 false false 5 0.0007 1 0 0 0/pause 1000/speak CrystalPalace \"It's another ghost, but... wrong, somehow.$u\"/playSound ghost/globalFade/viewport -1000 -1000/changeLocation {{ModId}}_CrystalAndNiko/viewport 34 13/pause 2000/speak CharlesRowland \"Well, that sounds like a case for us, don't it?$h\"/speak EdwinPayne \"Quite. We shall need to prepare.#$b#@, you may as well come along on this case, if you wish.#$b#You can expect a letter from us shortly with further instructions.\"/mail {{ModId}}_SeanceInvitation1/end",
+			"laughAtEdwin": "emote EdwinPayne 12/friendship EdwinPayne -125/stopAnimation EdwinPayne/animate EdwinPayne false true 120 31/speak EdwinPayne \"I don't understand. It should have worked...$6#$b#You've distracted me, @.$6#$b#I don't need your help cleaning this up, so kindly leave me to my embarrassment.$6\"/viewport move 0 4 600/move farmer 0 3 2/move farmer -2 0 3/move farmer 0 3 2/pause 300/eventSeen {{ModId}}_edwinhearts2 true/end",
 		}
-	}, */ 
+	},
 	
 	// TONGUE AND TAIL
 	/* {
@@ -90,7 +94,7 @@
 	}, */
 	
 	// TOWN
-	/* {
+	{
 		"Action": "EditData",
 		"Target": "Data/Events/Town",
 		"Entries": {
@@ -101,6 +105,16 @@
 			"{{ModId}}_Seance2/PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredientsComplete Received/Time 2000 2600": "junimoKart_ghostMusic/46 90/farmer 46 92 0 CharlesRowland 46 88 2 EdwinPayne 43 90 1 CrystalPalace 49 91 3/broadcastEvent true/skippable/setSkipActions AddMail Host {{ModId}}_NikoCured/changeToTemporaryMap {{ModId}}_SeanceMap/globalFadeToClear 0.007/pause 1000/action AddMail Host {{ModId}}_NikoCured/end",
 			
 		}
-	} */
+	},
+	
+	// TRAGIC MICK'S
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/{{ModId}}_TragicMicks",
+		"Entries": {
+			// charles 10 hearts - amulet
+			"{{ModId}}_charleshearts10/f CharlesRowland 2500": "junimoKart_whaleMusic/8 15/farmer 6 20 0 CharlesRowland 9 14 1 EdwinPayne 10 13 2/skippable/animate EdwinPayne false true 1000 19/move farmer 0 -4 1/move farmer 3 0 0/pause 1000/speak CharlesRowland \"...but what color do you think ${he'd^she'd^they'd}$ like...?\"/speak EdwinPayne \"Don't ask me, Charles. You're the one who insisted on this gift.\"/pause 1000/faceDirection CharlesRowland 2/speak CharlesRowland \"@! I didn't see you there, haha...$l\"/faceDirection CharlesRowland 1/speak CharlesRowland \"Well I guess now that you're here...\"/pause 400/speak CharlesRowland \"I was going to surprise you, but... here.\"/move CharlesRowland 0 1 2/addItem (O){{ModId}}_CharlesAmulet/itemAboveHead (O){{ModId}}_CharlesAmulet/pause 3500/faceDirection farmer 0/speak CharlesRowland \"It's been really aces being your friend.#$b#Ever since we came to Pelican Town, you've made it easier, you know?#$b#You always listen, even when I can't really explain what I'm feeling...#$b#And it's like you always know how to cheer me up. And...#$b#I just thought I'd come here and find something to say thank you.$h#$b#It's an enchanted amulet. Supposed to make you better at fighting or something.\"/pause 200/emote farmer 20/speak CharlesRowland \"You like it, then?$l\"/pause 200/speak CharlesRowland \"Good. And if you ever need anything, I mean *anything*, I'm here for you, yeah?\"/emote CharlesRowland 32/stopAnimation EdwinPayne/eventSeen {{ModId}}_charleshearts10/end",
+		}
+	},
 	]
 }

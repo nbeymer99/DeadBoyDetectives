@@ -1,0 +1,108 @@
+{
+	"Changes": [
+		// replace buffs tilesheet
+	{
+		"LogName": "BuffSheet",
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+		"FromFile": "assets/objects/BuffsIcons.png"
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/WearableData",
+		"Entries": {
+			"{{ModId}}_CrystalRing": {
+				"BuffIdToApply": "{{ModId}}_crystalRing",
+			},
+		},
+	},
+		
+		//add buffs
+	{
+		"Action": "EditData",
+		"Target": "Data/Buffs",
+		"Entries": {
+			"{{ModId}}_crystalRing": {
+				"DisplayName": "Crystal Ring",
+				"Description": "Increases immunity and health regeneration.",
+				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+				"IconSpriteIndex": 2,
+				"Duration": -2,
+				"Effects": {
+					"Immunity": 3,
+				},				
+				"CustomFields": {
+					"spacechase0.SpaceCore/HealthRegeneration": 2
+				},
+			},
+			
+			"edwin_defense": {
+				"DisplayName": "Spell of Protection",
+				"Description": "Edwin's way of keeping you safe.",
+				"IsDebuff": false,
+				"GlowColor": null,
+				"Duration": -2,
+				"MaxDuration": -1,
+				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+				"IconSpriteIndex": 0,
+				"Effects": {
+					"CombatLevel": 0,
+					"FarmingLevel": 0,
+					"FishingLevel": 0,
+					"MiningLevel": 0,
+					"LuckLevel": 1,
+					"ForagingLevel": 0,
+					"MaxStamina": 0,
+					"MagneticRadius": 0,
+					"Speed": 0,
+					"Defense": 3,
+					"Attack": 0,
+					"AttackMultiplier": 0,
+					"Immunity": 0,
+					"KnockbackMultiplier": 0,
+					"WeaponSpeedMultiplier": 0,
+					"CriticalChanceMultiplier": 0,
+					"CriticalPowerMultiplier": 0,
+					"WeaponPrecisionMultiplier": 0
+				},
+				"ActionsOnApply": null,
+				"CustomFields": null
+			},
+			
+			"charles_attack": {
+				"DisplayName": "Charles' Gift",
+				"Description": "Charles' enchanted amulet gives you a bonus to your attacks.",
+				"IsDebuff": false,
+				"GlowColor": null,
+				"Duration": -2,
+				"MaxDuration": -1,
+				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+				"IconSpriteIndex": 1,
+				"Effects": {
+					"CombatLevel": 0,
+					"FarmingLevel": 0,
+					"FishingLevel": 0,
+					"MiningLevel": 0,
+					"LuckLevel": 0,
+					"ForagingLevel": 0,
+					"MaxStamina": 0,
+					"MagneticRadius": 0,
+					"Speed": 0,
+					"Defense": 0,
+					"Attack": 3,
+					"AttackMultiplier": 1.5,
+					"Immunity": 0,
+					"KnockbackMultiplier": 0,
+					"WeaponSpeedMultiplier": 1.5,
+					"CriticalChanceMultiplier": 0,
+					"CriticalPowerMultiplier": 0,
+					"WeaponPrecisionMultiplier": 0
+					},
+				"ActionsOnApply": null,
+				"CustomFields": null
+			},
+		}
+	},
+	]
+}

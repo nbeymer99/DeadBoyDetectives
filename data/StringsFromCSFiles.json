@@ -1,0 +1,12 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"Entries": {
+			"{{ModId}}_Map.001": "Tragic Mick's",
+			"{{ModId}}_Map.002": "Open 9:00AM to 9:00PM",
+		}
+	},
+	]
+}

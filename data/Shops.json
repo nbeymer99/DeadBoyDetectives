@@ -69,7 +69,32 @@
 					"Id": "TragicMick_EverbloomSeed",
 					"ItemId": "{{ModId}}_EverbloomSeed",
 					"Price": 1500000
-				}
+				},
+				{
+					"Id": "TragicMickSquidEgg",
+					"ItemId": "{{ModId}}_SquidEgg",
+					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_TM_NewStock Received",
+					"Price": 5000
+				},
+				{
+					"Id": "TragicMickDandelionSpriteJar",
+					"ItemId": "{{ModId}}_DandelionSpriteJar",
+					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_TM_NewStock Received",
+					"MaxStack": 1,
+					"Price": 2000
+				},
+				{
+					"Id": "TragicMick_CrystalRing",
+					"ItemId": "{{ModId}}_CrystalRing",
+					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_TM_NewStock Received",
+					"Price": 5000
+				},
+				{
+					"Id": "TragicMick_RecordPlayer",
+					"ItemId": "{{ModId}}_RecordPlayer",
+					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_TM_NewStock Received",
+					"Price": 7000
+				},
 				]
 			},
 			

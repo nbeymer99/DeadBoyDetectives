@@ -9,6 +9,12 @@
         	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki",
         	"FromFile": "assets/blank.json"
 		},
+		
+		// Buffs
+		{
+			"Action": "Include",
+			"FromFile": "data/Buffs.json"
+		},
 
 		//Characters
 		{
@@ -35,13 +41,19 @@
 		// Events
 		{
 			"Action": "Include",
-			"FromFile": "assets/Data/Events.json"
+			"FromFile": "data/Events.json"
+		},
+		
+		//Farm Animals
+		{
+			"Action": "Include",
+			"FromFile": "data/FarmAnimals.json"
 		},
 		
 		// Festivals
 		{
 			"Action": "Include",
-			"FromFile": "assets/data/Festivals.json"
+			"FromFile": "data/Festivals.json"
 		},
 		
 		// Fish
@@ -80,19 +92,19 @@
 		{
 			"LogName": "Items Include",
 			"Action": "Include",
-			"FromFile": "assets/data/items.json"
+			"FromFile": "data/items.json"
 		},
 		
 		// Mail
 		{
 			"Action": "Include",
-			"FromFile": "assets/data/mail.json"
+			"FromFile": "data/mail.json"
 		},
 		
 		// Maps and Locations
 		{
 			"Action": "Include",
-			"FromFile": "assets/maps/mapImplementation.json"
+			"FromFile": "data/mapImplementation.json"
 		},
 		
 		{
@@ -108,25 +120,25 @@
 		// Quests
 		{
 			"Action": "Include",
-			"FromFile": "assets/data/Quests.json"
+			"FromFile": "data/Quests.json"
 		},
 		
 		// Shops
 		{
 			"Action": "Include",
-			"FromFile": "assets/data/Shops.json"
+			"FromFile": "data/Shops.json"
 		},
 		
 		// Strings
 		{
 			"Action": "Include",
-			"FromFile": "assets/data/StringsFromMaps.json"
+			"FromFile": "data/StringsFromMaps.json"
 		},
 		
 		// Trigger Actions
 		{
 			"Action": "Include",
-			"FromFile": "assets/data/TriggerActions.json"
+			"FromFile": "data/TriggerActions.json"
 		}
     ],
 	
