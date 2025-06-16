@@ -1,0 +1,14 @@
+{
+	"Changes": [
+	{
+		"LogName": "Jenny Animations",
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"Entries": {
+			"jenny_drink": "0/16 16 16 16 16 16 16 16 16 16 16 17 17 18 18 18 18 18 18 18 17 17 16 16 16 16 16/0",
+			"jenny_smoke": "4/20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 22 23 24 25 25 25 25 25 25 25 25 25 26 27 20 20 20 20 20 20 20 20 20 20 20/4",
+			"jenny_sleep": "4/19/4",
+		},
+	},
+	]
+}

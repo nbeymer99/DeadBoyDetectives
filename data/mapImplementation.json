@@ -139,6 +139,17 @@
 						"Y": 23,
 					},
                 },
+				
+				"{{ModId}}_CrystalVoid": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_CrystalVoid"
+                    },
+					"DisplayName": "Crystal's Void",
+					"DefaultArrivalTile": {
+						"X": 22,
+						"Y": 26,
+					},
+                },
 
 				"{{ModId}}_Roof": {
                     "CreateOnLoad": {
@@ -221,8 +232,20 @@
 		
 		{
             "Action": "Load",
+            "Target": "Maps/{{ModId}}_CrystalAndNiko_Ruins",
+            "FromFile": "assets/maps/CrystalAndNiko_Ruins.tmx"
+        },
+		
+		{
+            "Action": "Load",
             "Target": "Maps/{{ModId}}_SeanceMap",
             "FromFile": "assets/maps/Seance.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_CrystalVoid",
+            "FromFile": "assets/maps/CrystalVoid.tmx"
         },
 		
 		// WORLD MAP 
@@ -340,6 +363,17 @@
 			"FromFile": "assets/maps/TongueAndTail.tmx",
 			"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
 			"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 }
+		},
+		{
+			"LogName": "NikoRoomRuins",
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_CrystalAndNiko",
+			"FromFile": "assets/maps/CrystalAndNiko_Ruins.tmx",
+			"FromArea": { "X": 9, "Y": 5, "Width": 16, "Height": 19 },
+			"ToArea": { "X": 9, "Y": 5, "Width": 16, "Height": 19 },
+			"When": {
+				"HasSeenEvent |contains={{ModId}}_Seance2": false,
+			}
 		},
 		{
 			"Action": "EditMap",

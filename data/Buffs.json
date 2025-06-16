@@ -1,8 +1,7 @@
 {
 	"Changes": [
-		// replace buffs tilesheet
+
 	{
-		"LogName": "BuffSheet",
 		"Action": "Load",
 		"Target": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
 		"FromFile": "assets/objects/BuffsIcons.png"
@@ -12,7 +11,7 @@
 		"Action": "EditData",
 		"Target": "spacechase0.SpaceCore/WearableData",
 		"Entries": {
-			"{{ModId}}_CrystalRing": {
+			"(O){{ModId}}_CrystalRing": {
 				"BuffIdToApply": "{{ModId}}_crystalRing",
 			},
 		},
@@ -33,7 +32,7 @@
 					"Immunity": 3,
 				},				
 				"CustomFields": {
-					"spacechase0.SpaceCore/HealthRegeneration": 2
+					"spacechase0.SpaceCore/HealthRegeneration": 1
 				},
 			},
 			
@@ -47,13 +46,7 @@
 				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
 				"IconSpriteIndex": 0,
 				"Effects": {
-					"CombatLevel": 0,
-					"FarmingLevel": 0,
-					"FishingLevel": 0,
-					"MiningLevel": 0,
 					"LuckLevel": 1,
-					"ForagingLevel": 0,
-					"MaxStamina": 0,
 					"MagneticRadius": 0,
 					"Speed": 0,
 					"Defense": 3,

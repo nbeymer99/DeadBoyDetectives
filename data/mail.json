@@ -14,11 +14,13 @@
 			
 			"{{ModId}}_TM_NewStock": "@,^^I've got some new stock you might like. Those ghost boys dropped it off.  Come check it out if you've got the time.^^    - Mick[#]New Stock at Tragic Mick's",
 			
-			//"{{ModId}}_SeanceInvitation1": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.%item quest {{ModId}}_SeanceInvitationQuest true %%[#]The Seance",
+			"{{ModId}}_SeanceInvitation1": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.%item quest {{ModId}}_SeanceInvitationQuest true %%[#]The Seance",
 			
-			//"{{ModId}}_SeanceIngredients": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin%item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%",
+			"{{ModId}}_SeanceIngredients": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin%item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%",
 			
-			//"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
+			"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
+			
+			"{{ModId}}_TM_NewStock": "Thanks to all the help you've been giving the Dead Boy Detective Agency, I've got some new stock in the shop. Good stuff. Come down and take a look if you've got time.^    - Mick[#]New Stock at Tragic Mick's",
 		}
 	}
 	]

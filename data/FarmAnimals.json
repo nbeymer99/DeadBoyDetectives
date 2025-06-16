@@ -43,8 +43,8 @@
 					"UseFlippedRightForLeft": true,
 					"Shadow": {
 						"Offset": {
-							"X": 16,
-							"Y": 0
+							"X": 0,
+							"Y": 20
 						}
 					},
 					

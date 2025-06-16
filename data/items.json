@@ -33,6 +33,19 @@
 				
 			},
 			
+			"{{ModId}}_DandelionSpriteJar": {
+				"Name": "{{ModId}}_DandelionSpriteJar",
+				"Displayname": "Sprite Jar",
+				"Description": "Home to two very angry dandelion sprites. Their vocabulary sure is colorful.",
+				"Type": "Basic",
+				"Category": -24,
+				"Price": "6000",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 13,
+				"CanBeTrashed": false,
+				"CanBeShipped": false,
+			},
+			
 			// The Everbloom was kindly loaned to me from e_va's fic "An Amateur's Guide to Auction Theory"!
 			"{{ModId}}_EverbloomSeed": {
 				"Name": "{{ModId}}_EverbloomSeed",
@@ -132,23 +145,6 @@
 	
 	{
 		"Action": "EditData",
-		"Target": "Data/Furniture",
-		"Entries": {
-			"{{ModId}}_DandelionSpriteJar": {
-				"Name": "{{ModId}}_DandelionSpriteJar",
-				"Displayname": "Sprite Jar",
-				"Description": "Home to two very angry dandelion sprites. Their vocabulary sure is colorful.",
-				"Type": "Basic",
-				"Category": -24,
-				"Price": "6000",
-				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
-				"SpriteIndex": 13
-			},
-		},
-	},
-	
-	{
-		"Action": "EditData",
 		"Target": "Data/Crops",
 		"Entries": {
 			"{{ModId}}_EverbloomSeed": {
@@ -181,6 +177,16 @@
 			"Delimiter": " "
 		},
 		]
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/ObjectExtensionData",
+		"Entries": {
+			"{{ModId}}_Magic8Ball": {
+				"UseForTriggerAction": true
+			},
+		},
 	},
 
 	{
