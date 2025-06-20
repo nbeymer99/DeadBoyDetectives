@@ -129,7 +129,7 @@
 				"ContextTags": [ "light_source" ]
 			},
 			
-			"{{ModId}}_RecordPlayer": {
+			/* "{{ModId}}_RecordPlayer": {
 				"Name": "{{ModId}}_RecordPlayer",
 				"DisplayName": "Record Player",
 				"Description": "A vintage record player from around 1989.",
@@ -139,8 +139,31 @@
 				"IsLamp": false,
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 11,
-			},
+			}, */
 		}
+	},
+	
+	// optional config - turn jukebox into record player
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/objects/itemsAndFurniture.png",
+		"FromArea": {
+			"X": 16,
+			"Y": 32,
+			"Width": 32,
+			"Height": 32
+		},
+		"ToArea": {
+			"X": 16,
+			"Y": 832,
+			"Width": 32,
+			"Height": 32
+		},
+		"PatchMode": "Replace",
+		"When": {
+			"Jukebox": "RecordPlayer",
+		},
 	},
 	
 	{

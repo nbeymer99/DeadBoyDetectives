@@ -1,12 +1,20 @@
 {
-"Format": "2.6.1",
+	"Format": "2.7.0",
+
+	"ConfigSchema": {
+		"Jukebox": {
+			"AllowValues": "Vanilla, RecordPlayer",
+			"Default": "RecordPlayer",
+		},
+	},
+
     "Changes": [
 		
 		// Blank Loads
 		{
    		 "LogName": "Blank JSON load", 
         	"Action": "Load",
-        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki, Characters/Dialogue/JennyButcher, Characters/Dialogue/MarriageDialogueJennyButcher, Characters/schedules/JennyButcher, Strings/schedules/JennyButcher",
+        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki, Characters/Dialogue/JennyButcher, Characters/Dialogue/MarriageDialogueJennyButcher, Characters/schedules/JennyButcher, Strings/schedules/JennyButcher, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Data/Events/{{ModId}}_CrystalVoid",
         	"FromFile": "assets/blank.json"
 		},
 		

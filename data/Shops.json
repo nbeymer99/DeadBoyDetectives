@@ -91,41 +91,40 @@
 				},
 				{
 					"Id": "TragicMick_RecordPlayer",
-					"ItemId": "{{ModId}}_RecordPlayer",
+					"ItemId": "(BC)209",
 					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_TM_NewStock Received",
-					"Price": 7000
 				},
 				]
 			},
 			
 			"TongueAndTail": {
 				"Owners": [
-				{
-					"Name": "AnyOrNone",
-					"Id": "Jenny",
-					"Portrait": "Portraits/{{ModId}}_Jenny",
-					"Dialogues": [
 					{
-						"Id": "Jenny_Default",
-						"Dialogue": "What do you want? I don't have all day."
+						"Name": "AnyOrNone",
+						"Id": "Jenny",
+						"Portrait": "Portraits/{{ModId}}_Jenny",
+						"Dialogues": [
+							{
+								"Id": "Jenny_Default",
+								"Dialogue": "What do you want? I don't have all day."
+							}
+						]
 					}
-					]
-				}
 				],
 			
 				"Items": [
-				{
-					"Id": "Steak",
-					"ItemId": "{{ModId}}_Steak"
-				},
-				{
-					"Id": "Pork",
-					"ItemId": "{{ModId}}_Pork"
-				},
-				{
-					"Id": "Chicken",
-					"ItemId": "{{ModId}}_Chicken"
-				},
+					{
+						"Id": "Steak",
+						"ItemId": "{{ModId}}_Steak"
+					},
+					{
+						"Id": "Pork",
+						"ItemId": "{{ModId}}_Pork"
+					},
+					{
+						"Id": "Chicken",
+						"ItemId": "{{ModId}}_Chicken"
+					},
 				]
 			}
 		}
