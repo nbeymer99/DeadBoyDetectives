@@ -5,7 +5,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/JennyButcher",
 		"Entries": {
-			"Introduction": "So you're the new kid everyone has been flipping out over.#$b#Welcome to town, my hours are 9 to 6, now I've got shit to do.",
+			"Introduction": "So you're the new kid everyone has been flipping out over.#$b#Welcome to town, my hours are 9 to 6, now go away, I've got shit to do.",
 			
 			// GENERIC DIALOGUE
 		    "Mon":  "Can't you see I'm busy, kid?",

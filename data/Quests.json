@@ -7,6 +7,8 @@
 		"Entries": {
 			"{{ModId}}_EverbloomQuest": "ItemDelivery/The Everbloom/Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin./Cultivate and harvest an Everbloom flower, then bring it to Edwin./EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/Where on Earth did you get this? It must have taken ages to grow. Thank you, @.",
 			
+			"{{ModId}}_CrystalCactusQuest": "ItemDelivery/A Prickly Subject/Edwin has requested you bring him cactus seeds, though he didn't say what they were for./Acquire cactus seeds, then bring them to Edwin./EdwinPayne (O)802 1/-1/300/Reward Description/true/You received my letter!#$b#Thank you, @. These will do nicely.$action AddMail Current CactusGottenFlag received",
+			
 			/* "{{ModId}}_SeanceInvitationQuest": "Basic/The Seance/You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost./Attend the seance in the graveyard after 8pm./null/-1/0/-1/false//",
 			
 			"{{ModId}}_SeanceIngredients1": "ItemDelivery/Ingredients for a Spell: Void Essence/The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard./Collect and deliver 10 Void Essence to Edwin./EdwinPayne (O)769 10/-1/false/Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.$action AddMail Host SeanceIngredients1 received",

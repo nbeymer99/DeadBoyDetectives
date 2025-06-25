@@ -199,7 +199,15 @@
 			"Value": "{{ModId}}_Angie",
 			"Delimiter": " "
 		},
+		
+		{
+			"Operation": "Append",
+			"Target": ["Entries", "Universal_Hate"],
+			"Value": "{{ModId}}_DandelionSpriteJar",
+			"Delimiter": " "
+		},
 		]
+		
 	},
 	
 	{

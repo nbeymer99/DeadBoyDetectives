@@ -100,8 +100,7 @@
 			"TongueAndTail": {
 				"Owners": [
 					{
-						"Name": "AnyOrNone",
-						"Id": "Jenny",
+						"Name": "JennyButcher",
 						"Portrait": "Portraits/{{ModId}}_Jenny",
 						"Dialogues": [
 							{
@@ -111,19 +110,36 @@
 						]
 					}
 				],
+				"SalableItemTags": [ "category_fish", "category_meat" ],
 			
 				"Items": [
 					{
-						"Id": "Steak",
-						"ItemId": "{{ModId}}_Steak"
+						"Id": "Fried Egg",
+						"ItemId": "(O)194"
 					},
 					{
-						"Id": "Pork",
-						"ItemId": "{{ModId}}_Pork"
+						"Id": "Fried Calamari",
+						"ItemId": "(O)202"
 					},
 					{
-						"Id": "Chicken",
-						"ItemId": "{{ModId}}_Chicken"
+						"Id": "Salmon Dinner",
+						"ItemId": "(O)212"
+					},
+					{
+						"Id": "Sashimi",
+						"ItemId": "(O)227"
+					},
+					{
+						"Id": "Chowder",
+						"ItemId": "(O)727"
+					},
+					{
+						"Id": "Crab Cakes",
+						"ItemId": "(O)732"
+					},
+					{
+						"Id": "Bug Meat",
+						"ItemId": "(O)684"
 					},
 				]
 			}

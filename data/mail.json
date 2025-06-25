@@ -4,15 +4,15 @@
 		"Action": "EditData",
 		"Target": "Data/Mail",
 		"Entries": {
-			"{{ModId}}_EdwinProtectionSpellInvite": "Dear @,^^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^^Your friend,^    -Edwin[#]Edwin's Invitation",
+			"{{ModId}}_EdwinProtectionSpellInvite": "Dear @,^^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^^Your friend,^    Edwin[#]Edwin's Invitation",
 			
-			"{{ModId}}_CharlesAmuletInvite": "Hey @,^You've been such a good friend lately, and I want to repay the favor.^Meet me at the agency--I've got a surprise I think you'll like. :)^^    -Charles[#]Charles' Gift",
+			"{{ModId}}_CharlesAmuletInvite": "Hey @,^^You've been such a good friend lately, and I want to repay the favor.^^Meet me at the agency--I've got a surprise I think you'll like. :)^^    -Charles[#]Charles' Gift",
 			
 			"{{ModId}}_GiveEverbloomQuest": "@,^I found this old seed we got as payment probably thirty years ago. The bloke who gave it to us said the blossom might make for a good spell ingredient.^^You've got way more of a green thumb than me, so I was wondering if you would try and grow one? I'd like to surprise Edwin with it.^^Thanks, mate!%item id {{ModId}}_EverbloomSeed %% %item quest {{ModId}}_EverbloomQuest true %% [#]The Everbloom",
 			
 			"{{ModId}}_CatchAngie": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy[#]Sea Monsters",
 			
-			"{{ModId}}_TM_NewStock": "@,^^I've got some new stock you might like. Those ghost boys dropped it off.  Come check it out if you've got the time.^^    - Mick[#]New Stock at Tragic Mick's",
+			"{{ModId}}_TM_NewStock": "@,^^I've got some new stock you might like. Those ghost boys dropped it off. Come check it out if you've got the time.^^    - Mick[#]New Stock at Tragic Mick's",
 			
 			"{{ModId}}_SeanceInvitation1": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.%item quest {{ModId}}_SeanceInvitationQuest true %%[#]The Seance",
 			
@@ -20,7 +20,13 @@
 			
 			"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
 			
+			"{{ModId}}_CactusGottenFlag": "You gave cactus seeds to Edwin.[#]CactusGottenFlag",
+			
 			"{{ModId}}_TM_NewStock": "Thanks to all the help you've been giving the Dead Boy Detective Agency, I've got some new stock in the shop. Good stuff. Come down and take a look if you've got time.^    - Mick[#]New Stock at Tragic Mick's",
+			
+			"{{ModId}}_CrystalCactus": "Dear @,^^I am in need of cactus seeds. I have been told you know where to acquire some. Would you mind terribly bringing me some? It's for something important.^^Regards,^    Edwin%item quest {{ModId}}_CrystalCactusQuest true %%[#]Cactus Seeds for Edwin",
+			
+			"{{ModId}}_CrystalSapling": "Hey @,^^I've got something I want to show you. Touch your hand to the sapling in my room and you'll see. Don't freak out, okay?^^    - Crystal[#]Crystal's Sapling",
 		}
 	}
 	]

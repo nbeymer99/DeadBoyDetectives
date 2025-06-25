@@ -227,8 +227,21 @@
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_CrystalAndNiko",
-            "FromFile": "assets/maps/CrystalAndNiko.tmx"
+            "FromFile": "assets/maps/CrystalAndNiko.tmx",
+			"When": {
+				"HasSeenEvent |contains={{ModId}}_Seance2": true,
+			}
         },
+		
+		{
+			"LogName": "NikoRoomRuins",
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_CrystalAndNiko",
+			"FromFile": "assets/maps/CrystalAndNiko_Ruins.tmx",
+			"When": {
+				"HasSeenEvent |contains={{ModId}}_Seance2": false,
+			}
+		},
 		
 		{
             "Action": "Load",
@@ -258,7 +271,8 @@
 			"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
 			"PatchMode": "Overlay",
 		},
-			// map hover info/location placing
+			// map hover info/location placing - 
+			// !!!NOT WORKING!!!
 		{
 			"Action": "EditData",
 			"Target": "Data/WorldMap",
@@ -365,22 +379,22 @@
 			"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 }
 		},
 		{
-			"LogName": "NikoRoomRuins",
-			"Action": "EditMap",
-			"Target": "Maps/{{ModId}}_CrystalAndNiko",
-			"FromFile": "assets/maps/CrystalAndNiko_Ruins.tmx",
-			"FromArea": { "X": 9, "Y": 5, "Width": 16, "Height": 19 },
-			"ToArea": { "X": 9, "Y": 5, "Width": 16, "Height": 19 },
-			"When": {
-				"HasSeenEvent |contains={{ModId}}_Seance2": false,
-			}
-		},
-		{
 			"Action": "EditMap",
 			"Target": "Maps/Town",
 			"FromFile": "assets/maps/Town_Swing.tmx",
 			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
 			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_CrystalAndNiko",
+			"FromFile": "assets/maps/CrystalTreeWarp.tmx",
+			"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+			"ToArea": { "X": 37, "Y": 9, "Width": 1, "Height": 2 },
+			"When": {
+				"Hearts:CrystalPalace": "10, 11, 12, 13"
+			}
 		},
 		
 		// MAP EDITS
@@ -601,6 +615,92 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                         "Passable": "T"
+                    }
+                },
+            ]
+        },
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_CrystalAndNiko",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 29,
+                        "Y": 12
+                    },
+                    "Layer": "Front2",
+					"SetTilesheet": "1",
+					"SetIndex": 434,
+                },
+            ],
+			"When": {
+				"HasFlag: |contains={{ModId}}_CactusGottenFlag": true,
+			}
+        },
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Beach-NightMarket",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 39,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "NPCPassable": "T"
+                    }
+                },
+            ]
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Beach-NightMarket",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 40,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "NPCPassable": "T"
+                    }
+                },
+            ]
+        },
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Beach-NightMarket",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 41,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "NPCPassable": "T"
+                    }
+                },
+            ]
+        },
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Beach-NightMarket",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 42,
+                        "Y": 40
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "NPCPassable": "T"
                     }
                 },
             ]

@@ -26,13 +26,24 @@
 				"DisplayName": "Crystal Ring",
 				"Description": "Increases immunity and health regeneration.",
 				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
-				"IconSpriteIndex": 2,
+				"IconSpriteIndex": 999,
 				"Duration": -2,
 				"Effects": {
 					"Immunity": 3,
 				},				
 				"CustomFields": {
 					"spacechase0.SpaceCore/HealthRegeneration": 1
+				},
+			},
+			
+			"{{ModId}}_CrystalVoidRegen": {
+				"DisplayName": "Crystal's Void",
+				"Description": "The calmness of Crystal's void fills you.",
+				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+				"IconSpriteIndex": 2,
+				"Duration": -2,
+				"CustomFields": {
+					"spacechase0.SpaceCore/StaminaRegeneration": 1
 				},
 			},
 			

@@ -51,6 +51,12 @@
 			
 			"fall": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 11 9 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.000\"/0800 Town 48 87 2 edwin_spells \"Strings\\schedules\\EdwinPayne:Spells.000\"/1630 {{ModId}}_DeadBoyAgency 8 14 3 edwin_reading2",
 		
+			"winter_15": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 2 9 3 edwin_browseleft/0900 ArchaeologyHouse 10 11 3/1700 Beach 40 40 2 edwin_pose",
+			
+			"winter_16": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/a1730 Beach 40 40 2 edwin_pose",
+			
+			"winter_17": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 7 8 3 edwin_write/1100 Beach 15 23 1 edwin_magnifyright/1700 Beach 40 40 2 edwin_pose",
+			
 			"winter_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
 			
 			"winter_Wed": "GOTO spring_Wed",

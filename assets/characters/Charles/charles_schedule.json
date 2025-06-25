@@ -50,6 +50,12 @@
 			"summer_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
 			
 			"fall": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0800 Town 49 88 3 \"Strings\\schedules\\CharlesRowland:Graveyard.000\"/1630 {{ModId}}_DeadBoyAgency 3 17 3 charles_paintrunes \"Strings\\schedules\\CharlesRowland:Painting.000\"",
+			
+			"winter_15": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 7 2 charles_bagoftricks \"Strings\\schedules\\CharlesRowland:Bag.000\"/1100 ArchaeologyHouse 15 9 0/1700 Beach 39 40 2",
+			
+			"winter_16": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/1700 Beach 39 40 2",
+			
+			"winter_17": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 Beach 11 20 3 \"Strings\\schedules\\CharlesRowland:Waterside.000\"/1700 Beach 39 40 2",
 		
 			"winter_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
 			

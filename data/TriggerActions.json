@@ -33,6 +33,27 @@
 					"AddMail Current {{ModId}}_CharlesAmuletInvite now",
 				]
 			},
+			
+			// send mail - crystal void invitation
+			"{{ModId}}Crystal10Hearts": {
+				"Id": "{{ModId}}_CrystalHearts10",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 2500",
+				"Actions": [
+					"AddMail Current {{ModId}}_CrystalSapling now",
+				]
+			},
+			
+			// send mail - edwin cactus quest mail
+			"{{ModId}}_EdwinCactusMail": {
+				"Id": "{{ModId}}_EdwinCactusMail",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 1500",
+				"Actions": [
+					"AddMail Current {{ModId}}_CrystalCactus now",
+				]
+			},
+			
 			// add edwin's 10 heart buff
 			"EdwinPayne_10": {
 				"Id": "{{ModId}}_EdwinProtectionSpell",
@@ -75,6 +96,7 @@
 					"AddMail Current {{ModId}}_GiveEverbloomQuest tomorrow"
 				]
 			},
+			// 3 hearts with the crew - new stock at tragic mick's
 			"{{ModId}}_TM_NewStock_Mail": {
 				"Id": "{{ModId}}_TM_NewStock_Mail",
 				"Trigger": "DayStarted",
@@ -93,16 +115,49 @@
 				]
 			},
 			
-			/* "{{ModId}}_8BallUsed": {
-				"Id": "{{ModId}}_8BallUsed",
-				"Trigger": "spacechase0.SpaceCore_OnItemUsed",
-				"Condition": "ITEM_ID Input {{ModId}}_Magic8Ball",
+			// tree warp there
+			"{{ModId}}_TreeWarp": {
+				"Id": "TreeWarp",
+				"Trigger": "Manual",
+				"Actions": [
+					"spacechase0.SpaceCore_PlaySound leafrustle true",
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalVoid 22 26 2"
+				]
+			},
+			
+			// tree warp back
+			"{{ModId}}_TreeWarp_Back": {
+				"Id": "TreeWarp_Back",
+				"Trigger": "Manual",
+				"Actions": [
+					"spacechase0.SpaceCore_PlaySound leafrustle true",
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalAndNiko 37 11 2"
+				]
+			},
+			
+			// crystal void stamina regen - apply
+			"{{ModId}}_CrystalVoidStaminaRegen": {
+				"Id": "{{ModId}}_CrystalVoidStaminaRegen",
+				"Trigger": "LocationChanged",
+				"Condition": "LOCATION_NAME Target {{ModId}}_CrystalVoid",
 				"MarkActionApplied": false,
 				"Actions": [
-					"spacechase0.SpaceCore_ShowHudMessage \"{{Random:It is certain, It is decidedly so, Without a doubt, Yes definitely, You may rely on it, As I see it yes, Most likely, Outlook good, Signs point to yes, Ask again later, Better not tell you now, Concentrate and ask again, Don't count on it, My reply is no, My sources say no, Outlook not so good, Very doubtful}}\" (O){{ModId}}_Magic8Ball"
-				]
-			}, */
+					"AddBuff {{ModId}}_CrystalVoidRegen",
+				],
+			},
 			
+			// crystal void stamina regen - remove
+			"{{ModId}}_CrystalVoidStaminaRegen_Remove": {
+				"Id": "{{ModId}}_CrystalVoidStaminaRegen_Remove",
+				"Trigger": "LocationChanged",
+				"Condition": "LOCATION_NAME Target {{ModId}}_CrystalAndNiko",
+				"MarkActionApplied": false,
+				"Actions": [
+					"RemoveBuff {{ModId}}_CrystalVoidRegen",
+				],
+			},
+			
+			// 8 ball luck return
 			"{{ModId}}_8BallUsed_Bad": {
 				"Id": "{{ModId}}_8BallUsed_Bad",
 				"Trigger": "spacechase0.SpaceCore_OnItemUsed",
