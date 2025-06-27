@@ -5,9 +5,9 @@
         "Action": "EditData",
         "Target": "Characters/schedules/JennyButcher",
 		"Entries": {
-			"spring": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/a0900 {{ModId}}_TongueAndTail 9 21 2/1800 {{ModId}}_TongueAndTail 18 21 0/2000 Saloon 26 18 2 jenny_drink/2330 {{ModId}}_TongueAndTail 16 12 1 jenny_sleep",
+			//"Sun": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/0900 SeedShop 13 28 1/1200 Mountain 49 29 1 jenny_smoke/1600 Town 19 73 2/2100 {{ModId}}_TongueAndTail 16 12 1 jenny_sleep",
 			
-			"Sun": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/0900 JojaMart 9 16 3/1200 Mountain 49 29 1 jenny_smoke/1600 Town 19 73 2/2100 {{ModId}}_TongueAndTail 16 12 1 jenny_sleep",
+			"spring": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/a0900 {{ModId}}_TongueAndTail 9 21 2/1800 {{ModId}}_TongueAndTail 18 21 0/2000 Saloon 26 18 2 jenny_drink/2330 {{ModId}}_TongueAndTail 16 12 1 jenny_sleep",
 		}
 	}
 	]

@@ -7,6 +7,8 @@
 		"Entries": {
 			"{{ModId}}_EverbloomQuest": "ItemDelivery/The Everbloom/Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin./Cultivate and harvest an Everbloom flower, then bring it to Edwin./EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/Where on Earth did you get this? It must have taken ages to grow. Thank you, @.",
 			
+			"{{ModId}}_CatchAngie": "ItemDelivery/A Glimmer in the Deep/There are strange lights in the water near the lighthouse. Try to reel in whatever it might be./Catch the strange fish near the lighthouse./Willy (O){{ModId}}_Angie 1/-1/2500/-1/true/That's the biggest angler fish I've seen in all my years of fishing!#$b#You say her name is Angie?#$b#Whatever floats your boat. Here's the reward.",
+			
 			"{{ModId}}_CrystalCactusQuest": "ItemDelivery/A Prickly Subject/Edwin has requested you bring him cactus seeds, though he didn't say what they were for./Acquire cactus seeds, then bring them to Edwin./EdwinPayne (O)802 1/-1/300/Reward Description/true/You received my letter!#$b#Thank you, @. These will do nicely.$action AddMail Current CactusGottenFlag received",
 			
 			/* "{{ModId}}_SeanceInvitationQuest": "Basic/The Seance/You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost./Attend the seance in the graveyard after 8pm./null/-1/0/-1/false//",

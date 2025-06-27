@@ -48,7 +48,7 @@
 			
 			"fall_Sun": "GOTO spring_Sun",
 			
-			"winter_15": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1730 Beach 42 36 1 \"Strings\\schedules\\CrystalPalace:NightMarket.000\"",
+			"winter_15": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1730 Beach 38 36 3 \"Strings\\schedules\\CrystalPalace:NightMarket.000\"",
 			
 			"winter_Mon": "GOTO spring_Mon",
 			

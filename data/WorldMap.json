@@ -1,0 +1,111 @@
+{
+    "Changes": [
+	// map image
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/map_{{season}}",
+		"FromFile": "assets/maps/{{season}}_worldmap.png",
+		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
+		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
+		"PatchMode": "Overlay",
+	},
+	
+	// map hover info/location placing - 
+	// !!!NOT WORKING!!!
+	/* {
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "BaseTexture" ],
+		"Entries": {
+			"{{ModId}}_Lighthouse": {
+				"Id": "{{ModId}}_Lighthouse",
+				"Texture": "LooseSprites/map",
+				"SourceRect": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
+			},
+		},
+	}, */
+
+	{
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "MapAreas" ],
+		"Entries": {
+			"{{ModId}}_Lighthouse": {
+				"Id": "{{ModId}}_Lighthouse",
+				"PixelArea": {
+					"X": 121, 
+					"Y": 132,
+					"Width": 56,
+					"Height": 48,
+				},
+				"ScrollText": "Point No Point Lighthouse",
+				"Tooltips": [
+					{
+						"Id": "{{ModId}}_Lighthouse",
+						"PixelArea": {
+							"X": 133, 
+							"Y": 143,
+							"Width": 15,
+							"Height": 23,
+						}, 
+						"Text": "Point No Point Lighthouse",
+						"LeftNeighbor": "Forest/SewerPipe",
+						"RightNeighbor": "Beach/LonelyStone",
+						"UpNeighbor": "{{ModId}}_Lighthouse/{{ModId}}_TragicMicks",
+						"DownNeighbor": "",
+					},
+					{
+						"Id": "{{ModId}}_TragicMicks",
+						"PixelArea": {
+							"X": 152, 
+							"Y": 138,
+							"Width": 7,
+							"Height": 9,
+						}, 
+						"Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:{{ModId}}_Map.001]\n                [LocalizedText Strings\\StringsFromCSFiles:{{ModId}}_Map.002]\n               ",
+						"LeftNeighbor": "Forest/SewerPipe",
+						"RightNeighbor": "Beach/ElliottCabin",
+						"UpNeighbor": "Town/SamHouse",
+						"DownNeighbor": "{{ModId}}_Lighthouse/{{ModId}}_Lighthouse",
+					},
+				],
+				"WorldPositions": [
+					{
+						"Id": "{{ModId}}_TragicMicks",
+						"LocationContext": "Default",
+						"LocationNames": [ "{{ModId}}_TragicMicks", "{{ModId}}_LighthouseInterior", "{{ModId}}_Lighthouse" ],
+						"TileArea": {
+							"X": 6,
+							"Y": 0,
+							"Width": 97,
+							"Height": 49
+						},
+						"ScrollTextZones": [
+							{
+								"Id": "{{ModId}}_TragicMicks",
+								"TileArea": {
+									"X": 53,
+									"Y": 9,
+									"Width": 9,
+									"Height": 10
+								},
+								"ScrollText": "Tragic Mick's",
+							},
+							{
+								"Id": "{{ModId}}_Lighthouse",
+								"TileArea": {
+									"X": 35,
+									"Y": 31,
+									"Width": 7,
+									"Height": 6
+								},
+								"ScrollText": "Point No Point Lighthouse",
+							}
+						],
+					},
+				],
+			},
+		},
+	},
+	]
+}	

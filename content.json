@@ -37,10 +37,10 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/Crystal/crystal.json"
 		},
-		{
+		/* {
 			"Action": "Include",
 			"FromFile": "assets/characters/Niko/niko.json"
-		},
+		}, */
 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/zzminorCharacters/jenny.json"
@@ -114,11 +114,14 @@
 			"Action": "Include",
 			"FromFile": "data/mapImplementation.json"
 		},
-		
 		{
 			"Action": "Load",
 			"Target": "LooseSprites/mapObjects",
 			"FromFile": "assets/maps/mapObjects.png",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/WorldMap.json"
 		},
 		//Warp 14 29 handwrittenhello.dbda_TongueAndTail
 		//Warp 13 29 handwrittenhello.dbda_TongueAndTail
@@ -141,6 +144,10 @@
 		{
 			"Action": "Include",
 			"FromFile": "data/StringsFromMaps.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/StringsFromCSFiles.json"
 		},
 		
 		// Trigger Actions

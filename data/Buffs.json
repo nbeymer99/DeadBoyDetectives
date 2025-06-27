@@ -24,7 +24,7 @@
 		"Entries": {
 			"{{ModId}}_crystalRing": {
 				"DisplayName": "Crystal Ring",
-				"Description": "Increases immunity and health regeneration.",
+				"Description": "Increases immunity and regenerates health.",
 				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
 				"IconSpriteIndex": 999,
 				"Duration": -2,

@@ -111,6 +111,7 @@
 					}
 				],
 				"SalableItemTags": [ "category_fish", "category_meat" ],
+				
 			
 				"Items": [
 					{
@@ -140,6 +141,12 @@
 					{
 						"Id": "Bug Meat",
 						"ItemId": "(O)684"
+					},
+					{
+						"ItemId": "ALL_ITEMS (O)",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"PerItemCondition": "ITEM_CONTEXT_TAG Target category_meat"
 					},
 				]
 			}

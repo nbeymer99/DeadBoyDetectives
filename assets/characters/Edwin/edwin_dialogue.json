@@ -5,6 +5,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EdwinPayne",
 		"Entries": {
+			// conversation topics
 			"Introduction": "Ah. You must be the new farmer then, judging by the state of your attire and tools? I am Edwin, one half of the Dead Boy Detectives.",
 			"divorced": "I cannot imagine what business you think you have with me, but I assure you, you're mistaken.",
 			"cc_Begin": "Charles and I have noted an uptick in activity and noise coming from downstairs. Is it your doing?",
@@ -24,6 +25,7 @@
 			"FlowerDance_Decline": "I do not make a habit of dancing, no matter what lies Charles has seen fit to spread about me.",
 			"GreenRain": "I've never seen such strange weather, save for when Charles and I angered a warlock back in '09.", 
 			"GreenRain_2": "Is this to be a regular occurrence, then?#$b#I suppose it may be a good opportunity to explore the town without fear of scaring the townspeople.",
+			"eventSeen_{{ModId}}_crystalCactus": "Crystal wishes to see me? Is she upset?#$e#Very well, I shall talk to her today.",
 			
 			// gift dialogue
 			"AcceptGift_(O)StardropTea": "You must know that we cannot—#$b#You mean I will be able to drink it? Goodness, I haven't had tea in over a century.#$b#Thank you, @. This means a great deal to me.",
@@ -46,7 +48,7 @@
 			"Sat2": "I don't suppose you have any pixie wings or small mammal bones on you?#$b#Shame. They make rather useful potion ingredients.",
 			"Sun2": "Have you visited the mines lately? Charles rather enjoys expressing his talents as the brawn there.#$b#With your stubborn attitude, I can only imagine you'll reach the bottom in no time at all.",
 
-			"Mon4": "Hello, @. I'm quite glad we got to know each other after all. You've helped me… warm up to Pelican Town.", 
+			"Mon4": "Hello, @. I'm quite glad we got to know each other after all. You've helped me warm up to Pelican Town, as it were.", 
 			"Tue4": "@, Charles and I were just discussing how helpful you’ve been since we’ve met.#$b#And I must say that I completely agree.",
 			"Wed4": "Hello, @. I must… apologize if I have been... harsh to you since we’ve met. I am not very good with people.",
 			"Thu4": "@, I noticed Charles has quite enjoyed his time in Pelican Town.#$b#And that is, in part, due to your acquaintanceship. In light of that I’d like to... thank you… for spending time with us.",
@@ -55,7 +57,7 @@
 			"Sun4": "The mines are quite dangerous. You should bring Charles with you next time you go.",
 
 			"Mon6": "Pelican Town has been home to some anomalies lately, @.#$b#We’d appreciate any information you can share with us about them.",
-			"Tue6": "@, I’m glad to see you! I have some leads on a case and...#$b#...I’d like to brainstorm some actions with Charles and you...#$b#...if you’d be amenable to.",
+			"Tue6": "@, I’m glad to see you! I have some leads on a case and...#$b#...I’d like to brainstorm some actions with you and Charles...#$b#...if you’d be amenable to.",
 			"Wed6": "@, I hope you’re doing well! I couldn’t help but notice you spending time at the agency lately.#$e#If there are any books you’d like to borrow, I wouldn’t be against lending them to you.",
 			"Thu6": "Hello, @! How is the farm doing?#$b#I’m quite intrigued by some of the crops you’re growing, actually.#$b#If you have some spare time later, I’d be delighted to discuss farming techniques with you.",
 			"Fri6": "I’ve noticed some cats around, but I’ve yet to meet the Cat King of Pelican Town.#$e#I must say, I’m glad I’ve been spared this unpleasantry.",
@@ -76,7 +78,7 @@
 			"Thu10": "You've been such a strong influence on the community, @.#$b#I shudder to think of how exhausting socializing with everyone in town must be.",
 			"Fri10": "Perhaps we might visit the lakeside sometime? Charles isn't overly fond, but I feel you might appreciate its beauty.",
 			"Sat10": "Have you investigated any interesting phenomena lately?#$b#Fascinating. You must tell me of your findings in more detail.",
-			"Sun10": "I daresay you've earned a place at the agency as much as Charles or I have, with how much you've helped lately.",   
+			"Sun10": "I daresay you've earned a place at the agency as much as Charles, Crystal or I have, with how much you've helped lately.",   
 		   
 
 			// SPECIFIC DAY DIALOGUE
