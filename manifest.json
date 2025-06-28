@@ -19,7 +19,7 @@
 		},
 		{
 			"UniqueID": "Spiderbuttons.BETAS",
-			"IsRequired": true
+			"IsRequired": false
 		}
 		]
 }

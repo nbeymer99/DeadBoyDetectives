@@ -107,7 +107,7 @@
 			},
 			// elevator ding
 			"{{ModId}}_CCElevator": {
-				"Id": "CCElevator",
+				"Id": "{{ModId}}_CCElevator",
 				"Trigger": "Manual",
 				"Actions": [
 					"spacechase0.SpaceCore_PlaySound crystal true",
@@ -117,7 +117,7 @@
 			
 			// tree warp there
 			"{{ModId}}_TreeWarp": {
-				"Id": "TreeWarp",
+				"Id": "{{ModId}}_TreeWarp",
 				"Trigger": "Manual",
 				"Actions": [
 					"spacechase0.SpaceCore_PlaySound leafrustle true",
@@ -127,7 +127,7 @@
 			
 			// tree warp back
 			"{{ModId}}_TreeWarp_Back": {
-				"Id": "TreeWarp_Back",
+				"Id": "{{ModId}}_TreeWarp_Back",
 				"Trigger": "Manual",
 				"Actions": [
 					"spacechase0.SpaceCore_PlaySound leafrustle true",

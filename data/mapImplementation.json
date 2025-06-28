@@ -303,16 +303,157 @@
 			"FromFile": "assets/maps/Town_Swing.tmx",
 			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
 			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
+		},	
+		
+		// BETAS dependency
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_CrystalAndNiko",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 37,
+						"Y": 10
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "Warp 22 26 handwrittenhello.dbda_CrystalVoid"
+					},
+				},
+			],
+			"When": {
+				"Hearts:CrystalPalace": "10, 11, 12, 13",
+			}
 		},
 		
 		{
 			"Action": "EditMap",
 			"Target": "Maps/{{ModId}}_CrystalAndNiko",
-			"FromFile": "assets/maps/CrystalTreeWarp.tmx",
-			"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
-			"ToArea": { "X": 37, "Y": 9, "Width": 1, "Height": 2 },
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 37,
+						"Y": 10
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TreeWarp"
+					},
+				},
+			],
 			"When": {
-				"Hearts:CrystalPalace": "10, 11, 12, 13"
+				"Hearts:CrystalPalace": "10, 11, 12, 13",
+				"HasMod: |contains=Spiderbuttons.BETAS": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_CrystalVoid",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 22,
+						"Y": 25
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TreeWarp_Back"
+					},
+				},
+			],
+			"When": {
+				"HasMod: |contains=Spiderbuttons.BETAS": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Ruins",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 49,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+					},
+				},
+				{
+					"Position": {
+						"X": 50,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+					},
+				},
+			],
+			"When": {
+				"HasMod: |contains=Spiderbuttons.BETAS": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Refurbished",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 49,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+					},
+				},
+				{
+					"Position": {
+						"X": 50,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+					},
+				},
+			],
+			"When": {
+				"HasMod: |contains=Spiderbuttons.BETAS": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Joja",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 49,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+					},
+				},
+				{
+					"Position": {
+						"X": 50,
+						"Y": 17
+					},
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+					},
+				},
+			],
+			"When": {
+				"HasMod: |contains=Spiderbuttons.BETAS": true,
 			}
 		},
 		
@@ -320,31 +461,31 @@
 			// Elevator NPC warp
 		{
 			"Action":"EditMap",
-			"Target":"Maps/CommunityCenter_Refurb",
+			"Target":"Maps/CommunityCenter_Refurbished",
 			"AddNPCWarps": [
 				"50 18 {{ModId}}_DeadBoyAgency 6 18"
-				],
+			],
 		},
 		{
 			"Action":"EditMap",
 			"Target":"Maps/CommunityCenter_Ruins",
 			"AddNPCWarps": [
 				"50 18 {{ModId}}_DeadBoyAgency 6 18"
-				],
+			],
 		},
 		{
 			"Action":"EditMap",
 			"Target":"Maps/CommunityCenter_Joja",
 			"AddNPCWarps": [
 				"50 18 {{ModId}}_DeadBoyAgency 6 18"
-				],
+			],
 		},
 			//beach NPC warp
 		{
 			"Action":"EditMap",
 			"Target":"Maps/Beach",
-			"MapProperties":{
-			"NPCWarp": "0 6 {{ModId}}_Lighthouse 103 8"
+			"MapProperties": {
+				"NPCWarp": "0 6 {{ModId}}_Lighthouse 103 8"
 			}
 		},
 			// beach warps
@@ -557,12 +698,11 @@
 				"HasFlag: |contains={{ModId}}_CactusGottenFlag": true,
 			}
         },
-		
 		{
             "Action": "EditMap",
             "Target": "Maps/Beach-NightMarket",
             "MapTiles": [
-                {
+				{
                     "Position": {
                         "X": 39,
                         "Y": 40
@@ -572,12 +712,6 @@
                         "NPCPassable": "T"
                     }
                 },
-            ]
-        },
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Beach-NightMarket",
-            "MapTiles": [
                 {
                     "Position": {
                         "X": 40,
@@ -588,14 +722,7 @@
                         "NPCPassable": "T"
                     }
                 },
-            ]
-        },
-		
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Beach-NightMarket",
-            "MapTiles": [
-                {
+				{
                     "Position": {
                         "X": 41,
                         "Y": 40
@@ -605,14 +732,7 @@
                         "NPCPassable": "T"
                     }
                 },
-            ]
-        },
-		
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Beach-NightMarket",
-            "MapTiles": [
-                {
+				{
                     "Position": {
                         "X": 42,
                         "Y": 40
@@ -626,4 +746,3 @@
         },
 	]
 }
-	

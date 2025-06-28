@@ -1368,7 +1368,7 @@
  <objectgroup id="7" name="Buildings">
   <object id="17" name="TileData" x="352" y="400" width="16" height="16">
    <properties>
-    <property name="Action" value="spacechase0.SpaceCore_TriggerAction TreeWarp_Back"/>
+    <property name="Action" value="Warp 37 11 handwrittenhello.dbda_CrystalAndNiko"/>
    </properties>
   </object>
  </objectgroup>

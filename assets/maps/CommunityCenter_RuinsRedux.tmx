@@ -221,12 +221,12 @@
   </object>
   <object id="2" name="TileData" x="784" y="272" width="16" height="16">
    <properties>
-    <property name="Action" value="spacechase0.SpaceCore_TriggerAction CCElevator"/>
+    <property name="Action" value="Warp 6 18 handwrittenhello.dbda_DeadBoyAgency"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="800" y="272" width="16" height="16">
    <properties>
-    <property name="Action" value="spacechase0.SpaceCore_TriggerAction CCElevator"/>
+    <property name="Action" value="Warp 6 18 handwrittenhello.dbda_DeadBoyAgency"/>
    </properties>
   </object>
  </objectgroup>
