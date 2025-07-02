@@ -29,7 +29,7 @@
 					"Dialogues": [
 					{
 						"Id": "TragicMicks_Default",
-						"Dialogue": "Ayup, I might have what you need."
+						"Dialogue": "{{i18n:Shops.TM.Dialogue}}",
 					}
 					]
 				}
@@ -105,7 +105,7 @@
 						"Dialogues": [
 							{
 								"Id": "Jenny_Default",
-								"Dialogue": "What do you want? I don't have all day."
+								"Dialogue": "{{i18n:Shops.Jenny.Dialogue}}",
 							}
 						]
 					}

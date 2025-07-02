@@ -6,8 +6,8 @@
 		"Entries": {
 			"{{ModId}}_CharlesAmulet": {
 				"Name": "{{ModId}}_CharlesAmulet",
-				"Displayname": "Charles' Amulet",
-				"Description": "Increases attack power and speed.",
+				"DisplayName": "{{i18n:CharlesAmulet.DisplayName}}",
+				"Description": "{{i18n:CharlesAmulet.Description}}",
 				"Type": "Quest",
 				"Category": -100,
 				"Price": "9999",
@@ -17,11 +17,12 @@
 				"CanBeTrashed": false,
 				"ExcludeFromRandomSale": true,
 			},
+
 			
 			"{{ModId}}_CrystalRing": {
 				"Name": "{{ModId}}_CrystalRing",
-				"Displayname": "Crystal Ring",
-				"Description": "Increases stamina and immunity.",
+				"DisplayName": "{{i18n:CrystalRing.DisplayName}}",
+				"Description": "{{i18n:CrystalRing.Description}}",
 				"Type": "Ring",
 				"Category": -96,
 				"Price": "9999",
@@ -30,13 +31,12 @@
 				"CanBeGivenAsGift": false,
 				"CanBeTrashed": false,
 				"ExcludeFromRandomSale": true,
-				
 			},
 			
 			"{{ModId}}_DandelionSpriteJar": {
 				"Name": "{{ModId}}_DandelionSpriteJar",
-				"Displayname": "Sprite Jar",
-				"Description": "Home to two very angry dandelion sprites. Their vocabulary sure is colorful.",
+				"DisplayName": "{{i18n:DandelionSpriteJar.DisplayName}}",
+				"Description": "{{i18n:DandelionSpriteJar.Description}}",
 				"Type": "Basic",
 				"Category": -24,
 				"Price": "6000",
@@ -45,12 +45,13 @@
 				"CanBeTrashed": false,
 				"CanBeShipped": false,
 			},
+
 			
 			// The Everbloom was kindly loaned to me from e_va's fic "An Amateur's Guide to Auction Theory"!
 			"{{ModId}}_EverbloomSeed": {
 				"Name": "{{ModId}}_EverbloomSeed",
-				"Displayname": "Everbloom Seed",
-				"Description": "A magical, very rare seed. Blooms once a year.",
+				"DisplayName": "{{i18n:EverbloomSeed.DisplayName}}",
+				"Description": "{{i18n:EverbloomSeed.Description}}",
 				"Type": "Seeds",
 				"Category": -74,
 				"Price": "1500000",
@@ -58,44 +59,48 @@
 				"SpriteIndex": 1,
 				"ContextTags": [ "seedmaker_banned" ],
 			},
+
 			
 			"{{ModId}}_EverbloomFlower": {
 				"Name": "{{ModId}}_EverbloomFlower",
-				"Displayname": "Everbloom",
-				"Description": "According to ancient texts, only one of these extremely rare blooms can exist at a time. Very powerful as a potion ingredient or for trade among the supernatural community.",
+				"DisplayName": "{{i18n:EverbloomFlower.DisplayName}}",
+				"Description": "{{i18n:EverbloomFlower.Description}}",
 				"Type": "Basic",
 				"Category": -80,
 				"Price": "2500000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 0
 			},
+
 			
 			"{{ModId}}_SquidEgg": {
 				"Name": "{{ModId}}_SquidEgg",
-				"Displayname": "Glowing Egg",
-				"Description": "A glowing green egg. Hatches into a magical glowing squid when placed in an incubator.",
+				"DisplayName": "{{i18n:SquidEgg.DisplayName}}",
+				"Description": "{{i18n:SquidEgg.Description}}",
 				"Type": "Basic",
 				"Category": -5,
 				"Price": "1500",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 3
 			},
+
 			
 			"{{ModId}}_Magic8Ball": {
 				"Name": "{{ModId}}_Magic8Ball",
-				"Displayname": "Magic 8 Ball",
-				"Description": "It just keeps saying 'Outlook not so good'.",
+				"DisplayName": "{{i18n:Magic8Ball.DisplayName}}",
+				"Description": "{{i18n:Magic8Ball.Description}}",
 				"Type": "Basic",
 				"Category": -24,
 				"Price": "6000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 10
 			},
+
 			
 			"{{ModId}}_Angie": {
 				"Name": "{{ModId}}_Angie",
-				"Displayname": "Angie",
-				"Description": "A terrifying sea monster who usually sticks to the depths. What is she doing so close to the surface?",
+				"DisplayName": "{{i18n:Angie.DisplayName}}",
+				"Description": "{{i18n:Angie.Description}}",
 				"Type": "Fish",
 				"Category": -4,
 				"Price": "2500",
@@ -109,6 +114,7 @@
 				"fish_pond_ignore"
 				]
 			},
+
 		}
 	},
 	
@@ -118,8 +124,8 @@
 		"Entries": {
 			"{{ModId}}_CrystalTree": {
 				"Name": "{{ModId}}_CrystalTree",
-				"DisplayName": "Purple Sapling",
-				"Description": "A potted sapling that almost seems to glow.",
+				"DisplayName": "{{i18n:CrystalTree.DisplayName}}",
+				"Description": "{{i18n:CrystalTree.Description}}",
 				"Fragility": 0,
 				"CanBePlacedOutdoors": true,
 				"Price": "0",
@@ -128,11 +134,12 @@
 				"SpriteIndex": 10,
 				"ContextTags": [ "light_source" ]
 			},
+
 			
 			/* "{{ModId}}_RecordPlayer": {
 				"Name": "{{ModId}}_RecordPlayer",
-				"DisplayName": "Record Player",
-				"Description": "A vintage record player from around 1989.",
+				"DisplayName": "{{i18n:RecordPlayer.DisplayName}}",
+				"Description": "{{i18n:RecordPlayer.Description}}",
 				"Fragility": 0,
 				"CanBePlacedOutdoors": false,
 				"Price": "0",

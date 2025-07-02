@@ -4,11 +4,11 @@
 		"Action": "EditData",
 		"Target": "Strings/StringsFromMaps",
 		"Entries": {
-			"{{ModId}}_TNTConstruction": "Under construction.^^If you have a problem, blame the fucking witch that blew up my shop.^^-Jenny",
-			"{{ModID}}_TNTPrices": "PRICES^^Beef...$6/lb^Chicken...$4/lb^Pork...$5/lb^^NO REFUNDS",
-			"{{ModId}}_LighthouseSign": "Beach >\n Lighthouse @",
-			"{{ModId}}_Map.001": "Tragic Mick's",
-			"{{ModId}}_Map.002": "Open 9:00AM to 9:00PM",
+			"{{ModId}}_TNTConstruction": "{{i18n:StringsFromMaps.{{ModId}}_TNTConstruction}}",
+			"{{ModID}}_TNTPrices": "{{i18n:StringsFromMaps.{{ModID}}_TNTPrices}}",
+			"{{ModId}}_LighthouseSign": "{{i18n:StringsFromMaps.{{ModId}}_LighthouseSign}}",
+			"{{ModId}}_Map.001": "{{i18n:StringsFromMaps.{{ModId}}_Map.001}}",
+			"{{ModId}}_Map.002": "{{i18n:StringsFromMaps.{{ModId}}_Map.002}}",
 		}
 	},
 	]

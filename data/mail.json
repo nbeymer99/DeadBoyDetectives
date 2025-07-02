@@ -4,27 +4,27 @@
 		"Action": "EditData",
 		"Target": "Data/Mail",
 		"Entries": {
-			"{{ModId}}_EdwinProtectionSpellInvite": "Dear @,^^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^^Your friend,^    Edwin[#]Edwin's Invitation",
+			"{{ModId}}_EdwinProtectionSpellInvite": "{{i18n:{{ModId}}_EdwinProtectionSpellInvite.text}}[#]{{i18n:{{ModId}}_EdwinProtectionSpellInvite.title}}",
 			
-			"{{ModId}}_CharlesAmuletInvite": "Hey @,^^You've been such a good friend lately, and I want to repay the favor.^^Meet me at the agency--I've got a surprise I think you'll like. :)^^    -Charles[#]Charles' Gift",
+			"{{ModId}}_CharlesAmuletInvite": "{{i18n:{{ModId}}_CharlesAmuletInvite.text}}[#]{{i18n:{{ModId}}_CharlesAmuletInvite.title}}",
 			
-			"{{ModId}}_GiveEverbloomQuest": "@,^I found this old seed we got as payment probably thirty years ago. The bloke who gave it to us said the blossom might make for a good spell ingredient.^^You've got way more of a green thumb than me, so I was wondering if you would try and grow one? I'd like to surprise Edwin with it.^^Thanks, mate!%item id {{ModId}}_EverbloomSeed %% %item quest {{ModId}}_EverbloomQuest true %% [#]The Everbloom",
+			"{{ModId}}_GiveEverbloomQuest": "{{i18n:Mail.{{ModId}}_GiveEverbloomQuest.text}}%item id {{ModId}}_EverbloomSeed %% %item quest {{ModId}}_EverbloomQuest true %% [#]{{i18n:Mail.{{ModId}}_GiveEverbloomQuest.title}}",
 			
-			"{{ModId}}_CatchAngie": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy%item quest {{ModId}}_CatchAngie %%[#]Sea Monsters",
+			"{{ModId}}_CatchAngie": "{{i18n:Mail.{{ModId}}_CatchAngie.text}}%item quest {{ModId}}_CatchAngie %%[#]{{i18n:Mail.{{ModId}}_CatchAngie.title}}",
 			
-			"{{ModId}}_TM_NewStock": "@,^^I've got some new stock you might like. Good stuff. Those ghost boys dropped it off. Come down and take a look if you've got the time.^^    - Mick[#]New Stock at Tragic Mick's",
+			"{{ModId}}_TM_NewStock": "{{i18n:Mail.{{ModId}}_TM_NewStock.text}}[#]{{i18n:Mail.{{ModId}}_TM_NewStock.title}}",
 			
-			"{{ModId}}_SeanceInvitation1": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.%item quest {{ModId}}_SeanceInvitationQuest true %%[#]The Seance",
+			"{{ModId}}_SeanceInvitation1": "{{i18n:Mail.{{ModId}}_SeanceInvitation1.text}}%item quest {{ModId}}_SeanceInvitationQuest true %%[#]{{i18n:Mail.{{ModId}}_SeanceInvitation1.title}}",
 			
-			"{{ModId}}_SeanceIngredients": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin%item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%",
+			"{{ModId}}_SeanceIngredients": "{{i18n:Mail.{{ModId}}_SeanceIngredients.text}}%item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%[#]{{i18n:Mail.{{ModId}}_SeanceIngredients.title}}",
 			
-			"{{ModId}}_NikoCured": "You participated in a seance and anchored Niko's connection to the valley.[#]Niko's Introduction",
+			"{{ModId}}_NikoCured": "{{i18n:Mail.{{ModId}}_NikoCured.text}}[#]{{i18n:Mail.{{ModId}}_NikoCured.title}}",
 			
-			"{{ModId}}_CactusGottenFlag": "You gave cactus seeds to Edwin.[#]CactusGottenFlag",
+			"{{ModId}}_{{i18n:Mail.{{ModId}}_CactusGottenFlag.title}}": "{{i18n:Mail.{{ModId}}_CactusGottenFlag.text}}[#]CactusGottenFlag",
 			
-			"{{ModId}}_CrystalCactus": "Dear @,^^I am in need of cactus seeds. I have been told you know where to acquire some. Would you mind terribly bringing me some? It's for something important.^^Regards,^    Edwin%item quest {{ModId}}_CrystalCactusQuest true %%[#]Cactus Seeds for Edwin",
+			"{{ModId}}_CrystalCactus": "{{i18n:Mail.{{ModId}}_CrystalCactus.text}}%item quest {{ModId}}_CrystalCactusQuest true %%[#]{{i18n:Mail.{{ModId}}_CrystalCactus.title}}",
 			
-			"{{ModId}}_CrystalSapling": "Hey @,^^I've got something I want to show you. Touch your hand to the sapling in my room and you'll see. Don't freak out, okay?^^    - Crystal[#]Crystal's Sapling",
+			"{{ModId}}_CrystalSapling": "{{i18n:Mail.{{ModId}}_CrystalSapling.text}}[#]{{i18n:Mail.{{ModId}}_CrystalSapling.title}}",
 		}
 	}
 	]

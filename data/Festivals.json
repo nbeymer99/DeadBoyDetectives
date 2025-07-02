@@ -114,24 +114,10 @@
 			"LogName": "Egg Festival - Dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring13",
-			"Entries": 
-			{ "CharlesRowland": "The egg hunt always reminds me of the Rotten Egg Debacle of '98. Right, Edwin?$h",
-			},
-		},
-		{
-			"LogName": "Egg Festival - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/spring13",
-			"Entries": 
-			{ "EdwinPayne": "If Charles and I could participate in the egg hunt, nobody else would stand a chance, frankly.$u",
-			},
-		},
-		{
-			"LogName": "Egg Festival - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/spring13",
-			"Entries": 
-			{ "CrystalPalace": "I hate hardboiled eggs. The smell reminds me of that poltergeist we dealt with last year.",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.EggFestival.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.EggFestival.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.EggFestival.CrystalPalace}}",
 			},
 		},
 		{	
@@ -187,24 +173,10 @@
 			"LogName": "Flower Dance - Dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
-			"Entries": 
-			{ "CharlesRowland": "I taught Edwin how to dance once. For fun, not that posh nonsense from way back when.",
-			},
-		},
-		{	
-			"LogName": "Flower Dance - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/spring24",
-			"Entries": 
-			{ "EdwinPayne": "This reminds me of the horrid events my parents made me attend as a child. I cannot imagine dancing in front of an audience would be at all enjoyable.$s",
-			},
-		},
-		{	
-			"LogName": "Flower Dance - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/spring24",
-			"Entries": 
-			{ "CrystalPalace": "I'm more used to the kind of dancing that happens in clubs, not whatever this is.",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.EggFestival.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.EggFestival.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.FlowerDance.CrystalPalace}}",
 			},
 		},
 		{	
@@ -261,25 +233,10 @@
 			"LogName": "Luau - dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
-			"Entries": 
-			{ "CharlesRowland": "Just looking at that soup is enough to make me feel sick.$s I'm glad I don't have to eat it.",
-			},
-		},
-		{	
-			"LogName": "Luau - dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer11",
-			"Entries":
-			{ "EdwinPayne": "Remind me why we are here, again? Surely there are cases we could be working on instead.$s",
-			},
-		},
-		
-		{	
-			"LogName": "Luau - dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer11",
-			"Entries":
-			{ "CrystalPalace": "The soup kind of reminds me of what the housekeeper would throw together whenever I got sick.#$b#That's why I threw in some noodles--I always liked her noodle soup best.",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.Luau.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.Luau.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.Luau.CrystalPalace}}",
 			},
 		},
 
@@ -333,20 +290,15 @@
 				},
 			],
 		},
+		
 		{	
 			"LogName": "Dance of the Moonlight Jellies - Dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
-			"Entries": 
-			{ "CharlesRowland": "Being out on the water makes me nervous, but it's worth it to see the Moonlight Jellies.",
-			},
-		},
-		{	
-			"LogName": "Dance of the Moonlight Jellies - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer28",
-			"Entries": 
-			{ "EdwinPayne": "Did you know, Pelican Town is the only region in the world home to such unique specimens? Fascinating.$u",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.MoonlightJellies.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.MoonlightJellies.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.MoonlightJellies.CrystalPalace2}}",
 			},
 		},
 		
@@ -354,22 +306,14 @@
 			"LogName": "Dance of the Moonlight Jellies - Dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
-			"Entries": 
-			{ "CrystalPalace": "I'm so glad Niko is here to see this...",
+			"Entries": {
+				"CrystalPalace": "{{i18n:Festivals.MoonlightJellies.CrystalPalace1}}",
 			},
 			"When": {
 				"HasSeenEvent": "{{ModId}}_Seance2"
 			},
 		},
 		
-		{	
-			"LogName": "Dance of the Moonlight Jellies - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer28",
-			"Entries": 
-			{ "CrystalPalace": "I wish Niko were here to see this...",
-			},
-		},
 		{	
 			"LogName": "Stardew Valley Fair",
 			"Action": "EditData",
@@ -452,24 +396,10 @@
 			"LogName": "Stardew Valley Fair",
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
-			"Entries": 
-			{ "CharlesRowland": "Have you been to the petting zoo yet? The chickens are pretty cute.$h",
-			},
-		},
-		{	
-			"LogName": "Stardew Valley Fair",
-			"Action": "EditData",
-			"Target": "Data/Festivals/fall16",
-			"Entries": 
-			{ "EdwinPayne": "Ridiculous. That fortune-teller is nothing compared to Crystal.$u",
-			},
-		},
-		{	
-			"LogName": "Stardew Valley Fair",
-			"Action": "EditData",
-			"Target": "Data/Festivals/fall16",
-			"Entries": 
-			{ "CrystalPalace": "Wow, did Edwin just compliment me? Is he running a fever?$h",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.Fair.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.Fair.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.Fair.CrystalPalace}}",
 			},
 		},
 		{	
@@ -534,24 +464,10 @@
 			"LogName": "Spirit's Eve - dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall27",
-			"Entries": 
-			{ "CharlesRowland": "It's the busiest night of the year for us. We're here to make sure nothing goes wrong, yeah?$u",
-			},
-		},
-		{	
-			"LogName": "Spirit's Eve - dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/fall27",
-			"Entries": 
-			{ "EdwinPayne": "You haven't attracted any curses or wronged any sprits lately, have you, @? I'd be careful on a night such as this one.",
-			},
-		},
-		{	
-			"LogName": "Spirit's Eve - dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/fall27",
-			"Entries": 
-			{ "CrystalPalace": "I don't care what Edwin says about keeping an eye on things--you couldn't pay me to go in that creepy-ass maze.#$b#I can't exactly walk through walls.",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.Halloween.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.Halloween.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.Halloween.CrystalPalace}}",
 			},
 		},
 		{	
@@ -629,15 +545,10 @@
 			"LogName": "Festival of Ice - Dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
-			"Entries": 
-			{ "EdwinPayne": "Charles elected not to attend, and it's little question why. I myself am only here on matters pertaining to a current case.", },
-		},
-		{	
-			"LogName": "Festival of Ice - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/winter8",
-			"Entries": 
-			{ "CrystalPalace": "I'm kind of worried about Charles. He didn't look so good when Edwin and I left.", },
+			"Entries": {
+				"EdwinPayne": "{{i18n:Festivals.Ice.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.Ice.CrystalPalace}}",
+			},
 		},
 		{	
 			"LogName": "Feast of the Winter Star",
@@ -672,24 +583,10 @@
 			"LogName": "Feast of the Winter Star - Dialogue",
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
-			"Entries": 
-			{ "CharlesRowland": "Edwin, Crystal and I already exchanged gifts this morning, but it's so fun seeing everyone else open up their presents.$h",
-			},
-		},
-		{	
-			"LogName": "Feast of the Winter Star - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/winter25",
-			"Entries":
-			{ "EdwinPayne": "Winter was always a rare bright spot during my childhood. The Christmas holidays meant a reprieve from St. Hilarion's halls.",
-			},
-		},
-		{	
-			"LogName": "Feast of the Winter Star - Dialogue",
-			"Action": "EditData",
-			"Target": "Data/Festivals/winter25",
-			"Entries":
-			{ "CrystalPalace": "It's so nice actually spending the holidays with people you like.#$b#My mom and dad used to drag me to every fancy party they could.#$e#When I turned thirteen I just started going home on my own as soon as they got drunk.",
+			"Entries": {
+				"CharlesRowland": "{{i18n:Festivals.Christmas.CharlesRowland}}",
+				"EdwinPayne": "{{i18n:Festivals.Christmas.EdwinPayne}}",
+				"CrystalPalace": "{{i18n:Festivals.Christmas.CrystalPalace}}",
 			},
 		},
 	]
