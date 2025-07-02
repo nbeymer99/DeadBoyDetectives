@@ -95,7 +95,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"NikoSasaki": "This is amazing, @!/555 815 341 614 226 227 228 400 116 {{ModId}}_DandelionSpriteJar/Oh, this is pretty cool, thank you! /577 578 595 251 -79 18 -80 /Oh... okay.../422 404 420 281 257 346/I don't really want this... but thanks, I guess./22/For me? Thank you!/"
+			"NikoSasaki": "{{i18n: NikoSasaki.love}}/555 815 341 614 226 227 228 400 116 {{ModId}}_DandelionSpriteJar/{{i18n: NikoSasaki.like}} /577 578 595 251 -79 18 -80 /{{i18n: NikoSasaki.dislike}}/422 404 420 281 257 346/{{i18n: NikoSasaki.hate}}/22/{{i18n: NikoSasaki.neutral}}/"
 		}
 	},
 	

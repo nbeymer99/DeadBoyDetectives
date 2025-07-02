@@ -5,21 +5,21 @@
 		"LogName": "Everbloom Quest",
 		"Target": "Data/Quests",
 		"Entries": {
-			"{{ModId}}_EverbloomQuest": "ItemDelivery/The Everbloom/Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin./Cultivate and harvest an Everbloom flower, then bring it to Edwin./EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/Where on Earth did you get this? It must have taken ages to grow. Thank you, @.",
+			"{{ModId}}_EverbloomQuest": "ItemDelivery/{{i18n:{{ModId}}_EverbloomQuest.title}}/{{i18n:{{ModId}}_EverbloomQuest.text}}/{{i18n:{{ModId}}_EverbloomQuest.objective}}/EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/{{i18n:{{ModId}}_EverbloomQuest.reaction}}",
+				
+			"{{ModId}}_CatchAngie": "ItemDelivery/{{i18n:{{ModId}}_CatchAngie.title}}/{{i18n:{{ModId}}_CatchAngie.text}}/{{i18n:{{ModId}}_CatchAngie.objective}}/Willy (O){{ModId}}_Angie 1/-1/2500/-1/true/{{i18n:{{ModId}}_CatchAngie.reaction}}",
 			
-			"{{ModId}}_CatchAngie": "ItemDelivery/A Glimmer in the Deep/There are strange lights in the water near the lighthouse. Try to reel in whatever it might be./Catch the strange fish near the lighthouse./Willy (O){{ModId}}_Angie 1/-1/2500/-1/true/That's the biggest angler fish I've seen in all my years of fishing!#$b#You say her name is Angie?#$b#Whatever floats your boat. Here's the reward.",
+			"{{ModId}}_CrystalCactusQuest": "ItemDelivery/{{i18n:{{ModId}}_CrystalCactusQuest.title}}/{{i18n:{{ModId}}_CrystalCactusQuest.text}}/{{i18n:{{ModId}}_CrystalCactusQuest.objective}}/EdwinPayne (O)802 1/-1/300/Reward Description/true/{{i18n:{{ModId}}_CrystalCactusQuest.reaction}}",
 			
-			"{{ModId}}_CrystalCactusQuest": "ItemDelivery/A Prickly Subject/Edwin has requested you bring him cactus seeds, though he didn't say what they were for./Acquire cactus seeds, then bring them to Edwin./EdwinPayne (O)802 1/-1/300/Reward Description/true/You received my letter!#$b#Thank you, @. These will do nicely.$action AddMail Current CactusGottenFlag received",
+			"{{ModId}}_SeanceInvitationQuest": "Basic/{{i18n:{{ModId}}_SeanceInvitationQuest.title}}/{{i18n:{{ModId}}_SeanceInvitationQuest.text}}/{{i18n:{{ModId}}_SeanceInvitationQuest.objective}}/null/-1/0/-1/false//",
 			
-			/* "{{ModId}}_SeanceInvitationQuest": "Basic/The Seance/You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost./Attend the seance in the graveyard after 8pm./null/-1/0/-1/false//",
+			"{{ModId}}_SeanceIngredients1": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients1.title}}/{{i18n:{{ModId}}_SeanceIngredients1.text}}/{{i18n:{{ModId}}_SeanceIngredients1.objective}}/EdwinPayne (O)769 10/-1/false/{{i18n:{{ModId}}_SeanceIngredients1.reaction}}",
 			
-			"{{ModId}}_SeanceIngredients1": "ItemDelivery/Ingredients for a Spell: Void Essence/The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard./Collect and deliver 10 Void Essence to Edwin./EdwinPayne (O)769 10/-1/false/Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.$action AddMail Host SeanceIngredients1 received",
+			"{{ModId}}_SeanceIngredients2": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients2.title}}/{{i18n:{{ModId}}_SeanceIngredients2.text}}/{{i18n:{{ModId}}_SeanceIngredients2.objective}}/CharlesRowland (O)156 1/-1/false/{{i18n:{{ModId}}_SeanceIngredients2.reaction}}",
 			
-			"{{ModId}}_SeanceIngredients2": "ItemDelivery/Ingredients for a Spell: Ghostfish/The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard./Catch and deliver a ghostfish to Charles./CharlesRowland (O)156 1/-1/false/Nice work! It's a little gross, but we can use the ghostfish's slime to paint runes that'll protect us during the ritual.$action AddMail Host SeanceIngredients2 received",
+			"{{ModId}}_SeanceIngredients3": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients3.title}}/{{i18n:{{ModId}}_SeanceIngredients3.text}}/{{i18n:{{ModId}}_SeanceIngredients3.objective}}/CrystalPalace (O)376 1/{{ModId}}_CuringNiko/false/{{i18n:{{ModId}}_SeanceIngredients3.reaction}}",
 			
-			"{{ModId}}_SeanceIngredients3": "ItemDelivery/Ingredients for a Spell: Poppy/The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard./Harvest and deliver a poppy to Crystal./CrystalPalace (O)376 1/{{ModId}}_CuringNiko/false/Thanks, @. Apparently poppy seeds are useful for magic that affects other planes, like the Dreaming.$bOr at least I think that's what Edwin said. It was a little difficult to tell past all the ego.$action AddMail Host SeanceIngredients3 received",
-			
-			"{{ModId}}_CuringNiko": "Basic/Bringing Back Niko/Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to bring Niko back./Attend another seance in the graveyard after 8pm./null/-1/0/-1/false//", */
+			"{{ModId}}_CuringNiko": "Basic/{{i18n:{{ModId}}_CuringNiko.title}}/{{i18n:{{ModId}}_CuringNiko.text}}/{{i18n:{{ModId}}_CuringNiko.objective}}/null/-1/0/-1/false//",
 		}
 	}
 	]

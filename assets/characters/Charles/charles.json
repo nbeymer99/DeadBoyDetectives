@@ -193,7 +193,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"CharlesRowland": "Oh, this is brills! Thanks, @!/64 787 561 446 82 109 275 -8 -28 Book_Mystery Book_Bombs/Another item for the agency? Aces!428 /516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 -2 125 124 392 -80 -12/Oh... I guess we could find a use for this at the agency.../246 248 -26 -27 -4/Is this some sort of joke? It's not funny, mate./-20 103 126 127 -5 -6 -7 -75 -79 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873/Cheers, mate.//"
+			"CharlesRowland": "{{i18n: CharlesRowland.love}}/64 787 561 446 82 109 275 -8 -28 Book_Mystery Book_Bombs/{{i18n: CharlesRowland.like}}/428 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 -2 125 124 392 -80 -12/{{i18n: CharlesRowland.dislike}}/246 248 -26 -27 -4/{{i18n: CharlesRowland.hate}}/-20 103 126 127 -5 -6 -7 -75 -79 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873/{{i18n: CharlesRowland.neutral}}//"
 		}
 	},
 	

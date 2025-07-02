@@ -5,25 +5,20 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/JennyButcher",
 		"Entries": {
-			"Introduction": "So you're the new kid everyone has been flipping out over.#$b#Welcome to town, my hours are 9 to 6, now go away, I've got shit to do.",
+			"Introduction": "{{i18n:jenny_dialogue.Introduction}}",
+			"Mon": "{{i18n:jenny_dialogue.Mon}}",
+			"Tue": "{{i18n:jenny_dialogue.Tue}}",
+			"Wed": "{{i18n:jenny_dialogue.Wed}}",
+			"Thu": "{{i18n:jenny_dialogue.Thu}}",
+			"Fri": "{{i18n:jenny_dialogue.Fri}}",
+			"Sat": "{{i18n:jenny_dialogue.Sat}}",
+			"Sun": "{{i18n:jenny_dialogue.Sun}}",
 			
-			// GENERIC DIALOGUE
-		    "Mon":  "Can't you see I'm busy, kid?",
-			"Tue": "What do you want? I've got a business to run.",
-			"Wed": "Do you need something?",
-			"Thu": "Listen, kid, I can't help you. Unless you want to order a sandwich or something, get lost.",
-			"Fri": "Sunday can't come soon enough. I need a fucking break.",
-			"Sat": "Some fucking raccoon or something keeps digging through my trash.#$3#That's what I get for settling down in the fucking countryside...",
-			"Sun": "Living in a tiny town sucks in a lot of ways, but at least the rent here is way lower.",
-			
-			"Wed_6": "Whatever you're doing on that farm, it's working.#$b#I haven't seen such good produce in years.",
-			"Sun_6": "Ugh. My supplier is fucking late, *again*.$a",
+			"Wed_6": "{{i18n:jenny_dialogue.Wed_6}}",
+			"Sun_6": "{{i18n:jenny_dialogue.Sun_6}}",
+			"summer_1": "{{i18n:jenny_dialogue.summer_1}}",
+			"winter_1": "{{i18n:jenny_dialogue.winter_1}}",
 
-
-			// Festivals and Events
-			
-			"summer_1": "Ugh, it's too fucking hot out for this.",
-			"winter_1": "Ugh, it's too fucking cold out for this.",
 			}	
 		}
 	]

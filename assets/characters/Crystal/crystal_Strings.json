@@ -6,15 +6,15 @@
 		"Target": "Strings/schedules/CrystalPalace",
 		"Entries": 
         {
-            "Meditation.000": "%Crystal is deep in a trance.",
-			"WokenUpTrance.000": "I can see it all...$u#$b#Sorry, @, how long have you been standing there?",
-			"SplishySplashy.000": "Hey, @. Want to dip your feet in?",
-			"Cellphone.000": "I can only get a few bars here. I wonder if Edwin has a spell for boosting my connection.",
-			"Reading.000": "Wow, could these old farts write anything more confusing? What the hell does 'myftical noftrum for all beaftly ills' even mean?$6",
-			"Reading.001": "Huh, did you know that ghosts who have died in graveyards can become trapped there for eternity?$6",
-			"Reading.002": "Ugh, this is giving me a headache.$s",
-			
-			"NightMarket.000": "That guy in the robe keeps looking over at us...$6#$e#Do you think he can see ghosts?",
+            "Meditation.000": "{{i18n:crystal_strings.Meditation.000}}",
+			"WokenUpTrance.000": "{{i18n:crystal_strings.WokenUpTrance.000}}",
+			"SplishySplashy.000": "{{i18n:crystal_strings.SplishySplashy.000}}",
+			"Cellphone.000": "{{i18n:crystal_strings.Cellphone.000}}",
+			"Reading.000": "{{i18n:crystal_strings.Reading.000}}",
+			"Reading.001": "{{i18n:crystal_strings.Reading.001}}",
+			"Reading.002": "{{i18n:crystal_strings.Reading.002}}",
+			"NightMarket.000": "{{i18n:crystal_strings.NightMarket.000}}",
+
 		},
 	}
 	]
