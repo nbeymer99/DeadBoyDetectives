@@ -1,71 +1,31 @@
 {
 	"Changes": [
-		// conditional schedules
-
-			// mines accessible
-		{
-        "LogName": "Charles Schedule Conditionals",
-        "Action": "EditData",
-        "Target": "Characters/schedules/CharlesRowland",
-		"When": {
-			"HasFlag": "landslideDone"
-			},
-		"Entries": {
-			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"summer_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"winter_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"spring_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"winter_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"summer_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			}
-		},
-		
 		// normal schedules
-		{
-        "LogName": "Charles Schedule",
+	{
+        "LogName": "Niko Schedule",
         "Action": "EditData",
-        "Target": "Characters/schedules/CharlesRowland",
+        "Target": "Characters/schedules/NikoSasaki",
 		"Entries": {
-			"rain": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"/0900 ArchaeologyHouse 15 9 0/1330 {{ModId}}_TragicMicks 11 16 3/1700 Saloon 33 18 0 \"Strings\\schedules\\CharlesRowland:Saloon.000\"/2200 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"",
+			"spring": "0730 ArchaeologyHouse x y z niko_read/1300 Forest x y z squarewander/1700 {{ModId}}_CrystalAndNiko niko_noodles/2000 {{ModId}}_CrystalAndNiko niko_laptop/2430 bed",
+			"rain": "GOTO Sun",
 			
-			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 BusStop 18 15 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
+			"Mon": "GOTO spring",
+			"Tue": "0600 {{ModId}}_TragicMicks x y z/1100 {{ModId}}_DeadBoyAgency x y z niko_read \"Strings\\schedules\\NikoSasaki:Agency.000\"/1900 {{ModId}}_CrystalAndNiko x y z niko_laptop/2500 bed",
+			"Wed": "a0930 ArchaeologyHouse x y z/1130 {{ModId}}_DeadBoyAgency x y z niko_read/1600 {{ModId}}_DeadBoyAgency x y z niko_write \"Strings\\schedules\\NikoSasaki:Agency.001\"/a2500 bed",
+			"Thu": "a0930 ArchaeologyHouse x y z/1200 {{ModId}}_TragicMicks/1700 {{ModId}}_CrystalAndNiko x y z niko_watchTV/2100 {{ModId}}_CrystalAndNiko niko_read/2500 bed",
+			"Fri": "0800 Forest x y z squarewander/1430 {{ModId}}_CrystalAndNiko x y z niko_bake/a1800 Saloon x y z/2400 bed",
+			"Sat": "0700 {{ModId}}_DeadBoyAgency x y z niko_write/1800 {{ModId}}_CrystalAndNiko niko_watchTV/2500 bed",
+			"Sun": "0930 {{ModId}}_CrystalAndNiko niko_laptop/1200 {{ModId}}_CrystalAndNiko x y z niko_bake/1600 {{ModId}}_DeadBoyAgency x y z niko_noodles/1900 {{ModId}}_DeadBoyAgency x y z niko_read/2300 bed",
 			
-			"spring_Wed": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 Beach 11 20 3 \"Strings\\schedules\\CharlesRowland:Waterside.000\"/1800 {{ModId}}_DeadBoyAgency 10 7 3",
+			"summer_Mon": "0730 ArchaeologyHouse x y z niko_read/1300 Beach x y z squarewander/1700 {{ModId}}_CrystalAndNiko niko_noodles/2000 {{ModId}}_CrystalAndNiko niko_laptop/2430 bed",
+			"summer_Fri": "0800 Beach x y z squarewander/1430 {{ModId}}_CrystalAndNiko x y z niko_bake/a1800 Saloon x y z/2400 bed",
 			
-			"spring_Fri": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"/0900 ArchaeologyHouse 15 9 0/1330 {{ModId}}_TragicMicks 11 16 3/1700 Saloon 35 18 0 \"Strings\\schedules\\CharlesRowland:Saloon.000\"/2200 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"",
+			"fall_Mon": "0730 ArchaeologyHouse x y z niko_read/1300 Town xgraveyard y z squarewander/1700 {{ModId}}_CrystalAndNiko niko_noodles/2000 {{ModId}}_CrystalAndNiko niko_laptop/2430 bed",
+			"fall_Fri": "0800 Town xgraveyard y z squarewander/1430 {{ModId}}_CrystalAndNiko x y z niko_bake/a1800 Saloon x y z/2400 bed",
 			
-			"spring_Sat": "GOTO spring_Tue",
+			"winter_Mon": "0730 ArchaeologyHouse x y z niko_read/1300 Mountain xlake y z squarewander/1700 {{ModId}}_CrystalAndNiko niko_noodles/2000 {{ModId}}_CrystalAndNiko niko_laptop/2430 bed",
+			"winter_Fri": "0800 Mountain xlake y z squarewander/1430 {{ModId}}_CrystalAndNiko x y z niko_bake/a1800 Saloon x y z/2400 bed",
 			
-			"summer_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"summer_Wed": "GOTO spring_Wed",
-			
-			"summer_Fri": "GOTO spring_Fri",
-			
-			"summer_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"fall": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0800 Town 49 88 3 \"Strings\\schedules\\CharlesRowland:Graveyard.000\"/1630 {{ModId}}_DeadBoyAgency 3 17 3 charles_paintrunes \"Strings\\schedules\\CharlesRowland:Painting.000\"",
-		
-			"winter_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"winter_Wed": "GOTO spring_Wed",
-			
-			"winter_Fri": "GOTO spring_Fri",
-			
-			"winter_Sat": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/0900 Mine 13 6 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"winter": "0610 {{ModId}}_DeadBoyAgency 10 7 3/a1230 ArchaeologyHouse 15 9 0/a1600 {{ModId}}_Lighthouse 57 25 2 \"Strings\\schedules\\CharlesRowland:Waterside.000\"/1930 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"",
-			
-			"summer": "0610 {{ModId}}_DeadBoyAgency 10 7 3/a1200 Railroad 38 41 2/1700 Mountain 72 10 1 charles_soccer/2300 {{ModId}}_DeadBoyAgency 10 7 3",
-			
-			"spring": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 7 2 charles_bagoftricks \"Strings\\schedules\\CharlesRowland:Bag.000\"/0900 ArchaeologyHouse 15 9 0/1400 Town 13 15 2 charles_soccer \"Strings\\schedules\\CharlesRowland:Soccer.000\"/2200 {{ModId}}_DeadBoyAgency 11 9 1",
-			
-			"Railroad_Replacement": "0610 {{ModId}}_DeadBoyAgency 10 7 3/a1200 Mountain 19 7 2/1700 Mountain 72 10 1 charles_soccer/2300 {{ModId}}_DeadBoyAgency 10 7 3",
 			}
 		}
 	]

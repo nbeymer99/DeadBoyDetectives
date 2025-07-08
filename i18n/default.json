@@ -95,7 +95,7 @@
 	"edwin_dialogue.FlowerDance_Decline": "I do not make a habit of dancing, no matter what lies Charles has seen fit to spread about me.",
 	"edwin_dialogue.GreenRain": "I've never seen such strange weather, save for when Charles and I angered a warlock back in '09.",
 	"edwin_dialogue.GreenRain_2": "Is this to be a regular occurrence, then?#$b#I suppose it may be a good opportunity to explore the town without fear of scaring the townspeople.",
-	"edwin_dialogue.eventSeen_{{ModId}}_crystalCactus": "Crystal wishes to see me? Is she upset?#$e#Very well, I shall talk to her today.",
+	"edwin_dialogue.eventSeen_handwrittenhello.dbda_crystalCactus": "Crystal wishes to see me? Is she upset?#$e#Very well, I shall talk to her today.",
 	"edwin_dialogue.AcceptGift_(O)StardropTea": "You must know that we cannot—#$b#You mean I will be able to drink it? Goodness, I haven't had tea in over a century.#$b#Thank you, @. This means a great deal to me.",
 	"edwin_dialogue.AcceptGift_category_cooking": "Charles and I are ghosts and cannot consume the food of the living.",
 	"edwin_dialogue.Mon": "I regret to inform you that we do not take on living clients. I'll thank you for not insisting.",
@@ -394,14 +394,12 @@
 	
 	
 	// MISCELLANEOUS STRINGS
-	"StringsFromCSFiles.{{ModId}}_Map.001": "Tragic Mick's",
-	"StringsFromCSFiles.{{ModId}}_Map.002": "Open 9:00AM to 9:00PM",
 	
-	"StringsFromMaps.{{ModId}}_TNTConstruction": "Under construction.^^If you have a problem, blame the fucking witch that blew up my shop.^^-Jenny",
-	"StringsFromMaps.{{ModID}}_TNTPrices": "PRICES^^Beef...$6/lb^Chicken...$4/lb^Pork...$5/lb^^NO REFUNDS",
-	"StringsFromMaps.{{ModId}}_LighthouseSign": "Beach >\n Lighthouse @",
-	"StringsFromMaps.{{ModId}}_Map.001": "Tragic Mick's",
-	"StringsFromMaps.{{ModId}}_Map.002": "Open 9:00AM to 9:00PM",
+	"StringsFromMaps.handwrittenhello.dbda_TNTConstruction": "Under construction.^^If you have a problem, blame the fucking witch that blew up my shop.^^-Jenny",
+	"StringsFromMaps.handwrittenhello.dbda_TNTPrices": "PRICES^^Beef...$6/lb^Chicken...$4/lb^Pork...$5/lb^^NO REFUNDS",
+	"StringsFromMaps.handwrittenhello.dbda_LighthouseSign": "Beach >\n Lighthouse @",
+	"StringsFromMaps.handwrittenhello.dbda_Map.001": "Tragic Mick's",
+	"StringsFromMaps.handwrittenhello.dbda_Map.002": "Open 9:00AM to 9:00PM",
 
 	
 // GIFT TASTES
@@ -612,43 +610,43 @@
 	"charleshearts10.7": "Good. And if you ever need anything, I mean *anything*, I'm here for you, yeah?",
 	
 // QUESTS 
-	"{{ModId}}_EverbloomQuest.title": "The Everbloom",
-	"{{ModId}}_EverbloomQuest.text": "Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin.",
-	"{{ModId}}_EverbloomQuest.objective": "Cultivate and harvest an Everbloom flower, then bring it to Edwin.",
-	"{{ModId}}_EverbloomQuest.reaction": "Where on Earth did you get this? It must have taken ages to grow. Thank you, @.",
+	"handwrittenhello.dbda_EverbloomQuest.title": "The Everbloom",
+	"handwrittenhello.dbda_EverbloomQuest.text": "Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin.",
+	"handwrittenhello.dbda_EverbloomQuest.objective": "Cultivate and harvest an Everbloom flower, then bring it to Edwin.",
+	"handwrittenhello.dbda_EverbloomQuest.reaction": "Where on Earth did you get this? It must have taken ages to grow. Thank you, @.",
 	
-	"{{ModId}}_CatchAngie.title": "A Glimmer in the Deep",
-	"{{ModId}}_CatchAngie.text": "There are strange lights in the water near the lighthouse. Try to reel in whatever it might be.",
-	"{{ModId}}_CatchAngie.objective": "Catch the strange fish near the lighthouse.",
-	"{{ModId}}_CatchAngie.reaction": "That's the biggest angler fish I've seen in all my years of fishing!#$b#You say her name is Angie?#$b#Whatever floats your boat. Here's the reward.",
+	"handwrittenhello.dbda_CatchAngie.title": "A Glimmer in the Deep",
+	"handwrittenhello.dbda_CatchAngie.text": "There are strange lights in the water near the lighthouse. Try to reel in whatever it might be.",
+	"handwrittenhello.dbda_CatchAngie.objective": "Catch the strange fish near the lighthouse.",
+	"handwrittenhello.dbda_CatchAngie.reaction": "That's the biggest angler fish I've seen in all my years of fishing!#$b#You say her name is Angie?#$b#Whatever floats your boat. Here's the reward.",
 	
-	"{{ModId}}_CrystalCactusQuest.title": "A Prickly Subject",
-	"{{ModId}}_CrystalCactusQuest.text": "Edwin has requested you bring him cactus seeds, though he didn't say what they were for.",
-	"{{ModId}}_CrystalCactusQuest.objective": "Acquire cactus seeds, then bring them to Edwin.",
-	"{{ModId}}_CrystalCactusQuest.reaction": "You received my letter!#$b#Thank you, @. These will do nicely.#$action AddMail Current CactusGottenFlag received",
+	"handwrittenhello.dbda_CrystalCactusQuest.title": "A Prickly Subject",
+	"handwrittenhello.dbda_CrystalCactusQuest.text": "Edwin has requested you bring him cactus seeds, though he didn't say what they were for.",
+	"handwrittenhello.dbda_CrystalCactusQuest.objective": "Acquire cactus seeds, then bring them to Edwin.",
+	"handwrittenhello.dbda_CrystalCactusQuest.reaction": "You received my letter!#$b#Thank you, @. These will do nicely.#$action AddMail Current CactusGottenFlag received",
 	
-	"{{ModId}}_SeanceInvitationQuest.title": "The Seance",
-	"{{ModId}}_SeanceInvitationQuest.text": "You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost.",
-	"{{ModId}}_SeanceInvitationQuest.objective": "Attend the seance in the graveyard after 8pm.",
+	"handwrittenhello.dbda_SeanceInvitationQuest.title": "The Seance",
+	"handwrittenhello.dbda_SeanceInvitationQuest.text": "You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost.",
+	"handwrittenhello.dbda_SeanceInvitationQuest.objective": "Attend the seance in the graveyard after 8pm.",
 
-	"{{ModId}}_SeanceIngredients1.title": "Ingredients for a Spell: Void Essence",
-	"{{ModId}}_SeanceIngredients1.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
-	"{{ModId}}_SeanceIngredients1.objective": "Collect and deliver 10 Void Essence to Edwin.",
-	"{{ModId}}_SeanceIngredients1.reaction": "Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.#$action AddMail Host SeanceIngredients1 received",
+	"handwrittenhello.dbda_SeanceIngredients1.title": "Ingredients for a Spell: Void Essence",
+	"handwrittenhello.dbda_SeanceIngredients1.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
+	"handwrittenhello.dbda_SeanceIngredients1.objective": "Collect and deliver 10 Void Essence to Edwin.",
+	"handwrittenhello.dbda_SeanceIngredients1.reaction": "Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.#$action AddMail Host SeanceIngredients1 received",
 	
-	"{{ModId}}_SeanceIngredients2.title": "Ingredients for a Spell: Ghostfish",
-	"{{ModId}}_SeanceIngredients2.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
-	"{{ModId}}_SeanceIngredients2.objective": "Catch and deliver a ghostfish to Charles.",
-	"{{ModId}}_SeanceIngredients2.reaction": "Nice work! It's a little gross, but we can use the ghostfish's slime to paint runes that'll protect us during the ritual.#$action AddMail Host SeanceIngredients2 received",
+	"handwrittenhello.dbda_SeanceIngredients2.title": "Ingredients for a Spell: Ghostfish",
+	"handwrittenhello.dbda_SeanceIngredients2.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
+	"handwrittenhello.dbda_SeanceIngredients2.objective": "Catch and deliver a ghostfish to Charles.",
+	"handwrittenhello.dbda_SeanceIngredients2.reaction": "Nice work! It's a little gross, but we can use the ghostfish's slime to paint runes that'll protect us during the ritual.#$action AddMail Host SeanceIngredients2 received",
 	
-	"{{ModId}}_SeanceIngredients3.title": "Ingredients for a Spell: Poppy",
-	"{{ModId}}_SeanceIngredients3.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
-	"{{ModId}}_SeanceIngredients3.objective": "Harvest and deliver a poppy to Crystal.",
-	"{{ModId}}_SeanceIngredients3.reaction": "Thanks, @. Apparently poppy seeds are useful for magic that affects other planes, like the Dreaming.$bOr at least I think that's what Edwin said. It was a little difficult to tell past all the ego.#$action AddMail Host SeanceIngredients3 received",
+	"handwrittenhello.dbda_SeanceIngredients3.title": "Ingredients for a Spell: Poppy",
+	"handwrittenhello.dbda_SeanceIngredients3.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
+	"handwrittenhello.dbda_SeanceIngredients3.objective": "Harvest and deliver a poppy to Crystal.",
+	"handwrittenhello.dbda_SeanceIngredients3.reaction": "Thanks, @. Apparently poppy seeds are useful for magic that affects other planes, like the Dreaming.$bOr at least I think that's what Edwin said. It was a little difficult to tell past all the ego.#$action AddMail Host SeanceIngredients3 received",
 	
-	"{{ModId}}_CuringNiko.title": "Bringing Back Niko",
-	"{{ModId}}_CuringNiko.text": "Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to bring Niko back.",
-	"{{ModId}}_CuringNiko.objective": "Attend another seance in the graveyard after 8pm.",
+	"handwrittenhello.dbda_CuringNiko.title": "Bringing Back Niko",
+	"handwrittenhello.dbda_CuringNiko.text": "Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to bring Niko back.",
+	"handwrittenhello.dbda_CuringNiko.objective": "Attend another seance in the graveyard after 8pm.",
 	
 // ITEMS
 	"CharlesAmulet.DisplayName": "Charles' Amulet",
@@ -683,42 +681,42 @@
 	"Buffs.charles_attack.Description": "Charles' enchanted amulet gives you a bonus to your attacks.",
 
 // FARM ANIMALS
-	"FarmAnimals.{{ModId}}_Squid.DisplayName": "Magic Squid",
-	"FarmAnimals.{{ModId}}_Squid.BirthText": "Your glowing egg has hatched.",
+	"FarmAnimals.handwrittenhello.dbda_Squid.DisplayName": "Magic Squid",
+	"FarmAnimals.handwrittenhello.dbda_Squid.BirthText": "Your glowing egg has hatched.",
 	
 // MAIL
-	"Mail.{{ModId}}_EdwinProtectionSpellInvite.title": "Edwin's Invitation",
-	"Mail.{{ModId}}_EdwinProtectionSpellInvite.text": "Dear @,^^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^^Your friend,^    Edwin",
+	"Mail.handwrittenhello.dbda_EdwinProtectionSpellInvite.title": "Edwin's Invitation",
+	"Mail.handwrittenhello.dbda_EdwinProtectionSpellInvite.text": "Dear @,^^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^^Your friend,^    Edwin",
 	
-	"Mail.{{ModId}}_CharlesAmuletInvite.title": "Charles' Gift",
-	"Mail.{{ModId}}_CharlesAmuletInvite.text": "Hey @,^^You've been such a good friend lately, and I want to repay the favor.^^Meet me at the agency--I've got a surprise I think you'll like. :)^^    -Charles",
+	"Mail.handwrittenhello.dbda_CharlesAmuletInvite.title": "Charles' Gift",
+	"Mail.handwrittenhello.dbda_CharlesAmuletInvite.text": "Hey @,^^You've been such a good friend lately, and I want to repay the favor.^^Meet me at the agency--I've got a surprise I think you'll like. :)^^    -Charles",
 	
-	"Mail.{{ModId}}_GiveEverbloomQuest.title": "The Everbloom",
-	"Mail.{{ModId}}_GiveEverbloomQuest.text": "@,^I found this old seed we got as payment probably thirty years ago. The bloke who gave it to us said the blossom might make for a good spell ingredient.^^You've got way more of a green thumb than me, so I was wondering if you would try and grow one? I'd like to surprise Edwin with it.^^Thanks, mate!",
+	"Mail.handwrittenhello.dbda_GiveEverbloomQuest.title": "The Everbloom",
+	"Mail.handwrittenhello.dbda_GiveEverbloomQuest.text": "@,^I found this old seed we got as payment probably thirty years ago. The bloke who gave it to us said the blossom might make for a good spell ingredient.^^You've got way more of a green thumb than me, so I was wondering if you would try and grow one? I'd like to surprise Edwin with it.^^Thanks, mate!",
 	
-	"Mail.{{ModId}}_CatchAngie.title": "Sea Monsters",
-	"Mail.{{ModId}}_CatchAngie.text": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy",
+	"Mail.handwrittenhello.dbda_CatchAngie.title": "Sea Monsters",
+	"Mail.handwrittenhello.dbda_CatchAngie.text": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy",
 	
-	"Mail.{{ModId}}_TM_NewStock.title": "New Stock at Tragic Mick's",
-	"Mail.{{ModId}}_TM_NewStock.text": "@,^^I've got some new stock you might like. Good stuff. Those ghost boys dropped it off. Come down and take a look if you've got the time.^^    - Mick",
+	"Mail.handwrittenhello.dbda_TM_NewStock.title": "New Stock at Tragic Mick's",
+	"Mail.handwrittenhello.dbda_TM_NewStock.text": "@,^^I've got some new stock you might like. Good stuff. Those ghost boys dropped it off. Come down and take a look if you've got the time.^^    - Mick",
 	
-	"Mail.{{ModId}}_SeanceInvitation1.title": "The Seance",
-	"Mail.{{ModId}}_SeanceInvitation1.text": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.",
+	"Mail.handwrittenhello.dbda_SeanceInvitation1.title": "The Seance",
+	"Mail.handwrittenhello.dbda_SeanceInvitation1.text": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.",
 	
-	"Mail.{{ModId}}_SeanceIngredients.title": "Seance Spell Ingredients",
-	"Mail.{{ModId}}_SeanceIngredients.text": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin",
+	"Mail.handwrittenhello.dbda_SeanceIngredients.title": "Seance Spell Ingredients",
+	"Mail.handwrittenhello.dbda_SeanceIngredients.text": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin",
 	
-	"Mail.{{ModId}}_NikoCured.title": "Niko's Introduction",
-	"Mail.{{ModId}}_NikoCured.text": "You participated in a seance and anchored Niko's connection to the valley.",
+	"Mail.handwrittenhello.dbda_NikoCured.title": "Niko's Introduction",
+	"Mail.handwrittenhello.dbda_NikoCured.text": "You participated in a seance and anchored Niko's connection to the valley.",
 	
-	"Mail.{{ModId}}_CactusGottenFlag.title": "CactusGottenFlag",
-	"Mail.{{ModId}}_CactusGottenFlag.text": "You gave cactus seeds to Edwin.",
+	"Mail.handwrittenhello.dbda_CactusGottenFlag.title": "CactusGottenFlag",
+	"Mail.handwrittenhello.dbda_CactusGottenFlag.text": "You gave cactus seeds to Edwin.",
 	
-	"Mail.{{ModId}}_CrystalCactus.title": "Cactus Seeds for Edwin",
-	"Mail.{{ModId}}_CrystalCactus.text": "Dear @,^^I am in need of cactus seeds. I have been told you know where to acquire some. Would you mind terribly bringing me some? It's for something important.^^Regards,^    Edwin",
+	"Mail.handwrittenhello.dbda_CrystalCactus.title": "Cactus Seeds for Edwin",
+	"Mail.handwrittenhello.dbda_CrystalCactus.text": "Dear @,^^I am in need of cactus seeds. I have been told you know where to acquire some. Would you mind terribly bringing me some? It's for something important.^^Regards,^    Edwin",
 
-	"Mail.{{ModId}}_CrystalSapling.title": "Crystal's Sapling",
-	"Mail.{{ModId}}_CrystalSapling.text": "Hey @,^^I've got something I want to show you. Touch your hand to the sapling in my room and you'll see. Don't freak out, okay?^^    - Crystal",
+	"Mail.handwrittenhello.dbda_CrystalSapling.title": "Crystal's Sapling",
+	"Mail.handwrittenhello.dbda_CrystalSapling.text": "Hey @,^^I've got something I want to show you. Touch your hand to the sapling in my room and you'll see. Don't freak out, okay?^^    - Crystal",
 	
 
 }

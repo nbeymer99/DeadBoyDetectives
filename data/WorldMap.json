@@ -10,6 +10,18 @@
 		"PatchMode": "Overlay",
 	},
 	
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/maps/{{season}}_worldmap.png",
+		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
+		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
+		"PatchMode": "Overlay",
+		"When": {
+			"Season": "spring"
+		}
+	},
+	
 	// map hover info/location placing - 
 	// !!!NOT WORKING!!!
 	/* {

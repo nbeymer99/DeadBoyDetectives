@@ -26,6 +26,16 @@
 						"Y": 23,
 					},
                 },
+				"{{ModId}}_LighthouseInt": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_LighthouseInt"
+                    },
+					"DisplayName": "Point No Point Lighthouse",
+					"DefaultArrivalTile": {
+						"X": 7,
+						"Y": 12,
+					},
+                },
 				
 				"{{ModId}}_Lighthouse": {
 					"CreateOnLoad": {
@@ -186,6 +196,12 @@
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Lighthouse",
             "FromFile": "assets/maps/Lighthouse.tmx"
+        },
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_LighthouseInt",
+            "FromFile": "assets/maps/LighthouseInt.tmx"
         },
 		
 		{

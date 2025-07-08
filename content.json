@@ -172,5 +172,57 @@
 		"Query: {{Year}} % 2 = 0": true,
 		}
 	},
+	{
+		"Name": "Verbed1",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.722, Strings\\StringsFromCSFiles:Dialogue.cs.723, Strings\\StringsFromCSFiles:Dialogue.cs.724, Strings\\StringsFromCSFiles:Dialogue.cs.725, Strings\\StringsFromCSFiles:Dialogue.cs.726, Strings\\StringsFromCSFiles:Dialogue.cs.727, Strings\\StringsFromCSFiles:Dialogue.cs.728, Strings\\StringsFromCSFiles:Dialogue.cs.729, Strings\\StringsFromCSFiles:Dialogue.cs.730, Strings\\StringsFromCSFiles:Dialogue.cs.731, Strings\\StringsFromCSFiles:Dialogue.cs.732, Strings\\StringsFromCSFiles:Dialogue.cs.733, Strings\\StringsFromCSFiles:Dialogue.cs.734}}", 
+	},
+	{
+		"Name": "Verbed2",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.723, Strings\\StringsFromCSFiles:Dialogue.cs.724, Strings\\StringsFromCSFiles:Dialogue.cs.725, Strings\\StringsFromCSFiles:Dialogue.cs.726, Strings\\StringsFromCSFiles:Dialogue.cs.727, Strings\\StringsFromCSFiles:Dialogue.cs.728, Strings\\StringsFromCSFiles:Dialogue.cs.729, Strings\\StringsFromCSFiles:Dialogue.cs.730, Strings\\StringsFromCSFiles:Dialogue.cs.731, Strings\\StringsFromCSFiles:Dialogue.cs.732, Strings\\StringsFromCSFiles:Dialogue.cs.733, Strings\\StringsFromCSFiles:Dialogue.cs.734, Strings\\StringsFromCSFiles:Dialogue.cs.722}}", 
+	},
+	{
+		"Name": "Verbed3",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.724, Strings\\StringsFromCSFiles:Dialogue.cs.725, Strings\\StringsFromCSFiles:Dialogue.cs.726, Strings\\StringsFromCSFiles:Dialogue.cs.727, Strings\\StringsFromCSFiles:Dialogue.cs.728, Strings\\StringsFromCSFiles:Dialogue.cs.729, Strings\\StringsFromCSFiles:Dialogue.cs.730, Strings\\StringsFromCSFiles:Dialogue.cs.731, Strings\\StringsFromCSFiles:Dialogue.cs.732, Strings\\StringsFromCSFiles:Dialogue.cs.733, Strings\\StringsFromCSFiles:Dialogue.cs.734, Strings\\StringsFromCSFiles:Dialogue.cs.722, Strings\\StringsFromCSFiles:Dialogue.cs.723}}", 
+	},
+	{
+		"Name": "Adj1",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.679, Strings\\StringsFromCSFiles:Dialogue.cs.680, Strings\\StringsFromCSFiles:Dialogue.cs.681, Strings\\StringsFromCSFiles:Dialogue.cs.682, Strings\\StringsFromCSFiles:Dialogue.cs.683, Strings\\StringsFromCSFiles:Dialogue.cs.684, Strings\\StringsFromCSFiles:Dialogue.cs.685, Strings\\StringsFromCSFiles:Dialogue.cs.686, Strings\\StringsFromCSFiles:Dialogue.cs.687, Strings\\StringsFromCSFiles:Dialogue.cs.688, Strings\\StringsFromCSFiles:Dialogue.cs.689, Strings\\StringsFromCSFiles:Dialogue.cs.690, Strings\\StringsFromCSFiles:Dialogue.cs.691, Strings\\StringsFromCSFiles:Dialogue.cs.692, Strings\\StringsFromCSFiles:Dialogue.cs.693, Strings\\StringsFromCSFiles:Dialogue.cs.694, Strings\\StringsFromCSFiles:Dialogue.cs.695, Strings\\StringsFromCSFiles:Dialogue.cs.696, Strings\\StringsFromCSFiles:Dialogue.cs.697, Strings\\StringsFromCSFiles:Dialogue.cs.698}}",
+	},
+	{
+		"Name": "Adj2",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.680, Strings\\StringsFromCSFiles:Dialogue.cs.681, Strings\\StringsFromCSFiles:Dialogue.cs.682, Strings\\StringsFromCSFiles:Dialogue.cs.683, Strings\\StringsFromCSFiles:Dialogue.cs.684, Strings\\StringsFromCSFiles:Dialogue.cs.685, Strings\\StringsFromCSFiles:Dialogue.cs.686, Strings\\StringsFromCSFiles:Dialogue.cs.687, Strings\\StringsFromCSFiles:Dialogue.cs.688, Strings\\StringsFromCSFiles:Dialogue.cs.689, Strings\\StringsFromCSFiles:Dialogue.cs.690, Strings\\StringsFromCSFiles:Dialogue.cs.691, Strings\\StringsFromCSFiles:Dialogue.cs.692, Strings\\StringsFromCSFiles:Dialogue.cs.693, Strings\\StringsFromCSFiles:Dialogue.cs.694, Strings\\StringsFromCSFiles:Dialogue.cs.695, Strings\\StringsFromCSFiles:Dialogue.cs.696, Strings\\StringsFromCSFiles:Dialogue.cs.697, Strings\\StringsFromCSFiles:Dialogue.cs.698, Strings\\StringsFromCSFiles:Dialogue.cs.679}}",
+	},
+	{
+		"Name": "Adj3",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.681, Strings\\StringsFromCSFiles:Dialogue.cs.682, Strings\\StringsFromCSFiles:Dialogue.cs.683, Strings\\StringsFromCSFiles:Dialogue.cs.684, Strings\\StringsFromCSFiles:Dialogue.cs.685, Strings\\StringsFromCSFiles:Dialogue.cs.686, Strings\\StringsFromCSFiles:Dialogue.cs.687, Strings\\StringsFromCSFiles:Dialogue.cs.688, Strings\\StringsFromCSFiles:Dialogue.cs.689, Strings\\StringsFromCSFiles:Dialogue.cs.690, Strings\\StringsFromCSFiles:Dialogue.cs.691, Strings\\StringsFromCSFiles:Dialogue.cs.692, Strings\\StringsFromCSFiles:Dialogue.cs.693, Strings\\StringsFromCSFiles:Dialogue.cs.694, Strings\\StringsFromCSFiles:Dialogue.cs.695, Strings\\StringsFromCSFiles:Dialogue.cs.696, Strings\\StringsFromCSFiles:Dialogue.cs.697, Strings\\StringsFromCSFiles:Dialogue.cs.698, Strings\\StringsFromCSFiles:Dialogue.cs.679, Strings\\StringsFromCSFiles:Dialogue.cs.680}}",
+	},
+	{
+		"Name": "Noun1",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.699, Strings\\StringsFromCSFiles:Dialogue.cs.700, Strings\\StringsFromCSFiles:Dialogue.cs.701, Strings\\StringsFromCSFiles:Dialogue.cs.702, Strings\\StringsFromCSFiles:Dialogue.cs.703, Strings\\StringsFromCSFiles:Dialogue.cs.704, Strings\\StringsFromCSFiles:Dialogue.cs.705, Strings\\StringsFromCSFiles:Dialogue.cs.706, Strings\\StringsFromCSFiles:Dialogue.cs.708, Strings\\StringsFromCSFiles:Dialogue.cs.709, Strings\\StringsFromCSFiles:Dialogue.cs.710, Strings\\StringsFromCSFiles:Dialogue.cs.711, Strings\\StringsFromCSFiles:Dialogue.cs.712, Strings\\StringsFromCSFiles:Dialogue.cs.713, Strings\\StringsFromCSFiles:Dialogue.cs.714, Strings\\StringsFromCSFiles:Dialogue.cs.715, Strings\\StringsFromCSFiles:Dialogue.cs.717, Strings\\StringsFromCSFiles:Dialogue.cs.718, Strings\\StringsFromCSFiles:Dialogue.cs.719, Strings\\StringsFromCSFiles:Dialogue.cs.720, Strings\\StringsFromCSFiles:Dialogue.cs.721}}",
+	},
+	{
+		"Name": "Noun2",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.700, Strings\\StringsFromCSFiles:Dialogue.cs.701, Strings\\StringsFromCSFiles:Dialogue.cs.702, Strings\\StringsFromCSFiles:Dialogue.cs.703, Strings\\StringsFromCSFiles:Dialogue.cs.704, Strings\\StringsFromCSFiles:Dialogue.cs.705, Strings\\StringsFromCSFiles:Dialogue.cs.706, Strings\\StringsFromCSFiles:Dialogue.cs.708, Strings\\StringsFromCSFiles:Dialogue.cs.709, Strings\\StringsFromCSFiles:Dialogue.cs.710, Strings\\StringsFromCSFiles:Dialogue.cs.711, Strings\\StringsFromCSFiles:Dialogue.cs.712, Strings\\StringsFromCSFiles:Dialogue.cs.713, Strings\\StringsFromCSFiles:Dialogue.cs.714, Strings\\StringsFromCSFiles:Dialogue.cs.715, Strings\\StringsFromCSFiles:Dialogue.cs.717, Strings\\StringsFromCSFiles:Dialogue.cs.718, Strings\\StringsFromCSFiles:Dialogue.cs.719, Strings\\StringsFromCSFiles:Dialogue.cs.720, Strings\\StringsFromCSFiles:Dialogue.cs.721, Strings\\StringsFromCSFiles:Dialogue.cs.699}}",
+	},
+	{
+		"Name": "Noun3",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.701, Strings\\StringsFromCSFiles:Dialogue.cs.702, Strings\\StringsFromCSFiles:Dialogue.cs.703, Strings\\StringsFromCSFiles:Dialogue.cs.704, Strings\\StringsFromCSFiles:Dialogue.cs.705, Strings\\StringsFromCSFiles:Dialogue.cs.706, Strings\\StringsFromCSFiles:Dialogue.cs.708, Strings\\StringsFromCSFiles:Dialogue.cs.709, Strings\\StringsFromCSFiles:Dialogue.cs.710, Strings\\StringsFromCSFiles:Dialogue.cs.711, Strings\\StringsFromCSFiles:Dialogue.cs.712, Strings\\StringsFromCSFiles:Dialogue.cs.713, Strings\\StringsFromCSFiles:Dialogue.cs.714, Strings\\StringsFromCSFiles:Dialogue.cs.715, Strings\\StringsFromCSFiles:Dialogue.cs.717, Strings\\StringsFromCSFiles:Dialogue.cs.718, Strings\\StringsFromCSFiles:Dialogue.cs.719, Strings\\StringsFromCSFiles:Dialogue.cs.720, Strings\\StringsFromCSFiles:Dialogue.cs.721, Strings\\StringsFromCSFiles:Dialogue.cs.699, Strings\\StringsFromCSFiles:Dialogue.cs.700}}",
+	},
+	{
+		"Name": "Place1",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.748, Strings\\StringsFromCSFiles:Dialogue.cs.749, Strings\\StringsFromCSFiles:Dialogue.cs.750, Strings\\StringsFromCSFiles:Dialogue.cs.751, Strings\\StringsFromCSFiles:Dialogue.cs.752, Strings\\StringsFromCSFiles:Dialogue.cs.753, Strings\\StringsFromCSFiles:Dialogue.cs.754, Strings\\StringsFromCSFiles:Dialogue.cs.755, Strings\\StringsFromCSFiles:Dialogue.cs.756, Strings\\StringsFromCSFiles:Dialogue.cs.757, Strings\\StringsFromCSFiles:Dialogue.cs.758, Strings\\StringsFromCSFiles:Dialogue.cs.759}}",
+	},
+	{
+		"Name": "Place2",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.749, Strings\\StringsFromCSFiles:Dialogue.cs.750, Strings\\StringsFromCSFiles:Dialogue.cs.751, Strings\\StringsFromCSFiles:Dialogue.cs.752, Strings\\StringsFromCSFiles:Dialogue.cs.753, Strings\\StringsFromCSFiles:Dialogue.cs.754, Strings\\StringsFromCSFiles:Dialogue.cs.755, Strings\\StringsFromCSFiles:Dialogue.cs.756, Strings\\StringsFromCSFiles:Dialogue.cs.757, Strings\\StringsFromCSFiles:Dialogue.cs.758, Strings\\StringsFromCSFiles:Dialogue.cs.759, Strings\\StringsFromCSFiles:Dialogue.cs.748}}",
+	},
+	{
+		"Name": "Place3",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.750, Strings\\StringsFromCSFiles:Dialogue.cs.751, Strings\\StringsFromCSFiles:Dialogue.cs.752, Strings\\StringsFromCSFiles:Dialogue.cs.753, Strings\\StringsFromCSFiles:Dialogue.cs.754, Strings\\StringsFromCSFiles:Dialogue.cs.755, Strings\\StringsFromCSFiles:Dialogue.cs.756, Strings\\StringsFromCSFiles:Dialogue.cs.757, Strings\\StringsFromCSFiles:Dialogue.cs.758, Strings\\StringsFromCSFiles:Dialogue.cs.759, Strings\\StringsFromCSFiles:Dialogue.cs.748, Strings\\StringsFromCSFiles:Dialogue.cs.749}}",
+	},
+	{
+		"Name": "PrepPhrase",
+		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.735, Strings\\StringsFromCSFiles:Dialogue.cs.736, Strings\\StringsFromCSFiles:Dialogue.cs.737, Strings\\StringsFromCSFiles:Dialogue.cs.738, Strings\\StringsFromCSFiles:Dialogue.cs.739, Strings\\StringsFromCSFiles:Dialogue.cs.740, Strings\\StringsFromCSFiles:Dialogue.cs.741, Strings\\StringsFromCSFiles:Dialogue.cs.742, Strings\\StringsFromCSFiles:Dialogue.cs.743, Strings\\StringsFromCSFiles:Dialogue.cs.744, Strings\\StringsFromCSFiles:Dialogue.cs.745, Strings\\StringsFromCSFiles:Dialogue.cs.746, Strings\\StringsFromCSFiles:Dialogue.cs.747}}",
+	},
 	]
 }
