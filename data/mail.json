@@ -25,6 +25,8 @@
 			"{{ModId}}_CrystalCactus": "{{i18n:Mail.{{ModId}}_CrystalCactus.text}}%item quest {{ModId}}_CrystalCactusQuest true %%[#]{{i18n:Mail.{{ModId}}_CrystalCactus.title}}",
 			
 			"{{ModId}}_CrystalSapling": "{{i18n:Mail.{{ModId}}_CrystalSapling.text}}[#]{{i18n:Mail.{{ModId}}_CrystalSapling.title}}",
+			
+			"{{ModId}}_NikoHandMirror": "{{i18n:Mail.{{ModId}}_NikoHandMirror.text}}[#]{{i18n:Mail.{{ModId}}_NikoHandMirror.title}}",
 		}
 	}
 	]

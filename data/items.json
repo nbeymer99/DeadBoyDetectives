@@ -42,8 +42,24 @@
 				"Price": "6000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 13,
-				"CanBeTrashed": false,
+				"CanBeTrashed": true,
 				"CanBeShipped": false,
+			},
+			
+			"{{ModId}}_NikoMirror": {
+				"Name": "{{ModId}}_NikoMirror",
+				"DisplayName": "Niko's Mirror",
+				"Description": "An ornate silver handheld mirror given to you by Niko. Teleports you to Niko's room upon use.",
+				"Type": "Basic",
+				"Category": -24,
+				"Price": "10000",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 4,
+				"CanBeTrashed": false,
+				"CanBeGivenAsGift": false,
+				"CanBeShipped": false,
+				"ExcludeFromRandomSale": true,
+				"ContextTags": ["not_placeable"],
 			},
 
 			
@@ -224,9 +240,18 @@
 			"{{ModId}}_Magic8Ball": {
 				"UseForTriggerAction": true
 			},
+			
+			"{{ModId}}_NikoMirror": {
+				"TotemWarp": {
+					"Location": "{{ModId}}_CrystalAndNiko",
+					"Position": "18, 13",
+					"ConsumedOnUse": false,
+				}
+			},
 		},
 	},
 
+// LOADS
 	{
         "Action": "Load",
         "Target": "Mods/{{ModId}}/itemsAndFurniture",

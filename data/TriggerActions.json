@@ -44,6 +44,16 @@
 				]
 			},
 			
+			// send niko 10 heart event invite
+			"{{ModId}}Niko10Hearts": {
+				"Id": "{{ModId}}_Niko10Hearts",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 2500",
+				"Actions": [
+					"AddMail Current {{ModId}}_NikoHandMirror now",
+				]
+			},
+			
 			// send mail - edwin cactus quest mail
 			"{{ModId}}_EdwinCactusMail": {
 				"Id": "{{ModId}}_EdwinCactusMail",

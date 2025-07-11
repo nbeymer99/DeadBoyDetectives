@@ -320,37 +320,79 @@
 	"niko_dialogue.winter_24": "I love the holidays. In Osaka, my family and I always celebrated the new year by playing games before eating osechi.",
 	
 	//FESTIVALS
+	// egg festival
 	"Festivals.EggFestival.CharlesRowland": "The egg hunt always reminds me of the Rotten Egg Debacle of '98. Right, Edwin?$h",
 	"Festivals.EggFestival.EdwinPayne": "If Charles and I could participate in the egg hunt, nobody else would stand a chance, frankly.$u",
 	"Festivals.EggFestival.CrystalPalace": "I hate hardboiled eggs. The smell reminds me of that poltergeist we dealt with last year.",
-	
+	"Festivals.EggFestival.NikoSasaki": "I love the egg festival. It's like the valley comes alive!",
+	"Festivals.EggFestival.CatKing": "Ugh, all these kids running around... remind me why I'm wasting my time here, again?",
+	"Festivals.EggFestival.EstherFinch": "Hmph. Cute. Quaint. And I can't even get away with snatching one of the kids...#$e#Pretend you didn't hear that last part.",
+
+	// flower dance
 	"Festivals.FlowerDance.CharlesRowland": "I taught Edwin how to dance once. For fun, not that posh nonsense from way back when.",
 	"Festivals.FlowerDance.EdwinPayne": "This reminds me of the horrid events my parents made me attend as a child. I cannot imagine dancing in front of an audience would be at all enjoyable.$s",
 	"Festivals.FlowerDance.CrystalPalace": "I'm more used to the kind of dancing that happens in clubs, not whatever this is.",
-	
+	"Festivals.FlowerDance.NikoSasaki": "All the dancers look so pretty... I don't know if I could ever dance, though. I don't like too much attention on me.",
+	"Festivals.FlowerDance.MontyFinch": "I wonder if Edwin would want to dance with me?#$e#Probably not...$s",
+	"Festivals.FlowerDance.CatKing": "Are you gonna ask me to dance? You better have a pretty sweet offer.",
+	"Festivals.FlowerDance.EstherFinch": "The flower dance might as well be older than me, it's so outdated. And I just *look* young and beautiful, honey.",
+
+	// luau
 	"Festivals.Luau.CharlesRowland": "Just looking at that soup is enough to make me feel sick.$s#$b#I'm glad I don't have to eat it.",
 	"Festivals.Luau.EdwinPayne": "Remind me why we are here, again? Surely there are cases we could be working on instead.$s",
 	"Festivals.Luau.CrystalPalace": "The soup kind of reminds me of what the housekeeper would throw together whenever I got sick.#$b#That's why I threw in some noodles--I always liked her noodle soup best.",
+	"Festivals.Luau.NikoSasaki": "The soup smells soooo good! What are you putting in it?",
+	"Festivals.Luau.MontyFinch": "It's really great that the whole town can come together to share the soup.#$b#The only meals I've ever shared were with a giant snake in Esther's basement.#$e#What?",
+	"Festivals.Luau.CatKing": "Ugh, all this sand is going to get caught in my fur...",
+	"Festivals.Luau.EstherFinch": "There has to be some kind of magic potential in a communal meal.#$b#Gross, good feelings, ew.",
 
+	// moonlight jellies
 	"Festivals.MoonlightJellies.CharlesRowland": "Being out on the water makes me nervous, but it's worth it to see the Moonlight Jellies.",
 	"Festivals.MoonlightJellies.EdwinPayne": "Did you know, Pelican Town is the only region in the world home to such unique specimens? Fascinating.$u",
 	"Festivals.MoonlightJellies.CrystalPalace1": "I'm so glad Niko is here to see this...",
 	"Festivals.MoonlightJellies.CrystalPalace2": "I wish Niko were here to see this...",
+	"Festivals.MoonlightJellies.NikoSasaki": "The moonlight jellies are sooooo beautiful! I'd take one home, but they belong in nature.",
+	"Festivals.MoonlightJellies.MontyFinch": "I have to make it home before the moon rises... Esther doesn't like it when I'm out at night.",
+	"Festivals.MoonlightJellies.CatKing": "You won't catch me out over the water. I'm plenty good back here.",
+	"Festivals.MoonlightJellies.EstherFinch": "The jellies, you know, they make a wonderful skin serum. You should try it.",
 
+	// fair
 	"Festivals.Fair.CharlesRowland": "Have you been to the petting zoo yet? The chickens are pretty cute.$h",
 	"Festivals.Fair.EdwinPayne": "Ridiculous. That fortune-teller is nothing compared to Crystal.$u",
 	"Festivals.Fair.CrystalPalace": "Wow, did Edwin just compliment me? Is he running a fever?$h",
+	"Festivals.Fair.NikoSasaki": "Charles helped me play the strength game. You should have seen everyone's faces when the bar hit maximum!$h",
+	"Festivals.Fair.MontyFinch": "Do you think the petting zoo animals ever wish they could fly?",
+	"Festivals.Fair.CatKing": "I'm only here to keep an eye on my cats. They love begging for peoples scraps at the fair.",
+	"Festivals.Fair.EstherFinch": "This whole town should be under my thumb. All this joyful yelling, it's just sickening.",
 
+
+	// spirit's eve
 	"Festivals.Halloween.CharlesRowland": "It's the busiest night of the year for us. We're here to make sure nothing goes wrong, yeah?$u",
 	"Festivals.Halloween.EdwinPayne": "You haven't attracted any curses or wronged any sprits lately, have you, @? I'd be careful on a night such as this one.",
 	"Festivals.Halloween.CrystalPalace": "I don't care what Edwin says about keeping an eye on things--you couldn't pay me to go in that creepy-ass maze.#$b#I can't exactly walk through walls.",
+	"Festivals.Halloween.NikoSasaki": "Eek! What was that?#$b#Oh, @, it's just you. Sorry, I'm a little jumpy.",
+	"Festivals.Halloween.MontyFinch": "This is the one night a year Esther lets me do whatever I want, in the spirit of the season.",
+	"Festivals.Halloween.CatKing": "Spirit's Eve is a very powerful night for cats.#$e#You and I could also make it a powerful night, what do you say?",
+	"Festivals.Halloween.EstherFinch": "Ah, the smell of scared children. It's like coffee to me. Wakes the senses right up.",
 
+	// festival of ice
 	"Festivals.Ice.EdwinPayne": "Charles elected not to attend, and it's little question why. I myself am only here on matters pertaining to a current case.",
 	"Festivals.Ice.CrystalPalace": "I'm kind of worried about Charles. He didn't look so good when Edwin and I left.",
+	"Festivals.Ice.NikoSasaki": "Brr, it's cold out. I wish I had some tea to warm myself up.",
+	"Festivals.Ice.MontyFinch": "Whee! Want to make snow angels with me?",
+	"Festivals.Ice.CatKing": "I hate forests. Why are there so many trees? Ugh.$a",
+	"Festivals.Ice.EstherFinch": "They should all be carving statues of me.",
 
+	
+	// feast of the winter star
 	"Festivals.Christmas.CharlesRowland": "Edwin, Crystal and I already exchanged gifts this morning, but it's so fun seeing everyone else open up their presents.$h",
 	"Festivals.Christmas.EdwinPayne": "Winter was always a rare bright spot during my childhood. The Christmas holidays meant a reprieve from St. Hilarion's halls.",
 	"Festivals.Christmas.CrystalPalace": "It's so nice actually spending the holidays with people you like.#$b#My mom and dad used to drag me to every fancy party they could.#$e#When I turned thirteen I just started going home on my own as soon as they got drunk.",
+	"Festivals.Christmas.NikoSasaki": "I hope I get a new issue of my favorite manga.",
+	"Festivals.Christmas.MontyFinch": "Did you get any gifts this morning? What was your favorite?",
+	"Festivals.Christmas.CatKing": "The only present I want to find under the tree... is you.#$e#Oh come on, it's just a little holiday flirting!",
+	"Festivals.Christmas.EstherFinch": "All this... festive spirit... Ugh, it's sickening.",
+
 
 	//SHOPS 
 	"Shops.TM.Dialogue": "Ayup, I might have what you need.",
@@ -455,6 +497,28 @@
 	"charleshearts2.10": "Just wait until you knock over the jar of bees. Speaking from experience, you only make that mistake once.$h",
 	"charleshearts2.11": "Anyway, even if I'm not around, feel free to come in here if you need a minute away. Just don't get lost!$h",
 	
+	"niko_hearts4.0": "Allow me to demonstrate.",
+	"niko_hearts4.1": "Ah, @, good morning. Charles and I were just about to teach Niko about some of the so-called 'ghost rules', seeing as she is only partially alive now.#$b#One of the better perks is the ability to mirror travel; observe.",
+	"niko_hearts4.2": "'S alright, @, he just popped across to Niko's room. Look.",
+	"niko_hearts4.3": "See? Simply concentrate on your destination, and with practice, you will be able to travel quickly and reliably.#$b#And, as you have observed, bring objects through mirrors with you as well.$h",
+	"niko_hearts4.4": "I *have* always been jealous of you being able to travel through mirrors.$h",
+	"niko_hearts4.5": "There's gotta be *some* perks to being dead.",
+	"niko_hearts4.6": "Go ahead, Niko. Try to move from that mirror to the other.",
+	"niko_hearts4.7": "Okay... here goes...",
+	"niko_hearts4.8": "...#$b#...Niko?$s",
+	"niko_hearts4.9": "Bloody hell, where's she gone?$7",
+	"niko_hearts4.10": "I knew I should have accompanied her on her first trip. This is my fault.$s",
+	"niko_hearts4.11": "It's alright, mate, we'll get her back.$9#$b#@, you stay here in case she finds her own way back.#$b#Edwin, remember when I first started, and I kept getting lost? Let's start by checking the usual haunts, yeah?",
+	"niko_hearts4.12": "Yes, I suppose we shall have to start somewhere-",
+	"niko_hearts4.13": "Niko! You alright?$7",
+	"niko_hearts4.14": "Oh my gosh! I don't know where I ended up, but that was scary!$s",
+	"niko_hearts4.15": "I'm sorry, Niko. I should have guided you more on your first attempt.$s",
+	"niko_hearts4.16": "It's okay. But if it's alright with you, I think I'd like to be done practicing for now.",
+	"niko_hearts4.17": "Of course. Why don't we finish watching that television programme you showed me last week?$h",
+	"niko_hearts4.18": "Charles, @, I shall see you later.",
+	"niko_hearts4.19": "Bye guys!",
+	"niko_hearts4.20": "Phew, glad that's sorted.$h#$b#I was worried for Niko, but for a second there I thought Edwin was going to go spare.$s#$b#Just between you and me, he's been pretty... jumpy, I guess, when it comes to Niko.$s#$b#It's just 'cause he doesn't want to lose her again, yeah?#$b#We'll work on mirror travel another time.#$b#While it's just us, d'you wanna take a look at this new ring we got as payment? It's supposed to make you invisible...$h",
+	
 	"edwinhearts5.0": "-and when we consider the fact that she wasn't at home at the time...",
 	"edwinhearts5.1": "Ah, @.  Good to see you.$h",
 	"edwinhearts5.2": "Maybe you can solve this one for us, mate.$h#$b#Edwin and I have been talking each other 'round in circles all day with this case.",
@@ -501,12 +565,16 @@
 	
 	"niko_hearts2.0": "Oh, hi, @!#$b#I was just writing. I'm a little stuck on this part, though.$a#$b#Actually, maybe you could help? You have really good ideas!",
 	"niko_hearts2.1": "Okay, so where do you think the scene should take place?",
-	"niko_hearts2.2": "Pick a place.#[LocalizedText {{Place1}}]#[LocalizedText {{Place2}}]#[LocalizedText {{Place3}}]",
+	"niko_hearts2.2": "Pick a place.",
 	"niko_hearts2.3": "Oh, interesting, okay. What do you think the characters should see there?",
-	"niko_hearts2.4": "They should encounter a...#[LocalizedText {{Adj1}}] [LocalizedText {{Noun1}}]#[LocalizedText {{Adj2}}] [LocalizedText {{Noun2}}]#[LocalizedText {{Adj3}}] [LocalizedText {{Noun3}}]",
+	"niko_hearts2.4": "They should encounter a...",
 	"niko_hearts2.5": "I never would have thought of that!#$b#Thanks, @. I think I only need one more thing...",
 	"niko_hearts2.6": "It's supposed to be a romance, but I don't know what would spark the two of them getting together.#$b#How do you think it should happen?",
-	"niko_hearts2.7": "How did Niko's characters fall in love?#They [LocalizedText {{Verbed1}}] together until sunset.#They [LocalizedText {{Verbed2}}] together all day.#They [LocalizedText {{Verbed3}}] every night [LocalizedText {{PrepPhrase}}] their home.",
+	"niko_hearts2.7": "How did Niko's characters fall in love?#They",
+	"nikohearts2.16": "together until sunset.#They",
+	"nikohearts2.17": "together all day.#They",
+	"nikohearts2.18": "every night",
+	"nikohearts2.19": "their home.",
 	"niko_hearts2.8": "Oh, that's so romantic!$l#$b#I know exactly what to write now. Thanks so much, @.",
 	"niko_hearts2.9": "As soon as I'm done, do you want to read it?",
 	"niko_hearts2.10": "Will you read Niko's story when she's done?",
@@ -515,6 +583,25 @@
 	"niko_hearts2.13": "Great! I'll let you know when it's finished.$h",
 	"niko_hearts2.14": "Oh... that's okay, you don't have to.$s",
 	"niko_hearts2.15": "Thanks again for the help, @. See you later!",
+	
+	"nikohearts6.0": "Hi @!#$b#I actually have a surprise for you, but you're a little early.$h",
+	"nikohearts6.1": "Here. I made cookies! You're always so sweet, so I wanted to make something sweet for you.$h",
+	"nikohearts6.2": "Well? How do they taste?",
+	"nikohearts6.3": "Oh no...$s#$b#I used a recipe and everything, but I couldn't taste any of the ingredients!$s",
+	"nikohearts6.4": "Most of the time food just tastes like sand to me now. Edwin and Charles said that's how it is for ghosts all the time, but I hate it!$s#$b#How am I supposed to bake for my friends, or go out to eat with them, or have any of the food you grow on your farm?$s",
+	"nikohearts6.5": "I'm glad that you guys brought me back, but sometimes it really sucks.$s",
+	"nikohearts6.6": "It's okay, the cookies weren't that bad.",
+	"nikohearts6.7": "Maybe you can't always taste the food, but you can still share the experiences with people.",
+	"nikohearts6.8": "You should be glad you can't taste your horrible attempts at baking.",
+	"nikohearts6.9": "You're just trying to make me feel better.$s#$b#But thank you, I guess.",
+	"nikohearts6.10": "I guess you're right... Charles and Edwin still have fun whenever Crystal eats in front of them.#$b#And I can still smell and touch things, so maybe I could just imagine being able to taste things.",
+	"nikohearts6.11": "Sorry I screwed the cookies up so bad. You probably hate me.$s",
+	"nikohearts6.12": "Anyway, I'll just have to keep practicing.#$b#I'll make you the best cookies ever, even if it takes a hundred batches!",
+	
+	"nikohearts10.0": "@! You got my letter?$h",
+	"nikohearts10.1": "You know, ever since moving to the valley...#$b#It's been really hard trying to adjust. Not just to what I am now, partly alive and partly dead...#$b#But all these new people, new places, well...#$b#Sometimes it's enough to make me want to stay in my room for days on end.#$b#It's a lot easier to pretend that I'm not scared that way.",
+	"nikohearts10.2": "But you've made it a lot easier for me to put myself out there. You're always so nice, and encouraging, and I see how hard you work to make the town a better place.$l#$b#Which is why I wanted to give you this...",
+	"nikohearts10.3": "I'm still trying to get the hang of mirror traveling, but maybe this will help you get around a little easier!#$b#It's enchanted to teleport you to my room. That way we can hang out more!$h",
 	
 	"crystalhearts1.0": "*sighhhh*...$s#$b#Do you ever think about death?$s",
 	"crystalhearts1.1": "Like, what happens when we move on. Obviously some people don't, like Charles and Edwin...$s#$b#...And I'm glad they get a second chance, because they didn't deserve to die so young. Like, what a shitty hand to get dealt.$s#$b#But... I had a friend...$s#$b#She didn't get a second chance.$s",
@@ -734,6 +821,9 @@
 
 	"Mail.handwrittenhello.dbda_CrystalSapling.title": "Crystal's Sapling",
 	"Mail.handwrittenhello.dbda_CrystalSapling.text": "Hey @,^^I've got something I want to show you. Touch your hand to the sapling in my room and you'll see. Don't freak out, okay?^^    - Crystal",
+	
+	"Mail.handwrittenhello.dbda_NikoHandMirror.title": "Niko's Gift",
+	"Mail.handwrittenhello.dbda_NikoHandMirror.text": "Dear @,^^I want to thank you for being such a good friend. Whenever you have time, come to my room. I've got a present for you! ;)^^Love,^    Niko",
 	
 
 }
