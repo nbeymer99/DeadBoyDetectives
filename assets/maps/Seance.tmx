@@ -7,6 +7,7 @@
   <property name="Light" value="24 50 4 33 53 4 24 58 4 21 64 4 17 86 4 27 86 4 38 65 4 30 72 4 27 72 4 41 69 4 71 67 4 52 98 4 56 98 4 92 79 4"/>
   <property name="NightTiles" value=""/>
   <property name="Outdoors" value="T"/>
+  <property name="PassOutSafe" value="T"/>
   <property name="Spring_Objects" value="T"/>
   <property name="Summer_Objects" value="T"/>
   <property name="Warp" value="-1 53 BusStop 42 23 -1 54 BusStop 42 23 -1 55 BusStop 42 24 79 -1 Mountain 15 40 80 -1 Mountain 15 40 81 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 -1 89 Forest 118 25 -1 90 Forest 118 25 -1 91 Forest 118 25 -1 92 Forest 118 25 -1 93 Forest 118 26 53 110 Beach 38 0 54 110 Beach 38 0 55 110 Beach 38 0 90 -1 Mountain 57 40 98 -1 Mountain 85 40 94 110 Beach 67 0"/>
@@ -3125,7 +3126,7 @@
   </tile>
  </tileset>
  <tileset firstgid="6839" name="z_tongueandtail" tilewidth="16" tileheight="16" tilecount="156" columns="13">
-  <image source="tongueandtail.png" width="208" height="192"/>
+  <image source="handwrittenhello.dbda_tongueandtail.png" width="208" height="192"/>
  </tileset>
  <tileset firstgid="6995" name="mapObjects" tilewidth="16" tileheight="16" tilecount="36" columns="6">
   <image source="mapObjects.png" width="96" height="96"/>

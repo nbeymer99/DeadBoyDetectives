@@ -9,21 +9,21 @@
 			"rain": "GOTO Sun",
 			
 			"Mon": "GOTO spring",
-			"Tue": "0600 {{ModId}}_TragicMicks 9 21 0/1100 {{ModId}}_DeadBoyAgency 9 16 2 niko_read \"Strings\\schedules\\NikoSasaki:Agency.000\"/1900 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2500 bed",
-			"Wed": "a0930 ArchaeologyHouse 22 8 3/1130 {{ModId}}_DeadBoyAgency 8 8 2 niko_read/1600 {{ModId}}_DeadBoyAgency 9 6 1 niko_write \"Strings\\schedules\\NikoSasaki:Agency.001\"/a2500 bed",
+			"Tue": "0630 {{ModId}}_TragicMicks 9 21 0/1100 {{ModId}}_DeadBoyAgency 9 16 2 niko_read \"Strings\\schedules\\NikoSasaki:Agency.000\"/1900 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2500 bed",
+			"Wed": "a0930 ArchaeologyHouse 22 8 3/1130 {{ModId}}_DeadBoyAgency 8 9 2 niko_laydownread/1600 {{ModId}}_DeadBoyAgency 9 6 1 niko_write \"Strings\\schedules\\NikoSasaki:Agency.001\"/a2500 bed",
 			"Thu": "a0930 ArchaeologyHouse 22 8 3/1200 {{ModId}}_TragicMicks 9 21 0/1700 {{ModId}}_CrystalAndNiko 12 12 2 niko_watchTV/2100 {{ModId}}_CrystalAndNiko 18 11 2 niko_read \"Strings\\schedules\\NikoSasaki:Reading.000/2500 bed",
-			"Fri": "0800 Forest 79 74 3 square_8_4/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/2400 bed",
+			"Fri": "0800 Forest 79 74 3 square_8_4/1400 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1830 Saloon 38 19 2/a2400 bed",
 			"Sat": "0700 {{ModId}}_DeadBoyAgency 2 6 1 niko_write \"Strings\\schedules\\NikoSasaki:Agency.001\"/1800 {{ModId}}_CrystalAndNiko 12 12 2 niko_watchTV \"Strings\\schedules\\NikoSasaki:WatchTV.000\"/2500 bed",
-			"Sun": "0930 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/1200 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/1600 {{ModId}}_DeadBoyAgency 9 7 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/1900 {{ModId}}_DeadBoyAgency 9 16 2 niko_read \"Strings\\schedules\\NikoSasaki:Agency.000\"/2300 bed",
+			"Sun": "0930 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/1200 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/1600 {{ModId}}_DeadBoyAgency 9 7 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/1900 {{ModId}}_DeadBoyAgency 9 16 2 niko_read \"Strings\\schedules\\NikoSasaki:Agency.000\"/2330 bed",
 			
-			"summer_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 {{ModId}}_Lighthouse 37 8 0 square_9_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2000 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
-			"summer_Fri": "{{ModId}}_Lighthouse 37 8 0 square_9_5/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/2400 bed",
+			"summer_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 {{ModId}}_Lighthouse 37 8 0 square_9_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2100 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
+			"summer_Fri": "0800 {{ModId}}_Lighthouse 37 8 0 square_9_5 \"Strings\\schedules\\NikoSasaki:Beachcombing.000/1400 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1830 Saloon 38 19 2/a2400 bed",
 			
 			"fall_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 Town 44 88 3 square_4_3/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2000 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
-			"fall_Fri": "0800 Town 44 88 3 square_4_3/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/2400 bed",
+			"fall_Fri": "0800 Town 44 88 3 square_4_3/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/a2400 bed",
 			
-			"winter_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 Mountain 82 22 2 square_5_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2000 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
-			"winter_Fri": "0800 Mountain 82 22 2 square_5_5/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/2400 bed",
+			"winter_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1130 Mountain 82 22 2 square_5_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2130 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
+			"winter_Fri": "0800 Mountain 82 22 2 square_5_5/1300 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1830 Saloon 38 19 2/a2400 bed",
 			
 			}
 		}

@@ -39,10 +39,10 @@
 				"Calendar": "HiddenUntilMet",
 				
 				"FriendsAndFamily": {
-                    "EdwinPayne": "weird ghost kid",
-					"CharlesRowland": "weird ghost kid",
-					"NikoSasaki": "tenant",
-					"CrystalPalace": "tenant"
+                    "EdwinPayne": "",
+					"CharlesRowland": "",
+					"NikoSasaki": "",
+					"CrystalPalace": ""
                 },
 					
 				"DumpsterDiveFriendshipEffect": -10,

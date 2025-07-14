@@ -22,7 +22,7 @@
 				// Basic Info	
                     "DisplayName": "Edwin",
                     "BirthSeason": "Winter",
-                    "BirthDay": 2,
+                    "BirthDay": 1,
                     "HomeRegion": "Town",
                     "Gender": "Male",
                     "Age": "Teen",
@@ -41,8 +41,8 @@
 					
 					"FriendsAndFamily": {
                         "Charles": "best friend",
-						"Crystal": "friend",
-						"Niko": "friend"
+						"Crystal": "",
+						"Niko": ""
                     },
 					
 					"DumpsterDiveFriendshipEffect": 0,

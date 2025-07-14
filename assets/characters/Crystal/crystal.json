@@ -39,9 +39,9 @@
 				"Calendar": "HiddenUntilMet",
 				
 				"FriendsAndFamily": {
-                    "EdwinPayne": "frenemy",
-					"CharlesRowland": "friend",
-					"NikoSasaki": "friend"
+                    "EdwinPayne": "",
+					"CharlesRowland": "",
+					"NikoSasaki": ""
                 },
 					
 				"DumpsterDiveFriendshipEffect": 0,

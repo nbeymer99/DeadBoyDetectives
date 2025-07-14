@@ -16,11 +16,11 @@
 			
 			"{{ModId}}_SeanceInvitation1": "{{i18n:Mail.{{ModId}}_SeanceInvitation1.text}}%item quest {{ModId}}_SeanceInvitationQuest true %%[#]{{i18n:Mail.{{ModId}}_SeanceInvitation1.title}}",
 			
-			"{{ModId}}_SeanceIngredients": "{{i18n:Mail.{{ModId}}_SeanceIngredients.text}}%item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%[#]{{i18n:Mail.{{ModId}}_SeanceIngredients.title}}",
+			"{{ModId}}_SeanceIngredients": "{{i18n:Mail.{{ModId}}_SeanceIngredients.text}} %item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%[#]{{i18n:Mail.{{ModId}}_SeanceIngredients.title}}",
 			
-			"{{ModId}}_NikoCured": "{{i18n:Mail.{{ModId}}_NikoCured.text}}[#]{{i18n:Mail.{{ModId}}_NikoCured.title}}",
+			//"{{ModId}}_NikoCured": "{{i18n:Mail.{{ModId}}_NikoCured.text}}[#]{{i18n:Mail.{{ModId}}_NikoCured.title}}",
 			
-			"{{ModId}}_{{i18n:Mail.{{ModId}}_CactusGottenFlag.title}}": "{{i18n:Mail.{{ModId}}_CactusGottenFlag.text}}[#]CactusGottenFlag",
+			//"{{ModId}}_{{i18n:Mail.{{ModId}}_CactusGottenFlag.title}}": "{{i18n:Mail.{{ModId}}_CactusGottenFlag.text}}[#]CactusGottenFlag",
 			
 			"{{ModId}}_CrystalCactus": "{{i18n:Mail.{{ModId}}_CrystalCactus.text}}%item quest {{ModId}}_CrystalCactusQuest true %%[#]{{i18n:Mail.{{ModId}}_CrystalCactus.title}}",
 			

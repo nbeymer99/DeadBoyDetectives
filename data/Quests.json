@@ -13,13 +13,13 @@
 			
 			"{{ModId}}_SeanceInvitationQuest": "Basic/{{i18n:{{ModId}}_SeanceInvitationQuest.title}}/{{i18n:{{ModId}}_SeanceInvitationQuest.text}}/{{i18n:{{ModId}}_SeanceInvitationQuest.objective}}/null/-1/0/-1/false//",
 			
-			"{{ModId}}_SeanceIngredients1": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients1.title}}/{{i18n:{{ModId}}_SeanceIngredients1.text}}/{{i18n:{{ModId}}_SeanceIngredients1.objective}}/EdwinPayne (O)769 10/-1/false/{{i18n:{{ModId}}_SeanceIngredients1.reaction}}",
+			"{{ModId}}_SeanceIngredients1": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients1.title}}/{{i18n:{{ModId}}_SeanceIngredients1.text}}/{{i18n:{{ModId}}_SeanceIngredients1.objective}}/EdwinPayne (O)769 10/-1/0/0/false/{{i18n:{{ModId}}_SeanceIngredients1.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients1 received",
 			
-			"{{ModId}}_SeanceIngredients2": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients2.title}}/{{i18n:{{ModId}}_SeanceIngredients2.text}}/{{i18n:{{ModId}}_SeanceIngredients2.objective}}/CharlesRowland (O)156 1/-1/false/{{i18n:{{ModId}}_SeanceIngredients2.reaction}}",
+			"{{ModId}}_SeanceIngredients2": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients2.title}}/{{i18n:{{ModId}}_SeanceIngredients2.text}}/{{i18n:{{ModId}}_SeanceIngredients2.objective}}/CharlesRowland (O)156 1/-1/0/0/false/{{i18n:{{ModId}}_SeanceIngredients2.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients2 received",
 			
-			"{{ModId}}_SeanceIngredients3": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients3.title}}/{{i18n:{{ModId}}_SeanceIngredients3.text}}/{{i18n:{{ModId}}_SeanceIngredients3.objective}}/CrystalPalace (O)376 1/{{ModId}}_CuringNiko/false/{{i18n:{{ModId}}_SeanceIngredients3.reaction}}",
+			"{{ModId}}_SeanceIngredients3": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients3.title}}/{{i18n:{{ModId}}_SeanceIngredients3.text}}/{{i18n:{{ModId}}_SeanceIngredients3.objective}}/CrystalPalace (O)376 1/CuringNiko_{{ModId}}/0/0/false/{{i18n:{{ModId}}_SeanceIngredients3.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients3 received",
 			
-			"{{ModId}}_CuringNiko": "Basic/{{i18n:{{ModId}}_CuringNiko.title}}/{{i18n:{{ModId}}_CuringNiko.text}}/{{i18n:{{ModId}}_CuringNiko.objective}}/null/-1/0/-1/false//",
+			"CuringNiko_{{ModId}}": "Basic/{{i18n:{{ModId}}_CuringNiko.title}}/{{i18n:{{ModId}}_CuringNiko.text}}/{{i18n:{{ModId}}_CuringNiko.objective}}/null/-1/0/-1/false//",
 		}
 	}
 	]

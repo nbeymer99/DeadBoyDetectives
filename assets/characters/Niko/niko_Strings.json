@@ -6,11 +6,13 @@
 		"Target": "Strings/schedules/NikoSasaki",
 		"Entries": 
         {
-            "Agency.000": "Hi, @! Do you have a case for us?",
-			"Agency.001": "Hang on a second, @... If I don't write this down, I'll forget.",
-			"WatchTV.000": "Have you seen this episode before? I could start it over for you if you want to watch.",
-			"Noodles.000": "%*slurrrrrrrp*",
-			"Reading.000": "%Niko seems lost in her book and doesn't see you.",
+            "Agency.000": "{{i18n:niko_strings.Agency.000}}",
+			"Agency.001": "{{i18n:niko_strings.Agency.001}}",
+			"WatchTV.000": "{{i18n:niko_strings.WatchTV.000}}",
+			"Noodles.000": "{{i18n:niko_strings.Noodles.000}}",
+			"Reading.000": "{{i18n:niko_strings.Reading.000}}",
+			"Beachcombing.000": "{{i18n:niko_strings.Beachcombing.000}}",
+
 		}
 	}
 	]

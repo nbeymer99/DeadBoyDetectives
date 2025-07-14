@@ -3124,7 +3124,7 @@
   </tile>
  </tileset>
  <tileset firstgid="6839" name="z_tongueandtail" tilewidth="16" tileheight="16" tilecount="156" columns="13">
-  <image source="tongueandtail.png" width="208" height="192"/>
+  <image source="handwrittenhello.dbda_tongueandtail.png" width="208" height="192"/>
  </tileset>
  <layer id="1" name="Back" width="130" height="110">
   <data encoding="csv">

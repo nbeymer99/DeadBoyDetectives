@@ -87,16 +87,25 @@
 				]
 			},
 			// gathering ingredients quests complete
-			/* "SeanceIngredients": {
+			"SeanceIngredients": {
 				"Id": "SeanceIngredients",
 				"Trigger": "LocationChanged",
-				"Condition": "PLAYER_HAS_MAIL Host SeanceIngredients1, PLAYER_HAS_MAIL Host SeanceIngredients2, PLAYER_HAS_MAIL Host SeanceIngredients3",
+				"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredients1, PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredients2, PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredients3",
 				"HostOnly": true,
 				"MarkActionApplied": true,
 				"Actions": [
 					"AddMail Host {{ModId}}_SeanceIngredientsComplete received",
 				]
-			},   */
+			},
+			// give seance 2 invitation quest
+			"{{ModId}}_Seance2Quest": {
+				"Id": "{{ModId}}_Seance2Quest",
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_FARMING_LEVEL Current 5",
+				"Actions": [
+					"AddMail Host {{ModId}}_SeanceInvitation2 tomorrow"
+				]
+			},
 			// give everbloom quest
 			"{{ModId}}_EverbloomQuest": {
 				"Id": "{{ModId}}_EverbloomQuest",

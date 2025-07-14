@@ -30,7 +30,7 @@
   </tile>
  </tileset>
  <tileset firstgid="5729" name="FRL_Elevator" tilewidth="16" tileheight="16" tilecount="16" columns="4">
-  <image source="FRL_Elevator.png" width="64" height="64"/>
+  <image source="handwrittenhello.dbda_FRL_Elevator.png" width="64" height="64"/>
   <tile id="8">
    <properties>
     <property name="NPCPassable" value="T"/>

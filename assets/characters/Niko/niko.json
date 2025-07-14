@@ -25,7 +25,7 @@
 				// Basic Info
                 "DisplayName": "Niko",
                 "BirthSeason": "winter",
-                "BirthDay": 6,
+                "BirthDay": 11,
                 "HomeRegion": "Town",
                 "Gender": "Female",
                 "Age": "Teen",
@@ -41,9 +41,9 @@
 				"Calendar": "HiddenUntilMet",
 				"SocialTab": "HiddenUntilMet",
 				"FriendsAndFamily": {
-                    "EdwinPayne": "friend",
-					"CharlesRowland": "friend",
-					"CrystalPalace": "friend"
+                    "EdwinPayne": "",
+					"CharlesRowland": "",
+					"CrystalPalace": ""
                 },
 					
 				"DumpsterDiveFriendshipEffect": -15,

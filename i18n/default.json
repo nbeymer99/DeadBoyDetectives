@@ -266,7 +266,7 @@
 	"niko_dialogue.Thu": "I like visiting Mick. He's got all sorts of stories if you take the time to listen.",
 	"niko_dialogue.Fri": "Do you like mysteries? I saw a trailer for a new movie coming out that looked really good.",
 	"niko_dialogue.Sat": "The library is my fourth favorite public building to visit.$h",
-	"niko_dialogue.Sun": "Your farm is soooooo cute!$h",
+	"niko_dialogue.Sun": "Your farm is soooooo cute!$h#$b#Especially the way you decorated the farmhouse.$h",
 	
 	"niko_dialogue.Mon2": "Should I get a job? JojaMart is hiring, and I could use the money...",
 	"niko_dialogue.Tue2": "I used to own more dolls, but they really freak Edwin out. Now I have stuffed animals instead.",
@@ -412,14 +412,14 @@
 	"charles_strings.Painting.000": "These runes can be a bit tricky if you don't know what you're doing. Edwin usually lets me handle them.",
 	
 	// CRYSTAL
-	"Meditation.000": "%Crystal is deep in a trance.",
-	"WokenUpTrance.000": "I can see it all...$u#$b#Sorry, @, how long have you been standing there?",
-	"SplishySplashy.000": "Hey, @. Want to dip your feet in?",
-	"Cellphone.000": "I can only get a few bars here. I wonder if Edwin has a spell for boosting my connection.",
-	"Reading.000": "Wow, could these old farts write anything more confusing? What the hell does 'myftical noftrum for all beaftly ills' even mean?$6",
-	"Reading.001": "Huh, did you know that ghosts who have died in graveyards can become trapped there for eternity?$6",
-	"Reading.002": "Ugh, this is giving me a headache.$s",
-	"NightMarket.000": "That guy in the robe keeps looking over at us...$6#$e#Do you think he can see ghosts?",
+	"crystalstrings.Meditation.000": "%Crystal is deep in a trance.",
+	"crystalstrings.WokenUpTrance.000": "I can see it all...$u#$b#Sorry, @, how long have you been standing there?",
+	"crystalstrings.SplishySplashy.000": "Hey, @. Want to dip your feet in?",
+	"crystalstrings.Cellphone.000": "I can only get a few bars here. I wonder if Edwin has a spell for boosting my connection.",
+	"crystalstrings.Reading.000": "Wow, could these old farts write anything more confusing? What the hell does 'myftical noftrum for all beaftly ills' even mean?$6",
+	"crystalstrings.Reading.001": "Huh, did you know that ghosts who have died in graveyards can become trapped there for eternity?$6",
+	"crystalstrings.Reading.002": "Ugh, this is giving me a headache.$s",
+	"crystalstrings.NightMarket.000": "That guy in the robe keeps looking over at us...$6#$e#Do you think he can see ghosts?",
 	
 	// EDWIN 
 	"edwin_strings.RuneCircle.000": "I wouldn't if I were you. There's no telling what effect it may have on the living.$u",
@@ -433,7 +433,13 @@
 	
 	
 	// NIKO 
-	
+	"niko_strings.Agency.000": "Hi, @! Do you have a case for us?",
+	"niko_strings.Agency.001": "Hang on a second, @... If I don't write this down, I'll forget.",
+	"niko_strings.WatchTV.000": "Have you seen this episode before? I could start it over for you if you want to watch.",
+	"niko_strings.Noodles.000": "%*slurrrrrrrp*",
+	"niko_strings.Reading.000": "%Niko is lost in her book and doesn't see you.",
+	"niko_strings.Beachcombing.000": "I'm combing the beach for starfish or pretty shells. Have you seen any?",
+
 	
 	// MISCELLANEOUS STRINGS
 	
@@ -700,9 +706,11 @@
 	"Seance.9": "The connection is fading...#$b#Quick, Crystal, can you strengthen it with your powers?",
 	"Seance.10": "I'm trying, but I can barely feel the ghost.",
 	"Seance.11": "Shit! I lost it.",
-	"Seance.12": "Can you get it back?",
-	"Seance.13": "We shall have to strengthen its connection to the physical plane.#$b#This will require some research...$u",
-	"Seance.14": "@, Crystal, it's pretty late. Can I walk you home?",
+	"Seance.12": "Can you get it back?$7",
+	"Seance.13": "We shall have to strengthen its connection to the physical plane.$u#$b#This will require some research...$u",
+	"Seance.14": "Another case for the Dead Boy Detectives!$h#$b#@, Crystal, it's pretty late. Can I walk you home?",
+	
+	
 	
 	"charleshearts10.0": "...but what color do you think ${he'd^she'd^they'd}$ like...?",
 	"charleshearts10.1": "Don't ask me, Charles. You're the one who insisted on this gift.",
@@ -733,23 +741,23 @@
 	"handwrittenhello.dbda_SeanceInvitationQuest.text": "You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost.",
 	"handwrittenhello.dbda_SeanceInvitationQuest.objective": "Attend the seance in the graveyard after 8pm.",
 
-	"handwrittenhello.dbda_SeanceIngredients1.title": "Ingredients for a Spell: Void Essence",
+	"handwrittenhello.dbda_SeanceIngredients1.title": "Spell Ingredients: Void Essence",
 	"handwrittenhello.dbda_SeanceIngredients1.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
 	"handwrittenhello.dbda_SeanceIngredients1.objective": "Collect and deliver 10 Void Essence to Edwin.",
-	"handwrittenhello.dbda_SeanceIngredients1.reaction": "Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.#$action AddMail Host SeanceIngredients1 received",
+	"handwrittenhello.dbda_SeanceIngredients1.reaction": "Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.",
 	
-	"handwrittenhello.dbda_SeanceIngredients2.title": "Ingredients for a Spell: Ghostfish",
+	"handwrittenhello.dbda_SeanceIngredients2.title": "Spell Ingredients: Ghostfish",
 	"handwrittenhello.dbda_SeanceIngredients2.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
 	"handwrittenhello.dbda_SeanceIngredients2.objective": "Catch and deliver a ghostfish to Charles.",
-	"handwrittenhello.dbda_SeanceIngredients2.reaction": "Nice work! It's a little gross, but we can use the ghostfish's slime to paint runes that'll protect us during the ritual.#$action AddMail Host SeanceIngredients2 received",
+	"handwrittenhello.dbda_SeanceIngredients2.reaction": "Nice work! It's a little gross, but we can use the ghostfish's slime to paint runes that'll protect us during the ritual.",
 	
-	"handwrittenhello.dbda_SeanceIngredients3.title": "Ingredients for a Spell: Poppy",
+	"handwrittenhello.dbda_SeanceIngredients3.title": "Spell Ingredients: Poppy",
 	"handwrittenhello.dbda_SeanceIngredients3.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
 	"handwrittenhello.dbda_SeanceIngredients3.objective": "Harvest and deliver a poppy to Crystal.",
-	"handwrittenhello.dbda_SeanceIngredients3.reaction": "Thanks, @. Apparently poppy seeds are useful for magic that affects other planes, like the Dreaming.$bOr at least I think that's what Edwin said. It was a little difficult to tell past all the ego.#$action AddMail Host SeanceIngredients3 received",
+	"handwrittenhello.dbda_SeanceIngredients3.reaction": "Thanks, @. Apparently poppy seeds are useful for magic that affects other planes, like the Dreaming.#$b#Or at least I think that's what Edwin said. It was a little difficult to tell past all the ego.",
 	
-	"handwrittenhello.dbda_CuringNiko.title": "Bringing Back Niko",
-	"handwrittenhello.dbda_CuringNiko.text": "Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to bring Niko back.",
+	"handwrittenhello.dbda_CuringNiko.title": "A Strengthening Ritual",
+	"handwrittenhello.dbda_CuringNiko.text": "Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to solve the case of the mysterious ghost.",
 	"handwrittenhello.dbda_CuringNiko.objective": "Attend another seance in the graveyard after 8pm.",
 	
 // ITEMS
@@ -825,5 +833,17 @@
 	"Mail.handwrittenhello.dbda_NikoHandMirror.title": "Niko's Gift",
 	"Mail.handwrittenhello.dbda_NikoHandMirror.text": "Dear @,^^I want to thank you for being such a good friend. Whenever you have time, come to my room. I've got a present for you! ;)^^Love,^    Niko",
 	
-
+// MAPS
+	"WorldMap.Lighthouse.ScrollText": "Point No Point Lighthouse",
+	"WorldMap.TragicMicks.ScrollText": "Tragic Mick's",
+	
+	"LocationDisplayName.DBDA.DisplayName": "Dead Boy Detective Agency",
+	"LocationDisplayName.TragicMicks.DisplayName": "Tragic Mick's",
+	"LocationDisplayName.Lighthouse.DisplayName": "Point No Point Lighthouse",
+	"LocationDisplayName.CharlesBackpack.DisplayName": "Charles' Bag",
+	"LocationDisplayName.TNT.DisplayName": "Tongue and Tail Butcher Shop",
+	"LocationDisplayName.CNRooms.DisplayName": "Crystal and Niko's Rooms",
+	"LocationDisplayName.CrystalVoid.DisplayName": "Crystal's Void",
+	"LocationDisplayName.TNTRoof.DisplayName": "Tongue and Tail Roof",
+	"LocationDisplayName.Town.DisplayName": "Town",
 }

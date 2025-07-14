@@ -308,7 +308,7 @@
     <property name="Action" value="Dialogue Full of delicious snacks, though you can't read all the labels."/>
    </properties>
   </object>
-  <object id="27" name="TileData" x="304" y="288" width="16" height="16">
+  <object id="27" name="TileData" x="304" y="304" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue There are several used mugs of tea scattered around."/>
    </properties>

@@ -9,7 +9,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_DeadBoyAgency"
                     },
-					"DisplayName": "Dead Boy Detective Agency",
+					"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 6,
 						"Y": 18,
@@ -20,7 +20,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_TragicMicks"
                     },
-					"DisplayName": "Tragic Mick's",
+					"DisplayName": "{{i18n:LocationDisplayName.TragicMicks.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 8,
 						"Y": 23,
@@ -30,7 +30,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_LighthouseInt"
                     },
-					"DisplayName": "Point No Point Lighthouse",
+					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 7,
 						"Y": 12,
@@ -41,7 +41,7 @@
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_Lighthouse"
 					},
-					"DisplayName": "Point No Point Lighthouse",
+					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 85,
 						"Y": 13,
@@ -165,7 +165,7 @@
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_LighthouseScary"
 					},
-					"DisplayName": "Point No Point Lighthouse",
+					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 85,
 						"Y": 13,
@@ -176,7 +176,7 @@
                     "CreateOnLoad": { 
                         "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
                     },
-					"DisplayName": "Dead Boy Detective Agency",
+					"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 6,
 						"Y": 18,
@@ -187,7 +187,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_Backpack"
                     },
-					"DisplayName": "Charles' Bag",
+					"DisplayName": "{{i18n:LocationDisplayName.CharlesBackpack.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 6,
 						"Y": 10,
@@ -198,7 +198,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_TNTInterior"
                     },
-					"DisplayName": "Tongue and Tail Butcher Shop",
+					"DisplayName": "{{i18n:LocationDisplayName.TNT.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 14,
 						"Y": 28,
@@ -209,7 +209,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_CrystalAndNiko"
                     },
-					"DisplayName": "Crystal and Niko's Rooms",
+					"DisplayName": "{{i18n:LocationDisplayName.CNRooms.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 25,
 						"Y": 23,
@@ -220,7 +220,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_CrystalVoid"
                     },
-					"DisplayName": "Crystal's Void",
+					"DisplayName": "{{i18n:LocationDisplayName.CrystalVoid.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 22,
 						"Y": 26,
@@ -231,7 +231,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_Roof"
                     },
-					"DisplayName": "Tongue and Tail Roof",
+					"DisplayName": "{{i18n:LocationDisplayName.TNTRoof.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 12,
 						"Y": 65,
@@ -242,7 +242,7 @@
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_SeanceMap"
                     },
-					"DisplayName": "Town",
+					"DisplayName": "{{i18n:LocationDisplayName.Town.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 45,
 						"Y": 95,
@@ -251,7 +251,14 @@
 			}
 		},
 		
-		// LOADS
+		// LOAD TILESHEETS
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_finchhouse, Maps/{{ModId}}_FRL_Elevator, Maps/{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse",
+			"FromFile": "assets/maps/tilesheets/{{TargetWithoutPath}}.png",
+		},
+		
+		// LOAD TMX
         {
             "Action": "Load",
             "Target": "Maps/{{ModId}}_DeadBoyAgency",
@@ -342,6 +349,52 @@
             "Target": "Maps/{{ModId}}_CrystalVoid",
             "FromFile": "assets/maps/CrystalVoid.tmx"
         },
+		
+		// RECOLORS
+		{
+			// daisyniko
+			"Action": "EditImage",
+			"Target": "Maps/{{ModId}}_{{season}}_Lighthouse",
+			"FromFile": "assets/maps/tilesheets/{{season}}_daisyniko.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HasMod": "DaisyNiko.EarthyRecolour",
+			},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 64,
+			},
+			"ToArea": {
+				"X": 160,
+				"Y": 0,
+				"Width": 96,
+				"Height": 64,
+			},
+		},
+		{
+			// vpr
+			"Action": "EditImage",
+			"Target": "Maps/{{ModId}}_{{season}}_Lighthouse",
+			"FromFile": "assets/maps/tilesheets/{{season}}_vpr.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HasMod": "grapeponta.VibrantPastoralRecolor",
+			},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 64,
+			},
+			"ToArea": {
+				"X": 160,
+				"Y": 0,
+				"Width": 96,
+				"Height": 64,
+			},
+		},
 			
 		// MAP PATCHES
 		{
@@ -386,13 +439,13 @@
 			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
 			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
 		},
-		{
+		/* {
 			"Action": "EditMap",
 			"Target": "Maps/Mountain",
 			"FromFile": "assets/maps/MontyHouseExterior.tmx",
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		},	
+		},	 */
 		
 		// BETAS dependency
 		{
@@ -643,7 +696,7 @@
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 			}
 		},
-		{
+/* 		{
 			"Action": "EditMap",
 			"Target": "Maps/Mountain",
 			"When": {
@@ -652,7 +705,7 @@
 			"FromFile": "assets/maps/MontyHouseExterior_SVE.tmx",
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		},	
+		}, */	
 		
 		// EDIT TOWN MAP
 		//
@@ -743,7 +796,7 @@
 			]
 		},
 		
-			// swing passable
+			// make swing passable
 		{
             "Action": "EditMap",
             "Target": "Maps/Town",
@@ -760,7 +813,6 @@
                 },
             ]
         },
-		
 			// edit Agency map - rune circle passable
 		{
             "Action": "EditMap",
@@ -778,7 +830,7 @@
                 },
             ]
         },
-		
+			// add cactus to crystal's room
 		{
             "Action": "EditMap",
             "Target": "Maps/{{ModId}}_CrystalAndNiko",
@@ -797,6 +849,7 @@
 				"HasFlag: |contains={{ModId}}_CactusGottenFlag": true,
 			}
         },
+			// make tiles NPC passable at night market
 		{
             "Action": "EditMap",
             "Target": "Maps/Beach-NightMarket",
