@@ -115,11 +115,11 @@
 					"AddMail Current {{ModId}}_GiveEverbloomQuest tomorrow"
 				]
 			},
-			// 3 hearts with the crew - new stock at tragic mick's. !!! add niko back later !!!
+			// 3 hearts with the crew - new stock at tragic mick's
 			"{{ModId}}_TM_NewStock_Mail": {
 				"Id": "{{ModId}}_TM_NewStock_Mail",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 750, PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 750, PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 750",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 750, PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 750, PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 750, PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 750",
 				"Actions": [
 					"AddMail Current {{ModId}}_TM_NewStock now",
 				]

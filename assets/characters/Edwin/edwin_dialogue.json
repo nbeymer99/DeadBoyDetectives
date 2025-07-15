@@ -27,6 +27,7 @@
 			"eventSeen_{{ModId}}_crystalCactus": "{{i18n:edwin_dialogue.eventSeen_{{ModId}}_crystalCactus}}",
 			"AcceptGift_(O)StardropTea": "{{i18n:edwin_dialogue.AcceptGift_(O)StardropTea}}",
 			"AcceptGift_category_cooking": "{{i18n:edwin_dialogue.AcceptGift_category_cooking}}",
+			"eventSeen_{{ModId}}_Seance2": "{{i18n:edwin_dialogue.eventSeen_{{ModId}}_Seance2}}",
 			
 			"Mon": "{{i18n:edwin_dialogue.Mon}}",
 			"Tue": "{{i18n:edwin_dialogue.Tue}}",

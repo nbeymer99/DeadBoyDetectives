@@ -22,6 +22,8 @@
 	"charles_dialogue.FlowerDance_Decline": "Would look kind of odd, wouldn't it, dancing with a ghost?",
 	"charles_dialogue.AcceptGift_(O)StardropTea": "You mean I can actually drink this? Mate, this might be the best gift anyone's ever given me.$4",
 	"charles_dialogue.divorced": "What do you want? I'm busy with a case.$5",
+	"charles_dialogue.eventSeen_handwrittenhello.dbda_Seance2": "Thanks again for all your help, @. It's absolutely brills that we got Niko back!$h",
+	
 	"charles_dialogue.Mon": "You should come see the agency sometime. We've set up right above the old Community Center.#$b#$1Nobody ever comes in there, so they can't complain it's haunted if we're too loud.",
 	"charles_dialogue.Tue": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
 	"charles_dialogue.Wed": "You live on %farm, yeah? That's brills! I never tried gardening myself, but it must be aces growing your own food.",
@@ -29,6 +31,7 @@
 	"charles_dialogue.Fri": "Edwin and I once solved a case on %farm. That was before you came to stay, though.",
 	"charles_dialogue.Sat": "Do you go fishing very often? Careful not to fall in.$7",
 	"charles_dialogue.Sun": "Other people might have the day off, but our work never stops, huh?$1",
+	
 	"charles_dialogue.Mon2": "I gotta get back to London one of these days for potion ingredients.#$b#Edwin gets moody when we're running low.",
 	"charles_dialogue.Tue2": "Edwin isn't that good with people, but you have to cut him some slack.#$b#He spent seventy years in Hell, you know?$2",
 	"charles_dialogue.Wed2": "Ever been down to Tragic Mick's? He's a good bloke, and he's got some absolutely insane items.",
@@ -36,6 +39,7 @@
 	"charles_dialogue.Fri2": "You know, we came to Pelican Town back in '06 to deal with some banshees. Yeah... Good times...",
 	"charles_dialogue.Sat2": "I bet you can't beat my high score at Junimo Kart. I've been playing arcade games longer than you've been alive!",
 	"charles_dialogue.Sun2": "We should hang around more! I could wear a disguise and you can pretend I’m an old uncle visiting.$h",
+	
 	"charles_dialogue.Mon4": "We should hang around more! Folks usually don’t see me, so it gets lonely sometimes.#$e#Uhh… Please don’t tell Edwin I said that.",
 	"charles_dialogue.Tue4": "Hey, if you ever end up taking a trip to London, let me know! I'd be happy to show you around our usual haunts.$h",
 	"charles_dialogue.Wed4": "You seem pretty handy. Maybe you could help us out on a case sometime!",
@@ -43,6 +47,7 @@
 	"charles_dialogue.Fri4": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
 	"charles_dialogue.Sat4": "The agency is open on weekends too! Ghosts don’t really have to sleep or rest... Sigh... But I wish we would take breaks sometimes.",
 	"charles_dialogue.Sun4": "Will you grow any tomatoes this summer? My mum used to make the best spaghetti sauce. #$b#$2I miss it so much...",
+	
 	"charles_dialogue.Mon6": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
 	"charles_dialogue.Tue6": "Hey, @! Been down to the mines lately? It can be dangerous, but I love a good thrill.#$e#They don't call me the brawn for nothing.$u",
 	"charles_dialogue.Wed6": "Let me know if you ever want to take a break and play some football. I've got one back at the office, and I've got rusty without anyone to play a proper match with.",
@@ -50,6 +55,7 @@
 	"charles_dialogue.Fri6": "I'm enjoying our time in Pelican Town!#$b#Especially since meeting such a good friend like you.$4",
 	"charles_dialogue.Sat6": "The agency is open on weekends too! Ghosts don’t really have to sleep or rest... Sigh... But I wish we would take breaks sometimes.",
 	"charles_dialogue.Sun6": "Last month we helped out an old ghost who was stuck in JojaMart. Can you imagine an eternity spent there?$7",
+	
 	"charles_dialogue.Mon8": "Did I ever tell you about the Case of the Creeping Mandrakes?#$e#Never mind, you look pretty busy right now. Some other time!$h",
 	"charles_dialogue.Tue8": "You should come by the office sometime to hear about some cases we've solved.#$b#You never know when you might need to learn how to throw a hellhound off your scent.",
 	"charles_dialogue.Wed8": "How are you and Edwin getting along, then? Good?",
@@ -64,6 +70,7 @@
 	"charles_dialogue.Fri10": "Edwin's been too busy with research these days. His mind is brills, but sometimes I wish he took more breaks.",
 	"charles_dialogue.Sat10": "The agency is open on weekends too! Ghosts don’t really have to sleep or rest... Sigh... But I wish we would take breaks sometimes.",
 	"charles_dialogue.Sun10": "You know, you've been a real help to the town, @. Us included.",
+	
 	"charles_dialogue.spring_1": "Winter's finally over. Snow's nice and all, but it'll be good to see things 'round the valley growing again.",
 	"charles_dialogue.summer_1": "You know, back when I was alive, summer was actually my least favorite season? I like it well enough now, though.",
 	"charles_dialogue.fall_1": "Is fall as busy for you as it is for us?#$b#I dunno why, but it's like our caseload triples in the fall. Speaking of, gotta run!",
@@ -98,6 +105,8 @@
 	"edwin_dialogue.eventSeen_handwrittenhello.dbda_crystalCactus": "Crystal wishes to see me? Is she upset?#$e#Very well, I shall talk to her today.",
 	"edwin_dialogue.AcceptGift_(O)StardropTea": "You must know that we cannot—#$b#You mean I will be able to drink it? Goodness, I haven't had tea in over a century.#$b#Thank you, @. This means a great deal to me.",
 	"edwin_dialogue.AcceptGift_category_cooking": "Charles and I are ghosts and cannot consume the food of the living.",
+	"edwin_dialogue.eventSeen_handwrittenhello.dbda_Seance2": "I cannot thank you enough for your help in returning Niko to us.#$b#I missed her very dearly.",
+	
 	"edwin_dialogue.Mon": "I regret to inform you that we do not take on living clients. I'll thank you for not insisting.",
 	"edwin_dialogue.Tue": "You live on %farm? Charles and I may have questions for you later concerning a recent case.",
 	"edwin_dialogue.Wed": "Oh, @, it's you. I must urge you to quickly state your business. We are in a bit of a time crunch.",
@@ -105,6 +114,7 @@
 	"edwin_dialogue.Fri": "I'm afraid I have little time to talk at the moment. You understand.",
 	"edwin_dialogue.Sat": "Unfortunately I am not at liberty to discuss our current or past cases with you, @. We value our clients' privacy quite highly.",
 	"edwin_dialogue.Sun": "The work of a ghost never stops. Now if you'll excuse me, I'm quite busy.",
+	
 	"edwin_dialogue.Mon2": "Oh, @, it’s you again. If you insist on having conversations you can try to make yourself useful.",
 	"edwin_dialogue.Tue2": "@, I see you enjoy spending time at the agency. I do hope you spare the same level of attention to your farm duties.",
 	"edwin_dialogue.Wed2": "Have you talked to Charles, lately?#$b#I'm regrettably aware he would be delighted to talk to a living person.",
@@ -112,6 +122,7 @@
 	"edwin_dialogue.Fri2": "I cannot help but notice you spending time at the Agency.#$b#I assure you we would help with whatever investigation you needed if you were dead.",
 	"edwin_dialogue.Sat2": "I don't suppose you have any pixie wings or small mammal bones on you?#$b#Shame. They make rather useful potion ingredients.",
 	"edwin_dialogue.Sun2": "Have you visited the mines lately? Charles rather enjoys expressing his talents as the brawn there.#$b#With your stubborn attitude, I can only imagine you'll reach the bottom in no time at all.",
+	
 	"edwin_dialogue.Mon4": "Hello, @. I'm quite glad we got to know each other after all. You've helped me warm up to Pelican Town, as it were.",
 	"edwin_dialogue.Tue4": "@, Charles and I were just discussing how helpful you’ve been since we’ve met.#$b#And I must say that I completely agree.",
 	"edwin_dialogue.Wed4": "Hello, @. I must… apologize if I have been... harsh to you since we’ve met. I am not very good with people.",
@@ -119,6 +130,7 @@
 	"edwin_dialogue.Fri4": "@, I am aware my demeanor might come across as... rude. So I appreciate your insistence in making conversation.",
 	"edwin_dialogue.Sat4": "Have you been to the library lately? I like to spend my afternoons there. I'd love to show you the best books I've found.",
 	"edwin_dialogue.Sun4": "The mines are quite dangerous. You should bring Charles with you next time you go.",
+	
 	"edwin_dialogue.Mon6": "Pelican Town has been home to some anomalies lately, @.#$b#We’d appreciate any information you can share with us about them.",
 	"edwin_dialogue.Tue6": "@, I’m glad to see you! I have some leads on a case and...#$b#...I’d like to brainstorm some actions with you and Charles...#$b#...if you’d be amenable to.",
 	"edwin_dialogue.Wed6": "@, I hope you’re doing well! I couldn’t help but notice you spending time at the agency lately.#$e#If there are any books you’d like to borrow, I wouldn’t be against lending them to you.",
@@ -126,6 +138,7 @@
 	"edwin_dialogue.Fri6": "I’ve noticed some cats around, but I’ve yet to meet the Cat King of Pelican Town.#$e#I must say, I’m glad I’ve been spared this unpleasantry.",
 	"edwin_dialogue.Sat6": "I've just finished this fantastic book. You should borrow it sometime so we can discuss it.",
 	"edwin_dialogue.Sun6": "@, I can't help but notice your similarity to Charles in many respects.#$b#You are both beings of action, and I quite appreciate it in contrast to my own temperament.",
+	
 	"edwin_dialogue.Mon8": "Do you think Charles would like me to explore alternate outfits?#$b#Oh, you're right, of course he would hold me in high esteem regardless.",
 	"edwin_dialogue.Tue8": "I wonder if I might visit %farm someday. With your invitation, of course. We could go for a walk about the property together.",
 	"edwin_dialogue.Wed8": "I do find myself quite enjoying our talks, @. I hope you feel the same.",
@@ -133,6 +146,7 @@
 	"edwin_dialogue.Fri8": "...Oh, it's only you, @. Pardon me, for a moment I was lost in thoughts of an unpleasant place. Excuse me.",
 	"edwin_dialogue.Sat8": "If you keep up this sort of behavior, you may find yourself a probationary member of the agency soon.#$b#And that is not an invitation we extend very commonly.",
 	"edwin_dialogue.Sun8": "I do admire your rather uncanny knack for gift-giving, @. It is a skill I have only perfected with Charles, and that took me several decades.",
+	
 	"edwin_dialogue.Mon10": "I always thought Charles would be the only best friend I'd ever need.#$b#I'm glad I was wrong.#l",
 	"edwin_dialogue.Tue10": "I never thought you might grow on me this much, but now I cannot imagine my days without you.",
 	"edwin_dialogue.Wed10": "You know, @, being among such good friends as you makes it difficult to remember the horrors that exist elsewhere.",
@@ -140,6 +154,7 @@
 	"edwin_dialogue.Fri10": "Perhaps we might visit the lakeside sometime? Charles isn't overly fond, but I feel you might appreciate its beauty.",
 	"edwin_dialogue.Sat10": "Have you investigated any interesting phenomena lately?#$b#Fascinating. You must tell me of your findings in more detail.",
 	"edwin_dialogue.Sun10": "I daresay you've earned a place at the agency as much as Charles, Crystal or I have, with how much you've helped lately.",
+	
 	"edwin_dialogue.spring_1": "During my life I always had the most dreadful allergies in the spring. Being dead is decidedly more pleasant in this regard.",
 	"edwin_dialogue.summer_1": "Summer means shorter nights. Less time for Charles and I to investigate the town unmolested, but also less time for more unsavoury creatures to create trouble.",
 	"edwin_dialogue.fall_1": "Fall is an extremely busy season for us. Now if you'll excuse me.",
@@ -169,6 +184,8 @@
 	"crystal_dialogue.FlowerDance_Accept": "I'd love to!$h",
 	"crystal_dialogue.FlowerDance_Decline": "Umm, maybe next year.",
 	"crystal_dialogue.divorced": "God, can't you just leave me alone?",
+	"crystal_dialogue.eventSeen_handwrittenhello.dbda_Seance2": "Having Niko back is like... well, I never even thought it was possible.#$b#I can't ever pay you back, so... thank you.",
+	
 	"crystal_dialogue.Mon": "Winter is my favorite season. The valley is so still and quiet.",
 	"crystal_dialogue.Tue": "Last night's episode of Murder After Dark was so crazy. Have you seen it yet?",
 	"crystal_dialogue.Wed": "It's really great that you can see ghosts too. It gets a little old, having to pretend like I'm not talking to thin air.",
@@ -186,11 +203,11 @@
 	"crystal_dialogue.Mon4": "The other teens haven't really invited me to hang out yet. Maybe it's because I'm still new to the valley...$s#$e#I hope it's not because they think I'm crazy.$6",
 	"crystal_dialogue.Tue4": "I don't know whether to be relieved or concerned that my parents haven't called in weeks.$s#$b#Maybe they lost my number...",
 	"crystal_dialogue.Wed4": "Did you know that over 200,000 murders have gone unsolved in the last four decades? And so many of the victims never move on...",
-	"crystal_dialogue.Thu4": "$q Q_Navyresponse1/Q_Navyresponse2 Q_Navy_fallback#You don't know anything about 20th century naval battles, do you? I swear this class is going to kill me.$6
-		#$r Q_Navyresponse1 0 Q_Navy_reaction1#Uh, what?
-		#$r Q_Navyresponse2 10 Q_Navy_reaction2#Yes, actually... [give a detailed lecture about 20th century naval battles]",
-	"crystal_dialogue.Q_Navyreaction1": "Yeah, not surprising. Like, when am I ever gonna need to know this stuff?$6#$b#Thanks, though.",
-	"crystal_dialogue.Q_Navyreaction2": "Wow, I can't believe you just knew all that. You're a lifesaver!$h",
+	"crystal_dialogue.Thu4": "$q Q_Navy_response1/Q_Navy_response2 Q_Navy_fallback#You don't know anything about 20th century naval battles, do you? I swear this class is going to kill me.$6
+		#$r Q_Navy_response1 0 Q_Navy_reaction1#Uh, what?
+		#$r Q_Navy_response2 10 Q_Navy_reaction2#Yes, actually... [give a detailed lecture about 20th century naval battles]",
+	"crystal_dialogue.Q_Navy_reaction1": "Yeah, not surprising. Like, when am I ever gonna need to know this stuff?$6#$b#Thanks, though.",
+	"crystal_dialogue.Q_Navy_reaction2": "Wow, I can't believe you just knew all that. You're a lifesaver!$h",
 	"crystal_dialogue.Q_Navy_fallback": "Thanks again for your help with this assignment.$h",
 	"crystal_dialogue.Fri4": "%pet is so cute. I wish I had a pet, but there's no way Jenny would let me lease.",
 	"crystal_dialogue.Sat4": "Have you been exploring the mines? Charles says the lower levels are like, totally infested with poltergeists.",
@@ -710,7 +727,26 @@
 	"Seance.13": "We shall have to strengthen its connection to the physical plane.$u#$b#This will require some research...$u",
 	"Seance.14": "Another case for the Dead Boy Detectives!$h#$b#@, Crystal, it's pretty late. Can I walk you home?",
 	
-	
+	"Seance2.0": "Is everyone ready?#$b#There may be unexpected consequences to performing the strenghtening ritual. We ought to be on our guard.$u",
+	"Seance2.1": "Got my bat ready, mate.$u",
+	"Seance2.2": "Let's bring this ghost home.",
+	"Seance2.3": "Very well. Let us begin.",
+	"Seance2.4": "I am addressing the spirit who haunts the Pelican Town graveyard.#$b#The spell I am currently performing will allow you to anchor yourself to the town so that we may speak.",
+	"Seance2.5": "If you reach out, we can help you, yeah?",
+	"Seance2.6": "It's working! I can feel that she's stronger now.$u",
+	"Seance2.7": "She? Can you ask her who she is?",
+	"Seance2.8": "Charles, Crystal, @! I sense that our ritual has attracted unwanted attention!",
+	"Seance2.9": "@ and I will hold them off. Crystal, Edwin, keep anchoring the ghost!$9",
+	"Seance2.10": "Please! Tell us who you are so we can help you!$u",
+	"Seance2.11": "...$u#$b#...Niko?$s#$b#Oh my god, Niko!$h",
+	"Seance2.12": "You guys found me!$h",
+	"Seance2.13": "Niko? How is this possible?$s#$b#After you died... we ran to escape Death herself at Esther Finch's house...$s#$b#You became a ghost after dying?",
+	"Seance2.14": "I wasn't a ghost. I was sort of somewhere in between, I think?$6#$b#Don't worry, I know you guys would never leave me, not on purpose.#$b#I'd really love to tell you the whole story right now, but that ritual was exhausting.$6",
+	"Seance2.15": "You're right. We're just happy you're back. The whole story can wait.",
+	"Seance2.16": "Thanks, guys.$h#$b#And you made a new friend!$h",
+	"Seance2.17": "Did you help bring me back? Thank you!$h",
+	"Seance2.18": "Yeah, @ was a huge help. We couldn't have brought you back without ${him^her^them}$!$h#$b#We'd better get you all home, though. It's pretty late.",
+	"Seance2.19": "Yes, we shall hear the whole story another day.$u#$b#Top whole job, everyone.$h",
 	
 	"charleshearts10.0": "...but what color do you think ${he'd^she'd^they'd}$ like...?",
 	"charleshearts10.1": "Don't ask me, Charles. You're the one who insisted on this gift.",

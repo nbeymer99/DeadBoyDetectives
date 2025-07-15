@@ -20,6 +20,7 @@
 			"FlowerDance_Accept": "{{i18n:crystal_dialogue.FlowerDance_Accept}}",
 			"FlowerDance_Decline": "{{i18n:crystal_dialogue.FlowerDance_Decline}}",
 			"divorced": "{{i18n:crystal_dialogue.divorced}}",
+			"eventSeen_{{ModId}}_Seance2": "{{i18n:crystal_dialogue.eventSeen_{{ModId}}_Seance2}}",
 			
 			"Mon": "{{i18n:crystal_dialogue.Mon}}",
 			"Tue": "{{i18n:crystal_dialogue.Tue}}",
@@ -41,8 +42,8 @@
 			"Tue4": "{{i18n:crystal_dialogue.Tue4}}",
 			"Wed4": "{{i18n:crystal_dialogue.Wed4}}",
 			"Thu4": "{{i18n:crystal_dialogue.Thu4}}",
-			"Q_Navyreaction1": "{{i18n:crystal_dialogue.Q_Navyreaction1}}",
-			"Q_Navyreaction2": "{{i18n:crystal_dialogue.Q_Navyreaction2}}",
+			"Q_Navy_reaction1": "{{i18n:crystal_dialogue.Q_Navy_reaction1}}",
+			"Q_Navy_reaction2": "{{i18n:crystal_dialogue.Q_Navy_reaction2}}",
 			"Q_Navy_fallback": "{{i18n:crystal_dialogue.Q_Navy_fallback}}",
 			"Fri4": "{{i18n:crystal_dialogue.Fri4}}",
 			"Sat4": "{{i18n:crystal_dialogue.Sat4}}",

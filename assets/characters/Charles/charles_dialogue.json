@@ -21,6 +21,7 @@
 			"FlowerDance_Decline": "{{i18n:charles_dialogue.FlowerDance_Decline}}",
 			"AcceptGift_(O)StardropTea": "{{i18n:charles_dialogue.AcceptGift_(O)StardropTea}}",
 			"divorced": "{{i18n:charles_dialogue.divorced}}",
+			"eventSeen_{{ModId}}_Seance2": "{{i18n:charles_dialogue.eventSeen_{{ModId}}_Seance2}}",
 			
 			"Mon": "{{i18n:charles_dialogue.Mon}}",
 			"Tue": "{{i18n:charles_dialogue.Tue}}",

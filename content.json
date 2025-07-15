@@ -150,6 +150,13 @@
 			"FromFile": "data/StringsFromCSFiles.json"
 		},
 		
+		// Textures (Misc.)
+		{
+			"Action": "Load",
+			"Target": "Textures/{{ModId}}_PutridGhost",
+			"FromFile": "assets/objects/putridghost.png",
+		},
+		
 		// Trigger Actions
 		{
 			"Action": "Include",
