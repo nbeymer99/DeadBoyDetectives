@@ -1,255 +1,5 @@
 {
     "Changes": [
-		// CREATE LOCATIONS
-		{
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "Entries": {
-                "{{ModId}}_DeadBoyAgency": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_DeadBoyAgency"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 6,
-						"Y": 18,
-					},
-                },
-				
-                "{{ModId}}_TragicMicks": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_TragicMicks"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.TragicMicks.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 8,
-						"Y": 23,
-					},
-                },
-				"{{ModId}}_LighthouseInt": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_LighthouseInt"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 7,
-						"Y": 12,
-					},
-                },
-				
-				"{{ModId}}_Lighthouse": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_Lighthouse"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 85,
-						"Y": 13,
-					},
-					
-					"FishAreas": {
-						"Ocean": {
-							"DisplayName": null,
-							"Position": null,
-							"CrabPotFishTypes": [ "ocean" ],
-							"CrabPotJunkChance": 0.1,
-						},
-						"River": {
-							"DisplayName": null,
-							"Position": {
-								"X": 41,
-								"Y": 0,
-								"Width": 49,
-								"Height": 4,
-							},
-							"CrabPotFishTypes": [],
-							"CrabPotJunkChance": 0.1,
-						}
-					},
-					
-					"Fish": [
-						{
-							"Chance": 0.66,
-							"Season": null,
-							"FishAreaId": "Ocean",
-							"BobberPosition": null,
-							"PlayerPosition": null,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"SpecificBaitBuff": 0.0,
-							"SpecificBaitMultiplier": 1.66,
-							"CatchLimit": -1,
-							"CanUseTrainingRod": null,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": true,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"ChanceBoostPerLuckLevel": 0.0,
-							"UseFishCaughtSeededRandom": false,
-							"Condition": null,
-							"Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
-							"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
-							"RandomItemId": null,
-							"MaxItems": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ObjectColor": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack",
-							"ModData": null,
-							"PerItemCondition": null
-						},
-						{
-							"Chance": 0.3,
-							"Season": null,
-							"FishAreaId": "River",
-							"BobberPosition": null,
-							"PlayerPosition": null,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"SpecificBaitBuff": 0.0,
-							"SpecificBaitMultiplier": 1.66,
-							"CatchLimit": -1,
-							"CanUseTrainingRod": null,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -10,
-							"IgnoreFishDataRequirements": true,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"ChanceBoostPerLuckLevel": 0.0,
-							"UseFishCaughtSeededRandom": false,
-							"Condition": null,
-							"Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
-							"ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
-							"RandomItemId": null,
-							"MaxItems": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ObjectColor": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack",
-							"ModData": null,
-							"PerItemCondition": null
-						  },
-					],
-				},
-				
-				"{{ModId}}_LighthouseScary": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_LighthouseScary"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 85,
-						"Y": 13,
-					},
-				},
-				
-				"{{ModId}}_DeadBoyAgencyCauldron": {
-                    "CreateOnLoad": { 
-                        "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 6,
-						"Y": 18,
-					},
-                },
-				
-				"{{ModId}}_Backpack": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_Backpack"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.CharlesBackpack.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 6,
-						"Y": 10,
-					},
-                },
-				
-				"{{ModId}}_TongueAndTail": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_TNTInterior"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.TNT.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 14,
-						"Y": 28,
-					},
-                },
-				
-				"{{ModId}}_CrystalAndNiko": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_CrystalAndNiko"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.CNRooms.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 25,
-						"Y": 23,
-					},
-                },
-				
-				"{{ModId}}_CrystalVoid": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_CrystalVoid"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.CrystalVoid.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 22,
-						"Y": 26,
-					},
-                },
-
-				"{{ModId}}_Roof": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_Roof"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.TNTRoof.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 12,
-						"Y": 65,
-					},
-                },
-				
-				"{{ModId}}_SeanceMap": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_SeanceMap"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.Town.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 45,
-						"Y": 95,
-					},
-                }
-			}
-		},
 		
 		// LOAD TILESHEETS
 		{
@@ -264,55 +14,46 @@
             "Target": "Maps/{{ModId}}_DeadBoyAgency",
             "FromFile": "assets/maps/DeadBoyAgency.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Lighthouse",
             "FromFile": "assets/maps/Lighthouse.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_LighthouseInt",
             "FromFile": "assets/maps/LighthouseInt.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_LighthouseScary",
             "FromFile": "assets/maps/LighthouseScary.tmx"
         },
-		
         {
             "Action": "Load",
             "Target": "Maps/{{ModId}}_DeadBoyAgencyCauldron",
             "FromFile": "assets/maps/DeadBoyAgencyCauldron.tmx"
         },
-		
         {
             "Action": "Load",
             "Target": "Maps/{{ModId}}_TragicMicks",
             "FromFile": "assets/maps/TragicMicks.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Backpack",
             "FromFile": "assets/maps/Backpack.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Roof",
             "FromFile": "assets/maps/Roof.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_TNTInterior",
             "FromFile": "assets/maps/TNTInterior.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_CrystalAndNiko",
@@ -321,7 +62,6 @@
 				"HasSeenEvent |contains={{ModId}}_Seance2": true,
 			}
         },
-		
 		{
 			"LogName": "NikoRoomRuins",
 			"Action": "Load",
@@ -331,25 +71,26 @@
 				"HasSeenEvent |contains={{ModId}}_Seance2": false,
 			}
 		},
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_CrystalAndNiko_Ruins",
             "FromFile": "assets/maps/CrystalAndNiko_Ruins.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_SeanceMap",
             "FromFile": "assets/maps/Seance.tmx"
         },
-		
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_CrystalVoid",
             "FromFile": "assets/maps/CrystalVoid.tmx"
+        },	
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_Docks",
+            "FromFile": "assets/maps/Docks.tmx"
         },
-		
 		// RECOLORS
 		{
 			// daisyniko
@@ -425,6 +166,13 @@
 			"FromArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 },
 			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 }			
 		},
+		/* {
+			"Action": "EditMap",
+			"Target": "Maps/Beach",
+			"FromFile": "assets/maps/Beach_Docks.tmx",
+			"FromArea": { "X": 2, "Y": 0, "Width": 16, "Height": 11 },
+			"ToArea": { "X": 88, "Y": 0, "Width": 16, "Height": 11 }			
+		}, */
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Town",
@@ -445,7 +193,7 @@
 			"FromFile": "assets/maps/MontyHouseExterior.tmx",
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		},	 */
+		}, */
 		
 		// BETAS dependency
 		{
@@ -485,7 +233,7 @@
 			],
 			"When": {
 				"Hearts:CrystalPalace": "10, 11, 12, 13",
-				"HasMod: |contains=Spiderbuttons.BETAS": true,
+				"HasMod |contains=Spiderbuttons.BETAS": true,
 			}
 		},
 		
@@ -505,7 +253,7 @@
 				},
 			],
 			"When": {
-				"HasMod: |contains=Spiderbuttons.BETAS": true,
+				"HasMod |contains=Spiderbuttons.BETAS": true,
 			}
 		},
 		
@@ -535,7 +283,7 @@
 				},
 			],
 			"When": {
-				"HasMod: |contains=Spiderbuttons.BETAS": true,
+				"HasMod |contains=Spiderbuttons.BETAS": true,
 			}
 		},
 		
@@ -565,7 +313,7 @@
 				},
 			],
 			"When": {
-				"HasMod: |contains=Spiderbuttons.BETAS": true,
+				"HasMod |contains=Spiderbuttons.BETAS": true,
 			}
 		},
 		
@@ -595,7 +343,7 @@
 				},
 			],
 			"When": {
-				"HasMod: |contains=Spiderbuttons.BETAS": true,
+				"HasMod |contains=Spiderbuttons.BETAS": true,
 			}
 		},
 		
@@ -622,44 +370,19 @@
 				"50 18 {{ModId}}_DeadBoyAgency 6 18"
 			],
 		},
-			//beach NPC warp
+			//beach NPC warps
 		{
 			"Action":"EditMap",
 			"Target":"Maps/Beach",
 			"MapProperties": {
-				"NPCWarp": "0 6 {{ModId}}_Lighthouse 103 8"
+				"AddNPCWarps": "0 6 {{ModId}}_Lighthouse 103 8 103 6 {{ModId}}_Docks 0 7",
 			}
 		},
 			// beach warps
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
-			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10"],
-		},
-		
-		// from https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_a_New_Fish
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"LogName": "Add Angie",
-			"TargetField": [
-				"{{ModId}}_Lighthouse",
-				"Fish"
-			],
-			"Entries": {
-				"{{ModId}}_Angie": {
-					"ID": "Angie",
-					"ItemId": "{{ModId}}_Angie",
-					"Chance": 0.5,
-					"Season": "Winter",
-					"MinFishingLevel": 6,
-					"ApplyDailyLuck": true,
-					"CuriosityLureBuff": 2,
-					"CatchLimit": 1,
-					"CanUseTrainingRod": false,
-					"IsBossFish": true
-				}
-			}
+			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10", "104 5 {{ModId}}_Docks 0 7", "104 6 {{ModId}}_Docks 0 8", "104 7 {{ModId}}_Docks 0 9", "104 8 {{ModId}}_Docks 0 10" ],
 		},
 		
 		// SVE compat
@@ -696,7 +419,7 @@
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 			}
 		},
-/* 		{
+ 		/* {
 			"Action": "EditMap",
 			"Target": "Maps/Mountain",
 			"When": {
@@ -705,7 +428,7 @@
 			"FromFile": "assets/maps/MontyHouseExterior_SVE.tmx",
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		}, */	
+		},  */
 		
 		// EDIT TOWN MAP
 		//
@@ -846,7 +569,7 @@
                 },
             ],
 			"When": {
-				"HasFlag: |contains={{ModId}}_CactusGottenFlag": true,
+				"HasFlag |contains={{ModId}}_CactusGottenFlag": true,
 			}
         },
 			// make tiles NPC passable at night market

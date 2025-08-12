@@ -429,14 +429,14 @@
 	"charles_strings.Painting.000": "These runes can be a bit tricky if you don't know what you're doing. Edwin usually lets me handle them.",
 	
 	// CRYSTAL
-	"crystalstrings.Meditation.000": "%Crystal is deep in a trance.",
-	"crystalstrings.WokenUpTrance.000": "I can see it all...$u#$b#Sorry, @, how long have you been standing there?",
-	"crystalstrings.SplishySplashy.000": "Hey, @. Want to dip your feet in?",
-	"crystalstrings.Cellphone.000": "I can only get a few bars here. I wonder if Edwin has a spell for boosting my connection.",
-	"crystalstrings.Reading.000": "Wow, could these old farts write anything more confusing? What the hell does 'myftical noftrum for all beaftly ills' even mean?$6",
-	"crystalstrings.Reading.001": "Huh, did you know that ghosts who have died in graveyards can become trapped there for eternity?$6",
-	"crystalstrings.Reading.002": "Ugh, this is giving me a headache.$s",
-	"crystalstrings.NightMarket.000": "That guy in the robe keeps looking over at us...$6#$e#Do you think he can see ghosts?",
+	"crystal_strings.Meditation.000": "%Crystal is deep in a trance.",
+	"crystal_strings.WokenUpTrance.000": "I can see it all...$u#$b#Sorry, @, how long have you been standing there?",
+	"crystal_strings.SplishySplashy.000": "Hey, @. Want to dip your feet in?",
+	"crystal_strings.Cellphone.000": "I can only get a few bars here. I wonder if Edwin has a spell for boosting my connection.",
+	"crystal_strings.Reading.000": "Wow, could these old farts write anything more confusing? What the hell does 'myftical noftrum for all beaftly ills' even mean?$6",
+	"crystal_strings.Reading.001": "Huh, did you know that ghosts who have died in graveyards can become trapped there for eternity?$6",
+	"crystal_strings.Reading.002": "Ugh, this is giving me a headache.$s",
+	"crystal_strings.NightMarket.000": "That guy in the robe keeps looking over at us...$6#$e#Do you think he can see ghosts?",
 	
 	// EDWIN 
 	"edwin_strings.RuneCircle.000": "I wouldn't if I were you. There's no telling what effect it may have on the living.$u",
@@ -882,4 +882,5 @@
 	"LocationDisplayName.CrystalVoid.DisplayName": "Crystal's Void",
 	"LocationDisplayName.TNTRoof.DisplayName": "Tongue and Tail Roof",
 	"LocationDisplayName.Town.DisplayName": "Town",
+	"LocationDisplayName.Docks.DisplayName": "Docks",
 }

@@ -1,0 +1,275 @@
+{
+   "Changes": [
+	{
+       	"LogName": "Cat King Base Portraits",
+       	"Action": "Load",
+       	"Target": "Portraits/CatKing",
+       	"FromFile": "assets/characters/zzminorCharacters/catking_portraits.png",
+   	},	
+	{
+        "LogName": "Base Sprites",
+        "Action": "Load",
+        "Target": "Characters/CatKing",
+        "FromFile": "assets/characters/zzminorCharacters/catking_sprite.png",
+   	},
+		
+		// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "CatKing": {
+				// Basic Info	
+                    "DisplayName": "Cat King",
+                    "BirthSeason": "Winter",
+                    "BirthDay": 1,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Neutral",
+					"IsDarkSkinned": false,
+					"Breather": "true",
+					"KissSpriteIndex": 51,
+					
+					// Relationships and Social
+                    "CanBeRomanced": false, //to be patched with romance
+					"CanVisitIsland": false,
+					"CanCommentOnPurchasedShopItems": false,
+					"Calendar": "HiddenUntilMet",
+					
+					"FriendsAndFamily": {
+                        "EdwinPayne": "",
+						"NikoSasaki": "",
+						"EstherFinch": 
+                    },
+					
+					"DumpsterDiveFriendshipEffect": 0,
+					"FlowerDanceCanDance": true,
+					
+					"WinterStarGifts": [
+						{
+							"Id": "Rabbit's Foot",
+							"ItemId": "(O)446",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Id": "Tea Set",
+							"ItemId": "(O)341",
+							"MinStack": 1,
+							"MaxStack": 1
+						},
+						{
+							"Id": "Warp Totem: Farm",
+							"ItemId": "(O)688",
+							"MinStack": 10,
+							"MaxStack": 20
+						}
+					],
+					
+					//Spawn Rules
+                    "Home": [
+                        {
+							"Id": "Default",
+                            "Location": "{{ModId}}_Cannery",
+                            "Tile": {
+								"X": 4,
+								"Y": 6
+                            },
+							"Direction": "down"
+                        }
+                    ],
+				}
+			}
+		},
+				
+	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"TargetField": ["CatKing", "Appearance"],
+		"Entries":
+		{
+			"CatKing_OrangeHuman":
+			{
+				"Id": "CatKing_OrangeHuman",
+				"Portrait": "Portraits/CatKing_OrangeHuman",
+				"Sprite": "Characters/CatKing_OrangeHuman",
+				"Condition": "{{Cat_King_Appearance |contains=Orange}}, !{{HasFlag |contains=CatMode}}",
+				"Precedence": 0,
+				"Weight": 1
+			},
+			
+			"CatKing_OrangeCat":
+			{
+				"Id": "CatKing_OrangeHuman",
+				"Portrait": "Portraits/CatKing_OrangeCat",
+				"Sprite": "Characters/CatKing_OrangeCat",
+				"Condition": "{{Cat_King_Appearance |contains=Orange}}, {{HasFlag |contains=CatMode}}",
+				"Precedence": 0,
+				"Weight": 1
+			},
+			
+			"CatKing_BlackHuman":
+			{
+				"Id": "CatKing_Black",
+				"Portrait": "Portraits/CatKing_BlackHuman",
+				"Sprite": "Characters/CatKing_BlackHuman",
+				"Condition": "{{Cat_King_Appearance |contains=Black}}, !{{HasFlag |contains=CatMode}}",
+				"Precedence": 0,
+				"Weight": 1
+			},
+			
+			"CatKing_BlackCat":
+			{
+				"Id": "CatKing_Black",
+				"Portrait": "Portraits/CatKing_BlackCat",
+				"Sprite": "Characters/CatKing_BlackCat",
+				"Condition": "{{Cat_King_Appearance |contains=Black}}, {{HasFlag |contains=CatMode}}",
+				"Precedence": 0,
+				"Weight": 1
+			},
+		},
+	},
+		
+	//loads - portraits
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CatKing_BlackHuman",
+		"FromFile": "assets/characters/zzminorCharacters/catking_portraits_black.png",
+	},
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CatKing_OrangeHuman",
+		"FromFile": "assets/characters/zzminorCharacters/catking_portraits.png",
+	}, 
+	{
+		// perhaps no cat portraits, just human
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CatKing_BlackCat",
+		"FromFile": "assets/characters/zzminorCharacters/catking_portraits_blackcat.png",
+	},
+	{
+		// perhaps no cat portraits, just human
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/CatKing_OrangeCat",
+		"FromFile": "assets/characters/zzminorCharacters/catking_portraits_orangecat.png",
+	},
+	
+	//loads - sprites
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CatKing_BlackHuman",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png", //!!!
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CatKing_OrangeHuman",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_brownjacket.png", // !!!
+	},
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CatKing_BlackCat",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png", // !!!
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/CatKing_OrangeCat",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_brownjacket.png", //!!!
+	},
+	
+	// gift tastes
+	{
+		"LogName": "CatKingGiftTaste",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"CatKing": "{{i18n: CatKing.love}}/loves/{{i18n: CatKing.like}}/likes/{{i18n: CatKing.dislike}}/dislikes/{{i18n: CatKing.hate}}/hates/{{i18n: CatKing.neutral}}/neutrals/"
+		}
+	},
+	
+	// movie tastes (from here: https://stardewmodding.wiki.gg/wiki/Tutorial:_Making_a_Custom_NPC#Movie_Concessions_and_Reactions)
+	
+	{   "LogName": "Movie Theatre CatKing",
+		"Action": "EditData", 
+		"Target": "Data/MoviesReactions",	 
+		"Entries": {
+				"CatKing": {
+			"NPCName": "Cat King",
+			"Reactions": [
+				{
+					"Tag": "classic",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "It's been some time since I've seen this one.",
+						},
+						"DuringMovie": {
+							"ResponsePoint": null,
+							"Script": "message \"Edwin is leaning forward in his chair, rapt.\"",
+							"Text": ""
+						},
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Even better than I remembered.$h Thanks for taking me, @."
+						}
+					},
+					"ID": "reaction_0"
+				},
+			  ],
+			},
+		},
+	},
+		
+	// include schedules
+	{
+		"LogName": "CatKingSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/catking_schedule.json"
+	},
+	
+	// include Strings
+	{
+		"LogName": "CatKingStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/catking_Strings.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "CatKingAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/catking_animations.json"
+	},
+	
+	// include dialogue
+	{
+		"LogName": "CatKingDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/catking_dialogue.json"
+	},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "CatKingMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Edwin/edwin_marriageDialogue.json"
+	//},
+	]
+}

@@ -1,0 +1,115 @@
+{
+   "Changes": [
+		
+	{
+		"Action": "Load",
+		"Target": "Portraits/MontyFinch",
+		"FromFile": "assets/characters/zzminorCharacters/Monty.png",
+	},	
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/MontyFinch",
+		"FromFile": "assets/characters/zzminorCharacters/monty_sprites.png",
+	},
+		
+	// edit game data
+	{
+		"Action": "EditData",
+        "Target": "Data/Characters",
+        "Entries": {
+            "MontyFinch": {
+				
+				// Basic Info
+                "DisplayName": "Monty",
+                "BirthSeason": "fall",
+                "BirthDay": 28,
+                "HomeRegion": "Town",
+                "Gender": "Male",
+                "Age": "Teen",
+                "Manner": "Polite",
+                "SocialAnxiety": "Neutral",
+                "Optimism": "Positive",
+				"IsDarkSkinned": false,
+				
+				// Relationships and Social
+                "CanBeRomanced": false,
+				"CanVisitIsland": false,
+				"CanCommentOnPurchasedShopItems": true,
+				"Calendar": "HiddenUntilMet",
+				
+				"FriendsAndFamily": {
+                    "EdwinPayne": "",
+					"CharlesRowland": "",
+					"NikoSasaki": "",
+					"CrystalPalace": ""
+                },
+					
+				"DumpsterDiveFriendshipEffect": -10,
+				"FlowerDanceCanDance": false,
+				"WinterStarParticipant": false,
+					
+				//Spawn Rules
+                "Home": [
+                    {
+						"Id": "Default",
+                        "Location": "{{ModId}}_TongueAndTail",
+                        "Tile": {
+							"X": 16,
+							"Y": 12
+                        },
+						"Direction": "right"
+                    }
+                ],
+				"Breather": "true",
+				//"KissSpriteIndex": 42
+            }
+        }
+    },
+	
+	// gift tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"MontyFinch": "{{i18n: MontyFinch.love}}/814 80 106 202 213 253 342 348 397 395 605 717/{{i18n: MontyFinch.like}}/-4 -5 -6 215 274 283 419 522 563 684 128/{{i18n: MontyFinch.dislike}}/88 220 221 223 610 608/{{i18n: MontyFinch.hate}}/124 148 162 196 225 226 {{ModId}}_DandelionSpriteJar/{{i18n: MontyFinch.neutral}}/"
+		}
+	},
+	
+	
+	// include schedule
+	{
+		"LogName": "MontyFinchSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/jenny_schedule.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "MontyFinchAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/jenny_animations.json"
+	},
+	
+	// include Strings
+	/* {
+		"LogName": "MontyFinchStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/jenny_Strings.json"
+	}, */
+	
+	// include dialogue
+	{
+		"LogName": "MontyFinchDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/jenny_dialogue.json"
+	},
+	
+	// include marriage dialogue
+	//{
+	//	"LogName": "MontyFinchMarriageDialogue",
+	//	"Action": "Include",
+	//	"FromFile": "assets/characters/Jenny/Jenny_marriageDialogue.json"
+	//},
+	]
+}

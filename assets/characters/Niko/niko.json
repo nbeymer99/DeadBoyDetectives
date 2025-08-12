@@ -2,15 +2,15 @@
    "Changes": [
 		
 	{
-    "Action": "Load",
-    "Target": "Portraits/NikoSasaki",
-    "FromFile": "assets/characters/Niko/niko_portraits.png",
+		"Action": "Load",
+		"Target": "Portraits/NikoSasaki",
+		"FromFile": "assets/characters/Niko/niko_portraits.png",
 	},	
 	
 	{
-    "Action": "Load",
-    "Target": "Characters/NikoSasaki",
-    "FromFile": "assets/characters/Niko/niko_sprites.png",
+		"Action": "Load",
+		"Target": "Characters/NikoSasaki",
+		"FromFile": "assets/characters/Niko/niko_sprites.png",
 	},
 		
 	// edit game data
@@ -40,10 +40,12 @@
 				"CanCommentOnPurchasedShopItems": true,
 				"Calendar": "HiddenUntilMet",
 				"SocialTab": "HiddenUntilMet",
+				"IntroductionsQuest": false,
 				"FriendsAndFamily": {
                     "EdwinPayne": "",
 					"CharlesRowland": "",
-					"CrystalPalace": ""
+					"CrystalPalace": "",
+					"JennyButcher": "",
                 },
 					
 				"DumpsterDiveFriendshipEffect": -15,

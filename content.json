@@ -6,6 +6,10 @@
 			"AllowValues": "Vanilla, RecordPlayer",
 			"Default": "RecordPlayer",
 		},
+		"Cat_King_Appearance": {
+			"AllowValues": "Orange, Black",
+			"Default": "Black",
+		},
 	},
 
     "Changes": [
@@ -14,7 +18,7 @@
 		{
    		 "LogName": "Blank JSON load", 
         	"Action": "Load",
-        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki, Characters/Dialogue/JennyButcher, Characters/Dialogue/MarriageDialogueJennyButcher, Characters/schedules/JennyButcher, Strings/schedules/JennyButcher, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Data/Events/{{ModId}}_CrystalVoid",
+        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki, Characters/Dialogue/JennyButcher, Characters/Dialogue/MarriageDialogueJennyButcher, Characters/schedules/JennyButcher, Strings/schedules/JennyButcher, Characters/Dialogue/CatKing, Characters/Dialogue/MarriageDialogueCatKing, Characters/schedules/CatKing, Strings/schedules/CatKing, Characters/Dialogue/MontyFinch, Characters/Dialogue/MarriageDialogueMontyFinch, Characters/schedules/MontyFinch, Strings/schedules/MontyFinch, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Data/Events/{{ModId}}_CrystalVoid, Data/Events/{{ModId}}_Docks, Data/Events/{{ModId}}_Cannery, Data/Events/{{ModId}}_LostAndFound",
         	"FromFile": "assets/blank.json"
 		},
 		
@@ -27,25 +31,17 @@
 		//Characters
 		{
 			"Action": "Include",
-			"FromFile": "assets/characters/Charles/charles.json"
+			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/zzminorCharacters/jenny.json"
+		},
+		/* {
+			"Action": "Include",
+			"FromFile": "assets/characters/zzminorCharacters/catking.json"
 		},
 		{
 			"Action": "Include",
-			"FromFile": "assets/characters/Edwin/edwin.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "assets/characters/Crystal/crystal.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "assets/characters/Niko/niko.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "assets/characters/zzminorCharacters/jenny.json"
-		},
-		 
+			"FromFile": "assets/characters/zzminorCharacters/monty.json"
+		},  */
+		
 		// Events
 		{
 			"Action": "Include",
@@ -103,30 +99,28 @@
 			"FromFile": "data/items.json"
 		},
 		
+		// Locations
+		{
+			"Action": "Include",
+			"FromFile": "data/Locations.json",
+		},
+		
 		// Mail
 		{
 			"Action": "Include",
 			"FromFile": "data/mail.json"
 		},
 		
-		// Maps and Locations
+		// Maps
 		{
 			"Action": "Include",
-			"FromFile": "data/mapImplementation.json"
+			"FromFile": "data/mapImplementation.json, data/WorldMap.json"
 		},
 		{
 			"Action": "Load",
 			"Target": "LooseSprites/mapObjects",
 			"FromFile": "assets/maps/mapObjects.png",
 		},
-		{
-			"Action": "Include",
-			"FromFile": "data/WorldMap.json"
-		},
-		//Warp 14 29 handwrittenhello.dbda_TongueAndTail
-		//Warp 13 29 handwrittenhello.dbda_TongueAndTail
-		
-		//Letter handwrittenhello.dbda_TNTConstruction
 		 
 		// Quests
 		{
@@ -143,11 +137,7 @@
 		// Strings
 		{
 			"Action": "Include",
-			"FromFile": "data/StringsFromMaps.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "data/StringsFromCSFiles.json"
+			"FromFile": "data/StringsFromMaps.json, data/StringsFromCSFiles.json"
 		},
 		
 		// Textures (Misc.)

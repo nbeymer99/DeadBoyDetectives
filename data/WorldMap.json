@@ -89,7 +89,7 @@
 							"Width": 7,
 							"Height": 9,
 						}, 
-						"Text": "\n                  [LocalizedText Strings\\StringsFromCSFiles:{{ModId}}_Map.001]\n                [LocalizedText Strings\\StringsFromCSFiles:{{ModId}}_Map.002]\n               ",
+						"Text": "\n                  [LocalizedText Strings\\StringsFromMaps:{{ModId}}_Map.001]\n                [LocalizedText Strings\\StringsFromMaps:{{ModId}}_Map.002]\n               ",
 						"LeftNeighbor": "Forest/SewerPipe",
 						"RightNeighbor": "Beach/ElliottCabin",
 						"UpNeighbor": "Town/SamHouse",

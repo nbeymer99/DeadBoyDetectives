@@ -50,6 +50,7 @@
 		}
 	},
 	
+	// CRYSTAL'S VOID
 	{
 		"Action": "EditData",
 		"Target": "Data/Events/{{ModId}}_CrystalVoid",
@@ -57,6 +58,30 @@
 			// crystal 10 hearts - show you the void
 			"{{ModId}}_crystalhearts10/Friendship CrystalPalace 2500": "junimoKart_mushroomMusic/24 28/farmer 22 26 2 CrystalPalace 24 29 1/skippable/pause 200/move farmer 0 3 1/pause 1000/faceDirection CrystalPalace 3/proceedPosition farmer/speak CrystalPalace \"{{i18n:crystalhearts10.0}}\"/quickQuestion #{{i18n:crystalhearts10.1}}#{{i18n:crystalhearts10.2}}#{{i18n:crystalhearts10.3}}(break)speak CrystalPalace \"{{i18n:crystalhearts10.4}}\"\\jump farmer 8\\emote farmer 16(break)speak CrystalPalace \"{{i18n:crystalhearts10.5}}\"\\jump farmer 4\\emote farmer 16(break)speak CrystalPalace \"{{i18n:crystalhearts10.6}}\"\\jump farmer 8\\emote farmer 16/faceDirection CrystalPalace 1/speak CrystalPalace \"{{i18n:crystalhearts10.7}}\"/move farmer 0 2 2/pause 200/move farmer 3 0 1/proceedPosition farmer/speak CrystalPalace \"{{i18n:crystalhearts10.8}}\"/faceDirection CrystalPalace 2/faceDirection farmer 0/speak CrystalPalace \"{{i18n:crystalhearts10.9}}\"/pause 500/speak CrystalPalace \"{{i18n:crystalhearts10.10}}\"/emote farmer 20/speak CrystalPalace \"{{i18n:crystalhearts10.11}}\"/move CrystalPalace 0 1 2/addItem (O){{ModId}}_CrystalRing/itemAboveHead (O){{ModId}}_CrystalRing/pause 4000/speak CrystalPalace \"{{i18n:crystalhearts10.12}}\"/emote farmer 20/end",
 		},
+	},
+	
+	// FARM
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			// maybe save it for GOTO
+			"{{ModId}}_montyhearts7/Friendship MontyFinch 1750": "continue/x y/farmer x y MontyFinch x y/skippable/pause 2000/speak MontyFinch \"Hi, @. Sorry, I know it's kind of early...#$b#I have a favor to ask you.\"/emote farmer ?/speak MontyFinch \"I tried to keep it a secret, but Esther made sure that didn't work.#$b#It's true... I'm actually a crow. She made me into a boy so that I could help her with her insane plans, but I'm sick of being used.#$b#I don't want to be under her thumb anymore. I want to be able to live my own life, but as a human, not as a crow.\"/move MontyFinch 0 -1 0/speak MontyFinch \"There's a spell that could make me human, permanently. But it needs three people.#$b#Will you help me?\"/question fork0 \"#Of course I'll help.#No, find someone else.#Who else are you getting to help?/fork helpMontyEasy/fork noHelpMonty/speak MontyFinch \"I don't know if he'll agree, but... Edwin is the best spellcaster I know.#$b#If anything goes wrong, he should be there.\"/question fork0 \"#Why wouldn't he help?#Okay. How do I help?\"/fork MontyEdwinBackstory/speak MontyFinch \"I'll take care of everything. I'll send you a letter when I'm done getting the spell ready, so just wait for that.#$b#Thank you so much, @, again.\"/emote MontyFinch heart/emote farmer heart/move MontyFinch 0 3 2/end",
+
+			"helpMontyEasy": "speak MontyFinch \"Thank you so much. You have no idea how much this means to me.\"/friendship MontyFinch 100/question fork0 \"#Who else are you getting to help us?#How do I help you?\"/fork whoHelpMonty/speak MontyFinch \"I'll take care of everything. I'll send you a letter when I'm done getting the spell ready, so just wait for that.#$b#Thank you so much, again.\"/emote MontyFinch heart/emote farmer heart/move MontyFinch 0 3 2/end",
+
+			"noHelpMonty": "speak MontyFinch \"Oh... okay. Forget I asked.$s#$b#Sorry to bother you. I'll go now.$s\"/friendship MontyFinch -1000/move MontyFinch 0 3 2/end",
+
+			"whoHelpMonty": "/speak MontyFinch \"I don't know if he'll agree, but... Edwin is the best spellcaster I know.#$b#If anything goes wrong, he should be there.\"/fork0 \"#I don't want to help you.#Okay. How do I help?#Why wouldn't he help?\"/fork noHelpMonty/fork MontyEdwinBackstory/(break)speak MontyFinch \"I'll take care of everything. I'll send you a letter when I'm done getting the spell ready, so just wait for that.#$b#Thank you so much, @, again.\"/emote MontyFinch heart/emote farmer heart/move MontyFinch 0 3 2/end",
+
+			"MontyEdwinBackstory": "speak MontyFinch \"It's kind of a long story, but... remember how I mentioned that Esther used me?#$b#She made me trick Edwin, manipulate him, so that she could take revenge on him and Charles after they crossed her.#$b#He was the angriest I've ever seen him.$s\"/emote farmer sad/speak MontyFinch \"If he won't help, well... I don't know what I'll do.\"/fork0 #Actually, this is a bad idea. I don't want to help you.#I'll help you convince Edwin.#If Edwin won't help, I still will. What should I do?/fork noHelpMonty/fork helpConvinceEdwin/speak MontyFinch \"I'll take care of everything. I'll send you a letter when I'm done getting the spell ready, so just wait for that.#$b#Thank you so much, again.\"/emote MontyFinch heart/emote farmer heart/move MontyFinch 0 3 2/end",
+
+			"helpConvinceEdwin": "speak MontyFinch \"Really? That's so nice of you.$h#$b#Meet me at the Community Center later.\"/friendship MontyFinch 30/emote farmer heart/speak MontyFinch \"I'll go start getting things ready. See you!\"/move MontyFinch 0 3 2/end",
+		}
 	},
 	
 	// LIBRARY

@@ -69,7 +69,7 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-   				    "Value": "CharlesRowland 16 74 right/EdwinPayne 18 74 left/CrystalPalace 17 75 up/NikoSasaki 17 73 down",
+   				    "Value": "CharlesRowland 16 74 right/EdwinPayne 18 74 left/CrystalPalace 17 75 up",
    				    "Delimiter": "/"
 				},
 				
@@ -77,7 +77,33 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "MainEvent_additionalCharacters"],
-   				    "Value": "CharlesRowland 16 74 down/EdwinPayne 18 74 down/CrystalPalace 17 75 down/NikoSasaki 17 73 down",
+   				    "Value": "CharlesRowland 16 74 down/EdwinPayne 18 74 down/CrystalPalace 17 75 down",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "NikoSasaki 17 73 down",
+   				    "Delimiter": "/"
+				},
+				
+   				//MainEvent - during the actual hunt
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "NikoSasaki 17 73 down",
    				    "Delimiter": "/"
 				},
 			],
@@ -106,7 +132,7 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-   				    "Value": "CharlesRowland 25 29 left/EdwinPayne 25 28 left/CrystalPalace 24 27 down/NikoSasaki 24 30 up",
+   				    "Value": "CharlesRowland 25 29 left/EdwinPayne 25 28 left/CrystalPalace 24 27 down",
    				    "Delimiter": "/"
 				},
 				
@@ -114,7 +140,33 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
-					"Value": "EdwinPayne 17 32 up/CharlesRowland 18 32 up/CrystalPalace 19 32 up/NikoSasaki 20 32 up",
+					"Value": "EdwinPayne 17 32 up/CharlesRowland 18 32 up/CrystalPalace 19 32 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "NikoSasaki 24 30 up",
+   				    "Delimiter": "/"
+				},
+				
+				//Main Event
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 20 32 up",
 					"Delimiter": "/"
 				},
 			],
@@ -143,14 +195,40 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-   				    "Value": "CharlesRowland 52 11 down/EdwinPayne 53 11 down/CrystalPalace 51 12 right/NikoSasaki 54 12 left",
+   				    "Value": "CharlesRowland 52 11 down/EdwinPayne 53 11 down/CrystalPalace 51 12 right",
    				    "Delimiter": "/"
 				},
 				//MainEvent - during the actual tasting
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 41 10 left/EdwinPayne 41 11 left/CrystalPalace 41 12 left/NikoSasaki 41 9 left",
+					"Value": "CharlesRowland 41 10 left/EdwinPayne 41 11 left/CrystalPalace 41 12 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"LogName": "Luau",
+			"Action": "EditData",
+			"When": {
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"Target": "Data/Festivals/summer11",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "NikoSasaki 54 12 left",
+   				    "Delimiter": "/"
+				},
+				//MainEvent - during the actual tasting
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 41 9 left",
 					"Delimiter": "/"
 				},
 			],
@@ -180,14 +258,40 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 25 36 down/EdwinPayne 26 36 down/CrystalPalace 13 32 right/NikoSasaki 13 33 right",
+					"Value": "CharlesRowland 25 36 down/EdwinPayne 26 36 down/CrystalPalace 13 32 right",
 					"Delimiter": "/"
 				},
 				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 25 36 down/EdwinPayne 26 36 down/CrystalPalace 13 32 down/NikoSasaki 13 33 right",
+					"Value": "CharlesRowland 25 36 down/EdwinPayne 26 36 down/CrystalPalace 13 32 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"LogName": "Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 13 33 right",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 13 33 right",
 					"Delimiter": "/"
 				},
 			],
@@ -217,14 +321,14 @@
 				"CrystalPalace": "{{i18n:Festivals.MoonlightJellies.CrystalPalace1}}",
 			},
 			"When": {
-				"HasSeenEvent": "{{ModId}}_Seance2"
+				"HasFlag |contains={{ModId}}_NikoCured": true,
 			},
 		},
 		
 		{	
 			"LogName": "Stardew Valley Fair",
 			"Action": "EditData",
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false},
 			"Target": "Data/Festivals/fall16",
 			"TextOperations":
 			[
@@ -247,7 +351,52 @@
 		{	
 			"LogName": "Stardew Valley Fair - SVE compat",
 			"Action": "EditData",
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "CharlesRowland 49 93 down/EdwinPayne 50 94 left/CrystalPalace 48 94 right/NikoSasaki 49 95 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				//SetUp (non-SVE) - I don't believe there is a "main event" one for this
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "NikoSasaki 46 90 left",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "NikoSasaki 48 91 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		//SetUp (SVE) - SVE changes the fair a lot, so you may want different positions.
+		{	
+			"LogName": "Stardew Valley Fair - SVE compat",
+			"Action": "EditData",
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+				},
 			"Target": "Data/Festivals/fall16",
 			"TextOperations":
 			[
@@ -276,7 +425,9 @@
 		{	
 			"LogName": "Spirit's Eve",
 			"Action": "EditData",
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
 			"Target": "Data/Festivals/fall27",
 			"TextOperations":
 			[
@@ -284,7 +435,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 18 12 right/EdwinPayne 19 12 left/CrystalPalace 28 72 left/NikoSasaki 27 73 up",
+					"Value": "CharlesRowland 18 12 right/EdwinPayne 19 12 left/CrystalPalace 28 72 left",
 					"Delimiter": "/"
 				},
 			],
@@ -292,7 +443,7 @@
 		{	
 			"LogName": "Spirit's Eve - SVE compat",
 			"Action": "EditData",
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
 			"Target": "Data/Festivals/fall27",
 			"TextOperations":
 			[
@@ -300,13 +451,58 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "CharlesRowland 71 27 down/EdwinPayne 72 27 down/CrystalPalace 42 86 right/NikoSasaki 44 86 left",
+					"Value": "CharlesRowland 71 27 down/EdwinPayne 72 27 down/CrystalPalace 42 86 right",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-					"Value": "CharlesRowland 28 13 right/EdwinPayne 30 13 left/CrystalPalace 28 71 left/NikoSasaki 27 72 up",
+					"Value": "CharlesRowland 28 13 right/EdwinPayne 30 13 left/CrystalPalace 28 71 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"LogName": "Spirit's Eve",
+			"Action": "EditData",
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp - again, no main
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 27 73 up",
+					"Delimiter": "/"
+				},
+			],
+		},			
+		{	
+			"LogName": "Spirit's Eve - SVE compat",
+			"Action": "EditData",
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp (SVE) - SVE changes the maps from year to year but I don't know the specifics, so you may need more than one set of positions for SVE compat.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "NikoSasaki 44 86 left",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "NikoSasaki 27 72 up",
 					"Delimiter": "/"
 				},
 			],
@@ -329,33 +525,33 @@
 			"LogName": "Festival of Ice",
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false},
 			"TextOperations":
 			[
 				//SetUp
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down/NikoSasaki 70 22 right",
+					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down/NikoSasaki 68 23 right",
+					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down",
 					"Delimiter": "/"
 				},
 				//MainEvent - during the actual contest
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down/NikoSasaki 70 22 right",
+					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down/NikoSasaki 68 23 right",
+					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down",
 					"Delimiter": "/"
 				},
 			],
@@ -364,21 +560,86 @@
 			"LogName": "Festival of Ice - SVE compat",
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
 			"TextOperations":
 			[
 				//SetUp - SVE completely redoes this map too, so depending on where you are you may need compat for this.
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left/NikoSasaki 28 49 down",
+					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left",
 					"Delimiter": "/"
 				},
 				//MainEvent - during the actual contest
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left/NikoSasaki 28 49 down",
+					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko 
+		{	
+			"LogName": "Festival of Ice",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "NikoSasaki 70 22 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "NikoSasaki 68 23 right",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "NikoSasaki 70 22 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
+					"Value": "NikoSasaki 68 23 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - SVE compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { 
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"TextOperations":
+			[
+				//SetUp - SVE completely redoes this map too, so depending on where you are you may need compat for this.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 28 49 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "NikoSasaki 28 49 down",
 					"Delimiter": "/"
 				},
 			],
@@ -407,7 +668,26 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 28 62 down/EdwinPayne 29 62 down/CrystalPalace 30 62 down/NikoSasaki 31 62 down",
+					"Value": "CharlesRowland 28 62 down/EdwinPayne 29 62 down/CrystalPalace 30 62 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		// niko
+		{	
+			"LogName": "Feast of the Winter Star",
+			"Action": "EditData",
+			"When": {
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"Target": "Data/Festivals/winter25",
+			"TextOperations":
+			[
+				//SetUp - I think there is a MainEvent, but only during the actual gift-giving cutscene.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+					"Value": "NikoSasaki 31 62 down",
 					"Delimiter": "/"
 				},
 			],
