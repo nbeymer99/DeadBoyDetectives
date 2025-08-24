@@ -91,7 +91,7 @@
 				},
 				{
 					"Id": "TragicMick_RecordPlayer",
-					"ItemId": "(BC)209",
+					"ItemId": "(F){{ModId}}_RecordPlayer",
 					"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_TM_NewStock Received",
 				},
 				]

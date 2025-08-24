@@ -150,24 +150,40 @@
 				"SpriteIndex": 10,
 				"ContextTags": [ "light_source" ]
 			},
-
-			
-			/* "{{ModId}}_RecordPlayer": {
-				"Name": "{{ModId}}_RecordPlayer",
-				"DisplayName": "{{i18n:RecordPlayer.DisplayName}}",
-				"Description": "{{i18n:RecordPlayer.Description}}",
-				"Fragility": 0,
-				"CanBePlacedOutdoors": false,
-				"Price": "0",
-				"IsLamp": false,
-				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
-				"SpriteIndex": 11,
-			}, */
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+		"Entries": {
+			"{{ModId}}_RecordPlayer": {
+				"DescriptionOverride": "{{i18n:RecordPlayer.Description}}",
+				"TileProperties": {
+					"0,0": {
+						"Buildings": {
+							"Action": "Jukebox"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "{{ModId}}\\Furniture\\RecordPlayer\\texture",
+		"FromFile": "assets/objects/itemsAndFurniture.png"
+	},
+    {
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries": {
+			"{{ModId}}_RecordPlayer": "{{ModId}}_RecordPlayer/decor/1 2/1 1/-1/5000/0/{{i18n:RecordPlayer.DisplayName}}/21/{{ModId}}\\Furniture\\RecordPlayer\\texture/true/{{ModId}}"
 		}
 	},
 	
 	// optional config - turn jukebox into record player
-	{
+	/* {
 		"Action": "EditImage",
 		"Target": "TileSheets/Craftables",
 		"FromFile": "assets/objects/itemsAndFurniture.png",
@@ -187,7 +203,7 @@
 		"When": {
 			"Jukebox": "RecordPlayer",
 		},
-	},
+	}, */
 	
 	{
 		"Action": "EditData",

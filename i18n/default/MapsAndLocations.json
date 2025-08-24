@@ -1,0 +1,29 @@
+{
+	// MAPS
+	"WorldMap.Lighthouse.ScrollText": "Point No Point Lighthouse",
+	"WorldMap.TragicMicks.ScrollText": "Tragic Mick's",
+	
+	"LocationDisplayName.DBDA.DisplayName": "Dead Boy Detective Agency",
+	"LocationDisplayName.TragicMicks.DisplayName": "Tragic Mick's",
+	"LocationDisplayName.Lighthouse.DisplayName": "Point No Point Lighthouse",
+	"LocationDisplayName.CharlesBackpack.DisplayName": "Charles' Bag",
+	"LocationDisplayName.TNT.DisplayName": "Tongue and Tail Butcher Shop",
+	"LocationDisplayName.CNRooms.DisplayName": "Crystal and Niko's Rooms",
+	"LocationDisplayName.CrystalVoid.DisplayName": "Crystal's Void",
+	"LocationDisplayName.TNTRoof.DisplayName": "Tongue and Tail Roof",
+	"LocationDisplayName.Town.DisplayName": "Town",
+	"LocationDisplayName.Docks.DisplayName": "Docks",
+	"LocationDisplayName.Cannery.DisplayName": "Imperial Pacific Cannery",
+	"LocationDisplayName.FinchHouse.DisplayName": "Finch House",
+	
+	// MISCELLANEOUS STRINGS
+	"StringsFromMaps.handwrittenhello.dbda_TNTConstruction": "Under construction.^^If you have a problem, blame the fucking witch that blew up my shop.^^-Jenny",
+	"StringsFromMaps.handwrittenhello.dbda_TNTPrices": "PRICES^^Beef...$6/lb^Chicken...$4/lb^Pork...$5/lb^^NO REFUNDS",
+	"StringsFromMaps.handwrittenhello.dbda_LighthouseSign": "Beach >\n Lighthouse @",
+	"StringsFromMaps.handwrittenhello.dbda_Map.001": "Tragic Mick's",
+	"StringsFromMaps.handwrittenhello.dbda_Map.002": "Open 9:00AM to 9:00PM",
+	
+	//SHOPS 
+	"Shops.TM.Dialogue": "Ayup, I might have what you need.",
+	"Shops.Jenny.Dialogue": "What do you want? I don't have all day.",
+}

@@ -1,0 +1,39 @@
+{
+	"handwrittenhello.dbda_EverbloomQuest.title": "The Everbloom",
+	"handwrittenhello.dbda_EverbloomQuest.text": "Charles has given you a rare magic seed. He wants to know if a farmer of your skill can produce a flower from it to surprise Edwin.",
+	"handwrittenhello.dbda_EverbloomQuest.objective": "Cultivate and harvest an Everbloom flower, then bring it to Edwin.",
+	"handwrittenhello.dbda_EverbloomQuest.reaction": "Where on Earth did you get this? It must have taken ages to grow. Thank you, @.",
+	
+	"handwrittenhello.dbda_CatchAngie.title": "A Glimmer in the Deep",
+	"handwrittenhello.dbda_CatchAngie.text": "There are strange lights in the water near the lighthouse. Try to reel in whatever it might be.",
+	"handwrittenhello.dbda_CatchAngie.objective": "Catch the strange fish near the lighthouse and deliver it to Willy.",
+	"handwrittenhello.dbda_CatchAngie.reaction": "That's the biggest angler fish I've seen in all my years of fishing!#$b#You say her name is Angie?#$b#Whatever floats your boat. Here's the reward.",
+	
+	"handwrittenhello.dbda_CrystalCactusQuest.title": "A Prickly Subject",
+	"handwrittenhello.dbda_CrystalCactusQuest.text": "Edwin has requested you bring him cactus seeds, though he didn't say what they were for.",
+	"handwrittenhello.dbda_CrystalCactusQuest.objective": "Acquire cactus seeds, then bring them to Edwin.",
+	"handwrittenhello.dbda_CrystalCactusQuest.reaction": "You received my letter!#$b#Thank you, @. These will do nicely.#$action AddMail Current CactusGottenFlag received",
+	
+	"handwrittenhello.dbda_SeanceInvitationQuest.title": "The Seance",
+	"handwrittenhello.dbda_SeanceInvitationQuest.text": "You've been invited to a seance in the graveyard to find out the secret behind the mysterious ghost.",
+	"handwrittenhello.dbda_SeanceInvitationQuest.objective": "Attend the seance in the graveyard after 8pm.",
+
+	"handwrittenhello.dbda_SeanceIngredients1.title": "Spell Ingredients: Void Essence",
+	"handwrittenhello.dbda_SeanceIngredients1.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
+	"handwrittenhello.dbda_SeanceIngredients1.objective": "Collect and deliver 10 Void Essence to Edwin.",
+	"handwrittenhello.dbda_SeanceIngredients1.reaction": "Excellent work, @. This void essence will help anchor the ghost to this plane during the ritual.",
+	
+	"handwrittenhello.dbda_SeanceIngredients2.title": "Spell Ingredients: Ghostfish",
+	"handwrittenhello.dbda_SeanceIngredients2.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
+	"handwrittenhello.dbda_SeanceIngredients2.objective": "Catch and deliver a ghostfish to Charles.",
+	"handwrittenhello.dbda_SeanceIngredients2.reaction": "Nice work! It's a little gross, but we can use the ghostfish's slime to paint runes that'll protect us during the ritual.",
+	
+	"handwrittenhello.dbda_SeanceIngredients3.title": "Spell Ingredients: Poppy",
+	"handwrittenhello.dbda_SeanceIngredients3.text": "The Dead Boy Detectives need ingredients for a spell to strengthen their connection to the strange ghost in the graveyard.",
+	"handwrittenhello.dbda_SeanceIngredients3.objective": "Harvest and deliver a poppy to Crystal.",
+	"handwrittenhello.dbda_SeanceIngredients3.reaction": "Thanks, @. Apparently poppy seeds are useful for magic that affects other planes, like the Dreaming.#$b#Or at least I think that's what Edwin said. It was a little difficult to tell past all the ego.",
+	
+	"handwrittenhello.dbda_CuringNiko.title": "A Strengthening Ritual",
+	"handwrittenhello.dbda_CuringNiko.text": "Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to solve the case of the mysterious ghost.",
+	"handwrittenhello.dbda_CuringNiko.objective": "Attend another seance in the graveyard after 8pm.",
+}

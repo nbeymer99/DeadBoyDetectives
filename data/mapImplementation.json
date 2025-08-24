@@ -4,7 +4,7 @@
 		// LOAD TILESHEETS
 		{
 			"Action": "Load",
-			"Target": "Maps/{{ModId}}_finchhouse, Maps/{{ModId}}_FRL_Elevator, Maps/{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse",
+			"Target": "Maps/{{ModId}}_LNFTiles, Maps/{{ModId}}_docksTiles, Maps/{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse",
 			"FromFile": "assets/maps/tilesheets/{{TargetWithoutPath}}.png",
 		},
 		
@@ -91,6 +91,22 @@
             "Target": "Maps/{{ModId}}_Docks",
             "FromFile": "assets/maps/Docks.tmx"
         },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_Cannery",
+            "FromFile": "assets/maps/Cannery.tmx"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_FinchHouseInt",
+            "FromFile": "assets/maps/FinchHouseInt.tmx"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_FinchAttic",
+            "FromFile": "assets/maps/FinchAttic.tmx"
+        },
+		
 		// RECOLORS
 		{
 			// daisyniko
@@ -166,13 +182,13 @@
 			"FromArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 },
 			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 }			
 		},
-		/* {
+		{
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
 			"FromFile": "assets/maps/Beach_Docks.tmx",
 			"FromArea": { "X": 2, "Y": 0, "Width": 16, "Height": 11 },
 			"ToArea": { "X": 88, "Y": 0, "Width": 16, "Height": 11 }			
-		}, */
+		},
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Town",
@@ -187,13 +203,13 @@
 			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
 			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
 		},
-		/* {
+		{
 			"Action": "EditMap",
 			"Target": "Maps/Mountain",
 			"FromFile": "assets/maps/MontyHouseExterior.tmx",
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		}, */
+		},
 		
 		// BETAS dependency
 		{
@@ -374,9 +390,7 @@
 		{
 			"Action":"EditMap",
 			"Target":"Maps/Beach",
-			"MapProperties": {
-				"AddNPCWarps": "0 6 {{ModId}}_Lighthouse 103 8 103 6 {{ModId}}_Docks 0 7",
-			}
+			"AddNPCWarps": [ "0 6 {{ModId}}_Lighthouse 103 8", "103 6 {{ModId}}_Docks 0 7" ],
 		},
 			// beach warps
 		{
@@ -419,7 +433,7 @@
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 			}
 		},
- 		/* {
+ 		{
 			"Action": "EditMap",
 			"Target": "Maps/Mountain",
 			"When": {
@@ -428,7 +442,7 @@
 			"FromFile": "assets/maps/MontyHouseExterior_SVE.tmx",
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		},  */
+		},
 		
 		// EDIT TOWN MAP
 		//

@@ -1,0 +1,38 @@
+{
+	"Mail.handwrittenhello.dbda_EdwinProtectionSpellInvite.title": "Edwin's Invitation",
+	"Mail.handwrittenhello.dbda_EdwinProtectionSpellInvite.text": "Dear @,^^I would like to extend an invitation for you to visit the agency at your earliest convenience.^You are of course always welcome, but there's something I've been working on that I'd like to show you.^^Your friend,^    Edwin",
+	
+	"Mail.handwrittenhello.dbda_CharlesAmuletInvite.title": "Charles' Gift",
+	"Mail.handwrittenhello.dbda_CharlesAmuletInvite.text": "Hey @,^^You've been such a good friend lately, and I want to repay the favor.^^Meet me at the agency--I've got a surprise I think you'll like. :)^^    -Charles",
+	
+	"Mail.handwrittenhello.dbda_GiveEverbloomQuest.title": "The Everbloom",
+	"Mail.handwrittenhello.dbda_GiveEverbloomQuest.text": "@,^I found this old seed we got as payment probably thirty years ago. The bloke who gave it to us said the blossom might make for a good spell ingredient.^^You've got way more of a green thumb than me, so I was wondering if you would try and grow one? I'd like to surprise Edwin with it.^^Thanks, mate!",
+	
+	"Mail.handwrittenhello.dbda_CatchAngie.title": "Sea Monsters",
+	"Mail.handwrittenhello.dbda_CatchAngie.text": "@,^I've been seeing strange lights in the water down by the lighthouse. When I was a young lad they told tales of sea monsters... Why don't you see if there's anything worth catching down there?^	-Willy",
+	
+	"Mail.handwrittenhello.dbda_TM_NewStock.title": "New Stock at Tragic Mick's",
+	"Mail.handwrittenhello.dbda_TM_NewStock.text": "@,^^I've got some new stock you might like. Good stuff. Those ghost boys dropped it off. Come down and take a look if you've got the time.^^    - Mick",
+	
+	"Mail.handwrittenhello.dbda_SeanceInvitation1.title": "The Seance",
+	"Mail.handwrittenhello.dbda_SeanceInvitation1.text": "Hey @,^^Remember Crystal's vision? Edwin thinks he's figured it out. We're holding a seance tonight in the graveyard--you should come!^^-Charles^^-P.S. Bring a weapon just in case.",
+	
+	"Mail.handwrittenhello.dbda_SeanceIngredients.title": "Seance Spell Ingredients",
+	"Mail.handwrittenhello.dbda_SeanceIngredients.text": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin",
+	
+	"Mail.handwrittenhello.dbda_NikoCured.title": "Niko's Introduction",
+	"Mail.handwrittenhello.dbda_NikoCured.text": "You participated in a seance and anchored Niko's connection to the valley.",
+	
+	"Mail.handwrittenhello.dbda_CactusGottenFlag.title": "CactusGottenFlag",
+	"Mail.handwrittenhello.dbda_CactusGottenFlag.text": "You gave cactus seeds to Edwin.",
+	
+	"Mail.handwrittenhello.dbda_CrystalCactus.title": "Cactus Seeds for Edwin",
+	"Mail.handwrittenhello.dbda_CrystalCactus.text": "Dear @,^^I am in need of cactus seeds. I have been told you know where to acquire some. Would you mind terribly bringing me some? It's for something important.^^Regards,^    Edwin",
+
+	"Mail.handwrittenhello.dbda_CrystalSapling.title": "Crystal's Sapling",
+	"Mail.handwrittenhello.dbda_CrystalSapling.text": "Hey @,^^I've got something I want to show you. Touch your hand to the sapling in my room and you'll see. Don't freak out, okay?^^    - Crystal",
+	
+	"Mail.handwrittenhello.dbda_NikoHandMirror.title": "Niko's Gift",
+	"Mail.handwrittenhello.dbda_NikoHandMirror.text": "Dear @,^^I want to thank you for being such a good friend. Whenever you have time, come to my room. I've got a present for you! ;)^^Love,^    Niko",
+	
+}

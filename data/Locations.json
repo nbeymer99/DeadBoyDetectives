@@ -22,8 +22,8 @@
 					},
 					"DisplayName": "{{i18n:LocationDisplayName.Docks.DisplayName}}",
 					"DefaultArrivalTile": {
-						"X": 85,
-						"Y": 13,
+						"X": 4,
+						"Y": 8,
 					},
 					
 					"FishAreas": {
@@ -83,6 +83,28 @@
 						},
 					],
 				},
+				
+				"{{ModId}}_Cannery": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_Cannery"
+                    },
+					"DisplayName": "{{i18n:LocationDisplayName.Cannery.DisplayName}}",
+					"DefaultArrivalTile": {
+						"X": 12,
+						"Y": 24,
+					},
+                },
+				
+				"{{ModId}}_FinchHouseInt": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_FinchHouseInt"
+                    },
+					"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
+					"DefaultArrivalTile": {
+						"X": 11,
+						"Y": 23,
+					},
+                },
 				
                 "{{ModId}}_TragicMicks": {
                     "CreateOnLoad": {

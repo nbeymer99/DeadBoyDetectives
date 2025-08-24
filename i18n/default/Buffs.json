@@ -1,0 +1,10 @@
+{
+	"Buffs.crystalRing.DisplayName": "Crystal Ring",
+	"Buffs.crystalRing.Description": "Increases immunity and regenerates health.",
+	"Buffs.CrystalVoidRegen.DisplayName": "Crystal's Void",
+	"Buffs.CrystalVoidRegen.Description": "The calmness of Crystal's void fills you.",
+	"Buffs.edwin_defense.DisplayName": "Spell of Protection",
+	"Buffs.edwin_defense.Description": "Edwin's way of keeping you safe.",
+	"Buffs.charles_attack.DisplayName": "Charles' Gift",
+	"Buffs.charles_attack.Description": "Charles' enchanted amulet gives you a bonus to your attacks.",
+}

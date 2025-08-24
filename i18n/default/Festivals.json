@@ -1,0 +1,74 @@
+{
+	// egg festival
+	"Festivals.EggFestival.CharlesRowland": "The egg hunt always reminds me of the Rotten Egg Debacle of '98. Right, Edwin?$h",
+	"Festivals.EggFestival.EdwinPayne": "If Charles and I could participate in the egg hunt, nobody else would stand a chance, frankly.$u",
+	"Festivals.EggFestival.CrystalPalace": "I hate hardboiled eggs. The smell reminds me of that poltergeist we dealt with last year.",
+	"Festivals.EggFestival.NikoSasaki": "I love the egg festival. It's like the valley comes alive!",
+	"Festivals.EggFestival.CatKing": "Ugh, all these kids running around... remind me why I'm wasting my time here, again?",
+	"Festivals.EggFestival.EstherFinch": "Hmph. Cute. Quaint. And I can't even get away with snatching one of the kids...#$e#Pretend you didn't hear that last part.",
+
+	// flower dance
+	"Festivals.FlowerDance.CharlesRowland": "I taught Edwin how to dance once. For fun, not that posh nonsense from way back when.",
+	"Festivals.FlowerDance.EdwinPayne": "This reminds me of the horrid events my parents made me attend as a child. I cannot imagine dancing in front of an audience would be at all enjoyable.$s",
+	"Festivals.FlowerDance.CrystalPalace": "I'm more used to the kind of dancing that happens in clubs, not whatever this is.",
+	"Festivals.FlowerDance.NikoSasaki": "All the dancers look so pretty... I don't know if I could ever dance, though. I don't like too much attention on me.",
+	"Festivals.FlowerDance.MontyFinch": "I wonder if Edwin would want to dance with me?#$e#Probably not...$s",
+	"Festivals.FlowerDance.CatKing": "Are you gonna ask me to dance? You better have a pretty sweet offer.",
+	"Festivals.FlowerDance.EstherFinch": "The flower dance might as well be older than me, it's so outdated. And I just *look* young and beautiful, honey.",
+
+	// luau
+	"Festivals.Luau.CharlesRowland": "Just looking at that soup is enough to make me feel sick.$s#$b#I'm glad I don't have to eat it.",
+	"Festivals.Luau.EdwinPayne": "Remind me why we are here, again? Surely there are cases we could be working on instead.$s",
+	"Festivals.Luau.CrystalPalace": "The soup kind of reminds me of what the housekeeper would throw together whenever I got sick.#$b#That's why I threw in some noodles--I always liked her noodle soup best.",
+	"Festivals.Luau.NikoSasaki": "The soup smells soooo good! What are you putting in it?",
+	"Festivals.Luau.MontyFinch": "It's really great that the whole town can come together to share the soup.#$b#The only meals I've ever shared were with a giant snake in Esther's basement.#$e#What?",
+	"Festivals.Luau.CatKing": "Ugh, all this sand is going to get caught in my fur...",
+	"Festivals.Luau.EstherFinch": "There has to be some kind of magic potential in a communal meal.#$b#Gross, good feelings, ew.",
+
+	// moonlight jellies
+	"Festivals.MoonlightJellies.CharlesRowland": "Being out on the water makes me nervous, but it's worth it to see the Moonlight Jellies.",
+	"Festivals.MoonlightJellies.EdwinPayne": "Did you know, Pelican Town is the only region in the world home to such unique specimens? Fascinating.$u",
+	"Festivals.MoonlightJellies.CrystalPalace1": "I'm so glad Niko is here to see this...",
+	"Festivals.MoonlightJellies.CrystalPalace2": "I wish Niko were here to see this...",
+	"Festivals.MoonlightJellies.NikoSasaki": "The moonlight jellies are sooooo beautiful! I'd take one home, but they belong in nature.",
+	"Festivals.MoonlightJellies.MontyFinch": "I have to make it home before the moon rises... Esther doesn't like it when I'm out at night.",
+	"Festivals.MoonlightJellies.CatKing": "You won't catch me out over the water. I'm plenty good back here.",
+	"Festivals.MoonlightJellies.EstherFinch": "The jellies, you know, they make a wonderful skin serum. You should try it.",
+
+	// fair
+	"Festivals.Fair.CharlesRowland": "Have you been to the petting zoo yet? The chickens are pretty cute.$h",
+	"Festivals.Fair.EdwinPayne": "Ridiculous. That fortune-teller is nothing compared to Crystal.$u",
+	"Festivals.Fair.CrystalPalace": "Wow, did Edwin just compliment me? Is he running a fever?$h",
+	"Festivals.Fair.NikoSasaki": "Charles helped me play the strength game. You should have seen everyone's faces when the bar hit maximum!$h",
+	"Festivals.Fair.MontyFinch": "Do you think the petting zoo animals ever wish they could fly?",
+	"Festivals.Fair.CatKing": "I'm only here to keep an eye on my cats. They love begging for peoples scraps at the fair.",
+	"Festivals.Fair.EstherFinch": "This whole town should be under my thumb. All this joyful yelling, it's just sickening.",
+
+
+	// spirit's eve
+	"Festivals.Halloween.CharlesRowland": "It's the busiest night of the year for us. We're here to make sure nothing goes wrong, yeah?$u",
+	"Festivals.Halloween.EdwinPayne": "You haven't attracted any curses or wronged any sprits lately, have you, @? I'd be careful on a night such as this one.",
+	"Festivals.Halloween.CrystalPalace": "I don't care what Edwin says about keeping an eye on things--you couldn't pay me to go in that creepy-ass maze.#$b#I can't exactly walk through walls.",
+	"Festivals.Halloween.NikoSasaki": "Eek! What was that?#$b#Oh, @, it's just you. Sorry, I'm a little jumpy.",
+	"Festivals.Halloween.MontyFinch": "This is the one night a year Esther lets me do whatever I want, in the spirit of the season.",
+	"Festivals.Halloween.CatKing": "Spirit's Eve is a very powerful night for cats.#$e#You and I could also make it a powerful night, what do you say?",
+	"Festivals.Halloween.EstherFinch": "Ah, the smell of scared children. It's like coffee to me. Wakes the senses right up.",
+
+	// festival of ice
+	"Festivals.Ice.EdwinPayne": "Charles elected not to attend, and it's little question why. I myself am only here on matters pertaining to a current case.",
+	"Festivals.Ice.CrystalPalace": "I'm kind of worried about Charles. He didn't look so good when Edwin and I left.",
+	"Festivals.Ice.NikoSasaki": "Brr, it's cold out. I wish I had some tea to warm myself up.",
+	"Festivals.Ice.MontyFinch": "Whee! Want to make snow angels with me?",
+	"Festivals.Ice.CatKing": "I hate forests. Why are there so many trees? Ugh.$a",
+	"Festivals.Ice.EstherFinch": "They should all be carving statues of me.",
+
+	
+	// feast of the winter star
+	"Festivals.Christmas.CharlesRowland": "Edwin, Crystal and I already exchanged gifts this morning, but it's so fun seeing everyone else open up their presents.$h",
+	"Festivals.Christmas.EdwinPayne": "Winter was always a rare bright spot during my childhood. The Christmas holidays meant a reprieve from St. Hilarion's halls.",
+	"Festivals.Christmas.CrystalPalace": "It's so nice actually spending the holidays with people you like.#$b#My mom and dad used to drag me to every fancy party they could.#$e#When I turned thirteen I just started going home on my own as soon as they got drunk.",
+	"Festivals.Christmas.NikoSasaki": "I hope I get a new issue of my favorite manga.",
+	"Festivals.Christmas.MontyFinch": "Did you get any gifts this morning? What was your favorite?",
+	"Festivals.Christmas.CatKing": "The only present I want to find under the tree... is you.#$e#Oh come on, it's just a little holiday flirting!",
+	"Festivals.Christmas.EstherFinch": "All this... festive spirit... Ugh, it's sickening.",
+}
