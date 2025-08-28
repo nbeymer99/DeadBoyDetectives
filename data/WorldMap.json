@@ -1,6 +1,6 @@
 {
     "Changes": [
-	// map image
+	// lighthouse and TNT
 	{
 		"Action": "EditImage",
 		"Target": "LooseSprites/map_{{season}}",
@@ -16,6 +16,46 @@
 		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
 		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
 		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
+		"PatchMode": "Overlay",
+		"When": {
+			"Season": "spring"
+		}
+	},
+	// docks
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/map_{{season}}",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
+		"FromArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 }, 
+		"ToArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 },
+		"PatchMode": "Overlay",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
+		"FromArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 }, 
+		"ToArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 },
+		"PatchMode": "Overlay",
+		"When": {
+			"Season": "spring"
+		}
+	},
+	// finch house
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/map_{{season}}",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
+		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
+		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
+		"PatchMode": "Overlay",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
+		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
+		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
 		"PatchMode": "Overlay",
 		"When": {
 			"Season": "spring"
