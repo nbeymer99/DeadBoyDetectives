@@ -27,16 +27,16 @@
 		//Characters
 		{
 			"Action": "Include",
-			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/zzminorCharacters/jenny.json"
+			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/Jenny/jenny.json"
 		},
 		/* {
 			"Action": "Include",
-			"FromFile": "assets/characters/zzminorCharacters/catking.json"
-		},
+			"FromFile": "assets/characters/TCK/catking.json"
+		}, */
 		{
 			"Action": "Include",
-			"FromFile": "assets/characters/zzminorCharacters/monty.json"
-		},  */
+			"FromFile": "assets/characters/Monty/monty.json"
+		}, 
 		
 		// Events
 		{
@@ -110,7 +110,7 @@
 		// Maps
 		{
 			"Action": "Include",
-			"FromFile": "data/mapImplementation.json, data/WorldMap.json"
+			"FromFile": "data/Maps.json, data/WorldMap.json"
 		},
 		{
 			"Action": "Load",

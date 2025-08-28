@@ -3,14 +3,14 @@
 		
 	{
 		"Action": "Load",
-		"Target": "Portraits/MontyFinch",
-		"FromFile": "assets/characters/zzminorCharacters/Monty.png",
+		"Target": "Portraits/JennyButcher",
+		"FromFile": "assets/characters/Jenny/Jenny.png",
 	},	
 	
 	{
 		"Action": "Load",
-		"Target": "Characters/MontyFinch",
-		"FromFile": "assets/characters/zzminorCharacters/monty_sprites.png",
+		"Target": "Characters/JennyButcher",
+		"FromFile": "assets/characters/Jenny/jenny_sprites.png",
 	},
 		
 	// edit game data
@@ -18,18 +18,18 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "MontyFinch": {
+            "JennyButcher": {
 				
 				// Basic Info
-                "DisplayName": "Monty",
+                "DisplayName": "Jenny",
                 "BirthSeason": "fall",
                 "BirthDay": 28,
                 "HomeRegion": "Town",
-                "Gender": "Male",
-                "Age": "Teen",
-                "Manner": "Polite",
+                "Gender": "Female",
+                "Age": "Adult",
+                "Manner": "Rude",
                 "SocialAnxiety": "Neutral",
-                "Optimism": "Positive",
+                "Optimism": "Negative",
 				"IsDarkSkinned": false,
 				
 				// Relationships and Social
@@ -72,42 +72,42 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"MontyFinch": "{{i18n: MontyFinch.love}}/814 80 106 202 213 253 342 348 397 395 605 717/{{i18n: MontyFinch.like}}/-4 -5 -6 215 274 283 419 522 563 684 128/{{i18n: MontyFinch.dislike}}/88 220 221 223 610 608/{{i18n: MontyFinch.hate}}/124 148 162 196 225 226 {{ModId}}_DandelionSpriteJar/{{i18n: MontyFinch.neutral}}/"
+			"JennyButcher": "{{i18n: JennyButcher.love}}/814 80 106 202 213 253 342 348 397 395 605 717/{{i18n: JennyButcher.like}}/-4 -5 -6 215 274 283 419 522 563 684 128/{{i18n: JennyButcher.dislike}}/88 220 221 223 610 608/{{i18n: JennyButcher.hate}}/124 148 162 196 225 226 {{ModId}}_DandelionSpriteJar/{{i18n: JennyButcher.neutral}}/"
 		}
 	},
 	
 	
 	// include schedule
 	{
-		"LogName": "MontyFinchSchedule",
+		"LogName": "JennyButcherSchedule",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_schedule.json"
+		"FromFile": "assets/characters/Jenny/jenny_schedule.json"
 	},
 	
 	// include animations
 	{
-		"LogName": "MontyFinchAnimations",
+		"LogName": "JennyButcherAnimations",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_animations.json"
+		"FromFile": "assets/characters/Jenny/jenny_animations.json"
 	},
 	
 	// include Strings
 	/* {
-		"LogName": "MontyFinchStrings",
+		"LogName": "JennyButcherStrings",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_Strings.json"
+		"FromFile": "assets/characters/Jenny/jenny_Strings.json"
 	}, */
 	
 	// include dialogue
 	{
-		"LogName": "MontyFinchDialogue",
+		"LogName": "JennyButcherDialogue",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_dialogue.json"
+		"FromFile": "assets/characters/Jenny/jenny_dialogue.json"
 	},
 	
 	// include marriage dialogue
 	//{
-	//	"LogName": "MontyFinchMarriageDialogue",
+	//	"LogName": "JennyButcherMarriageDialogue",
 	//	"Action": "Include",
 	//	"FromFile": "assets/characters/Jenny/Jenny_marriageDialogue.json"
 	//},

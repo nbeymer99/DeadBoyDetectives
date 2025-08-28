@@ -3,14 +3,14 @@
 		
 	{
 		"Action": "Load",
-		"Target": "Portraits/JennyButcher",
-		"FromFile": "assets/characters/zzminorCharacters/Jenny.png",
+		"Target": "Portraits/MontyFinch",
+		"FromFile": "assets/characters/Monty/Monty.png",
 	},	
 	
 	{
 		"Action": "Load",
-		"Target": "Characters/JennyButcher",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_sprites.png",
+		"Target": "Characters/MontyFinch",
+		"FromFile": "assets/characters/Monty/monty_sprites.png",
 	},
 		
 	// edit game data
@@ -18,18 +18,18 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "JennyButcher": {
+            "MontyFinch": {
 				
 				// Basic Info
-                "DisplayName": "Jenny",
+                "DisplayName": "Monty",
                 "BirthSeason": "fall",
                 "BirthDay": 28,
                 "HomeRegion": "Town",
-                "Gender": "Female",
-                "Age": "Adult",
-                "Manner": "Rude",
+                "Gender": "Male",
+                "Age": "Teen",
+                "Manner": "Polite",
                 "SocialAnxiety": "Neutral",
-                "Optimism": "Negative",
+                "Optimism": "Positive",
 				"IsDarkSkinned": false,
 				
 				// Relationships and Social
@@ -40,7 +40,7 @@
 				
 				"FriendsAndFamily": {
                     "EdwinPayne": "",
-					"CharlesRowland": "",
+					"EstherFinch": "mom",
 					"NikoSasaki": "",
 					"CrystalPalace": ""
                 },
@@ -53,10 +53,10 @@
                 "Home": [
                     {
 						"Id": "Default",
-                        "Location": "{{ModId}}_TongueAndTail",
+                        "Location": "{{ModId}}_FinchHouseInt",
                         "Tile": {
-							"X": 16,
-							"Y": 12
+							"X": 2,
+							"Y": 21
                         },
 						"Direction": "right"
                     }
@@ -68,48 +68,50 @@
     },
 	
 	// gift tastes
+	// loves: jade 70, bread 216, autumn's bounty 235, pumpkin soup 236, duck feather 444, celestine 566
+	// likes: seeds -74, banana pudding 904, poppyseed muffin 651
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"JennyButcher": "{{i18n: JennyButcher.love}}/814 80 106 202 213 253 342 348 397 395 605 717/{{i18n: JennyButcher.like}}/-4 -5 -6 215 274 283 419 522 563 684 128/{{i18n: JennyButcher.dislike}}/88 220 221 223 610 608/{{i18n: JennyButcher.hate}}/124 148 162 196 225 226 {{ModId}}_DandelionSpriteJar/{{i18n: JennyButcher.neutral}}/"
+			"MontyFinch": "{{i18n:MontyFinch.love}}/70 216 235 236 444 566 /{{i18n:MontyFinch.like}}/-74 904 651/{{i18n:MontyFinch.dislike}}/774 309 310 311/{{i18n:MontyFinch.hate}}/260/{{i18n:MontyFinch.neutral}}/"
 		}
 	},
 	
 	
 	// include schedule
 	{
-		"LogName": "JennyButcherSchedule",
+		"LogName": "MontySchedule",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_schedule.json"
+		"FromFile": "assets/characters/Monty/Monty_schedule.json"
 	},
 	
 	// include animations
 	{
-		"LogName": "JennyButcherAnimations",
+		"LogName": "MontyAnimations",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_animations.json"
+		"FromFile": "assets/characters/Monty/Monty_animations.json"
 	},
 	
 	// include Strings
-	/* {
-		"LogName": "JennyButcherStrings",
+	{
+		"LogName": "MontyFinchStrings",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_Strings.json"
-	}, */
+		"FromFile": "assets/characters/Monty/Monty_Strings.json"
+	},
 	
 	// include dialogue
 	{
-		"LogName": "JennyButcherDialogue",
+		"LogName": "MontyFinchDialogue",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/jenny_dialogue.json"
+		"FromFile": "assets/characters/Monty/Monty_dialogue.json"
 	},
 	
 	// include marriage dialogue
 	//{
-	//	"LogName": "JennyButcherMarriageDialogue",
+	//	"LogName": "MontyFinchMarriageDialogue",
 	//	"Action": "Include",
-	//	"FromFile": "assets/characters/Jenny/Jenny_marriageDialogue.json"
+	//	"FromFile": "assets/characters/Monty/Monty_marriageDialogue.json"
 	//},
 	]
 }

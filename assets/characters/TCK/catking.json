@@ -4,13 +4,13 @@
        	"LogName": "Cat King Base Portraits",
        	"Action": "Load",
        	"Target": "Portraits/CatKing",
-       	"FromFile": "assets/characters/zzminorCharacters/catking_portraits.png",
+       	"FromFile": "assets/characters/TCK/catking_portraits.png",
    	},	
 	{
         "LogName": "Base Sprites",
         "Action": "Load",
         "Target": "Characters/CatKing",
-        "FromFile": "assets/characters/zzminorCharacters/catking_sprite.png",
+        "FromFile": "assets/characters/TCK/catking_sprite.png",
    	},
 		
 		// edit game data
@@ -21,8 +21,8 @@
             "CatKing": {
 				// Basic Info	
                     "DisplayName": "Cat King",
-                    "BirthSeason": "Winter",
-                    "BirthDay": 1,
+                    "BirthSeason": "Summer",
+                    "BirthDay": 20,
                     "HomeRegion": "Town",
                     "Gender": "Male",
                     "Age": "Adult",
@@ -31,7 +31,7 @@
                     "Optimism": "Neutral",
 					"IsDarkSkinned": false,
 					"Breather": "true",
-					"KissSpriteIndex": 51,
+					"KissSpriteIndex": 51, //check
 					
 					// Relationships and Social
                     "CanBeRomanced": false, //to be patched with romance
@@ -42,7 +42,7 @@
 					"FriendsAndFamily": {
                         "EdwinPayne": "",
 						"NikoSasaki": "",
-						"EstherFinch": 
+						"EstherFinch": "",
                     },
 					
 					"DumpsterDiveFriendshipEffect": 0,
@@ -50,23 +50,17 @@
 					
 					"WinterStarGifts": [
 						{
-							"Id": "Rabbit's Foot",
-							"ItemId": "(O)446",
+							"Id": "Treasure Chest",
+							"ItemId": "(O)166",
 							"MinStack": 1,
 							"MaxStack": 1
 						},
 						{
-							"Id": "Tea Set",
-							"ItemId": "(O)341",
+							"Id": "{{ModId}}_EverbloomSeed",
+							"ItemId": "(O){{ModId}}_EverbloomSeed",
 							"MinStack": 1,
 							"MaxStack": 1
 						},
-						{
-							"Id": "Warp Totem: Farm",
-							"ItemId": "(O)688",
-							"MinStack": 10,
-							"MaxStack": 20
-						}
 					],
 					
 					//Spawn Rules
@@ -75,8 +69,8 @@
 							"Id": "Default",
                             "Location": "{{ModId}}_Cannery",
                             "Tile": {
-								"X": 4,
-								"Y": 6
+								"X": 17,
+								"Y": 5
                             },
 							"Direction": "down"
                         }
@@ -139,27 +133,27 @@
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
 		"Target": "Portraits/CatKing_BlackHuman",
-		"FromFile": "assets/characters/zzminorCharacters/catking_portraits_black.png",
+		"FromFile": "assets/characters/TCK/catking_portraits_black.png",
 	},
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
 		"Target": "Portraits/CatKing_OrangeHuman",
-		"FromFile": "assets/characters/zzminorCharacters/catking_portraits.png",
+		"FromFile": "assets/characters/TCK/catking_portraits.png",
 	}, 
 	{
 		// perhaps no cat portraits, just human
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
 		"Target": "Portraits/CatKing_BlackCat",
-		"FromFile": "assets/characters/zzminorCharacters/catking_portraits_blackcat.png",
+		"FromFile": "assets/characters/TCK/catking_portraits_blackcat.png",
 	},
 	{
 		// perhaps no cat portraits, just human
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
 		"Target": "Portraits/CatKing_OrangeCat",
-		"FromFile": "assets/characters/zzminorCharacters/catking_portraits_orangecat.png",
+		"FromFile": "assets/characters/TCK/catking_portraits_orangecat.png",
 	},
 	
 	//loads - sprites
@@ -191,78 +185,43 @@
 	},
 	
 	// gift tastes
+	// loves: tigerseye (562), elvish jewelry (104), all fish (-4), all milk (-6), salmon dinner (212), sashimi (227), maki roll (228), emerald (60)
+	// likes: baked fish (100), fried calamari (202), wine (348), 
 	{
 		"LogName": "CatKingGiftTaste",
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"CatKing": "{{i18n: CatKing.love}}/loves/{{i18n: CatKing.like}}/likes/{{i18n: CatKing.dislike}}/dislikes/{{i18n: CatKing.hate}}/hates/{{i18n: CatKing.neutral}}/neutrals/"
+			"CatKing": "{{i18n:CatKing.love}}/562 104 -6 212 227 228 60/{{i18n:CatKing.like}}/100 202 348 -4 category_meat/{{i18n:CatKing.dislike}}/209 91 103/{{i18n:CatKing.hate}}/398/{{i18n:CatKing.neutral}}//"
 		}
-	},
-	
-	// movie tastes (from here: https://stardewmodding.wiki.gg/wiki/Tutorial:_Making_a_Custom_NPC#Movie_Concessions_and_Reactions)
-	
-	{   "LogName": "Movie Theatre CatKing",
-		"Action": "EditData", 
-		"Target": "Data/MoviesReactions",	 
-		"Entries": {
-				"CatKing": {
-			"NPCName": "Cat King",
-			"Reactions": [
-				{
-					"Tag": "classic",
-					"Response": "love",
-					"Whitelist": [],
-					"SpecialResponses": {
-						"BeforeMovie": {
-							"ResponsePoint": null,
-							"Script": "",
-							"Text": "It's been some time since I've seen this one.",
-						},
-						"DuringMovie": {
-							"ResponsePoint": null,
-							"Script": "message \"Edwin is leaning forward in his chair, rapt.\"",
-							"Text": ""
-						},
-						"AfterMovie": {
-							"ResponsePoint": null,
-							"Script": "",
-							"Text": "Even better than I remembered.$h Thanks for taking me, @."
-						}
-					},
-					"ID": "reaction_0"
-				},
-			  ],
-			},
-		},
 	},
 		
 	// include schedules
 	{
 		"LogName": "CatKingSchedule",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/catking_schedule.json"
+		"FromFile": "assets/characters/TCK/catking_schedule.json"
 	},
 	
 	// include Strings
 	{
 		"LogName": "CatKingStrings",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/catking_Strings.json"
+		"FromFile": "assets/characters/TCK/catking_Strings.json"
 	},
 	
 	// include animations
 	{
 		"LogName": "CatKingAnimations",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/catking_animations.json"
+		"FromFile": "assets/characters/TCK/catking_animations.json"
 	},
 	
 	// include dialogue
 	{
 		"LogName": "CatKingDialogue",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/catking_dialogue.json"
+		"FromFile": "assets/characters/TCK/catking_dialogue.json"
 	},
 	
 	// include marriage dialogue

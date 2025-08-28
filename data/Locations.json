@@ -105,6 +105,16 @@
 						"Y": 23,
 					},
                 },
+				"{{ModId}}_FinchAttic": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_FinchAttic"
+                    },
+					"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
+					"DefaultArrivalTile": {
+						"X": 7,
+						"Y": 11,
+					},
+                },
 				
                 "{{ModId}}_TragicMicks": {
                     "CreateOnLoad": {

@@ -13,7 +13,7 @@
 		"LogName": "Load shop portraits",
 		"Action": "Load",
 		"Target": "Portraits/{{ModId}}_Jenny",
-		"FromFile": "assets/characters/zzminorCharacters/Jenny.png",
+		"FromFile": "assets/characters/Jenny/Jenny.png",
 	},
 	
 	{
