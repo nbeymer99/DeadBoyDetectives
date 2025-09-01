@@ -1,0 +1,81 @@
+{
+"Changes": [
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/CatKing",
+		"Entries": {
+			"Introduction": "{{i18n:CatKing.Introduction}}",
+			"cc_Begin": "{{i18n:CatKing.cc_Begin}}",
+			"cc_Boulder": "{{i18n:CatKing.cc_Boulder}}",
+			"cc_Bridge": "{{i18n:CatKing.cc_Bridge}}",
+			"cc_Bus": "{{i18n:CatKing.cc_Bus}}",
+			"cc_Minecart": "{{i18n:CatKing.cc_Minecart}}",
+			"MovieInvite_Invited": "{{i18n:CatKing.MovieInvite_Invited}}",
+			"DumpsterDiveComment": "{{i18n:CatKing.DumpsterDiveComment}}",
+			"SpouseStardrop": "{{i18n:CatKing.SpouseStardrop}}",
+			"FlowerDance_Accept_Spouse": "{{i18n:CatKing.FlowerDance_Accept_Spouse}}",
+			"FlowerDance_Accept": "{{i18n:CatKing.FlowerDance_Accept}}",
+			"FlowerDance_Decline": "{{i18n:CatKing.FlowerDance_Decline}}",
+			"GreenRain": "{{i18n:CatKing.GreenRain}}",
+			"GreenRain_2": "{{i18n:CatKing.GreenRain_2}}",
+			"GreenRainFinished": "{{i18n:CatKing.GreenRainFinished}}",
+			"AcceptGift_(O)StardropTea": "{{i18n:CatKing.AcceptGift(O)StardropTea}}",
+			"firstVisit_Mine": "{{i18n:CatKing.firstVisit_Mine}}",
+			"eventSeen_{{ModId}}_Seance2": "{{i18n:CatKing.eventSeen_Seance2}}",
+			
+			"Mon": "{{i18n:CatKing.Mon}}",
+			"Tue": "{{i18n:CatKing.Tue}}",
+			"Wed": "{{i18n:CatKing.Wed}}",
+			"Thu": "{{i18n:CatKing.Thu}}",
+			"Fri": "{{i18n:CatKing.Fri}}",
+			"Sat": "{{i18n:CatKing.Sat}}",
+			"Sun": "{{i18n:CatKing.Sun}}",
+			
+			"Mon2": "{{i18n:CatKing.Mon2}}",
+			"Tue2": "{{i18n:CatKing.Tue2}}",
+			"Wed2": "{{i18n:CatKing.Wed2}}",
+			"Thu2": "{{i18n:CatKing.Thu2}}",
+			"Fri2": "{{i18n:CatKing.Fri2}}",
+			"Sat2": "{{i18n:CatKing.Sat2}}",
+			"Sun2": "{{i18n:CatKing.Sun2}}",
+			
+			"Mon6": "{{i18n:CatKing.Mon6}}",
+			"Tue6": "{{i18n:CatKing.Tue6}}",
+			"Wed6": "{{i18n:CatKing.Wed6}}",
+			"Thu6": "{{i18n:CatKing.Thu6}}",
+			"Fri6": "{{i18n:CatKing.Fri6}}",
+			"Sat6": "{{i18n:CatKing.Sat6}}",
+			"Sun6": "{{i18n:CatKing.Sun6}}",
+			
+			"Mon8": "{{i18n:CatKing.Mon8}}",
+			"Tue8": "{{i18n:CatKing.Tue8}}",
+			"Wed8": "{{i18n:CatKing.Wed8}}",
+			"Thu8": "{{i18n:CatKing.Thu8}}",
+			"Fri8": "{{i18n:CatKing.Fri8}}",
+			"Sat8": "{{i18n:CatKing.Sat8}}",
+			"Sun8": "{{i18n:CatKing.Sun8}}",
+			
+			"Mon10": "{{i18n:CatKing.Mon10}}",
+			"Tue10": "{{i18n:CatKing.Tue10}}",
+			"Wed8": "{{i18n:CatKing.Wed8}}",
+			"Thu10": "{{i18n:CatKing.Thu10}}",
+			"Fri10": "{{i18n:CatKing.Fri10}}",
+			"Sat10": "{{i18n:CatKing.Sat10}}",
+			"Sun10": "{{i18n:CatKing.Sun10}}",
+			
+			"spring_1": "{{i18n:CatKing.spring_1}}",
+			"summer_1": "{{i18n:CatKing.summer_1}}",
+			"fall_1": "{{i18n:CatKing.fall_1}}",
+			"winter_1": "{{i18n:CatKing.winter_1}}",
+			"spring_23": "{{i18n:CatKing.spring_23}}",
+			"summer_10": "{{i18n:CatKing.summer_10}}",
+			"summer_27": "{{i18n:CatKing.summer_27}}",
+			"fall_15": "{{i18n:CatKing.fall_15}}",
+			"fall_26": "{{i18n:CatKing.fall_26}}",
+			"winter_7": "{{i18n:CatKing.winter_7}}",
+			"winter_24": "{{i18n:CatKing.winter_24}}",
+
+		}
+	}
+  ]
+}
