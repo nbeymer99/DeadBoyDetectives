@@ -18,15 +18,13 @@
 			
 			"{{ModId}}_SeanceIngredients": "{{i18n:Mail.{{ModId}}_SeanceIngredients.text}} %item quest {{ModId}}_SeanceIngredients1 true %% %item quest {{ModId}}_SeanceIngredients2 true %% %item quest {{ModId}}_SeanceIngredients3 true %%[#]{{i18n:Mail.{{ModId}}_SeanceIngredients.title}}",
 			
-			//"{{ModId}}_NikoCured": "{{i18n:Mail.{{ModId}}_NikoCured.text}}[#]{{i18n:Mail.{{ModId}}_NikoCured.title}}",
-			
-			//"{{ModId}}_{{i18n:Mail.{{ModId}}_CactusGottenFlag.title}}": "{{i18n:Mail.{{ModId}}_CactusGottenFlag.text}}[#]CactusGottenFlag",
-			
 			"{{ModId}}_CrystalCactus": "{{i18n:Mail.{{ModId}}_CrystalCactus.text}}%item quest {{ModId}}_CrystalCactusQuest true %%[#]{{i18n:Mail.{{ModId}}_CrystalCactus.title}}",
 			
 			"{{ModId}}_CrystalSapling": "{{i18n:Mail.{{ModId}}_CrystalSapling.text}}[#]{{i18n:Mail.{{ModId}}_CrystalSapling.title}}",
 			
 			"{{ModId}}_NikoHandMirror": "{{i18n:Mail.{{ModId}}_NikoHandMirror.text}}[#]{{i18n:Mail.{{ModId}}_NikoHandMirror.title}}",
+			
+			"{{ModId}}_JojaTheatreGoodbye": "{{i18n:Mail.JojaTheatreGoodbye.text}}[#]{{i18n:Mail.JojaTheatreGoodbye.title}}",
 		}
 	}
 	]

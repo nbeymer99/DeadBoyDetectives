@@ -20,12 +20,6 @@
 	"Mail.handwrittenhello.dbda_SeanceIngredients.title": "Seance Spell Ingredients",
 	"Mail.handwrittenhello.dbda_SeanceIngredients.text": "Dear @,^^I have gathered a list of items we shall need for the spell to strengthen our mysterious ghost's connection to this plane. If you would like to help, please bring Charles, Crystal and I the following ingredients at your earliest convenience:^^- Ghostfish (1)^- Poppy (1)^- Void Essence (10)^^With thanks,^	Edwin",
 	
-	"Mail.handwrittenhello.dbda_NikoCured.title": "Niko's Introduction",
-	"Mail.handwrittenhello.dbda_NikoCured.text": "You participated in a seance and anchored Niko's connection to the valley.",
-	
-	"Mail.handwrittenhello.dbda_CactusGottenFlag.title": "CactusGottenFlag",
-	"Mail.handwrittenhello.dbda_CactusGottenFlag.text": "You gave cactus seeds to Edwin.",
-	
 	"Mail.handwrittenhello.dbda_CrystalCactus.title": "Cactus Seeds for Edwin",
 	"Mail.handwrittenhello.dbda_CrystalCactus.text": "Dear @,^^I am in need of cactus seeds. I have been told you know where to acquire some. Would you mind terribly bringing me some? It's for something important.^^Regards,^    Edwin",
 
@@ -34,5 +28,8 @@
 	
 	"Mail.handwrittenhello.dbda_NikoHandMirror.title": "Niko's Gift",
 	"Mail.handwrittenhello.dbda_NikoHandMirror.text": "Dear @,^^I want to thank you for being such a good friend. Whenever you have time, come to my room. I've got a present for you! ;)^^Love,^    Niko",
+	
+	"Mail.JojaTheatreGoodbye.title": "Interruption to Agency Services",
+	"Mail.JojaTheatreGoodbye.text": "Dear townsperson,^^This is a formal notice that the Dead Boy Detective Agency has ceased operating out of the Pelican Town Community Center due to the recent renovations. All forwarded mail can be addressed hereafter to our London address.^Business hours have been reduced to one hour a week on Tuesdays, and will be held out of the top floor of the Tongue and Tail Butcher Shop.^^We apologize for the interruption in service to the supernatural community.^^Sincerely,^    Edwin Payne and Charles Rowland",
 	
 }

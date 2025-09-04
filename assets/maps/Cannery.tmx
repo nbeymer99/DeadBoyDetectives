@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="29">
  <properties>
-  <property name="DayTiles" value="Front 6 1 256 Front 6 2 288 Front 13 1 256 Front 13 2 288 Front 22 1 256 Front 22 2 288 Front 18 1 256 Front 18 2 288 Front 19 12 256 Front 19 13 288 Front 22 12 256 Front 22 13 288 Back 22 5 94 Back 18 5 94 Back 18 6 126 Back 13 5 94 Back 13 6 126 Back 22 16 226 Back 22 17 258 Back 19 16 226 Back 19 17 258"/>
-  <property name="Doors" value="5 13 1 120 16 12 1 120"/>
-  <property name="NightTiles" value="Front 6 1 1253 Front 6 2 1285 Front 13 1 1253 Front 13 2 1285 Front 22 1 1253 Front 22 2 1285 Front 18 1 1253 Front 18 2 1285 Front 19 12 1253 Front 19 13 1285 Front 22 12 1253 Front 22 13 1285 Back 22 5 124 Back 18 5 124 Back 18 6 124 Back 13 5 124 Back 13 6 124 Back 22 16 294 Back 22 17 262 Back 19 16 294 Back 19 17 262"/>
-  <property name="Warp" value="2 25 Town 20 89"/>
+  <property name="DayTiles" value=""/>
+  <property name="Doors" value="17 11 1 120"/>
+  <property name="NightTiles" value=""/>
+  <property name="Warp" value="12 30 handwrittenhello.dbda_Docks 20 10"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
@@ -99,7 +99,7 @@
 1,1,1,1,1,1,1,1,1,2328,0,0,0,0,0,0,0,0,0,0,644,705,645,2330,1,
 1,1,1,1,1,1,1,1,1,2328,0,2427,0,0,0,0,0,0,0,0,0,0,536,2362,1,
 1,1,1,1,1,2296,2297,2297,2297,2297,2297,2297,2297,2297,2297,2297,2425,2219,2424,2298,1,1,1,1,1,
-1,1,1,1,1,2328,0,0,1591,0,0,0,0,0,0,0,230,2251,228,2330,1,1,1,1,1,
+1,1,1,1,1,2328,0,0,1591,0,0,0,0,0,0,0,230,121,228,2330,1,1,1,1,1,
 1,1,1,1,1,2328,0,0,1623,0,1391,0,0,0,0,1391,262,0,260,2330,1,1,1,1,1,
 1,1,1,1,1,2328,0,0,0,0,0,0,0,0,0,0,262,0,260,2330,1,1,1,1,1,
 1,1,1,1,1,2328,1360,1361,1368,0,0,0,1368,1368,0,0,0,0,1368,2330,1,1,1,1,1,
@@ -131,8 +131,8 @@
 0,0,0,0,0,0,0,0,0,0,2546,2547,0,0,0,0,2724,2725,2726,0,580,641,581,0,0,
 0,0,0,0,0,0,0,0,0,0,0,2363,0,0,0,0,0,0,0,0,612,674,613,0,0,
 0,0,0,0,0,0,0,0,0,0,0,2395,0,0,0,0,0,0,0,0,0,0,504,0,0,
-0,0,0,0,0,0,0,0,0,2360,2361,2361,2361,2361,2361,2361,2393,0,2392,2361,2361,2361,2361,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,2360,2361,2361,2361,2361,2361,2361,2393,57,2392,2361,2361,2361,2361,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,1328,1329,1336,0,0,0,1336,1336,0,0,0,0,1336,0,0,0,0,0,0,
@@ -264,10 +264,10 @@
  </layer>
  <objectgroup id="8" name="Back"/>
  <objectgroup id="9" name="Back2"/>
- <objectgroup id="10" name="Buildings" visible="0">
+ <objectgroup id="10" name="Buildings">
   <object id="28" name="TileData" x="272" y="176" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue The Cat King hasn't invited you into his room."/>
+    <property name="Action" value="Door CatKing"/>
    </properties>
   </object>
  </objectgroup>

@@ -15,6 +15,17 @@
 					"AddMail Current {{ModId}}_CatchAngie now",
 				]
 			},
+			
+			// send joja goodbye mail
+			"{{ModId}}_JojaGoodbyeMail": {
+				"Id": "{{ModId}}_JojaGoodbyeMail",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_HAS_MAIL Host ccMovieTheaterJoja Any",
+				"Actions": [
+					"AddMail All {{ModId}}_JojaTheatreGoodbye now",
+				]
+			},
+			
 			// send edwin 10 heart event invite
 			"{{ModId}}Edwin10hearts": {
 				"Id": "{{ModId}}_EdwinHearts10",
