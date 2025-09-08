@@ -210,6 +210,31 @@
 			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
 			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
 		},
+			// joja route movie theatre
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_CrystalAndNiko",
+			"When": {
+				"HasFlag": "ccMovieTheaterJoja",
+			},
+			"MapTiles": [
+			{
+				"Position": { "X": 40, "Y": 19 },
+				"Layer": "Front",
+				"SetTilesheet": "mapObjects",
+				"SetIndex": 28,
+			},
+			{
+				"Position": { "X": 40, "Y": 20 },
+				"Layer": "Buildings",
+				"SetTilesheet": "mapObjects",
+				"SetIndex": 34,
+				"SetProperties": {
+					"Action": "Warp 6 18 {{ModId}}_DeadBoyAgency",
+				},
+			},
+		  ]
+		},
 		
 		// BETAS dependency
 		{

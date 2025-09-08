@@ -105,6 +105,7 @@
 						"Y": 23,
 					},
                 },
+				
 				"{{ModId}}_FinchAttic": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_FinchAttic"
@@ -126,6 +127,7 @@
 						"Y": 23,
 					},
                 },
+				
 				"{{ModId}}_LighthouseInt": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_LighthouseInt"

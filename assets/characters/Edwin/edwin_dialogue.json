@@ -88,10 +88,18 @@
 			"fall_15": "{{i18n:edwin_dialogue.fall_15}}",
 			"fall_26": "{{i18n:edwin_dialogue.fall_26}}",
 			"winter_7": "{{i18n:edwin_dialogue.winter_7}}",
-			"winter_24": "{{i18n:edwin_dialogue.winter_24}}",
-
-					
-			}	
+			"winter_24": "{{i18n:edwin_dialogue.winter_24}}",	
+		}	
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/EdwinPayne",
+		"When": {
+			"HasFlag": "ccMovieTheaterJoja",
+		},
+		"Entries": {
+			"movieTheater": "{{i18n:edwin_dialogue.movieTheaterJoja}}",
 		}
-	]
+	}
+  ]
 }

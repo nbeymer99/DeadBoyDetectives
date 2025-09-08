@@ -29,10 +29,10 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/Jenny/jenny.json"
 		},
-		/* {
+		{
 			"Action": "Include",
 			"FromFile": "assets/characters/TCK/catking.json"
-		}, */
+		},
 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/Monty/monty.json"

@@ -9,6 +9,8 @@
 			"{{ModId}}_LighthouseSign": "{{i18n:StringsFromMaps.{{ModId}}_LighthouseSign}}",
 			"{{ModId}}_Map.001": "{{i18n:StringsFromMaps.{{ModId}}_Map.001}}",
 			"{{ModId}}_Map.002": "{{i18n:StringsFromMaps.{{ModId}}_Map.002}}",
+			"{{ModId}}_Map.003": "{{i18n:StringsFromMaps.{{ModId}}_Map.003}}",
+			"{{ModId}}_Map.004": "{{i18n:StringsFromMaps.{{ModId}}_Map.004}}",
 		}
 	},
 	]

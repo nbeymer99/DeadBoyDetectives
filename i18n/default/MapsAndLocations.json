@@ -14,7 +14,8 @@
 	"LocationDisplayName.Town.DisplayName": "Town",
 	"LocationDisplayName.Docks.DisplayName": "Docks",
 	"LocationDisplayName.Cannery.DisplayName": "Imperial Pacific Cannery",
-	"LocationDisplayName.FinchHouse.DisplayName": "Finch House",
+	"LocationDisplayName.Cabin.DisplayName": "???",
+	"LocationDisplayName.FinchHouse.DisplayName": "Finch Residence",
 	
 	// MISCELLANEOUS STRINGS
 	"StringsFromMaps.handwrittenhello.dbda_TNTConstruction": "Under construction.^^If you have a problem, blame the fucking witch that blew up my shop.^^-Jenny",
@@ -22,6 +23,8 @@
 	"StringsFromMaps.handwrittenhello.dbda_LighthouseSign": "Beach >\n Lighthouse @",
 	"StringsFromMaps.handwrittenhello.dbda_Map.001": "Tragic Mick's",
 	"StringsFromMaps.handwrittenhello.dbda_Map.002": "Open 9:00AM to 9:00PM",
+	"StringsFromMaps.handwrittenhello.dbda_Map.003": "Tongue and Tail Butcher Shop",
+	"StringsFromMaps.handwrittenhello.dbda_Map.004": "Open 9:00AM to 6:00PM",
 	
 	//SHOPS 
 	"Shops.TM.Dialogue": "Ayup, I might have what you need.",

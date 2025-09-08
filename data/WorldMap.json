@@ -26,16 +26,16 @@
 		"Action": "EditImage",
 		"Target": "LooseSprites/map_{{season}}",
 		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 }, 
-		"ToArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 },
+		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
+		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
 		"PatchMode": "Overlay",
 	},
 	{
 		"Action": "EditImage",
 		"Target": "LooseSprites/map",
 		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 }, 
-		"ToArea": { "X": 134, "Y": 239, "Width": 41, "Height": 26 },
+		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
+		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
 		"PatchMode": "Overlay",
 		"When": {
 			"Season": "spring"
@@ -88,15 +88,136 @@
 			"HasMod": "DaisyNiko.EarthyRecolour",
 		},
 	},
+		// finch house
+	{
+		"LogName": "DNE finch not spring",
+		"Action": "EditImage",
+		"Target": "LooseSprites/map_{{season}}",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap_daisyniko.png",
+		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
+		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
+		"PatchMode": "Overlay",
+		"When": {
+			"HasMod": "DaisyNiko.EarthyRecolour",
+		},
+	},
+	{
+		"LogName": "DNE finch spring",
+		"Action": "EditImage",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap_daisyniko.png",
+		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
+		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
+		"PatchMode": "Overlay",
+		"When": {
+			"Season": "spring",
+			"HasMod": "DaisyNiko.EarthyRecolour",
+		},
+	},
+		// docks
+	{
+		"LogName": "DNE docks not spring",
+		"Action": "EditImage",
+		"Target": "LooseSprites/map_{{season}}",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
+		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
+		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
+		"PatchMode": "Overlay",
+		"When": {
+			"HasMod": "DaisyNiko.EarthyRecolour",
+		},
+	},
+	{
+		"LogName": "DNE docks spring",
+		"Action": "EditImage",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
+		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
+		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
+		"PatchMode": "Overlay",
+		"When": {
+			"Season": "spring",
+			"HasMod": "DaisyNiko.EarthyRecolour",
+		},
+	},
 	
 	// map hover info/location placing - 
-	// !!!NOT WORKING!!!
 
 	{
 		"Action": "EditData",
 		"Target": "Data/WorldMap",
 		"TargetField": [ "Valley", "MapAreas" ],
 		"Entries": {
+			"{{ModId}}_Docks": {
+				"Id": "{{ModId}}_Docks",
+				"PixelArea": {
+					"X": 240,
+					"Y": 134,
+					"Width": 36,
+					"Height": 24
+				},
+				"ScrollText": "{{i18n:LocationDisplayName.Docks.DisplayName}}",
+				"Tooltips": [
+					{
+						"Id": "{{ModId}}_Cannery",
+						"PixelArea": {
+							"X": 248, 
+							"Y": 135,
+							"Width": 15,
+							"Height": 9,
+						},
+						"Text": "{{i18n:LocationDisplayName.Cannery.DisplayName}}",
+						"LeftNeighbor": "Beach/ElliottCabin",
+						"RightNeighbor": "{{ModId}}_Docks/{{ModId}}_Cabin",
+						"UpNeighbor": "",
+						"DownNeighbor": "",
+					},
+					{
+						"Id": "{{ModId}}_Cabin",
+						"PixelArea": {
+							"X": 267, 
+							"Y": 134,
+							"Width": 4,
+							"Height": 7,
+						},
+						"Text": "{{i18n:LocationDisplayName.Cabin.DisplayName}}",
+						"LeftNeighbor": "{{ModId}}_Docks/{{ModId}}_Cannery",
+						"RightNeighbor": "",
+						"UpNeighbor": "",
+						"DownNeighbor": "",
+					},
+				],
+				"WorldPositions": [
+					{
+						"Id": "{{ModId}}_Docks",
+						"LocationContext": "Default",
+						"LocationNames": [ "{{ModId}}_Cannery", "{{ModId}}_Cabin", "{{ModId}}_Docks" ],
+						"ScrollTextZones": [
+							{
+								"Id": "{{ModId}}_Cannery",
+								"TileArea": {
+									"X": 11,
+									"Y": 0,
+									"Width": 19,
+									"Height": 10
+								},
+								"ScrollText": "{{i18n:LocationDisplayName.Cannery.DisplayName}}",
+							},
+							{
+								"Id": "{{ModId}}_Cabin",
+								"TileArea": {
+									"X": 34,
+									"Y": 0,
+									"Width": 5,
+									"Height": 7
+								},
+								"ScrollText": "{{i18n:LocationDisplayName.Cabin.DisplayName}}",
+							}
+						],
+					}
+				]
+			},
+			
 			"{{ModId}}_Lighthouse": {
 				"Id": "{{ModId}}_Lighthouse",
 				"PixelArea": {
@@ -174,5 +295,122 @@
 			},
 		},
 	},
-	]
+	// world map info - existing area (mountain)
+	{
+		"LogName": "Mountain World Map",
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "MapAreas", "Mountain", "Tooltips" ],
+		"Entries": {
+			"{{ModId}}_FinchHouse": {
+				"Id": "{{ModId}}_FinchHouse",
+				"PixelArea": {
+					"X": 224,
+					"Y": 41,
+					"Width": 7,
+					"Height": 8
+				},
+				"Text": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
+				"LeftNeighbor": "Mountain/Carpenter",
+				"RightNeighbor": "Mountain/Quarry",
+				"UpNeighbor": "Mountain/AdventureGuild",
+				"DownNeighbor": "Town/JojaMart"
+			}
+		}
+	},
+	{
+		"LogName": "Mountain World Map",
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "MapAreas", "Mountain", "WorldPositions" ],
+		"Entries": {
+			"{{ModId}}_FinchHouse": {
+				"Id": "{{ModId}}_FinchHouse",
+				"LocationContext": "Default",
+				"LocationNames": [ "{{ModId}}_FinchHouseInt", "{{ModId}}_FinchAttic" ],
+				"MapPixelArea": {
+					"X": 224,
+					"Y": 41,
+					"Width": 7,
+					"Height": 7
+				},
+				"ScrollTextZones": [
+					{
+						"Id": "{{ModId}}_FinchHouseInt",
+						"TileArea": {
+							"X": 80,
+							"Y": 26,
+							"Width": 11,
+							"Height": 13
+						},
+						"ScrollText": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
+					},
+				]
+			}
+		}
+	},
+	// town
+	{
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "MapAreas", "Town", "Tooltips" ],
+		"Entries": {
+			"{{ModId}}_TNT": {
+				"Id": "{{ModId}}_TNT",
+				"PixelArea": {
+					"X": 152,
+					"Y": 92,
+					"Width": 9,
+					"Height": 8
+				},
+				"Text": "\n                  [LocalizedText Strings\\StringsFromMaps:{{ModId}}_Map.003]\n                [LocalizedText Strings\\StringsFromMaps:{{ModId}}_Map.004]\n               ",
+				"LeftNeighbor": "Forest/MarnieRanch",
+				"RightNeighbor": "Town/Saloon",
+				"UpNeighbor": "Town/Hospital",
+				"DownNeighbor": "Town/SamHouse"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "MapAreas", "Town", "WorldPositions" ],
+		"Entries": {
+			"{{ModId}}_TNT": {
+				"Id": "{{ModId}}_TNT",
+				"LocationContext": "Default",
+				"LocationNames": [ "{{ModId}}_TongueAndTail", "{{ModId}}_CrystalAndNiko", "{{ModId}}_CrystalVoid", "{{ModId}}_Roof" ],
+				"MapPixelArea": {
+					"X": 152,
+					"Y": 92,
+					"Width": 9,
+					"Height": 8
+				},
+				"ScrollTextZones": [
+					{
+						"Id": "{{ModId}}_TNT",
+						"TileArea": {
+							"X": 10,
+							"Y": 62,
+							"Width": 10,
+							"Height": 12
+						},
+						"ScrollText": "{{i18n:StringsFromMaps.{{ModId}}_Map.003}}",
+					},
+				]
+			}, 
+			"{{ModId}}_Agency": {
+				"Id": "{{ModId}}_Agency",
+				"LocationContext": "Default",
+				"LocationNames": [ "{{ModId}}_DeadBoyAgency" ],
+				"MapPixelArea": {
+					"X": 182,
+					"Y": 53,
+					"Width": 9,
+					"Height": 9
+				},
+			},
+		}
+	}
+  ]
 }	

@@ -82,8 +82,17 @@
 			"fall_26": "{{i18n:charles_dialogue.fall_26}}",
 			"winter_7": "{{i18n:charles_dialogue.winter_7}}",
 			"winter_24": "{{i18n:charles_dialogue.winter_24}}",
-
-			}	
+		}	
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/CharlesRowland",
+		"When": {
+			"HasFlag": "ccMovieTheaterJoja",
+		},
+		"Entries": {
+			"movieTheater": "{{i18n:charles_dialogue.movieTheaterJoja}}",
 		}
-	]
+	}
+  ]
 }
