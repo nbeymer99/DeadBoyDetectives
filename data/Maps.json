@@ -564,14 +564,9 @@
             "Target": "Maps/Town",
             "MapTiles": [
                 {
-                    "Position": {
-                        "X": 15,
-                        "Y": 12
-                    },
+                    "Position": { "X": 15, "Y": 12 },
                     "Layer": "Buildings",
-                    "SetProperties": {
-                        "Passable": "T"
-                    }
+                    "SetProperties": { "Passable": "T" }
                 },
             ]
         },
@@ -581,14 +576,36 @@
             "Target": "Maps/{{ModId}}_DeadBoyAgency",
             "MapTiles": [
                 {
-                    "Position": {
-                        "X": 3,
-                        "Y": 17
-                    },
+                    "Position": { "X": 3, "Y": 17 },
                     "Layer": "Buildings",
-                    "SetProperties": {
-                        "Passable": "T"
-                    }
+                    "SetProperties": { "Passable": "T" }
+                },
+            ]
+        },
+			// make throne passable
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{ModId}}_Cannery",
+            "MapTiles": [
+                {
+                    "Position": { "X": 12, "Y": 21 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "NPCPassable": "T" }
+                },
+				{
+                    "Position": { "X": 12, "Y": 20 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "NPCPassable": "T" }
+                },
+				{
+                    "Position": { "X": 12, "Y": 19 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "NPCPassable": "T" }
+                },
+				{
+                    "Position": { "X": 12, "Y": 18 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "NPCPassable": "T" }
                 },
             ]
         },
@@ -598,10 +615,7 @@
             "Target": "Maps/{{ModId}}_CrystalAndNiko",
             "MapTiles": [
                 {
-                    "Position": {
-                        "X": 29,
-                        "Y": 12
-                    },
+                    "Position": { "X": 29, "Y": 12 },
                     "Layer": "Front2",
 					"SetTilesheet": "1",
 					"SetIndex": 434,
@@ -617,44 +631,24 @@
             "Target": "Maps/Beach-NightMarket",
             "MapTiles": [
 				{
-                    "Position": {
-                        "X": 39,
-                        "Y": 40
-                    },
+                    "Position": { "X": 39, "Y": 40 },
                     "Layer": "Buildings",
-                    "SetProperties": {
-                        "NPCPassable": "T"
-                    }
+                    "SetProperties": { "NPCPassable": "T" }
                 },
                 {
-                    "Position": {
-                        "X": 40,
-                        "Y": 40
-                    },
+                    "Position": { "X": 40, "Y": 40 },
                     "Layer": "Buildings",
-                    "SetProperties": {
-                        "NPCPassable": "T"
-                    }
+                    "SetProperties": { "NPCPassable": "T" }
                 },
 				{
-                    "Position": {
-                        "X": 41,
-                        "Y": 40
-                    },
+                    "Position": { "X": 41, "Y": 40 },
                     "Layer": "Buildings",
-                    "SetProperties": {
-                        "NPCPassable": "T"
-                    }
+                    "SetProperties": { "NPCPassable": "T" }
                 },
 				{
-                    "Position": {
-                        "X": 42,
-                        "Y": 40
-                    },
+                    "Position": { "X": 42, "Y": 40 },
                     "Layer": "Buildings",
-                    "SetProperties": {
-                        "NPCPassable": "T"
-                    }
+                    "SetProperties": { "NPCPassable": "T" }
                 },
             ]
         },
