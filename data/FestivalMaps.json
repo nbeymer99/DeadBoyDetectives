@@ -1,0 +1,60 @@
+{
+	"Changes": [
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			"FromFile": "assets/maps/TNTChristmas.tmx",
+			"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 14 },
+			"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas2",
+			"FromFile": "assets/maps/TNTChristmas2.tmx",
+			"FromArea": { "X": 5, "Y": 62, "Width": 17, "Height": 14 },
+			"ToArea": { "X": 5, "Y": 62, "Width": 17, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			"FromFile": "assets/maps/TNTFair.tmx",
+			"FromArea": { "X": 8, "Y": 62, "Width": 14, "Height": 14 },
+			"ToArea": { "X": 8, "Y": 62, "Width": 14, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair2",
+			"FromFile": "assets/maps/TNTFair2.tmx",
+			"FromArea": { "X": 5, "Y": 64, "Width": 11, "Height": 12 },
+			"ToArea": { "X": 5, "Y": 64, "Width": 11, "Height": 12 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			"FromFile": "assets/maps/TNTHalloween.tmx",
+			"FromArea": { "X": 7, "Y": 63, "Width": 15, "Height": 14 },
+			"ToArea": { "X": 7, "Y": 63, "Width": 15, "Height": 14 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween2",
+			"FromFile": "assets/maps/TNTHalloween2.tmx",
+			"FromArea": { "X": 9, "Y": 66, "Width": 11, "Height": 12 },
+			"ToArea": { "X": 9, "Y": 66, "Width": 11, "Height": 12 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			"FromFile": "assets/maps/TNTEaster.tmx",
+			"FromArea": { "X": 5, "Y": 64, "Width": 23, "Height": 13 },
+			"ToArea": { "X": 5, "Y": 64, "Width": 23, "Height": 13 }
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival2",
+			"FromFile": "assets/maps/TNTEaster2.tmx",
+			"FromArea": { "X": 8, "Y": 61, "Width": 15, "Height": 15 },
+			"ToArea": { "X": 8, "Y": 61, "Width": 15, "Height": 15 }
+		},
+	]
+}

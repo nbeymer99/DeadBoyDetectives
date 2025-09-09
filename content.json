@@ -6,6 +6,10 @@
 			"AllowValues": "Orange, Black",
 			"Default": "Black",
 		},
+		"Festival_Map_Edits": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		}
 	},
 
     "Changes": [
@@ -54,6 +58,13 @@
 		{
 			"Action": "Include",
 			"FromFile": "data/Festivals.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/FestivalMaps.json",
+			"When": {
+				"Festival_Map_Edits": true
+			}
 		},
 		
 		// Fish

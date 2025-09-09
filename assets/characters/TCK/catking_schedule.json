@@ -1,0 +1,26 @@
+{
+	"Changes": [
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/CatKing",
+	"Entries": {
+		"spring": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnap/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe/1400 {{ModId}}_Docks 38 10 2 catking_human_sunbathe/1830 {{ModId}}_Docks 21 10 2 catking_human_smoke/2300 bed",
+	},
+	
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/CatKing",
+	"When": {
+		"HasFlag": "beachBridgeFixed",
+	},
+	"Entries": {
+		"Mon": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnap/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe/1500 Saloon 15 20 0 catking_human_drink/2000 {{ModId}}_Cannery 12 19 2 catking_human_read/2500 bed",
+		"Tue": "0800 BathHouse_Pool 15 6 2 catking_human_sunbathe/1700 {{ModId}}_Cannery 12 19 2 catking_human_petcat/2500 bed",
+		"Wed": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnap/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe/1400 {{ModId}}_Docks 38 10 2 catking_human_sunbathe/1830 {{ModId}}_Docks 21 10 2 catking_human_smoke/2300 bed",
+		"Thu": "0800 BathHouse_Pool 15 6 2 catking_human_sunbathe/1700 {{ModId}}_Cannery 12 19 2 catking_human_throne \"Strings\\Schedules\\CatKing:Ennui.000\"/2500 bed",
+		"Fri": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnap/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe/1400 {{ModId}}_Docks 38 10 2 catking_human_sunbathe/1830 {{ModId}}_Docks 21 10 2 catking_human_smoke/2300 bed",
+		"Sat": "1100 {{ModId}}_Lighthouse 34 11 2 catking_human_sunbathe/1900 {{ModId}}_Cannery 12 9 2 catking_human_throne \"Strings\\Schedules\\CatKing:Ennui.000\"/2500 bed",
+		"Sun": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnap/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe/1500 Saloon 15 20 0 catking_human_drink/2000 {{ModId}}_Cannery 12 19 2 catking_human_read/2500 bed",
+	},
+  ]
+}

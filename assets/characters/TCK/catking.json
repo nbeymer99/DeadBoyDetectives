@@ -86,42 +86,22 @@
 		"TargetField": ["CatKing", "Appearance"],
 		"Entries":
 		{
-			"CatKing_OrangeHuman":
+			"CatKing_Orange":
 			{
-				"Id": "CatKing_OrangeHuman",
-				"Portrait": "Portraits/CatKing_OrangeHuman",
-				"Sprite": "Characters/CatKing_OrangeHuman",
-				"Condition": "{{Cat_King_Appearance |contains=Orange}}, !{{HasFlag |contains=CatMode}}",
+				"Id": "CatKing_Orange",
+				"Portrait": "Portraits/CatKing_Orange",
+				"Sprite": "Characters/CatKing_Orange",
+				"Condition": "{{Cat_King_Appearance |contains=Orange}}",
 				"Precedence": 0,
 				"Weight": 1
 			},
 			
-			"CatKing_OrangeCat":
-			{
-				"Id": "CatKing_OrangeHuman",
-				"Portrait": "Portraits/CatKing_OrangeCat",
-				"Sprite": "Characters/CatKing_OrangeCat",
-				"Condition": "{{Cat_King_Appearance |contains=Orange}}, {{HasFlag |contains=CatMode}}",
-				"Precedence": 0,
-				"Weight": 1
-			},
-			
-			"CatKing_BlackHuman":
+			"CatKing_Black":
 			{
 				"Id": "CatKing_Black",
-				"Portrait": "Portraits/CatKing_BlackHuman",
-				"Sprite": "Characters/CatKing_BlackHuman",
-				"Condition": "{{Cat_King_Appearance |contains=Black}}, !{{HasFlag |contains=CatMode}}",
-				"Precedence": 0,
-				"Weight": 1
-			},
-			
-			"CatKing_BlackCat":
-			{
-				"Id": "CatKing_Black",
-				"Portrait": "Portraits/CatKing_BlackCat",
-				"Sprite": "Characters/CatKing_BlackCat",
-				"Condition": "{{Cat_King_Appearance |contains=Black}}, {{HasFlag |contains=CatMode}}",
+				"Portrait": "Portraits/CatKing_Black",
+				"Sprite": "Characters/CatKing_Black",
+				"Condition": "{{Cat_King_Appearance |contains=Black}}",
 				"Precedence": 0,
 				"Weight": 1
 			},
@@ -132,56 +112,29 @@
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CatKing_BlackHuman",
+		"Target": "Portraits/CatKing_Black",
 		"FromFile": "assets/characters/TCK/catking_portraits_black.png",
 	},
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CatKing_OrangeHuman",
+		"Target": "Portraits/CatKing_Orange",
 		"FromFile": "assets/characters/TCK/catking_portraits.png",
 	}, 
-	{
-		// perhaps no cat portraits, just human
-		"LogName": "Conditional Portraits - Appearance Load",
-		"Action": "Load",
-		"Target": "Portraits/CatKing_BlackCat",
-		"FromFile": "assets/characters/TCK/catking_portraits_blackcat.png",
-	},
-	{
-		// perhaps no cat portraits, just human
-		"LogName": "Conditional Portraits - Appearance Load",
-		"Action": "Load",
-		"Target": "Portraits/CatKing_OrangeCat",
-		"FromFile": "assets/characters/TCK/catking_portraits_orangecat.png",
-	},
 	
 	//loads - sprites
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CatKing_BlackHuman",
-		"FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png", //!!!
+		"Target": "Characters/CatKing_Black",
+		"FromFile": "assets/characters/TCK/catking_sprites_black.png",
 	},
 		
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CatKing_OrangeHuman",
-		"FromFile": "assets/characters/Edwin/edwin_sprite_brownjacket.png", // !!!
-	},
-	{
-		"LogName": "Conditional Sprites - Appearance Load",
-		"Action": "Load",
-		"Target": "Characters/CatKing_BlackCat",
-		"FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png", // !!!
-	},
-		
-	{
-		"LogName": "Conditional Sprites - Appearance Load",
-		"Action": "Load",
-		"Target": "Characters/CatKing_OrangeCat",
-		"FromFile": "assets/characters/Edwin/edwin_sprite_brownjacket.png", //!!!
+		"Target": "Characters/CatKing_Orange",
+		"FromFile": "assets/characters/TCK/catking_sprites_orange.png",
 	},
 	
 	// gift tastes
@@ -222,13 +175,6 @@
 		"LogName": "CatKingDialogue",
 		"Action": "Include",
 		"FromFile": "assets/characters/TCK/catking_dialogue.json"
-	},
-	
-	// include marriage dialogue
-	//{
-	//	"LogName": "CatKingMarriageDialogue",
-	//	"Action": "Include",
-	//	"FromFile": "assets/characters/Edwin/edwin_marriageDialogue.json"
-	//},
-	]
+	}
+  ]
 }
