@@ -20,7 +20,7 @@
 	"CatKing.eventSeen_Seance2": "I heard you helped bring that girl back from the other side... what was her name? Niko?#$b#Guess you're not half-bad at this magic stuff.",
 	
 	"CatKing.Mon": "There's a stray dog that's been sniffing around the docks lately. My cats chased him right out.",
-	"CatKing.Tue": "What do you want? I'm terrifically busy with my ennui.",
+	"CatKing.Tue": "What do you want? I'm terrifically busy with my ennui.$u",
 	"CatKing.Wed": "If you want something, you'll need to make me happy. I don't do favors... not without something in return.",
 	"CatKing.Thu": "Perfect day for a nap... *Yawn*",
 	"CatKing.Fri": "Would it kill you to bow or something? I am a cat *king*, after all.#$e#What's a cat king? All of the cats in Pelican Town answer to me, and I provide for them in return.",
@@ -30,7 +30,7 @@
 	"CatKing.Mon2": "If you mess with the cats under my protection, you'll meet my claws.#$b#And I don't mean that metaphorically.",
 	"CatKing.Tue2": "Do you need something? It's like you're obsessed with me.",
 	"CatKing.Wed2": "That old wizard's alright. As friendly neighborhood sorcerers go, you could do worse. Much, much worse...",
-	"CatKing.Thu2": "Perfect day for a nap... *Yawn*",
+	"CatKing.Thu2": "Early to bed, early to rise...#$b#...makes life boring as shit.",
 	"CatKing.Fri2": "You adopted a pet?#$b#You'd better treat %petname with the care they deserve, or I'll hear about it.|Ugh, of course %petname is a dog... typical.",
 	"CatKing.Sat2": "Being a farmer sounds like so much work, ugh. I'd rather jump in the ocean, and you know what they say about cats and water.",
 	"CatKing.Sun2": "Have you seen Meatball lately? Gray tabby?#$b#No? Ugh. He's probably fallen down a hole again.",
@@ -72,6 +72,7 @@
 	"CatKing.winter_24": "Another year gone... they really start to run together after a few hundred of them.",
 	
 	// STRINGS
+	"catking_strings.Ennui.000": "What do you want? I'm terrifically busy with my ennui.$u",
 	
 	
 	// GIFT TASTES

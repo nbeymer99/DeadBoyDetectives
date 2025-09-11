@@ -588,22 +588,7 @@
             "Target": "Maps/{{ModId}}_Cannery",
             "MapTiles": [
                 {
-                    "Position": { "X": 12, "Y": 21 },
-                    "Layer": "Buildings",
-                    "SetProperties": { "NPCPassable": "T" }
-                },
-				{
-                    "Position": { "X": 12, "Y": 20 },
-                    "Layer": "Buildings",
-                    "SetProperties": { "NPCPassable": "T" }
-                },
-				{
                     "Position": { "X": 12, "Y": 19 },
-                    "Layer": "Buildings",
-                    "SetProperties": { "NPCPassable": "T" }
-                },
-				{
-                    "Position": { "X": 12, "Y": 18 },
                     "Layer": "Buildings",
                     "SetProperties": { "NPCPassable": "T" }
                 },

@@ -4,13 +4,13 @@
        	"LogName": "Cat King Base Portraits",
        	"Action": "Load",
        	"Target": "Portraits/CatKing",
-       	"FromFile": "assets/characters/TCK/catking_portraits.png",
+       	"FromFile": "assets/characters/TCK/catking_portraits_black.png",
    	},	
 	{
         "LogName": "Base Sprites",
         "Action": "Load",
         "Target": "Characters/CatKing",
-        "FromFile": "assets/characters/TCK/catking_sprite.png",
+        "FromFile": "assets/characters/TCK/catking_sprites_black.png",
    	},
 		
 		// edit game data
@@ -20,7 +20,7 @@
         "Entries": {
             "CatKing": {
 				// Basic Info	
-                    "DisplayName": "Cat King",
+                    "DisplayName": "The Cat King",
                     "BirthSeason": "Summer",
                     "BirthDay": 20,
                     "HomeRegion": "Town",

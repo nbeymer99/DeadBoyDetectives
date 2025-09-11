@@ -1,0 +1,15 @@
+{
+    "Changes": [
+	{
+		
+		"Action": "EditData",
+		"Target": "Strings/schedules/CatKing",
+		"Entries": 
+        {
+            "Ennui.000": "{{i18n:catking_strings.Ennui.000}}",
+			"CatSleep.000": "...$14",
+			"CatBathe.000": "Uh, I'm a little busy? Come back later.$8",
+		}
+	}
+	]
+}
