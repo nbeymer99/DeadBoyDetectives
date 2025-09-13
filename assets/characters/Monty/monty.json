@@ -54,18 +54,80 @@
                     {
 						"Id": "Default",
                         "Location": "{{ModId}}_FinchHouseInt",
-                        "Tile": {
-							"X": 2,
-							"Y": 21
-                        },
+                        "Tile": { "X": 2, "Y": 21 },
 						"Direction": "right"
-                    }
+                    },
+					{
+						"Id": "MoveTNT",
+						"Location": "{{ModId}}_TNTInterior",
+						"Tile": { "X": 29, "Y": 9 },
+						"Direction": "left",
+						"Condition": "PLAYER_HAS_SEEN_EVENT {{ModId}}_montyhearts10", // may change to mail flag
+					}
                 ],
 				"Breather": "true",
 				//"KissSpriteIndex": 42
             }
         }
     },
+	
+	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"TargetField": ["MontyFinch", "Appearance"],
+		"Entries":
+		{
+			"Monty_Human":
+			{
+				"Id": "Monty_Human",
+				"Portrait": "Portraits/Monty_Human",
+				"Sprite": "Characters/Monty_Human",
+				"Condition": "TIME 2000",
+				"Precedence": 0,
+				"Weight": 1
+			},
+			
+			"Monty_Crow":
+			{
+				"Id": "Monty_Crow",
+				"Portrait": "Portraits/Monty_Crow",
+				"Sprite": "Characters/Monty_Crow",
+				"Condition": "TIME 2000",
+				"Precedence": 0,
+				"Weight": 1
+			},
+		},
+	},
+		
+	//loads - portraits
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/Monty_Human",
+		"FromFile": "assets/characters/Monty/Monty.png",
+	},
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/Monty_Crow",
+		"FromFile": "assets/characters/Monty/Monty_crow.png",
+	}, 
+	
+	//loads - sprites
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/Monty_Crow",
+		"FromFile": "assets/characters/Monty/monty_sprites_crow.png",
+	},
+		
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/Monty_Human",
+		"FromFile": "assets/characters/Monty/monty_sprites.png",
+	},
 	
 	// gift tastes
 	// loves: jade 70, bread 216, autumn's bounty 235, pumpkin soup 236, duck feather 444, celestine 566
@@ -77,7 +139,6 @@
 			"MontyFinch": "{{i18n:MontyFinch.love}}/70 216 235 236 444 566 /{{i18n:MontyFinch.like}}/-74 904 651/{{i18n:MontyFinch.dislike}}/774 309 310 311/{{i18n:MontyFinch.hate}}/260/{{i18n:MontyFinch.neutral}}/"
 		}
 	},
-	
 	
 	// include schedule
 	{
@@ -106,12 +167,5 @@
 		"Action": "Include",
 		"FromFile": "assets/characters/Monty/Monty_dialogue.json"
 	},
-	
-	// include marriage dialogue
-	//{
-	//	"LogName": "MontyFinchMarriageDialogue",
-	//	"Action": "Include",
-	//	"FromFile": "assets/characters/Monty/Monty_marriageDialogue.json"
-	//},
-	]
+  ]
 }

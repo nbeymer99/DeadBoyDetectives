@@ -32,7 +32,7 @@
 	"CatKing.Wed2": "That old wizard's alright. As friendly neighborhood sorcerers go, you could do worse. Much, much worse...",
 	"CatKing.Thu2": "Early to bed, early to rise...#$b#...makes life boring as shit.",
 	"CatKing.Fri2": "You adopted a pet?#$b#You'd better treat %petname with the care they deserve, or I'll hear about it.|Ugh, of course %petname is a dog... typical.",
-	"CatKing.Sat2": "Being a farmer sounds like so much work, ugh. I'd rather jump in the ocean, and you know what they say about cats and water.",
+	"CatKing.Sat2": "Being a farmer sounds like so much work, ugh. I'd rather jump in the ocean, and you know what they say about cats and water.$5",
 	"CatKing.Sun2": "Have you seen Meatball lately? Gray tabby?#$b#No? Ugh. He's probably fallen down a hole again.",
 	
 	"CatKing.Mon6": "Ugh, I hope it doesn't rain. I hate getting wet.",
@@ -73,7 +73,8 @@
 	
 	// STRINGS
 	"catking_strings.Ennui.000": "What do you want? I'm terrifically busy with my ennui.$u",
-	
+	"catking_strings.CatSleep.000": "...$14",
+	"catking_strings.CatBathe.000": "Uh, I'm a little busy? Come back later.$8",
 	
 	// GIFT TASTES
 	"CatKing.love": "Oh, I could just *kiss* you, @!",
