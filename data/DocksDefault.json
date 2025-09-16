@@ -1,0 +1,31 @@
+{
+	"Changes": [
+	{
+			"Action": "EditMap",
+			"Target": "Maps/Beach",
+			"FromFile": "assets/maps/Beach_Docks.tmx",
+			"FromArea": { "X": 2, "Y": 0, "Width": 16, "Height": 11 },
+			"ToArea": { "X": 88, "Y": 0, "Width": 16, "Height": 11 },
+			"When": {
+				"Query: ({{Docks_Location |contains=AutoDetect}} AND NOT ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Top}}": true
+			}
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Beach",
+			"AddNPCWarps": [ "0 6 {{ModId}}_Lighthouse 103 8", "103 6 {{ModId}}_Docks 0 7" ],
+			"When": { // default
+				"Query: ({{Docks_Location |contains=AutoDetect}} AND NOT ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Top}}": true 
+			}
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach",
+			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10", "104 5 {{ModId}}_Docks 0 7", "104 6 {{ModId}}_Docks 0 8", "104 7 {{ModId}}_Docks 0 9", "104 8 {{ModId}}_Docks 0 10" ],
+			"When": { // default
+				"Query: ({{Docks_Location |contains=AutoDetect}} AND NOT ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Top}}": true 
+			}
+		},
+	
+	]
+}

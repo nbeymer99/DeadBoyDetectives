@@ -9,6 +9,14 @@
 		"Festival_Map_Edits": {
 			"AllowValues": "true, false",
 			"Default": "true"
+		},
+		"TNT_Location": {
+			"AllowValues": "AutoDetect, TownSquare, Cliffside",
+			"Default": "AutoDetect"
+		},
+		"Docks_Location": {
+			"AllowValues": "AutoDetect, Top, Bottom",
+			"Default": "AutoDetect"
 		}
 	},
 
@@ -158,6 +166,40 @@
 		{
 			"Action": "Include",
 			"FromFile": "data/TriggerActions.json"
+		},
+		
+		// Misc. Compat
+		{
+			"Action": "Include",
+			"FromFile": "data/Compatibility.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/DocksCompat.json",
+			"When": { // compat
+				"Query: ({{Docks_Location |contains=AutoDetect}} AND ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Bottom}}": true 
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/DocksDefault.json",
+			"When": { // default
+				"Query: ({{Docks_Location |contains=AutoDetect}} AND NOT ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Top}}": true 
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/TNTCompat.json",
+			"When": { // compat
+				"Query: ({{TNT_Location |contains=AutoDetect}} AND {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=Cliffside}}": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/TNTDefault.json",
+			"When": { // default
+				"Query: ({{TNT_Location |contains=AutoDetect}} AND NOT {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=TownSquare}}": true,
+			}
 		}
     ],
 	
@@ -228,5 +270,5 @@
 		"Name": "PrepPhrase",
 		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.735, Strings\\StringsFromCSFiles:Dialogue.cs.736, Strings\\StringsFromCSFiles:Dialogue.cs.737, Strings\\StringsFromCSFiles:Dialogue.cs.738, Strings\\StringsFromCSFiles:Dialogue.cs.739, Strings\\StringsFromCSFiles:Dialogue.cs.740, Strings\\StringsFromCSFiles:Dialogue.cs.741, Strings\\StringsFromCSFiles:Dialogue.cs.742, Strings\\StringsFromCSFiles:Dialogue.cs.743, Strings\\StringsFromCSFiles:Dialogue.cs.744, Strings\\StringsFromCSFiles:Dialogue.cs.745, Strings\\StringsFromCSFiles:Dialogue.cs.746, Strings\\StringsFromCSFiles:Dialogue.cs.747}}",
 	},
-	]
+  ]
 }

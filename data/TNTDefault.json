@@ -1,0 +1,107 @@
+{
+	"Changes": [
+	{
+        "Action": "Load",
+        "Target": "Maps/{{ModId}}_Roof",
+        "FromFile": "assets/maps/Roof.tmx"
+    },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"FromFile": "assets/maps/TongueAndTail.tmx",
+		"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+		"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+	},
+		// day/night tiles and lighting
+	{
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "NightTiles"],
+			"Value": "AlwaysFront 18 70 11 AlwaysFront 19 70 12 AlwaysFront 18 71 24 AlwaysFront 19 71 25 AlwaysFront 18 72 37 AlwaysFront 19 72 38 AlwaysFront 20 64 139",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "DayTiles"],
+			"Value": "AlwaysFront 18 70 50 AlwaysFront 19 70 51 AlwaysFront 18 71 63 AlwaysFront 19 71 64 AlwaysFront 18 72 76 AlwaysFront 19 72 77",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+			"Value": "18 70 4 1 50 255 255 19 70 4 1 50 255 255 18 71 4 1 50 255 255 19 71 4 1 50 255 255 19 72 4 1 50 255 255",
+			"Delimiter": " "
+		},
+	  ]
+	},
+	{
+        "Action": "EditMap",
+        "Target": "Maps/Town-Halloween",
+		"When": {
+			"{{FestivalMapEdits}}": true
+		},
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+			"Value": "17 70 4 1 50 255 255 18 70 4 1 50 255 255 17 71 4 1 50 255 255 18 71 4 1 50 255 255 18 72 4 1 50 255 255",
+			"Delimiter": " "
+		},
+	  ]
+	},
+	{
+        "Action": "EditMap",
+        "Target": "Maps/Town-Halloween2",
+		"When": {
+			"{{FestivalMapEdits}}": true
+		},
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+			"Value": "17 74 4 1 50 255 255 18 74 4 1 50 255 255 17 75 4 1 50 255 255 18 75 4 1 50 255 255 18 74 4 1 50 255 255",
+			"Delimiter": " "
+		},
+	  ]
+	},
+		
+	{
+        "Action": "EditMap",
+        "Target": "Maps/{{ModId}}_Roof",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "NightTiles"],
+			"Value": "AlwaysFront 18 70 11 AlwaysFront 19 70 12 AlwaysFront 18 71 24 AlwaysFront 19 71 25 AlwaysFront 18 72 37 AlwaysFront 19 72 38",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "DayTiles"],
+			"Value": "AlwaysFront 18 70 50 AlwaysFront 19 70 51 AlwaysFront 18 71 63 AlwaysFront 19 71 64 AlwaysFront 18 72 76 AlwaysFront 19 72 77",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "Light"],
+			"Value": "13 63 4",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+			"Value": "18 70 4 1 50 255 255 19 70 4 1 50 255 255 18 71 4 1 50 255 255 19 71 4 1 50 255 255 19 72 4 1 50 255 255",
+			"Delimiter": " "
+		},
+	  ]
+	},
+  ]
+}

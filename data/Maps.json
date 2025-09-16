@@ -46,11 +46,6 @@
         },
 		{
             "Action": "Load",
-            "Target": "Maps/{{ModId}}_Roof",
-            "FromFile": "assets/maps/Roof.tmx"
-        },
-		{
-            "Action": "Load",
             "Target": "Maps/{{ModId}}_TNTInterior",
             "FromFile": "assets/maps/TNTInterior.tmx"
         },
@@ -179,24 +174,10 @@
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
 			"FromFile": "assets/maps/Beach_DBDA.tmx",
-			"FromArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 },
-			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 10 }			
-		},
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Beach",
-			"FromFile": "assets/maps/Beach_Docks.tmx",
-			"FromArea": { "X": 2, "Y": 0, "Width": 16, "Height": 11 },
-			"ToArea": { "X": 88, "Y": 0, "Width": 16, "Height": 11 }			
-		},
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Town",
-			"FromFile": "assets/maps/TongueAndTail.tmx",
-			"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
-			"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 }
-		},
-		{
+			"FromArea": { "X": 0, "Y": 0, "Width": 10, "Height": 9 },
+			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 9 }			
+		},		
+		{ // consider CP patch instead
 			"Action": "EditMap",
 			"Target": "Maps/Town",
 			"FromFile": "assets/maps/Town_Swing.tmx",
@@ -227,7 +208,6 @@
 				"NightTiles": "Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 809 Buildings 27 5 1222 Buildings 28 5 1222 Buildings 27 6 1254 Buildings 28 6 1254 Buildings2 28 7 809 Front 30 15 1347"
 			}
 		},
-			
 			// joja route movie theatre
 		{
 			"Action": "EditMap",
@@ -254,158 +234,6 @@
 		  ]
 		},
 		
-		// BETAS dependency
-		{
-			"Action": "EditMap",
-			"Target": "Maps/{{ModId}}_CrystalAndNiko",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 37,
-						"Y": 10
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "Warp 22 26 handwrittenhello.dbda_CrystalVoid"
-					},
-				},
-			],
-			"When": {
-				"Hearts:CrystalPalace": "10, 11, 12, 13",
-			}
-		},
-		
-		{
-			"Action": "EditMap",
-			"Target": "Maps/{{ModId}}_CrystalAndNiko",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 37,
-						"Y": 10
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TreeWarp"
-					},
-				},
-			],
-			"When": {
-				"Hearts:CrystalPalace": "10, 11, 12, 13",
-				"HasMod |contains=Spiderbuttons.BETAS": true,
-			}
-		},
-		
-		{
-			"Action": "EditMap",
-			"Target": "Maps/{{ModId}}_CrystalVoid",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 22,
-						"Y": 25
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TreeWarp_Back"
-					},
-				},
-			],
-			"When": {
-				"HasMod |contains=Spiderbuttons.BETAS": true,
-			}
-		},
-		
-		{
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Ruins",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 49,
-						"Y": 17
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
-					},
-				},
-				{
-					"Position": {
-						"X": 50,
-						"Y": 17
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
-					},
-				},
-			],
-			"When": {
-				"HasMod |contains=Spiderbuttons.BETAS": true,
-			}
-		},
-		
-		{
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Refurbished",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 49,
-						"Y": 17
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
-					},
-				},
-				{
-					"Position": {
-						"X": 50,
-						"Y": 17
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
-					},
-				},
-			],
-			"When": {
-				"HasMod |contains=Spiderbuttons.BETAS": true,
-			}
-		},
-		
-		{
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Joja",
-			"MapTiles": [
-				{
-					"Position": {
-						"X": 49,
-						"Y": 17
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
-					},
-				},
-				{
-					"Position": {
-						"X": 50,
-						"Y": 17
-					},
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
-					},
-				},
-			],
-			"When": {
-				"HasMod |contains=Spiderbuttons.BETAS": true,
-			}
-		},
-		
 		// MAP EDITS
 			// Elevator NPC warp
 		{
@@ -429,153 +257,8 @@
 				"50 18 {{ModId}}_DeadBoyAgency 6 18"
 			],
 		},
-			//beach NPC warps
-		{
-			"Action":"EditMap",
-			"Target":"Maps/Beach",
-			"AddNPCWarps": [ "0 6 {{ModId}}_Lighthouse 103 8", "103 6 {{ModId}}_Docks 0 7" ],
-		},
-			// beach warps
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Beach",
-			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10", "104 5 {{ModId}}_Docks 0 7", "104 6 {{ModId}}_Docks 0 8", "104 7 {{ModId}}_Docks 0 9", "104 8 {{ModId}}_Docks 0 10" ],
-		},
-		
-		// SVE compat
-		{
-			"Action": "EditMap",
-			"Target": "Maps/{{ModId}}_Lighthouse",
-			"FromFile": "assets/maps/Lighthouse_SVE.tmx",
-			"FromArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
-			"ToArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
-			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
-			}
-		},
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Custom_BlueMoonVineyard",
-			"AddWarps": [
-				"56 61 {{ModId}}_Lighthouse 32 1",
-				"56 62 {{ModId}}_Lighthouse 32 1",
-				"56 63 {{ModId}}_Lighthouse 32 1",
-				"56 64 {{ModId}}_Lighthouse 32 1"
-			],
-			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
-			}
-		},
-		{
-			"Action": "EditMap",
-			"Target": "Maps/{{ModId}}_Lighthouse",
-			"AddWarps": [
-				"32 0 Custom_BlueMoonVineyard 55 63"
-			],
-			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
-			}
-		},
- 		{
-			"Action": "EditMap",
-			"Target": "Maps/Mountain",
-			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP", 
-			},
-			"FromFile": "assets/maps/MontyHouseExterior_SVE.tmx",
-			"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
-			"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
-		},
-		
-		// EDIT TOWN MAP
-		//
-			// day/night tiles and lighting
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-			"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "NightTiles"],
-				"Value": "AlwaysFront 18 70 11 AlwaysFront 19 70 12 AlwaysFront 18 71 24 AlwaysFront 19 71 25 AlwaysFront 18 72 37 AlwaysFront 19 72 38 AlwaysFront 20 64 139",
-				"Delimiter": " "
-			},
-			
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "DayTiles"],
-				"Value": "AlwaysFront 18 70 50 AlwaysFront 19 70 51 AlwaysFront 18 71 63 AlwaysFront 19 71 64 AlwaysFront 18 72 76 AlwaysFront 19 72 77",
-				"Delimiter": " "
-			},
-			
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
-				"Value": "18 70 4 1 50 255 255 19 70 4 1 50 255 255 18 71 4 1 50 255 255 19 71 4 1 50 255 255 19 72 4 1 50 255 255",
-				"Delimiter": " "
-			},
-			]
-		},
-		
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Town-Halloween",
-			"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
-				"Value": "17 70 4 1 50 255 255 18 70 4 1 50 255 255 17 71 4 1 50 255 255 18 71 4 1 50 255 255 18 72 4 1 50 255 255",
-				"Delimiter": " "
-			},
-			]
-		},
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Town-Halloween2",
-			"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
-				"Value": "17 74 4 1 50 255 255 18 74 4 1 50 255 255 17 75 4 1 50 255 255 18 75 4 1 50 255 255 18 74 4 1 50 255 255",
-				"Delimiter": " "
-			},
-			]
-		},
-		
-		{
-            "Action": "EditMap",
-            "Target": "Maps/{{ModId}}_Roof",
-			"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "NightTiles"],
-				"Value": "AlwaysFront 18 70 11 AlwaysFront 19 70 12 AlwaysFront 18 71 24 AlwaysFront 19 71 25 AlwaysFront 18 72 37 AlwaysFront 19 72 38",
-				"Delimiter": " "
-			},
-			
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "DayTiles"],
-				"Value": "AlwaysFront 18 70 50 AlwaysFront 19 70 51 AlwaysFront 18 71 63 AlwaysFront 19 71 64 AlwaysFront 18 72 76 AlwaysFront 19 72 77",
-				"Delimiter": " "
-			},
-			
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "Light"],
-				"Value": "13 63 4",
-				"Delimiter": " "
-			},
-			
-			{
-				"Operation": "Append",
-				"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
-				"Value": "18 70 4 1 50 255 255 19 70 4 1 50 255 255 18 71 4 1 50 255 255 19 71 4 1 50 255 255 19 72 4 1 50 255 255",
-				"Delimiter": " "
-			},
-			]
-		},
-		
+
+		// EDIT TOWN MAP		
 			// make swing passable
 		{
             "Action": "EditMap",

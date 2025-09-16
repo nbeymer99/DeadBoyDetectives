@@ -1,0 +1,28 @@
+{
+	"Changes": [
+	{
+			"Action": "EditMap",
+			"Target": "Maps/Beach",
+			"FromFile": "assets/maps/Beach_Docks_Alternate.tmx", 
+			"FromArea": { "X": 1, "Y": 0, "Width": 11, "Height": 7 },
+			"ToArea": { "X": 93, "Y": 14, "Width": 11, "Height": 7 },
+		},
+	{
+		"Action":"EditMap",
+		"Target":"Maps/Beach",
+		"AddNPCWarps": [ "0 6 {{ModId}}_Lighthouse 103 8", "103 16 {{ModId}}_Docks 0 7" ],
+	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Beach",
+		"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10", "104 15 {{ModId}}_Docks 0 7", "104 16 {{ModId}}_Docks 0 8", "104 17 {{ModId}}_Docks 0 9", "104 18 {{ModId}}_Docks 0 10" ],
+	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Docks",
+		"MapProperties": {
+			"Warp": "-1 5 Beach 102 16 -1 6 Beach 103 15 -1 7 Beach 103 16 -1 8 Beach 103 16 -1 9 Beach 103 17 -1 10 Beach 103 17 -1 10 Beach 103 18 -1 11 Beach 103 18"
+		}
+	}
+  ]
+}

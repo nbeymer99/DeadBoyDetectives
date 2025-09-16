@@ -1,0 +1,256 @@
+{
+	"Changes": [
+	// SVE 
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Lighthouse",
+		"FromFile": "assets/maps/Lighthouse_SVE.tmx",
+		"FromArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
+		"ToArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+		}
+	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Custom_BlueMoonVineyard",
+		"AddWarps": [
+			"56 61 {{ModId}}_Lighthouse 32 1",
+			"56 62 {{ModId}}_Lighthouse 32 1",
+			"56 63 {{ModId}}_Lighthouse 32 1",
+			"56 64 {{ModId}}_Lighthouse 32 1"
+		],
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+		}
+	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Lighthouse",
+		"AddWarps": [
+			"32 0 Custom_BlueMoonVineyard 55 63"
+		],
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+		}
+	},
+ 	{
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
+		},
+		"FromFile": "assets/maps/MontyHouseExterior_SVE.tmx",
+		"FromArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
+		"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
+	},
+	
+	// BETAS
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_CrystalAndNiko",
+		"MapTiles": [
+			{
+				"Position": {
+					"X": 37,
+					"Y": 10
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "Warp 22 26 handwrittenhello.dbda_CrystalVoid"
+				},
+			},
+		],
+		"When": {
+			"Hearts:CrystalPalace": "10, 11, 12, 13",
+		}
+	},
+		
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_CrystalAndNiko",
+		"MapTiles": [
+			{
+				"Position": {
+					"X": 37,
+					"Y": 10
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TreeWarp"
+				},
+			},
+		],
+		"When": {
+			"Hearts:CrystalPalace": "10, 11, 12, 13",
+			"HasMod |contains=Spiderbuttons.BETAS": true,
+		}
+	},
+		
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_CrystalVoid",
+		"MapTiles": [
+			{
+				"Position": {
+					"X": 22,
+					"Y": 25
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TreeWarp_Back"
+				},
+			},
+		],
+		"When": {
+			"HasMod |contains=Spiderbuttons.BETAS": true,
+		}
+	},
+		
+	{
+		"Action": "EditMap",
+		"Target": "Maps/CommunityCenter_Ruins",
+		"MapTiles": [
+			{
+				"Position": {
+					"X": 49,
+					"Y": 17
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+				},
+			},
+			{
+				"Position": {
+					"X": 50,
+					"Y": 17
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+				},
+			},
+		],
+		"When": {
+			"HasMod |contains=Spiderbuttons.BETAS": true,
+		}
+	},
+		
+	{
+		"Action": "EditMap",
+		"Target": "Maps/CommunityCenter_Refurbished",
+		"MapTiles": [
+			{
+				"Position": {
+					"X": 49,
+					"Y": 17
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+				},
+			},
+			{
+				"Position": {
+					"X": 50,
+					"Y": 17
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+				},
+			},
+		],
+		"When": {
+			"HasMod |contains=Spiderbuttons.BETAS": true,
+		}
+	},
+		
+	{
+		"Action": "EditMap",
+		"Target": "Maps/CommunityCenter_Joja",
+		"MapTiles": [
+			{
+				"Position": {
+					"X": 49,
+					"Y": 17
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+				},
+			},
+			{
+				"Position": {
+					"X": 50,
+					"Y": 17
+				},
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CCElevator"
+				},
+			},
+		],
+		"When": {
+			"HasMod |contains=Spiderbuttons.BETAS": true,
+		}
+	},
+	
+	// Improve Town A Little 
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"FromFile": "assets/maps/ImproveTownALittle.tmx",
+		"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+		"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+		"Priority": "Late",
+		"When": {
+			"HasMod": "Tikamin557.CP.ImproveTownALittle",
+			"TNT_Location": "TownSquare",
+		}
+	},
+	
+	// Disable Everbloom stuff
+	{
+		"Action": "EditData",
+		"Target": "Mods/jpp.WildFlowersReimagined/IgnoreList",
+		"TargetField": [ "Flowers"],
+		"Entries": {
+			"{{ModId}}_EverbloomFlower": "{{ModId}}_EverbloomFlower"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Mods/jpp.WildFlowersReimagined/IgnoreList",
+		"TargetField": [ "Seeds"],
+		"Entries": {
+			"{{ModId}}_EverbloomSeed": "{{ModId}}_EverbloomSeed",
+		}
+	},
+	
+	// Casper and the Box
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/EdwinPayne",
+		"Entries": {
+			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/1100 BusStop 28 14 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/CharlesRowland",
+		"Entries": {
+			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 BusStop 27 15 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",		
+		}
+	},
+	
+	// PT Food Truck - see TNTDefault/TNTCompat.json
+	
+	// Stardew Druid - see DocksDefault/DocksCompat.json
+	
+	// Metalcore Goes Cottagecore - see DocksDefault/DocksCompat.json
+	
+	// Fish of Stardew - see DocksDefault/DocksCompat.json
+  ]
+}

@@ -1,0 +1,49 @@
+{
+	"Changes": [
+	{
+        "Action": "Load",
+        "Target": "Maps/{{ModId}}_Roof",
+        "FromFile": "assets/maps/Roof_Cliffside.tmx"
+    },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"FromFile": "assets/maps/TongueAndTail.tmx",
+		"FromArea": { "X": 4, "Y": 40, "Width": 14, "Height": 15 }, 
+		"ToArea": { "X": 4, "Y": 40, "Width": 14, "Height": 15 }, 
+	},
+	{
+        "Action": "EditMap",
+        "Target": "Maps/Town",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "NightTiles"],
+			"Value": "AlwaysFront 15 49 11 AlwaysFront 16 49 12 AlwaysFront 15 50 24 AlwaysFront 16 50 25 AlwaysFront 15 51 37 AlwaysFront 16 51 38",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "DayTiles"],
+			"Value": "AlwaysFront 15 49 50 AlwaysFront 16 49 51 AlwaysFront 15 50 63 AlwaysFront 16 50 64 AlwaysFront 15 51 76 AlwaysFront 16 51 77",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+			"Value": "15 49 4 1 50 255 255 16 49 4 1 50 255 255 15 50 4 1 50 255 255 16 50 4 1 50 255 255 16 51 4 1 50 255 255",
+			"Delimiter": " "
+		},
+	  ]
+	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_TNTInterior",
+		"MapProperties": {
+			"Warp": "13 30 Town 9 52 14 30 Town 10 52 12 16 handwrittenhello.dbda_CrystalAndNiko 25 24"
+		}
+	}
+  ]
+}
