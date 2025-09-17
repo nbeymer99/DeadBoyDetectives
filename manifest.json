@@ -20,6 +20,14 @@
 		{
 			"UniqueID": "Spiderbuttons.BETAS",
 			"IsRequired": false
+		},
+		{
+			"UniqueID": "Aimon111.MoreLivelyQuarryOverhaul",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": false
 		}
 		]
 }

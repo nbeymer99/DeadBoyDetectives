@@ -1,0 +1,158 @@
+{
+	"Changes": [
+	// vanilla
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"FromFile": "assets/maps/MontyHouseExterior.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 15 },
+		"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
+	},
+	
+	// SVE 
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
+		},
+		"FromFile": "assets/maps/MontyHouseExterior_SVE.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 15 },
+		"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
+	},
+	
+	// ES Warps - non SVE
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod": "LemurKat.EastScarpe.CP",
+		},
+		"FromFile": "MontyHouseExterior_ES.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 2 },
+		"ToArea": { "X": 80, "Y": 39, "Width": 6, "Height": 2 }
+	},
+	
+	// ES Warps - SVE
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			"HasMod": "LemurKat.EastScarpe.CP",
+		},
+		"MapTiles": [
+			// get rid of treetops
+            {
+                "Position": { "X": 83, "Y": 39 },
+                "Layer": "AlwaysFront2",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 82, "Y": 40 },
+                "Layer": "AlwaysFront2",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 83, "Y": 40 },
+                "Layer": "AlwaysFront2",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 84, "Y": 40 },
+                "Layer": "AlwaysFront2",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 85, "Y": 38 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 84, "Y": 39 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 85, "Y": 39 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 86, "Y": 39 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 84, "Y": 40 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 85, "Y": 40 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+			{
+                "Position": { "X": 86, "Y": 40 },
+                "Layer": "AlwaysFront",
+				"SetIndex": 20,
+            },
+				
+			// make invisible tiles passable
+			{
+                "Position": { "X": 82, "Y": 40 },
+                "Layer": "Buildings",
+                "SetProperties": { "Passable": "T" }
+            },
+			{
+                "Position": { "X": 83, "Y": 40 },
+                "Layer": "Buildings",
+                "SetProperties": { "Passable": "T" }
+            },
+			{
+                "Position": { "X": 84, "Y": 40 },
+                "Layer": "Buildings",
+                "SetProperties": { "Passable": "T" }
+            },
+			{
+                "Position": { "X": 85, "Y": 40 },
+                "Layer": "Buildings",
+                "SetProperties": { "Passable": "T" }
+            },
+			{
+                "Position": { "X": 86, "Y": 40 },
+                "Layer": "Buildings",
+                "SetProperties": { "Passable": "T" }
+            },
+			// add warps
+			{
+                "Position": { "X": 82, "Y": 40 },
+                "Layer": "Back",
+                "SetProperties": { "TouchAction": "Warp Town 111 1" }
+            },
+			{
+                "Position": { "X": 83, "Y": 40 },
+                "Layer": "Back",
+                "SetProperties": { "TouchAction": "Warp Town 112 1" }
+            },
+			{
+                "Position": { "X": 84, "Y": 40 },
+                "Layer": "Back",
+                "SetProperties": { "TouchAction": "Warp Town 113 1" }
+            },
+			{
+                "Position": { "X": 85, "Y": 40 },
+                "Layer": "Back",
+                "SetProperties": { "TouchAction": "Warp EastScarp_Village 3 1" }
+            },
+			{
+                "Position": { "X": 86, "Y": 40 },
+                "Layer": "Back",
+                "SetProperties": { "TouchAction": "Warp EastScarp_Village 4 1" }
+			},
+        ],
+	}
+  ]
+}
+	

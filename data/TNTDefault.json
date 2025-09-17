@@ -12,6 +12,17 @@
 		"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
 		"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
 	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"FromFile": "assets/maps/ImproveTownALittle.tmx",
+		"FromArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+		"ToArea": { "X": 6, "Y": 62, "Width": 16, "Height": 15 },
+		"Priority": "Late",
+		"When": {
+			"HasMod": "Tikamin557.CP.ImproveTownALittle",
+		}
+	},
 		// day/night tiles and lighting
 	{
         "Action": "EditMap",
@@ -43,7 +54,7 @@
         "Action": "EditMap",
         "Target": "Maps/Town-Halloween",
 		"When": {
-			"{{FestivalMapEdits}}": true
+			"Festival_Map_Edits": true
 		},
 		"TextOperations": [
 		{
@@ -58,7 +69,7 @@
         "Action": "EditMap",
         "Target": "Maps/Town-Halloween2",
 		"When": {
-			"{{FestivalMapEdits}}": true
+			"Festival_Map_Edits": true
 		},
 		"TextOperations": [
 		{

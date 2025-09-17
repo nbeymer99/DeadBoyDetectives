@@ -8,15 +8,23 @@
 		},
 		"Festival_Map_Edits": {
 			"AllowValues": "true, false",
-			"Default": "true"
+			"Default": "true",
+			"Section": "Map Patches",
 		},
 		"TNT_Location": {
 			"AllowValues": "AutoDetect, TownSquare, Cliffside",
-			"Default": "AutoDetect"
+			"Default": "AutoDetect",
+			"Section": "Map Patches",
 		},
 		"Docks_Location": {
 			"AllowValues": "AutoDetect, Top, Bottom",
-			"Default": "AutoDetect"
+			"Default": "AutoDetect",
+			"Section": "Map Patches",
+		},
+		"FinchHouse_Location": {
+			"AllowValues": "Default, Mines",
+			"Default": "Default",
+			"Section": "Map Patches",
 		}
 	},
 
@@ -200,7 +208,21 @@
 			"When": { // default
 				"Query: ({{TNT_Location |contains=AutoDetect}} AND NOT {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=TownSquare}}": true,
 			}
-		}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/FinchHouseDefault.json",
+			"When": {
+				"FinchHouse_Location": "Default",
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/FinchHouseAlternate.json",
+			"When": {
+				"FinchHouse_Location": "Mines",
+			}
+		},
     ],
 	
 	// Dynamic Tokens
