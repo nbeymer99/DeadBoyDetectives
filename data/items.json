@@ -85,7 +85,8 @@
 				"Category": -80,
 				"Price": "2500000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
-				"SpriteIndex": 0
+				"SpriteIndex": 0,
+				"ContextTags": [ "experimental_planter_banned" ]
 			},
 
 			

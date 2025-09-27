@@ -2210,7 +2210,7 @@
  </layer>
  <layer id="7" name="Buildings" width="7" height="8">
   <data encoding="base64" compression="zlib">
-   eJzTZGBgiGRkgINdUHY8kHYC0kVAOh0qtw/IvgjEO4F4OpC/F0nfGyD7FRBfAuKrQHwNSY6ViYGBGYhfA8XeAfF7JDk5oLgMELMAMTsQczAxYACQvAIQK2KRIwQAf7wORA==
+   eJzTZGBgiGRkgINdUHY8kHYC0kVIcvuA7ItAvBOIpwP5e5Hk3gDZr4D4EhBfBeJrSHKsTAwMzED8Gij2DojfI8nJAcVlgJgFiNmBmIOJAQOA5BWAWBGLHCEAADQYDd0=
   </data>
  </layer>
  <layer id="9" name="Buildings2" width="7" height="8">

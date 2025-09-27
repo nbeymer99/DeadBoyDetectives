@@ -1,0 +1,76 @@
+{
+	"Changes": [
+	{
+       	"LogName": "Esther Base Portraits",
+       	"Action": "Load",
+       	"Target": "Portraits/EstherFinch",
+       	"FromFile": "assets/characters/zzminorCharacters/Esther.png",
+   	},	
+	{
+        "LogName": "Base Sprites",
+        "Action": "Load",
+        "Target": "Characters/EstherFinch",
+        "FromFile": "assets/characters/zzminorCharacters/EstherFinch_sprites.png",
+   	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"EstherFinch": {
+				"DisplayName": "Esther",
+                "Gender": "Female",
+                "Manner": "Rude",
+                "SocialAnxiety": "Neutral",
+                "Optimism": "Negative",
+				"Breather": "true",
+					
+				// Relationships and Social
+				"CanSocialize": false,
+				"Calendar": "HiddenAlways",
+				"SocialTab": "HiddenUntilMet",
+				"IntroductionsQuest": false,
+				
+				"FriendsAndFamily": {
+					"MontyFinch": "",
+                },
+				
+				"Home": [
+					{
+						"ID": "Default",
+						"Location": "{{ModId}}_FinchHouseAttic",
+						"Tile": { "X": 9, "Y": 9 },
+						"Direction": "down",
+					}
+				],
+			}
+		}
+	},
+	/* // include schedules
+	{
+		"LogName": "EstherFinchSchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_schedule.json"
+	},
+	
+	// include Strings
+	{
+		"LogName": "EstherFinchStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_Strings.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "EstherFinchAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_animations.json"
+	},
+	
+	// include dialogue
+	{
+		"LogName": "EstherFinchDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_dialogue.json"
+	} */
+  ]
+}
