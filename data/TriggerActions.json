@@ -151,7 +151,7 @@
 				"Trigger": "Manual",
 				"Actions": [
 					"spacechase0.SpaceCore_PlaySound leafrustle true",
-					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalVoid 22 26 2"
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalVoid 16 14 2"
 				]
 			},
 			

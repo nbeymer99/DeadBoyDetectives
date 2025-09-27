@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="13">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="13">
  <properties>
   <property name="AmbientLight" value="120 140 30"/>
   <property name="DayTiles" value=""/>
@@ -32,7 +32,7 @@
  <tileset firstgid="2241" name="v15_townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
   <image source="townInterior_2" width="512" height="656"/>
  </tileset>
- <layer id="1" name="Back" width="15" height="20">
+ <layer id="1" name="Back" width="15" height="19">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,301,302,302,302,302,302,302,303,0,0,0,
@@ -52,11 +52,10 @@
 0,0,0,0,0,0,0,999,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,1715,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="2" name="Back2" width="15" height="20">
+ <layer id="2" name="Back2" width="15" height="19">
   <properties>
    <property name="Draw" value="Back"/>
   </properties>
@@ -79,11 +78,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="Buildings" width="15" height="20">
+ <layer id="3" name="Buildings" width="15" height="19">
   <data encoding="csv">
 3065,3065,3065,3065,2,3,3,3,3,3,3,4,3065,3065,3065,
 3065,3065,3065,16,42,0,0,0,0,1591,1290,44,17,3065,3065,
@@ -103,11 +101,10 @@
 3065,3065,3065,3065,3065,3065,65,0,69,3065,3065,3065,3065,3065,3065,
 3065,3065,3065,3065,3065,3065,2147483779,0,131,3065,3065,3065,3065,3065,3065,
 3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,
-3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,
 3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065,3065
 </data>
  </layer>
- <layer id="14" name="Buildings2" width="15" height="20">
+ <layer id="14" name="Buildings2" width="15" height="19">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -127,11 +124,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="Front" width="15" height="20">
+ <layer id="4" name="Front" width="15" height="19">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -151,11 +147,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,166,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="Front2" width="15" height="20">
+ <layer id="5" name="Front2" width="15" height="19">
   <properties>
    <property name="Draw" value="Front"/>
   </properties>
@@ -178,11 +173,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="Paths" width="15" height="20" visible="0">
+ <layer id="6" name="Paths" width="15" height="19" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,2185,0,0,0,0,
@@ -197,7 +191,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,2185,2185,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

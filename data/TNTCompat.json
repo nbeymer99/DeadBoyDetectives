@@ -1,9 +1,13 @@
 {
 	"Changes": [
+	// vanilla
 	{
         "Action": "Load",
         "Target": "Maps/{{ModId}}_Roof",
-        "FromFile": "assets/maps/Roof_Cliffside.tmx"
+        "FromFile": "assets/maps/Roof_Cliffside.tmx",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+		}
     },
 	{
 		"Action": "EditMap",
@@ -11,8 +15,32 @@
 		"FromFile": "assets/maps/TongueAndTail.tmx",
 		"FromArea": { "X": 4, "Y": 40, "Width": 14, "Height": 15 }, 
 		"ToArea": { "X": 4, "Y": 40, "Width": 14, "Height": 15 }, 
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+		}
+	},
+	
+	// SVE
+	{
+        "Action": "Load",
+        "Target": "Maps/{{ModId}}_Roof",
+        "FromFile": "assets/maps/Roof_Cliffside_SVE.tmx", // not made yet
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP"
+		}
+    },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"FromFile": "assets/maps/TNT_Cliff_SVE.tmx",
+		"FromArea": { "X": 4, "Y": 40, "Width": 14, "Height": 15 }, 
+		"ToArea": { "X": 4, "Y": 40, "Width": 14, "Height": 15 }, 
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP"
+		}
 	},
 	{
+		// applies for both SVE and vanilla
         "Action": "EditMap",
         "Target": "Maps/Town",
 		"TextOperations": [

@@ -28,7 +28,7 @@
 		"When": {
 			"HasMod": "LemurKat.EastScarpe.CP",
 		},
-		"FromFile": "MontyHouseExterior_ES.tmx",
+		"FromFile": "assets/maps/MontyHouseExterior_ES.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 2 },
 		"ToArea": { "X": 80, "Y": 39, "Width": 6, "Height": 2 }
 	},

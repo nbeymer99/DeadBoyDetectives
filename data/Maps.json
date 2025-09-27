@@ -66,11 +66,11 @@
 				"HasSeenEvent |contains={{ModId}}_Seance2": false,
 			}
 		},
-		{
+/* 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_CrystalAndNiko_Ruins",
             "FromFile": "assets/maps/CrystalAndNiko_Ruins.tmx"
-        },
+        }, */
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_SeanceMap",
@@ -153,21 +153,21 @@
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Ruins",
 			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
-			"FromArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 },
+			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
 		},
 		{
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Refurbished",
 			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
-			"FromArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 },
+			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
 		},
 		{
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Joja",
 			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
-			"FromArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 },
+			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
 		},
 		{

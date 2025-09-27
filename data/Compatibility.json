@@ -5,7 +5,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_Lighthouse",
 		"FromFile": "assets/maps/Lighthouse_SVE.tmx",
-		"FromArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
+		"FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 5 },
 		"ToArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
 		"When": {
 			"HasMod": "FlashShifter.StardewValleyExpandedCP",
@@ -47,7 +47,7 @@
 				},
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "Warp 22 26 handwrittenhello.dbda_CrystalVoid"
+					"Action": "Warp 16 14 handwrittenhello.dbda_CrystalVoid"
 				},
 			},
 		],
@@ -83,8 +83,8 @@
 		"MapTiles": [
 			{
 				"Position": {
-					"X": 22,
-					"Y": 25
+					"X": 16,
+					"Y": 13
 				},
 				"Layer": "Buildings",
 				"SetProperties": {
@@ -187,7 +187,6 @@
 		}
 	},
 	
-	// Improve Town A Little - see TNTDefault.json
 	
 	// Disable Everbloom stuff
 	{
