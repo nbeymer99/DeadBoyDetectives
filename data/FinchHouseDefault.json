@@ -2,8 +2,12 @@
 	"Changes": [
 	// vanilla
 	{
+		"LogName": "Vanilla",
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false, 
+		},
 		"FromFile": "assets/maps/MontyHouseExterior.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 15 },
 		"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
@@ -11,6 +15,7 @@
 	
 	// SVE 
 	{
+		"LogName": "SVE",
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"When": {
@@ -20,139 +25,84 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 15 },
 		"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 }
 	},
-	
-	// ES Warps - non SVE
 	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_FinchHouseInt",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
+		},
+		"MapProperties": {
+			"Warp": "11 29 Mountain 87 36 9 16 handwrittenhello.dbda_FinchAttic 7 11"
+		}
+		
+	},
+	// East Scarp 
+	{
+		"LogName": "ES map patch",
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"When": {
-			"HasMod": "LemurKat.EastScarpe.CP",
+			"HasMod |contains=LemurKat.EastScarpe.CP": true,
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 		},
 		"FromFile": "assets/maps/MontyHouseExterior_ES.tmx",
-		"FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 2 },
-		"ToArea": { "X": 80, "Y": 39, "Width": 6, "Height": 2 }
+		"FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 2 },
+		"ToArea": { "X": 80, "Y": 39, "Width": 12, "Height": 2 }
 	},
-	
-	// ES Warps - SVE
 	{
+		"LogName": "ES warps",
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"When": {
-			"HasMod": "FlashShifter.StardewValleyExpandedCP",
-			"HasMod": "LemurKat.EastScarpe.CP",
+			"HasMod |contains=LemurKat.EastScarpe.CP": true,
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 		},
-		"MapTiles": [
-			// get rid of treetops
-            {
-                "Position": { "X": 83, "Y": 39 },
-                "Layer": "AlwaysFront2",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 82, "Y": 40 },
-                "Layer": "AlwaysFront2",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 83, "Y": 40 },
-                "Layer": "AlwaysFront2",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 84, "Y": 40 },
-                "Layer": "AlwaysFront2",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 85, "Y": 38 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 84, "Y": 39 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 85, "Y": 39 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 86, "Y": 39 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 84, "Y": 40 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 85, "Y": 40 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-			{
-                "Position": { "X": 86, "Y": 40 },
-                "Layer": "AlwaysFront",
-				"SetIndex": 20,
-            },
-				
-			// make invisible tiles passable
-			{
-                "Position": { "X": 82, "Y": 40 },
-                "Layer": "Buildings",
-                "SetProperties": { "Passable": "T" }
-            },
-			{
-                "Position": { "X": 83, "Y": 40 },
-                "Layer": "Buildings",
-                "SetProperties": { "Passable": "T" }
-            },
-			{
-                "Position": { "X": 84, "Y": 40 },
-                "Layer": "Buildings",
-                "SetProperties": { "Passable": "T" }
-            },
-			{
-                "Position": { "X": 85, "Y": 40 },
-                "Layer": "Buildings",
-                "SetProperties": { "Passable": "T" }
-            },
-			{
-                "Position": { "X": 86, "Y": 40 },
-                "Layer": "Buildings",
-                "SetProperties": { "Passable": "T" }
-            },
-			// add warps
-			{
-                "Position": { "X": 82, "Y": 40 },
-                "Layer": "Back",
-                "SetProperties": { "TouchAction": "Warp Town 111 1" }
-            },
-			{
-                "Position": { "X": 83, "Y": 40 },
-                "Layer": "Back",
-                "SetProperties": { "TouchAction": "Warp Town 112 1" }
-            },
-			{
-                "Position": { "X": 84, "Y": 40 },
-                "Layer": "Back",
-                "SetProperties": { "TouchAction": "Warp Town 113 1" }
-            },
-			{
-                "Position": { "X": 85, "Y": 40 },
-                "Layer": "Back",
-                "SetProperties": { "TouchAction": "Warp EastScarp_Village 3 1" }
-            },
-			{
-                "Position": { "X": 86, "Y": 40 },
-                "Layer": "Back",
-                "SetProperties": { "TouchAction": "Warp EastScarp_Village 4 1" }
-			},
-        ],
-	}
+		"AddWarps": [
+			"87 41 EastScarp_Village 3 1",
+			"88 41 EastScarp_Village 4 1"
+		]
+	},
+	
+	// SVE + AQ
+	{
+		"LogName": "AQ+SVE",
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"PatchMode": "Replace",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+			"HasMod": "Aimon111.MoreLivelyQuarryOverhaul", 
+		},
+		"FromFile": "assets/maps/MontyHouseExterior_SVE+AQ.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 15 },
+		"ToArea": { "X": 74, "Y": 26, "Width": 22, "Height": 15 },
+	},
+	// ES + SVE
+	{
+		"LogName": "ES+SVE",
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasMod |contains=LemurKat.EastScarpe.CP": true
+		},
+		"FromFile": "assets/maps/MontyHouseExterior_ES+SVE.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 2 },
+		"ToArea": { "X": 81, "Y": 39, "Width": 12, "Height": 2 },
+	},
+	{
+		"LogName": "ES warps",
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod |contains=LemurKat.EastScarpe.CP": true,
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"AddWarps": [
+			"89 41 EastScarp_Village 3 1",
+			"88 41 EastScarp_Village 4 1"
+		]
+	},
   ]
 }
 	

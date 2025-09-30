@@ -1,5 +1,37 @@
 {
 	"Changes": [
+	{
+		// untested
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_TerrainReset_TNTCliff": {
+				"Id": "{{ModId}}_TerrainReset_TNT",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 9 62 11 11",
+				]
+			},
+		}
+	},
+	{
+		// untested
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_TerrainReset_TNTCliff2": {
+				"Id": "{{ModId}}_TerrainReset_TNTCliff2",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 7 41 11 11",
+				]
+			},
+		}
+	},
 	// vanilla
 	{
         "Action": "Load",
@@ -24,7 +56,7 @@
 	{
         "Action": "Load",
         "Target": "Maps/{{ModId}}_Roof",
-        "FromFile": "assets/maps/Roof_Cliffside_SVE.tmx", // not made yet
+        "FromFile": "assets/maps/Roof_Cliffside_SVE.tmx", 
 		"When": {
 			"HasMod": "FlashShifter.StardewValleyExpandedCP"
 		}
@@ -67,11 +99,48 @@
 	  ]
 	},
 	{
+        "Action": "EditMap",
+        "Target": "Maps/{{ModId}}_Roof",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "NightTiles"],
+			"Value": "AlwaysFront 15 49 11 AlwaysFront 16 49 12 AlwaysFront 15 50 24 AlwaysFront 16 50 25 AlwaysFront 15 51 37 AlwaysFront 16 51 38",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "DayTiles"],
+			"Value": "AlwaysFront 15 49 50 AlwaysFront 16 49 51 AlwaysFront 15 50 63 AlwaysFront 16 50 64 AlwaysFront 15 51 76 AlwaysFront 16 51 77",
+			"Delimiter": " "
+		},
+			
+		{
+			"Operation": "Append",
+			"Target": ["MapProperties", "spacechase0.SpaceCore_ColoredLights"],
+			"Value": "15 49 4 1 50 255 255 16 49 4 1 50 255 255 15 50 4 1 50 255 255 16 50 4 1 50 255 255 16 51 4 1 50 255 255",
+			"Delimiter": " "
+		},
+	  ]
+	},
+	{
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_TNTInterior",
 		"MapProperties": {
 			"Warp": "13 30 Town 9 52 14 30 Town 10 52 12 16 handwrittenhello.dbda_CrystalAndNiko 25 24"
 		}
+	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_CrystalAndNiko",
+		"MapTiles": [
+		{
+			"Position": { "X": 25, "Y": 13 },
+            "Layer": "Buildings",
+			"SetProperties": { "Action": "Warp 9 44 handwrittenhello.dbda_Roof" }
+		}
+	  ]
 	}
   ]
 }

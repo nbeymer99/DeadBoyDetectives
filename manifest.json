@@ -1,7 +1,7 @@
 {
     "Name": "Dead Boy Detectives",
     "Author": "handwrittenhello",
-    "Version": "1.2.5",
+    "Version": "1.3.0",
     "Description": "A fanmade expansion based on Netflix's Dead Boy detectives.",
     "UniqueID": "handwrittenhello.dbda",
     "UpdateKeys": [ "Nexus:31888", "Github:nbeymer99/DeadBoyDetectives"],
@@ -29,5 +29,5 @@
 			"UniqueID": "LemurKat.EastScarpe.CP",
 			"IsRequired": false
 		}
-		]
+	]
 }

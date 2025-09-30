@@ -3,8 +3,8 @@
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="AmbientNightLight" value="150 150 30"/>
-  <property name="DayTiles" value="Buildings 12 8 288 Buildings 13 8 288 Buildings 18 8 288 Buildings 12 7 256 Buildings 13 7 256 Buildings 18 7 256 Buildings 31 8 288 Buildings 32 8 288 Buildings 37 8 288 Buildings 38 8 288 Buildings 31 7 256 Buildings 32 7 256 Buildings 37 7 256 Buildings 38 7 256 Front2 31 9 480 Front2 38 11 480 Front2 31 17 480 Front2 37 18 480 Buildings 23 20 1344 Buildings 27 20 1344 Buildings 25 12 38 Buildings 25 13 70"/>
-  <property name="NightTiles" value="Buildings 12 8 1285 Buildings 13 8 1285 Buildings 18 8 1285 Buildings 12 7 1253 Buildings 13 7 1253 Buildings 18 7 1253 Buildings 31 8 1285 Buildings 32 8 1285 Buildings 37 8 1285 Buildings 38 8 1285 Buildings 31 7 1253 Buildings 32 7 1253 Buildings 37 7 1253 Buildings 38 7 1253 Front2 31 9 551 Front2 38 11 551 Front2 31 17 551 Front2 37 18 551 Buildings 23 20 1345 Buildings 27 20 1345 Buildings 25 12 39 Buildings 25 13 71"/>
+  <property name="DayTiles" value="Buildings 12 8 288 Buildings 13 8 288 Buildings 18 8 288 Buildings 12 7 256 Buildings 13 7 256 Buildings 18 7 256 Buildings 31 8 288 Buildings 32 8 288 Buildings 37 8 288 Buildings 38 8 288 Buildings 31 7 256 Buildings 32 7 256 Buildings 37 7 256 Buildings 38 7 256 Front2 31 9 480 Front2 38 11 480 Front2 31 17 1344 Front2 37 18 480 Buildings 23 20 1344 Buildings 27 20 1344 Buildings 25 12 38 Buildings 25 13 70"/>
+  <property name="NightTiles" value="Buildings 12 8 1285 Buildings 13 8 1285 Buildings 18 8 1285 Buildings 12 7 1253 Buildings 13 7 1253 Buildings 18 7 1253 Buildings 31 8 1285 Buildings 32 8 1285 Buildings 37 8 1285 Buildings 38 8 1285 Buildings 31 7 1253 Buildings 32 7 1253 Buildings 37 7 1253 Buildings 38 7 1253 Front2 31 9 809 Front2 38 11 809 Front2 31 17 1345 Front2 37 18 809 Buildings 23 20 1345 Buildings 27 20 1345 Buildings 25 12 39 Buildings 25 13 71"/>
   <property name="Warp" value="25 25 handwrittenhello.dbda_TongueAndTail 12 17"/>
   <property name="WindowLight" value="12 8 2 13 8 2 18 8 2 19 8 2 31 8 2 32 8 2 37 8 2 38 8 2"/>
  </properties>
@@ -202,7 +202,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,3065,3035,3067,3165,3165,3068,0,0,3035,3067,3067,3067,3068,3069,0,0,0,0,0,3065,3035,3067,3165,3165,3068,0,0,3035,3067,3067,3067,3068,3069,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,855,0,0,0,0,0,0,0,0,0,0,810,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,855,0,0,0,0,0,0,0,0,0,0,1346,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,810,0,0,368,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

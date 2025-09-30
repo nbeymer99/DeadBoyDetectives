@@ -101,6 +101,11 @@
             "Target": "Maps/{{ModId}}_FinchAttic",
             "FromFile": "assets/maps/FinchAttic.tmx"
         },
+		{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_MountainPass",
+		"FromFile": "assets/maps/MontyHouseExterior_Alternate.tmx",
+	},
 		
 		// RECOLORS
 		{

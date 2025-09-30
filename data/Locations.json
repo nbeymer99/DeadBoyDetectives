@@ -286,6 +286,17 @@
 					},
 				},
 				
+				"{{ModId}}_MountainPass": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_MountainPass"
+					},
+					//"DisplayName": "{{i18n:LocationDisplayName.MontyMountain.DisplayName}}",
+					"DefaultArrivalTile": {
+						"X": 15,
+						"Y": 23,
+					},
+				},
+				
 				"{{ModId}}_DeadBoyAgencyCauldron": {
                     "CreateOnLoad": { 
                         "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"

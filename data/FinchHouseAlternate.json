@@ -1,34 +1,18 @@
 {
 	"Changes": [
 	// vanilla
-	{
-		"Action": "Load",
-		"Target": "Maps/{{ModId}}_MountainPass",
-		"FromFile": "assets/maps/MontyHouseExterior_Alternate.tmx",
-	},
-	{
-		"Action": "EditData",
-        "Target": "Data/Locations",
-        "Entries": {
-            "{{ModId}}_MountainPass": {
-                "CreateOnLoad": {
-                    "MapPath": "Maps/{{ModId}}_MountainPass"
-                },
-				//"DisplayName": "{{i18n:LocationDisplayName.MontyMountain.DisplayName}}",
-				"DefaultArrivalTile": {
-					"X": 15,
-					"Y": 23,
-				},
-            },
-		}
-	},
+
 	{
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"FromFile": "assets/maps/MountainPass.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 7 },
-		"ToArea": { "X": 56, "Y": 0, "Width": 6, "Height": 7 }
+		"ToArea": { "X": 56, "Y": 0, "Width": 6, "Height": 7 },
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
 	},
+	
 	{
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_FinchHouseInt",
@@ -36,11 +20,14 @@
 			"Warp": "11 29 {{ModId}}_MountainPass 18 17 9 16 handwrittenhello.dbda_FinchAttic 7 11"
 		}
 	},
-	{
+	/* {
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
-		"AddWarps": [ "58 0 {{ModId}}_MountainPass 19 25", "59 0 {{ModId}}_MountainPass 20 25" ]
-	},
+		"AddWarps": [ "58 0 {{ModId}}_MountainPass 19 25", "59 0 {{ModId}}_MountainPass 20 25" ],
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+	}, */
 	
 	// SVE
 	{
@@ -53,5 +40,15 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 8 },
 		"ToArea": { "X": 55, "Y": 0, "Width": 7, "Height": 8 }
 	},
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_MountainPass",
+		"MapProperties": {
+			"Warp": "19 27 Mountain 57 1 20 27 Mountain 58 1"
+		},
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
+		},
+	}
   ]
 }	
