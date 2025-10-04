@@ -25,6 +25,8 @@
 			"winter_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1130 Mountain 82 22 2 square_5_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2130 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
 			"winter_Fri": "0800 Mountain 82 22 2 square_5_5/1300 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1830 Saloon 38 19 2/a2400 bed",
 			
+			"winter_15": "0730 ArchaeologyHouse 18 12 2 niko_read/1130 Mountain 82 22 2 square_5_5/a1800 Beach 46 11 2 \"Strings\\schedules\\NikoSasaki:NightMarket.000\"",
+			
 			}
 		}
 	]

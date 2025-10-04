@@ -1,0 +1,11 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/EstherFinch",
+		"Entries": {
+			"spring": "0800 {{ModId}}_FinchAttic 6 9",
+		}
+	},
+  ]
+}

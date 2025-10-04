@@ -113,7 +113,7 @@
 					"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 7,
-						"Y": 11,
+						"Y": 16,
 					},
                 },
 				
@@ -290,7 +290,7 @@
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_MountainPass"
 					},
-					//"DisplayName": "{{i18n:LocationDisplayName.MontyMountain.DisplayName}}",
+					"DisplayName": "{{i18n:LocationDisplayName.MountainPass.DisplayName}}",
 					"DefaultArrivalTile": {
 						"X": 15,
 						"Y": 23,

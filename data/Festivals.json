@@ -12,7 +12,7 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-   				    "Value": "CharlesRowland 16 74 right/EdwinPayne 18 74 left/CrystalPalace 17 75 up",
+   				    "Value": "CharlesRowland 16 74 right/EdwinPayne 18 74 left/CrystalPalace 17 75 up/EstherFinch 33 80 down/MontyFinch 31 78 left/CatKing 38 71 left/JennyButcher 38 62 down",
    				    "Delimiter": "/"
 				},
 				
@@ -20,7 +20,7 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "MainEvent_additionalCharacters"],
-   				    "Value": "CharlesRowland 16 74 down/EdwinPayne 18 74 down/CrystalPalace 17 75 down",
+   				    "Value": "CharlesRowland 16 74 down/EdwinPayne 18 74 down/CrystalPalace 17 75 down/EstherFinch 33 80 down/MontyFinch 31 78 down/CatKing 38 71 down/JennyButcher 38 62 down",
    				    "Delimiter": "/"
 				},
 			],
@@ -60,9 +60,10 @@
 				"EdwinPayne": "{{i18n:Festivals.EggFestival.EdwinPayne}}",
 				"CrystalPalace": "{{i18n:Festivals.EggFestival.CrystalPalace}}",
 				"NikoSasaki": "{{i18n:Festivals.EggFestival.NikoSasaki}}",
-				"MontyFinch": "", // not done
+				"MontyFinch": "{{i18n:Festivals.EggFestival.MontyFinch}}",
 				"CatKing": "{{i18n:Festivals.EggFestival.CatKing}}",
 				"EstherFinch": "{{i18n:Festivals.EggFestival.EstherFinch}}",
+				"JennyButcher": "{{i18n:Festivals.EggFestival.JennyButcher}}",
 			},
 		},
 		{	
@@ -75,7 +76,7 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-   				    "Value": "CharlesRowland 25 29 left/EdwinPayne 25 28 left/CrystalPalace 24 27 down",
+   				    "Value": "CharlesRowland 25 29 left/EdwinPayne 25 28 left/CrystalPalace 24 27 down/MontyFinch 41 43 down/EstherFinch 42 43 down/CatKing 5 38 right",
    				    "Delimiter": "/"
 				},
 				
@@ -83,7 +84,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
-					"Value": "EdwinPayne 17 32 up/CharlesRowland 18 32 up/CrystalPalace 19 32 up",
+					"Value": "EdwinPayne 17 32 up/CharlesRowland 18 32 up/CrystalPalace 19 32 up/MontyFinch 10 35 up/EstherFinch 42 43 down/CatKing 5 38 up",
 					"Delimiter": "/"
 				},
 			],
@@ -138,14 +139,14 @@
 				{
    				    "Operation": "Append",
    				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-   				    "Value": "CharlesRowland 52 11 down/EdwinPayne 53 11 down/CrystalPalace 51 12 right",
+   				    "Value": "CharlesRowland 52 11 down/EdwinPayne 53 11 down/CrystalPalace 51 12 right/CatKing 33 19 up/MontyFinch 54 12 right",
    				    "Delimiter": "/"
 				},
 				//MainEvent - during the actual tasting
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 41 10 left/EdwinPayne 41 11 left/CrystalPalace 41 12 left",
+					"Value": "CharlesRowland 41 10 left/EdwinPayne 41 11 left/CrystalPalace 41 12 left/CatKing 33 19 up/MontyFinch 54 12 left",
 					"Delimiter": "/"
 				},
 			],
@@ -201,7 +202,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 25 36 down/EdwinPayne 26 36 down/CrystalPalace 13 32 right",
+					"Value": "CharlesRowland 25 36 down/EdwinPayne 26 36 down/CrystalPalace 13 32 right/EstherFinch 28 4 down/CatKing 90 17 right",
 					"Delimiter": "/"
 				},
 				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
@@ -249,7 +250,7 @@
 				"EdwinPayne": "{{i18n:Festivals.MoonlightJellies.EdwinPayne}}",
 				"CrystalPalace": "{{i18n:Festivals.MoonlightJellies.CrystalPalace2}}",
 				"NikoSasaki": "{{i18n:Festivals.MoonlightJellies.NikoSasaki}}",
-				"MontyFinch": "{{i18n:Festivals.MoonlightJellies.MontyFinch}}",
+				"MontyFinch": "{{i18n:Festivals.MoonlightJellies.MontyFinch}}", // unused
 				"CatKing": "{{i18n:Festivals.MoonlightJellies.CatKing}}",
 				"EstherFinch": "{{i18n:Festivals.MoonlightJellies.EstherFinch}}",
 
@@ -278,14 +279,14 @@
 				//SetUp (non-SVE) - I don't believe there is a "main event" one for this
 				{
 					"Operation": "Append",
-					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "CharlesRowland 44 89 down/EdwinPayne 43 90 right/CrystalPalace 45 89 down/NikoSasaki 46 90 left",
+					"Target": ["Entries", "Set-Up_additionalCharacters"], // why was niko here?
+					"Value": "CharlesRowland 44 89 down/EdwinPayne 43 90 right/CrystalPalace 45 89 down/MontyFinch 67 67 left/EstherFinch 54 71 down/CatKing 20 37 right/JennyButcher 30 31 down",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
-					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-					"Value": "CharlesRowland 49 89 down/EdwinPayne 49 90 up/CrystalPalace 48 90 down/NikoSasaki 48 91 up",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"], // why was niko here?
+					"Value": "CharlesRowland 49 89 down/EdwinPayne 49 90 up/CrystalPalace 48 90 down/JennyButcher 58 65 right/CatKing 67 69 left/MontyFinch 15 31 down/EstherFinch 52 57 down",
 					"Delimiter": "/"
 				},
 			],
@@ -300,8 +301,8 @@
 			[
 				{
 					"Operation": "Append",
-					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 49 93 down/EdwinPayne 50 94 left/CrystalPalace 48 94 right/NikoSasaki 49 95 up",
+					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"], 
+					"Value": "CharlesRowland 49 93 down/EdwinPayne 50 94 left/CrystalPalace 48 94 right/JennyButcher 24 22 right/CatKing 33 25 left/EstherFinch 53 62 down/MontyFinch 68 68 left",
 					"Delimiter": "/"
 				},
 			],
@@ -346,7 +347,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 49 93 down/EdwinPayne 50 94 left/CrystalPalace 48 94 right/NikoSasaki 49 95 up",
+					"Value": "NikoSasaki 49 95 up",
 					"Delimiter": "/"
 				},
 			],
@@ -363,6 +364,7 @@
 				"MontyFinch": "{{i18n:Festivals.Fair.MontyFinch}}",
 				"CatKing": "{{i18n:Festivals.Fair.CatKing}}",
 				"EstherFinch": "{{i18n:Festivals.Fair.EstherFinch}}",
+				"JennyButcher": "{{i18n:Festivals.Fair.JennyButcher}}",
 			},
 		},
 		{	
@@ -378,7 +380,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 18 12 right/EdwinPayne 19 12 left/CrystalPalace 28 72 left",
+					"Value": "CharlesRowland 18 12 right/EdwinPayne 19 12 left/CrystalPalace 28 72 left/MontyFinch 26 63 down/EstherFinch 41 14 down/CatKing 23 72 right/JennyButcher 26 69 down",
 					"Delimiter": "/"
 				},
 			],
@@ -394,13 +396,13 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "CharlesRowland 71 27 down/EdwinPayne 72 27 down/CrystalPalace 42 86 right",
+					"Value": "CharlesRowland 71 27 down/EdwinPayne 72 27 down/CrystalPalace 42 86 right/MontyFinch 26 63 down/EstherFinch 46 36 down/CatKing 23 72 right/JennyButcher 26 69 down",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-					"Value": "CharlesRowland 28 13 right/EdwinPayne 30 13 left/CrystalPalace 28 71 left",
+					"Value": "CharlesRowland 28 13 right/EdwinPayne 30 13 left/CrystalPalace 28 71 left/MontyFinch 26 63 right/EstherFinch 55 36 down/CatKing 27 72 up/JennyButcher 26 68 down",
 					"Delimiter": "/"
 				},
 			],
@@ -462,6 +464,7 @@
 				"MontyFinch": "{{i18n:Festivals.Halloween.MontyFinch}}",
 				"CatKing": "{{i18n:Festivals.Halloween.CatKing}}",
 				"EstherFinch": "{{i18n:Festivals.Halloween.EstherFinch}}",
+				"JennyButcher": "{{i18n:Festivals.Halloween.JennyButcher}}",
 			},
 		},
 		{	
@@ -475,26 +478,26 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters"],
-					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down",
+					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down/CatKing 55 10 down/MontyFinch 53 49 right",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down",
+					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down/CatKing 55 10 down/MontyFinch 53 49 right",
 					"Delimiter": "/"
 				},
 				//MainEvent - during the actual contest
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down",
+					"Value": "EdwinPayne 72 22 left/CrystalPalace 71 21 down/CatKing 55 10 down/MontyFinch 53 49 right",
 					"Delimiter": "/"
 				},
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters_y2"],
-					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down",
+					"Value": "EdwinPayne 70 23 left/CrystalPalace 69 22 down/CatKing 55 10 down/MontyFinch 53 49 right",
 					"Delimiter": "/"
 				},
 			],
@@ -510,14 +513,14 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left",
+					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left/CatKing 63 51 down/MontyFinch 80 50 left",
 					"Delimiter": "/"
 				},
 				//MainEvent - during the actual contest
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "MainEvent_additionalCharacters"],
-					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left",
+					"Value": "EdwinPayne 27 50 right/CrystalPalace 29 50 left/CatKing 64 52 left/MontyFinch 80 50 left",
 					"Delimiter": "/"
 				},
 			],
@@ -597,7 +600,7 @@
 				"NikoSasaki": "{{i18n:Festivals.Ice.NikoSasaki}}",
 				"MontyFinch": "{{i18n:Festivals.Ice.MontyFinch}}",
 				"CatKing": "{{i18n:Festivals.Ice.CatKing}}",
-				"EstherFinch": "{{i18n:Festivals.Ice.EstherFinch}}",
+				"EstherFinch": "{{i18n:Festivals.Ice.EstherFinch}}", // unused
 
 			},
 		},
@@ -611,7 +614,7 @@
 				{
 					"Operation": "Append",
 					"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-					"Value": "CharlesRowland 28 62 down/EdwinPayne 29 62 down/CrystalPalace 30 62 down",
+					"Value": "CharlesRowland 28 62 down/EdwinPayne 29 62 down/CrystalPalace 30 62 down/CatKing 20 46 down/MontyFinch 20 66 right/EstherFinch 52 57 down/JennyButcher 27 63 right",
 					"Delimiter": "/"
 				},
 			],
@@ -647,6 +650,7 @@
 				"MontyFinch": "{{i18n:Festivals.Christmas.MontyFinch}}",
 				"CatKing": "{{i18n:Festivals.Christmas.CatKing}}",
 				"EstherFinch": "{{i18n:Festivals.Christmas.EstherFinch}}",
+				"JennyButcher": "{{i18n:Festivals.Christmas.JennyButcher}}",
 
 			},
 		},

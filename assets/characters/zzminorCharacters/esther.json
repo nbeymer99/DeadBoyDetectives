@@ -10,7 +10,7 @@
         "LogName": "Base Sprites",
         "Action": "Load",
         "Target": "Characters/EstherFinch",
-        "FromFile": "assets/characters/zzminorCharacters/EstherFinch_sprites.png",
+        "FromFile": "assets/characters/zzminorCharacters/Esther_sprites.png",
    	},
 	{
 		"Action": "EditData",
@@ -37,40 +37,47 @@
 				"Home": [
 					{
 						"ID": "Default",
-						"Location": "{{ModId}}_FinchHouseAttic",
-						"Tile": { "X": 9, "Y": 9 },
+						"Location": "{{ModId}}_FinchAttic",
+						"Tile": { "X": 6, "Y": 14 },
 						"Direction": "down",
 					}
 				],
 			}
 		}
 	},
-	/* // include schedules
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"EstherFinch": "...//...//...//...//...//"
+		}
+	},
+	// include schedules
 	{
 		"LogName": "EstherFinchSchedule",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_schedule.json"
+		"FromFile": "assets/characters/zzminorCharacters/esther_schedule.json"
 	},
 	
-	// include Strings
+	/* // include Strings
 	{
 		"LogName": "EstherFinchStrings",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_Strings.json"
+		"FromFile": "assets/characters/zzminorCharacters/esther_Strings.json"
 	},
 	
 	// include animations
 	{
 		"LogName": "EstherFinchAnimations",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_animations.json"
+		"FromFile": "assets/characters/zzminorCharacters/esther_animations.json"
 	},
 	
 	// include dialogue
 	{
 		"LogName": "EstherFinchDialogue",
 		"Action": "Include",
-		"FromFile": "assets/characters/zzminorCharacters/EstherFinch_dialogue.json"
+		"FromFile": "assets/characters/zzminorCharacters/esther_dialogue.json"
 	} */
   ]
 }
