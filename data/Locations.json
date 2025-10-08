@@ -117,6 +117,14 @@
 					},
                 },
 				
+				"{{ModId}}_Graveyard": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_Graveyard"
+					},
+					"DisplayName": "Shallow Sound Cemetery", //i18n this
+					"DefaultArrivalTile": { "X": 2, "Y": 9 },
+				},
+				
                 "{{ModId}}_TragicMicks": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/{{ModId}}_TragicMicks"

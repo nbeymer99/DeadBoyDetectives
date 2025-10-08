@@ -1,0 +1,63 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Content/Data/Festivals/fall6",
+		"Entries": {
+			"name": "Lifting of the Veil",
+			"conditions": "{{ModId}}_Graveyard/0900 1700",
+			//"mainEvent": null // lighting the bonfire?
+			"shop": "O 628 6000 1 O 629 6000 1 O 630 6000 1 O 631 6000 1 O 632 6000 1 O 633 6000 1 BO 47 2000 4 BO 149 800 4 BBL 153 3000 1 BBL 74 800 1 BBL 72 600 1 BO 48 1000 8",
+			"set-up": "kindadumbautumn/-1000 -1000/farmer 2 9 1/changeToTemporaryMap GraveyardFestival/addTemporaryActor RandomGhost 16 32 x y z true Character Ghost1/addTemporaryActor RandomGhost 16 32 x y z true Character Ghost2/addTemporaryActor RandomGhost 16 32 x y z true Character Ghost3/addTemporaryActor RandomGhost 16 32 x y z true Character Ghost4/addTemporaryActor RandomGhost 16 32 x y z true Character Ghost5/addTemporaryActor RandomGhost 16 32 x y z true Character Ghost6/playerControl",
+			"Set-Up_additionalCharacters": "Elliott 8 7 right/Emily 11 7 left/Marlon 13 3 down/Pam 19 7 right/Leah 21 8 up/Linus 22 6 down/Wizard 28 3 down/Clint 30 9 down/George 33 13 left/Evelyn 33 14 left/Penny 32 15 up/Sebastian 29 18 down/Abigail 30 19 left/Sam 29 21 up/Jas 27 22 left/Vincent 25 22 right/Leo 26 23 up/Jodi 23 21 up/Caroline 23 19 down/Kent 22 20 right/Robin 14 22 left/Demetrius 12 22 right/Willy 13 23 up/Maru 9 22 up/Haley 8 21 right/Harvey 16 22 right/Alex 9 16 up/Shane 12 15 left/Marnie 11 11 down/Gus 9 11 down/Lewis 7 13 right/Pierre 3 5 down/EdwinPayne 18 18 down/CharlesRowland 19 18 down/CrystalPalace 20 19 left/NikoSasaki 17 19 right/MontyFinch 12 13 left/CatKing 20 50 down/JennyButcher 11 16 up/EstherFinch 32 11 down",
+			"startedMessage": "The Festival of the Beyond has begun at Shallow Sound Cemetery.",
+			//"MainEvent_additionalCharacters": null,
+			"locationDisplayName": "Shallow Sound Cemetery",
+			
+			// vanilla dialogue 
+			"Abigail": "{{i18n:Festivals.Dead.Abigail}}",
+			"Alex": "{{i18n:Festivals.Dead.Alex}}",
+			"Caroline": "{{i18n:Festivals.Dead.Caroline}}",
+			"Clint": "{{i18n:Festivals.Dead.Clint}}",
+			"Demetrius": "{{i18n:Festivals.Dead.Demetrius}}",
+			"Elliott": "{{i18n:Festivals.Dead.Elliott}}",
+			"Emily": "{{i18n:Festivals.Dead.Emily}}",
+			"Evelyn": "{{i18n:Festivals.Dead.Evelyn}}",
+			"George": "{{i18n:Festivals.Dead.George}}",
+			"Gus": "{{i18n:Festivals.Dead.Gus}}",
+			"Haley": "{{i18n:Festivals.Dead.Haley}}",
+			"Harvey": "{{i18n:Festivals.Dead.Harvey}}",
+			"Jas": "{{i18n:Festivals.Dead.Jas}}",
+			"Jodi": "{{i18n:Festivals.Dead.Jodi}}",
+			"Kent": "{{i18n:Festivals.Dead.Kent}}",
+			"Leah": "{{i18n:Festivals.Dead.Leah}}",
+			"Leo": "{{i18n:Festivals.Dead.Leo}}",
+			"Lewis": "{{i18n:Festivals.Dead.Lewis}}",
+			"Linus": "{{i18n:Festivals.Dead.Linus}}",
+			"Marlon": "{{i18n:Festivals.Dead.Marlon}}",
+			"Marnie": "{{i18n:Festivals.Dead.Marnie}}",
+			"Maru": "{{i18n:Festivals.Dead.Maru}}",
+			"Pam": "{{i18n:Festivals.Dead.Pam}}",
+			"Penny": "{{i18n:Festivals.Dead.Penny}}",
+			"Pierre": "{{i18n:Festivals.Dead.Pierre}}",
+			"Robin": "{{i18n:Festivals.Dead.Robin}}",
+			"Sam": "{{i18n:Festivals.Dead.Sam}}",
+			"Sebastian": "{{i18n:Festivals.Dead.Sebastian}}",
+			"Shane": "{{i18n:Festivals.Dead.Shane}}",
+			"Vincent": "{{i18n:Festivals.Dead.Vincent}}",
+			"Willy": "{{i18n:Festivals.Dead.Willy}}",
+			"Wizard": "{{i18n:Festivals.Dead.Wizard}}",
+			
+			// my NPC dialogue
+			"CatKing": "{{i18n:Festivals.Dead.CatKing}}",
+			"CharlesRowland": "{{i18n:Festivals.Dead.CharlesRowland}}",
+			"CrystalPalace": "{{i18n:Festivals.Dead.CrystalPalace}}",
+			"EdwinPayne": "{{i18n:Festivals.Dead.EdwinPayne}}",
+			"EstherFinch": "{{i18n:Festivals.Dead.EstherFinch}}",
+			"JennyButcher": "{{i18n:Festivals.Dead.JennyButcher}}",
+			"MontyFinch": "{{i18n:Festivals.Dead.MontyFinch}}",
+			"NikoSasaki": "{{i18n:Festivals.Dead.NikoSasaki}}",
+		}
+	}
+  ]
+}

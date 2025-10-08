@@ -102,10 +102,20 @@
             "FromFile": "assets/maps/FinchAttic.tmx"
         },
 		{
-		"Action": "Load",
-		"Target": "Maps/{{ModId}}_MountainPass",
-		"FromFile": "assets/maps/MontyHouseExterior_Alternate.tmx",
-	},
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_MountainPass",
+			"FromFile": "assets/maps/MontyHouseExterior_Alternate.tmx",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_Graveyard",
+			"FromFile": "assets/maps/Graveyard.tmx",
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModId}}_GraveyardFestival",
+			"FromFile": "assets/maps/GraveyardFestival.tmx",
+		},
 		
 		// RECOLORS
 		{
@@ -182,6 +192,14 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 10, "Height": 9 },
 			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 9 }			
 		},		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Railroad",
+			"FromFile": "assets/maps/Railroad_CemeteryEntrance.tmx",
+			"FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 7 },
+			"ToArea": { "X": 69, "Y": 51, "Width": 1, "Height": 7 },
+			"AddWarps": [ "70 56 {{ModId}}_Graveyard 0 8", "70 57 {{ModId}}_Graveyard 0 9" ]
+		},
 		{ // consider CP patch instead
 			"Action": "EditMap",
 			"Target": "Maps/Town",

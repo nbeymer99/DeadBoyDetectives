@@ -25,7 +25,9 @@
 			"{{ModId}}_NikoHandMirror": "{{i18n:Mail.{{ModId}}_NikoHandMirror.text}}[#]{{i18n:Mail.{{ModId}}_NikoHandMirror.title}}",
 			
 			"{{ModId}}_JojaTheatreGoodbye": "{{i18n:Mail.JojaTheatreGoodbye.text}}[#]{{i18n:Mail.JojaTheatreGoodbye.title}}",
+			
+			"{{ModId}}_LiftingTheVeil": "{{i18n:Mail.LiftingTheVeil.text}}[#]{{i18n:Mail.LiftingTheVeil.title}}",
 		}
 	}
-	]
+  ]
 }

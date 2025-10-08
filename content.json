@@ -1,5 +1,5 @@
 {
-	"Format": "2.7.0",
+	"Format": "2.8.0",
 
 	"ConfigSchema": {
 		"Cat_King_Appearance": {
@@ -10,6 +10,12 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Section": "Map Patches",
+			"Description": "Overlay map patches during festivals.",
+		},
+		"Festival_of_the_Beyond": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable the Festival of the Beyond on Fall 6.",
 		},
 		"TNT_Location": {
 			"AllowValues": "AutoDetect, TownSquare, Cliffside",
@@ -84,6 +90,13 @@
 			"FromFile": "data/FestivalMaps.json",
 			"When": {
 				"Festival_Map_Edits": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/VeilFestival.json",
+			"When": {
+				"Festival_of_the_Beyond": true
 			}
 		},
 		

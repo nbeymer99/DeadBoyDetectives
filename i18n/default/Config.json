@@ -1,7 +1,28 @@
 {
-	"config.Cat_King_Appearance.name": "Cat King Appearance",
+	"config.Cat_King_Appearance.name": "Cat_King_Appearance",
 	"config.Cat_King_Appearance.values.Orange": "Orange",
 	"config.Cat_King_Appearance.values.Black": "Black",
-	"config.Festival_Map_Edits.name": "Festival Map Edits",
-	
+
+	"config.Festival_Map_Edits.name": "Festival_Map_Edits",
+	"config.Festival_Map_Edits.description": "Overlay map patches during festivals.",
+
+	"config.Festival_of_the_Beyond.name": "Festival_of_the_Beyond",
+	"config.Festival_of_the_Beyond.description": "Enable the Festival of the Beyond on Fall 6.",
+
+	"config.TNT_Location.name": "TNT_Location",
+	"config.TNT_Location.values.AutoDetect": "AutoDetect",
+	"config.TNT_Location.values.TownSquare": "TownSquare",
+	"config.TNT_Location.values.Cliffside": "Cliffside",
+
+	"config.Docks_Location.name": "Docks_Location",
+	"config.Docks_Location.values.AutoDetect": "AutoDetect",
+	"config.Docks_Location.values.Top": "Top",
+	"config.Docks_Location.values.Bottom": "Bottom",
+
+	"config.FinchHouse_Location.name": "FinchHouse_Location",
+	"config.FinchHouse_Location.values.Default": "Default",
+	"config.FinchHouse_Location.values.Mines": "Mines",
+
+	"config.section.Map Patches.name": "Map Patches",
+	"config.section.Map Patches.description": "Edits made to vanilla maps.",
 }
