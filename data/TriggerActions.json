@@ -26,6 +26,16 @@
 				]
 			},
 			
+			// send custom festival invite
+			"{{ModId}}_VeilFestivalMail": {
+				"Id": "{{ModId}}_VeilFestivalMail",
+				"Trigger": "DayStarted",
+				"Condition": "SEASON_DAY fall 5",
+				"Actions": [
+					"AddMail All {{ModId}}_LiftingTheVeil now",
+				]
+			},
+			
 			// send edwin 10 heart event invite
 			"{{ModId}}Edwin10hearts": {
 				"Id": "{{ModId}}_EdwinHearts10",

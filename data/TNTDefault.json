@@ -1,7 +1,6 @@
 {
 	"Changes": [
 	{
-		// untested
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
@@ -11,13 +10,13 @@
 				"Condition": true,
 				"MarkActionApplied": false,
 				"Actions": [
-					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 9 62 11 11",
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Town All 9 62 20 72",
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 9 62 12 11",
 				]
 			},
 		}
 	},
 	{
-		// untested
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
@@ -27,6 +26,7 @@
 				"Condition": true,
 				"MarkActionApplied": false,
 				"Actions": [
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Town All 7 41 19 72",
 					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 7 41 11 11",
 				]
 			},

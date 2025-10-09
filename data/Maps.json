@@ -4,7 +4,7 @@
 		// LOAD TILESHEETS
 		{
 			"Action": "Load",
-			"Target": "Maps/{{ModId}}_LNFTiles, Maps/{{ModId}}_docksTiles, Maps/{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse",
+			"Target": "Maps/{{ModId}}_LNFTiles, Maps/{{ModId}}_docksTiles, Maps/{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse, Maps/{{ModId}}_festival",
 			"FromFile": "assets/maps/tilesheets/{{TargetWithoutPath}}.png",
 		},
 		
