@@ -78,6 +78,38 @@
 	"edwinhearts10.6": "Excellent. This shall only take a tick.",
 	"edwinhearts10.7": "That should do it.$h#$b#Thank you, @.",
 	
+	// cat king lying to willy
+	"catkinghearts5.0": "Oh! Hello there, moggy. Did you wander over from that abandoned cannery?$h",
+	"catkinghearts5.1": "Hehe... Why don't you stick around, and I'll see if I can rustle up some tuna.$h",
+	"catkinghearts5.2": "@! What are you doing here?$s",
+	"catkinghearts5.3": "Just here for a little fishing.",
+	"catkinghearts5.4": "Does Willy know you're not a random stray?",
+	"catkinghearts5.5": "If you tell him, I will personally make sure you find hairballs in your food for the rest of your life.$a",
+	"catkinghearts5.6": "Your secret's safe with me.",
+	"catkinghearts5.7": "It's weird that you're pretending to be a normal cat. You should tell Willy the truth.",
+	"catkinghearts5.8": "Thanks, @. I knew I could count on you.$h#$b#Listen, I better scram before he gets back. Talk to you later!",
+	"catkinghearts5.9": "I knew you wouldn't understand.$a",
+	"catkinghearts5.10": "${Son?^Lass?^@?}$#$b#Where did that stray go?#$b#Oh well. More fish for me!$h#$b#Are you here to listen to another of my legendary fishin' tales?",
+	
+	"quickEscape.0": "Great, have fun. I have to go.$s",
+	"quickEscape.1": "${Son?^Lass?^@?}$#$b#Where did that stray go?#$b#Oh well. More fish for me!$h#$b#Are you here to listen to another of my legendary fishin' tales?",
+	
+	// cat king comes on way too strong
+	"catkinghearts2.0": "So I hear you've been making waves in town, huh?#$b#Cozying up to everyone?#$b#Don't think I haven't noticed your efforts at wooing little old me, either.",
+	"catkinghearts2.1": "You don't have to play coy, @. I know you want me.",
+	"catkinghearts2.2": "Ew, creep. Leave me alone.",
+	"catkinghearts2.3": "You're right... I'm madly in love with you.",
+	"catkinghearts2.4": "Way to send mixed signals.$a#$b#I wouldn't want to be tied down to you anyway.$u#$b#Leave me alone if you just came here to bother me.$u",
+	"catkinghearts2.5": "What, are you scared? Come on, sweetheart, I don't bite.$u",
+	"catkinghearts2.6": "Okay, I don't normally say this, but that's moving a little fast, even for me.$s#$b#If you weren't up for a little bit of fun, you should have just said. I don't like being played, and I definitely don't like being led on.$a",
+	"catkinghearts2.7": "Sorry... Let's just be friends.",
+	"catkinghearts2.8": "I like you, but I don't want something casual.",
+	"catkinghearts2.9": "You're coming on way too strong, and I'd like to leave.",
+	"catkinghearts2.10": "Whatever.$u#$b#If that's all you came here to say, you can go now. I have very important matters to attend to.$u",
+	"catkinghearts2.11": "Sorry, sweetheart, but I don't really do that whole 'committment' thing.$u#$b#Anyway, if you just came here to profess your undying love for me, you can go now. I have very important matters to attend to.$u",
+	"catkinghearts2.12": "Fine, I get it.$s#$b#I love ${a boy^a girl^someone}$ who can set a boundary.#$b#Anyway, now that we've had that nice little chat, you can leave. I have very important matters to attend to.$u",
+	
+	
 	// niko quest begin
 	"Niko1.0": "I do not see why you find this so difficult, Crystal. You were able to defeat that forest elemental we encountered quite handily.",
 	"Niko1.1": "Don't be so hard on her, mate. Not exactly a life-and-death situation, is it?",

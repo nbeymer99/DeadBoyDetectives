@@ -12,6 +12,24 @@
         "Target": "Characters/CatKing",
         "FromFile": "assets/characters/TCK/catking_sprites_black.png",
    	},
+	{
+        "LogName": "Black Cat Sprites",
+        "Action": "Load",
+        "Target": "Characters/CatKing_cat",
+        "FromFile": "assets/characters/TCK/blackcat.png",
+		"When": {
+			"Cat_King_Appearance": "Black"
+		}
+   	},
+	{
+        "LogName": "Orange Cat Sprites",
+        "Action": "Load",
+        "Target": "Characters/CatKing_cat",
+        "FromFile": "assets/characters/TCK/orangecat.png", // do this
+		"When": {
+			"Cat_King_Appearance": "Orange"
+		}
+   	},
 		
 		// edit game data
 	{

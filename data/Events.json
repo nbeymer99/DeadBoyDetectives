@@ -26,6 +26,31 @@
 		}
 	},
 	
+	// BEACH
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/Beach",
+		"Entries": {
+			// cat king 5 hearts - caught with willy
+			"{{ModId}}_catkinghearts5/Friendship CatKing 1250/Time 0600 1600": "continue/31 31/CatKing 25 35 1 Willy 1000 1000 2 farmer 25 29 0/skippable/changeSprite CatKing cat/pause 1000/warp Willy 30 34/playSound doorClose/move CatKing 3 0 1/playSound cat/jump Willy 6/speak Willy \"{{i18n:catkinghearts5.0}}\"/pause 500/showFrame Willy 24/pause 120/showFrame Willy 25/move CatKing 2 0 1/playSound cat/speak Willy \"{{i18n:catkinghearts5.1}}\"/stopAnimation Willy/faceDirection Willy 0/faceDirection CatKing 3/playSound doorClose/warp Willy 1000 1000/move farmer 0 6 1/jump CatKing 8/changeSprite CatKing/speak CatKing \"{{i18n:catkinghearts5.2}}\"/quickQuestion #{{i18n:catkinghearts5.3}}#{{i18n:catkinghearts5.4}}(break)switchEvent quickEscape(break)speak CatKing \"{{i18n:catkinghearts5.5}}\"/quickQuestion #{{i18n:catkinghearts5.6}}#{{i18n:catkinghearts5.7}}(break)emote CatKing 32\\pause 500\\friendship CatKing 100\\speak CatKing \"{{i18n:catkinghearts5.8}}\"(break)speak CatKing \"{{i18n:catkinghearts5.9}}\"/speed CatKing 6/move CatKing -4 0 0/speed CatKing 6/move CatKing 0 -13 0 true/emote farmer 8/pause 3000/faceDirection Willy 3/playSound doorClose/warp Willy 30 34/pause 300/move Willy 0 1 1/pause 1000/faceDirection Willy 3/speak Willy \"{{i18n:catkinghearts5.10}}\"/pause 300/end",
+			
+			"quickEscape": "pause 1/speak CatKing \"{{i18n:quickEscape.0}}\"/pause 100/speed CatKing 6/move CatKing -4 0 0/speed CatKing 6/move CatKing 0 -13 0 true/emote farmer 8/pause 3000/faceDirection Willy 3/playSound doorClose/warp Willy 30 34/pause 300/move Willy 0 1 1/pause 1000/faceDirection Willy 3/speak Willy \"{{i18n:quickEscape.1}}\"/pause 300/end",
+		}
+	},
+		
+	// CANNERY
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/{{ModId}}_Cannery",
+		"Entries": {
+			// cat king 2 hearts - coming on too strong
+			"{{ModId}}_catkinghearts2/Friendship CatKing 500/SawEvent {{ModId}}_DocksTalks": "Overcast/12 23/farmer 12 27 0 CatKing 12 19 2/skippable/showFrame CatKing 38/move farmer 0 -4 0/pause 300/speak CatKing \"{{i18n:catkinghearts2.0}}\"/animate CatKing false true 120 38 39 39 39 39 39 39 39 39 39 38 38 39 39 39 39 39 39 39 38 38/pause 2500/stopAnimation CatKing/showFrame CatKing 51/speak CatKing \"{{i18n:catkinghearts2.1}}\"/quickQuestion #{{i18n:catkinghearts2.2}}#(say nothing)#{{i18n:catkinghearts2.3}}(break)showFrame farmer 12\\move farmer 0 1 0\\showFrame farmer 13\\move farmer 0 1 0\\showFrame farmer 12\\move farmer 0 1 0\\showFrame farmer 14\\move farmer 0 1 0\\speak CatKing \"{{i18n:catkinghearts2.4}}\"\\pause 200\\end warpOut(break)showFrame farmer 12\\move farmer 0 1 0\\showFrame farmer 13\\move farmer 0 1 0\\showFrame farmer 12\\move farmer 0 1 0\\showFrame farmer 14\\move farmer 0 1 0\\speak CatKing \"{{i18n:catkinghearts2.5}}\"(break)speak CatKing \"{{i18n:catkinghearts2.6}}\"/quickQuestion #{{i18n:catkinghearts2.7}}#{{i18n:catkinghearts2.8}}#{{i18n:catkinghearts2.9}}(break)speak CatKing \"{{i18n:catkinghearts2.10}}\"\\pause 200\\end warpOut(break)speak CatKing \"{{i18n:catkinghearts2.11}}\"\\pause 200\\end warpOut(break)speak CatKing \"{{i18n:catkinghearts2.12}}\"/end",
+			
+			// cat king 7.2 hearts - urging him to stop hiding
+			"{{ModId}}_catkinghearts7.2/SawEvent {{ModId}}_catkinghearts7.1": "continue/12 23/farmer 12 24 0 CatKing 12 19 2/skippable/showFrame CatKing 38/end",
+		}
+	},
+	
 	// CRYSTAL/NIKO ROOMS
 	{
 		"Action": "EditData",
@@ -129,6 +154,22 @@
 			
 			// teens doin dumb shit
 			//"{{ModId}}_teenbeachmovie/Season fall/Time 1900 2600": "continue/93 17/farmer 94 10 2 Sam 91 18 1 Sebastian 92 17 1 Abigail 95 18 3 EdwinPayne -1000 -1000 0 CharlesRowland -999 -999 0/skippable/changeToTemporaryMap {{ModId}}_LighthouseScary/pause 2000/textAboveHead Sam \"...but she was already dead!\"/move farmer 0 6 2/speak Abigail \"Oh, come on. That story wouldn't even scare a *baby*.\"/pause 2000/speak Abigail \"@! you're just in time for our annual scary story bonfire night.\"/speak Sam \"Go on, Abigail, you tell one then.\"/speak Abigail \"Alright. Don't say I didn't warn you!\"/end", 
+		}
+	},
+	
+	// SALOON
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/Saloon",
+		"Entries": {
+			// docks are open, rumors of closed cannery
+			"{{ModId}}_DocksTalks": "continue/14 20/farmer 14 24 0 Willy 16 22 1 Gus 13 18 2 Shane 20 19 2 Leah 9 23 1 Pam 10 20 0 Lewis 16 20 0
+			
+			
+			//cat king 7.1 hearts - townspeople don't know he's a cat
+			"{{ModId}}_catkinghearts7.1/Friendship CatKing 1750/Time 1700 2600": "continue/14 20/farmer 14 24 0 CatKing 19 22 3 Willy 12 23 3 Gus 13 18 2 Shane 20 19 2 Leah 9 23 1 Pam 10 20 0 Lewis 16 20 0/skippable/animate CatKing false true 120 56 56 57 57 58 58 59 59 60 60 61 61 61 61 61 62 62 63 63 59 58 58 57 57 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56/animate Gus false true 240 18 19 20 19/pause 1000/move farmer 0 -3 0/speak Gus \"Evening, @!$h#$b#I'll be right with you.\"/emote farmer 32/pause 2000/stopAnimation CatKing/move CatKing -5 0 2 true/textAboveHead Gus \"Can I get you a drink to end the night?\"/pause 1000/textAboveHead CatKing \"No thanks.\"/move CatKing 0 2 2/pause 500/warp CatKing 1000 1000/speak Gus \"Sigh... Always the same thing with him. I don't even know his name!$s#$b#He just comes in, hangs out in the corner, and leaves at the end of the night.$s#$b#I don't even know when he moved here, but I thought he'd get less shy over time!\"/speak Lewis \"@, you know him pretty well, don't you? Do you know why he won't talk to any of us?$s\"/quickQuestion #He likes to keep to himself.#It's not my place to say.#Actually, you all already know him. He's the stray cat that hangs around town sometimes.(break)speak Gus \"I see... I hope he isn't too lonely.$s#$b#If you get the chance, tell him he's welcome to a chat over a drink anytime!\"(break)speak Lewis \"I understand.#$b#It might make the townspeople feel less awkward around him if he were to make some friends around town, though.\"(break)beginSimultaneousCommand\\jump Gus 6\\jump Lewis 6\\jump Willy 6\\jump Pam 6\\stopAnimation Shane\\faceDirection Leah 1 true\\faceDirection Pam 1 true\\stopMusic\\\\endSimultaneousCommand\\pause 100\\speak Willy \"That old stray... I knew there was something odd about him!\"\\speak Leah \"I've fed that cat a few times... I never knew he was a cat that turns into a human sometimes.#$b#Or is he a human that turns into a cat sometimes?$s\"/speak Lewis \"@, I think you ought to have a talk with him. It feels like there are a lot of misunderstandings that could be cleared up...\"/pause 500/end",
+			
+			"{{ModId}}_catkinghearts10/Friendship CatKing 2500/Time 1700 2600": "continue/14 20/farmer 999 999 0 CatKing 1000 1000 0 Willy 12 23 3 Gus 13 18 2 Shane 20 19 2 Leah 9 23 1 Pam 10 20 0 Lewis 16 20 0/skippable/pause 2000/playSound doorClose/warp farmer end",
 		}
 	},
 	

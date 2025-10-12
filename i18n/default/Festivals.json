@@ -59,9 +59,9 @@
 	"Festivals.Dead.Evelyn": "I remember my first Lifting of the Veil all those decades ago. Some of these spirits have seen me grow up from a little girl!",
 	"Festivals.Dead.George": "Hmph. Don't see the point in talking to all these ghosts when I'm gonna join them in a few years.",
 	"Festivals.Dead.Gus": "I know the dead can't actually eat, but I hope they appreciate the food I made!#$b#I tried some new recipes this year. Just because they're dead doesn't mean they don't get bored!",
-	"Festivals.Dead.Haley": "It's so creepy to think that there are all these ghosts walking around town all the time... and we can only see them today.",
-	"Festivals.Dead.Harvey": "Today I remember all the patients I've lost.#$e#%Harvey stares into the fire.",
-	"Festivals.Dead.Jas": "I don't like talking to the ghosts... some of them are really sad. Or really angry.",
+	"Festivals.Dead.Haley": "It's so creepy to think that there are all these ghosts walking around town all the time... and we can only see them today.$s",
+	"Festivals.Dead.Harvey": "Today I remember all the patients I've lost.$s#$e#%Harvey stares into the flames.",
+	"Festivals.Dead.Jas": "I don't like talking to the ghosts... some of them are really sad. Or really angry.$s",
 	"Festivals.Dead.Jodi": "I hope the kids behave... this is an important day for the whole town.$2",
 	"Festivals.Dead.Kent": "Remembering the dead is our responsibility as the ones still living.#$b#Even if it's difficult.",
 	"Festivals.Dead.Leah": "I think the Festival of the Beyond is really bittersweet. It's sad to think of everyone we've lost, but honoring them like this makes it more bearable.",
@@ -73,13 +73,12 @@
 	"Festivals.Dead.Maru": "Ghosts, spirits, it really makes you think, doesn't it? About what else might be possible.",
 	"Festivals.Dead.Pam": "%Pam pours her drink into the flames, a sign of respect.",
 	"Festivals.Dead.Penny": "Would you stay? If you died, I mean.",
-	"Festivals.Dead.Pierre": "I wonder if any of the ghosts are interested in my produce...?#$b#There's always room for growing your customer base!",
 	"Festivals.Dead.Robin": "I wonder if the dead are content with what we've built after them.",
 	"Festivals.Dead.Sam": "My dad hates this festival. I kind of get why.",
 	"Festivals.Dead.Sebastian": "I think it's really cool that we can talk to people after they die. When I die, I'm going to haunt the town forever.",
 	"Festivals.Dead.Shane": "This is such a depressing holiday. I can't even enjoy the food.$s",
-	"Festivals.Dead.Vincent": "Mom said Jas and I aren't allowed to run around today. We hafta be *respectful*.#$b#Maybe the ghosts want to run around with us, though?",
-	"Festivals.Dead.Willy": "I'd always hoped my granddad would stick around so we could talk to him again.#$b#He was lost at sea, so I guess he never found his way home.",
+	"Festivals.Dead.Vincent": "Mom said Jas and I aren't allowed to run around today. We hafta be *respectful*.$s#$b#Maybe the ghosts want to run around with us, though?",
+	"Festivals.Dead.Willy": "I'd always hoped my granddaddy would stick around so we could talk to him again.#$b#He was lost at sea, so I guess he never found his way home.",
 	"Festivals.Dead.Wizard": "With the right spells, one can talk to the dead any day of the year, not only today.#$e#There are other side effects, though...",
 	
 	"Festivals.Dead.CatKing": "Must be nice to hang around like this after you die. The whole nine lives thing gets old fast.",
@@ -90,6 +89,10 @@
 	"Festivals.Dead.JennyButcher": "Seeing ghosts all the time is exhausting, and today is no different.#$b#At least today there's free food, though.",
 	"Festivals.Dead.MontyFinch": "It's really sad that none of these ghosts can move on. What's keeping them here?$s",
 	"Festivals.Dead.NikoSasaki": "It's really sweet of everyone to honor the dead like this.#$b#It reminds me of when we celebrated Obon back home!",
+	
+	"VeilFestival.Shop1": "I wonder if any of the ghosts are interested in my produce...? There's always room to grow your customer base!",
+	"VeilFestival.Shop2": "It's said that you can plant trees to remember those you've lost. Why not a nice fruit sapling?",
+
 
 
 	// spirit's eve

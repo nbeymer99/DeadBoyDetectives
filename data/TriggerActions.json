@@ -227,7 +227,28 @@
 					"spacechase0.SpaceCore_ShowHudMessage \"Outlook favorable!\" (O){{ModId}}_Magic8Ball"
 				],
 			},
-		}
+		},
 	},
-	]
+	{
+		"Action": "Load",
+		"Target": "{{ModId}}/Animals/MonarchButterfly",
+		"FromFile": "assets/objects/monarchbutterfly.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"When": { "HasMod": "mushymato.MMAP" },
+		"Entries": {
+			"{{ModId}}_FestivalButterflies": {
+				"Id": "{{ModId}}_FestivalButterflies",
+				"Trigger": "LocationChanged",
+				"Condition": "LOCATION_NAME Here {{ModId}}_Graveyard, SEASON fall",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.MMAP_CritterRandom 0.02 Butterfly {{ModId}}/Animals/MonarchButterfly 1",
+				],
+			}
+		}
+	}
+  ]
 }

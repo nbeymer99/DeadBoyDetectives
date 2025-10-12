@@ -1,6 +1,58 @@
 {
 	"Changes": 
 	[
+		{
+			// niko veil fest
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall6",
+			"When": {
+				"HasFlag |contains={{ModId}}_NikoCured": true,
+			},
+			"TextOperations": [
+				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "NikoSasaki 17 19 right",
+   				    "Delimiter": "/"
+				},
+			]
+		},
+		{
+			// leo veil fest
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall6",
+			"When": {
+				"HasFlag |contains=leoMoved": true,
+			},
+			"TextOperations": [
+				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Leo 26 23 up",
+   				    "Delimiter": "/"
+				},
+			]
+		},
+		{
+			// kent veil fest
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall6",
+			"When": {
+				"Year |contains=1": false,
+			},
+			"TextOperations": [
+				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+   				    "Value": "Kent 22 20 right",
+   				    "Delimiter": "/"
+				},
+			]
+		},
+		
 		//source: (https://stardewmodding.wiki.gg/wiki/Adding_a_Custom_NPC_to_Festivals_template)
 		{	
 			"LogName": "Egg Festival",

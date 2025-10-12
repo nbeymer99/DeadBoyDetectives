@@ -59,10 +59,10 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/TCK/catking.json"
 		},
-		{
+ 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/Monty/monty.json"
-		},
+		}, 
 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/zzMinorCharacters/esther.json",
@@ -255,6 +255,19 @@
 		"When":
 		{
 		"Query: {{Year}} % 2 = 0": true,
+		}
+	},
+	{
+		"Name": "MMAPAction_Butterflies",
+			"Value": "/", 
+	},
+		
+	{
+		"Name": "MMAPAction_Butterflies",
+		"Value": "/action mushymato.MMAP_CritterRandom 0.02 Butterfly {{ModId}}\\Animals\\MonarchButterfly 1/", 
+		"When":
+		{
+			"HasMod": "mushymato.MMAP"
 		}
 	},
 	{

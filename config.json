@@ -2,7 +2,7 @@
   "Cat_King_Appearance": "Black",
   "Festival_Map_Edits": "true",
   "Festival_of_the_Beyond": "true",
-  "TNT_Location": "TownSquare",
-  "Docks_Location": "Top",
-  "FinchHouse_Location": "Mines"
+  "TNT_Location": "AutoDetect",
+  "Docks_Location": "AutoDetect",
+  "FinchHouse_Location": "Default"
 }

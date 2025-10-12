@@ -1,4 +1,4 @@
-/* {
+{
 	"Changes": [
 	{
 		"Action": "EditData",
@@ -27,10 +27,10 @@
 		},
 	}
   ]
-} */
+}
 
 // ----- !!! UNTESTED !!! -----
-{
+/* {
 	"Changes": [
 	{
 		"Action": "EditData",
@@ -57,6 +57,6 @@
 			"Sun": "0800 {{ModId}}_Cannery 14 6 2  \"Strings\\Schedules\\CatKing:CatSleep.000\"/1100 {{ModId}}_Cannery 12 19 2  \"Strings\\Schedules\\CatKing:CatBathe.000\"/1300 {{ModId}}_Cannery 12 19 2 /1500 Saloon 16 20 0 /2000 {{ModId}}_Cannery 12 19 2 /2500 bed",
 			"Railroad_Replacement": "Beach 78 16 2",
 		},
-	}
+	} 
   ]
-}
+} */

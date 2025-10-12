@@ -1,21 +1,20 @@
 {
     "Changes": [
 	//Portrait loads
-	{
-		"LogName": "Load shop portraits",
-		"Action": "Load",
-		"Target": "Portraits/TragicMick",
-		"FromFile": "assets/characters/zzminorCharacters/TragicMick.png",
-	},
+		{
+			"LogName": "Load shop portraits",
+			"Action": "Load",
+			"Target": "Portraits/TragicMick",
+			"FromFile": "assets/characters/zzminorCharacters/TragicMick.png",
+		},
+		{
+			"LogName": "Load shop portraits",
+			"Action": "Load",
+			"Target": "Portraits/{{ModId}}_Jenny",
+			"FromFile": "assets/characters/Jenny/Jenny.png",
+		},
 	
-	//shop data
-	{
-		"LogName": "Load shop portraits",
-		"Action": "Load",
-		"Target": "Portraits/{{ModId}}_Jenny",
-		"FromFile": "assets/characters/Jenny/Jenny.png",
-	},
-	
+	// shop data
 	{
 		"Action": "EditData",
 		"Target": "Data/Shops",
@@ -149,8 +148,61 @@
 						"PerItemCondition": "ITEM_CONTEXT_TAG Target category_meat"
 					},
 				]
+			},
+			"Festival_VeilFestival_Pierre": {
+				"Currency": 0,
+				"PriceModifierMode": "Stack",
+				"Owners": [
+					{
+						"Portrait": "Pierre",
+						"Dialogues": [
+							{
+								"Id": "{{ModId}}_RandomFestivalDialogue",
+								"Dialogue": "bleh",
+								"RandomDialogue": [ "{{i18n:VeilFestival.Shop1}}", "{{i18n:VeilFestival.Shop2}}" ]
+							}
+						],
+						"RandomizeDialogueOnOpen": true,
+						"Id": "AnyOrNone",
+						"Name": "AnyOrNone"
+					}
+				],
+				"Items": [
+					{
+						"Id": "Cherry Sapling",
+						"ItemId": "(O)628"
+					},
+					{
+						"Id": "Apricot Sapling",
+						"ItemId": "(O)629"
+					},
+					{
+						"Id": "Orange Sapling",
+						"ItemId": "(O)630"
+					},
+					{
+						"Id": "Peach Sapling",
+						"ItemId": "(O)631"
+					},
+					{
+						"Id": "Pomegranate Sapling",
+						"ItemId": "(O)632"
+					},
+					{
+						"Id": "Apple Sapling",
+						"ItemId": "(O)633"
+					},
+					{
+						"Id": "Grave Stone",
+						"ItemId": "(BC)47"
+					},
+					{
+						"Id": "Skull Brazier",
+						"ItemId": "(BC)149"
+					},
+				],
 			}
 		}
 	}
-	]
+  ]
 }
