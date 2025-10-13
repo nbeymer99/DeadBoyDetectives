@@ -4,9 +4,9 @@
 		"Action": "EditData",
 		"Target": "Data/Mail",
 		"Entries": {
-			"{{ModId}}_EdwinProtectionSpellInvite": "{{i18n:{{ModId}}_EdwinProtectionSpellInvite.text}}[#]{{i18n:{{ModId}}_EdwinProtectionSpellInvite.title}}",
+			"{{ModId}}_EdwinProtectionSpellInvite": "{{i18n:Mail.{{ModId}}_EdwinProtectionSpellInvite.text}}[#]{{i18n:Mail.{{ModId}}_EdwinProtectionSpellInvite.title}}",
 			
-			"{{ModId}}_CharlesAmuletInvite": "{{i18n:{{ModId}}_CharlesAmuletInvite.text}}[#]{{i18n:{{ModId}}_CharlesAmuletInvite.title}}",
+			"{{ModId}}_CharlesAmuletInvite": "{{i18n:Mail.{{ModId}}_CharlesAmuletInvite.text}}[#]{{i18n:Mail.{{ModId}}_CharlesAmuletInvite.title}}",
 			
 			"{{ModId}}_GiveEverbloomQuest": "{{i18n:Mail.{{ModId}}_GiveEverbloomQuest.text}}%item id {{ModId}}_EverbloomSeed %% %item quest {{ModId}}_EverbloomQuest true %% [#]{{i18n:Mail.{{ModId}}_GiveEverbloomQuest.title}}",
 			

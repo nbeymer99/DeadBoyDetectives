@@ -78,7 +78,7 @@
 	"edwinhearts10.6": "Excellent. This shall only take a tick.",
 	"edwinhearts10.7": "That should do it.$h#$b#Thank you, @.",
 	
-	// cat king lying to willy
+	// cat king 5 hearts - lying to willy
 	"catkinghearts5.0": "Oh! Hello there, moggy. Did you wander over from that abandoned cannery?$h",
 	"catkinghearts5.1": "Hehe... Why don't you stick around, and I'll see if I can rustle up some tuna.$h",
 	"catkinghearts5.2": "@! What are you doing here?$s",
@@ -94,7 +94,7 @@
 	"quickEscape.0": "Great, have fun. I have to go.$s",
 	"quickEscape.1": "${Son?^Lass?^@?}$#$b#Where did that stray go?#$b#Oh well. More fish for me!$h#$b#Are you here to listen to another of my legendary fishin' tales?",
 	
-	// cat king comes on way too strong
+	// cat king 2 hearts - comes on way too strong
 	"catkinghearts2.0": "So I hear you've been making waves in town, huh?#$b#Cozying up to everyone?#$b#Don't think I haven't noticed your efforts at wooing little old me, either.",
 	"catkinghearts2.1": "You don't have to play coy, @. I know you want me.",
 	"catkinghearts2.2": "Ew, creep. Leave me alone.",
@@ -131,11 +131,12 @@
 	"niko_hearts2.4": "They should encounter a...",
 	"niko_hearts2.5": "I never would have thought of that!#$b#Thanks, @. I think I only need one more thing...",
 	"niko_hearts2.6": "It's supposed to be a romance, but I don't know what would spark the two of them getting together.#$b#How do you think it should happen?",
-	"niko_hearts2.7": "How did Niko's characters fall in love?#They",
-	"nikohearts2.16": "together until sunset.#They",
-	"nikohearts2.17": "together all day.#They",
-	"nikohearts2.18": "every night",
-	"nikohearts2.19": "their home.",
+	"niko_hearts2.7": "How did Niko's characters fall in love?",
+	"niko_hearts2.20": "They",
+	"niko_hearts2.16": "together until sunset.",
+	"niko_hearts2.17": "together all day.",
+	"niko_hearts2.18": "every night",
+	"niko_hearts2.19": "their home.",
 	"niko_hearts2.8": "Oh, that's so romantic!$l#$b#I know exactly what to write now. Thanks so much, @.",
 	"niko_hearts2.9": "As soon as I'm done, do you want to read it?",
 	"niko_hearts2.10": "Will you read Niko's story when she's done?",
