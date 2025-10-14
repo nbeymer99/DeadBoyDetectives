@@ -1,4 +1,5 @@
 {
+// AGENCY
 	// edwin 2 hearts - potion gone wrong
 	"edwinhearts2.0": "Ah, @. You haven't come at the best time.#$b#I'm in the middle of mixing a rather delicate potion.#$b#I suppose you can stay, if you'd like to watch.",
 	"edwinhearts2.1": "If I have followed the instructions correctly, then this potion will allow us ghosts to temporarily consume food and drink for the duration.$u#$b#I must admit, seeing the kinds of crops you grow on your farm has tempted even me.",
@@ -78,6 +79,7 @@
 	"edwinhearts10.6": "Excellent. This shall only take a tick.",
 	"edwinhearts10.7": "That should do it.$h#$b#Thank you, @.",
 	
+// BEACH
 	// cat king 5 hearts - lying to willy
 	"catkinghearts5.0": "Oh! Hello there, moggy. Did you wander over from that abandoned cannery?$h",
 	"catkinghearts5.1": "Hehe... Why don't you stick around, and I'll see if I can rustle up some tuna.$h",
@@ -94,6 +96,7 @@
 	"quickEscape.0": "Great, have fun. I have to go.$s",
 	"quickEscape.1": "${Son?^Lass?^@?}$#$b#Where did that stray go?#$b#Oh well. More fish for me!$h#$b#Are you here to listen to another of my legendary fishin' tales?",
 	
+// CANNERY
 	// cat king 2 hearts - comes on way too strong
 	"catkinghearts2.0": "So I hear you've been making waves in town, huh?#$b#Cozying up to everyone?#$b#Don't think I haven't noticed your efforts at wooing little old me, either.",
 	"catkinghearts2.1": "You don't have to play coy, @. I know you want me.",
@@ -109,7 +112,28 @@
 	"catkinghearts2.11": "Sorry, sweetheart, but I don't really do that whole 'committment' thing.$u#$b#Anyway, if you just came here to profess your undying love for me, you can go now. I have very important matters to attend to.$u",
 	"catkinghearts2.12": "Fine, I get it.$s#$b#I love ${a boy^a girl^someone}$ who can set a boundary.#$b#Anyway, now that we've had that nice little chat, you can leave. I have very important matters to attend to.$u",
 	
+	// cat king 7.2 hearts - urging him to stop hiding
+	"catkinghearts7.2.0": "@? What are you doing here so late?$8#$b#I was taking a much-needed nap, but if you came here for some fun, I could be convinced.$9",
+	"catkinghearts7.2.1": "I told everyone you were the stray cat that's been begging for attention.",
+	"catkinghearts7.2.2": "The people in town want to get to know you.",
+	"catkinghearts7.2.3": "And? Am I supposed to care?$8",
+	"catkinghearts7.2.4": "Okay, okay!$13#$b#Look, it's just... it's something you wouldn't understand.$10#$b#You've been unbelievably persistent in trying to befriend me, God knows why, but this is out of your wheelhouse, okay?$10",
+	"catkinghearts7.2.5": "God, you're annoying. FINE.$13",
+	"catkinghearts7.2.6": "Do you know how long I've lived?$a#$b#I'm on my fourth life. I remember this land before Pelican Town was even founded.$s#$b#That's a lot of time to spend missing people you've lost...$s#$b#At some point I decided I was done with it all. No more friends, no more long-term relationships that would end in heartbreak.$s#$b#I didn't realize until you came along, but... I was lonely.$s",
+	"catkinghearts7.2.7": "Do you really think I need to make other friends?$s",
+	"catkinghearts7.2.8": "Okay... I'll do it. For you.$h",
+	"catkinghearts7.2.9": "Not tonight, though. It's late, and I need my beauty sleep.#$b#...Good night, @.$l",
 	
+	"toldTownspeople.0": "WHAT?!$13",
+	"toldTownspeople.1": "How could you? I'll be lucky if I'm not chased out of town!$a",
+	"toldTownspeople.2": "#Nobody would do that.#I'm sorry, but I thought they needed to know.",
+	"toldTownspeople.3": "...I guess you're right.$s#$b#It's just...$s",
+	"toldTownspeople.4": "Do you know how long I've lived?$s#$b#I'm on my fourth life. I remember this land before Pelican Town was even founded.$s#$b#That's a lot of time to spend missing people you've lost...$s#$b#At some point I decided I was done with it all. No more friends, no more long-term relationships that would end in heartbreak.$s#$b#I didn't realize until you came along, but... I was lonely.$s",
+	"toldTownspeople.5": "Do you really think I need to make other friends?$s",
+	"toldTownspeople.6": "Okay... I'll do it. For you.$h",
+	"toldTownspeople.7": "Not tonight, though. It's late, and I need my beauty sleep.#$b#...Good night, @.$l",
+	
+// CRYSTAL/NIKO ROOMS
 	// niko quest begin
 	"Niko1.0": "I do not see why you find this so difficult, Crystal. You were able to defeat that forest elemental we encountered quite handily.",
 	"Niko1.1": "Don't be so hard on her, mate. Not exactly a life-and-death situation, is it?",
@@ -196,7 +220,8 @@
 	
 	"CrystalCactusMean.0": "What's that supposed to mean?$a",
 	"CrystalCactusMean.1": "I think you should go. Since I'm so terrible to be around.$a",
-	
+
+// CRYSTAL VOID
 	// crystal 10 hearts - showing you void
 	"crystalhearts10.0": "@! You made it.$h",
 	"crystalhearts10.1": "Where are we?",
@@ -211,7 +236,8 @@
 	"crystalhearts10.10": "The guilt was eating me alive.#$b#It turns out that even for a psychic--maybe *especially* for a psychic--it's really hard to get out of your own head.$3#$b#What helps is thinking about my friends, and you've been a big part of that.#$b#I see the way you run around helping people. It reminds me to focus on doing good here, now, instead of dwelling on the past.",
 	"crystalhearts10.11": "To thank you, and as a reminder from me to you about doing good, I wanted to give you this.",
 	"crystalhearts10.12": "And feel free to come here whenever you need a break. Maybe we could hang out in here together sometime?$l",
-	
+
+// LIBRARY
 	// edwin 7 hearts - apology
 	"edwinhearts7.0": "Oh, hello, @. I was just browsing the shelves for any books I haven't read yet.#$b#I don't suppose you have any recommendations?",
 	"edwinhearts7.1": "What book would you recommend to Edwin?#Murder at Magnolia Mansion#My Life as a Teenage Werewolf#1001 Curses and Cures",
@@ -223,7 +249,8 @@
 	"edwinhearts7.7": "I'm relieved.$h#$b#And here - will you accept this book as a token of apology from me?$h",
 	
 	"notForgive.0": "I suppose that's fair.#$b#Please accept my further apology for having asked.$s",
-	
+
+// LIGHTHOUSE
 	// charles 7 hearts - traumadumping 
 	"charleshearts7.0": "*sniff*... Hey, @.",
 	"charleshearts7.1": "Sorry, I'm not really good company right now...#Sorry, I'll leave you alone.#That's okay. Can I stand here with you for a bit?",
@@ -238,14 +265,42 @@
 	"charleshearts7.10": "Yeah, you're right. I know I shouldn't worry so much about this sort of thing...",
 	"charleshearts7.11": "Yeah... you sound just like Crystal. I promise I'm trying, alright?",
 	"charleshearts7.12": "And it helps making friends like you, don't it?$h#$b#Thanks for listening, @.",
+
+// SALOON
+	// cat king 7.1 hearts - townspeople want to know him
+	"catkinghearts7.1.0": "Evening, @!$h#$b#I'll be right with you.",
+	"catkinghearts7.1.1": "Can I get you a drink to end the night?",
+	"catkinghearts7.1.2": "No thanks.",
+	"catkinghearts7.1.3": "Sigh... Always the same thing with him. I don't even know his name!$s#$b#He just comes in, hangs out in the corner, and leaves at the end of the night.$s#$b#I know he's new to town, but I thought he'd get less shy over time!",
+	"catkinghearts7.1.4": "@, you know him pretty well, don't you? Do you know why he won't talk to any of us?$s",
+	"catkinghearts7.1.5": "He likes to keep to himself.",
+	"catkinghearts7.1.6": "It's not my place to say.",
+	"catkinghearts7.1.7": "Actually, you all already know him. He's the stray cat that hangs around town sometimes.",
+	"catkinghearts7.1.8": "I see... I hope he isn't too lonely.$s#$b#If you get the chance, tell him he's welcome to a chat over a drink anytime!",
+	"catkinghearts7.1.9": "I understand.#$b#It might make the townspeople feel less awkward around him if he were to make some friends around town, though.",
+	"catkinghearts7.1.10": "That old stray... I knew there was something odd about him!",
+	"catkinghearts7.1.11": "I've fed that cat a few times... I never knew he was a cat that turns into a human.#$b#Or is he a human that turns into a cat?$s",
+	"catkinghearts7.1.12": "@, I think you ought to have a talk with him. It feels like there are a lot of misunderstandings that could be cleared up...",
 	
+	// cat king 10 hearts - coming out to the town
+	"catkinghearts10.0": "@! And you brought your friend...$h#$b#What's your name, stranger?",
+	"catkinghearts10.1": "Uh... you can call me Thomas, I guess.",
+	"catkinghearts10.2": "Welcome, Thomas! We're so glad to meet you.$h",
+	"catkinghearts10.3": "Now, Thomas, I don't mean to be rude... but was that really you at my door the other day?",
+	"catkinghearts10.4": "I'm not angry, son!#$b#Just sorry you never got that tuna I offered ye, haha!$h",
+	"catkinghearts10.5": "It... doesn't bother you that I lied to you? All of you?$s",
+	"catkinghearts10.6": "I'm sad you thought you needed to, but no harm done, right?#$b#Why didn't you just tell us, though?",
+	"catkinghearts10.7": "I guess... it's hard, letting people in.$s#$b#I mean, I didn't even want to pay attention to @, but ${he^she^they}$ bugged me for weeks.#$b#It's ${his^her^their}$ fault I'm even here, actually.",
+	"catkinghearts10.8": "@, you made me see how lonely I had made myself. I had my cats, of course, but I had hidden myself away in that cannery without even realizing.$s#$b#Even when I made a fool of myself in front of you, you didn't stop trying to befriend me.#$b#And now you've introduced me to everyone.$h#$b#So... not to be disgustingly sappy, but thank you.$l",
+	"catkinghearts10.9": "I'll drink to that!$h#$b#Come here, Thomas, I'll buy the first round.#$b#Gus, put it on my tab!",
+	
+// SEEDSHOP
 	// crystal 4 hearts - hayley is a bitch
 	"crystalhearts4.0": "Oh, hi. You're... Crystal, right? Pretty name.",
 	"crystalhearts4.1": "Kind of a shame that your face doesn't match...#$b#Come to me if you want a makeover, okay?",
 	"crystalhearts4.2": "Sure, if I ever want to learn how to look faker than a Barbie doll, I'll let you know.$a",
 	"crystalhearts4.3": "Hmph! I was just trying to help!$a",
 	"crystalhearts4.4": "Oh my god, why did I say that? What the hell is wrong with me?$2",
-	"crystalhearts4.5": "\"\"",
 	"crystalhearts4.6": "She deserved it.",
 	"crystalhearts4.7": "That was rude. You should apologize.",
 	"crystalhearts4.8": "No, she didn't deserve that...$2#$b#She just reminded me of who I don't want to be anymore.$2",
@@ -256,9 +311,20 @@
 	"crystalhearts4.13": "Okay. I'll think about it.",
 	"crystalhearts4.14": "Thanks for the advice, @. I should get going.",
 	
+	// docks rumors
+	"DocksTalks.0": "It's farmer {{PlayerName}}!",
+	"DocksTalks.1": "Hello, @! I'm checking in with all the local businesses early this week. Did you hear the big news?",
+	"DocksTalks.2": "The old docks east of the beach re-opened. They were shut down decades ago when the Pelican Town Port stopped bringing in any revenue.#$b#Without any income, and with municipal funds focused on interior infrastructure, they fell into disrepair and became hazardous to pedestrians.$s#$b#I've been trying to gather the funds to rejuvenate them for years!#$b#But a mysterious benefactor paid for their repair... Someone who only went by the initials 'C.K.'",
+	"DocksTalks.3": "I'm hoping that increased traffic will mean more customers seeking out my fresh produce!#$b#After all, what's better than a nice, juicy orange after weeks at sea?",
+	"DocksTalks.4": "I think we're all hoping for some new visitors!#$b#Between you and your farm, @, and some new maritime trade, Pelican Town could become a real hidden gem on the map!$h",
+	"DocksTalks.5": "I'll probably head down there after I finish up here. If you make it over there before me, why don't you greet our mysterious new resident?",
+	"DocksTalks.6": "And tell them to stop by Pierre's for the best groceries Pelican Town has to offer!$h",
+	
+// TEMP
 	// temp - laugh at edwin
 	"laughAtEdwin.0": "I don't understand. It should have worked...$6#$b#You've distracted me, @.$6#$b#I don't need your help cleaning this up, so kindly leave me to my embarrassment.$6",
 	
+// TOWN
 	// seance 1
 	"Seance.0": "Ah, you decided to join us, @.#$b#This could be dangerous, but I am confident in your ability to handle yourself.#$b#You certainly handle that weapon of yours well when adventuring.",
 	"Seance.1": "#I was born ready.#Maybe this isn't a good idea...",
@@ -298,6 +364,7 @@
 	"Seance2.18": "Yeah, @ was a huge help. We couldn't have brought you back without ${him^her^them}$!$h#$b#We'd better get you all home, though. It's pretty late.",
 	"Seance2.19": "Yes, we shall hear the whole story another day.$u#$b#Top whole job, everyone.$h",
 	
+// TRAGIC MICKS
 	// charles 10 hearts - giving you amulet
 	"charleshearts10.0": "...but what color do you think ${he'd^she'd^they'd}$ like...?",
 	"charleshearts10.1": "Don't ask me, Charles. You're the one who insisted on this gift.",
@@ -307,5 +374,4 @@
 	"charleshearts10.5": "It's been really aces being your friend.#$b#Ever since we came to Pelican Town, you've made it easier, you know?#$b#You always listen, even when I can't really explain what I'm feeling...#$b#And it's like you always know how to cheer me up. And...#$b#I just thought I'd come here and find something to say thank you.$h#$b#It's an enchanted amulet. Supposed to make you better at fighting or something.",
 	"charleshearts10.6": "You like it, then?$l",
 	"charleshearts10.7": "Good. And if you ever need anything, I mean *anything*, I'm here for you, yeah?",
-	
 }

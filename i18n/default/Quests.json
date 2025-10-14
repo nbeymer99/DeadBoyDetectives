@@ -36,4 +36,9 @@
 	"handwrittenhello.dbda_CuringNiko.title": "A Strengthening Ritual",
 	"handwrittenhello.dbda_CuringNiko.text": "Now that the spell ingredients have been collected, the Dead Boy Detectives are ready to perform their ritual to solve the case of the mysterious ghost.",
 	"handwrittenhello.dbda_CuringNiko.objective": "Attend another seance in the graveyard after 8pm.",
+	
+	"DocksVisit.title": "Dock Talk",
+	"DocksVisit.text": "The Pelican Town Port has re-opened and the people of the town are excited to meet the mysterious benefactor responsible.",
+	"DocksVisit.objective": "Visit the docks east of the beach.",
+
 }

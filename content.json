@@ -15,7 +15,7 @@
 		"Festival_of_the_Beyond": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Enable the Festival of the Beyond on Fall 6.",
+			"Description": "Enable the Veil Festival on Fall 6.",
 		},
 		"TNT_Location": {
 			"AllowValues": "AutoDetect, TownSquare, Cliffside",
@@ -59,10 +59,10 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/TCK/catking.json"
 		},
- 		{
+ 		/* {
 			"Action": "Include",
 			"FromFile": "assets/characters/Monty/monty.json"
-		}, 
+		},  */
 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/zzMinorCharacters/esther.json",

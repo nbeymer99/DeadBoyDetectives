@@ -20,7 +20,9 @@
 			"{{ModId}}_SeanceIngredients3": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients3.title}}/{{i18n:{{ModId}}_SeanceIngredients3.text}}/{{i18n:{{ModId}}_SeanceIngredients3.objective}}/CrystalPalace (O)376 1/CuringNiko_{{ModId}}/0/0/false/{{i18n:{{ModId}}_SeanceIngredients3.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients3 received",
 			
 			"CuringNiko_{{ModId}}": "Basic/{{i18n:{{ModId}}_CuringNiko.title}}/{{i18n:{{ModId}}_CuringNiko.text}}/{{i18n:{{ModId}}_CuringNiko.objective}}/null/-1/0/-1/false//",
+			
+			"{{ModId}}_DocksVisit": "Location/{{i18n:DocksVisit.title}}/{{i18n:DocksVisit.text}}/{{i18n:DocksVisit.objective}}/{{ModId}}_Docks/-1/0/-1/true"
 		}
 	}
-	]
+  ]
 }

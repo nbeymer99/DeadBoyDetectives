@@ -40,6 +40,18 @@
 		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 8 },
 		"ToArea": { "X": 55, "Y": 0, "Width": 7, "Height": 8 }
 	},
+	// SVE + ARV
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mountain",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
+			"HasMod": "Himetarts.ARV.CP"
+		},
+		"FromFile": "assets/maps/MountainPass_SVE_ARV.tmx",
+		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 8 },
+		"ToArea": { "X": 55, "Y": 0, "Width": 7, "Height": 8 }
+	},
 	{
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_MountainPass",
