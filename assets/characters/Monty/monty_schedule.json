@@ -1,28 +1,35 @@
 {
 	"Changes": [
-		// conditional schedules
-
-			// mines accessible
-		{
+	// pre-earthquake schedule
+	{
+        "Action": "EditData",
+        "Target": "Characters/schedules/MontyFinch",
+		"Entries": {	
+			"spring": "0800 Mountain 62 10 2 monty_read/1700 {{ModId}}_FinchHouseInt 5 21 3",
+		}
+	}, 
+	// normal schedule
+	{
         "Action": "EditData",
         "Target": "Characters/schedules/MontyFinch",
 		"When": {
 			"HasFlag": "landslideDone"
-			},
-		"Entries": {
-			"spring": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"/1100 ArchaeologyHouse 15 9 0/1430 {{ModId}}_TragicMicks 11 16 3/1700 Saloon 33 18 0 \"Strings\\schedules\\CharlesRowland:Saloon.000\"/2200 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"",
-			}
 		},
-		
-		// normal schedules
-		{
-        "Action": "EditData",
-        "Target": "Characters/schedules/MontyFinch",
 		"Entries": {
-			"rain": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"/1100 ArchaeologyHouse 15 9 0/1430 {{ModId}}_TragicMicks 11 16 3/1700 Saloon 33 18 0 \"Strings\\schedules\\CharlesRowland:Saloon.000\"/2200 {{ModId}}_DeadBoyAgency 10 9 2 charles_music \"Strings\\schedules\\CharlesRowland:Music.000\"",
 			
-			"spring": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 7 2 charles_bagoftricks \"Strings\\schedules\\CharlesRowland:Bag.000\"/1100 ArchaeologyHouse 15 9 0/1400 Town 13 15 2 charles_soccer \"Strings\\schedules\\CharlesRowland:Soccer.000\"/2200 {{ModId}}_DeadBoyAgency 11 9 1",
-			}
+			"Mon": "a1000 ArchaeologyHouse x y z monty_read/1400 Town xbenchTNT y z monty_bench/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Tue": "0900 Forest x y z/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep", 
+			"Wed": "a1000 ArchaeologyHouse x y z monty_read/1400 Town xplayground y z monty_swing/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_eatbug/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Thu": "0800 Town xbenchTNT y z/1500 Mountain 62 10 2 monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Fri": "0800 Town xswing y z monty_swing/1500 Town xtree y z monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Sat": "GOTO Mon",
+			"Sun": "0700 {{ModId}}_TragicMicks x y z/1300 {{ModId}}_Lighthouse x y z monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			
+			"rain": "",
+			
+			"spring": "",
+
 		}
-	]
+	},
+  ]
 }

@@ -4,6 +4,21 @@
 		"Action": "EditData",
 		"Target": "Data/Objects",
 		"Entries": {
+			/* "{{ModId}}_CharmBracelet": {
+				"Name": "{{ModId}}_CharmBracelet",
+				"DisplayName": "{{i18n:CharmBracelet.DisplayName}}",
+				"Description": "{{i18n:CharmBracelet.Description}}",
+				"Type": "Ring",
+				"Category": -100,
+				"Price": "9999",
+				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
+				"SpriteIndex": 2,
+				"CanBeGivenAsGift": false,
+				"CanBeTrashed": false,
+				"ExcludeFromRandomSale": true,
+				"ExcludeFromShippingCollection": true,
+			}, */
+			
 			"{{ModId}}_CharlesAmulet": {
 				"Name": "{{ModId}}_CharlesAmulet",
 				"DisplayName": "{{i18n:CharlesAmulet.DisplayName}}",
@@ -16,6 +31,7 @@
 				"CanBeGivenAsGift": false,
 				"CanBeTrashed": false,
 				"ExcludeFromRandomSale": true,
+				"ExcludeFromShippingCollection": true,
 			},
 
 			
@@ -31,6 +47,7 @@
 				"CanBeGivenAsGift": false,
 				"CanBeTrashed": false,
 				"ExcludeFromRandomSale": true,
+				"ExcludeFromShippingCollection": true,
 			},
 			
 			"{{ModId}}_DandelionSpriteJar": {
@@ -44,6 +61,7 @@
 				"SpriteIndex": 13,
 				"CanBeTrashed": true,
 				"CanBeShipped": false,
+				"ExcludeFromShippingCollection": true,
 			},
 			
 			"{{ModId}}_NikoMirror": {
@@ -59,7 +77,8 @@
 				"CanBeGivenAsGift": false,
 				"CanBeShipped": false,
 				"ExcludeFromRandomSale": true,
-				"ContextTags": ["not_placeable"],
+				"ExcludeFromShippingCollection": true,
+				"ContextTags": [ "not_placeable" ],
 			},
 
 			
@@ -74,6 +93,7 @@
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 1,
 				"ContextTags": [ "seedmaker_banned" ],
+				"ExcludeFromShippingCollection": true,
 			},
 
 			
@@ -98,7 +118,8 @@
 				"Category": -5,
 				"Price": "1500",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
-				"SpriteIndex": 3
+				"SpriteIndex": 3,
+				"ExcludeFromShippingCollection": true,
 			},
 
 			
@@ -110,7 +131,8 @@
 				"Category": -24,
 				"Price": "6000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
-				"SpriteIndex": 10
+				"SpriteIndex": 10,
+				"ExcludeFromShippingCollection": true,
 			},
 
 			
@@ -129,7 +151,8 @@
 				"color_red",
 				"fish_legendary",
 				"fish_pond_ignore"
-				]
+				],
+				"ExcludeFromShippingCollection": true,
 			},
 
 		}
@@ -182,29 +205,6 @@
 			"{{ModId}}_RecordPlayer": "{{ModId}}_RecordPlayer/decor/1 2/1 1/-1/5000/0/{{i18n:RecordPlayer.DisplayName}}/21/{{ModId}}\\Furniture\\RecordPlayer\\texture/true/{{ModId}}"
 		}
 	},
-	
-	// optional config - turn jukebox into record player
-	/* {
-		"Action": "EditImage",
-		"Target": "TileSheets/Craftables",
-		"FromFile": "assets/objects/itemsAndFurniture.png",
-		"FromArea": {
-			"X": 16,
-			"Y": 32,
-			"Width": 32,
-			"Height": 32
-		},
-		"ToArea": {
-			"X": 16,
-			"Y": 832,
-			"Width": 32,
-			"Height": 32
-		},
-		"PatchMode": "Replace",
-		"When": {
-			"Jukebox": "RecordPlayer",
-		},
-	}, */
 	
 	{
 		"Action": "EditData",
@@ -280,5 +280,5 @@
         "Target": "Mods/{{ModId}}/Crops",
         "FromFile": "assets/objects/crops.png"
     },
-	]
+  ]
 }

@@ -140,11 +140,23 @@
 		}
 	},
 	
-	// include schedule
+	// include normal schedule
 	{
 		"LogName": "MontySchedule",
 		"Action": "Include",
-		"FromFile": "assets/characters/Monty/Monty_schedule.json"
+		"FromFile": "assets/characters/Monty/Monty_schedule.json",
+		"When": {
+			"HasFlag |contains={{ModId}}_MontyCured": false,
+		},
+	},
+	// include new schedule
+	{
+		"LogName": "MontySchedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/Monty/Monty_schedule_afterRitual.json",
+		"When": {
+			"HasFlag |contains={{ModId}}_MontyCured": true,
+		},
 	},
 	
 	// include animations

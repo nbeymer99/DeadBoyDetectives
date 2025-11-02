@@ -16,11 +16,12 @@
 			"GreenRainFinished": "{{i18n:niko_dialogue.GreenRainFinished}}",
 			"MovieInvite_Invited": "{{i18n:niko_dialogue.MovieInvite_Invited}}",
 			"DumpsterDiveComment": "{{i18n:niko_dialogue.DumpsterDiveComment}}",
-			"FlowerDance_Accept_Spouse": "{{i18n:niko_dialogue.FlowerDance_Accept_Spouse}}",
+			//"FlowerDance_Accept_Spouse": "{{i18n:niko_dialogue.FlowerDance_Accept_Spouse}}",
 			"FlowerDance_Accept": "{{i18n:niko_dialogue.FlowerDance_Accept}}",
 			"FlowerDance_Decline": "{{i18n:niko_dialogue.FlowerDance_Decline}}",
 			"AcceptGift_(O)StardropTea": "{{i18n:niko_dialogue.AcceptGift_(O)StardropTea}}",
 			"divorced": "{{i18n:niko_dialogue.divorced}}",
+			"NikoIntroduced": "{{i18n:niko_dialogue.NikoIntroduced}}",
 			
 			"Mon": "{{i18n:niko_dialogue.Mon}}",
 			"Tue": "{{i18n:niko_dialogue.Tue}}",
@@ -80,7 +81,7 @@
 			"fall_15": "{{i18n:niko_dialogue.fall_15}}",
 			"fall_26": "{{i18n:niko_dialogue.fall_26}}",
 			"winter_24": "{{i18n:niko_dialogue.winter_24}}",
-			}	
-		}
-	]
+		}	
+	}
+  ]
 }

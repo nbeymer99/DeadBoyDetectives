@@ -1,0 +1,22 @@
+{
+	"Changes": [
+	{
+        "Action": "EditData",
+        "Target": "Characters/schedules/MontyFinch",
+		"Entries": {
+			
+			"Mon": "a1000 ArchaeologyHouse x y z monty_read/1400 Town xbenchTNT y z monty_bench/",
+			"Tue": "0900 Forest x y z/", 
+			"Wed": "a1000 ArchaeologyHouse x y z monty_read/1400 Town xplayground y z monty_swing/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_eatbug/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Thu": "0800 Town xbenchTNT y z/1500 Mountain xlake y z monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Fri": "0800 Town xswing y z monty_swing/1400 Town xtree y z monty_read/a1830 Saloon x y z monty_bench(?)/2330 bed",
+			"Sat": "
+			"Sun": "0700 {{ModId}}_TragicMicks x y z/1300 {{ModId}}_Lighthouse x y z monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			
+			"rain": "",
+			
+			"spring": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 10 7 2 charles_bagoftricks \"Strings\\schedules\\CharlesRowland:Bag.000\"/1100 ArchaeologyHouse 15 9 0/1400 Town 13 15 2 charles_soccer \"Strings\\schedules\\CharlesRowland:Soccer.000\"/2200 {{ModId}}_DeadBoyAgency 11 9 1",
+		}
+	}
+  ]
+}

@@ -1,9 +1,9 @@
 {
 	// REGULAR DIALOGUE
 	
-	"niko_dialogue.Introduction": "I'm Niko! Thanks for helping my friends. It's great to meet you!",
-	"niko_dialogue.cc_Begin": "",
-	"niko_dialogue.cc_Boulder": "",
+	"niko_dialogue.Introduction": "I'm Niko! Thanks for helping my friends. It's great to meet you!$h",
+	"niko_dialogue.cc_Begin": "Are you fixing up the Community Center?#$b#Ooh! I could help! I love interior design.$h",
+	"niko_dialogue.cc_Boulder": "Sometimes, when I'm down on the shore, I'll find all kinds of cool things where the water sparkles.",
 	"niko_dialogue.cc_Bus": "I heard we can take the bus to Calico Desert now!",
 	"niko_dialogue.cc_Minecart": "I heard you fixed the minecarts.#$b#Now you can get around as fast as Edwin, Charles and I can mirror travel!",
 	"niko_dialogue.cc_Complete": "The new community center looks so good!",
@@ -17,6 +17,7 @@
 	"niko_dialogue.FlowerDance_Decline": "No thank you. I don't really like the attention...",
 	"niko_dialogue.AcceptGift_(O)StardropTea": "Ooh, I love this!",
 	"niko_dialogue.divorced": "Are you just here to break my heart again?$s",
+	"niko_dialogue.NikoIntroduced": "I'm Niko! Thanks for helping my friends. It's great to meet you!$h",
 	
 	"niko_dialogue.Mon": "The valley is so pretty today.",
 	"niko_dialogue.Tue": "Being a farmer looks like such hard work.",
