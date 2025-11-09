@@ -1,0 +1,32 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": ["Entries", "NikoSasaki"],
+			"Value": "{{ModId}}_EverbloomFlower",
+			"Delimiter": " "
+		},
+	  ]
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Mail",
+		"Entries": {
+			"{{ModId}}_CCR_Niko1": "text text! %addItem {{Random: blah blah}}[#]Snack from Niko",
+			
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"Id": "{{ModId}}_CCR_Niko1"
+		}
+	},
+  ]
+}
+	

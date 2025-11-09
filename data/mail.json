@@ -26,6 +26,8 @@
 			
 			"{{ModId}}_JojaTheatreGoodbye": "{{i18n:Mail.JojaTheatreGoodbye.text}}[#]{{i18n:Mail.JojaTheatreGoodbye.title}}",
 			
+			"{{ModId}}_MontyRitualPrep": "Hi @,^^I've gotten everything we need for the ritual, except it requires a dragon tooth, and I have no idea where to get one. Could you bring one with you to the house?^^You're a lifesaver,^    - Monty[#]Ritual Preparations",
+			
 			"{{ModId}}_LiftingTheVeil": "{{i18n:Mail.LiftingTheVeil.text}}[#]{{i18n:Mail.LiftingTheVeil.title}}",
 		}
 	}

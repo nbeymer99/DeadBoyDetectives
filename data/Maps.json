@@ -213,7 +213,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/{{ModId}}_TNTInterior",
 			"When": {
-				"HasSeenEvent": "{{ModId}}_montyhearts10", // may change to mail flag
+			   "Hearts:MontyFinch": "10"
 			},
 			"FromFile": "assets/maps/TNTInterior_Monty.tmx",
 			"FromArea": { "X": 0, "Y": 0, "Width": 9, "Height": 17 },

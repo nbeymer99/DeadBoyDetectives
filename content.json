@@ -28,8 +28,8 @@
 			"Section": "Map Patches",
 		},
 		"FinchHouse_Location": {
-			"AllowValues": "Default, Mines",
-			"Default": "Default",
+			"AllowValues": "Lakeside, MountainPass",
+			"Default": "Lakeside",
 			"Section": "Map Patches",
 		}
 	},
@@ -59,10 +59,10 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/TCK/catking.json"
 		},
- 		/* {
+ 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/Monty/monty.json"
-		},  */
+		},
 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/zzMinorCharacters/esther.json",
@@ -196,48 +196,53 @@
 		// Misc. Compat
 		{
 			"Action": "Include",
-			"FromFile": "data/Compatibility.json",
+			"FromFile": "data/Compat/Compatibility.json",
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/DocksCompat.json",
+			"FromFile": "data/Compat/CornucopiaCompat.json",
+			"When": { "HasMod": "Cornucopia.CookingRecipes" }
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Compat/DocksCompat.json",
 			"When": { // compat
 				"Query: ({{Docks_Location |contains=AutoDetect}} AND ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Bottom}}": true 
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/DocksDefault.json",
+			"FromFile": "data/Compat/DocksDefault.json",
 			"When": { // default
 				"Query: ({{Docks_Location |contains=AutoDetect}} AND NOT ({{HasMod |contains=aztecviper.fishofstardew, neosinf.StardewDruid, Squeaks.MGC.CP}})) OR {{Docks_Location |contains=Top}}": true 
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/TNTCompat.json",
+			"FromFile": "data/Compat/TNTCompat.json",
 			"When": { // compat
 				"Query: ({{TNT_Location |contains=AutoDetect}} AND {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=Cliffside}}": true,
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/TNTDefault.json",
+			"FromFile": "data/Compat/TNTDefault.json",
 			"When": { // default
 				"Query: ({{TNT_Location |contains=AutoDetect}} AND NOT {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=TownSquare}}": true,
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/FinchHouseDefault.json",
+			"FromFile": "data/Compat/FinchHouseDefault.json",
 			"When": {
-				"FinchHouse_Location": "Default",
+				"FinchHouse_Location": "Lakeside",
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "data/FinchHouseAlternate.json",
+			"FromFile": "data/Compat/FinchHouseAlternate.json",
 			"When": {
-				"FinchHouse_Location": "Mines",
+				"FinchHouse_Location": "MountainPass",
 			}
 		},
     ],

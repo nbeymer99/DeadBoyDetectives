@@ -79,6 +79,30 @@
 	"edwinhearts10.6": "Excellent. This shall only take a tick.",
 	"edwinhearts10.7": "That should do it.$h#$b#Thank you, @.",
 	
+	// monty 7.2 hearts - convincing edwin
+	"montyhearts7.2.0": "Monty? What are you and @ doing here?",
+	"montyhearts7.2.1": "I know this is a big favor to ask, but... I need your help.$s",
+	"montyhearts7.2.2": "You have a case for us?#$b#Let me get Charles.",
+	"montyhearts7.2.3": "No, not a case, exactly.#$b#Do you remember, um, what the Cat King said?",
+	"montyhearts7.2.4": "Are you referring to when he revealed your allegiance with the witch who was trying to end Charles' and my existence? Of course.$a",
+	"montyhearts7.2.5": "I'm really sorry about all of that...$s#$b#I wanted to apologize to you but I couldn't put it into words when I tried to write it down, and you didn't seem interested in talking again...$s#$b#She's my witch, and I'm her familiar, and I literally *can't* disobey her.$s#$b#At first it was just a job, getting close to you to trick you, but then I realized I actually liked you.$s#$b#I tried to convince Esther to let her grudge go, but it was too late.$s",
+	"montyhearts7.2.6": "Yes, I... I confess I may have been avoiding you.$s#$b#I do appreciate the apology, and I regret the situation you were put in by Esther Finch.$s",
+	"montyhearts7.2.7": "Thanks, Edwin.#$b#So will you help me and @?",
+	"montyhearts7.2.8": "That depends entirely on what you need help with. It is not a case, as you said, so I deduce it must be related to your troubles with Esther.$u#$b#I shouldn't like to cross her again, so I do hope you don't intend me to join in any violent or retributive actions.",
+	"montyhearts7.2.9": "No, I wouldn't put you in danger from her... Not again, I mean.$s#$b#She transformed me so that I turn back into a crow every night as soon as the sun sets.$s#$b#There's a ritual we can perform to make me human, and since you're the best at magic, I figured it would be safer with you there to perform it.",
+	"montyhearts7.2.10": "I see. And I assume this ritual is quite dangerous?#$b#@, what is your opinion in all this?",
+	"montyhearts7.2.11": "We really need your help. Monty's right, it would be safer with you there.",
+	"montyhearts7.2.12": "You don't owe Monty anything, especially after he betrayed you. I didn't know the full story until now.",
+	"montyhearts7.2.13": "Actually, I think this whole thing is a bad idea. I changed my mind.",
+	"montyhearts7.2.14": "I see... I apologize, Monty, but I must agree with @.$s#$b#I do sympathize with your plight, but I cannot put myself nor Charles at risk of reprisal from Esther.$s#$b#Best of luck with your attempts.",
+	
+	"ConvincedEdwin.0": "Very well then. I shall do some research to prepare.",
+	"ConvincedEdwin.1": "Thank you so much! Meet me and @ at Esther's house when you're ready.$l",
+	
+	"CallTheWholeThingOff.0": "@! You promised you'd help!$a",
+	"CallTheWholeThingOff.1": "I see... I apologize, Monty, but I must agree with @.$s#$b#This is a dangerous proposal, and we cannot get involved.$s",
+	"CallTheWholeThingOff.2": "Fine. Some friends you guys are.$a#$b#I'll do it myself.$a",
+	
 // BEACH
 	// cat king 5 hearts - lying to willy
 	"catkinghearts5.0": "Oh! Hello there, moggy. Did you wander over from that abandoned cannery?$h",
@@ -236,6 +260,56 @@
 	"crystalhearts10.10": "The guilt was eating me alive.#$b#It turns out that even for a psychic--maybe *especially* for a psychic--it's really hard to get out of your own head.$3#$b#What helps is thinking about my friends, and you've been a big part of that.#$b#I see the way you run around helping people. It reminds me to focus on doing good here, now, instead of dwelling on the past.",
 	"crystalhearts10.11": "To thank you, and as a reminder from me to you about doing good, I wanted to give you this.",
 	"crystalhearts10.12": "And feel free to come here whenever you need a break. Maybe we could hang out in here together sometime?$l",
+	
+// FARM
+	// joja route warning
+	"JojaRouteWarning.0": "Hey, @.#$b#So I guess you've heard by now, but they started work on the old community center last night. Turned it into a warehouse, apparently.$s",
+	"JojaRouteWarning.1": "It'll make things difficult for us, but there's nowhere else to move the agency to, so we've just got to carry on, yeah?$s#$b#Edwin's pretty angry, though... thought I should warn you.$s#$b#He'll get over it eventually... I hope.$s#$b#Just thought I should let you know.",
+	"JojaRouteWarning.2": "Oh, and... we also heard there were plans to maybe turn it into a movie theatre. You heard anything about that?",
+	"JojaRouteWarning.3": "#No#Yes",
+	"JojaRouteWarning.4": "Right... well, if that happened, we'd probably have to leave.$s#$b#You might not see us around town as much, 'cause it's not like Crystal would want us staying with her again.$s#$b#Just something to think about, yeah?",
+	"JojaRouteWarning.5": "Anyway, see you around.",
+	
+	// monty 7.1 hearts - beg for help with ritual
+	"montyhearts7.1.0": "Hi, @. Sorry, I know it's kind of early...#$b#I have a favor to ask you.",
+	"montyhearts7.1.1": "I tried to keep it a secret, but Esther made sure that didn't work.$s#$b#It's true... I'm actually a crow. She made me into a boy so that I could help her with her insane plans, but I'm sick of being used.#$b#I don't want to be under her thumb anymore. I want to be able to live my own life, but as a human, not as a crow.",
+	"montyhearts7.1.2": "There's a spell that could make me human, permanently. But it needs three people.#$b#Will you help me?",
+	"montyhearts7.1.3": "Will you help me?",
+	"montyhearts7.1.4": "Of course I'll help.",
+	"montyhearts7.1.5": "No, find someone else.",
+	"montyhearts7.1.6": "Who else are you getting to help?",
+	
+	"helpMontyEasy.0": "Thank you so much. You have no idea how much this means to me.",
+	"helpMontyEasy.1": "Who else are you getting to help us?",
+	"helpMontyEasy.2": "How do I help you?",
+	
+	"ritualDetails.0": "I'll take care of everything. I'll send you a letter when I'm done getting the spell ready, so just wait for that.#$b#Thank you so much, again.",
+	
+	"noHelpMonty.0": "Oh... okay. Forget I asked.$s#$b#Sorry to bother you. I'll go now.$s",
+	
+	"whoHelpMonty.0": "I don't know if he'll agree, but... Edwin is the best spellcaster I know.#$b#If anything goes wrong, he should be there.",
+	"whoHelpMonty.1": "I don't want to help you.",
+	"whoHelpMonty.2": "Okay. How do I help?",
+	"whoHelpMonty.3": "Why wouldn't he help?",
+	
+	"MontyEdwinBackstory.0": "It's kind of a long story, but... remember how I mentioned that Esther used me?$s#$b#She made me trick Edwin, manipulate him, so that she could take revenge on him and Charles after they crossed her.$s#$b#He was the angriest I've ever seen him.$s",
+	"MontyEdwinBackstory.1": "If he won't help, well... I don't know what I'll do.",
+	"MontyEdwinBackstory.2": "Actually, this is a bad idea. I don't want to help you.",
+	"MontyEdwinBackstory.3": "I'll help you convince Edwin.",
+	"MontyEdwinBackstory.4": "If Edwin won't help, I still will. What should I do?",
+	
+	"helpConvinceEdwin.0": "Really? That's so nice of you.$h#$b#Meet me at the agency later.",
+	"helpConvinceEdwin.1": "I'll go start getting things ready. See you!",	
+
+// FINCH HOUSE
+	// monty 4 hearts - crow discovery, esther taunt
+	"montyhearts4.0": "There's no sign of Monty... where is he?",
+	"montyhearts4.1": "CAW!$6",
+	"montyhearts4.2": "How did you get in here, you nosy little shit?$a#$b#Did Monty tell you that you could come over? Lovestruck little fool.$l",
+	"montyhearts4.3": "You poor thing. You don't even know the secrets he keeps, do you?$u#$b#Wondering where he is? He's right behind you.$s",
+	"montyhearts4.4": "He's a crow, honey. You didn't know? Oops.$h",
+	"montyhearts4.5": "My sweet crow familiar.#$b#Too bad the little fool keeps falling in love with anyone who gives him the time of day. Oh well, he'll learn his lesson soon enough.$u",
+	"montyhearts4.6": "Now scram, kid. You're trespassing.$a",
 
 // LIBRARY
 	// edwin 7 hearts - apology
@@ -324,6 +398,21 @@
 	// temp - laugh at edwin
 	"laughAtEdwin.0": "I don't understand. It should have worked...$6#$b#You've distracted me, @.$6#$b#I don't need your help cleaning this up, so kindly leave me to my embarrassment.$6",
 	
+// TONGUE AND TAIL
+	// monty 10 hearts - moving in with jenny
+	"montyhearts10.0": "That should be everything. We're lucky Robin could build an extension onto the shop so quickly.#$b#Now, ground rules: rent is due on the 28th, and for the love of God don't pay it in loose coins.#$b#Second: the shop isn't a hangout spot. I run a business. All teenage drama goes outside or to your room.#$b#Third: don't--",
+	"montyhearts10.1": "@! I was gonna invite you over, but you beat me to it.$h#$b#Jenny let me move in. I couldn't spend another minute in that house with Esther.",
+	"montyhearts10.2": "Yeah, because apparently I run a house for troubled teens now.#$b#Whatever. You don't seem like as much trouble as the fucking Scooby Gang upstairs, so don't make me regret this.",
+	"montyhearts10.3": "Thanks, Jenny!",
+	"montyhearts10.4": "Seriously, I wanted to thank you. Without you, I'd still be stuck.#$b#But now I've got a life and a place of my own and...#$b#...a friend.$l",
+	"montyhearts10.5": "Monty! I can't believe we're going to be neighbors!$h",
+	"montyhearts10.6": "Wow, nice digs. Did Jenny give you The Talk?$h",
+	"montyhearts10.7": "Would it kill you two to knock? I'm gonna die of a heart attack some day and it'll be your fault.$a",
+	"montyhearts10.8": "You live with ghosts and call yourself a detective. A detective should be prepared for such events.$u#$b#Anyway, we came to congratulate Monty.$h",
+	"montyhearts10.9": "Yeah, good job, mate. We're glad to have you around.$h",
+	"montyhearts10.10": "Thank @. I wouldn't be here without ${him^her^them}$.#$b#You're all welcome to come over any time.$h",
+	"montyhearts10.11": "Why don't we celebrate? Monty, you choose. Movie night or game night?$h",
+
 // TOWN
 	// seance 1
 	"Seance.0": "Ah, you decided to join us, @.#$b#This could be dangerous, but I am confident in your ability to handle yourself.#$b#You certainly handle that weapon of yours well when adventuring.",
