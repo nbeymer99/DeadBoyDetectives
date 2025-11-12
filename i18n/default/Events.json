@@ -301,6 +301,23 @@
 	"helpConvinceEdwin.0": "Really? That's so nice of you.$h#$b#Meet me at the agency later.",
 	"helpConvinceEdwin.1": "I'll go start getting things ready. See you!",	
 
+// FINCH ATTIC
+	// switchEvent from monty 7.3 hearts - with edwin
+	"EdwinStopsInterruption.0": "Wait, @!$s#$b#I know it's difficult to see Monty in pain...$s",
+	"EdwinStopsInterruption.1": "The spell is almost complete. Monty will pull through.$s#$b#Quickly, use the dragon tooth!",
+	"EdwinStopsInterruption.2": "I feel...$s#$b#I feel great!$l",
+	"EdwinStopsInterruption.3": "The ritual was a success!$h",
+	"EdwinStopsInterruption.4": "Thank you guys so, so much!$l#$b#I have to... I have to go tell everyone!$l",
+	"EdwinStopsInterruption.5": "I know I can't possibly repay you, but anything you want, @, I'll give it to you, seriously.#$l",
+	
+	// switchEvent from monty 7.3 hearts - no edwin
+	"interruptRitual.0": "Monty...?",
+	"interruptRitual.1": "@! You almost ruined everything!$a#$b#I trusted you to help... why couldn't you trust me to know my own limits?$a",
+	"interruptRitual.2": "I'm sorry... I should have listened to you.",
+	"interruptRitual.3": "I did the right thing. You were in too much pain.",
+	"interruptRitual.4": "Thank you for the apology... I'm glad it worked out in the end.$s#$b#I do feel lighter already...#$b#...I think the ritual worked!$h",
+	"interruptRitual.5": "Even now you're too stubborn to see the damage you could have done.$a#$b#Whatever. The ritual worked, no thanks to you, so you can go now.$a",
+
 // FINCH HOUSE
 	// monty 4 hearts - crow discovery, esther taunt
 	"montyhearts4.0": "There's no sign of Monty... where is he?",
@@ -310,6 +327,44 @@
 	"montyhearts4.4": "He's a crow, honey. You didn't know? Oops.$h",
 	"montyhearts4.5": "My sweet crow familiar.#$b#Too bad the little fool keeps falling in love with anyone who gives him the time of day. Oh well, he'll learn his lesson soon enough.$u",
 	"montyhearts4.6": "Now scram, kid. You're trespassing.$a",
+	
+	// monty 7.3 hearts - with edwin
+	"montyhearts7.3_edwin.0": "Well... Here goes nothing.#$b#Edwin is up in the attic already getting things started. Are you sure you don't want to back out?",
+	"montyhearts7.3_edwin.1": "Great.$h",
+	"montyhearts7.3_edwin.2": "I have finished preparations for the ritual.#$b#Monty, are you sure you wish to proceed? I suspect it will be quite painful.$s",
+	"montyhearts7.3_edwin.3": "Yes, I have to do this. I have to be free.$s",
+	"montyhearts7.3_edwin.4": "@, I must impress upon you the importance of not interfering with the ritual.$s#$b#Even if Monty is in immense pain, any deviations could lead to things going horribly wrong. It's never wise to interrupt a spell once in progress.$s",
+	"montyhearts7.3_edwin.5": "Monty, first you must drink the potion I've prepared. It will allow your form to solidify during the ritual.",
+	"montyhearts7.3_edwin.6": "Blegh!$7",
+	"montyhearts7.3_edwin.7": "(It is times like these that I do not miss my sense of taste.)#$b#@, you must hold the dragon's tooth above your head on my signal.#$b#I shall begin the spell now.",
+	"montyhearts7.3_edwin.8": "Edwin begins to read aloud from his spellbook.",
+	"montyhearts7.3_edwin.9": "Ugh... it feels like my bones are melting!$7#$b#No, don't stop!$s",
+	"montyhearts7.3_edwin.10": "[Stop the ritual.]",
+	"montyhearts7.3_edwin.11": "[Continue.]",
+	"montyhearts7.3_edwin.12": "I know it is difficult to see Monty in pain...$s#$b#It shouldn't disrupt the ritual too much if you were to hold Monty's hand. It's almost over.",
+	"montyhearts7.3_edwin.13": "Edwin continues chanting. The smoke is getting thicker.",
+	"montyhearts7.3_edwin.14": "AUGH!$7",
+	"montyhearts7.3_edwin.15": "Now, @!$7",
+	"montyhearts7.3_edwin.16": "I feel...$s#$b#I feel great!$l",
+	"montyhearts7.3_edwin.17": "The ritual was a success!$h",
+	"montyhearts7.3_edwin.18": "Thank you guys so, so much!$l#$b#I have to... I have to go tell everyone!$l",
+	"montyhearts7.3_edwin.19": "I know I can't possibly repay you, but anything you want, @, I'll give it to you, seriously.#$l",
+	
+	// monty 7.3 hearts - no edwin
+	"montyhearts7.3_noEdwin.0": "Well... Here goes nothing.#$b#Are you sure you don't want to back out?",
+	"montyhearts7.3_noEdwin.1": "Great.$h",
+	"montyhearts7.3_noEdwin.2": "I got everything ready... you have the dragon tooth, right?#$b#Good. I'll start the spell, and when I tell you, use the dragon tooth.#$b#Also, no matter how much pain I'm in, you can't stop, okay? I *have* to do this. I have to be free.$s",
+	"montyhearts7.3_noEdwin.3": "Monty begins to chant.",
+	"montyhearts7.3_noEdwin.4": "Ugh... it feels like my bones are melting!$7#$b#No, we can't stop!$s",
+	"montyhearts7.3_noEdwin.5": "[Stop the ritual.]",
+	"montyhearts7.3_noEdwin.6": "[Continue.]",
+	"montyhearts7.3_noEdwin.7": "Monty continues chanting. The smoke is getting thicker.",
+	"montyhearts7.3_noEdwin.8": "AUGH!$7",
+	"montyhearts7.3_noEdwin.9": "Now, @!",
+	"montyhearts7.3_noEdwin.10": "I feel...$s#$b#I feel great!$l",
+	"montyhearts7.3_noEdwin.11": "The ritual was a success!",
+	"montyhearts7.3_noEdwin.12": "Thank you so, so much!$l#$b#I have to... I have to go tell everyone!",
+	"montyhearts7.3_noEdwin.13": "I know I can't possibly repay you, but anything you want, @, I'll give it to you, seriously.#$l",
 
 // LIBRARY
 	// edwin 7 hearts - apology
@@ -452,6 +507,16 @@
 	"Seance2.17": "Did you help bring me back? Thank you!$h",
 	"Seance2.18": "Yeah, @ was a huge help. We couldn't have brought you back without ${him^her^them}$!$h#$b#We'd better get you all home, though. It's pretty late.",
 	"Seance2.19": "Yes, we shall hear the whole story another day.$u#$b#Top whole job, everyone.$h",
+	
+	"montyhearts1.0": "Sorry! I didn't see you there, haha. You're the new farmer, @, right?$h#$b#I was just checking out some books about astrology.",
+	"montyhearts1.1": "Astrology? You know that stuff is all made up, right?",
+	"montyhearts1.2": "Astrology? What's your star sign?",
+	"montyhearts1.3": "That's nice.",
+	"montyhearts1.4": "So what? It's fun to learn about, and you can't deny that it has some truth to it.$a",
+	"montyhearts1.5": "I'm a Pisces!$h",
+	"montyhearts1.6": "Yeah, right now I'm reading this book about how your rising sign influences your love life.$l",
+	"montyhearts1.7": "Anyway, I have to go. Sorry again for running into you!",
+	"montyhearts1.8": "Feathers...?",
 	
 // TRAGIC MICKS
 	// charles 10 hearts - giving you amulet
