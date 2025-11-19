@@ -16,7 +16,7 @@
 		"Action": "EditData",
 		"Target": "Data/Mail",
 		"Entries": {
-			"{{ModId}}_CCR_Niko1": "text text! %addItem {{Random: blah blah}}[#]Snack from Niko",
+			"{{ModId}}_CCR_Niko1": "Hi @!^My mom sent me some snacks from home, and I thought you might enjoy them more, seeing as how I can't always taste them. %addItem {{Random: blah blah}}[#]Snack from Niko",
 			
 		}
 	},

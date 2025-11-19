@@ -17,9 +17,6 @@
  <tileset firstgid="3553" name="mapObjects" tilewidth="16" tileheight="16" tilecount="36" columns="6">
   <image source="mapObjects.png" width="96" height="96"/>
  </tileset>
- <tileset firstgid="3589" name="furniture_2" tilewidth="16" tileheight="16" tilecount="512" columns="16">
-  <image source="handwrittenhello.dbda_furniture_2.png" width="256" height="512"/>
- </tileset>
  <layer id="1" name="Back" width="14" height="25">
   <data encoding="csv">
 65,65,65,65,65,65,65,65,65,65,65,65,65,65,
@@ -267,7 +264,7 @@
   </object>
   <object id="26" name="TileData" x="32" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="DIalogue &quot;The Old Man and the Sea&quot;"/>
+    <property name="Action" value="Dialogue &quot;The Old Man and the Sea&quot;"/>
    </properties>
   </object>
   <object id="27" name="TileData" x="96" y="208" width="16" height="16">
@@ -277,7 +274,7 @@
   </object>
   <object id="28" name="TileData" x="64" y="208" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Ayup, I might have what you need."/>
+    <property name="Action" value="Spiderbuttons.BETAS_DialogueBox TragicMick &quot;Ayup, I might have what you need.&quot; Portraits/TragicMick &quot;Tragic Mick&quot;"/>
    </properties>
   </object>
   <object id="50" name="TileData" x="144" y="64" width="16" height="16">

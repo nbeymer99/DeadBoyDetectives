@@ -62,7 +62,7 @@
 						"Location": "{{ModId}}_TNTInterior",
 						"Tile": { "X": 29, "Y": 9 },
 						"Direction": "left",
-						"Condition": "PLAYER_HAS_SEEN_EVENT {{ModId}}_montyhearts10", // may change to mail flag
+						"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_MontyTransformed", 
 					}
                 ],
 				"Breather": "true",

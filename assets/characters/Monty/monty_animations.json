@@ -4,7 +4,13 @@
       "Action": "EditData",
       "Target": "Data/animationDescriptions",
       "Entries": {
-        "monty_exist": "26/25 25 7 27 27 25 25/26",
+        "monty_read1": "0 24 25 26/26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 26/26 25 24 0",
+		"monty_read2": "23/23/23/",
+		"monty_sitbench": "20/20/20//offset 0 -10/laying_down",
+		"monty_swingset": "22/22/22//laying_down/offset -7 -35",
+		"monty_sleep": "36/36/36",
+		"monty_crow_eat": "33/33 33 33 33 33 34 34 34 33 33 33 33/33",
+		"monty_crow_nap": "35/35/35",
       }
     }
   ]

@@ -4,6 +4,7 @@
   <property name="AmbientLight" value="95 95 95"/>
   <property name="AmbientNightLight" value="130 130 100"/>
   <property name="DayTiles" value="Front 6 28 1346 Buildings2 7 21 18 Buildings2 8 21 19 Buildings2 14 21 18 Buildings2 15 21 19 Buildings 3 17 225 Buildings 4 17 225 Buildings 3 18 257 Buildings 4 18 257 Buildings 20 18 256 Buildings 21 18 256 Buildings 20 19 288 Buildings 21 19 288 Back 3 21 31 Back 4 21 31 Back 3 22 63 Back 4 22 63 Paths 7 21 0 Paths 8 21 0 Paths 6 27 0 Paths 5 28 0 Paths 7 28 0 Paths 6 29 0 Paths 14 21 0 Paths 15 21 0 Paths 17 28 8 Paths 21 28 8"/>
+  <property name="NPCWarp" value="3 24 handwrittenhello.dbda_TantrumHole 2 7"/>
   <property name="NightTiles" value="Front 6 28 1347 Buildings2 7 21 8 Buildings2 8 21 9 Buildings2 14 21 8 Buildings2 15 21 9 Buildings 3 17 1222 Buildings 4 17 1222 Buildings 3 18 1254 Buildings 4 18 1254 Buildings 20 18 1253 Buildings 21 18 1253 Buildings 20 19 1285 Buildings 21 19 1285 Back 3 21 60 Back 4 21 60 Back 3 22 60 Back 4 22 60 Paths 7 21 8 Paths 8 21 8 Paths 6 27 8 Paths 5 28 8 Paths 7 28 8 Paths 6 29 8 Paths 14 21 8 Paths 15 21 8 Paths 17 28 0 Paths 21 28 0"/>
   <property name="Warp" value="11 29 Mountain 86 36 9 16 handwrittenhello.dbda_FinchAttic 7 16"/>
   <property name="WindowLight" value="3 18 4 4 18 4 20 19 4 21 19 4"/>
@@ -119,8 +120,8 @@
 65,0,0,0,0,0,0,55,56,0,0,642,643,0,55,56,2959,2956,2957,631,632,2958,631,2154,1,
 65,323,324,0,0,0,496,87,88,0,0,0,0,0,87,88,0,0,0,0,0,0,0,69,1,
 65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,1,
-65,3577,3578,0,0,0,0,69,65,2803,0,0,0,0,69,65,0,0,0,0,0,3579,3580,69,1,
-65,3587,3588,0,0,0,769,69,65,2835,0,0,0,2374,69,65,1214,1246,1278,0,0,3589,3590,69,1,
+65,3579,3580,0,0,0,0,69,65,2803,0,0,0,0,69,65,0,0,0,0,0,3579,3580,69,1,
+65,3589,3590,0,0,0,769,69,65,2835,0,0,0,2374,69,65,1214,1246,1278,0,0,3589,3590,69,1,
 65,0,0,0,0,0,801,69,65,0,0,0,0,2406,69,65,1275,1276,1277,0,0,0,0,69,1,
 65,656,657,658,0,0,833,69,97,2209,2210,0,0,2438,131,97,0,0,0,0,522,0,457,69,1,
 65,688,689,690,0,739,865,69,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -311,7 +312,7 @@
  </layer>
  <objectgroup id="8" name="Back"/>
  <objectgroup id="9" name="Back2"/>
- <objectgroup id="10" name="Buildings">
+ <objectgroup id="10" name="Buildings" visible="0">
   <object id="27" name="TileData" x="96" y="352" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue There are a bunch of crumpled up letters... addressed to Edwin."/>

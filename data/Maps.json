@@ -111,11 +111,11 @@
 			"Target": "Maps/{{ModId}}_Graveyard",
 			"FromFile": "assets/maps/Graveyard.tmx",
 		},
-		{
+/* 		{
 			"Action": "Load",
 			"Target": "Maps/{{ModId}}_GraveyardFestival",
 			"FromFile": "assets/maps/GraveyardFestival.tmx",
-		},
+		}, */
 		
 		// RECOLORS
 		{
@@ -207,13 +207,15 @@
 			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
 			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
 		},
+		
 		// CUSTOM MAP PATCHES
 			//	 monty moves in with jenny
 		{
 			"Action": "EditMap",
 			"Target": "Maps/{{ModId}}_TNTInterior",
 			"When": {
-			   "Hearts:MontyFinch": "10"
+			   "Hearts:MontyFinch": "10", 
+			   "HasFlag": "hostPlayer |contains= {{ModId}}_MontyTransformed"
 			},
 			"FromFile": "assets/maps/TNTInterior_Monty.tmx",
 			"FromArea": { "X": 0, "Y": 0, "Width": 9, "Height": 17 },
@@ -223,6 +225,50 @@
 				"DayTiles": "Buildings 17 8 225 Buildings 20 8 225 Buildings 17 9 257 Buildings 20 9 257 Front2 17 10 480 Buildings 27 5 225 Buildings 28 5 225 Buildings 27 6 257 Buildings 28 6 257 Buildings2 28 7 480 Front 30 15 1346",
 				"NightTiles": "Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 809 Buildings 27 5 1222 Buildings 28 5 1222 Buildings 27 6 1254 Buildings 28 6 1254 Buildings2 28 7 809 Front 30 15 1347"
 			}
+		},
+			// conditional map edit - crow in cage @ finch house
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_FinchHouseInt",
+			"When": {
+				"HasFlag: hostPlayer|contains={{ModId}}_MontyTransformed": false,
+				"Time": "{{Range: 1900, 2600}}"
+			},
+			"Update": "OnTimeChange",
+			"MapTiles": [
+			{
+				"Position": { "X": 1, "Y": 24 },
+				"Layer": "Buildings",
+				"SetTilesheet": "finchhouseint",
+				"SetIndex": 24,
+			},
+			{
+				"Position": { "X": 2, "Y": 24 },
+				"Layer": "Buildings",
+				"SetTilesheet": "finchhouseint",
+				"SetIndex": 25,
+			},
+			{
+				"Position": { "X": 1, "Y": 25 },
+				"Layer": "Buildings",
+				"SetTilesheet": "finchhouseint",
+				"SetIndex": 34,
+			},
+			{
+				"Position": { "X": 2, "Y": 25 },
+				"Layer": "Buildings",
+				"SetTilesheet": "finchhouseint",
+				"SetIndex": 35,
+			},
+			]
+		},
+			// tantrum hole - let them out of jail
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_TantrumHole",
+			"AddNPCWarps": [
+				"2 4 {{ModId}}_FinchHouseInt 4 25"
+			],
 		},
 			// joja route movie theatre
 		{

@@ -6,7 +6,7 @@
 		"Target": "Strings/schedules/MontyFinch",
 		"Entries": 
         {
-            "Graveyard.000": "{{i18n:charles_strings.Graveyard.000}}",
+            "Telescope.000": "Tonight is supposed to be the convergence of Mars and Saturn. Want a look?",
 
 		}
 	}

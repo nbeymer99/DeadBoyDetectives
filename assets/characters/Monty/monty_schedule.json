@@ -5,7 +5,7 @@
         "Action": "EditData",
         "Target": "Characters/schedules/MontyFinch",
 		"Entries": {	
-			"spring": "0800 Mountain 62 10 2 monty_read/1700 {{ModId}}_FinchHouseInt 5 21 3",
+			"spring": "0800 Mountain 62 10 2 monty_read1/1700 {{ModId}}_FinchHouseInt 5 21 3",
 		}
 	}, 
 	// normal schedule
@@ -17,17 +17,17 @@
 		},
 		"Entries": {
 			
-			"Mon": "a1000 ArchaeologyHouse x y z monty_read/1400 Town xbenchTNT y z monty_bench/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
-			"Tue": "0900 Forest x y z/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep", 
-			"Wed": "a1000 ArchaeologyHouse x y z monty_read/1400 Town xplayground y z monty_swing/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_eatbug/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
-			"Thu": "0800 Town xbenchTNT y z/1500 Mountain 62 10 2 monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
-			"Fri": "0800 Town xswing y z monty_swing/1500 Town xtree y z monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Mon": "a0900 ArchaeologyHouse 18 12 2 monty_read1/1200 Town 14 73 2 monty_sitbench/a1910 {{ModId}}_TantrumHole 3 7 0",
+			"Tue": "0600 Forest 22 49 1 square_6_4/a1910 {{ModId}}_TantrumHole 3 7 0", 
+			"Wed": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/a1910 {{ModId}}_TantrumHole 3 7 0",
+			"Thu": "0600 {{ModId}}_TongueAndTail 21 24 3 monty_read2/1430 {{ModId}}_TongueAndTail 9 23 0/1500 {{ModId}}_FinchHouseInt 16 22 0/a1910 {{ModId}}_TantrumHole 3 7 0",
+			"Fri": "0630 Town 15 15/0930 Town 15 13 2 monty_swingset/1130 Town 24 97 2 monty_read2/a1910 {{ModId}}_TantrumHole 3 7 0",
 			"Sat": "GOTO Mon",
-			"Sun": "0700 {{ModId}}_TragicMicks x y z/1300 {{ModId}}_Lighthouse x y z monty_read/a2000 {{ModId}}_FinchHouseInt x y z monty_crow_preen/2300 {{ModId}}_FinchHouseInt x y z monty_crow_sleep",
+			"Sun": "0 {{ModId}}_TragicMicks 3 5 0/1100 {{ModId}}_Lighthouse 38 40 3 \"Strings\\schedules\\MontyFinch:Telescope.000\"/a1910 {{ModId}}_TantrumHole 3 7 0",
 			
-			"rain": "",
+			"rain": "GOTO Thu",
 			
-			"spring": "",
+			"spring": "0800 Mountain 62 10 2 monty_read/1700 {{ModId}}_FinchHouseInt 5 21 3",
 
 		}
 	},

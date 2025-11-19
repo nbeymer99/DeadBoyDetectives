@@ -6,6 +6,7 @@
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
+			// --- MAIL ---
 			//send mail - angie quest
 			"{{ModId}}AngieQuestMail": {
 				"Id": "{{ModId}}_AngieQuestMail",
@@ -23,16 +24,6 @@
 				"Condition": "PLAYER_HAS_MAIL Host ccMovieTheaterJoja Any",
 				"Actions": [
 					"AddMail All {{ModId}}_JojaTheatreGoodbye now",
-				]
-			},
-			
-			// send custom festival invite
-			"{{ModId}}_VeilFestivalMail": {
-				"Id": "{{ModId}}_VeilFestivalMail",
-				"Trigger": "DayStarted",
-				"Condition": "SEASON_DAY fall 5",
-				"Actions": [
-					"AddMail All {{ModId}}_LiftingTheVeil now",
 				]
 			},
 			
@@ -84,6 +75,18 @@
 					"AddMail Current {{ModId}}_CrystalCactus now",
 				]
 			},
+			
+			// monty 7.3 invite - tell farmer to bring dragon tooth
+			"{{ModId}}_Monty7.3Hearts": {
+				"Id": "{{ModId}}_Monty7.3Hearts",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModId}}_ritualDetails {{ModId}}_ConvincedEdwin",
+				"Actions": [
+					"AddMail Current {{ModId}}_MontyRitualPrep now",
+				]
+			},
+			
+			// --- NOT MAIL ---
 			
 			// add edwin's 10 heart buff
 			"EdwinPayne_10": {
@@ -229,26 +232,5 @@
 			},
 		},
 	},
-	{
-		"Action": "Load",
-		"Target": "{{ModId}}/Animals/MonarchButterfly",
-		"FromFile": "assets/objects/monarchbutterfly.png"
-	},
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"When": { "HasMod": "mushymato.MMAP" },
-		"Entries": {
-			"{{ModId}}_FestivalButterflies": {
-				"Id": "{{ModId}}_FestivalButterflies",
-				"Trigger": "LocationChanged",
-				"Condition": "LOCATION_NAME Here {{ModId}}_Graveyard, SEASON fall",
-				"MarkActionApplied": false,
-				"Actions": [
-					"mushymato.MMAP_CritterRandom 0.02 Butterfly {{ModId}}/Animals/MonarchButterfly 1",
-				],
-			}
-		}
-	}
   ]
 }

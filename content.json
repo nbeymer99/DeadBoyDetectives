@@ -12,11 +12,6 @@
 			"Section": "Map Patches",
 			"Description": "Overlay map patches during festivals.",
 		},
-		"Festival_of_the_Beyond": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable the Veil Festival on Fall 6.",
-		},
 		"TNT_Location": {
 			"AllowValues": "AutoDetect, TownSquare, Cliffside",
 			"Default": "AutoDetect",
@@ -90,13 +85,6 @@
 			"FromFile": "data/FestivalMaps.json",
 			"When": {
 				"Festival_Map_Edits": true
-			}
-		},
-		{
-			"Action": "Include",
-			"FromFile": "data/VeilFestival.json",
-			"When": {
-				"Festival_of_the_Beyond": true
 			}
 		},
 		
@@ -198,11 +186,11 @@
 			"Action": "Include",
 			"FromFile": "data/Compat/Compatibility.json",
 		},
-		{
+		/* {
 			"Action": "Include",
 			"FromFile": "data/Compat/CornucopiaCompat.json",
 			"When": { "HasMod": "Cornucopia.CookingRecipes" }
-		},
+		}, */
 		{
 			"Action": "Include",
 			"FromFile": "data/Compat/DocksCompat.json",
@@ -263,19 +251,6 @@
 		}
 	},
 	{
-		"Name": "MMAPAction_Butterflies",
-			"Value": "/", 
-	},
-		
-	{
-		"Name": "MMAPAction_Butterflies",
-		"Value": "/action mushymato.MMAP_CritterRandom 0.02 Butterfly {{ModId}}\\Animals\\MonarchButterfly 1/", 
-		"When":
-		{
-			"HasMod": "mushymato.MMAP"
-		}
-	},
-	{
 		"Name": "Verbed1",
 		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.722, Strings\\StringsFromCSFiles:Dialogue.cs.723, Strings\\StringsFromCSFiles:Dialogue.cs.724, Strings\\StringsFromCSFiles:Dialogue.cs.725, Strings\\StringsFromCSFiles:Dialogue.cs.726, Strings\\StringsFromCSFiles:Dialogue.cs.727, Strings\\StringsFromCSFiles:Dialogue.cs.728, Strings\\StringsFromCSFiles:Dialogue.cs.729, Strings\\StringsFromCSFiles:Dialogue.cs.730, Strings\\StringsFromCSFiles:Dialogue.cs.731, Strings\\StringsFromCSFiles:Dialogue.cs.732, Strings\\StringsFromCSFiles:Dialogue.cs.733, Strings\\StringsFromCSFiles:Dialogue.cs.734}}", 
 	},
@@ -327,5 +302,17 @@
 		"Name": "PrepPhrase",
 		"Value": "{{Random:Strings\\StringsFromCSFiles:Dialogue.cs.735, Strings\\StringsFromCSFiles:Dialogue.cs.736, Strings\\StringsFromCSFiles:Dialogue.cs.737, Strings\\StringsFromCSFiles:Dialogue.cs.738, Strings\\StringsFromCSFiles:Dialogue.cs.739, Strings\\StringsFromCSFiles:Dialogue.cs.740, Strings\\StringsFromCSFiles:Dialogue.cs.741, Strings\\StringsFromCSFiles:Dialogue.cs.742, Strings\\StringsFromCSFiles:Dialogue.cs.743, Strings\\StringsFromCSFiles:Dialogue.cs.744, Strings\\StringsFromCSFiles:Dialogue.cs.745, Strings\\StringsFromCSFiles:Dialogue.cs.746, Strings\\StringsFromCSFiles:Dialogue.cs.747}}",
 	},
+	{
+		"Name": "horoscopeVerb",
+		"Value": "{{Random:need, want, already have, cannot find}}"
+	},
+	{
+		"Name": "horoscopeNoun",
+		"Value": "{{Random:a friend, peace, a purpose, family, closure}}"
+	},
+	{
+		"Name": "horoscopePlace",
+		"Value": "{{Random:within, to the sky, among those you know, in the mirror, up, down, around, everywhere}}"
+	}
   ]
 }

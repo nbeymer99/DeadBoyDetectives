@@ -121,7 +121,7 @@
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_Graveyard"
 					},
-					"DisplayName": "Shallow Sound Cemetery", //i18n this
+					"DisplayName": "{{i18n:LocationDisplayName.Cemetery.DisplayName}}", 
 					"DefaultArrivalTile": { "X": 2, "Y": 9 },
 				},
 				
@@ -380,7 +380,14 @@
 						"X": 45,
 						"Y": 95,
 					},
-                }
+                },
+				
+				"{{ModId}}_TantrumHole": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/Coop"
+					},
+					"DisplayName": "Birdcage"
+				}
 			}
 		},
 	]
