@@ -52,18 +52,18 @@
 				//Spawn Rules
                 "Home": [
                     {
-						"Id": "Default",
-                        "Location": "{{ModId}}_FinchHouseInt",
-                        "Tile": { "X": 2, "Y": 21 },
-						"Direction": "right"
-                    },
-					{
 						"Id": "MoveTNT",
 						"Location": "{{ModId}}_TNTInterior",
 						"Tile": { "X": 29, "Y": 9 },
 						"Direction": "left",
-						"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_MontyTransformed", 
-					}
+						"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_MontyTransformed, PLAYER_HAS_MAIL Host {{ModId}}_MontyTNT",
+					},
+					{
+						"Id": "Default",
+                        "Location": "{{ModId}}_FinchHouseInt",
+                        "Tile": { "X": 2, "Y": 21 },
+						"Direction": "right"
+                    }
                 ],
 				"Breather": "true",
 				//"KissSpriteIndex": 42
@@ -155,7 +155,7 @@
 		"Action": "Include",
 		"FromFile": "assets/characters/Monty/Monty_schedule_afterRitual.json",
 		"When": {
-			"HasFlag |contains={{ModId}}_MontyCured": true,
+			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
 		},
 	},
 	

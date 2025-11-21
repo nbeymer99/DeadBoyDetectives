@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{
+	{
         "Action": "EditData",
         "Target": "Characters/schedules/CrystalPalace",
 		"Entries": {
@@ -65,7 +65,18 @@
 			"winter_Sun": "GOTO spring_Sun",
 			
 			"spring": "0610 {{ModId}}_CrystalAndNiko 39 13 3/0900 {{ModId}}_CrystalAndNiko 34 11 0/1300 {{ModId}}_TongueAndTail 15 23 1/1600 Town 77 95 2/1900 {{ModId}}_CrystalAndNiko 33 20 0/2400 bed",
-			}
 		}
-	]
+	},
+	{
+        "LogName": "Charles Schedule Conditionals",
+        "Action": "EditData",
+        "Target": "Characters/schedules/CrystalPalace",
+		"When": {
+			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
+		},
+		"Entries": {
+			"Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 49 91 2 crystal_meditate/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_sit \"Strings\\schedules\\CrystalPalace:MovieNight.000\""
+		}
+	}
+  ]
 }

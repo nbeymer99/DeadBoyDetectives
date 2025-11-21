@@ -20,10 +20,10 @@
 			"Mon": "a0900 ArchaeologyHouse 18 12 2 monty_read1/1200 Town 14 73 2 monty_sitbench/a1910 {{ModId}}_TantrumHole 3 7 0",
 			"Tue": "0600 Forest 22 49 1 square_6_4/a1910 {{ModId}}_TantrumHole 3 7 0", 
 			"Wed": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/a1910 {{ModId}}_TantrumHole 3 7 0",
-			"Thu": "0600 {{ModId}}_TongueAndTail 21 24 3 monty_read2/1430 {{ModId}}_TongueAndTail 9 23 0/1500 {{ModId}}_FinchHouseInt 16 22 0/a1910 {{ModId}}_TantrumHole 3 7 0",
+			"Thu": "0610 {{ModId}}_TongueAndTail 22 24 3 monty_read2/1300 {{ModId}}_TongueAndTail 9 23 0/1400 {{ModId}}_FinchHouseInt 16 22 0/a1910 {{ModId}}_TantrumHole 3 7 0",
 			"Fri": "0630 Town 15 15/0930 Town 15 13 2 monty_swingset/1130 Town 24 97 2 monty_read2/a1910 {{ModId}}_TantrumHole 3 7 0",
 			"Sat": "GOTO Mon",
-			"Sun": "0 {{ModId}}_TragicMicks 3 5 0/1100 {{ModId}}_Lighthouse 38 40 3 \"Strings\\schedules\\MontyFinch:Telescope.000\"/a1910 {{ModId}}_TantrumHole 3 7 0",
+			"Sun": "0 {{ModId}}_TragicMicks 3 5 0/1100 {{ModId}}_Lighthouse 38 41 3 \"Strings\\schedules\\MontyFinch:Telescope.000\"/a1910 {{ModId}}_TantrumHole 3 7 0",
 			
 			"rain": "GOTO Thu",
 			

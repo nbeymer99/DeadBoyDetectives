@@ -4,7 +4,7 @@
 	{
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_Lighthouse",
-		"FromFile": "assets/maps/Lighthouse_SVE.tmx",
+		"FromFile": "assets/maps/Compat/Lighthouse_SVE.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 5 },
 		"ToArea": { "X": 26, "Y": 0, "Width": 12, "Height": 5 },
 		"When": {

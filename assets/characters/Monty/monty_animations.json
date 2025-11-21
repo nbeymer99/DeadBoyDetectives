@@ -8,10 +8,11 @@
 		"monty_read2": "23/23/23/",
 		"monty_sitbench": "20/20/20//offset 0 -10/laying_down",
 		"monty_swingset": "22/22/22//laying_down/offset -7 -35",
-		"monty_sleep": "36/36/36",
+		"montyfinch_sleep": "36/36/36",
 		"monty_crow_eat": "33/33 33 33 33 33 34 34 34 33 33 33 33/33",
 		"monty_crow_nap": "35/35/35",
-      }
+		"monty_sit": "32/32/32",
+	  }
     }
   ]
 }

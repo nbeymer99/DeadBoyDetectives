@@ -83,7 +83,7 @@
 	"montyhearts7.2.0": "Monty? What are you and @ doing here?",
 	"montyhearts7.2.1": "I know this is a big favor to ask, but... I need your help.$s",
 	"montyhearts7.2.2": "You have a case for us?#$b#Let me get Charles.",
-	"montyhearts7.2.3": "No, not a case, exactly.#$b#Do you remember, um, what the Cat King said?",
+	"montyhearts7.2.3": "No, not a case, exactly.#$b#Do you remember, um, what the Cat King said? In the forest?",
 	"montyhearts7.2.4": "Are you referring to when he revealed your allegiance with the witch who was trying to end Charles' and my existence? Of course.$a",
 	"montyhearts7.2.5": "I'm really sorry about all of that...$s#$b#I wanted to apologize to you but I couldn't put it into words when I tried to write it down, and you didn't seem interested in talking again...$s#$b#She's my witch, and I'm her familiar, and I literally *can't* disobey her.$s#$b#At first it was just a job, getting close to you to trick you, but then I realized I actually liked you.$s#$b#I tried to convince Esther to let her grudge go, but it was too late.$s",
 	"montyhearts7.2.6": "Yes, I... I confess I may have been avoiding you.$s#$b#I do appreciate the apology, and I regret the situation you were put in by Esther Finch.$s",
@@ -272,7 +272,7 @@
 	
 	// monty 7.1 hearts - beg for help with ritual
 	"montyhearts7.1.0": "Hi, @. Sorry, I know it's kind of early...#$b#I have a favor to ask you.",
-	"montyhearts7.1.1": "I tried to keep it a secret, but Esther made sure that didn't work.$s#$b#It's true... I'm actually a crow. She made me into a boy so that I could help her with her insane plans, but I'm sick of being used.#$b#I don't want to be under her thumb anymore. I want to be able to live my own life, but as a human, not as a crow.",
+	"montyhearts7.1.1": "I tried to keep it a secret, but Esther made sure that didn't work.$s#$b#It's true... I'm actually a crow. She lets me transform during the day so that I can help her with her insane plans, but I'm sick of being used.$s#$b#I don't want to be under her thumb anymore. I want to be able to live my own life, but as a human, not as a crow.",
 	"montyhearts7.1.2": "There's a spell that could make me human, permanently. But it needs three people.#$b#Will you help me?",
 	"montyhearts7.1.3": "Will you help me?",
 	"montyhearts7.1.4": "Of course I'll help.",
@@ -293,7 +293,7 @@
 	"whoHelpMonty.3": "Why wouldn't he help?",
 	
 	"MontyEdwinBackstory.0": "It's kind of a long story, but... remember how I mentioned that Esther used me?$s#$b#She made me trick Edwin, manipulate him, so that she could take revenge on him and Charles after they crossed her.$s#$b#He was the angriest I've ever seen him.$s",
-	"MontyEdwinBackstory.1": "If he won't help, well... I don't know what I'll do.",
+	"MontyEdwinBackstory.1": "If he won't help, well... I don't know what I'll do.$s",
 	"MontyEdwinBackstory.2": "Actually, this is a bad idea. I don't want to help you.",
 	"MontyEdwinBackstory.3": "I'll help you convince Edwin.",
 	"MontyEdwinBackstory.4": "If Edwin won't help, I still will. What should I do?",
@@ -322,10 +322,10 @@
 	// monty 4 hearts - crow discovery, esther taunt
 	"montyhearts4.0": "There's no sign of Monty... where is he?",
 	"montyhearts4.1": "CAW!$6",
-	"montyhearts4.2": "How did you get in here, you nosy little shit?$a#$b#Did Monty tell you that you could come over? Lovestruck little fool.$l",
+	"montyhearts4.2": "How did you get in here, you nosy little shit?$a#$b#Did Monty tell you that you could come over? $a#$b#Lovestruck little fool.$l",
 	"montyhearts4.3": "You poor thing. You don't even know the secrets he keeps, do you?$u#$b#Wondering where he is? He's right behind you.$s",
 	"montyhearts4.4": "He's a crow, honey. You didn't know? Oops.$h",
-	"montyhearts4.5": "My sweet crow familiar.#$b#Too bad the little fool keeps falling in love with anyone who gives him the time of day. Oh well, he'll learn his lesson soon enough.$u",
+	"montyhearts4.5": "My sweet crow familiar.#$b#Too bad the little fool keeps falling in love with anyone who gives him the time of day.$u#$b#Oh well, he'll learn his lesson soon enough.$u",
 	"montyhearts4.6": "Now scram, kid. You're trespassing.$a",
 	
 	// monty 7.3 hearts - with edwin

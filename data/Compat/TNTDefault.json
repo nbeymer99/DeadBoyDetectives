@@ -51,7 +51,7 @@
 	{
 		"Action": "EditMap",
 		"Target": "Maps/Town",
-		"FromFile": "assets/maps/TongueAndTail_SVE.tmx",
+		"FromFile": "assets/maps/Compat/TongueAndTail_SVE.tmx",
 		"FromArea": { "X": 6, "Y": 62, "Width": 15, "Height": 15 },
 		"ToArea": { "X": 6, "Y": 62, "Width": 15, "Height": 15 },
 		"Priority": "Late",

@@ -104,7 +104,7 @@
 		{
 			"Action": "Load",
 			"Target": "Maps/{{ModId}}_MountainPass",
-			"FromFile": "assets/maps/MontyHouseExterior_Alternate.tmx",
+			"FromFile": "assets/maps/Compat/MontyHouseExterior_Alternate.tmx",
 		},
 		{
 			"Action": "Load",
@@ -214,9 +214,10 @@
 			"Action": "EditMap",
 			"Target": "Maps/{{ModId}}_TNTInterior",
 			"When": {
-			   "Hearts:MontyFinch": "10", 
-			   "HasFlag": "hostPlayer |contains= {{ModId}}_MontyTransformed"
+			   "HasFlag:hostPlayer": "{{ModId}}_MontyTNT",
+			   "HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
 			},
+			"Update": "OnLocationChange",
 			"FromFile": "assets/maps/TNTInterior_Monty.tmx",
 			"FromArea": { "X": 0, "Y": 0, "Width": 9, "Height": 17 },
 			"ToArea": { "X": 23, "Y": 4, "Width": 9, "Height": 17 },

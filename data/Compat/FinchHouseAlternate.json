@@ -36,7 +36,7 @@
 		"When": {
 			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
 		},
-		"FromFile": "assets/maps/MountainPass_SVE.tmx",
+		"FromFile": "assets/maps/Compat/MountainPass_SVE.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 8 },
 		"ToArea": { "X": 55, "Y": 0, "Width": 7, "Height": 8 }
 	},
@@ -48,7 +48,7 @@
 			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
 			"HasMod": "Himetarts.ARV.CP"
 		},
-		"FromFile": "assets/maps/MountainPass_SVE_ARV.tmx",
+		"FromFile": "assets/maps/Compat/MountainPass_SVE_ARV.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 8 },
 		"ToArea": { "X": 55, "Y": 0, "Width": 7, "Height": 8 }
 	},

@@ -76,16 +76,6 @@
 				]
 			},
 			
-			// monty 7.3 invite - tell farmer to bring dragon tooth
-			"{{ModId}}_Monty7.3Hearts": {
-				"Id": "{{ModId}}_Monty7.3Hearts",
-				"Trigger": "DayStarted",
-				"Condition": "PLAYER_HAS_SEEN_EVENT {{ModId}}_ritualDetails {{ModId}}_ConvincedEdwin",
-				"Actions": [
-					"AddMail Current {{ModId}}_MontyRitualPrep now",
-				]
-			},
-			
 			// --- NOT MAIL ---
 			
 			// add edwin's 10 heart buff
@@ -146,6 +136,15 @@
 				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 750, PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 750, PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 750, PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 750",
 				"Actions": [
 					"AddMail Current {{ModId}}_TM_NewStock now",
+				]
+			},
+			// monty 10 heart flag
+			"{{ModId}}_Monty10Hearts": {
+				"Id": "{{ModId}}_Monty10Hearts",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Host MontyFinch 2500",
+				"Actions": [
+					"AddMail Host {{ModId}}_MontyTNT received",
 				]
 			},
 			// elevator ding

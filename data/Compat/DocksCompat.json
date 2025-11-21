@@ -3,7 +3,7 @@
 	{
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
-			"FromFile": "assets/maps/Beach_Docks_Alternate.tmx", 
+			"FromFile": "assets/maps/Compat/Beach_Docks_Alternate.tmx", 
 			"FromArea": { "X": 1, "Y": 0, "Width": 11, "Height": 7 },
 			"ToArea": { "X": 93, "Y": 14, "Width": 11, "Height": 7 },
 		},

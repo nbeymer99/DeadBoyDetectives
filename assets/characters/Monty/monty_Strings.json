@@ -7,8 +7,10 @@
 		"Entries": 
         {
             "Telescope.000": "Tonight is supposed to be the convergence of Mars and Saturn. Want a look?",
-
+			"MovieNight.000": "Hi @!#$b#Have you seen this one? When I was stil under Esther's thumb, I didn't watch many movies.",
+			"Saloon.000": "Is the town always so active at night?",
+			"Butcher.000": "Jenny is teaching me some of the ins and outs of the Tongue and Tail.#$b#I think she might hire me if I can learn enough!$h#$e#Can I get you something? On the house!$action Spiderbuttons.BETAS_DialogueBox JennyButcher \"Not unless *you're* paying, it's not. Enough flirting, help me break down this pork shoulder.\"",
 		}
 	}
-	]
+  ]
 }

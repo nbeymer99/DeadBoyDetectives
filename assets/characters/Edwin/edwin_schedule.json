@@ -72,5 +72,16 @@
 			"winter_Sat": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/0900 Mine 22 7 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
 		}
 	},
+	{
+        "LogName": "Edwin Schedule Conditionals",
+        "Action": "EditData",
+        "Target": "Characters/schedules/EdwinPayne",
+		"When": {
+			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
+		},
+		"Entries": {
+			"Mon": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 2 9 3 edwin_browseleft/1100 ArchaeologyHouse 10 11 3/1400 Town 15 13 2 edwin_swingset/a1800 {{ModId}}_CrystalAndNiko 13 11 2 edwin_sit \"Strings\\schedules\\EdwinPayne:MovieNight.000\"",
+		}
+	}
   ]
 }

@@ -313,6 +313,10 @@
 	{
 		"Name": "horoscopePlace",
 		"Value": "{{Random:within, to the sky, among those you know, in the mirror, up, down, around, everywhere}}"
+	},
+	{
+		"Name": "MovieNightTitle",
+		"Value": "{{Random: Strings\\Movies:BraveLittleSapling_Title, Strings\\Movies:Mysterium_Title, Strings\\Movies:JourneyOfThePrairieKing_Title, Strings\\Movies:Wumbus_Title, Strings\\Movies:ZuzuCityExpress_Title, Strings\\Movies:MiracleAtColdstarRanch_Title, Strings\\Movies:NaturalWonders_Title, Strings\\Movies:ItHowlsInTheRain_Title}}",
 	}
   ]
 }
