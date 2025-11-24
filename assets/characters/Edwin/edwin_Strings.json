@@ -12,8 +12,8 @@
 			"Reading.001": "{{i18n:edwin_strings.Reading.001}}",
 			"Saloon.000": "{{i18n:edwin_strings.Saloon.000}}",
 			"Writing.000": "{{i18n:edwin_strings.Writing.000}}",
-			"MovieNight.000": "Hello, @. Would you like to join? We are watching '{{MovieNightTitle}}'.#$b#It wasn't my suggestion.$s"
+			"MovieNight.000": "{{i18n:edwin_strings.MovieNight.000 |MovieNightTitle={{MovieNightTitle}} }}",
 		}
 	}
-	]
+  ]
 }

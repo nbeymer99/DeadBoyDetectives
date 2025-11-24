@@ -227,6 +227,63 @@
 				"NightTiles": "Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 809 Buildings 27 5 1222 Buildings 28 5 1222 Buildings 27 6 1254 Buildings 28 6 1254 Buildings2 28 7 809 Front 30 15 1347"
 			}
 		},
+			// cauldron smoke - make TAS
+		{
+			"Action": "EditData",
+			"Target": "mushymato.MMAP/TAS",
+			"Entries": {
+				"{{ModId}}_CauldronSmoke": {
+					"Id": "{{ModId}}_CauldronSmoke",
+					"Texture": "LooseSprites/Cursors",
+					"DrawAboveAlwaysFront": true,
+					"SourceRect": {
+						"X": 372,
+						"Y": 1956,
+						"Width": 10,
+						"Height": 10
+					},
+					"Alpha": 0.75,
+					"AlphaFade": 0.002,
+					"Motion": "0,-0.5",
+					"Acceleration": "-0.002,0",
+					"Interval": 99999,
+					"LayerDepth": 0.144,
+					"SortOffset": 0,
+					"Scale": 0.75,
+					"ScaleChange": 0.01,
+					"Color": "Lime",
+					"SpawnInterval": 100,
+					// "SpawnDelay": 1000,
+					"RandMin": {
+						"PositionOffset": "-8,0",
+						"LayerDepth": 0,
+						"RotationChange": -0.0613592315155
+					},
+					"RandMax": {
+						"PositionOffset": "16,4",
+						"LayerDepth": 0.01,
+						"RotationChange": 0.0736310778185
+					}
+				}
+			}
+		},
+			// cauldron smoke - add TAS to map
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_FinchAttic",
+			"MapTiles": [
+				{
+					"Position": {
+						"X": 9,
+						"Y": 13,
+					},
+					"Layer": "Back",
+					"SetProperties": {
+						"mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+					}
+				}
+			]
+		},	
 			// conditional map edit - crow in cage @ finch house
 		{
 			"Action": "EditMap",

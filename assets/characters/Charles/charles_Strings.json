@@ -14,7 +14,7 @@
 			"Waterside.000": "{{i18n:charles_strings.Waterside.000}}",
 			"Saloon.000": "{{i18n:charles_strings.Saloon.000}}",
 			"Painting.000": "{{i18n:charles_strings.Painting.000}}",
-			"MovieNight.000": "I tried to suggest 'A New Hope', but I was outvoted.$h#$b#It's not that old, no matter what they say! I remember when it came out!$7#$e#I guess '{{MovieNightTitle}}' is good too, though.",
+			"MovieNight.000": "{{i18n:charles_strings.MovieNight.000 |MovieNightTitle={{MovieNightTitle}} }}",
 		}
 	}
   ]

@@ -6,7 +6,7 @@
 		"Entries": {
 			"rain": "0930 {{ModId}}_DeadBoyAgency 5 8 2/1300 {{ModId}}_TragicMicks 3 21 3/1800 {{ModId}}_CrystalAndNiko 33 13 2 crystal_meditate \"Strings\\schedules\\CrystalPalace:Meditation.000\"/2430 bed",
 			
-			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 49 91 2 crystal_meditate/1700 {{ModId}}_DeadBoyAgency 6 9 2 crystal_read \"Strings\\schedules\\CrystalPalace:Reading.000\"/2400 bed",
+			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/1700 {{ModId}}_DeadBoyAgency 6 9 2 crystal_read \"Strings\\schedules\\CrystalPalace:Reading.000\"/2400 bed",
 			
 			"spring_Tue": "0730 ArchaeologyHouse 11 15 3 crystal_laptop \"Strings\\schedules\\CrystalPalace:Reading.002\"/1330 {{ModId}}_CrystalAndNiko 31 20 0/1500 {{ModId}}_CrystalAndNiko 37 14 3 crystal_laptop/1900 {{ModId}}_CrystalAndNiko 33 11 2 crystal_read/2500 bed",
 			
@@ -68,14 +68,14 @@
 		}
 	},
 	{
-        "LogName": "Charles Schedule Conditionals",
+        "LogName": "Crystal Schedule Conditionals",
         "Action": "EditData",
         "Target": "Characters/schedules/CrystalPalace",
 		"When": {
 			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
 		},
 		"Entries": {
-			"Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 49 91 2 crystal_meditate/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_sit \"Strings\\schedules\\CrystalPalace:MovieNight.000\""
+			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_popcorn \"Strings\\schedules\\CrystalPalace:MovieNight.000\""
 		}
 	}
   ]

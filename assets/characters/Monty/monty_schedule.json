@@ -17,7 +17,7 @@
 		},
 		"Entries": {
 			
-			"Mon": "a0900 ArchaeologyHouse 18 12 2 monty_read1/1200 Town 14 73 2 monty_sitbench/a1910 {{ModId}}_TantrumHole 3 7 0",
+			"Mon": "a0900 ArchaeologyHouse 22 4 2 monty_read1/1200 Town 14 73 2 monty_sitbench/a1910 {{ModId}}_TantrumHole 3 7 0",
 			"Tue": "0600 Forest 22 49 1 square_6_4/a1910 {{ModId}}_TantrumHole 3 7 0", 
 			"Wed": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/a1910 {{ModId}}_TantrumHole 3 7 0",
 			"Thu": "0610 {{ModId}}_TongueAndTail 22 24 3 monty_read2/1300 {{ModId}}_TongueAndTail 9 23 0/1400 {{ModId}}_FinchHouseInt 16 22 0/a1910 {{ModId}}_TantrumHole 3 7 0",

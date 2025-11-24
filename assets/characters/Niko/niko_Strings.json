@@ -13,7 +13,8 @@
 			"Reading.000": "{{i18n:niko_strings.Reading.000}}",
 			"Beachcombing.000": "{{i18n:niko_strings.Beachcombing.000}}",
 			"NightMarket.000": "{{i18n:niko_strings.NightMarket.000}}",
+			"MovieNight.000": "{{i18n:niko_strings.MovieNight.000}}",
 		}
 	}
-	]
+  ]
 }

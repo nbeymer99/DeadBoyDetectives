@@ -86,6 +86,7 @@
 	"niko_strings.Reading.000": "%Niko is lost in her book and doesn't see you.",
 	"niko_strings.Beachcombing.000": "I'm combing the beach for starfish or pretty shells. Have you seen any?",
 	"niko_strings.NightMarket.000": "Hi, @. I'm not a fan of crowds... but Crystal and the boys are over on the docks.#$b#Me? I'm fine here! I might visit the mermaid boat once people start to leave.$h",
+	"niko_strings.MovieNight.000": "This is my favorite movie!$h#$b#$action Spiderbuttons.BETAS_DialogueBox CrystalPalace \"Niko, you say that about every movie.$h\"#$b#Well, maybe every movie is my favorite!$h",
 	
 	// GIFT TASTE
 	"NikoSasaki.love": "This is so, so, so, so amazing, @!",

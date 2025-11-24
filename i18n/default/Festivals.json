@@ -51,7 +51,7 @@
 	"Festivals.Halloween.CharlesRowland": "It's the busiest night of the year for us. We're here to make sure nothing goes wrong, yeah?$u",
 	"Festivals.Halloween.EdwinPayne": "You haven't attracted any curses or wronged any sprits lately, have you, @? I'd be careful on a night such as this one.",
 	"Festivals.Halloween.CrystalPalace": "I don't care what Edwin says about keeping an eye on things--you couldn't pay me to go in that creepy-ass maze.#$b#I can't exactly walk through walls.",
-	"Festivals.Halloween.NikoSasaki": "Eek! What was that?#$b#Oh, @, it's just you. Sorry, I'm a little jumpy.",
+	"Festivals.Halloween.NikoSasaki": "Eek! What was that?$s#$b#Oh, @, it's just you. Sorry, I'm a little jumpy.",
 	"Festivals.Halloween.MontyFinch": "This is the one night a year Esther lets me do whatever I want, in the spirit of the season.",
 	"Festivals.Halloween.CatKing": "Spirit's Eve is a very powerful night for cats.#$e#You and I could also make it a powerful night, what do you say?",
 	"Festivals.Halloween.EstherFinch": "Ah, the smell of scared children. It's like coffee to me. Wakes the senses right up.$u",
@@ -59,7 +59,7 @@
 
 	// festival of ice
 	"Festivals.Ice.EdwinPayne": "Charles elected not to attend, and it's little question why. I myself am only here on matters pertaining to a current case.",
-	"Festivals.Ice.CrystalPalace": "I'm kind of worried about Charles. He didn't look so good when Edwin and I left.",
+	"Festivals.Ice.CrystalPalace": "I'm kind of worried about Charles. He didn't look so good when Edwin and I left.$s",
 	"Festivals.Ice.NikoSasaki": "Brr, it's cold out. I wish I had some tea to warm myself up.",
 	"Festivals.Ice.MontyFinch": "Whee! Want to make snow angels with me?",
 	"Festivals.Ice.CatKing": "I hate forests. Why are there so many trees? Ugh.$a#$b#I only came to this stupid festival because one of my cats told me Edwin would be here without his little guard dog.",
@@ -74,5 +74,5 @@
 	"Festivals.Christmas.MontyFinch": "Did you get any gifts this morning? What was your favorite?",
 	"Festivals.Christmas.CatKing": "The only present I want to find under the tree... is you.$h#$e#Oh come on, it's just a little holiday flirting!$u",
 	"Festivals.Christmas.EstherFinch": "All this... festive spirit... Ugh, it's sickening.$a",
-	"Festivals.Halloween.JennyButcher": "Hey kid. Did you have a good year?$h",
+	"Festivals.Christmas.JennyButcher": "Hey, kid. Did you have a good year?$h",
 }

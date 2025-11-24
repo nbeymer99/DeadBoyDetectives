@@ -40,7 +40,7 @@
 				
 				"FriendsAndFamily": {
                     "EdwinPayne": "",
-					"EstherFinch": "mom",
+					"EstherFinch": "",
 					"NikoSasaki": "",
 					"CrystalPalace": ""
                 },
@@ -53,7 +53,7 @@
                 "Home": [
                     {
 						"Id": "MoveTNT",
-						"Location": "{{ModId}}_TNTInterior",
+						"Location": "{{ModId}}_TongueAndTail",
 						"Tile": { "X": 29, "Y": 9 },
 						"Direction": "left",
 						"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_MontyTransformed, PLAYER_HAS_MAIL Host {{ModId}}_MontyTNT",
@@ -62,7 +62,8 @@
 						"Id": "Default",
                         "Location": "{{ModId}}_FinchHouseInt",
                         "Tile": { "X": 2, "Y": 21 },
-						"Direction": "right"
+						"Direction": "right",
+						"Condition": "!PLAYER_HAS_MAIL Host {{ModId}}_MontyTransformed, !PLAYER_HAS_MAIL Host {{ModId}}_MontyTNT",
                     }
                 ],
 				"Breather": "true",
@@ -72,7 +73,7 @@
     },
 	
 	//Appearances (source: https://stardewmodding.wiki.gg/wiki/Tutorial:_Adding_Seasonal_Outfits_via_Appearances)
-	{
+	/* {
 		"Action": "EditData",
 		"Target": "Data/Characters",
 		"TargetField": ["MontyFinch", "Appearance"],
@@ -98,7 +99,7 @@
 				"Weight": 1
 			},
 		},
-	},
+	}, */
 		
 	//loads - portraits
 	{

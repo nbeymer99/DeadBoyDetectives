@@ -316,7 +316,7 @@
 	},
 	{
 		"Name": "MovieNightTitle",
-		"Value": "{{Random: Strings\\Movies:BraveLittleSapling_Title, Strings\\Movies:Mysterium_Title, Strings\\Movies:JourneyOfThePrairieKing_Title, Strings\\Movies:Wumbus_Title, Strings\\Movies:ZuzuCityExpress_Title, Strings\\Movies:MiracleAtColdstarRanch_Title, Strings\\Movies:NaturalWonders_Title, Strings\\Movies:ItHowlsInTheRain_Title}}",
+		"Value": "{{Random: \"Brave Little Sapling\", Mysterium, \"Journey of the Prairie King\", Wumbus, \"Zuzu City Express\", \"Miracle at Coldstar Ranch\", \"Natural Wonders\", \"It Howls in the Rain\"}}",
 	}
   ]
 }

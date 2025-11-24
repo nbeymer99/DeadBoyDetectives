@@ -92,6 +92,7 @@
 	"edwin_strings.Reading.001": "A fascinating take on stone tape theory... #$b#Oh, @, it's you. Can I help you?",
 	"edwin_strings.Saloon.000": "$2I'll never know why Charles insists on coming here, especially during loud nights.#$b#Though I'm happy to tag along if it makes him happy.$h",
 	"edwin_strings.Writing.000": "I'm afraid that if you don't have helpful information about our current case, I cannot entertain you at the moment. Perhaps try someone else?",
+	"edwin_strings.MovieNight.000": "Hello, @. Would you like to join? We are watching '{{MovieNightTitle}}'.#$b#It wasn't my suggestion.$s",
 	
 	// GIFT TASTE
 	"EdwinPayne.love": "You... wish for me to have this? Are you certain? I find myself quite speechless... Thank you, @.",

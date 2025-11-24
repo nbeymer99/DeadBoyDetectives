@@ -88,7 +88,8 @@
 	"charles_strings.Waterside.000": "%Charles looks lost in thought and doesn't see you.",
 	"charles_strings.Saloon.000": "Betcha you can't beat my high score. I've been playing since before you were born.",
 	"charles_strings.Painting.000": "These runes can be a bit tricky if you don't know what you're doing. Edwin usually lets me handle them.",
-	
+	"charles_strings.MovieNight.000": "I tried to suggest 'A New Hope', but I was outvoted.$h#$b#It's not that old, no matter what they say! I remember when it came out!$7#$e#I guess '{{MovieNightTitle}}' is good too, though.",
+
 	// GIFT TASTE
 	"CharlesRowland.love": "Oh, this is brills! Thanks, @!",
 	"CharlesRowland.like": "Another item for the agency? Aces!",

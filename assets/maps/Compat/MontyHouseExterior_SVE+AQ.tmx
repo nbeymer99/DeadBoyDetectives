@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="22" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="58">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="22" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="59">
  <properties>
   <property name="AllowGrassSurviveInWinter" value="T"/>
   <property name="Arch" value="114 .007 108 .0006 126 .0001 106 .003 103 .007 120 .01 105 .01"/>
@@ -2264,11 +2264,6 @@
  <objectgroup id="4" name="Back2"/>
  <objectgroup id="6" name="Back6"/>
  <objectgroup id="8" name="Buildings">
-  <object id="52" name="TileData" x="208" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Warp 11 28 handwrittenhello.dbda_FinchHouseInt"/>
-   </properties>
-  </object>
   <object id="53" name="TileData" x="224" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue It's full of feathers... and is that a dead mouse in there?"/>
@@ -2277,6 +2272,11 @@
   <object id="54" name="TileData" x="112" y="224" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue The constellation Capricorn fills the lens."/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="208" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="LockedDoorWarp 11 28 handwrittenhello.dbda_FinchHouseInt 0600 2600 MontyFinch 750"/>
    </properties>
   </object>
  </objectgroup>

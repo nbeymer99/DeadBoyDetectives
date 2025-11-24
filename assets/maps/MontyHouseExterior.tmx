@@ -2303,7 +2303,7 @@
  <objectgroup id="13" name="Buildings">
   <object id="44" name="TileData" x="192" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 11 28 handwrittenhello.dbda_FinchHouseInt"/>
+    <property name="Action" value="LockedDoorWarp 11 28 handwrittenhello.dbda_FinchHouseInt 0600 2600 MontyFinch 750"/>
    </properties>
   </object>
   <object id="45" name="TileData" x="96" y="224" width="16" height="16">

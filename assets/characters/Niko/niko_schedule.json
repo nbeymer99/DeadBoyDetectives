@@ -19,15 +19,26 @@
 			"summer_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 {{ModId}}_Lighthouse 37 8 0 square_9_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2100 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
 			"summer_Fri": "0800 {{ModId}}_Lighthouse 37 8 0 square_9_5 \"Strings\\schedules\\NikoSasaki:Beachcombing.000/1400 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1830 Saloon 38 19 2/a2400 bed",
 			
-			"fall_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 Town 44 88 3 square_4_3/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2000 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
-			"fall_Fri": "0800 Town 44 88 3 square_4_3/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/a2400 bed",
+			"fall_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1300 Town 44 86 3 square_3_3/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2000 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
+			"fall_Fri": "0800 Town 44 86 3 square_3_3/1430 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1800 Saloon 38 19 2/a2400 bed",
 			
 			"winter_Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1130 Mountain 82 22 2 square_5_5/1700 {{ModId}}_CrystalAndNiko 18 20 2 niko_noodles \"Strings\\schedules\\NikoSasaki:Noodles.000\"/2130 {{ModId}}_CrystalAndNiko 12 11 2 niko_laptop/2430 bed",
 			"winter_Fri": "0800 Mountain 82 22 2 square_5_5/1300 {{ModId}}_CrystalAndNiko 13 20 1 niko_bake/a1830 Saloon 38 19 2/a2400 bed",
 			
 			"winter_15": "0730 ArchaeologyHouse 18 12 2 niko_read/1130 Mountain 82 22 2 square_5_5/a1800 Beach 46 11 2 \"Strings\\schedules\\NikoSasaki:NightMarket.000\"",
 			
-			}
 		}
-	]
+	},
+	{
+		"LogName": "Niko Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/NikoSasaki",
+		"When": {
+			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
+		},
+		"Entries": {
+			"Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1200 Forest 79 74 3 square_8_4/a1800 {{ModId}}_CrystalAndNiko 12 11 niko_sit \"Strings\\schedules\\NikoSasaki:MovieNight.000\"",
+		}
+	}
+  ]
 }

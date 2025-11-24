@@ -48,10 +48,12 @@
 			"Sun8": "{{i18n:monty_dialogue.Sun8}}",
 			
 			"Mon10": "{{i18n:monty_dialogue.Mon10}}",
-			"wishReaction1": "{{i18n:monty_dialogue.wishReaction1}}",
-			"wishReaction2": "{{i18n:monty_dialogue.wishReaction2}}",
-			"wishReaction3": "{{i18n:monty_dialogue.wishReaction3}}",
-			"wishReaction4": "{{i18n:monty_dialogue.wishReaction4}}",
+			"MontyWishReaction1": "{{i18n:monty_dialogue.MontyWishReaction1}}",
+			"MontyWishReaction2": "{{i18n:monty_dialogue.MontyWishReaction2}}",
+			"MontyWishReaction3": "{{i18n:monty_dialogue.MontyWishReaction3}}",
+			"MontyWishReaction4": "{{i18n:monty_dialogue.MontyWishReaction4}}",
+			"MontyWishFollowup": "{{i18n:monty_dialogue.MontyWishFollowup}}",
+			
 			"Wed10": "{{i18n:monty_dialogue.Wed10}}",
 			"Thu10": "{{i18n:monty_dialogue.Thu10}}",
 			"Fri10": "{{i18n:monty_dialogue.Fri10}}",

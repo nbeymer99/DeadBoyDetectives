@@ -37,16 +37,19 @@
 	"monty_dialogue.Fri8": "If you have any extra produce this season, keep me in mind! I love fresh fruits and vegetables.$h",
 	"monty_dialogue.Sat8": "I was studying the stars last night and they said that you and I should hang out today.$h",
 	"monty_dialogue.Sun8": "I heard Crystal is taking classes online. Maybe I should enroll too...#$b#I never went to school. I learned everything I know from Esther and the books I check out at the library.",
-	"monty_dialogue.Mon10": "I was looking for constellations last night and saw a shooting star. Pretty cool, huh?#$e##$q wish1/wish2/wish3/wish4#What would you wish for?$u
-		#$r wish1 0 wishReaction1#More money.
-		#$r wish2 0 wishReaction2#More time.
-		#$r wish3 0 wish1Reaction3#More friends.
-		#$r wish4 0 wish1Reaction4#I'm happy without making wishes.
+	
+	"monty_dialogue.Mon10": "I was looking for constellations last night and saw a shooting star. Pretty cool, huh?#$q MontyWishFallback#What would you wish for?
+        #$r {{ModId}}_MontyWish1 0 MontyWishReaction1#More money.
+        #$r {{ModId}}_MontyWish2 0 MontyWishReaction2#More time.
+        #$r {{ModId}}_MontyWish3 0 MontyWishReaction3#More friends.
+        #$r {{ModId}}_MontyWish4 0 MontyWishReaction4#I'm happy without making wishes
 	",
-	"monty_dialogue.wishReaction1": "Kind of unoriginal, but okay. I wish money would solve all my problems...",
-	"monty_dialogue.wishReaction2": "Eugh, you sound like Esther...$7#$b#Sorry, I know you don't mean it like that, but you wouldn't believe the things she's done to stay young forever...$s",
-	"monty_dialogue.wishReaction3": "Aww, but you're so popular!#$b#Well, I'm your friend, no matter what.$l",
-	"monty_dialogue.wishReaction4": "Wow, that's so deep...$u",
+	"monty_dialogue.MontyWishReaction1": "Kind of unoriginal, but okay. I wish money would solve all my problems...",
+	"monty_dialogue.MontyWishReaction2": "Eugh, you sound like Esther...$7#$b#Sorry, I know you don't mean it like that, but you wouldn't believe the things she's done to stay young forever...$s",
+	"monty_dialogue.MontyWishReaction3": "Aww, but you're so popular!#$b#Well, I'm your friend, no matter what.$l",
+	"monty_dialogue.MontyWishReaction4": "Wow, that's so deep...$u",
+	"monty_dialogue.MontyWishFollowup": "What's that saying? If wishes were fishes?",
+	
 	"monty_dialogue.Wed10": "Hey, are you free tomorrow? You should come over to my new place! Edwin, Niko and I are thinking about starting a book club.",
 	"monty_dialogue.Thu10": "We should take a trip to the desert sometime. The night sky is supposed to look amazing out there.",
 	"monty_dialogue.Fri10": "Jenny said she might hire me to work at the butcher shop. It would be nice to have a job.",

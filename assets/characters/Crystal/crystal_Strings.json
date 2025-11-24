@@ -14,8 +14,8 @@
 			"Reading.001": "{{i18n:crystal_strings.Reading.001}}",
 			"Reading.002": "{{i18n:crystal_strings.Reading.002}}",
 			"NightMarket.000": "{{i18n:crystal_strings.NightMarket.000}}",
-			"MovieNight.000": "Hey, @. Want some popcorn?",
+			"MovieNight.000": "{{i18n:crystal_strings.MovieNight.000}}",
 		},
 	}
-	]
+  ]
 }
