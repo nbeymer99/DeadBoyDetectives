@@ -4,11 +4,11 @@
 		// LOAD TILESHEETS
 		{
 			"Action": "Load",
-			"Target": "Maps/{{ModId}}_LNFTiles, Maps/{{ModId}}_docksTiles, Maps/{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse, Maps/{{ModId}}_festival",
+			"Target": "Maps/{{ModId}}_LNFTiles, Maps/spring_{{ModId}}_docksTiles, Maps/summer_{{ModId}}_docksTiles, Maps/fall_{{ModId}}_docksTiles, Maps/winter_{{ModId}}_docksTiles, Maps/{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/spring_{{ModId}}_tongueandtail, Maps/summer_{{ModId}}_tongueandtail, Maps/fall_{{ModId}}_tongueandtail, Maps/winter_{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse, Maps/{{ModId}}_festival", // why load festival tilesheet?
 			"FromFile": "assets/maps/tilesheets/{{TargetWithoutPath}}.png",
 		},
 		
-		// LOAD TMX
+		// LOAD MAPS
         {
             "Action": "Load",
             "Target": "Maps/{{ModId}}_DeadBoyAgency",
@@ -115,7 +115,7 @@
 			"Action": "Load",
 			"Target": "Maps/{{ModId}}_GraveyardFestival",
 			"FromFile": "assets/maps/GraveyardFestival.tmx",
-		}, */
+		}, */ // uncomment this out?
 		
 		// RECOLORS
 		{
@@ -162,8 +162,31 @@
 				"Height": 64,
 			},
 		},
+		{
+			// starblue 
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_{{ModId}}_Lighthouse",
+			"FromFile": "assets/maps/tilesheets/{{season}}_starblue.png",
+			"PatchMode": "Overlay",
+			"When": {
+				"HasMod": "Lita.StarblueValleyUnofficial",
+			},
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 96,
+				"Height": 64,
+			},
+			"ToArea": {
+				"X": 160,
+				"Y": 0,
+				"Width": 96,
+				"Height": 64,
+			},
+		},
 			
 		//  VANILLA MAP PATCHES
+			// CC normal
 		{
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Ruins",
@@ -171,6 +194,7 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
 		},
+			// CC post-completion
 		{
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Refurbished",
@@ -178,6 +202,7 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
 		},
+			// CC joja route
 		{
 			"Action": "EditMap",
 			"Target": "Maps/CommunityCenter_Joja",
@@ -185,13 +210,15 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
 			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
 		},
+			// entrance to lighthouse beach
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
 			"FromFile": "assets/maps/Beach_DBDA.tmx",
 			"FromArea": { "X": 0, "Y": 0, "Width": 10, "Height": 9 },
 			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 9 }			
-		},		
+		},	
+			// entrance to cemetery
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Railroad",
@@ -200,6 +227,7 @@
 			"ToArea": { "X": 69, "Y": 51, "Width": 1, "Height": 7 },
 			"AddWarps": [ "70 56 {{ModId}}_Graveyard 0 8", "70 57 {{ModId}}_Graveyard 0 9" ]
 		},
+			// tf? town swing
 		{ // consider CP patch instead
 			"Action": "EditMap",
 			"Target": "Maps/Town",
@@ -207,6 +235,18 @@
 			"FromArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 },
 			"ToArea": { "X": 15, "Y": 12, "Width": 1, "Height": 1 }
 		},
+			// make swing passable
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": { "X": 15, "Y": 12 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "Passable": "T" }
+                },
+            ]
+        },
 		
 		// CUSTOM MAP PATCHES
 			//	 monty moves in with jenny
@@ -353,9 +393,7 @@
 			},
 		  ]
 		},
-		
-		// MAP EDITS
-			// Elevator NPC warp
+			// Elevator NPC warps
 		{
 			"Action":"EditMap",
 			"Target":"Maps/CommunityCenter_Refurbished",
@@ -377,20 +415,6 @@
 				"50 18 {{ModId}}_DeadBoyAgency 6 18"
 			],
 		},
-
-		// EDIT TOWN MAP		
-			// make swing passable
-		{
-            "Action": "EditMap",
-            "Target": "Maps/Town",
-            "MapTiles": [
-                {
-                    "Position": { "X": 15, "Y": 12 },
-                    "Layer": "Buildings",
-                    "SetProperties": { "Passable": "T" }
-                },
-            ]
-        },
 			// edit Agency map - rune circle passable
 		{
             "Action": "EditMap",
