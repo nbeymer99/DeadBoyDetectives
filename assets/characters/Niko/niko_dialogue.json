@@ -16,13 +16,30 @@
 			"GreenRainFinished": "{{i18n:niko_dialogue.GreenRainFinished}}",
 			"MovieInvite_Invited": "{{i18n:niko_dialogue.MovieInvite_Invited}}",
 			"DumpsterDiveComment": "{{i18n:niko_dialogue.DumpsterDiveComment}}",
-			//"FlowerDance_Accept_Spouse": "{{i18n:niko_dialogue.FlowerDance_Accept_Spouse}}",
 			"FlowerDance_Accept": "{{i18n:niko_dialogue.FlowerDance_Accept}}",
 			"FlowerDance_Decline": "{{i18n:niko_dialogue.FlowerDance_Decline}}",
 			"AcceptGift_(O)StardropTea": "{{i18n:niko_dialogue.AcceptGift_(O)StardropTea}}",
 			"divorced": "{{i18n:niko_dialogue.divorced}}",
 			"NikoIntroduced": "{{i18n:niko_dialogue.NikoIntroduced}}",
 			
+			// gift acceptance
+			"AcceptGift_(O)116": "{{i18n:niko_dialogue.AcceptGift(O)116}}",
+			"AcceptGift_(O)614": "{{i18n:niko_dialogue.AcceptGift(O)614}}",
+			"AcceptGift_(O)251": "{{i18n:niko_dialogue.AcceptGift(O)614}}",
+			"AcceptGift_(O)341": "{{i18n:niko_dialogue.AcceptGift(O)614}}",
+			"AcceptGift_(O)228": "{{i18n:niko_dialogue.AcceptGift(O)228}}",
+			"AcceptGift_(O)227": "{{i18n:niko_dialogue.AcceptGift(O)228}}",
+			"AcceptGift_(O)226": "{{i18n:niko_dialogue.AcceptGift(O)228}}",
+			"AcceptGift_(O){{ModId}}_DandelionSpriteJar": "{{i18n:niko_dialogue.AcceptGift(O)DandelionSpriteJar}}",
+			"AcceptGift_category_flowers": "{{i18n:niko_dialogue.AcceptGift_category_flowers}}",
+			"AcceptGift_category_cooking": "{{i18n:niko_dialogue.AcceptGift_category_cooking}}",
+			"AcceptGift_category_egg": "{{i18n:niko_dialogue.AcceptGift_category_egg}}",
+			"AcceptGift_category_milk": "{{i18n:niko_dialogue.AcceptGift_category_egg}}",
+			"AcceptGift_category_vegetable": "{{i18n:niko_dialogue.AcceptGift_category_egg}}",
+			"AcceptGift_category_fruit": "{{i18n:niko_dialogue.AcceptGift_category_egg}}",
+			
+			
+			// normal dialogue
 			"Mon": "{{i18n:niko_dialogue.Mon}}",
 			"Tue": "{{i18n:niko_dialogue.Tue}}",
 			"Wed": "{{i18n:niko_dialogue.Wed}}",

@@ -1,7 +1,7 @@
 {
 "Changes": [
 	{
-        "LogName": "",
+        "LogName": "Edwin dialogue",
         "Action": "EditData",
         "Target": "Characters/Dialogue/EdwinPayne",
 		"Entries": {
@@ -18,17 +18,35 @@
 			"movieTheater": "{{i18n:edwin_dialogue.movieTheater}}",
 			"MovieInvite_Invited": "{{i18n:edwin_dialogue.MovieInvite_Invited}}",
 			"DumpsterDiveComment": "{{i18n:edwin_dialogue.DumpsterDiveComment}}",
-			//"SpouseStardrop": "{{i18n:edwin_dialogue.SpouseStardrop}}",
-			//"FlowerDance_Accept_Spouse": "{{i18n:edwin_dialogue.FlowerDance_Accept_Spouse}}",
 			"FlowerDance_Accept": "{{i18n:edwin_dialogue.FlowerDance_Accept}}",
 			"FlowerDance_Decline": "{{i18n:edwin_dialogue.FlowerDance_Decline}}",
 			"GreenRain": "{{i18n:edwin_dialogue.GreenRain}}",
 			"GreenRain_2": "{{i18n:edwin_dialogue.GreenRain_2}}",
 			"eventSeen_{{ModId}}_crystalCactus": "{{i18n:edwin_dialogue.eventSeen_{{ModId}}_crystalCactus}}",
-			"AcceptGift_(O)StardropTea": "{{i18n:edwin_dialogue.AcceptGift_(O)StardropTea}}",
-			"AcceptGift_category_cooking": "{{i18n:edwin_dialogue.AcceptGift_category_cooking}}",
 			"eventSeen_{{ModId}}_Seance2": "{{i18n:edwin_dialogue.eventSeen_{{ModId}}_Seance2}}",
 			
+			// gift acceptance
+			"AcceptGift_(O)StardropTea": "{{i18n:edwin_dialogue.AcceptGift_(O)StardropTea}}",
+			"AcceptGift_category_cooking": "$query !PLAYER_HAS_MAIL Current {{ModId}}_FoodExplanation#{{i18n:edwin_dialogue.AcceptGift_category_edible.1}}#$action AddMail Current {{ModId}}_FoodExplanation received{{i18n:edwin_dialogue.AcceptGift_category_edible.2}}",
+			"AcceptGift_category_fish": "$query !PLAYER_HAS_MAIL Current {{ModId}}_FoodExplanation#{{i18n:edwin_dialogue.AcceptGift_category_edible.1}}#$action AddMail Current {{ModId}}_FoodExplanation received{{i18n:edwin_dialogue.AcceptGift_category_edible.2}}",
+			"AcceptGift_category_egg": "$query !PLAYER_HAS_MAIL Current {{ModId}}_FoodExplanation#{{i18n:edwin_dialogue.AcceptGift_category_edible.1}}#$action AddMail Current {{ModId}}_FoodExplanation received{{i18n:edwin_dialogue.AcceptGift_category_edible.2}}",
+			"AcceptGift_category_milk": "$query !PLAYER_HAS_MAIL Current {{ModId}}_FoodExplanation#{{i18n:edwin_dialogue.AcceptGift_category_edible.1}}#$action AddMail Current {{ModId}}_FoodExplanation received{{i18n:edwin_dialogue.AcceptGift_category_edible.2}}",
+			"AcceptGift_category_vegetable": "$query !PLAYER_HAS_MAIL Current {{ModId}}_FoodExplanation#{{i18n:edwin_dialogue.AcceptGift_category_edible.1}}#$action AddMail Current {{ModId}}_FoodExplanation received{{i18n:edwin_dialogue.AcceptGift_category_edible.2}}",
+			"AcceptGift_category_fruit": "$query !PLAYER_HAS_MAIL Current {{ModId}}_FoodExplanation#{{i18n:edwin_dialogue.AcceptGift_category_edible.1}}#$action AddMail Current {{ModId}}_FoodExplanation received{{i18n:edwin_dialogue.AcceptGift_category_edible.2}}",
+			"AcceptGift_category_flowers": "{{i18n:edwin_dialogue.AcceptGift_category_flowers}}",
+			"AcceptGift_book_item": "{{i18n:edwin_dialogue.AcceptGift_book_item}}",
+			"AcceptGift_bone_item": "{{i18n:edwin_dialogue.AcceptGift_bone_item}}",
+			"AcceptGift_(O)84": "{{i18n:edwin_dialogue.AcceptGift(O)84}}",
+			"AcceptGift_(O)96": "$query PLAYER_HAS_MAIL Current HasDwarvishTranslationGuide#{{i18n:edwin_dialogue.AcceptGift(O)96.1}}|{{i18n:edwin_dialogue.AcceptGift(O)96.2}}",
+			"AcceptGift_(O)97": "$query PLAYER_HAS_MAIL Current HasDwarvishTranslationGuide#{{i18n:edwin_dialogue.AcceptGift(O)96.1}}|{{i18n:edwin_dialogue.AcceptGift(O)96.2}}",
+			"AcceptGift_(O)98": "$query PLAYER_HAS_MAIL Current HasDwarvishTranslationGuide#{{i18n:edwin_dialogue.AcceptGift(O)96.1}}|{{i18n:edwin_dialogue.AcceptGift(O)96.2}}",
+			"AcceptGift_(O)99": "$query PLAYER_HAS_MAIL Current HasDwarvishTranslationGuide#{{i18n:edwin_dialogue.AcceptGift(O)96.1}}|{{i18n:edwin_dialogue.AcceptGift(O)96.2}}",
+			"AcceptGift_(O)94": "{{i18n:edwin_dialogue.AcceptGift(O)94}}",
+			"AcceptGift_(O)109": "{{i18n:edwin_dialogue.AcceptGift(O)109}}",
+			"AcceptGift_(O)60": "{{i18n:edwin_dialogue.AcceptGift(O)60}}",
+			
+			
+			// normal dialogue
 			"Mon": "{{i18n:edwin_dialogue.Mon}}",
 			"Tue": "{{i18n:edwin_dialogue.Tue}}",
 			"Wed": "{{i18n:edwin_dialogue.Wed}}",

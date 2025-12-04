@@ -247,7 +247,7 @@
 			"{{ModId}}_FinchHouse": {
 				"Id": "{{ModId}}_FinchHouse",
 				"LocationContext": "Default",
-				"LocationNames": [ "{{ModId}}_FinchHouseInt", "{{ModId}}_FinchAttic" ],
+				"LocationNames": [ "{{ModId}}_FinchHouseInt", "{{ModId}}_FinchAttic", "{{ModId}}_TantrumHole" ],
 				"MapPixelArea": {
 					"X": 224,
 					"Y": 41,

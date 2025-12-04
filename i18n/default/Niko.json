@@ -12,12 +12,21 @@
 	"niko_dialogue.GreenRainFinished": "That green rain was so weird. Do you think magic had anything to do with it?",
 	"niko_dialogue.MovieInvite_Invited": "I'd love to see a movie with you!$h",
 	"niko_dialogue.DumpsterDiveComment": "@, don't you think that's a little gross?#$b#Wait, are you doing it for a case?",
-	"niko_dialogue.FlowerDance_Accept_Spouse": "",
 	"niko_dialogue.FlowerDance_Accept": "I'd love to dance with you!$h",
 	"niko_dialogue.FlowerDance_Decline": "No thank you. I don't really like the attention...",
 	"niko_dialogue.AcceptGift_(O)StardropTea": "Ooh, I love this!",
 	"niko_dialogue.divorced": "Are you just here to break my heart again?$s",
 	"niko_dialogue.NikoIntroduced": "I'm Niko! Thanks for helping my friends. It's great to meet you!$h",
+	
+	"niko_dialogue.AcceptGift(O)116": "Did you know starfish can feel love, same as us?",
+	"niko_dialogue.AcceptGift(O)614": "This is my favorite! Even if I can't taste it, I love holding a warm drink.$h",
+	"niko_dialogue.AcceptGift(O)228": "My dad and I used to eat this every week. Even though he's gone, it's a nice reminder of the time we spent together.",
+	"niko_dialogue.AcceptGift(O)DandelionSpriteJar": "Everyone else hates the sprites, but I think they just need someone to show them how to be nice.$h#$b#I'd be in a pretty bad mood if I was tiny and trapped in a jar too.",
+	"niko_dialogue.AcceptGift_category_flowers": "These are beautiful, @! Did you grow them yourself?$h",
+	"niko_dialogue.AcceptGift_category_cooking": "You cooked this yourself? I don't know if I'll be able to taste it, but I love that you thought of me!$h",
+	"niko_dialogue.AcceptGift_category_egg": "This is from your farm? I don't know if I'll be able to taste it, but I love that you thought of me!$h",
+
+	
 	
 	"niko_dialogue.Mon": "The valley is so pretty today.",
 	"niko_dialogue.Tue": "Being a farmer looks like such hard work.",

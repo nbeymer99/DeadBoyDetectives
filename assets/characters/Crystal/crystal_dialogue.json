@@ -16,12 +16,21 @@
 			"GreenRainFinished": "{{i18n:crystal_dialogue.GreenRainFinished}}",
 			"MovieInvite_Invited": "{{i18n:crystal_dialogue.MovieInvite_Invited}}",
 			"DumpsterDiveComment": "{{i18n:crystal_dialogue.DumpsterDiveComment}}",
-			"FlowerDance_Accept_Spouse": "{{i18n:crystal_dialogue.FlowerDance_Accept_Spouse}}",
 			"FlowerDance_Accept": "{{i18n:crystal_dialogue.FlowerDance_Accept}}",
 			"FlowerDance_Decline": "{{i18n:crystal_dialogue.FlowerDance_Decline}}",
 			"divorced": "{{i18n:crystal_dialogue.divorced}}",
 			"eventSeen_{{ModId}}_Seance2": "{{i18n:crystal_dialogue.eventSeen_{{ModId}}_Seance2}}",
+			"AcceptGift_(O)StardropTea": "{{i18n:crystal_dialogue.AcceptGift(O)StardropTea}}",
+
 			
+			// gift acceptance
+			"AcceptGift_(O)414": "{{i18n:crystal_dialogue.AcceptGift(O)414}}",
+			"AcceptGift_(O)395": "{{i18n:crystal_dialogue.AcceptGift(O)395}}",
+			"AcceptGift_(O)561": "{{i18n:crystal_dialogue.AcceptGift(O)414}}",
+			"AcceptGift_(O)86": "{{i18n:crystal_dialogue.AcceptGift(O)414}}",
+			"AcceptGift_(O)253": "{{i18n:crystal_dialogue.AcceptGift(O)395}}",
+			
+			// normal dialogue
 			"Mon": "{{i18n:crystal_dialogue.Mon}}",
 			"Tue": "{{i18n:crystal_dialogue.Tue}}",
 			"Wed": "{{i18n:crystal_dialogue.Wed}}",

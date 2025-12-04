@@ -1924,7 +1924,7 @@
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
  <tileset firstgid="5939" name="finchhouse" tilewidth="16" tileheight="16" tilecount="144" columns="12">
-  <image source="../tilesheets/spring_handwrittenhello.dbda_finchhouseTiles.png" width="192" height="192"/>
+  <image source="spring_handwrittenhello.dbda_finchhouseTiles.png" width="192" height="192"/>
  </tileset>
  <tileset firstgid="6083" name="spring_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
   <image source="spring_Waterfalls.png" width="576" height="400"/>

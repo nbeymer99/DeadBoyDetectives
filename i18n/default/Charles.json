@@ -19,6 +19,15 @@
 	"charles_dialogue.divorced": "What do you want? I'm busy with a case.$5",
 	"charles_dialogue.eventSeen_handwrittenhello.dbda_Seance2": "Thanks again for all your help, @. It's absolutely brills that we got Niko back!$h",
 	
+	"charles_dialogue.AcceptGift_bomb_item": "Always good to have a backup plan, and bombs are a pretty solid choice!$h",
+	"charles_dialogue.AcceptGift_bone_item": "Been digging up graves, @?#$b#Kidding! This is great, though, thanks!$h",
+	"charles_dialogue.AcceptGift(O)746": "This is aces, @!#$b#Jack o' lanterns are dead useful for trapping kobolds.$h",
+	"charles_dialogue.AcceptGift(O)109": "Mate, where'd you get this?! This is brills!$h",
+	"charles_dialogue.AcceptGift(O)893": "Aces, @, thanks!#$b#You know, to celebrate the new millenium, Edwin and I set off a bunch of these on the agency's roof back in London. That was such a good night.$h",
+	"charles_dialogue.AcceptGift(O)561": "This stuff is absolutely priceless whenever we need to free a trapped ghost. Thanks!$h",
+	"charles_dialogue.AcceptGift(O)428": "@, you're a lifesaver! We just lost our last sheet after painting a demon trap on it.#$b#The demon ran away with the sheet. Not our best case...",
+
+	
 	"charles_dialogue.Mon": "You should come see the agency sometime. We've set up right above the old Community Center.#$b#$1Nobody ever comes in there, so they can't complain it's haunted if we're too loud.",
 	"charles_dialogue.Tue": "You can tell us if you’ve got any supernatural mysteries that need solving, yeah?",
 	"charles_dialogue.Wed": "You live on %farm, yeah? That's brills! I never tried gardening myself, but it must be aces growing your own food.",
@@ -35,7 +44,7 @@
 	"charles_dialogue.Sat2": "I bet you can't beat my high score at Junimo Kart. I've been playing arcade games longer than you've been alive!",
 	"charles_dialogue.Sun2": "We should hang around more! I could wear a disguise and you can pretend I’m an old uncle visiting.$h",
 	
-	"charles_dialogue.Mon4": "We should hang around more! Folks usually don’t see me, so it gets lonely sometimes.#$e#Uhh… Please don’t tell Edwin I said that.",
+	"charles_dialogue.Mon4": "We should hang around more! Folks usually don’t see me, so it gets lonely sometimes.#$e#Uhh... Please don’t tell Edwin I said that.",
 	"charles_dialogue.Tue4": "Hey, if you ever end up taking a trip to London, let me know! I'd be happy to show you around our usual haunts.$h",
 	"charles_dialogue.Wed4": "You seem pretty handy. Maybe you could help us out on a case sometime!",
 	"charles_dialogue.Thu4": "Have you ever been to Ginger Island? I hear it's proper warm there, like, all the time.",

@@ -183,7 +183,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"EdwinPayne": "{{i18n: EdwinPayne.love}}/60 446 338 561 94 104 119 125 -102 -103 ancient_item fossil_item book_item prehistoric_item scroll_item/{{i18n: EdwinPayne.like}}/potion_item elvish_item -80 -28 394 96 97 98 99 261 579 580 581 582 583 584 585 586 587 588 589 -2 -12/{{i18n: EdwinPayne.dislike}}/22 -26/{{i18n: EdwinPayne.hate}}/-79 -75 -7 -6 -5 -17 126 127 103 -4 -14 -27 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873 doll_item/{{i18n: EdwinPayne.neutral}}/-4 428 170/"
+			"EdwinPayne": "{{i18n: EdwinPayne.love}}/96 97 98 99 60 446 338 561 94 104 119 125 -102 -103 ancient_item fossil_item book_item prehistoric_item scroll_item/{{i18n: EdwinPayne.like}}/potion_item elvish_item -80 -28 394 96 97 98 99 261 579 580 581 582 583 584 585 586 587 588 589 -2 -12/{{i18n: EdwinPayne.dislike}}/22 -26/{{i18n: EdwinPayne.hate}}/-79 -75 -7 -6 -5 -17 126 127 103 -4 -14 -27 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873 doll_item/{{i18n: EdwinPayne.neutral}}/86 -4 428 170/"
 		}
 	},
 	

@@ -11,11 +11,16 @@
 	"crystal_dialogue.GreenRainFinished": "That green rain was absolutely crazy. Are we sure it wasn't, like, poisonous?$6",
 	"crystal_dialogue.MovieInvite_Invited": "I'd love to go to the movies with you.$h",
 	"crystal_dialogue.DumpsterDiveComment": "I can't really judge, but when they found me dumpster diving, it was because I was possessed by a demon. Just saying.$6",
-	"crystal_dialogue.FlowerDance_Accept_Spouse": "",
 	"crystal_dialogue.FlowerDance_Accept": "I'd love to!$h",
 	"crystal_dialogue.FlowerDance_Decline": "Umm, maybe next year.",
 	"crystal_dialogue.divorced": "God, can't you just leave me alone?",
 	"crystal_dialogue.eventSeen_handwrittenhello.dbda_Seance2": "Having Niko back is like... well, I never even thought it was possible.#$b#I can't ever pay you back, so... thank you.",
+	
+	"crystal_dialogue.AcceptGift(O)StardropTea": "This is incredible!$h",
+	"crystal_dialogue.AcceptGift(O)414": "Oh, I get it, because of the name?#$b#I guess it's a little funny. Thanks.$h",
+	"crystal_dialogue.AcceptGift(O)395": "I definitely needed this today. We were up way too late researching bean sidhes last night.",
+
+	
 	
 	"crystal_dialogue.Mon": "Winter is my favorite season. The valley is so still and quiet.",
 	"crystal_dialogue.Tue": "Last night's episode of Murder After Dark was so crazy. Have you seen it yet?",

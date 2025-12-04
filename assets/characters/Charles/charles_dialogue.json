@@ -16,15 +16,24 @@
 			"GreenRainFinished": "{{i18n:charles_dialogue.GreenRainFinished}}",
 			"MovieInvite_Invited": "{{i18n:charles_dialogue.MovieInvite_Invited}}",
 			"DumpsterDiveComment": "{{i18n:charles_dialogue.DumpsterDiveComment}}",
-			//"FlowerDance_Accept_Spouse": "{{i18n:charles_dialogue.FlowerDance_Accept_Spouse}}",
 			"FlowerDance_Accept": "{{i18n:charles_dialogue.FlowerDance_Accept}}",
 			"FlowerDance_Decline": "{{i18n:charles_dialogue.FlowerDance_Decline}}",
 			"AcceptGift_(O)StardropTea": "{{i18n:charles_dialogue.AcceptGift_(O)StardropTea}}",
 			"divorced": "{{i18n:charles_dialogue.divorced}}",
 			"eventSeen_{{ModId}}_Seance2": "{{i18n:charles_dialogue.eventSeen_{{ModId}}_Seance2}}",
 			
-			//"AcceptGift_category_arch": 
+			//gift acceptance
+			"AcceptGift_bomb_item": "{{i18n:charles_dialogue.AcceptGift_bomb_item}}",
+			"AcceptGift_bone_item": "{{i18n:charles_dialogue.AcceptGift_bone_item}}",
+			"AcceptGift_(O)746": "{{i18n:charles_dialogue.AcceptGift(O)746}}",
+			"AcceptGift_(O)109": "{{i18n:charles_dialogue.AcceptGift(O)109}}",
+			"AcceptGift_(O)893": "{{i18n:charles_dialogue.AcceptGift(O)893}}",
+			"AcceptGift_(O)894": "{{i18n:charles_dialogue.AcceptGift(O)893}}",
+			"AcceptGift_(O)895": "{{i18n:charles_dialogue.AcceptGift(O)893}}",
+			"AcceptGift_(O)561": "{{i18n:charles_dialogue.AcceptGift(O)561}}",
+			"AcceptGift_(O)428": "{{i18n:charles_dialogue.AcceptGift(O)428}}",
 			
+			// normal dialogue
 			"Mon": "{{i18n:charles_dialogue.Mon}}",
 			"Tue": "{{i18n:charles_dialogue.Tue}}",
 			"Wed": "{{i18n:charles_dialogue.Wed}}",
