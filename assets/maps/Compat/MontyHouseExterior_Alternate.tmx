@@ -1924,7 +1924,7 @@
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
  <tileset firstgid="5939" name="finchhouse" tilewidth="16" tileheight="16" tilecount="144" columns="12">
-  <image source="handwrittenhello.dbda_finchhouseTiles.png" width="192" height="192"/>
+  <image source="../tilesheets/spring_handwrittenhello.dbda_finchhouseTiles.png" width="192" height="192"/>
  </tileset>
  <tileset firstgid="6083" name="spring_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
   <image source="spring_Waterfalls.png" width="576" height="400"/>
@@ -3030,7 +3030,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="Buildings" width="35" height="27">
+ <layer id="4" name="Buildings" width="35" height="27" opacity="0.97">
   <data encoding="csv">
 0,0,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2816,0,0,0,0,2818,0,0,0,442,158,159,0,0,0,0,
 0,0,345,0,0,0,0,0,0,0,0,0,0,0,0,2445,2446,2447,295,296,2488,2489,2490,2491,291,292,0,0,446,465,441,0,0,343,369,

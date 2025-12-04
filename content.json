@@ -48,19 +48,7 @@
 		//Characters
 		{
 			"Action": "Include",
-			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/Jenny/jenny.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "assets/characters/TCK/catking.json"
-		},
- 		{
-			"Action": "Include",
-			"FromFile": "assets/characters/Monty/monty.json"
-		},
-		{
-			"Action": "Include",
-			"FromFile": "assets/characters/zzMinorCharacters/esther.json",
+			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/Jenny/jenny.json, assets/characters/TCK/catking.json, assets/characters/Monty/monty.json, assets/characters/zzMinorCharacters/esther.json"
 		},
 		
 		// Events
@@ -148,6 +136,35 @@
 			"Action": "Load",
 			"Target": "LooseSprites/mapObjects",
 			"FromFile": "assets/maps/mapObjects.png",
+		},
+		
+		// Minecarts
+		{
+			"Action": "EditData",
+			"Target": "Data/Minecarts",
+			"TargetField": [ "Default", "Destinations" ],
+			"Entries": {
+				"{{ModId}}_Lighthouse": {
+					"ID": "{{ModId}}_Lighthouse",
+					"DisplayName": "{{i18n:Minecarts.Lighthouse.DisplayName}}",
+					"TargetLocation": "{{ModId}}_Lighthouse",
+					"TargetTile": { "X": 91, "Y": 3 },
+					"TargetDirection": "down",
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_SpawnLogAtLighthouse": {
+					"Id": "{{ModId}}_SpawnLogAtLighthouse",
+					"Trigger": "DayStarted",
+					"Actions": [
+						"Spiderbuttons.BETAS_RegeneratePathsLayer {{ModId}}_Lighthouse 90 4 2 2",
+					]
+				}
+			}
 		},
 		 
 		// Quests
@@ -249,6 +266,24 @@
 		{
 		"Query: {{Year}} % 2 = 0": true,
 		}
+	},
+	{
+		"Name": "Recolor",
+		"Value": "vanilla",
+	},
+	{
+		"Name": "Recolor",
+		"Value": "daisyniko",
+		"When": {
+			"HasMod": "DaisyNiko.EarthyRecolour",
+		},
+	},
+	{
+		"Name": "Recolor",
+		"Value": "starblue",
+		"When": {
+			"HasMod": "Lita.StarblueValleyUnofficial",
+		},
 	},
 	{
 		"Name": "Verbed1",

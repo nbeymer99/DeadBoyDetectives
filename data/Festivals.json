@@ -190,14 +190,14 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
-				"Value": "CharlesRowland 52 11 down/EdwinPayne 53 11 down/CrystalPalace 51 12 right/CatKing 33 19 up/MontyFinch 53 13 up",
+				"Value": "CharlesRowland 52 11 down/EdwinPayne 53 11 down/CrystalPalace 51 12 right/CatKing 32 19 up/MontyFinch 53 13 up",
 				"Delimiter": "/"
 			},
 			//MainEvent - during the actual tasting
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "MainEvent_additionalCharacters{{FestivalYear}}"],
-				"Value": "CharlesRowland 41 10 left/EdwinPayne 41 11 left/CrystalPalace 41 12 left/CatKing 33 19 up/MontyFinch 54 12 left",
+				"Value": "CharlesRowland 41 10 left/EdwinPayne 41 11 left/CrystalPalace 41 12 left/CatKing 32 19 up/MontyFinch 54 12 left",
 				"Delimiter": "/"
 			},
 		],

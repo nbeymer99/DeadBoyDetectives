@@ -1,148 +1,36 @@
 {
     "Changes": [
-	// lighthouse and TNT
+ 	// MAP TEXTURE LOADS
+	// note to self - DON'T tokenize season, not performant
 	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map_{{season}}",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
-		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
-		"PatchMode": "Overlay",
-	},
-	
-	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
-		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
-		"PatchMode": "Overlay",
-		"When": {
-			"Season": "spring"
-		}
-	},
-	// docks
-	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map_{{season}}",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
-		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
-		"PatchMode": "Overlay",
+		"Action": "Load",
+		"Target": "{{ModId}}_WorldMap/{{Recolor}}",
+		"FromFile": "assets/maps/tilesheets/spring_worldmap_{{Recolor}}.png",
+		"Priority": "Low",
 	},
 	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
-		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
-		"PatchMode": "Overlay",
-		"When": {
-			"Season": "spring"
-		}
-	},
-	// finch house
-	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map_{{season}}",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
-		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
-		"PatchMode": "Overlay",
+		"Action": "Load",
+		"Target": "{{ModId}}_WorldMap/{{Recolor}}",
+		"FromFile": "assets/maps/tilesheets/summer_worldmap_{{Recolor}}.png",
+		"Priority": "Low+1",
+			"When": { "Season": "Summer" }
 	},
 	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
-		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
-		"PatchMode": "Overlay",
-		"When": {
-			"Season": "spring"
-		}
-	},
-	
-	// map image - recolors
-	// daisyniko
-	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map_{{season}}",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap_daisyniko.png",
-		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
-		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
-		"PatchMode": "Overlay",
-		"When": {
-			"HasMod": "DaisyNiko.EarthyRecolour",
-		},
-	},
-	
-	{
-		"Action": "EditImage",
-		"Target": "LooseSprites/map",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap_daisyniko.png",
-		"FromArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 }, 
-		"ToArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
-		"PatchMode": "Overlay",
-		"When": {
-			"Season": "spring",
-			"HasMod": "DaisyNiko.EarthyRecolour",
-		},
-	},
-		// finch house
-	{
-		"LogName": "DNE finch not spring",
-		"Action": "EditImage",
-		"Target": "LooseSprites/map_{{season}}",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap_daisyniko.png",
-		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
-		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
-		"PatchMode": "Overlay",
-		"When": {
-			"HasMod": "DaisyNiko.EarthyRecolour",
-		},
+		"Action": "Load",
+		"Target": "{{ModId}}_WorldMap/{{Recolor}}",
+		"FromFile": "assets/maps/tilesheets/fall_worldmap_{{Recolor}}.png",
+		"Priority": "Low+1",
+			"When": { "Season": "Fall" }
 	},
 	{
-		"LogName": "DNE finch spring",
-		"Action": "EditImage",
-		"Target": "LooseSprites/map",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap_daisyniko.png",
-		"FromArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
-		"ToArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
-		"PatchMode": "Overlay",
-		"When": {
-			"Season": "spring",
-			"HasMod": "DaisyNiko.EarthyRecolour",
-		},
-	},
-		// docks
-	{
-		"LogName": "DNE docks not spring",
-		"Action": "EditImage",
-		"Target": "LooseSprites/map_{{season}}",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
-		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
-		"PatchMode": "Overlay",
-		"When": {
-			"HasMod": "DaisyNiko.EarthyRecolour",
-		},
-	},
-	{
-		"LogName": "DNE docks spring",
-		"Action": "EditImage",
-		"Target": "LooseSprites/map",
-		"FromFile": "assets/maps/tilesheets/{{season}}_worldmap.png",
-		"FromArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 }, 
-		"ToArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
-		"PatchMode": "Overlay",
-		"When": {
-			"Season": "spring",
-			"HasMod": "DaisyNiko.EarthyRecolour",
-		},
+		"Action": "Load",
+		"Target": "{{ModId}}_WorldMap/{{Recolor}}",
+		"FromFile": "assets/maps/tilesheets/winter_worldmap_{{Recolor}}.png",
+		"Priority": "Low+1",
+			"When": { "Season": "Winter" }
 	},
 	
 	// map hover info/location placing - 
-
 	{
 		"Action": "EditData",
 		"Target": "Data/WorldMap",
@@ -157,6 +45,15 @@
 					"Height": 24
 				},
 				"ScrollText": "{{i18n:LocationDisplayName.Docks.DisplayName}}",
+				"Textures": [
+					// docks
+					{
+						"Id": "{{ModId}}_Docks",
+						"Texture": "{{ModId}}_WorldMap/{{Recolor}}",
+						"SourceRect": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
+						"MapPixelArea": { "X": 239, "Y": 134, "Width": 41, "Height": 26 },
+					},
+				],
 				"Tooltips": [
 					{
 						"Id": "{{ModId}}_Cannery",
@@ -227,6 +124,15 @@
 					"Height": 48,
 				},
 				"ScrollText": "{{i18n:WorldMap.Lighthouse.ScrollText}}",
+				"Textures": [
+					// lighthouse/TNT
+					{
+						"Id": "{{ModId}}_Lighthouse.TNT",
+						"Texture": "{{ModId}}_WorldMap/{{Recolor}}",
+						"SourceRect": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
+						"MapPixelArea": { "X": 116, "Y": 92, "Width": 74, "Height": 88 },
+					},
+				],
 				"Tooltips": [
 					{
 						"Id": "{{ModId}}_Lighthouse",
@@ -296,6 +202,20 @@
 		},
 	},
 	// world map info - existing area (mountain)
+	{
+		"LogName": "Mountain World Map",
+		"Action": "EditData",
+		"Target": "Data/WorldMap",
+		"TargetField": [ "Valley", "MapAreas", "Mountain", "Textures" ],
+		"Entries": {
+			"{{ModId}}_FinchHouse": {
+				"Id": "{{ModId}}_FinchHouse",
+				"Texture": "{{ModId}}_WorldMap/{{Recolor}}",
+				"SourceRect": { "X": 218, "Y": 41, "Width": 15, "Height": 13 }, 
+				"MapPixelArea": { "X": 218, "Y": 41, "Width": 15, "Height": 13 },
+			}
+		}
+	},		
 	{
 		"LogName": "Mountain World Map",
 		"Action": "EditData",

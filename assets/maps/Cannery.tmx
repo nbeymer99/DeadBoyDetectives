@@ -18,10 +18,9 @@
   <image source="paths" width="64" height="256"/>
  </tileset>
  <tileset firstgid="3553" name="handwrittenhello.dbda_docksTiles" tilewidth="16" tileheight="16" tilecount="598" columns="23">
-  <image source="tilesheets/handwrittenhello.dbda_docksTiles.png" width="368" height="416"/>
+  <image source="tilesheets/spring_handwrittenhello.dbda_docksTiles.png" width="368" height="416"/>
  </tileset>
  <tileset firstgid="4151" name="finch" tilewidth="16" tileheight="16" tilecount="100" columns="10">
-  <grid orientation="orthogonal" width="0" height="0"/>
   <image source="handwrittenhello.dbda_finchhouseinteriorTiles" width="160" height="160"/>
  </tileset>
  <layer id="1" name="Back" width="25" height="30">
