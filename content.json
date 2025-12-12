@@ -179,6 +179,12 @@
 			"FromFile": "data/Shops.json"
 		},
 		
+		// Spawns
+		{
+			"Action": "Include",
+			"FromFile": "data/Spawning.json"
+		},
+		
 		// Strings
 		{
 			"Action": "Include",

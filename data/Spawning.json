@@ -1,0 +1,585 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+		// remember to clear monsters and set pieces!!
+		// TODO - cemetery, 
+			"{{ModId}}_Lighthouse_BeachForage": {
+				"Id": "{{ModId}}_Lighthouse_BeachForage",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BeachSpawnGroup {{ModId}}_Lighthouse 32,10,16,5/29,6,16,4/33,15,9,3/19,20,6,3/90,6,11,11/85,18,7,9/71,36,11,7/66,27,5,3",
+				]
+			},
+			"{{ModId}}_Lighthouse_GrassForage": {
+				"Id": "{{ModId}}_Lighthouse_GrassForage",
+				"Trigger": "DayStarted",
+				"Condition": "SEASON spring",
+				"MarkActionApplied": false,
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ForestSpawnGroup_spring {{ModId}}_Lighthouse 36,36,9,5/42,18,7,18/49,18,16,6/49,4,36,10 58,8,4,1/80,8,2,2",
+				]
+			},
+			
+			"{{ModId}}_GrassForage_summer": {
+				"Id": "{{ModId}}_GrassForage_summer",
+				"Trigger": "DayStarted",
+				"Condition": "SEASON summer",
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ForestSpawnGroup_summer {{ModId}}_Lighthouse 36,36,9,5/42,18,7,18/49,18,16,6/49,4,36,10 58,8,4,1/80,8,2,2",
+				]
+			},
+			"{{ModId}}_GrassForage_fall": {
+				"Id": "{{ModId}}_GrassForage_fall",
+				"Trigger": "DayStarted",
+				"Condition": "SEASON fall",
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ForestSpawnGroup_fall {{ModId}}_Lighthouse 36,36,9,5/42,18,7,18/49,18,16,6/49,4,36,10 58,8,4,1/80,8,2,2",
+				]
+			},
+			"{{ModId}}_GrassForage_winter": {
+				"Id": "{{ModId}}_GrassForage_winter",
+				"Trigger": "DayStarted",
+				"Condition": "SEASON winter",
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ForestSpawnGroup_winter {{ModId}}_Lighthouse 36,36,9,5/42,18,7,18/49,18,16,6/49,4,36,10 58,8,4,1/80,8,2,2",
+				]
+			},
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/SpawnableDefinitions",
+		"Entries": {
+			// beach
+			"{{ModId}}_Spawn.Clam": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)372"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Cockle": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)718"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Mussel": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)719"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Oyster": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)723"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.NautilusShell": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 0.15,
+						"Value": {
+							"ItemId": "(O)392"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Coral": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 0.5,
+						"Value": {
+							"ItemId": "(O)393"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.RainbowShell": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 0.2,
+						"Value": {
+							"ItemId": "(O)394"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.SeaUrchin": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 0.3,
+						"Value": {
+							"ItemId": "(O)397"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.ArtifactTrove": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 0.1,
+						"Value": {
+							"ItemId": "(O)275"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Pearl": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 0.01,
+						"Value": {
+							"ItemId": "(O)797"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			// spring
+			"{{ModId}}_Spawn.Tulip": {
+				"Type": "Forageable",
+				"Condition": "SEASON spring",
+				"ForageableItemData": [
+					{
+						"Weight": 0.2,
+						"Value": {
+							"ItemId": "(O)591"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Horseradish": {
+				"Type": "Forageable",
+				"Condition": "SEASON spring",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)16"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Daffodil": {
+				"Type": "Forageable",
+				"Condition": "SEASON spring",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)18"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Leek": {
+				"Type": "Forageable",
+				"Condition": "SEASON spring",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)20"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Dandelion": {
+				"Type": "Forageable",
+				"Condition": "SEASON spring",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)402"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			// summer
+			"{{ModId}}_Spawn.Poppy": {
+				"Type": "Forageable",
+				"Condition": "SEASON summer",
+				"ForageableItemData": [
+					{
+						"Weight": 0.2,
+						"Value": {
+							"ItemId": "(O)376"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.SweetPea": {
+				"Type": "Forageable",
+				"Condition": "SEASON summer",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)402"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Grape": {
+				"Type": "Forageable",
+				"Condition": "SEASON summer",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)398"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.SpiceBerry": {
+				"Type": "Forageable",
+				"Condition": "SEASON summer",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)396"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			// fall
+			"{{ModId}}_Spawn.Sunflower": {
+				"Type": "Forageable",
+				"Condition": "SEASON fall",
+				"ForageableItemData": [
+					{
+						"Weight": 0.2,
+						"Value": {
+							"ItemId": "(O)421"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.WildPlum": {
+				"Type": "Forageable",
+				"Condition": "SEASON fall",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)406"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Hazelnut": {
+				"Type": "Forageable",
+				"Condition": "SEASON fall",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)408"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Blackberry": {
+				"Type": "Forageable",
+				"Condition": "SEASON fall",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)410"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			// winter
+			"{{ModId}}_Spawn.Crocus": {
+				"Type": "Forageable",
+				"Condition": "SEASON winter",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)418"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.Holly": {
+				"Type": "Forageable",
+				"Condition": "SEASON winter",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)283"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.CrystalFruit": {
+				"Type": "Forageable",
+				"Condition": "SEASON winter",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)414"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+			},
+			"{{ModId}}_Spawn.SnowYam": {
+				"Type": "Forageable",
+				"Condition": "SEASON winter",
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)416"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+		}
+	},
+	
+		// spawn groups
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/SpawningGroups",
+		"Entries": {
+			"{{ModId}}_BeachSpawnGroup": {
+				"SpawnablesToSpawn": [
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Clam" // clam
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Cockle", //cockle
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Mussel", //mussel
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Oyster", // oyster
+							},
+							{
+								"Weight": 0.15,
+								"Value": "{{ModId}}_Spawn.NautilusShell", // nautilus shell
+							},
+							{
+								"Weight": 0.5,
+								"Value": "{{ModId}}_Spawn.Coral", // coral
+							},
+							{
+								"Weight": 0.2,
+								"Value": "{{ModId}}_Spawn.RainbowShell", // rainbow shell
+							},
+							{
+								"Weight": 0.3,
+								"Value": "{{ModId}}_Spawn.SeaUrchin", // sea urchin
+							},
+							{
+								"Weight": 0.1,
+								"Value": "{{ModId}}_Spawn.ArtifactTrove", // artifact trove
+							},
+							{
+								"Weight": 0.05,
+								"Value": "{{ModId}}_Spawn.Pearl", // pearl
+							},
+						],
+						"Minimum": 1,
+						"Maximum": 4,
+					},
+				]
+			},
+			"{{ModId}}_ForestSpawnGroup_spring": {
+				"SpawnablesToSpawn": [
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 0.2,
+								"Value": "{{ModId}}_Spawn.Tulip", // tulip
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Horseradish", // horseradish
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Daffodil", // daffodil
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Leek", // leek
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Dandelion", // dandelion
+							}
+						],
+						"Minimum": 1,
+						"Maximum": 4,
+					},
+				]
+			},
+			"{{ModId}}_ForestSpawnGroup_summer": {
+				"SpawnablesToSpawn": [
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 0.2,
+								"Value": "{{ModId}}_Spawn.Poppy", // poppy
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.SweetPea", // sweet pea
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Grape", // grape
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.SpiceBerry", // spice berry
+							}
+						],
+						"Minimum": 1,
+						"Maximum": 4,
+					},
+				]
+			},
+			"{{ModId}}_ForestSpawnGroup_fall": {
+				"SpawnablesToSpawn": [
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 0.2,
+								"Value": "{{ModId}}_Spawn.Sunflower", // sunflower
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.WildPlum", // wild plum
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Hazelnut", // hazelnut
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Blackberry", // blackberry
+							}
+						],
+						"Minimum": 1,
+						"Maximum": 4,
+					},
+				]
+			},
+			"{{ModId}}_ForestSpawnGroup_winter": {
+				"SpawnablesToSpawn": [
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Crocus", // crocus
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Holly", // holly
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.CrystalFruit", // crystal fruit
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.SnowYam", // snow yam
+							}
+						],
+						"Minimum": 1,
+						"Maximum": 4,
+					},
+				]
+			}
+		}
+	},
+  ]
+}
