@@ -24,6 +24,9 @@
 			"Sat": "1100 {{ModId}}_Lighthouse 34 11 2 catking_human_sunbathe/1900 {{ModId}}_Cannery 15 7 1 catking_cat_stretchForward/2500 bed",
 			"Sun": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnapForward \"Strings\\Schedules\\CatKing:CatSleep.000\"/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe \"Strings\\Schedules\\CatKing:CatBathe.000\"/1300 {{ModId}}_Cannery 12 19 2 catking_human_throne/1500 Saloon 16 20 0 catking_human_smoke/2000 {{ModId}}_Cannery 12 19 2 catking_human_read/2500 bed",
 			"Railroad_Replacement": "Beach 78 16 2",
+			"winter_15": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnapSideways \"Strings\\Schedules\\CatKing:CatSleep.000\"/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe \"Strings\\Schedules\\CatKing:CatBathe.000\"/1200 {{ModId}}_Cannery 12 19 2 catking_human_throne/1830 {{ModId}}_Docks 22 10 2 catking_human_smoke/2300 bed",
+			"winter_16": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnapSideways \"Strings\\Schedules\\CatKing:CatSleep.000\"/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe \"Strings\\Schedules\\CatKing:CatBathe.000\"/1200 {{ModId}}_Cannery 12 19 2 catking_human_throne/1830 {{ModId}}_Docks 22 10 2 catking_human_smoke/2300 bed",
+			"winter_17": "0800 {{ModId}}_Cannery 14 6 2 catking_cat_catnapSideways \"Strings\\Schedules\\CatKing:CatSleep.000\"/1100 {{ModId}}_Cannery 12 19 2 catking_cat_bathe \"Strings\\Schedules\\CatKing:CatBathe.000\"/1200 {{ModId}}_Cannery 12 19 2 catking_human_throne/1830 {{ModId}}_Docks 22 10 2 catking_human_smoke/2300 bed",
 		},
 	}
   ]

@@ -3425,7 +3425,7 @@
   <image source="spring_SVE_Tilesheet2.png" width="1216" height="1200"/>
  </tileset>
  <tileset firstgid="21346" name="TNT" tilewidth="16" tileheight="16" tilecount="156" columns="13">
-  <image source="../tilesheets/spring_handwrittenhello.dbda_tongueandtail.png" width="208" height="192"/>
+  <image source="spring_handwrittenhello.dbda_tongueandtail.png" width="208" height="192"/>
  </tileset>
  <layer id="1" name="Back" width="130" height="116">
   <data encoding="base64" compression="zlib">

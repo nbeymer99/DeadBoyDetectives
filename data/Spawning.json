@@ -5,7 +5,17 @@
 		"Target": "Data/TriggerActions",
 		"Entries": {
 		// remember to clear monsters and set pieces!!
-		// TODO - cemetery, 
+			// cemetery - bones (normal forage handled by data/locations)
+			"{{ModId}}_CemeteryForage": {
+				"Id": "{{ModId}}_CemeteryForage",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_BoneSpawnGroup {{ModId}}_Graveyard 0,7,12,14/1,22,32,4/27,5,7,17/9,5,18,3",
+				]
+			},
+			// lighthouse
 			"{{ModId}}_Lighthouse_BeachForage": {
 				"Id": "{{ModId}}_Lighthouse_BeachForage",
 				"Trigger": "DayStarted",
@@ -23,8 +33,7 @@
 				"Actions": [
 					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_ForestSpawnGroup_spring {{ModId}}_Lighthouse 36,36,9,5/42,18,7,18/49,18,16,6/49,4,36,10 58,8,4,1/80,8,2,2",
 				]
-			},
-			
+			},		
 			"{{ModId}}_GrassForage_summer": {
 				"Id": "{{ModId}}_GrassForage_summer",
 				"Trigger": "DayStarted",
@@ -413,14 +422,151 @@
 				"ForageableExpiresWeekly": true,
 				"ForageableIsTillSpot": true
 			},
+			// bones
+			"{{ModId}}_Spawn.Scapula": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)579"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+			"{{ModId}}_Spawn.Tibia": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)580"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+			"{{ModId}}_Spawn.Skull": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)581"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+			"{{ModId}}_Spawn.Hand": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)582"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+			"{{ModId}}_Spawn.Rib": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)583"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+			"{{ModId}}_Spawn.Vertebra": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)584"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
+			"{{ModId}}_Spawn.Tail": {
+				"Type": "Forageable",
+				"Condition": true,
+				"ForageableItemData": [
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)585"
+						}
+					}
+				],
+				"ForageableExpiresWeekly": true,
+				"ForageableIsTillSpot": true
+			},
 		}
 	},
 	
-		// spawn groups
+	// spawn groups
 	{
 		"Action": "EditData",
 		"Target": "spacechase0.SpaceCore/SpawningGroups",
 		"Entries": {
+			"{{ModId}}_BoneSpawnGroup": {
+				"SpawnablesToSpawn": [
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Scapula" // scapula
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Tibia" // tibia
+							},
+							{
+								"Weight": 0.4,
+								"Value": "{{ModId}}_Spawn.Skull" // skull
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Hand" // hand
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Rib" // rib
+							},
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.Vertebra" // vertebra
+							},
+							{
+								"Weight": 0.1,
+								"Value": "{{ModId}}_Spawn.Tail" // tail
+							},
+						],
+						"Minimum": 0,
+						"Maximum": 1,
+					}
+				]
+			},
 			"{{ModId}}_BeachSpawnGroup": {
 				"SpawnablesToSpawn": [
 					{
