@@ -64,6 +64,29 @@
 				"ExcludeFromShippingCollection": true,
 			},
 			
+			"{{ModId}}_GluttonyCake": {
+				"Name": "{{ModId}}_GluttonyCake",
+				"DisplayName": "{{i18n:GluttonyCake.DisplayName}}",
+				"Description": "{{i18n:GluttonyCake.Description}}",
+				"Type": "Basic",
+				"Category": -7,
+				"Price": "0",
+				"Texture": "Maps/springobjects",
+				"SpriteIndex": 221,
+				"CanBeGivenAsGift": false,
+				"CanBeTrashed": true,
+				"ExcludeFromRandomSale": true,
+				"ExcludeFromShippingCollection": true,
+				"Edibility": 80,
+				"Buffs": [
+					{
+						"Id": "{{ModId}}_GluttonyCakeEffect",
+						"BuffId": "{{ModId}}_GluttonyCakeEffect",
+						"IsDebuff": true,
+					}
+				],
+			},
+			
 			"{{ModId}}_NikoMirror": {
 				"Name": "{{ModId}}_NikoMirror",
 				"DisplayName": "Niko's Mirror",
@@ -148,9 +171,9 @@
 				"Edibility": "-200",
 				"ExcludeFromRandomSale": true,
 				"ContextTags": [
-				"color_red",
-				"fish_legendary",
-				"fish_pond_ignore"
+					"color_red",
+					"fish_legendary",
+					"fish_pond_ignore"
 				],
 				"ExcludeFromShippingCollection": true,
 			},

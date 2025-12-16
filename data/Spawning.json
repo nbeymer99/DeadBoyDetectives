@@ -5,7 +5,18 @@
 		"Target": "Data/TriggerActions",
 		"Entries": {
 		// remember to clear monsters and set pieces!!
-			// cemetery - bones (normal forage handled by data/locations)
+			"{{ModId}}_DollHouseSetPieces": {
+				"Id": "{{ModId}}_DollHouseSetPieces",
+				"Trigger": "Manual",
+				"Condition": true,
+				"HostOnly": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DollHouseSpawns Target 4,5,20,20",
+					// /24,5,20,20/44,5,20,20/64,5,20,20/4,25,20,20/24,25,20,20/44,25,20,20/64,25,20,20/4,45,20,20/24,45,20,20/44,45,20,20/64,45,20,20/4,65,20,20/24,65,20,20/44,65,20,20/64,65,20,20
+				]
+			},
+			// cemetery - bones (normal forage handled by data/locations) - not working?
 			"{{ModId}}_CemeteryForage": {
 				"Id": "{{ModId}}_CemeteryForage",
 				"Trigger": "DayStarted",
@@ -521,6 +532,15 @@
 				"ForageableExpiresWeekly": true,
 				"ForageableIsTillSpot": true
 			},
+			// set pieces
+			"{{ModId}}_SpawnSetPieces": {
+				"Type": "SetPiece",
+				"Condition": true,
+				"SetPiecesMap": "Maps/{{ModId}}_MazeSetPieces",
+				"SetPieceSizeX": 20,
+				"SetPieceSizeY": 20,
+				"SetPieceCount": 16
+			}
 		}
 	},
 	
@@ -724,7 +744,22 @@
 						"Maximum": 4,
 					},
 				]
-			}
+			},
+			"{{ModId}}_DollHouseSpawns": {
+				"SpawnablesToSpawn": [
+					// put treasure and monsters above set pieces
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_SpawnSetPieces"
+							}
+						],
+						"Minimum": 16,
+						"Maximum": 16,
+					},
+				]
+			},
 		}
 	},
   ]

@@ -47,6 +47,23 @@
 				},
 			},
 			
+			"{{ModId}}_GluttonyCakeEffect": {
+				"DisplayName": "{{i18n:Buffs.GluttonyCakeEffect.DisplayName}}",
+				"Description": "{{i18n:Buffs.GluttonyCakeEffect.Description}}",
+				"IsDebuff": true,
+				"GlowColor": null,
+				"Duration": 90,
+				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+				"IconSpriteIndex": 3,
+				"Effects": {
+
+					"Speed": -2,
+					"Immunity": 1,
+				},
+				"ActionsOnApply": null,
+				"CustomFields": null
+			},
+			
 			"edwin_defense": {
 				"DisplayName": "{{i18n:Buffs.edwin_defense.DisplayName}}",
 				"Description": "{{i18n:Buffs.edwin_defense.Description}}",

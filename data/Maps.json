@@ -4,7 +4,7 @@
 		// LOAD TILESHEETS
 		{
 			"Action": "Load",
-			"Target": "Maps/{{ModId}}_LNFTiles, Maps/spring_{{ModId}}_docksTiles, Maps/summer_{{ModId}}_docksTiles, Maps/fall_{{ModId}}_docksTiles, Maps/winter_{{ModId}}_docksTiles, Maps/spring_{{ModId}}_finchhouseTiles, Maps/summer_{{ModId}}_finchhouseTiles, Maps/fall_{{ModId}}_finchhouseTiles,  Maps/winter_{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/spring_{{ModId}}_tongueandtail, Maps/summer_{{ModId}}_tongueandtail, Maps/fall_{{ModId}}_tongueandtail, Maps/winter_{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse, Maps/{{ModId}}_festival", // why load festival tilesheet?
+			"Target": "Maps/{{ModId}}_LNFTiles, Maps/{{ModId}}_dollhouseTiles, Maps/spring_{{ModId}}_docksTiles, Maps/summer_{{ModId}}_docksTiles, Maps/fall_{{ModId}}_docksTiles, Maps/winter_{{ModId}}_docksTiles, Maps/spring_{{ModId}}_finchhouseTiles, Maps/summer_{{ModId}}_finchhouseTiles, Maps/fall_{{ModId}}_finchhouseTiles,  Maps/winter_{{ModId}}_finchhouseTiles, Maps/{{ModId}}_finchhouseinteriorTiles, Maps/{{ModId}}_FRL_Elevator, Maps/spring_{{ModId}}_tongueandtail, Maps/summer_{{ModId}}_tongueandtail, Maps/fall_{{ModId}}_tongueandtail, Maps/winter_{{ModId}}_tongueandtail, Maps/{{ModId}}_furniture, Maps/{{ModId}}_furniture_2, Maps/{{ModId}}_furniture_3, Maps/{{ModId}}_wizard_furniture, Maps/fall_{{ModId}}_Lighthouse, Maps/spring_{{ModId}}_Lighthouse, Maps/summer_{{ModId}}_Lighthouse, Maps/winter_{{ModId}}_Lighthouse, Maps/{{ModId}}_festival", // why load festival tilesheet?
 			"FromFile": "assets/maps/tilesheets/{{TargetWithoutPath}}.png",
 		},
 		
@@ -13,6 +13,26 @@
             "Action": "Load",
             "Target": "Maps/{{ModId}}_DeadBoyAgency",
             "FromFile": "assets/maps/DeadBoyAgency.tmx"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_LostAndFound",
+            "FromFile": "assets/maps/LostAndFound.tmx"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_MazeSetPieces",
+            "FromFile": "assets/maps/MazeSetPieces.tmx"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_DollHouseBlank",
+            "FromFile": "assets/maps/DollHouseBlank.tmx"
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_DollHouse",
+            "FromFile": "assets/maps/DollHouse.tmx"
         },
 		{
             "Action": "Load",

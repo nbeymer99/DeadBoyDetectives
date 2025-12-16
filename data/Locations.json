@@ -123,6 +123,72 @@
 					},
 					"DisplayName": "{{i18n:LocationDisplayName.Cemetery.DisplayName}}", 
 					"DefaultArrivalTile": { "X": 2, "Y": 9 },
+					"Forage": [
+						{
+							"Chance": 0.9,
+							"Season": "Spring",
+							"Condition": null,
+							"Id": "(O)16",
+							"ItemId": "(O)16", // horseradish
+							
+						},
+						{
+							"Chance": 0.9,
+							"Season": "Spring",
+							"Condition": null,
+							"Id": "(O)22",
+							"ItemId": "(O)22", // dandelion
+						},
+						{
+							"Chance": 0.6,
+							"Season": "Summer",
+							"Condition": null,
+							"Id": "(O)396",
+							"ItemId": "(O)396", // spice berry
+						},
+						{
+							"Chance": 0.9,
+							"Season": "Summer",
+							"Condition": null,
+							"Id": "(O)402",
+							"ItemId": "(O)402", // sweet pea
+						},
+						{
+							"Chance": 0.9,
+							"Season": "Fall",
+							"Condition": null,
+							"Id": "(O)404",
+							"ItemId": "(O)404", // mushroom
+						},
+						{
+							"Chance": 0.9,
+							"Season": "Fall",
+							"Condition": null,
+							"Id": "(O)410",
+							"ItemId": "(O)410", // blackberry
+						},
+						{
+							"Chance": 0.9,
+							"Season": "Winter",
+							"Condition": null,
+							"Id": "(O)418",
+							"ItemId": "(O)418", // crocus
+						},
+						{
+							"Chance": 0.9,
+							"Season": "Winter",
+							"Condition": null,
+							"Id": "(O)414",
+							"ItemId": "(O)414", // crystal fruit
+						},
+						{
+							"Chance": 0.5,
+							"Season": "Winter",
+							"Condition": null,
+							"Id": "(O)283",
+							"ItemId": "(O)283", // holly
+						}
+					],
 				},
 				
                 "{{ModId}}_TragicMicks": {
@@ -133,17 +199,6 @@
 					"DefaultArrivalTile": {
 						"X": 8,
 						"Y": 23,
-					},
-                },
-				
-				"{{ModId}}_LighthouseInt": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_LighthouseInt"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 7,
-						"Y": 12,
 					},
                 },
 				
@@ -283,6 +338,17 @@
 					],
 				},
 				
+				"{{ModId}}_LighthouseInt": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_LighthouseInt"
+                    },
+					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
+					"DefaultArrivalTile": {
+						"X": 7,
+						"Y": 12,
+					},
+                },
+				
 				"{{ModId}}_LighthouseScary": {
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_LighthouseScary"
@@ -291,6 +357,50 @@
 					"DefaultArrivalTile": {
 						"X": 85,
 						"Y": 13,
+					},
+				},
+				
+				"{{ModId}}_LostAndFound": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_LostAndFound"
+					},
+					"DisplayName": "{{i18n:LocationDisplayName.LostAndFound.DisplayName}}",
+					"DefaultArrivalTile": {
+						"X": 7,
+						"Y": 13,
+					},
+				},
+				
+				"{{ModId}}_MazeSetpiecesTest": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_MazeSetpieces"
+					},
+					"DisplayName": "Setpieces Testing Ground",
+					"DefaultArrivalTile": {
+						"X": 1,
+						"Y": 5,
+					},
+				},
+				
+				"{{ModId}}_BlankMaze": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_DollHouseBlank"
+					},
+					"DisplayName": "Blank Testing Ground",
+					"DefaultArrivalTile": {
+						"X": 9,
+						"Y": 9,
+					},
+				},
+				
+				"{{ModId}}_DollHouse": {
+					"CreateOnLoad": {
+						"MapPath": "Maps/{{ModId}}_DollHouse"
+					},
+					"DisplayName": "Blank Testing Ground",
+					"DefaultArrivalTile": {
+						"X": 9,
+						"Y": 9,
 					},
 				},
 				

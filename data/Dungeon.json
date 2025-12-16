@@ -1,0 +1,38 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/Dungeons",
+		"Entries": {
+			"{{ModId}}_DollHouse": {
+				"Regions": {
+					"Main": {
+						"LevelRange": { "Begin": 1, "End": 3 },
+						"MapPool": [
+							{
+								"Weight": 1.0,
+								"Value": "Maps/{{ModId}}_DollHouseBlank"
+							},
+						],
+						"TriggerActionsOnEntry": [
+							"{{ModId}}_DollHouseSetPieces",
+							//"{{ModId}}_EquipCharlesTrinket",
+							//"{{ModId}}_DungeonSpawnTreasure",
+							//"{{ModId}}_DungeonSpawnMonsters",
+							//"{{ModId}}_DungeonSpawnBreakables",
+						],
+						"LocationDataEntry": "{{ModId}}_DollHouse",
+					}
+				},
+				"LadderExitLocation": "{{ModId}}_LostAndFound",
+				"LadderExitTile": "6, 6",
+				"ElevatorExitLocation": "{{ModId}}_LostAndFound",
+				"ElevatorExitTile": "6, 6",
+				"SpawnLadders": false,
+				"SpawnMineshafts": false,
+				"AdditionalTimeMilliseconds": 999999
+			}
+		}
+	}
+  ]
+}
