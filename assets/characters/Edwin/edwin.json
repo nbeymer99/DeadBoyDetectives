@@ -154,6 +154,12 @@
 		"Target": "Portraits/EdwinPayneWhiteShirt",
 		"FromFile": "assets/characters/Edwin/edwin_portrait_whiteshirt.png",
 	},
+	{
+		"LogName": "Conditional Portraits - Appearance Load",
+		"Action": "Load",
+		"Target": "Portraits/EdwinPayneHell",
+		"FromFile": "assets/characters/Edwin/edwin_portrait_hell.png",
+	},
 		
 	//loads - sprites
 	{
@@ -175,6 +181,12 @@
 		"Action": "Load",
 		"Target": "Characters/EdwinPayneWhiteShirt",
 		"FromFile": "assets/characters/Edwin/edwin_sprite_whiteshirt.png",
+	},
+	{
+		"LogName": "Conditional Sprites - Appearance Load",
+		"Action": "Load",
+		"Target": "Characters/EdwinPayneHell",
+		"FromFile": "assets/characters/Edwin/edwin_sprite_hell.png",
 	},
 		
 	// gift tastes

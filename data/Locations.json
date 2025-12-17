@@ -371,7 +371,7 @@
 					},
 				},
 				
-				"{{ModId}}_MazeSetpiecesTest": {
+				/* "{{ModId}}_MazeSetpiecesTest": {
 					"CreateOnLoad": {
 						"MapPath": "Maps/{{ModId}}_MazeSetpieces"
 					},
@@ -380,7 +380,7 @@
 						"X": 1,
 						"Y": 5,
 					},
-				},
+				}, */
 				
 				"{{ModId}}_BlankMaze": {
 					"CreateOnLoad": {
@@ -388,18 +388,18 @@
 					},
 					"DisplayName": "Blank Testing Ground",
 					"DefaultArrivalTile": {
-						"X": 9,
+						"X": 5,
 						"Y": 9,
 					},
 				},
 				
 				"{{ModId}}_DollHouse": {
 					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_DollHouse"
+						"MapPath": "Maps/{{ModId}}_DollHouseBlank"
 					},
-					"DisplayName": "Blank Testing Ground",
+					"DisplayName": "Doll House",
 					"DefaultArrivalTile": {
-						"X": 9,
+						"X": 5,
 						"Y": 9,
 					},
 				},

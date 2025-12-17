@@ -1,5 +1,23 @@
 {
 	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_TerrainReset_Lakeside": {
+				"Id": "{{ModId}}_TerrainReset_Lakeside",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Mountain All 83 28 11 9",
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Mountain 83 28 11 9",
+				]
+			},
+		}
+	},
+	
+	
 	// vanilla
 	{
 		"LogName": "Vanilla",

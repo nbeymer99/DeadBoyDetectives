@@ -29,11 +29,11 @@
             "Target": "Maps/{{ModId}}_DollHouseBlank",
             "FromFile": "assets/maps/DollHouseBlank.tmx"
         },
-		{
+		/* {
             "Action": "Load",
             "Target": "Maps/{{ModId}}_DollHouse",
             "FromFile": "assets/maps/DollHouse.tmx"
-        },
+        }, */
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Lighthouse",

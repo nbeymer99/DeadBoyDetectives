@@ -1,5 +1,38 @@
 {
 	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_TerrainReset_MountainPass": {
+				"Id": "{{ModId}}_TerrainReset_MountainPass",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Mountain All 56 0 6 7",
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Mountain 56 0 6 7",
+				]
+			},
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_TerrainReset_Lakeside2": {
+				"Id": "{{ModId}}_TerrainReset_Lakeside2",
+				"Trigger": "DayStarted",
+				"Condition": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Mountain All 83 28 11 9",
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Mountain 83 28 11 9",
+				]
+			},
+		}
+	},
+	
 	// vanilla
 
 	{

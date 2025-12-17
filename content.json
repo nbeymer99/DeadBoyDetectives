@@ -210,6 +210,12 @@
 			"FromFile": "data/TriggerActions.json"
 		},
 		
+		//Trinkets
+		{
+			"Action": "Include",
+			"FromFile": "data/Trinkets.json"
+		},
+		
 		// Misc. Compat
 		{
 			"Action": "Include",

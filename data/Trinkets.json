@@ -1,0 +1,127 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Trinkets",
+		"Entries": {
+			"{{ModId}}_CharlesFollower": {
+				"Id": "{{ModId}}_CharlesFollower",
+				"DisplayName": "Charles",
+				"Description": "Charles is accompanying you into the Doll House.",
+				"Texture": "Characters/CharlesRowlandBlackJacket",
+				"SheetIndex": 0,
+				"TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+				"DropsNaturally": false,
+				"CanBeReforged": false,
+			},
+			"{{ModId}}_EdwinFollower": {
+				"Id": "{{ModId}}_CharlesFollower",
+				"DisplayName": "Edwin",
+				"Description": "Edwin is following you out of the Doll House.",
+				"Texture": "Characters/EdwinPayneHellOutfit",
+				"SheetIndex": 0,
+				"TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+				"DropsNaturally": false,
+				"CanBeReforged": false,
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "mushymato.TrinketTinker/Tinker",
+		"Entries": {
+			"{{ModId}}_CharlesFollower": {
+				"EnableCondition": "LOCATION_NAME {{ModId}}_DollHouse, PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received",
+				"EnableFailMessage": "Charles doesn't want to accompany you.",
+				"MinLevel": 1,
+				"Variants": [
+					{
+						"Texture": "Characters/CharlesRowlandBlackJacket",
+						"TextureSourceRect": {"X": 0, "Y": 0, "Width": 16, "Height": 32, },
+						// "TextureExtra": "<additional texture asset name>",
+						// "TextureExtraSourceRect": {"X": 0, "Y": 0, "Width": 16, "Height": 32, },
+						// "ColorMask": "<hex color or monogame color name>",
+						"Width": 16,
+						"Height": 32,
+						// "Bounding": {"X": <int X>, "Y": <int Y>, "Width": <int Width>, "Height": <int Height>, },
+						// "TextureScale": 4,
+						"ShadowScale": 3,
+						"NPC": "CharlesRowland",
+						// "Name": "Charles",
+						"Portrait": "Portraits/CharlesRowlandBlackJacket",
+						"ShowBreathing": true,
+					}
+				],
+				"Motion": {
+					"MotionClass": "Lerp",
+					"DirectionMode": "DRUL",
+					"DirectionRotate": true,
+					"LoopMode": "<enum loop mode>",
+					"Anchors": [
+						{ /* anchor target data */ },
+						{ /* anchor target data */ },
+						//...
+					],
+					// animation and display
+					"AlwaysMoving": <boolean moving>,
+					"Collision": "<collision enum>",
+					"FrameStart": <int start frame>,
+					"FrameLength": <int frame length per direction>,
+					"Interval": <double interval in miliseconds>,
+					"Offset": "<x>,<y>",
+					"LayerDepth": "<layer depth enum>",
+					"HideDuringEvents": false,
+					// advanced: repeat draw settings
+					"RepeatCount": <int how many times to repeat>,
+					"RepeatInterval": <int miliseconds between repeat draws>,
+					"RepeatFrameSets": <int frameset offset>,
+					"AnimClips": {
+						"<anim clip key>.1": {
+						  /* anim clip data 1 */
+						},
+						"<anim clip key>.2": {
+						  /* anim clip data 2 */
+						},
+						//...
+					},
+					"SpeechBubbles": {
+						"<speech bubble 1>": {
+						  /* speech bubble data 1 */
+						},
+						"<speech bubble 2>": {
+						  /* speech bubble data 2 */
+						},
+						//...
+					},
+					"Args": {
+						/* MotionClass dependent arguments */
+					},
+				},
+				"Abilities": [
+					[
+						{ 
+						// peaceful Charles
+						}
+					],
+					[
+						{ 
+						// angry Charles
+						}
+					],
+				],
+				"AbilityUnlockConditions": [
+					"PLAYER_HAS_MAIL Current {{ModId}}_AngryCharles received"
+				],
+				"Inventory": {
+					// cricket bat weapon
+					// fireworks
+				},
+				"Chatter": {
+					"key1": { },
+					"key2": { }
+				}
+			}
+		}
+	}
+  ]
+}

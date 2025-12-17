@@ -12,8 +12,7 @@
 				"HostOnly": true,
 				"MarkActionApplied": false,
 				"Actions": [
-					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DollHouseSpawns Target 4,5,20,20",
-					// /24,5,20,20/44,5,20,20/64,5,20,20/4,25,20,20/24,25,20,20/44,25,20,20/64,25,20,20/4,45,20,20/24,45,20,20/44,45,20,20/64,45,20,20/4,65,20,20/24,65,20,20/44,65,20,20/64,65,20,20
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DollHouseSpawns Target 4,5,20,20/24,5,20,20/44,5,20,20/64,5,20,20/4,25,20,20/24,25,20,20/44,25,20,20/64,25,20,20/4,45,20,20/24,45,20,20/44,45,20,20/64,45,20,20/4,65,20,20/24,65,20,20/44,65,20,20/64,65,20,20",
 				]
 			},
 			// cemetery - bones (normal forage handled by data/locations) - not working?
@@ -540,7 +539,38 @@
 				"SetPieceSizeX": 20,
 				"SetPieceSizeY": 20,
 				"SetPieceCount": 16
-			}
+			},
+			// tables with cake lol
+			"{{ModId}}_Spawn.GluttonyTableDiviner": { // red tablecloth, big
+				"Type": "Furniture",
+				"FurnitureQualifiedId": "(F)1138",
+				"FurnitureRotation": 1,
+				"FurnitureIsOn": false, // For lamps
+				"FurnitureHeldObject": [ 
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)221",
+						}
+					}
+				],
+				"FurnitureCanPickup": false,
+			},
+			"{{ModId}}_Spawn.GluttonyTableGrandmother": { // red tablecloth, small
+				"Type": "Furniture",
+				"FurnitureQualifiedId": "(F)1400",
+				"FurnitureRotation": 1,
+				"FurnitureIsOn": false, // For lamps
+				"FurnitureHeldObject": [ 
+					{
+						"Weight": 1.0,
+						"Value": {
+							"ItemId": "(O)221",
+						}
+					}
+				],
+				"FurnitureCanPickup": false,
+			},
 		}
 	},
 	
@@ -745,9 +775,35 @@
 					},
 				]
 			},
-			"{{ModId}}_DollHouseSpawns": {
+			"{{ModId}}_DollHouseSpawns.Gluttony": {
 				"SpawnablesToSpawn": [
-					// put treasure and monsters above set pieces
+					// gluttony tables with cake
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.GluttonyTableDiviner"
+							}
+						],
+						"Minimum": 6,
+						"Maximum": 6,
+					},
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.GluttonyTableGrandmother"
+							}
+						],
+						"Minimum": 6,
+						"Maximum": 6,
+					},
+				]
+			},
+			"{{ModId}}_DollHouseSpawns.Setpieces": {
+				"SpawnablesToSpawn": [
+					
+					// set pieces - must stay at the bottom
 					{
 						"SpawnableIds": [
 							{
