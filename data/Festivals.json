@@ -126,8 +126,14 @@
 			//SetUp
 			{
 				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
 				"Value": "CharlesRowland 25 29 left/EdwinPayne 25 28 left/CrystalPalace 24 27 down/MontyFinch 41 43 down/EstherFinch 42 43 down/CatKing 5 38 right",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				"Value": "CharlesRowland 25 37 left/EdwinPayne 25 36 left/CrystalPalace 24 35 down/MontyFinch 41 43 down/EstherFinch 42 43 down/CatKing 5 38 right",
 				"Delimiter": "/"
 			},
 			
@@ -152,8 +158,14 @@
 			//SetUp
 			{
 				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters{{FestivalYear}}"],
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
 				"Value": "NikoSasaki 24 30 up",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				"Value": "NikoSasaki 24 38 up",
 				"Delimiter": "/"
 			},
 			

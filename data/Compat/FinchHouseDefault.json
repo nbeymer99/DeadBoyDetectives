@@ -10,7 +10,7 @@
 				"Condition": true,
 				"MarkActionApplied": false,
 				"Actions": [
-					"Spiderbuttons.BETAS_ClearTerrainFeatures Mountain All 83 28 11 9",
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Mountain All 83 28 93 36",
 					"Spiderbuttons.BETAS_RegeneratePathsLayer Mountain 83 28 11 9",
 				]
 			},

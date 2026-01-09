@@ -7,7 +7,7 @@
 			"{{ModId}}_CharlesFollower": {
 				"Id": "{{ModId}}_CharlesFollower",
 				"DisplayName": "Charles",
-				"Description": "Charles is accompanying you into the Doll House.",
+				"Description": "Charles is accompanying you in the Doll House.",
 				"Texture": "Characters/CharlesRowlandBlackJacket",
 				"SheetIndex": 0,
 				"TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
@@ -38,13 +38,8 @@
 					{
 						"Texture": "Characters/CharlesRowlandBlackJacket",
 						"TextureSourceRect": {"X": 0, "Y": 0, "Width": 16, "Height": 32, },
-						// "TextureExtra": "<additional texture asset name>",
-						// "TextureExtraSourceRect": {"X": 0, "Y": 0, "Width": 16, "Height": 32, },
-						// "ColorMask": "<hex color or monogame color name>",
 						"Width": 16,
 						"Height": 32,
-						// "Bounding": {"X": <int X>, "Y": <int Y>, "Width": <int Width>, "Height": <int Height>, },
-						// "TextureScale": 4,
 						"ShadowScale": 3,
 						"NPC": "CharlesRowland",
 						// "Name": "Charles",
@@ -56,66 +51,185 @@
 					"MotionClass": "Lerp",
 					"DirectionMode": "DRUL",
 					"DirectionRotate": true,
-					"LoopMode": "<enum loop mode>",
+					"LoopMode": "0", // Standard enum
 					"Anchors": [
-						{ /* anchor target data */ },
-						{ /* anchor target data */ },
-						//...
+						{
+							"Id": "{{ModId}}_MonsterAnchor",
+							"Mode": "1", // monster enum
+							"Range": 128,
+							"StopRange": 64,
+						},
+						{
+							"Id": "{{ModId}}_OwnerAnchor",
+							"Mode": "0", //owner enum
+							"StopRange": 32,
+						},
 					],
 					// animation and display
-					"AlwaysMoving": <boolean moving>,
-					"Collision": "<collision enum>",
-					"FrameStart": <int start frame>,
-					"FrameLength": <int frame length per direction>,
-					"Interval": <double interval in miliseconds>,
-					"Offset": "<x>,<y>",
-					"LayerDepth": "<layer depth enum>",
+					"AlwaysMoving": false,
+					"Collision": "1", //Line mode enum
+					"FrameStart": 0,
+					"FrameLength": 4,
+					"Interval": 100,
+					"Offset": "0,0",
+					"LayerDepth": "1", //Position enum
 					"HideDuringEvents": false,
-					// advanced: repeat draw settings
-					"RepeatCount": <int how many times to repeat>,
-					"RepeatInterval": <int miliseconds between repeat draws>,
-					"RepeatFrameSets": <int frameset offset>,
 					"AnimClips": {
-						"<anim clip key>.1": {
-						  /* anim clip data 1 */
+						"cricketbat.1": {
+							"Condition": "TRUE", // is clip allowed to play
+							"FrameStart": 32,
+							"FrameLength": 3,
+							"LoopMode": "0", // Standard enum
+							"Flip": "None",
+							"Interval": 120,
+							"PauseMovement": true,
+							"UseExtra": false,
+							"FrameOverrides": [
+								{
+									"SourceRect": {
+										"X": 0,
+										"Y": 256,
+										"Width": 32,
+										"Height": 32,
+									},
+									"Origin": "0,256",
+									"Interval": 120
+								}
+							],
 						},
-						"<anim clip key>.2": {
-						  /* anim clip data 2 */
+						"cricketbat.3": {
+							"Condition": "TRUE", // is clip allowed to play
+							"FrameStart": 32,
+							"FrameLength": 3,
+							"LoopMode": "0", // Standard enum
+							"Flip": "FlipHorizontally",
+							"Interval": 120,
+							"PauseMovement": true,
+							"UseExtra": false,
+							"FrameOverrides": [
+								{
+									"SourceRect": {
+										"X": 0,
+										"Y": 256,
+										"Width": 32,
+										"Height": 32,
+									},
+									"Origin": "0,256",
+									"Interval": 120
+								}
+							],
 						},
-						//...
+						// repeat this 4 times
+						"throwbomb.0": {
+							"Condition": "TRUE", // is clip allowed to play
+							"FrameStart": x,
+							"FrameLength": x,
+							"LoopMode": "0", // Standard enum
+							"Flip": "None",
+							"Interval": 120,
+							"PauseMovement": true,
+							"UseExtra": false,
+						},
 					},
-					"SpeechBubbles": {
-						"<speech bubble 1>": {
-						  /* speech bubble data 1 */
+					"SpeechBubbles": { // i18n all these
+						"{{ModId}}_CharlesSpeechBubble.1": {
+							"Text": "Edwin, {{PlayerName}}, run!",
+							"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_EdwinRescuedFlag",
 						},
-						"<speech bubble 2>": {
-						  /* speech bubble data 2 */
+						"{{ModId}}_CharlesSpeechBubble.2": {
+							"Text": "I've got this one!",
 						},
-						//...
+						"{{ModId}}_CharlesSpeechBubble.3": {
+							"Text": "Stay down, you ugly bastard!",
+						},
+						"{{ModId}}_CharlesSpeechBubble.4": {
+							"Text": "Creepy down here, innit?",
+						},
+						"{{ModId}}_CharlesSpeechBubble.3": {
+							"Text": "Edwin's gotta be close, yeah?",
+							"Condition": "!PLAYER_HAS_MAIL Host {{ModId}}_EdwinRescuedFlag",
+						},
 					},
 					"Args": {
-						/* MotionClass dependent arguments */
+						"Min": 32,
+						"Max": 1280,
+						"Rate": 400,
+						"Pause": 0,
+						"MoveSync": false,
+						"Velocity": -1,
 					},
 				},
 				"Abilities": [
 					[
-						{ 
-						// peaceful Charles
-						}
-					],
-					[
-						{ 
-						// angry Charles
+						{ // cricket bat swing
+							"Id": "Attack",
+							"AbilityClass": "Hitscan",
+							"Description": "Attacks enemies with his cricket bat.",
+							"Proc": "Always",
+							"ProcTimer": 1000,
+							"ProcSound": "clubhit",
+							"ProcOneshotAnim": "cricketbat.1",
+							"ProcSpeechBubble": "{{ModId}}_CharlesSpeechBubble.2",
+							"IsBomb": false,
+							"Args": {
+								"Min": 10, // come back to this after designing monsters
+								"Max": 40,
+								"Range": 80,
+								"FacingDirectionOnly": false,
+								"Knockback": 40, // %
+								"Precision": 90,
+								"CritChance": 15,
+								"CritDamage": 2,
+								"StunTime": 750,
+								"Hits": 1,
+								"HitsDelay": 0,
+								"TreatAsProjectile": false,
+							}
+						},
+						{ // cherry bomb
+							"Id": "Throw Bomb",
+							"AbilityClass": "Projectile",
+							"Description": "Throws explosives at enemies.",
+							"Proc": "Always",
+							"ProcTimer": 6000,
+							"ProcSound": "bomb" // use soundboard
+							"ProcOneshotAnim": "throwbomb.0",
+							"ProcSpeechBubble": "{{ModId}}_CharlesSpeechBubble.1",
+							"IsBomb": true,
+							"Args": {
+								// projectile args
+								"Texture": "Maps/springobjects",
+								"SpriteIndex": 286,
+								"SpriteWidth": 16,
+								"SpriteHeight": 16,
+								"Height": 16, // is this in pixels or tiles
+								"TailCount": 0,
+								"MinVelocity": 12,
+								"MaxVelocity": 12,
+								"Acceleration": 0,
+								"RotateToTarget": true,
+								"Pierce": 1,
+								"IgnoreObjectCollisions": true,
+								"IgnoreLocationCollisions": false,
+								"Homing": false,
+								"TreatAsProjectile": null,
+								// hitscan args
+								"Min": 20, // come back to this after designing monsters
+								"Max": 100,
+								"Range": 80,
+								"FacingDirectionOnly": false,
+								"Knockback": 10,
+								"Precision": 90,
+								"CritChance": 0,
+								"CritDamage": 0,
+								"StunTime": 2000,
+								"Hits": 1,
+								"HitsDelay": 0,
+								"ExplodeRadius": 64, // pixels or tiles?
+							}
 						}
 					],
 				],
-				"AbilityUnlockConditions": [
-					"PLAYER_HAS_MAIL Current {{ModId}}_AngryCharles received"
-				],
-				"Inventory": {
-					// cricket bat weapon
-					// fireworks
-				},
 				"Chatter": {
 					"key1": { },
 					"key2": { }

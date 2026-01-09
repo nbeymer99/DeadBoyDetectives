@@ -52,10 +52,10 @@
 		},
 		
 		// Dungeon
-		{
+		/* {
 			"Action": "Include",
 			"FromFile": "data/Dungeon.json"
-		},
+		}, */
 		
 		// Events
 		{
@@ -211,10 +211,10 @@
 		},
 		
 		//Trinkets
-		{
+		/* {
 			"Action": "Include",
 			"FromFile": "data/Trinkets.json"
-		},
+		}, */
 		
 		// Misc. Compat
 		{

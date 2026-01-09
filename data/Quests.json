@@ -23,6 +23,8 @@
 			
 			"{{ModId}}_DocksVisit": "Location/{{i18n:DocksVisit.title}}/{{i18n:DocksVisit.text}}/{{i18n:DocksVisit.objective}}/{{ModId}}_Docks/-1/0/-1/true",
 			
+			"{{ModId}}_DH_Intro": "Location/Trouble at the Agency/Crystal needs you at the agency ASAP to discuss Edwin's disappearance./Visit the agency./{{ModId}}_DeadBoyAgency/-1/0/-1/false/0",
+			
 			// FOUNDER QUESTLINE
 			/* "{{ModID}}_FQ.VisitAgency": "Location/Nightly Noises/Present a case to the Dead Boy Detective Agency./Visit the agency and tell them about what you overheard Sebastian say./{{ModId}}_DeadBoyAgency/-1/0/-1/true",
 			

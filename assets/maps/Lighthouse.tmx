@@ -1399,7 +1399,7 @@
   </tile>
  </tileset>
  <tileset firstgid="5122" name="beachtiles" tilewidth="16" tileheight="16" tilecount="304" columns="16">
-  <image source="tilesheets/spring_handwrittenhello.dbda_Lighthouse.png" width="256" height="304"/>
+  <image source="spring_handwrittenhello.dbda_Lighthouse.png" width="256" height="304"/>
   <tile id="7">
    <animation>
     <frame tileid="7" duration="200"/>

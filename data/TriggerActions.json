@@ -7,6 +7,17 @@
 		"Target": "Data/TriggerActions",
 		"Entries": {
 			// --- MAIL ---
+			// send mail - DH quest begin
+			"{{ModId}}_DH_HelpRequest": {
+				"Id": "{{ModId}}_DH_HelpRequest",
+				"Trigger": "DayStarted",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 2500, PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 2500, PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 2500, PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 2500", // check players
+				"Actions": [
+					"AddMail Current {{ModId}}_DH_HelpRequest now", // check players
+					"SetNpcInvisible EdwinPayne 999", // can only be used by host
+				]
+			},
+			
 			//send mail - angie quest
 			"{{ModId}}AngieQuestMail": {
 				"Id": "{{ModId}}_AngieQuestMail",

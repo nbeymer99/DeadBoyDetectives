@@ -2923,7 +2923,7 @@
   </tile>
  </tileset>
  <tileset firstgid="8007" name="tongueandtail" tilewidth="16" tileheight="16" tilecount="156" columns="13">
-  <image source="handwrittenhello.dbda_tongueandtail.png" width="208" height="192"/>
+  <image source="spring_handwrittenhello.dbda_tongueandtail.png" width="208" height="192"/>
  </tileset>
  <layer id="1" name="Back" width="26" height="83">
   <data encoding="csv">
