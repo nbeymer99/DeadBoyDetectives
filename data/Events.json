@@ -30,6 +30,9 @@
 			
 			// founder quest - bring case to agency
 			//"{{ModId}}_FQ.Agency/SawEvent {{ModId}}_FQ.Start": "continue/x y/farmer x y z EdwinPayne x y z CharlesRowland x y z CrystalPalace x y z NikoSasaki x y z/addQuest {{ModId}}_FQ.VisitGraveyard/skippable/end",
+			
+			// begin dollhouse events
+			"{{ModId}}_DH_Intro/HostMail {{ModId}}_DH_HelpRequest": "continue/8 10/farmer 1000 1000 0 CharlesRowland 5 8 1 CrystalPalace 8 14 0 NightNurse 6 13 1 NikoSasaki 9 9 3/removeQuest {{ModId}}_DH_Intro/addQuest {{ModId}}_VisitLNF/skippable/advancedMove CharlesRowland true 2 0 0 2 -2 0 0 -2/pause 1000/speak NikoSasaki \"Charles, please sit down. You're making me dizzy.$s\"/speak CrystalPalace \"She's right, Charles, we need to stop and think.\"/speak CharlesRowland \"No! Every minute we waste is another minute Edwin has to spend in the literal worst place!$a\"/playSound crystal/warp farmer 6 17/faceDirection NightNurse 2 true/faceDirection CrystalPalace 3 true/move farmer 0 -3/speak NightNurse \"Just how many hooligans do you allow into your office unannounced? The unprofessionalism!$a\"/speak CrystalPalace \"I invited @ here, Nurse. What else was I supposed to do?$a#$b#Thank god you're here.\"/question null \"#Why is Charles pacing in circles?#You said Edwin is gone?#What do you mean, Nurse? Is someone hurt?\"/speak NikoSasaki \"We were just hanging out like normal, organizing case notes, when something crashed right through the wall!$s/end",
 		}
 	},
 	
@@ -57,6 +60,16 @@
 			"{{ModId}}_catkinghearts7.2/SawEvent {{ModId}}_catkinghearts7.1/Time 1800 2600": "continue/12 23/farmer 12 26 0 CatKing 12 19 2/skippable/hideShadow CatKing true/changeSprite CatKing cat/showFrame CatKing 19/emote CatKing 24/move farmer 0 -2 0/animate CatKing false false 120 19 18 17 16/pause 480/stopAnimation CatKing/showFrame CatKing 16/speak CatKing \"{{i18n:catkinghearts7.2.0}}\"/quickQuestion #{{i18n:catkinghearts7.2.1}}#{{i18n:catkinghearts7.2.2}}(break)switchEvent toldTownspeople(break)speak CatKing \"{{i18n:catkinghearts7.2.3}}\"/emote farmer 12/move farmer 0 -2 0/speak CatKing \"{{i18n:catkinghearts7.2.4}}\"/animate CatKing false false 120 16 17 18 19/pause 480/stopAnimation CatKing/showFrame CatKing 19/pause 500/quickQuestion #(Leave.)#(Wake him up.)(break)end warpOut(break)animate CatKing false false 120 19 18 17 16\\pause 480\\stopAnimation CatKing\\showFrame CatKing 16\\speak CatKing \"{{i18n:catkinghearts7.2.5}}\"\\playMusic echos\\stopAnimation CatKing\\changeSprite CatKing\\move CatKing 0 2 2\\speak CatKing \"{{i18n:catkinghearts7.2.6}}\"\\emote farmer 28\\speak CatKing \"{{i18n:catkinghearts7.2.7}}\"\\emote farmer 32\\speak CatKing \"{{i18n:catkinghearts7.2.8}}\"\\pause 500\\emote CatKing 24\\speak CatKing \"{{i18n:catkinghearts7.2.9}}\"\\end warpOut",
 			
 			"toldTownspeople": "stopMusic/speak CatKing \"{{i18n:toldTownspeople.0}}\"/changeSprite CatKing/stopAnimation CatKing/showFrame CatKing 0/hideShadow CatKing false/jump CatKing 8/speak CatKing \"{{i18n:toldTownspeople.1}}\"/question null \"{{i18n:toldTownspeople.2}}\"/playMusic echos/emote CatKing 40/pause 3000/speak CatKing \"{{i18n:toldTownspeople.3}}\"/move CatKing 0 3 2/speak CatKing \"{{i18n:toldTownspeople.4}}\"/emote farmer 28/pause 1500/speak CatKing \"{{i18n:toldTownspeople.5}}\"/emote farmer 32/speak CatKing \"{{i18n:toldTownspeople.6}}\"/pause 500/emote CatKing 24/speak CatKing \"{{i18n:toldTownspeople.7}}\"/end warpOut",
+		}
+	},
+	
+	// COMMUNITY CENTER
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/{{ModId}}_Cannery",
+		"Entries": {
+			// jenny 10 hearts - cooking class
+			"{{ModId}}_jennyhearts10/Friendship JennyButcher 2500/CommunityCenterOrWarehouseDone": "continue/x y/farmer x y z JennyButcher x y z NikoSasaki x y z MontyFinch x y z CrystalPalace x y z Abigail x y z Emily x y z Sam x y z/skippable/end",
 		}
 	},
 	

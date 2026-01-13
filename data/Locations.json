@@ -1,504 +1,513 @@
 {
     "Changes": [
 	// CREATE LOCATIONS
-		{
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "Entries": {
-                "{{ModId}}_DeadBoyAgency": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_DeadBoyAgency"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 6,
-						"Y": 18,
-					},
-                },
-				
-				"{{ModId}}_Docks": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_Docks"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.Docks.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 4,
-						"Y": 8,
-					},
-					
-					"FishAreas": {
-						"Ocean": {
-							"DisplayName": null,
-							"Position": null,
-							"CrabPotFishTypes": [ "ocean" ],
-							"CrabPotJunkChance": 0.1,
-						},
-					},
-					
-					"Fish": [
-						{
-							"Chance": 0.75,
-							"Season": null,
-							"FishAreaId": "Ocean",
-							"BobberPosition": null,
-							"PlayerPosition": null,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"SpecificBaitBuff": 0.0,
-							"SpecificBaitMultiplier": 1.66,
-							"CatchLimit": -1,
-							"CanUseTrainingRod": null,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": true,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"ChanceBoostPerLuckLevel": 0.0,
-							"UseFishCaughtSeededRandom": false,
-							"Condition": null,
-							"Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
-							"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
-							"RandomItemId": null,
-							"MaxItems": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ObjectColor": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack",
-							"ModData": null,
-							"PerItemCondition": null
-						},
-					],
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_DeadBoyAgency": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_DeadBoyAgency"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 6,
+					"Y": 18,
+				},
+			},
+			
+			"{{ModId}}_Docks": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Docks"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.Docks.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 4,
+					"Y": 8,
 				},
 				
-				"{{ModId}}_Cannery": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_Cannery"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.Cannery.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 12,
-						"Y": 24,
-					},
-                },
-				
-				"{{ModId}}_FinchHouseInt": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_FinchHouseInt"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 11,
-						"Y": 23,
-					},
-                },
-				
-				"{{ModId}}_FinchAttic": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_FinchAttic"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 7,
-						"Y": 16,
-					},
-                },
-				
-				"{{ModId}}_Graveyard": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_Graveyard"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.Cemetery.DisplayName}}", 
-					"DefaultArrivalTile": { "X": 2, "Y": 9 },
-					"Forage": [
-						{
-							"Chance": 0.9,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "(O)16",
-							"ItemId": "(O)16", // horseradish
-							
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "(O)22",
-							"ItemId": "(O)22", // dandelion
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "(O)396",
-							"ItemId": "(O)396", // spice berry
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "(O)402",
-							"ItemId": "(O)402", // sweet pea
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "(O)404",
-							"ItemId": "(O)404", // mushroom
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "(O)410",
-							"ItemId": "(O)410", // blackberry
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "(O)418",
-							"ItemId": "(O)418", // crocus
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "(O)414",
-							"ItemId": "(O)414", // crystal fruit
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "(O)283",
-							"ItemId": "(O)283", // holly
-						}
-					],
-				},
-				
-                "{{ModId}}_TragicMicks": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_TragicMicks"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.TragicMicks.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 8,
-						"Y": 23,
-					},
-                },
-				
-				"{{ModId}}_Lighthouse": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_Lighthouse"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 85,
-						"Y": 13,
-					},
-					
-					"FishAreas": {
-						"Ocean": {
-							"DisplayName": null,
-							"Position": null,
-							"CrabPotFishTypes": [ "ocean" ],
-							"CrabPotJunkChance": 0.1,
-						},
-						"River": {
-							"DisplayName": null,
-							"Position": {
-								"X": 41,
-								"Y": 0,
-								"Width": 49,
-								"Height": 4,
-							},
-							"CrabPotFishTypes": [],
-							"CrabPotJunkChance": 0.1,
-						}
-					},
-					
-					"Fish": [
-						{
-							"Chance": 0.66,
-							"Season": null,
-							"FishAreaId": "Ocean",
-							"BobberPosition": null,
-							"PlayerPosition": null,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"SpecificBaitBuff": 0.0,
-							"SpecificBaitMultiplier": 1.66,
-							"CatchLimit": -1,
-							"CanUseTrainingRod": null,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": true,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"ChanceBoostPerLuckLevel": 0.0,
-							"UseFishCaughtSeededRandom": false,
-							"Condition": null,
-							"Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
-							"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
-							"RandomItemId": null,
-							"MaxItems": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ObjectColor": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack",
-							"ModData": null,
-							"PerItemCondition": null
-						},
-						{
-							"ID": "Angie",
-							"ItemId": "{{ModId}}_Angie",
-							"Chance": 0.5,
-							"Season": "Winter",
-							"MinFishingLevel": 6,
-							"ApplyDailyLuck": true,
-							"CuriosityLureBuff": 2,
-							"CatchLimit": 1,
-							"CanUseTrainingRod": false,
-							"IsBossFish": true
-						},
-						{
-							"Chance": 0.3,
-							"Season": null,
-							"FishAreaId": "River",
-							"BobberPosition": null,
-							"PlayerPosition": null,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"SpecificBaitBuff": 0.0,
-							"SpecificBaitMultiplier": 1.66,
-							"CatchLimit": -1,
-							"CanUseTrainingRod": null,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -10,
-							"IgnoreFishDataRequirements": true,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"ChanceBoostPerLuckLevel": 0.0,
-							"UseFishCaughtSeededRandom": false,
-							"Condition": null,
-							"Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
-							"ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
-							"RandomItemId": null,
-							"MaxItems": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ObjectColor": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack",
-							"ModData": null,
-							"PerItemCondition": null
-						  },
-					],
-				},
-				
-				"{{ModId}}_LighthouseInt": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_LighthouseInt"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 7,
-						"Y": 12,
-					},
-                },
-				
-				"{{ModId}}_LighthouseScary": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_LighthouseScary"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 85,
-						"Y": 13,
+				"FishAreas": {
+					"Ocean": {
+						"DisplayName": null,
+						"Position": null,
+						"CrabPotFishTypes": [ "ocean" ],
+						"CrabPotJunkChance": 0.1,
 					},
 				},
 				
-				"{{ModId}}_LostAndFound": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_LostAndFound"
+				"Fish": [
+					{
+						"Chance": 0.75,
+						"Season": null,
+						"FishAreaId": "Ocean",
+						"BobberPosition": null,
+						"PlayerPosition": null,
+						"MinFishingLevel": 0,
+						"MinDistanceFromShore": 0,
+						"MaxDistanceFromShore": -1,
+						"ApplyDailyLuck": false,
+						"CuriosityLureBuff": -1.0,
+						"SpecificBaitBuff": 0.0,
+						"SpecificBaitMultiplier": 1.66,
+						"CatchLimit": -1,
+						"CanUseTrainingRod": null,
+						"IsBossFish": false,
+						"SetFlagOnCatch": null,
+						"RequireMagicBait": false,
+						"Precedence": 0,
+						"IgnoreFishDataRequirements": true,
+						"CanBeInherited": true,
+						"ChanceModifiers": null,
+						"ChanceModifierMode": "Stack",
+						"ChanceBoostPerLuckLevel": 0.0,
+						"UseFishCaughtSeededRandom": false,
+						"Condition": null,
+						"Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+						"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": -1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ObjectColor": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
 					},
-					"DisplayName": "{{i18n:LocationDisplayName.LostAndFound.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 7,
-						"Y": 13,
+				],
+			},
+			
+			"{{ModId}}_Cannery": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Cannery"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.Cannery.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 12,
+					"Y": 24,
+				},
+			},
+			
+			"{{ModId}}_FinchHouseInt": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_FinchHouseInt"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 11,
+					"Y": 23,
+				},
+			},
+			
+			"{{ModId}}_FinchAttic": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_FinchAttic"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.FinchHouse.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 7,
+					"Y": 16,
+				},
+			},
+			
+			"{{ModId}}_Graveyard": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Graveyard"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.Cemetery.DisplayName}}", 
+				"DefaultArrivalTile": { "X": 2, "Y": 9 },
+				"Forage": [
+					{
+						"Chance": 0.9,
+						"Season": "Spring",
+						"Condition": null,
+						"Id": "(O)16",
+						"ItemId": "(O)16", // horseradish
+						
 					},
+					{
+						"Chance": 0.9,
+						"Season": "Spring",
+						"Condition": null,
+						"Id": "(O)22",
+						"ItemId": "(O)22", // dandelion
+					},
+					{
+						"Chance": 0.6,
+						"Season": "Summer",
+						"Condition": null,
+						"Id": "(O)396",
+						"ItemId": "(O)396", // spice berry
+					},
+					{
+						"Chance": 0.9,
+						"Season": "Summer",
+						"Condition": null,
+						"Id": "(O)402",
+						"ItemId": "(O)402", // sweet pea
+					},
+					{
+						"Chance": 0.9,
+						"Season": "Fall",
+						"Condition": null,
+						"Id": "(O)404",
+						"ItemId": "(O)404", // mushroom
+					},
+					{
+						"Chance": 0.9,
+						"Season": "Fall",
+						"Condition": null,
+						"Id": "(O)410",
+						"ItemId": "(O)410", // blackberry
+					},
+					{
+						"Chance": 0.9,
+						"Season": "Winter",
+						"Condition": null,
+						"Id": "(O)418",
+						"ItemId": "(O)418", // crocus
+					},
+					{
+						"Chance": 0.9,
+						"Season": "Winter",
+						"Condition": null,
+						"Id": "(O)414",
+						"ItemId": "(O)414", // crystal fruit
+					},
+					{
+						"Chance": 0.5,
+						"Season": "Winter",
+						"Condition": null,
+						"Id": "(O)283",
+						"ItemId": "(O)283", // holly
+					}
+				],
+			},
+			
+			"{{ModId}}_TragicMicks": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_TragicMicks"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.TragicMicks.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 8,
+					"Y": 23,
+				},
+			},
+			
+			"{{ModId}}_Lighthouse": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Lighthouse"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 85,
+					"Y": 13,
 				},
 				
-				/* "{{ModId}}_MazeSetpiecesTest": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_MazeSetpieces"
+				"FishAreas": {
+					"Ocean": {
+						"DisplayName": null,
+						"Position": null,
+						"CrabPotFishTypes": [ "ocean" ],
+						"CrabPotJunkChance": 0.1,
 					},
-					"DisplayName": "Setpieces Testing Ground",
-					"DefaultArrivalTile": {
-						"X": 1,
-						"Y": 5,
-					},
-				}, */
-				
-				"{{ModId}}_BlankMaze": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_DollHouseBlank"
-					},
-					"DisplayName": "Blank Testing Ground",
-					"DefaultArrivalTile": {
-						"X": 5,
-						"Y": 9,
-					},
+					"River": {
+						"DisplayName": null,
+						"Position": {
+							"X": 41,
+							"Y": 0,
+							"Width": 49,
+							"Height": 4,
+						},
+						"CrabPotFishTypes": [],
+						"CrabPotJunkChance": 0.1,
+					}
 				},
 				
-				"{{ModId}}_DollHouse": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_DollHouseBlank"
+				"Fish": [
+					{
+						"Chance": 0.66,
+						"Season": null,
+						"FishAreaId": "Ocean",
+						"BobberPosition": null,
+						"PlayerPosition": null,
+						"MinFishingLevel": 0,
+						"MinDistanceFromShore": 0,
+						"MaxDistanceFromShore": -1,
+						"ApplyDailyLuck": false,
+						"CuriosityLureBuff": -1.0,
+						"SpecificBaitBuff": 0.0,
+						"SpecificBaitMultiplier": 1.66,
+						"CatchLimit": -1,
+						"CanUseTrainingRod": null,
+						"IsBossFish": false,
+						"SetFlagOnCatch": null,
+						"RequireMagicBait": false,
+						"Precedence": 0,
+						"IgnoreFishDataRequirements": true,
+						"CanBeInherited": true,
+						"ChanceModifiers": null,
+						"ChanceModifierMode": "Stack",
+						"ChanceBoostPerLuckLevel": 0.0,
+						"UseFishCaughtSeededRandom": false,
+						"Condition": null,
+						"Id": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+						"ItemId": "LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": -1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ObjectColor": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
 					},
-					"DisplayName": "Doll House",
-					"DefaultArrivalTile": {
-						"X": 5,
-						"Y": 9,
+					{
+						"ID": "Angie",
+						"ItemId": "{{ModId}}_Angie",
+						"Chance": 0.5,
+						"Season": "Winter",
+						"MinFishingLevel": 6,
+						"ApplyDailyLuck": true,
+						"CuriosityLureBuff": 2,
+						"CatchLimit": 1,
+						"CanUseTrainingRod": false,
+						"IsBossFish": true
 					},
+					{
+						"Chance": 0.3,
+						"Season": null,
+						"FishAreaId": "River",
+						"BobberPosition": null,
+						"PlayerPosition": null,
+						"MinFishingLevel": 0,
+						"MinDistanceFromShore": 0,
+						"MaxDistanceFromShore": -1,
+						"ApplyDailyLuck": false,
+						"CuriosityLureBuff": -1.0,
+						"SpecificBaitBuff": 0.0,
+						"SpecificBaitMultiplier": 1.66,
+						"CatchLimit": -1,
+						"CanUseTrainingRod": null,
+						"IsBossFish": false,
+						"SetFlagOnCatch": null,
+						"RequireMagicBait": false,
+						"Precedence": -10,
+						"IgnoreFishDataRequirements": true,
+						"CanBeInherited": true,
+						"ChanceModifiers": null,
+						"ChanceModifierMode": "Stack",
+						"ChanceBoostPerLuckLevel": 0.0,
+						"UseFishCaughtSeededRandom": false,
+						"Condition": null,
+						"Id": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+						"ItemId": "LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+						"RandomItemId": null,
+						"MaxItems": null,
+						"MinStack": -1,
+						"MaxStack": -1,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ObjectColor": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack",
+						"ModData": null,
+						"PerItemCondition": null
+					  },
+				],
+			},
+			
+			"{{ModId}}_LighthouseInt": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_LighthouseInt"
 				},
-				
-				"{{ModId}}_MountainPass": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/{{ModId}}_MountainPass"
-					},
-					"DisplayName": "{{i18n:LocationDisplayName.MountainPass.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 15,
-						"Y": 23,
-					},
+				"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 7,
+					"Y": 12,
 				},
-				
-				"{{ModId}}_DeadBoyAgencyCauldron": {
-                    "CreateOnLoad": { 
-                        "MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 6,
-						"Y": 18,
-					},
-                },
-				
-				"{{ModId}}_Backpack": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_Backpack"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.CharlesBackpack.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 6,
-						"Y": 10,
-					},
-                },
-				
-				"{{ModId}}_TongueAndTail": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_TNTInterior"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.TNT.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 14,
-						"Y": 28,
-					},
-                },
-				
-				"{{ModId}}_CrystalAndNiko": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_CrystalAndNiko"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.CNRooms.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 25,
-						"Y": 23,
-					},
-                },
-				
-				"{{ModId}}_CrystalVoid": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_CrystalVoid"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.CrystalVoid.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 22,
-						"Y": 26,
-					},
-                },
+			},
+			
+			"{{ModId}}_LighthouseScary": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_LighthouseScary"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.Lighthouse.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 85,
+					"Y": 13,
+				},
+			},
+			
+			"{{ModId}}_LostAndFound": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_LostAndFound"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.LostAndFound.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 7,
+					"Y": 13,
+				},
+			},
+			
+			/* "{{ModId}}_MazeSetpiecesTest": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_MazeSetpieces"
+				},
+				"DisplayName": "Setpieces Testing Ground",
+				"DefaultArrivalTile": {
+					"X": 1,
+					"Y": 5,
+				},
+			}, */
+			
+			"{{ModId}}_BlankMaze": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_DollHouseBlank"
+				},
+				"DisplayName": "Blank Testing Ground",
+				"DefaultArrivalTile": {
+					"X": 5,
+					"Y": 9,
+				},
+			},
+			
+			"{{ModId}}_DollHouse": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_DollHouseBlank"
+				},
+				"DisplayName": "Doll House",
+				"DefaultArrivalTile": {
+					"X": 5,
+					"Y": 9,
+				},
+			},
+			
+			"{{ModId}}_MountainPass": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_MountainPass"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.MountainPass.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 15,
+					"Y": 23,
+				},
+			},
+			
+			"{{ModId}}_DeadBoyAgencyCauldron": {
+				"CreateOnLoad": { 
+					"MapPath": "Maps/{{ModId}}_DeadBoyAgencyCauldron"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.DBDA.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 6,
+					"Y": 18,
+				},
+			},
+			
+			"{{ModId}}_Backpack": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Backpack"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.CharlesBackpack.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 6,
+					"Y": 10,
+				},
+			},
+			
+			"{{ModId}}_TongueAndTail": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_TNTInterior"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.TNT.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 14,
+					"Y": 28,
+				},
+			},
+			
+			"{{ModId}}_CrystalAndNiko": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_CrystalAndNiko"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.CNRooms.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 25,
+					"Y": 23,
+				},
+			},
+			
+			"{{ModId}}_CrystalVoid": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_CrystalVoid"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.CrystalVoid.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 22,
+					"Y": 26,
+				},
+			},
 
-				"{{ModId}}_Roof": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_Roof"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.TNTRoof.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 12,
-						"Y": 65,
-					},
-                },
-				
-				"{{ModId}}_SeanceMap": {
-                    "CreateOnLoad": {
-                        "MapPath": "Maps/{{ModId}}_SeanceMap"
-                    },
-					"DisplayName": "{{i18n:LocationDisplayName.Town.DisplayName}}",
-					"DefaultArrivalTile": {
-						"X": 45,
-						"Y": 95,
-					},
-                },
-				
-				"{{ModId}}_TantrumHole": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Coop"
-					},
-					"DisplayName": "Birdcage"
-				}
+			"{{ModId}}_Roof": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Roof"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.TNTRoof.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 12,
+					"Y": 65,
+				},
+			},
+			
+			"{{ModId}}_SeanceMap": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_SeanceMap"
+				},
+				"DisplayName": "{{i18n:LocationDisplayName.Town.DisplayName}}",
+				"DefaultArrivalTile": {
+					"X": 45,
+					"Y": 95,
+				},
+			},
+			
+			"{{ModId}}_TantrumHole": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/Coop"
+				},
+				"DisplayName": "Birdcage"
 			}
-		},
-	]
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Fields": {
+			"{{ModId}}_DollHouse": {
+				"MusicDefault": "{{ModId}}_DanceofDeath",
+			}
+		}
+	}
+  ]
 }

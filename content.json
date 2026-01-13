@@ -31,6 +31,12 @@
 
     "Changes": [
 		
+		// Audio
+		{
+			"Action": "Include",
+			"FromFile": "data/Audio.json"
+		},
+		
 		// Blank Loads
 		{
    		 "LogName": "Blank JSON load", 
@@ -52,10 +58,10 @@
 		},
 		
 		// Dungeon
-		/* {
+		{
 			"Action": "Include",
 			"FromFile": "data/Dungeon.json"
-		}, */
+		},
 		
 		// Events
 		{
