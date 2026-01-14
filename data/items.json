@@ -197,6 +197,17 @@
 				"SpriteIndex": 10,
 				"ContextTags": [ "light_source" ]
 			},
+			"{{ModId}}_TallDolls": {
+				"Name": "{{ModId}}_TallDolls",
+				"DisplayName": "{{i18n:TallDolls.DisplayName}}",
+				"Description": "{{i18n:TallDolls.Description}}",
+				"Fragility": 0,
+				"CanBePlacedOutdoors": false,
+				"Price": "0",
+				"IsLamp": false,
+				"Texture": "Maps/{{ModId}}_dollhouseTiles",
+				"SpriteIndex": 13,
+			},
 		}
 	},
 	

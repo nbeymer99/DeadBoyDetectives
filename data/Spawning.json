@@ -531,7 +531,60 @@
 				"ForageableExpiresWeekly": true,
 				"ForageableIsTillSpot": true
 			},
-			// set pieces
+			// dungeon - breakables and loot
+			"{{ModId}}_SpawnBreakable.TallDolls": {
+				"Type": "Breakable",
+				"BreakableBigCraftableId": "{{ModId}}_TallDolls",
+				"BreakableHealth": 1,
+				"BreakbleHitSound": "crystal",
+				"BreakbleBrokenSound": "crystal",
+				"BreakableDrops": [
+					[
+						{
+							"Weight": 1.0,
+							"Value": { 
+								"ItemId": "(O){{ModId}}_PorcelainShards",
+								"MinStack": 1,
+								"MaxStack": 3,
+							}
+						},
+						{
+							"Weight": 0.5,
+							"Value": { 
+								"ItemId": "(O)881", // bone fragment
+								"MinStack": 3,
+								"MaxStack": 9,
+							}
+						},
+						{
+							"Weight": 0.05,
+							"Value": { 
+								"ItemId": "(O){{ModId}}_BloodVial",
+								"MinStack": 1,
+								"MaxStack": 1,
+							}
+						},
+						{
+							"Weight": 0.02,
+							"Value": { 
+								"ItemId": "(O)839", // thorns ring
+								"MinStack": 1,
+								"MaxStack": 1,
+							}
+						},
+						{
+							"Weight": 0.005,
+							"Value": { 
+								"ItemId": "(F)1369", // decorative lantern
+								"MinStack": 1,
+								"MaxStack": 1,
+							}
+						},
+					]
+				]
+			},
+			
+			// dungeon - set pieces
 			"{{ModId}}_SpawnSetPieces": {
 				"Type": "SetPiece",
 				"Condition": true,
@@ -540,7 +593,7 @@
 				"SetPieceSizeY": 20,
 				"SetPieceCount": 16
 			},
-			// tables with cake lol
+			// dungeon - tables with cake lol
 			"{{ModId}}_Spawn.GluttonyTableDiviner": { // red tablecloth, big
 				"Type": "Furniture",
 				"FurnitureQualifiedId": "(F)1138",

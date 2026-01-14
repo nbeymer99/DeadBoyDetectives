@@ -188,13 +188,69 @@
 				]
 			},
 			// dungeon doors monty hall price is right
-			"{{ModId}}_DungeonDoors": {
-				"Id": "{{ModId}}_DungeonDoors",
+			"{{ModId}}_DungeonDoors1": {
+				"Id": "{{ModId}}_DungeonDoors1",
 				"Trigger": "Manual",
+				"MarkActionApplied": false,
 				"Actions": [
-					"Spiderbuttons.BETAS_WarpFarmer [Spiderbuttons.BETAS_CharacterLocation Farmer] [Spiderbuttons.BETAS_CharacterCoordinate Farmer X] [Spiderbuttons.BETAS_NumberOffset [Spiderbuttons.BETAS_CharacterCoordinate Farmer Y] -3]",
-					"
-					
+					"mushymato.MMAP_WrpHere 0 -3 -1 false true",
+					"Spiderbuttons.BETAS_PlaySound doorClose",
+					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
+				]
+			},
+			"{{ModId}}_DungeonDoors2": {
+				"Id": "{{ModId}}_DungeonDoors2",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.MMAP_WrpHere 0 -3 -1 false true", 
+					"Spiderbuttons.BETAS_PlaySound doorClose",
+					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
+				]
+			},
+			"{{ModId}}_DungeonDoors3": {
+				"Id": "{{ModId}}_DungeonDoors3",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.MMAP_WrpHere 0 -3 -1 false true",
+					"Spiderbuttons.BETAS_PlaySound doorClose",
+					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
+				]
+			},	
+			"{{ModId}}_DungeonDoorsReturn1": {
+				"Id": "{{ModId}}_DungeonDoorsReturn1",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.MMAP_WrpHere 0 3 -1 false true",
+					//"mushymato.MMAP_UpdateMapOverride Here - handwrittenhello.dbda_Door1Override",
+					"Spiderbuttons.BETAS_PlaySound doorClose",
+					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
+				]
+			},
+			"{{ModId}}_DungeonDoorsReturn2": {
+				"Id": "{{ModId}}_DungeonDoorsReturn2",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.MMAP_WrpHere 0 3 -1 false true", 
+					//"mushymato.MMAP_UpdateMapOverride Here - handwrittenhello.dbda_Door2Override",
+					"Spiderbuttons.BETAS_PlaySound doorClose",
+					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
+				]
+			},
+			"{{ModId}}_DungeonDoorsReturn3": {
+				"Id": "{{ModId}}_DungeonDoorsReturn3",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.MMAP_WrpHere 0 3 -1 false true",
+					//"mushymato.MMAP_UpdateMapOverride Here - handwrittenhello.dbda_Door3Override",
+					"Spiderbuttons.BETAS_PlaySound doorClose",
+					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
+				]
+			},	
 			
 			// crystal void stamina regen - apply
 			"{{ModId}}_CrystalVoidStaminaRegen": {

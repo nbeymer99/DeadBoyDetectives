@@ -33,6 +33,48 @@
 				"AdditionalTimeMilliseconds": 999999
 			}
 		}
-	}
+	},
+	
+	// MMAP dungeon stuff
+	{
+		"Action": "EditData",
+		"Target": "mushymato.MMAP/MapOverrides",
+		"Entries": {
+			"{{ModId}}_Door1Override": {
+				"Id": "{{ModId}}_Door1Override",
+				"SourceMap": "Maps/{{ModId}}_DungeonDoors1",
+				"TargetRectIsRelative": true,
+				"TargetRect": {
+					"X": -3,
+					"Y": -5,
+					"Width": 5,
+					"Height": 5
+				},
+				"ClearTargetRectOnApply": false
+			},
+			"{{ModId}}_Door2Override": {
+				"Id": "{{ModId}}_Door2Override",
+				"SourceMap": "Maps/{{ModId}}_DungeonDoors2",
+				"TargetRect": {
+					"X": -2,
+					"Y": -5,
+					"Width": 4,
+					"Height": 5
+				},
+				"ClearTargetRectOnApply": false
+			},
+			"{{ModId}}_Door3Override": {
+				"Id": "{{ModId}}_Door3Override",
+				"SourceMap": "Maps/{{ModId}}_DungeonDoors3",
+				"TargetRect": {
+					"X": -2,
+					"Y": -5,
+					"Width": 5,
+					"Height": 5
+				},
+				"ClearTargetRectOnApply": false
+			},
+		}
+	},
   ]
 }

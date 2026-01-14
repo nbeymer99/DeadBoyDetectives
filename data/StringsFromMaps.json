@@ -8,6 +8,7 @@
 			"{{ModID}}_TNTPrices": "{{i18n:StringsFromMaps.{{ModID}}_TNTPrices}}",
 			"{{ModId}}_LighthouseSign": "{{i18n:StringsFromMaps.{{ModId}}_LighthouseSign}}",
 			"{{ModId}}_MountainSign": "{{i18n:StringsFromMaps.{{ModId}}_MountainSign}}",
+			"{{ModId}}_DollHouseExitSign": "{{i18n:StringsFromMaps.{{ModId}}_DollHouseExitSign}}",
 			"{{ModId}}_Map.001": "{{i18n:StringsFromMaps.{{ModId}}_Map.001}}",
 			"{{ModId}}_Map.002": "{{i18n:StringsFromMaps.{{ModId}}_Map.002}}",
 			"{{ModId}}_Map.003": "{{i18n:StringsFromMaps.{{ModId}}_Map.003}}",

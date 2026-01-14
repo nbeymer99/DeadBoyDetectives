@@ -60,7 +60,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"When": {
-			"HasMod |contains=LemurKat.EastScarpe.CP": true,
+			"HasMod |contains=LemurKat.EastScarp": true,
 			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 		},
 		"FromFile": "assets/maps/Compat/MontyHouseExterior_ES.tmx",
@@ -72,7 +72,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"When": {
-			"HasMod |contains=LemurKat.EastScarpe.CP": true,
+			"HasMod |contains=LemurKat.EastScarp": true,
 			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 		},
 		"AddWarps": [
@@ -102,7 +102,7 @@
 		"Target": "Maps/Mountain",
 		"When": {
 			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-			"HasMod |contains=LemurKat.EastScarpe.CP": true
+			"HasMod |contains=LemurKat.EastScarp": true
 		},
 		"FromFile": "assets/maps/Compat/MontyHouseExterior_ES+SVE.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 12, "Height": 2 },
@@ -113,7 +113,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/Mountain",
 		"When": {
-			"HasMod |contains=LemurKat.EastScarpe.CP": true,
+			"HasMod |contains=LemurKat.EastScarp": true,
 			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
 		},
 		"AddWarps": [

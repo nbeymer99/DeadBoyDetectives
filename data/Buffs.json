@@ -52,7 +52,7 @@
 				"Description": "{{i18n:Buffs.GluttonyCakeEffect.Description}}",
 				"IsDebuff": true,
 				"GlowColor": null,
-				"Duration": 90,
+				"Duration": 90000,
 				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
 				"IconSpriteIndex": 3,
 				"Effects": {
