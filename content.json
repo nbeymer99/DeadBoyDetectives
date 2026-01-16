@@ -217,10 +217,10 @@
 		},
 		
 		//Trinkets
-		/* {
+		{
 			"Action": "Include",
 			"FromFile": "data/Trinkets.json"
-		}, */
+		},
 		
 		// Misc. Compat
 		{

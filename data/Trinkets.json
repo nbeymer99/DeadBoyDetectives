@@ -31,13 +31,14 @@
 		"Target": "mushymato.TrinketTinker/Tinker",
 		"Entries": {
 			"{{ModId}}_CharlesFollower": {
-				"EnableCondition": "LOCATION_NAME {{ModId}}_DollHouse, PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received",
+				"EnableCondition": "mushymato.TrinketTinker_ENABLED_TRINKET_COUNT Target All <1",
+				//PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received, LOCATION_NAME {{ModId}}_DollHouse",
 				"EnableFailMessage": "Charles doesn't want to accompany you.",
 				"MinLevel": 1,
 				"Variants": [
 					{
 						"Texture": "Characters/CharlesRowlandBlackJacket",
-						"TextureSourceRect": {"X": 0, "Y": 0, "Width": 16, "Height": 32, },
+						"TextureSourceRect": {"X": 0, "Y": 0, "Width": 64, "Height": 416, },
 						"Width": 16,
 						"Height": 32,
 						"ShadowScale": 3,
@@ -50,33 +51,33 @@
 				"Motion": {
 					"MotionClass": "Lerp",
 					"DirectionMode": "DRUL",
-					"DirectionRotate": true,
-					"LoopMode": "0", // Standard enum
+					//"LoopMode": "0", // Standard enum
 					"Anchors": [
 						{
 							"Id": "{{ModId}}_MonsterAnchor",
 							"Mode": "1", // monster enum
-							"Range": 128,
+							"Range": 1200,
 							"StopRange": 64,
 						},
-						{
+						/* {
 							"Id": "{{ModId}}_OwnerAnchor",
 							"Mode": "0", //owner enum
-							"StopRange": 32,
-						},
+							"Range": 600,
+							"StopRange": 300,
+						}, */
 					],
 					// animation and display
 					"AlwaysMoving": false,
 					"Collision": "1", //Line mode enum
-					"FrameStart": 0,
+					//"FrameStart": 0,
 					"FrameLength": 4,
-					"Interval": 100,
+					"Interval": 175,
 					"Offset": "0,0",
 					"LayerDepth": "1", //Position enum
-					"HideDuringEvents": false,
+					"HideDuringEvents": true,
 					"AnimClips": {
 						"cricketbat.1": {
-							"Condition": "TRUE", // is clip allowed to play
+							"Condition": "true", // is clip allowed to play
 							"FrameStart": 32,
 							"FrameLength": 3,
 							"LoopMode": "0", // Standard enum
@@ -98,7 +99,7 @@
 							],
 						},
 						"cricketbat.3": {
-							"Condition": "TRUE", // is clip allowed to play
+							"Condition": "true", // is clip allowed to play
 							"FrameStart": 32,
 							"FrameLength": 3,
 							"LoopMode": "0", // Standard enum
@@ -121,9 +122,9 @@
 						},
 						// repeat this 4 times
 						"throwbomb.0": {
-							"Condition": "TRUE", // is clip allowed to play
-							"FrameStart": x,
-							"FrameLength": x,
+							"Condition": "true", // is clip allowed to play
+							"FrameStart": 0,
+							"FrameLength": 0,
 							"LoopMode": "0", // Standard enum
 							"Flip": "None",
 							"Interval": 120,
@@ -151,7 +152,7 @@
 						},
 					},
 					"Args": {
-						"Min": 32,
+						"Min": 128,
 						"Max": 1280,
 						"Rate": 400,
 						"Pause": 0,
@@ -192,7 +193,7 @@
 							"Description": "Throws explosives at enemies.",
 							"Proc": "Always",
 							"ProcTimer": 6000,
-							"ProcSound": "bomb" // use soundboard
+							"ProcSound": "explosion", // use soundboard
 							"ProcOneshotAnim": "throwbomb.0",
 							"ProcSpeechBubble": "{{ModId}}_CharlesSpeechBubble.1",
 							"IsBomb": true,
@@ -207,7 +208,7 @@
 								"MinVelocity": 12,
 								"MaxVelocity": 12,
 								"Acceleration": 0,
-								"RotateToTarget": true,
+								"RotateToTarget": false,
 								"Pierce": 1,
 								"IgnoreObjectCollisions": true,
 								"IgnoreLocationCollisions": false,

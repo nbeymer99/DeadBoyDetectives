@@ -187,13 +187,38 @@
 					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalAndNiko 37 11 2"
 				]
 			},
-			// dungeon doors monty hall price is right
+			
+			// equip charles trinket on manual
+			"{{ModId}}_EquipCharlesTrinket": {
+				"Id": "{{ModId}}_EquipCharlesTrinket",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"mushymato.TrinketTinker_EquipHiddenTrinket {{ModId}}_CharlesFollower"
+				]
+			},
+			
+			// exit dungeon and clear things and unequip charles trinket
+			"{{ModId}}_ExitDollHouseEarly": {
+				"Id": "{{ModId}}_ExitDollHouseEarly",
+				"Trigger": "Manual",
+				"MarkActionApplied": false,
+				"Actions": [
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_LostAndFound 6 6 2",
+					"spacechase0.SpaceCore_ClearSetPiecesFromSpawnable {{ModId}}_DollHouseSpawns.Setpieces Target",
+					"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_CharlesFollower",
+					//"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_EdwinFollower",
+					"mushymato.MMAP_UpdateMapOverride Here RemoveAll"
+				]
+			},
+			
+			/* // dungeon doors monty hall price is right
 			"{{ModId}}_DungeonDoors1": {
 				"Id": "{{ModId}}_DungeonDoors1",
 				"Trigger": "Manual",
 				"MarkActionApplied": false,
 				"Actions": [
-					"mushymato.MMAP_WrpHere 0 -3 -1 false true",
+					"mushymato.MMAP_WrpHere 0 -3 0 false true",
 					"Spiderbuttons.BETAS_PlaySound doorClose",
 					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
 				]
@@ -203,7 +228,7 @@
 				"Trigger": "Manual",
 				"MarkActionApplied": false,
 				"Actions": [
-					"mushymato.MMAP_WrpHere 0 -3 -1 false true", 
+					"mushymato.MMAP_WrpHere 0 -3 0 false true", 
 					"Spiderbuttons.BETAS_PlaySound doorClose",
 					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
 				]
@@ -213,7 +238,7 @@
 				"Trigger": "Manual",
 				"MarkActionApplied": false,
 				"Actions": [
-					"mushymato.MMAP_WrpHere 0 -3 -1 false true",
+					"mushymato.MMAP_WrpHere 0 -3 0 false true",
 					"Spiderbuttons.BETAS_PlaySound doorClose",
 					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
 				]
@@ -224,7 +249,6 @@
 				"MarkActionApplied": false,
 				"Actions": [
 					"mushymato.MMAP_WrpHere 0 3 -1 false true",
-					//"mushymato.MMAP_UpdateMapOverride Here - handwrittenhello.dbda_Door1Override",
 					"Spiderbuttons.BETAS_PlaySound doorClose",
 					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
 				]
@@ -235,7 +259,6 @@
 				"MarkActionApplied": false,
 				"Actions": [
 					"mushymato.MMAP_WrpHere 0 3 -1 false true", 
-					//"mushymato.MMAP_UpdateMapOverride Here - handwrittenhello.dbda_Door2Override",
 					"Spiderbuttons.BETAS_PlaySound doorClose",
 					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
 				]
@@ -246,11 +269,10 @@
 				"MarkActionApplied": false,
 				"Actions": [
 					"mushymato.MMAP_WrpHere 0 3 -1 false true",
-					//"mushymato.MMAP_UpdateMapOverride Here - handwrittenhello.dbda_Door3Override",
 					"Spiderbuttons.BETAS_PlaySound doorClose",
 					//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance"
 				]
-			},	
+			},	 */
 			
 			// crystal void stamina regen - apply
 			"{{ModId}}_CrystalVoidStaminaRegen": {

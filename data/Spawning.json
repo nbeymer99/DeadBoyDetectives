@@ -15,6 +15,16 @@
 					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_DollHouseSpawns.Setpieces Target 4,5,1,1/24,5,1,1/44,5,1,1/64,5,1,1/4,25,1,1/24,25,1,1/44,25,1,1/64,25,1,1/4,45,1,1/24,45,1,1/44,45,1,1/64,45,1,1/4,65,1,1/24,65,1,1/44,65,1,1/64,65,1,1",
 				]
 			},
+			"{{ModId}}_DollHouseSpawnMonsters": {
+				"Id": "{{ModId}}_DollHouseSpawnMonsters",
+				"Trigger": "Manual",
+				"Condition": true,
+				"HostOnly": true,
+				"MarkActionApplied": false,
+				"Actions": [
+					"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_MiseryWraithSpawnGroup Target 4,5,83,84",
+				]
+			},
 			// cemetery - bones (normal forage handled by data/locations) - not working?
 			"{{ModId}}_CemeteryForage": {
 				"Id": "{{ModId}}_CemeteryForage",
@@ -531,6 +541,51 @@
 				"ForageableExpiresWeekly": true,
 				"ForageableIsTillSpot": true
 			},
+			// dungeon - monsters
+			"{{ModId}}_Spawn.MiseryWraith": {
+				"Type": "Monster",
+				"MonsterType": "Mummy",
+				"MonsterName": "Mummy",
+				"MonsterTextureOverride": "Mods/Textures/{{ModId}}_MiseryWraith",
+				"MonsterDropOverride": [
+					[
+						{
+							"Weight": 0.5,
+							"Value": { 
+								"ItemId": "(O)881", // bone fragment
+								"MinStack": 3,
+								"MaxStack": 9,
+							}
+						},
+						{
+							"Weight": 0.05,
+							"Value": { 
+								"ItemId": "(O){{ModId}}_BloodVial",
+								"MinStack": 1,
+								"MaxStack": 1,
+							}
+						},
+						{
+							"Weight": 0.02,
+							"Value": { 
+								"ItemId": "(O)839", // thorns ring
+								"MinStack": 1,
+								"MaxStack": 1,
+							}
+						},
+						{
+							"Weight": 0.005,
+							"Value": { 
+								"ItemId": "(F)1369", // decorative lantern
+								"MinStack": 1,
+								"MaxStack": 1,
+							}
+						},
+					]
+				]
+			},
+				
+			
 			// dungeon - breakables and loot
 			"{{ModId}}_SpawnBreakable.TallDolls": {
 				"Type": "Breakable",
@@ -852,6 +907,36 @@
 						"Maximum": 6,
 					},
 				]
+			},
+			"{{ModId}}_SingleMiseryWraithSpawnGroup": {
+				"SpawnablesToSpawn": [
+				// misery wraiths
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.MiseryWraith"
+							},
+						],
+						"Minimum": 1,
+						"Maximum": 1,
+					}
+				],
+			},
+			"{{ModId}}_MiseryWraithSpawnGroup": {
+				"SpawnablesToSpawn": [
+				// misery wraiths
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.MiseryWraith"
+							},
+						],
+						"Minimum": 16,
+						"Maximum": 48,
+					}
+				],
 			},
 			"{{ModId}}_DollHouseSpawns.Setpieces": {
 				"SpawnablesToSpawn": [

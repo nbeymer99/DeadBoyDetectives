@@ -16,9 +16,9 @@
 						],
 						"TriggerActionsOnEntry": [
 							"{{ModId}}_DollHouseSetPieces",
-							//"{{ModId}}_EquipCharlesTrinket",
+							"{{ModId}}_EquipCharlesTrinket",
+							"{{ModId}}_DollHouseSpawnMonsters",
 							//"{{ModId}}_DungeonSpawnTreasure",
-							//"{{ModId}}_DungeonSpawnMonsters",
 							//"{{ModId}}_DungeonSpawnBreakables",
 						],
 						"LocationDataEntry": "{{ModId}}_DollHouse",
@@ -35,7 +35,110 @@
 		}
 	},
 	
-	// MMAP dungeon stuff
+	// MMAP dungeon map overrides
+	{
+		"Action": "EditData",
+		"Target": "mushymato.MMAP/QuestionDialogue",
+		"Entries": {
+			"{{ModId}}_DungeonDoors1": {
+				"ResponseEntries": {
+					"Doors1": {
+						"TileActionStopAtFirstSuccess": false,
+						"TileActions": [
+							"mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door1Override",
+							"mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door1Override",
+							"playSound doorClose",
+							"mushymato.MMAP_WrpHere 0 -3 0 false true",
+						],
+						"Actions": [
+							"Spiderbutton.BETAS_DelayedAction spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_SingleMiseryWraithSpawnGroup Here [Spiderbuttons.BETAS_NumberOffset [Spiderbuttons.BETAS_CharacterCoordinate Farmer X] -1],[Spiderbuttons.BETAS_NumberOffset [Spiderbuttons.BETAS_CharacterCoordinate Farmer Y] -4]],1,1 1,"
+						]
+					},
+				}
+			},
+			"{{ModId}}_DungeonDoors2": {
+				"ResponseEntries": {
+					"Doors2": {
+						"TileActionStopAtFirstSuccess": false,
+						"TileActions": [
+							"mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door2Override",
+							"mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door2Override",
+							"playSound doorClose",
+							"mushymato.MMAP_WrpHere 0 -3 0 false true",
+						],
+						"Actions": [
+							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+						]
+					},
+				}
+			},
+			"{{ModId}}_DungeonDoors3": {
+				"ResponseEntries": {
+					"Doors3": {
+						"TileActionStopAtFirstSuccess": false,
+						"TileActions": [
+							"mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door3Override",
+							"mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door3Override",
+							"playSound doorClose",
+							"mushymato.MMAP_WrpHere 0 -3 0 false true",
+						],
+						"Actions": [
+							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+						]
+					},
+				}
+			},
+			"{{ModId}}_DungeonDoorsReturn1": {
+				"ResponseEntries": {
+					"Doors1": {
+						"TileActionStopAtFirstSuccess": false,
+						"TileActions": [
+							// "mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door1Override",
+							//"mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door1Override",
+							"playSound doorClose",
+							"mushymato.MMAP_WrpHere 0 2 0 false true",
+						],
+						"Actions": [
+							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+						]
+					},
+				}
+			},
+			"{{ModId}}_DungeonDoorsReturn2": {
+				"ResponseEntries": {
+					"Doors2": {
+						"TileActionStopAtFirstSuccess": false,
+						"TileActions": [
+							// "mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door2Override",
+							// "mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door2Override",
+							"playSound doorClose",
+							"mushymato.MMAP_WrpHere 0 2 0 false true",
+						],
+						"Actions": [
+							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+						]
+					},
+				}
+			},
+			"{{ModId}}_DungeonDoorsReturn3": {
+				"ResponseEntries": {
+					"Doors3": {
+						"TileActionStopAtFirstSuccess": false,
+						"TileActions": [
+							// "mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door3Override",
+							// "mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door3Override",
+							"playSound doorClose",
+							"mushymato.MMAP_WrpHere 0 2 0 false true",
+						],
+						"Actions": [
+							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+						]
+					},
+				}
+			},
+			
+		}
+	},
 	{
 		"Action": "EditData",
 		"Target": "mushymato.MMAP/MapOverrides",
@@ -44,9 +147,10 @@
 				"Id": "{{ModId}}_Door1Override",
 				"SourceMap": "Maps/{{ModId}}_DungeonDoors1",
 				"TargetRectIsRelative": true,
+				"RemovedById": "{{ModId}}_Door1Override",
 				"TargetRect": {
 					"X": -3,
-					"Y": -5,
+					"Y": -7,
 					"Width": 5,
 					"Height": 5
 				},
@@ -55,9 +159,11 @@
 			"{{ModId}}_Door2Override": {
 				"Id": "{{ModId}}_Door2Override",
 				"SourceMap": "Maps/{{ModId}}_DungeonDoors2",
+				"TargetRectIsRelative": true,
+				"RemovedById": "{{ModId}}_Door2Override",
 				"TargetRect": {
 					"X": -2,
-					"Y": -5,
+					"Y": -7,
 					"Width": 4,
 					"Height": 5
 				},
@@ -66,15 +172,35 @@
 			"{{ModId}}_Door3Override": {
 				"Id": "{{ModId}}_Door3Override",
 				"SourceMap": "Maps/{{ModId}}_DungeonDoors3",
+				"TargetRectIsRelative": true,
+				"RemovedById": "{{ModId}}_Door3Override",
 				"TargetRect": {
 					"X": -2,
-					"Y": -5,
+					"Y": -7,
 					"Width": 5,
 					"Height": 5
 				},
 				"ClearTargetRectOnApply": false
 			},
 		}
+	},
+	
+	// rename mummy to misery wraith when in dungeon
+	{
+		"Action": "EditData",
+		"Target": "Data/Monsters",
+		"Fields": {
+			"Mummy":{
+				"14": "{{i18n:Monsters.MiseryWraith.DisplayName}}",
+			}
+		},
+		"When": { "LocationName": "{{ModId}}_DollHouse"}, // this may need to be spacecore dungeon prefixed
+		"Update": "OnLocationChange"
+	},
+	{
+		"Action": "Load",
+		"Target": "Mods/Textures/{{ModId}}_MiseryWraith",
+		"FromFile": "assets/characters/zzminorCharacters/Wraith.png"
 	},
   ]
 }
