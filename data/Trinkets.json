@@ -33,12 +33,12 @@
 			"{{ModId}}_CharlesFollower": {
 				"EnableCondition": "mushymato.TrinketTinker_ENABLED_TRINKET_COUNT Target All <1",
 				//PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received, LOCATION_NAME {{ModId}}_DollHouse",
-				"EnableFailMessage": "Charles doesn't want to accompany you.",
+				"EnableFailMessage": "\"Down we go, then?\"", // i18n this
 				"MinLevel": 1,
 				"Variants": [
 					{
 						"Texture": "Characters/CharlesRowlandBlackJacket",
-						"TextureSourceRect": {"X": 0, "Y": 0, "Width": 64, "Height": 416, },
+						"TextureSourceRect": { "X": 0, "Y": 0, "Width": 64, "Height": 416, },
 						"Width": 16,
 						"Height": 32,
 						"ShadowScale": 3,
@@ -51,7 +51,6 @@
 				"Motion": {
 					"MotionClass": "Lerp",
 					"DirectionMode": "DRUL",
-					//"LoopMode": "0", // Standard enum
 					"Anchors": [
 						{
 							"Id": "{{ModId}}_MonsterAnchor",
@@ -69,14 +68,13 @@
 					// animation and display
 					"AlwaysMoving": false,
 					"Collision": "1", //Line mode enum
-					//"FrameStart": 0,
 					"FrameLength": 4,
 					"Interval": 175,
 					"Offset": "0,0",
 					"LayerDepth": "1", //Position enum
 					"HideDuringEvents": true,
 					"AnimClips": {
-						"cricketbat.1": {
+						"Anchor.1.2": {
 							"Condition": "true", // is clip allowed to play
 							"FrameStart": 32,
 							"FrameLength": 3,
@@ -98,7 +96,7 @@
 								}
 							],
 						},
-						"cricketbat.3": {
+						"Anchor.1.4": {
 							"Condition": "true", // is clip allowed to play
 							"FrameStart": 32,
 							"FrameLength": 3,
@@ -121,7 +119,37 @@
 							],
 						},
 						// repeat this 4 times
-						"throwbomb.0": {
+						"throwbomb.1": {
+							"Condition": "true", // is clip allowed to play
+							"FrameStart": 0,
+							"FrameLength": 0,
+							"LoopMode": "0", // Standard enum
+							"Flip": "None",
+							"Interval": 120,
+							"PauseMovement": true,
+							"UseExtra": false,
+						},
+						"throwbomb.2": {
+							"Condition": "true", // is clip allowed to play
+							"FrameStart": 0,
+							"FrameLength": 0,
+							"LoopMode": "0", // Standard enum
+							"Flip": "None",
+							"Interval": 120,
+							"PauseMovement": true,
+							"UseExtra": false,
+						},
+						"throwbomb.3": {
+							"Condition": "true", // is clip allowed to play
+							"FrameStart": 0,
+							"FrameLength": 0,
+							"LoopMode": "0", // Standard enum
+							"Flip": "None",
+							"Interval": 120,
+							"PauseMovement": true,
+							"UseExtra": false,
+						},
+						"throwbomb.4": {
 							"Condition": "true", // is clip allowed to play
 							"FrameStart": 0,
 							"FrameLength": 0,

@@ -21,18 +21,8 @@
         },
 		{
             "Action": "Load",
-            "Target": "Maps/{{ModId}}_DungeonDoors1",
-            "FromFile": "assets/maps/DungeonDoors1.tmx"
-        },
-		{
-            "Action": "Load",
-            "Target": "Maps/{{ModId}}_DungeonDoors2",
-            "FromFile": "assets/maps/DungeonDoors2.tmx"
-        },
-		{
-            "Action": "Load",
-            "Target": "Maps/{{ModId}}_DungeonDoors3",
-            "FromFile": "assets/maps/DungeonDoors3.tmx"
+            "Target": "Maps/{{ModId}}_DungeonDoorsOverride",
+            "FromFile": "assets/maps/DungeonDoorsOverride.tmx"
         },
 		{
             "Action": "Load",

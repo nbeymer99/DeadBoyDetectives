@@ -376,6 +376,64 @@
 	{
 		"Name": "MovieNightTitle",
 		"Value": "{{Random: \"Brave Little Sapling\", Mysterium, \"Journey of the Prairie King\", Wumbus, \"Zuzu City Express\", \"Miracle at Coldstar Ranch\", \"Natural Wonders\", \"It Howls in the Rain\"}}",
-	}
+	},
+	{
+      "Name": "DoorsRandA",
+      "Value": "{{Random: Doors1,Doors2,Doors3}}"
+    },
+    {
+      "Name": "DoorsRandB",
+      "Value": ""
+    },
+    {
+      "Name": "DoorsRandB",
+      "Value": "{{Merge: {{DoorsRandB}},Doors1}}",
+      "When": {
+        "DoorsRandA |contains=Doors1": false
+      }
+    },
+    {
+      "Name": "DoorsRandB",
+      "Value": "{{Merge: {{DoorsRandB}},Doors2}}",
+      "When": {
+        "DoorsRandA |contains=Doors2": false
+      }
+    },
+    {
+      "Name": "DoorsRandB",
+      "Value": "{{Merge: {{DoorsRandB}},Doors3}}",
+      "When": {
+        "DoorsRandA |contains=Doors3": false
+      }
+    },
+    {
+      "Name": "DoorsRandB",
+      "Value": "{{Random: {{DoorsRandB}}}}"
+    },
+    {
+      "Name": "DoorsRandC",
+      "Value": ""
+    },
+    {
+      "Name": "DoorsRandC",
+      "Value": "{{Merge: {{DoorsRandC}},Doors1}}",
+      "When": {
+        "DoorsRandA |contains=Doors1": false
+      }
+    },
+    {
+      "Name": "DoorsRandC",
+      "Value": "{{Merge: {{DoorsRandC}},Doors2}}",
+      "When": {
+        "DoorsRandA |contains=Doors2": false
+      }
+    },
+    {
+      "Name": "DoorsRandC",
+      "Value": "{{Merge: {{DoorsRandC}},Doors3}}",
+      "When": {
+        "DoorsRandA |contains=Doors3": false
+      }
+    }
   ]
 }
