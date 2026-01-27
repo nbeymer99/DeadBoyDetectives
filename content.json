@@ -26,6 +26,11 @@
 			"AllowValues": "Lakeside, MountainPass",
 			"Default": "Lakeside",
 			"Section": "Map Patches",
+		},
+		"Case_Countdown": {
+			"AllowValues": "1, 7, 14, 21, 28",
+			"Default": 7,
+			"Description": "How many days before the Dead Boy Detective Agency comes to you with another case to solve."
 		}
 	},
 
@@ -41,7 +46,7 @@
 		{
    		 "LogName": "Blank JSON load", 
         	"Action": "Load",
-        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki, Characters/Dialogue/JennyButcher, Characters/Dialogue/MarriageDialogueJennyButcher, Characters/schedules/JennyButcher, Strings/schedules/JennyButcher, Characters/Dialogue/CatKing, Characters/Dialogue/MarriageDialogueCatKing, Characters/schedules/CatKing, Strings/schedules/CatKing, Characters/Dialogue/MontyFinch, Characters/Dialogue/MarriageDialogueMontyFinch, Characters/schedules/MontyFinch, Strings/schedules/MontyFinch, Characters/Dialogue/EstherFinch, Characters/Dialogue/MarriageDialogueEstherFinch, Characters/schedules/EstherFinch, Strings/schedules/EstherFinch, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Data/Events/{{ModId}}_CrystalVoid, Data/Events/{{ModId}}_Docks, Data/Events/{{ModId}}_Cannery, Data/Events/{{ModId}}_FinchHouseInt, Data/Events/{{ModId}}_FinchAttic, Data/Events/{{ModId}}_LostAndFound, Data/Events/{{ModId}}_Graveyard",
+        	"Target": "Characters/Dialogue/CharlesRowland, Characters/Dialogue/MarriageDialogueCharlesRowland, Characters/schedules/CharlesRowland, Strings/schedules/CharlesRowland, Characters/Dialogue/EdwinPayne, Characters/Dialogue/MarriageDialogueEdwinPayne, Characters/schedules/EdwinPayne, Strings/schedules/EdwinPayne, Characters/Dialogue/CrystalPalace, Characters/Dialogue/MarriageDialogueCrystalPalace, Characters/schedules/CrystalPalace, Strings/schedules/CrystalPalace, Characters/Dialogue/NikoSasaki, Characters/Dialogue/MarriageDialogueNikoSasaki, Characters/schedules/NikoSasaki, Strings/schedules/NikoSasaki, Characters/Dialogue/JennyButcher, Characters/Dialogue/MarriageDialogueJennyButcher, Characters/schedules/JennyButcher, Strings/schedules/JennyButcher, Characters/Dialogue/CatKing, Characters/Dialogue/MarriageDialogueCatKing, Characters/schedules/CatKing, Strings/schedules/CatKing, Characters/Dialogue/MontyFinch, Characters/Dialogue/MarriageDialogueMontyFinch, Characters/schedules/MontyFinch, Strings/schedules/MontyFinch, Characters/Dialogue/EstherFinch, Characters/Dialogue/MarriageDialogueEstherFinch, Characters/schedules/EstherFinch, Strings/schedules/EstherFinch, Data/Events/{{ModId}}_DeadBoyAgency, Data/Events/{{ModId}}_DollHouse, Data/Events/{{ModId}}_Lighthouse, Data/Events/{{ModId}}_TragicMicks, Data/Events/{{ModId}}_TongueAndTail, Data/Events/{{ModId}}_CrystalAndNiko, Data/Events/{{ModId}}_Roof, Data/Events/{{ModId}}_CrystalVoid, Data/Events/{{ModId}}_Docks, Data/Events/{{ModId}}_Cannery, Data/Events/{{ModId}}_FinchHouseInt, Data/Events/{{ModId}}_FinchAttic, Data/Events/{{ModId}}_LostAndFound, Data/Events/{{ModId}}_Graveyard",
         	"FromFile": "assets/blank.json"
 		},
 		
@@ -55,6 +60,10 @@
 		{
 			"Action": "Include",
 			"FromFile": "assets/characters/Charles/charles.json, assets/characters/Edwin/edwin.json, assets/characters/Crystal/crystal.json, assets/characters/Niko/niko.json, assets/characters/Jenny/jenny.json, assets/characters/TCK/catking.json, assets/characters/Monty/monty.json, assets/characters/zzMinorCharacters/esther.json"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "assets/characters/zzMinorCharacters/nightnurse.json"
 		},
 		
 		// Dungeon
@@ -434,6 +443,10 @@
       "When": {
         "DoorsRandA |contains=Doors3": false
       }
-    }
+    },
+	{
+      "Name": "DoorsRandC",
+      "Value": "{{Random: {{DoorsRandC}}}}"
+    },
   ]
 }

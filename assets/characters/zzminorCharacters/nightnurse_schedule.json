@@ -1,0 +1,11 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/{{ModId}}_NightNurse",
+		"Entries": {
+			"spring": "0800 {{ModId}}_LostAndFound 17 5",
+		}
+	},
+  ]
+}

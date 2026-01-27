@@ -392,7 +392,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Buildings" visible="0">
+ <objectgroup id="7" name="Buildings">
   <object id="9" name="TileData" x="176" y="128" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue It's the football Charles is always kicking around."/>
@@ -465,7 +465,7 @@
   </object>
   <object id="35" name="TileData" x="160" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 10 12 handwrittenhello.dbda_LostAndFound"/>
+    <property name="Action" value="spacechase0.SpaceCore_TriggerAction handwrittenhello.dbda_WarpAgencytoLNF"/>
    </properties>
   </object>
  </objectgroup>

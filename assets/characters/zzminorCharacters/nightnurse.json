@@ -1,0 +1,79 @@
+{
+	"Changes": [
+	{
+       	"LogName": "NN Base Portraits",
+       	"Action": "Load",
+       	"Target": "Portraits/{{ModId}}_NightNurse",
+       	"FromFile": "assets/characters/zzminorCharacters/NightNurse.png",
+   	},	
+	{
+        "LogName": "Base Sprites",
+        "Action": "Load",
+        "Target": "Characters/{{ModId}}_NightNurse",
+        "FromFile": "assets/characters/zzminorCharacters/nightnurse_sprites.png",
+   	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_NightNurse": {
+				"DisplayName": "Night Nurse",
+                "Gender": "Female",
+                "Manner": "Rude",
+                "SocialAnxiety": "Neutral",
+                "Optimism": "Negative",
+				"Breather": "true",
+					
+				// Relationships and Social
+				"CanSocialize": false,
+				"Calendar": "HiddenAlways",
+				"SocialTab": "HiddenUntilMet",
+				"IntroductionsQuest": false,
+				
+				"Home": [
+					{
+						"ID": "Default",
+						"Location": "{{ModId}}_LostAndFound",
+						"Tile": { "X": 17, "Y": 5 },
+						"Direction": "down",
+					}
+				],
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"{{ModId}}_NightNurse": "...//...//...//...//...//"
+		}
+	},
+	// include schedules
+	{
+		"LogName": "Night Nurse Schedule",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/nightnurse_schedule.json"
+	},
+	
+	/* // include Strings
+	{
+		"LogName": "EstherFinchStrings",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/esther_Strings.json"
+	},
+	
+	// include animations
+	{
+		"LogName": "EstherFinchAnimations",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/esther_animations.json"
+	},*/
+	
+	// include dialogue
+	{
+		"LogName": "NN Dialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/zzminorCharacters/nightnurse_dialogue.json"
+	}
+  ]
+}

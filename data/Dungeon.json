@@ -34,33 +34,40 @@
 			}
 		}
 	},
-	
+	// tile spawns
+	/* {
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_DungeonDoorsOverride",
+		"MapTiles": [
+			{
+				"Layer": "Paths",
+				"Position": { "X": 25, "Y": 27 },
+				"SetProperties": "spacechase0.SpaceCore/TriggerSpawnGroup {{
+	 */
 	// MMAP dungeon map overrides
 	{
 		"Action": "EditData",
 		"Target": "mushymato.MMAP/QuestionDialogue",
 		"Entries": {
-			"{{ModId}}_DungeonDoors1": {
+			"{{ModId}}_DungeonDoors": {
+				"ResponsePick": "ChooseOneRandom",
 				"ResponseEntries": {
 					"Doors1": {
 						"TileActionStopAtFirstSuccess": false,
+						"Condition": "!mushymato.MMAP_HAS_MAP_OVERRIDE Here {{ModId}}_Door1Override",
 						"TileActions": [
 							"mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door1Override",
 							"mushymato.MMAP_UpdateMapOverride Here + {{ModId}}_Door1Override",
 							"playSound doorClose",
 							"mushymato.MMAP_WrpHere 0 -3 0 false true",
-							"IncrementStat {{ModId}}_DungeonDoors 1"
+							//"IncrementStat {{ModId}}_DungeonDoors 1"
 						],
 						"Actions": [
-							"Spiderbuttons.BETAS_ActionList \"spacechase0.SpaceCore_TriggerSpawnGroup {{ModId}}_SingleMiseryWraithSpawnGroup Here [Spiderbuttons.BETAS_NumberOffset <TILE_X> -1],[Spiderbuttons.BETAS_NumberOffset <TILE_X> -6],1,1\""
+							"spacechase0.SpaceCore_ShowHudMessage \"Current position: <TILE_X>, <TILE_Y>\"",
 						]
 					},
-				}
-			},
-			"{{ModId}}_DungeonDoors2": {
-				"ResponseEntries": {
 					"Doors2": {
-						"Condition": "!mushymato.MMAP_HAS_MAP_OVERRIDE Here {{ModId}}_Door2Override,!SYNCED_RANDOM tick {{ModId}}_DungeonDoors 0.4,SYNCED_RANDOM tick {{ModId}}_DungeonDoors 0.7",
+						"Condition": "!mushymato.MMAP_HAS_MAP_OVERRIDE Here {{ModId}}_Door2Override",
 						"TileActionStopAtFirstSuccess": false,
 						"TileActions": [
 							"mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door2Override",
@@ -69,15 +76,11 @@
 							"mushymato.MMAP_WrpHere 0 -3 0 false true",
 						],
 						"Actions": [
-							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+							"spacechase0.SpaceCore_ShowHudMessage \"Current position: <TILE_X>, <TILE_Y>\"",
 						]
 					},
-				}
-			},
-			"{{ModId}}_DungeonDoors3": {
-				"ResponseEntries": {
 					"Doors3": {
-						"Condition": "!mushymato.MMAP_HAS_MAP_OVERRIDE Here {{ModId}}_Door3Override,!SYNCED_RANDOM tick {{ModId}}_DungeonDoors 0.7",
+						"Condition": "!mushymato.MMAP_HAS_MAP_OVERRIDE Here {{ModId}}_Door3Override",
 						"TileActionStopAtFirstSuccess": false,
 						"TileActions": [
 							"mushymato.MMAP_UpdateMapOverride Here - {{ModId}}_Door3Override",
@@ -86,12 +89,12 @@
 							"mushymato.MMAP_WrpHere 0 -3 0 false true",
 						],
 						"Actions": [
-							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
+							"spacechase0.SpaceCore_ShowHudMessage \"Current position: <TILE_X>, <TILE_Y>\"",
 						]
 					},
 				}
 			},
-			"{{ModId}}_DungeonDoorsReturn1": {
+			"{{ModId}}_DungeonDoorsReturn": {
 				"ResponseEntries": {
 					"Doors1": {
 						"TileActionStopAtFirstSuccess": false,
@@ -105,10 +108,6 @@
 							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
 						]
 					},
-				}
-			},
-			"{{ModId}}_DungeonDoorsReturn2": {
-				"ResponseEntries": {
 					"Doors2": {
 						"TileActionStopAtFirstSuccess": false,
 						"TileActions": [
@@ -121,10 +120,6 @@
 							//"Spiderbuttons.BETAS_TriggerAction {{ModId}}_DungeonDoorSpawnChance",
 						]
 					},
-				}
-			},
-			"{{ModId}}_DungeonDoorsReturn3": {
-				"ResponseEntries": {
 					"Doors3": {
 						"TileActionStopAtFirstSuccess": false,
 						"TileActions": [
@@ -150,17 +145,17 @@
 				"Id": "{{ModId}}_Door1Override",
 				"SourceMap": "Maps/{{ModId}}_DungeonDoorsOverride",
 				"SourceRect": {
-					"X": 1,
+					"X": 2,
 					"Y": 1,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},	
 				"TargetRectIsRelative": true,
 				"RemovedById": "{{ModId}}_Door1OverrideRemove",
 				"TargetRect": {
-					"X": -3,
+					"X": -2,
 					"Y": -7,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},
 				"ClearTargetRectOnApply": false
@@ -190,7 +185,7 @@
 				"SourceRect": {
 					"X": 10,
 					"Y": 1,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},
 				"TargetRectIsRelative": true,
@@ -198,7 +193,7 @@
 				"TargetRect": {
 					"X": -2,
 					"Y": -7,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},
 				"ClearTargetRectOnApply": false
@@ -211,7 +206,7 @@
 				"SourceRect": {
 					"X": 23,
 					"Y": 25,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},	
 				"TargetRectIsRelative": true,
@@ -219,7 +214,7 @@
 				"TargetRect": {
 					"X": -3,
 					"Y": -7,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},
 				"ClearTargetRectOnApply": false
@@ -249,7 +244,7 @@
 				"SourceRect": {
 					"X": 32,
 					"Y": 25,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},
 				"TargetRectIsRelative": true,
@@ -257,7 +252,7 @@
 				"TargetRect": {
 					"X": -2,
 					"Y": -7,
-					"Width": 5,
+					"Width": 4,
 					"Height": 5
 				},
 				"ClearTargetRectOnApply": false

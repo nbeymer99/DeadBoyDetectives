@@ -8,7 +8,7 @@
 				"Id": "{{ModId}}_CharlesFollower",
 				"DisplayName": "Charles",
 				"Description": "Charles is accompanying you in the Doll House.",
-				"Texture": "Characters/CharlesRowlandBlackJacket",
+				"Texture": "Characters/CharlesRowland_BlackJacket",
 				"SheetIndex": 0,
 				"TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
 				"DropsNaturally": false,
@@ -18,7 +18,7 @@
 				"Id": "{{ModId}}_CharlesFollower",
 				"DisplayName": "Edwin",
 				"Description": "Edwin is following you out of the Doll House.",
-				"Texture": "Characters/EdwinPayneHellOutfit",
+				"Texture": "Characters/EdwinPayne_Hell",
 				"SheetIndex": 0,
 				"TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
 				"DropsNaturally": false,
@@ -37,14 +37,14 @@
 				"MinLevel": 1,
 				"Variants": [
 					{
-						"Texture": "Characters/CharlesRowlandBlackJacket",
+						"Texture": "Characters/CharlesRowland_BlackJacket",
 						"TextureSourceRect": { "X": 0, "Y": 0, "Width": 64, "Height": 416, },
 						"Width": 16,
 						"Height": 32,
 						"ShadowScale": 3,
 						"NPC": "CharlesRowland",
 						// "Name": "Charles",
-						"Portrait": "Portraits/CharlesRowlandBlackJacket",
+						"Portrait": "Portraits/CharlesRowland_BlackJacket",
 						"ShowBreathing": true,
 					}
 				],
@@ -56,7 +56,7 @@
 							"Id": "{{ModId}}_MonsterAnchor",
 							"Mode": "1", // monster enum
 							"Range": 1200,
-							"StopRange": 64,
+							"StopRange": 128,
 						},
 						/* {
 							"Id": "{{ModId}}_OwnerAnchor",
@@ -121,8 +121,8 @@
 						// repeat this 4 times
 						"throwbomb.1": {
 							"Condition": "true", // is clip allowed to play
-							"FrameStart": 0,
-							"FrameLength": 0,
+							"FrameStart": 52,
+							"FrameLength": 4,
 							"LoopMode": "0", // Standard enum
 							"Flip": "None",
 							"Interval": 120,
@@ -131,8 +131,8 @@
 						},
 						"throwbomb.2": {
 							"Condition": "true", // is clip allowed to play
-							"FrameStart": 0,
-							"FrameLength": 0,
+							"FrameStart": 56,
+							"FrameLength": 4,
 							"LoopMode": "0", // Standard enum
 							"Flip": "None",
 							"Interval": 120,
@@ -141,8 +141,8 @@
 						},
 						"throwbomb.3": {
 							"Condition": "true", // is clip allowed to play
-							"FrameStart": 0,
-							"FrameLength": 0,
+							"FrameStart": 60,
+							"FrameLength": 4,
 							"LoopMode": "0", // Standard enum
 							"Flip": "None",
 							"Interval": 120,
@@ -151,8 +151,8 @@
 						},
 						"throwbomb.4": {
 							"Condition": "true", // is clip allowed to play
-							"FrameStart": 0,
-							"FrameLength": 0,
+							"FrameStart": 64,
+							"FrameLength": 4,
 							"LoopMode": "0", // Standard enum
 							"Flip": "None",
 							"Interval": 120,

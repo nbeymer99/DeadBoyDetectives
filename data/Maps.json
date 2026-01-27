@@ -279,8 +279,8 @@
 			"Action": "EditMap",
 			"Target": "Maps/{{ModId}}_TNTInterior",
 			"When": {
-			   "HasFlag:hostPlayer": "{{ModId}}_MontyTNT",
-			   "HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
+			   "HasFlag:hostPlayer |contains={{ModId}}_MontyTNT": true,
+			   "HasFlag:hostPlayer |contains={{ModId}}_MontyTransformed": true
 			},
 			"Update": "OnLocationChange",
 			"FromFile": "assets/maps/TNTInterior_Monty.tmx",
@@ -292,6 +292,28 @@
 				"NightTiles": "Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 809 Buildings 27 5 1222 Buildings 28 5 1222 Buildings 27 6 1254 Buildings 28 6 1254 Buildings2 28 7 809 Front 30 15 1347"
 			}
 		},
+			//   got the deets on the dollhouse and can access the dungeon
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_LostAndFound",
+			"When": {
+			   "HasSeenEvent:hostPlayer |contains={{ModId}}_EdwinMissing": true,
+			},
+			"Update": "OnLocationChange",
+			"MapTiles": [
+				{
+					"Remove": true,
+					"Layer": "Buildings",
+					"Position": { "X": 8, "Y": 10 },
+					"SetTilesheet": 1,
+					"SetIndex": 120,
+					"SetProperties": {
+						"Action": "Door"
+					}
+				}
+			]
+		},
+			
 			// cauldron smoke - make TAS
 		{
 			"Action": "EditData",

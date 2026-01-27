@@ -638,6 +638,44 @@
 					]
 				]
 			},
+			"{{ModId}}_Spawn.TreasureChest": {
+				"Type": "LootChest",
+				"LootChestBigCraftableId": "256",
+				"LootChestDrops": [
+					[
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(W)5", // bone sword
+							}
+						},
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(W)32", // femur
+							}
+						},
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(W)60", // ossified blade
+							}
+						},
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(W)16", // carving knife
+							}
+						},
+						{
+							"Weight": 1.0,
+							"Value": {
+								"ItemId": "(W)6", // iron edge
+							}
+						},
+					],
+                ],
+            },	
 			
 			// dungeon - set pieces
 			"{{ModId}}_SpawnSetPieces": {
@@ -907,6 +945,21 @@
 						"Maximum": 6,
 					},
 				]
+			},
+			"{{ModId}}_TreasureChestSpawnGroup": {
+				"SpawnablesToSpawn": [
+				// treasure chest
+					{
+						"SpawnableIds": [
+							{
+								"Weight": 1.0,
+								"Value": "{{ModId}}_Spawn.TreasureChest"
+							},
+						],
+						"Minimum": 1,
+						"Maximum": 1,
+					}
+				],
 			},
 			"{{ModId}}_SingleMiseryWraithSpawnGroup": {
 				"SpawnablesToSpawn": [

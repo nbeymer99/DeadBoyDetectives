@@ -1,12 +1,11 @@
 {
 	"Changes": [
-	
-	// TRIGGER ACTIONS
 	{
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
 			// --- MAIL ---
+			
 			// send mail - DH quest begin
 			"{{ModId}}_DH_HelpRequest": {
 				"Id": "{{ModId}}_DH_HelpRequest",
@@ -16,8 +15,7 @@
 					"AddMail Current {{ModId}}_DH_HelpRequest now", // check players
 					"SetNpcInvisible EdwinPayne 999", // can only be used by host
 				]
-			},
-			
+			},		
 			//send mail - angie quest
 			"{{ModId}}AngieQuestMail": {
 				"Id": "{{ModId}}_AngieQuestMail",
@@ -26,8 +24,7 @@
 				"Actions": [
 					"AddMail Current {{ModId}}_CatchAngie now",
 				]
-			},
-			
+			},		
 			// send joja goodbye mail
 			"{{ModId}}_JojaGoodbyeMail": {
 				"Id": "{{ModId}}_JojaGoodbyeMail",
@@ -36,8 +33,7 @@
 				"Actions": [
 					"AddMail All {{ModId}}_JojaTheatreGoodbye now",
 				]
-			},
-			
+			},	
 			// send edwin 10 heart event invite
 			"{{ModId}}Edwin10hearts": {
 				"Id": "{{ModId}}_EdwinHearts10",
@@ -55,8 +51,7 @@
 				"Actions": [
 					"AddMail Current {{ModId}}_CharlesAmuletInvite now",
 				]
-			},
-			
+			},	
 			// send mail - crystal void invitation
 			"{{ModId}}Crystal10Hearts": {
 				"Id": "{{ModId}}_CrystalHearts10",
@@ -65,8 +60,7 @@
 				"Actions": [
 					"AddMail Current {{ModId}}_CrystalSapling now",
 				]
-			},
-			
+			},		
 			// send niko 10 heart event invite
 			"{{ModId}}Niko10Hearts": {
 				"Id": "{{ModId}}_Niko10Hearts",
@@ -75,8 +69,7 @@
 				"Actions": [
 					"AddMail Current {{ModId}}_NikoHandMirror now",
 				]
-			},
-			
+			},		
 			// send mail - edwin cactus quest mail
 			"{{ModId}}_EdwinCactusMail": {
 				"Id": "{{ModId}}_EdwinCactusMail",
@@ -167,7 +160,6 @@
 					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_DeadBoyAgency 6 18 0"
 				]
 			},
-			
 			// tree warp there
 			"{{ModId}}_TreeWarp": {
 				"Id": "{{ModId}}_TreeWarp",
@@ -176,8 +168,7 @@
 					"spacechase0.SpaceCore_PlaySound leafrustle true",
 					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalVoid 16 14 2"
 				]
-			},
-			
+			},		
 			// tree warp back
 			"{{ModId}}_TreeWarp_Back": {
 				"Id": "{{ModId}}_TreeWarp_Back",
@@ -185,6 +176,25 @@
 				"Actions": [
 					"spacechase0.SpaceCore_PlaySound leafrustle true",
 					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_CrystalAndNiko 37 11 2"
+				]
+			},
+			
+			// warp LNF -> DBDA
+			"{{ModId}}_WarpLNFtoAgency": {
+				"Id": "{{ModId}}_WarpLNFtoAgency",
+				"Trigger": "Manual",
+				"Actions": [
+					"spacechase0.SpaceCore_PlaySound shadowDie true",
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_DeadBoyAgency 10 6 2"
+				]
+			},
+			// warp DBDA -> LNF
+			"{{ModId}}_WarpAgencytoLNF": {
+				"Id": "{{ModId}}_WarpAgencytoLNF",
+				"Trigger": "Manual",
+				"Actions": [
+					"spacechase0.SpaceCore_PlaySound shadowDie true",
+					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_LostAndFound 10 12 2"
 				]
 			},
 			

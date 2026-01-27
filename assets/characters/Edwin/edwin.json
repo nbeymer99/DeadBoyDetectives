@@ -157,7 +157,7 @@
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/EdwinPayneHell",
+		"Target": "Portraits/EdwinPayne_Hell",
 		"FromFile": "assets/characters/Edwin/edwin_portrait_hell.png",
 	},
 		
@@ -185,7 +185,7 @@
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/EdwinPayneHell",
+		"Target": "Characters/EdwinPayne_Hell",
 		"FromFile": "assets/characters/Edwin/edwin_sprite_hell.png",
 	},
 		

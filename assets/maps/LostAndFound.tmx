@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="33">
  <properties>
+  <property name="AmbientLight" value="50 50 50"/>
   <property name="Doors" value="8 10 1 120 12 10 1 120"/>
   <property name="Warp" value="0 13 handwrittenhello.dbda_DeadBoyAgency 9 16"/>
  </properties>
@@ -347,7 +348,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Buildings" visible="0">
+ <objectgroup id="11" name="Buildings">
   <object id="22" name="TileData" x="192" y="160" width="16" height="16">
    <properties>
     <property name="Action" value="Door"/>
@@ -385,7 +386,7 @@
   </object>
   <object id="29" name="TileData" x="160" y="176" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 10 6 handwrittenhello.dbda_DeadBoyAgency"/>
+    <property name="Action" value="spacechase0.SpaceCore_TriggerAction handwrittenhello.dbda_WarpLNFtoAgency"/>
    </properties>
   </object>
   <object id="31" name="TileData" x="80" y="80" width="16" height="16">

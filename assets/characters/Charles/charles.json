@@ -111,8 +111,8 @@
 			"CharlesRowland_OutfitBlackJacket":
 			{
 				"Id": "CharlesRowland_OutfitBlackJacket",
-				"Portrait": "Portraits/CharlesRowlandBlackJacket",
-				"Sprite": "Characters/CharlesRowlandBlackJacket",
+				"Portrait": "Portraits/CharlesRowland_BlackJacket",
+				"Sprite": "Characters/CharlesRowland_BlackJacket",
 				"Indoors": false,
 				"Outdoors": true,
 				"IsIslandAttire": false,
@@ -147,7 +147,7 @@
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CharlesRowlandBlackJacket",
+		"Target": "Portraits/CharlesRowland_BlackJacket",
 		"FromFile": "assets/characters/Charles/Charles_portraits_blackjacket.png",
 	},
 		
@@ -169,7 +169,7 @@
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CharlesRowlandBlackJacket",
+		"Target": "Characters/CharlesRowland_BlackJacket",
 		"FromFile": "assets/characters/Charles/Charles_sprites_blackjacket.png",
 	},
 		
