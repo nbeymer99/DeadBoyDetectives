@@ -65,6 +65,18 @@
 			"Action": "Include",
 			"FromFile": "assets/characters/zzMinorCharacters/nightnurse.json"
 		},
+		{
+			"Action": "Load",
+			"Priority": "Low",
+			"Target": "Characters/Old Mariner",
+			"FromFile": "assets/characters/zzMinorCharacters/Mariner_sprites.png"
+		},
+		{
+			"Action": "Load",
+			"Priority": "Low",
+			"Target": "Portraits/Old Mariner",
+			"FromFile": "assets/characters/zzMinorCharacters/Mariner.png"
+		},
 		
 		// Dungeon
 		{
