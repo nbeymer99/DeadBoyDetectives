@@ -14,12 +14,6 @@
 					"Spiderbuttons.BETAS_RegeneratePathsLayer Mountain 56 0 6 7",
 				]
 			},
-		}
-	},
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
 			"{{ModId}}_TerrainReset_Lakeside2": {
 				"Id": "{{ModId}}_TerrainReset_Lakeside2",
 				"Trigger": "DayStarted",
@@ -82,8 +76,8 @@
 		"LogName": "SVE and ARV compat",
 		"Target": "Maps/Mountain",
 		"When": {
-			"HasMod": "FlashShifter.StardewValleyExpandedCP", 
-			"HasMod": "Himetarts.ARV.CP"
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true, 
+			"HasMod |contains=Himetarts.ARV.CP": true
 		},
 		"FromFile": "assets/maps/Compat/MountainPass_SVE_ARV.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 8 },

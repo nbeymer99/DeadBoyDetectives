@@ -88,8 +88,8 @@
 		"Target": "Maps/Mountain",
 		"PatchMode": "Replace",
 		"When": {
-			"HasMod": "FlashShifter.StardewValleyExpandedCP",
-			"HasMod": "Aimon111.MoreLivelyQuarryOverhaul", 
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasMod |contains=Aimon111.MoreLivelyQuarryOverhaul": true, 
 		},
 		"FromFile": "assets/maps/Compat/MontyHouseExterior_SVE+AQ.tmx",
 		"FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 15 },

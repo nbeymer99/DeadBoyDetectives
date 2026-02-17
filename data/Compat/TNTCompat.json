@@ -14,12 +14,6 @@
 					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 9 62 11 11",
 				]
 			},
-		}
-	},
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
 			"{{ModId}}_TerrainReset_TNTCliff2": {
 				"Id": "{{ModId}}_TerrainReset_TNTCliff2",
 				"Trigger": "DayStarted",
@@ -32,6 +26,7 @@
 			},
 		}
 	},
+	
 	// vanilla
 	{
         "Action": "Load",
