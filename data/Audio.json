@@ -4,12 +4,12 @@
 		"Action": "EditData",
 		"Target": "Data/AudioChanges",
 		"Entries": {
-			"{{ModId}}_DanceofDeath": {
-				"Id": "{{ModId}}_DanceofDeath",
-				"FilePaths": [ "{{AbsoluteFilePath:assets/audio/DanceofDeath.ogg}}" ],
+			"{{ModId}}_SpiderHell": {
+				"Id": "{{ModId}}_SpiderHell",
+				"FilePaths": [ "{{AbsoluteFilePath:assets/audio/SpiderHell.ogg}}" ],
 				"Category": "Music",
 				"StreamedVorbis": true,
-				"Looped": false,
+				"Looped": true,
 				"UseReverb": false,
 			}
 		}

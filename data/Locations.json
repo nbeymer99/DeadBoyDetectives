@@ -402,6 +402,7 @@
 					"X": 5,
 					"Y": 9,
 				},
+				"MusicDefault": "{{ModId}}_SpiderHell",
 			},
 			
 			"{{ModId}}_MountainPass": {
@@ -500,14 +501,5 @@
 			}
 		}
 	},
-	{
-		"Action": "EditData",
-		"Target": "Data/Locations",
-		"Fields": {
-			"{{ModId}}_DollHouse": {
-				"MusicDefault": "{{ModId}}_DanceofDeath",
-			}
-		}
-	}
   ]
 }
