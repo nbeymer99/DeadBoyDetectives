@@ -215,7 +215,7 @@
 				"MarkActionApplied": false,
 				"Actions": [
 					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_LostAndFound 6 6 2",
-					"spacechase0.SpaceCore_ClearSetPiecesFromSpawnable {{ModId}}_DollHouseSpawns.Setpieces Target",
+					"spacechase0.SpaceCore_ClearSetPiecesFromSpawnable {{ModId}}_SpawnSetPieces Here",
 					"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_CharlesFollower",
 					//"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_EdwinFollower",
 					"mushymato.MMAP_UpdateMapOverride Here RemoveAll"

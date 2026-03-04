@@ -405,6 +405,30 @@
 				"MusicDefault": "{{ModId}}_SpiderHell",
 			},
 			
+			"{{ModId}}_DollHouse_ShadowRealm": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_DollHouseBlank_ShadowRealm"
+				},
+				"DisplayName": "Doll House",
+				"DefaultArrivalTile": {
+					"X": 5,
+					"Y": 9,
+				},
+				"MusicDefault": "{{ModId}}_SpiderHell",
+			},
+			
+			"{{ModId}}_SpiderLair": {
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_DollSpiderLair"
+				},
+				"DisplayName": "Doll House",
+				"DefaultArrivalTile": {
+					"X": 8,
+					"Y": 14,
+				},
+				"MusicDefault": "{{ModId}}_SpiderHell",
+			},
+			
 			"{{ModId}}_MountainPass": {
 				"CreateOnLoad": {
 					"MapPath": "Maps/{{ModId}}_MountainPass"

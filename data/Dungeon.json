@@ -7,7 +7,7 @@
 			"{{ModId}}_DollHouse": {
 				"Regions": {
 					"Main": {
-						"LevelRange": { "Begin": 1, "End": 3 },
+						"LevelRange": { "Begin": 1, "End": 1 },
 						"MapPool": [
 							{
 								"Weight": 1.0,
@@ -22,6 +22,40 @@
 							//"{{ModId}}_DungeonSpawnBreakables",
 						],
 						"LocationDataEntry": "{{ModId}}_DollHouse",
+					}
+				},
+				"LadderExitLocation": "{{ModId}}_SpiderLair",
+				"LadderExitTile": "8, 14",
+				"ElevatorExitLocation": "{{ModId}}_SpiderLair",
+				"ElevatorExitTile": "8, 14",
+				"SpawnLadders": false,
+				"SpawnMineshafts": false,
+				"AdditionalTimeMilliseconds": 999999
+			},
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/Dungeons",
+		"Entries": {
+			"{{ModId}}_ShadowRealm": {
+				"Regions": {
+					"Main": {
+						"LevelRange": { "Begin": 1, "End": 1 },
+						"MapPool": [
+							{
+								"Weight": 1.0,
+								"Value": "Maps/{{ModId}}_DollHouseBlank_ShadowRealm"
+							},
+						],
+						"TriggerActionsOnEntry": [
+							"{{ModId}}_DollHouseSetPieces",
+							"{{ModId}}_EquipCharlesTrinket",
+							"{{ModId}}_DollHouseSpawnMonsters",
+							//"{{ModId}}_DungeonSpawnTreasure",
+							//"{{ModId}}_DungeonSpawnBreakables",
+						],
+						"LocationDataEntry": "{{ModId}}_DollHouse_ShadowRealm",
 					}
 				},
 				"LadderExitLocation": "{{ModId}}_LostAndFound",

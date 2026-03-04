@@ -34,11 +34,24 @@
             "Target": "Maps/{{ModId}}_DollHouseBlank",
             "FromFile": "assets/maps/DollHouseBlank.tmx"
         },
-		/* {
+		{
             "Action": "Load",
-            "Target": "Maps/{{ModId}}_DollHouse",
-            "FromFile": "assets/maps/DollHouse.tmx"
-        }, */
+            "Target": "Maps/{{ModId}}_DollHouseBlank_ShadowRealm",
+            "FromFile": "assets/maps/DollHouseBlank.tmx"
+        },
+			// edit shadow realm map to change map properties for dungeon (if you forget why, go to #mmg 3/3/26)
+			{
+				"Action": "EditMap",
+				"Target": "Maps/{{ModId}}_DollHouseBlank_ShadowRealm",
+				"MapProperties": {
+					"spacechase0.SpaceCore_DungeonLadderEntrance": "84 74"
+				}
+			},
+		{
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_DollSpiderLair",
+            "FromFile": "assets/maps/DollSpiderLair.tmx"
+        },
 		{
             "Action": "Load",
             "Target": "Maps/{{ModId}}_Lighthouse",

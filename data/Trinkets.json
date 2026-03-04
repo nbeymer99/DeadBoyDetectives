@@ -15,7 +15,7 @@
 				"CanBeReforged": false,
 			},
 			"{{ModId}}_EdwinFollower": {
-				"Id": "{{ModId}}_CharlesFollower",
+				"Id": "{{ModId}}_EdwinFollower",
 				"DisplayName": "Edwin",
 				"Description": "Edwin is following you out of the Doll House.",
 				"Texture": "Characters/EdwinPayne_Hell",
@@ -33,7 +33,7 @@
 			"{{ModId}}_CharlesFollower": {
 				"EnableCondition": "mushymato.TrinketTinker_ENABLED_TRINKET_COUNT Target All <1",
 				//PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received, LOCATION_NAME {{ModId}}_DollHouse",
-				"EnableFailMessage": "\"Down we go, then?\"", // i18n this
+				"EnableFailMessage": "\"On we go, then?\"", // i18n this
 				"MinLevel": 1,
 				"Variants": [
 					{
