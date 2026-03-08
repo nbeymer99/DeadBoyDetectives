@@ -17,7 +17,7 @@
 						"TriggerActionsOnEntry": [
 							"{{ModId}}_DollHouseSetPieces",
 							"{{ModId}}_EquipCharlesTrinket",
-							"{{ModId}}_DollHouseSpawnMonsters",
+							//"{{ModId}}_DollHouseSpawnMonsters",
 							//"{{ModId}}_DungeonSpawnTreasure",
 							//"{{ModId}}_DungeonSpawnBreakables",
 						],
@@ -51,7 +51,7 @@
 						"TriggerActionsOnEntry": [
 							"{{ModId}}_DollHouseSetPieces",
 							"{{ModId}}_EquipCharlesTrinket",
-							"{{ModId}}_DollHouseSpawnMonsters",
+							//"{{ModId}}_DollHouseSpawnMonsters",
 							//"{{ModId}}_DungeonSpawnTreasure",
 							//"{{ModId}}_DungeonSpawnBreakables",
 						],

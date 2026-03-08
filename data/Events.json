@@ -31,6 +31,9 @@
 			// founder quest - bring case to agency
 			//"{{ModId}}_FQ.Agency/SawEvent {{ModId}}_FQ.Start": "continue/x y/farmer x y z EdwinPayne x y z CharlesRowland x y z CrystalPalace x y z NikoSasaki x y z/addQuest {{ModId}}_FQ.VisitGraveyard/skippable/end",
 			
+			// OM - finding a case
+			"{{ModId}}_OM.GotACase": "continue/8 10/NikoSasaki 3 7 1 CrystalPalace 7 8 2 CharlesRowland 10 6 2 EdwinPayne 4 6 2 farmer 7 15 0/animate CharlesRowland false true 120 16 16 16 17 18 19 20 20 21 22 23 24 16 16/showFrame EdwinPayne 17/showFrame CrystalPalace 20/pause 500/advancedMove farmer false 0 -5/removeQuest {{ModId}}_OM.GotACase/addQuest {{ModId}}_OM.TalkToWizard/skippable/textAboveHead NikoSasaki \"Hi, {{PlayerName}}!\"/proceedPosition farmer/speak EdwinPayne \"Ah, @. If you're here about the pixie infestation in the library--$u\"/speak CharlesRowland \"No need to worry about that, mate. We got it all handled this morning.$h\"//end",
+			
 			// begin dollhouse events
 			"{{ModId}}_EdwinMissing/HostMail {{ModId}}_DH_HelpRequest": "continue/8 10/farmer 1000 1000 0 CharlesRowland 5 8 1 CrystalPalace 6 13 0 {{ModId}}_NightNurse 6 13 1 NikoSasaki 9 9 3/removeQuest {{ModId}}_DH_Intro/addQuest {{ModId}}_VisitLNF/skippable/advancedMove CharlesRowland true 2 0 0 2 -2 0 0 -2/pause 1000/speak NikoSasaki \"Charles, please sit down. You're making me dizzy.$s\"/speak CrystalPalace \"She's right, Charles, we need to stop and think.\"/speak CharlesRowland \"No! Every minute we waste is another minute Edwin has to spend in the literal worst place!$a\"/playSound crystal/warp farmer 6 17/faceDirection {{ModId}}_NightNurse 2 true/faceDirection CrystalPalace 3 true/move farmer 0 -3/speak {{ModId}}_NightNurse \"Just how many hooligans do you allow into your office unannounced? The unprofessionalism!$a\"/faceDirection CrystalPalace speak CrystalPalace \"I invited @ here, Nurse. What else was I supposed to do?$a#$b#Thank god you're here.\"/question null \"#Why is Charles pacing in circles?#You said Edwin is gone?#What do you mean, Nurse? Is someone hurt?\"/speak NikoSasaki \"We were just hanging out like normal, organizing case notes, when something crashed right through the wall!$s\"/speak CrystalPalace /end",
 		}
@@ -211,8 +214,23 @@
 			
 			"leaveCharlesAlone": "/pause 500/friendship CharlesRowland -125/advancedMove farmer false 0 -1 1 0 0 -4/proceedPosition farmer/end",
 			
+			// OM - talk to mermaid
+			// remember to add quest precondition
+			"{{ModID}}_OM.MermaidTalk/Time 0600 1700": "continue/23 10/farmer x y z CrystalPalace x y z NikoSasaki x y z Charles Rowland x y z EdwinPayne x y z/addTemporaryActor {{ModId}}_Mermaid 16 32 1000 1000 right true Character Mermaid/changeMapTile Back2 18 7 279/changeMapTile AlwaysFront 18 6 263/skippable/end",
+			
+			
 			// teens doin dumb shit
 			//"{{ModId}}_teenbeachmovie/Season fall/Time 1900 2600": "continue/93 17/farmer 94 10 2 Sam 91 18 1 Sebastian 92 17 1 Abigail 95 18 3 EdwinPayne -1000 -1000 0 CharlesRowland -999 -999 0/skippable/changeToTemporaryMap {{ModId}}_LighthouseScary/pause 2000/textAboveHead Sam \"...but she was already dead!\"/move farmer 0 6 2/speak Abigail \"Oh, come on. That story wouldn't even scare a *baby*.\"/pause 2000/speak Abigail \"@! you're just in time for our annual scary story bonfire night.\"/speak Sam \"Go on, Abigail, you tell one then.\"/speak Abigail \"Alright. Don't say I didn't warn you!\"/end", 
+		}
+	},
+	
+	// LIGHTHOUSE INTERIOR
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/{{ModId}}_LighthouseInt",
+		"Entries": {
+			// OM - intro
+			"{{ModId}}_OM.Intro": "continue/7 11/farmer 7 15 0 OldMariner 7 11 2/addQuest {{ModId}}_OM.GotACase/skippable/move farmer 0 -2 0/pause 500/emote farmer 20/playSound ghost/jump farmer 6/speak OldMariner \"Ye got my letter, then, did ye? Good.#$b#I've walked the earth for a long time seeking peace...#$b#But I won't find it until I find my love again.\"/question null \"Who is your love?#What happened to you?#Get to the point.\"/speak OldMariner \"Aye, I'm getting there.$a#$b#I was once a young lad, sailing the seas...#$b#The other men, they told tales of monsters of the sea, krakens, sirens, sea witches...#$b#I didn't believe a word until I saw her with my own eyes... my Akoya.\"/emote OldMariner 20/speak OldMariner \"She was the most beautiful thing I'd ever seen.#$b#Maritime life was busy, but every chance I got, I was with her.#$b#We'd talk for hours. Even on shore leave, ye could find me down at the docks, leaning over the edge of a pier.#$b#I planned to marry her... we would make it work.\"/emote OldMariner sad/speak OldMariner \"But disaster struck. There was a storm, a bad one like ye've never seen before.#$b#We were just trying to get the ship home... but she sank off the Emerald Coast.$s#$b#I never saw Akoya again. I've spent years wandering, hoping to see her one last time, to tell her I love her.$s\"/question null \"#I can help!#Will you leave me alone if I help you?\"/speak OldMariner \"Ye will? Yer a true hero, ${lad^lass^matey}$.$h#$b#I'll be here waiting. Even if ye can't find her...\"/pause 400/message \"I should talk to the Dead Boy Detectives about this...\"/end",
 		}
 	},
 	
