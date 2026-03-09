@@ -32,7 +32,7 @@
 		"Entries": {
 			"{{ModId}}_CharlesFollower": {
 				"EnableCondition": "mushymato.TrinketTinker_ENABLED_TRINKET_COUNT Target All <1",
-				//PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received, LOCATION_NAME {{ModId}}_DollHouse",
+				//PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received",
 				"EnableFailMessage": "\"On we go, then?\"", // i18n this
 				"MinLevel": 1,
 				"Variants": [
@@ -67,18 +67,18 @@
 					],
 					// animation and display
 					"AlwaysMoving": false,
-					"Collision": "1", //Line mode enum
+					"Collision": "Line", 
 					"FrameLength": 4,
 					"Interval": 175,
 					"Offset": "0,0",
-					"LayerDepth": "1", //Position enum
+					"LayerDepth": "Position", 
 					"HideDuringEvents": true,
 					"AnimClips": {
-						"Anchor.1.2": {
-							"Condition": "true", // is clip allowed to play
+						"Anchor.Monster": {
+							"Condition": true, // is clip allowed to play
 							"FrameStart": 32,
 							"FrameLength": 3,
-							"LoopMode": "0", // Standard enum
+							"LoopMode": "Standard",
 							"Flip": "None",
 							"Interval": 120,
 							"PauseMovement": true,
@@ -96,11 +96,11 @@
 								}
 							],
 						},
-						"Anchor.1.4": {
-							"Condition": "true", // is clip allowed to play
+						"Anchor.Monster.4": {
+							"Condition": true, // is clip allowed to play
 							"FrameStart": 32,
 							"FrameLength": 3,
-							"LoopMode": "0", // Standard enum
+							"LoopMode": "Standard", 
 							"Flip": "FlipHorizontally",
 							"Interval": 120,
 							"PauseMovement": true,
@@ -120,40 +120,40 @@
 						},
 						// repeat this 4 times
 						"throwbomb.1": {
-							"Condition": "true", // is clip allowed to play
+							"Condition": true, // is clip allowed to play
 							"FrameStart": 52,
 							"FrameLength": 4,
-							"LoopMode": "0", // Standard enum
+							"LoopMode": "Standard", 
 							"Flip": "None",
 							"Interval": 120,
 							"PauseMovement": true,
 							"UseExtra": false,
 						},
 						"throwbomb.2": {
-							"Condition": "true", // is clip allowed to play
+							"Condition": true, // is clip allowed to play
 							"FrameStart": 56,
 							"FrameLength": 4,
-							"LoopMode": "0", // Standard enum
+							"LoopMode": "Standard", 
 							"Flip": "None",
 							"Interval": 120,
 							"PauseMovement": true,
 							"UseExtra": false,
 						},
 						"throwbomb.3": {
-							"Condition": "true", // is clip allowed to play
+							"Condition": true, // is clip allowed to play
 							"FrameStart": 60,
 							"FrameLength": 4,
-							"LoopMode": "0", // Standard enum
+							"LoopMode": "Standard",
 							"Flip": "None",
 							"Interval": 120,
 							"PauseMovement": true,
 							"UseExtra": false,
 						},
 						"throwbomb.4": {
-							"Condition": "true", // is clip allowed to play
+							"Condition": true, // is clip allowed to play
 							"FrameStart": 64,
 							"FrameLength": 4,
-							"LoopMode": "0", // Standard enum
+							"LoopMode": "Standard", 
 							"Flip": "None",
 							"Interval": 120,
 							"PauseMovement": true,
@@ -161,22 +161,32 @@
 						},
 					},
 					"SpeechBubbles": { // i18n all these
-						"{{ModId}}_CharlesSpeechBubble.1": {
-							"Text": "Edwin, {{PlayerName}}, run!",
-							"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_EdwinRescuedFlag",
-						},
-						"{{ModId}}_CharlesSpeechBubble.2": {
+						"{{ModId}}_Combat": {
 							"Text": "I've got this one!",
+							"RandomSpeech": [
+								{
+									"Text": "Edwin, {{PlayerName}}, run!",
+									"Condition": "PLAYER_HAS_SEEN_EVENT Host {{ModId}}_RescueEdwin"
+								},
+								{
+									"Text": "I've got this one!",
+								},
+								{
+									"Text": "Stay down, you ugly bastard!",
+								},
+							]
 						},
-						"{{ModId}}_CharlesSpeechBubble.3": {
-							"Text": "Stay down, you ugly bastard!",
-						},
-						"{{ModId}}_CharlesSpeechBubble.4": {
+						"{{ModId}}_Wandering": {
 							"Text": "Creepy down here, innit?",
-						},
-						"{{ModId}}_CharlesSpeechBubble.3": {
-							"Text": "Edwin's gotta be close, yeah?",
-							"Condition": "!PLAYER_HAS_MAIL Host {{ModId}}_EdwinRescuedFlag",
+							"RandomSpeech": [
+								{
+									"Text": "Creepy down here, innit?",
+								},
+								{
+									"Text": "Edwin's gotta be close, yeah?",
+									"Condition": "!PLAYER_HAS_SEEN_EVENT Host {{ModId}}_RescueEdwin",
+								}
+							]
 						},
 					},
 					"Args": {
@@ -194,10 +204,10 @@
 							"Id": "Attack",
 							"AbilityClass": "Hitscan",
 							"Description": "Attacks enemies with his cricket bat.",
-							"Proc": "Always",
+							"Proc": "Timer",
 							"ProcTimer": 1000,
 							"ProcSound": "clubhit",
-							"ProcOneshotAnim": "cricketbat.1",
+							"ProcOneshotAnim": "Anchor.Monster",
 							"ProcSpeechBubble": "{{ModId}}_CharlesSpeechBubble.2",
 							"IsBomb": false,
 							"Args": {
@@ -219,10 +229,10 @@
 							"Id": "Throw Bomb",
 							"AbilityClass": "Projectile",
 							"Description": "Throws explosives at enemies.",
-							"Proc": "Always",
+							"Proc": "Timer",
 							"ProcTimer": 6000,
 							"ProcSound": "explosion", // use soundboard
-							"ProcOneshotAnim": "throwbomb.0",
+							"ProcOneshotAnim": "throwbomb",
 							"ProcSpeechBubble": "{{ModId}}_CharlesSpeechBubble.1",
 							"IsBomb": true,
 							"Args": {
@@ -242,6 +252,7 @@
 								"IgnoreLocationCollisions": false,
 								"Homing": false,
 								"TreatAsProjectile": null,
+								"ExplodeDamagesFarmer": false,
 								// hitscan args
 								"Min": 20, // come back to this after designing monsters
 								"Max": 100,
@@ -254,11 +265,92 @@
 								"StunTime": 2000,
 								"Hits": 1,
 								"HitsDelay": 0,
-								"ExplodeRadius": 64, // pixels or tiles?
+								"ExplodeRadius": 3, // pixels or tiles?
 							}
 						}
 					],
 				],
+				"Chatter": {
+					"key1": { },
+					"key2": { }
+				}
+			},
+			
+			"{{ModId}}_EdwinFollower": {
+				//"EnableCondition": "mushymato.TrinketTinker_ENABLED_TRINKET_COUNT Target All <1",
+				//PLAYER_HAS_MAIL Current {{ModID}}_RescueEdwinQuestActive received",
+				"EnableFailMessage": "\"Keep quiet and hurry.\"", // i18n this
+				"MinLevel": 1,
+				"Variants": [
+					{
+						"Texture": "Characters/EdwinPayne_Hell",
+						"TextureSourceRect": { "X": 0, "Y": 0, "Width": 64, "Height": 416, },
+						"Width": 16,
+						"Height": 32,
+						"ShadowScale": 3,
+						"NPC": "EdwinPayne",
+						// "Name": "Charles",
+						"Portrait": "Portraits/EdwinPayne_Hell",
+						"ShowBreathing": true,
+					}
+				],
+				"Motion": {
+					"MotionClass": "Lerp",
+					"DirectionMode": "DRUL",
+					"Anchors": [
+						{
+							"Id": "{{ModId}}_OwnerAnchor",
+							"Mode": "Owner",
+							"Range": 600,
+							"StopRange": 300,
+						},
+					],
+					// animation and display
+					"AlwaysMoving": false,
+					"Collision": "Line", 
+					"FrameLength": 4,
+					"Interval": 175,
+					"Offset": "0,0",
+					"LayerDepth": "Position", 
+					"HideDuringEvents": true,
+					"SpeechBubbles": { // i18n all these
+						"{{ModId}}_Combat": {
+							"Text": "I've got this one!",
+							"RandomSpeech": [
+								{
+									"Text": "Edwin, {{PlayerName}}, run!",
+									"Condition": "PLAYER_HAS_SEEN_EVENT Host {{ModId}}_RescueEdwin"
+								},
+								{
+									"Text": "I've got this one!",
+								},
+								{
+									"Text": "Stay down, you ugly bastard!",
+								},
+							]
+						},
+						"{{ModId}}_Wandering": {
+							"Text": "Quickly, now.",
+							"RandomSpeech": [
+								{
+									"Text": "Quickly, now.",
+								},
+								{
+									"Text": "If I only had my notebook...",
+									//"Condition": "!PLAYER_HAS_SEEN_EVENT Host {{ModId}}_RescueEdwin",
+								}
+							]
+						},
+					},
+					"Args": {
+						"Min": 128,
+						"Max": 1280,
+						"Rate": 400,
+						"Pause": 0,
+						"MoveSync": false,
+						"Velocity": -1,
+					},
+				},
 				"Chatter": {
 					"key1": { },
 					"key2": { }
