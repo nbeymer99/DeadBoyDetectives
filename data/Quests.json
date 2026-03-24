@@ -26,7 +26,9 @@
 			// doll house questline
 			"{{ModId}}_DH_Intro": "Basic/Trouble at the Agency/Crystal needs you at the agency ASAP to discuss Edwin's disappearance./Visit the agency.//-1/0/-1/false/0",
 			
-			"{{ModId}}_VisitLNF": "Location/The Lost and Found Department/Edwin has been taken back to the Dollhouse by his former warden. The Night Nurse might know how to get him back./Interact with the mirror she left to travel to the Lost and Found Department./{{ModId}}_LostAndFound//-1/0/-1/false/0",
+			"{{ModId}}_VisitLNF": "Location/The Lost and Found Department/Edwin has been taken back to the Dollhouse by his former warden. The Night Nurse might know how to get him back./Interact with the mirror she left to travel to the Lost and Found Department./{{ModId}}_LostAndFound/-1/0/-1/false/0",
+			
+			"{{ModId}}_KillItWithFire": "Basic/Kill It With Fire/The way out of the Doll House is blocked by Edwin's captor./Kill the horrible monster before it kills you.//-1/0/-1/false/0",
 			
 			// FOUNDER QUESTLINE
 			/* "{{ModID}}_FQ.VisitAgency": "Location/Nightly Noises/Present a case to the Dead Boy Detective Agency./Visit the agency and tell them about what you overheard Sebastian say./{{ModId}}_DeadBoyAgency/-1/0/-1/true",

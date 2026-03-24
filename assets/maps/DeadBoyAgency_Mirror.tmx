@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="37">
+ <properties>
+  <property name="AmbientLight" value="80 80 80"/>
+  <property name="AmbientNightLight" value="130 130 100"/>
+  <property name="DayTiles" value="Front 5 1 469 Front 6 1 469 Front 7 1 469 Front 8 1 469 Front 5 2 469 Front 6 2 469 Front 7 2 469 Front 8 2 469 Front 5 3 501 Front 6 3 501 Front 7 3 501 Front 8 3 501 Front 5 9 1758 Front 5 10 1790 Buildings 5 11 1822 Front 2 1 2734 Front 2 2 2766 Front 11 1 2734 Front 11 2 2766 Front 9 12 2736 Front 9 13 2768"/>
+  <property name="Light" value=""/>
+  <property name="NightTiles" value="Front 5 1 1219 Front 6 1 1219 Front 7 1 1219 Front 8 1 1219 Front 5 2 1219 Front 6 2 1219 Front 7 2 1219 Front 8 2 1219 Front 5 3 1251 Front 6 3 1251 Front 7 3 1251 Front 8 3 1251 Front 5 9 1759 Front 5 10 1791 Buildings 5 11 1823 Front 2 1 2735 Front 2 2 2767 Front 11 1 2735 Front 11 2 2767 Front 9 12 2737 Front 9 13 2769"/>
+  <property name="Warp" value="6 20 CommunityCenter 49 18"/>
+  <property name="WindowLight" value="5 1 2 6 1 2 7 1 2 8 1 2 5 2 2 6 2 2 7 2 2 8 2 2"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="1323">
+   <animation>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1259" duration="250"/>
+    <frame tileid="1325" duration="250"/>
+    <frame tileid="1325" duration="250"/>
+    <frame tileid="1259" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+    <frame tileid="1323" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1324">
+   <animation>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1260" duration="250"/>
+    <frame tileid="1326" duration="250"/>
+    <frame tileid="1326" duration="250"/>
+    <frame tileid="1260" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+    <frame tileid="1324" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1355">
+   <animation>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1291" duration="250"/>
+    <frame tileid="1357" duration="250"/>
+    <frame tileid="1357" duration="250"/>
+    <frame tileid="1291" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+    <frame tileid="1355" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1356">
+   <animation>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1292" duration="250"/>
+    <frame tileid="1358" duration="250"/>
+    <frame tileid="1358" duration="250"/>
+    <frame tileid="1292" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+    <frame tileid="1356" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3489" name="z_furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="handwrittenhello.dbda_furniture.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="6465" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="6529" name="z_lantern" tilewidth="16" tileheight="16" tilecount="36" columns="6">
+  <image source="mapObjects.png" width="96" height="96"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="6" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="1">
+   <animation>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="7" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <animation>
+    <frame tileid="6" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="7">
+   <animation>
+    <frame tileid="7" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="6565" name="LNF" tilewidth="16" tileheight="16" tilecount="80" columns="10">
+  <image source="handwrittenhello.dbda_LNFTiles" width="160" height="128"/>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="3">
+  <data encoding="csv">
+2999,
+0,
+2131
+</data>
+ </layer>
+ <layer id="16" name="Back2" width="1" height="3">
+  <data encoding="csv">
+2205,
+2237,
+6641
+</data>
+ </layer>
+ <layer id="18" name="Back3" width="1" height="3">
+  <data encoding="csv">
+3367,
+6632,
+6642
+</data>
+ </layer>
+ <layer id="22" name="Back4" width="1" height="3">
+  <data encoding="csv">
+6622,
+0,
+0
+</data>
+ </layer>
+ <layer id="20" name="Mirrors" width="1" height="3">
+  <data encoding="csv">
+6622,
+6632,
+6642
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="1" height="3">
+  <data encoding="csv">
+0,
+6631,
+0
+</data>
+ </layer>
+ <layer id="3" name="Buildings2" width="1" height="3">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+6621,
+0,
+0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="1" height="3">
+  <data encoding="csv">
+0,
+0,
+0
+</data>
+ </layer>
+ <layer id="5" name="Front2" width="1" height="3">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+6621,
+0,
+0
+</data>
+ </layer>
+ <layer id="19" name="Front3" width="1" height="3">
+  <data encoding="csv">
+0,
+0,
+0
+</data>
+ </layer>
+ <layer id="15" name="Paths" width="1" height="3">
+  <data encoding="csv">
+0,
+0,
+0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <objectgroup id="21" name="Mirrors">
+  <object id="36" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="IsMirrorBase" value="T"/>
+    <property name="MirrorHeight" value="2"/>
+    <property name="MirrorOffset" value="0 3"/>
+    <property name="MirrorWidth" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Buildings">
+  <object id="35" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="spacechase0.SpaceCore_TriggerAction handwrittenhello.dbda_WarpAgencytoLNF"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Buildings2"/>
+ <objectgroup id="9" name="Front"/>
+ <objectgroup id="13" name="Paths"/>
+ <objectgroup id="10" name="Front2"/>
+</map>

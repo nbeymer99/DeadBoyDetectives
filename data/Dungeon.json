@@ -17,7 +17,7 @@
 						"TriggerActionsOnEntry": [
 							"{{ModId}}_DollHouseSetPieces",
 							"{{ModId}}_EquipCharlesTrinket",
-							//"{{ModId}}_DollHouseSpawnMonsters",
+							"{{ModId}}_DollHouseSpawnMonsters",
 							//"{{ModId}}_DungeonSpawnTreasure",
 							//"{{ModId}}_DungeonSpawnBreakables",
 						],
@@ -51,7 +51,7 @@
 						"TriggerActionsOnEntry": [
 							"{{ModId}}_DollHouseSetPieces",
 							"{{ModId}}_EquipCharlesTrinket",
-							//"{{ModId}}_DollHouseSpawnMonsters",
+							"{{ModId}}_DollHouseSpawnMonsters",
 							//"{{ModId}}_DungeonSpawnTreasure",
 							//"{{ModId}}_DungeonSpawnBreakables",
 						],
@@ -311,5 +311,29 @@
 		"Target": "Mods/Textures/{{ModId}}_MiseryWraith",
 		"FromFile": "assets/characters/zzminorCharacters/Wraith.png"
 	},
+	
+	{
+		"Action": "Load",
+		"Target": "Characters/Monsters/{{ModId}}_DollSpider",
+		"FromFile": "assets/characters/zzminorCharacters/DollSpider.png"
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Monsters",
+		"Entries": {
+			"{{ModId}}_DollSpider": "5000/50/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.1/8/3/.0/true/15/{{ModId}}_DollSpider"
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/Projectiles",
+		"ToArea": {
+			"X": 0,
+			"Y": 48,
+			"Width": 16,
+			"Height": 16
+		},
+		"FromFile": "assets/objects/web.png"
+	}
   ]
 }

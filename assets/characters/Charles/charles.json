@@ -203,57 +203,57 @@
 		"Action": "EditData", 
 		"Target": "Data/MoviesReactions",	 
 		"Entries": {
-				"CharlesRowland": {
+			"CharlesRowland": {
 			"NPCName": "Charles",
-			"Reactions": [
-				{
-					"Tag": "horror",
-					"Response": "love",
-					"Whitelist": [],
-					"SpecialResponses": {
-						"BeforeMovie": {
-							"ResponsePoint": null,
-							"Script": "",
-							"Text": "You reckon Edwin would like this one?",
+				"Reactions": [
+					{
+						"Tag": "horror",
+						"Response": "love",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "You reckon Edwin would like this one?",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Charles seems to be enjoying the special effects.\"",
+								"Text": ""
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "It's been ages since I had a proper scare like that!$h Thanks for taking me, @."
+							}
 						},
-						"DuringMovie": {
-							"ResponsePoint": null,
-							"Script": "message \"Charles seems to be enjoying the special effects.\"",
-							"Text": ""
-						},
-						"AfterMovie": {
-							"ResponsePoint": null,
-							"Script": "",
-							"Text": "It's been ages since I had a proper scare like that!$h Thanks for taking me, @."
-						}
+						"ID": "reaction_0"
 					},
-					"ID": "reaction_0"
-				},
-				
-				{
-					"Tag": "*",
-					"Response": "like",
-					"Whitelist": [],
-					"SpecialResponses": {
-						"BeforeMovie": {
-							"ResponsePoint": null,
-							"Script": "",
-							"Text": "You reckon Edwin would like this one?",
+					
+					{
+						"Tag": "*",
+						"Response": "like",
+						"Whitelist": [],
+						"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "You reckon Edwin would like this one?",
+							},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "message \"Charles seems to be enjoying the special effects.\"",
+								"Text": ""
+							},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+								"Text": "That was brills! Thanks for taking me, @."
+							}
 						},
-						"DuringMovie": {
-							"ResponsePoint": null,
-							"Script": "message \"Charles seems to be enjoying the special effects.\"",
-							"Text": ""
-						},
-						"AfterMovie": {
-							"ResponsePoint": null,
-							"Script": "",
-							"Text": "That was brills! Thanks for taking me, @."
-						}
+						"ID": "reaction_1"
 					},
-					"ID": "reaction_1"
-				},
-			],
+				],
 			},
 		},
 	},

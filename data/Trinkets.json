@@ -76,7 +76,7 @@
 					"AnimClips": {
 						"Anchor.Monster": {
 							"Condition": true, // is clip allowed to play
-							"FrameStart": 32,
+							"FrameStart": 32, // count this differently? 32x32?
 							"FrameLength": 3,
 							"LoopMode": "Standard",
 							"Flip": "None",
@@ -91,14 +91,34 @@
 										"Width": 32,
 										"Height": 32,
 									},
-									"Origin": "0,256",
-									"Interval": 120
+									"Origin": "8,16",
+									//"Interval": 120
+								},
+								{
+									"SourceRect": {
+										"X": 32,
+										"Y": 256,
+										"Width": 32,
+										"Height": 32,
+									},
+									"Origin": "8,16",
+									//"Interval": 120
+								},
+								{
+									"SourceRect": {
+										"X": 0,
+										"Y": 288,
+										"Width": 32,
+										"Height": 32,
+									},
+									"Origin": "8,16",
+									//"Interval": 120
 								}
 							],
 						},
 						"Anchor.Monster.4": {
 							"Condition": true, // is clip allowed to play
-							"FrameStart": 32,
+							"FrameStart": 32, 
 							"FrameLength": 3,
 							"LoopMode": "Standard", 
 							"Flip": "FlipHorizontally",
@@ -113,8 +133,28 @@
 										"Width": 32,
 										"Height": 32,
 									},
-									"Origin": "0,256",
-									"Interval": 120
+									"Origin": "24,16",
+									//"Interval": 120
+								},
+								{
+									"SourceRect": {
+										"X": 32,
+										"Y": 256,
+										"Width": 32,
+										"Height": 32,
+									},
+									"Origin": "24,16",
+									//"Interval": 120
+								},
+								{
+									"SourceRect": {
+										"X": 0,
+										"Y": 288,
+										"Width": 32,
+										"Height": 32,
+									},
+									"Origin": "24,16",
+									//"Interval": 120
 								}
 							],
 						},
@@ -215,7 +255,7 @@
 								"Max": 40,
 								"Range": 80,
 								"FacingDirectionOnly": false,
-								"Knockback": 40, // %
+								"Knockback": 2, // %
 								"Precision": 90,
 								"CritChance": 15,
 								"CritDamage": 2,
@@ -231,7 +271,7 @@
 							"Description": "Throws explosives at enemies.",
 							"Proc": "Timer",
 							"ProcTimer": 6000,
-							"ProcSound": "explosion", // use soundboard
+							"ProcSound": "flameSpellHit", // use soundboard
 							"ProcOneshotAnim": "throwbomb",
 							"ProcSpeechBubble": "{{ModId}}_CharlesSpeechBubble.1",
 							"IsBomb": true,
@@ -258,14 +298,14 @@
 								"Max": 100,
 								"Range": 80,
 								"FacingDirectionOnly": false,
-								"Knockback": 10,
+								"Knockback": 2, // %
 								"Precision": 90,
 								"CritChance": 0,
 								"CritDamage": 0,
 								"StunTime": 2000,
 								"Hits": 1,
 								"HitsDelay": 0,
-								"ExplodeRadius": 3, // pixels or tiles?
+								"ExplodeRadius": 3, // in tiles
 							}
 						}
 					],
