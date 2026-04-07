@@ -27,6 +27,11 @@
 			"Default": "Lakeside",
 			"Section": "Map Patches",
 		},
+		"CommunityCenter_Elevator": {
+			"AllowValues": "AutoDetect, Left, Right",
+			"Default": "AutoDetect",
+			"Section": "Map Patches",
+		},
 		"Case_Countdown": {
 			"AllowValues": "1, 7, 14, 21, 28",
 			"Default": 7,
@@ -293,6 +298,20 @@
 			"FromFile": "data/Compat/FinchHouseAlternate.json",
 			"When": {
 				"FinchHouse_Location": "MountainPass",
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Compat/CommunityCenterElevatorAlt.json",
+			"When": { // compat
+				"Query: ({{CommunityCenter_Elevator |contains=AutoDetect}} AND {{HasMod |contains=Lnh.CommunityCenterExpanded}}) OR {{CommunityCenter_Elevator |contains=Left}}": true,
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/Compat/CommunityCenterElevator.json",
+			"When": { // default
+				"Query: ({{CommunityCenter_Elevator |contains=AutoDetect}} AND NOT {{HasMod |contains=Lnh.CommunityCenterExpanded}}) OR {{CommunityCenter_Elevator |contains=Right}}": true,
 			}
 		},
     ],
