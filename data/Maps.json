@@ -224,30 +224,6 @@
 		},
 			
 		//  VANILLA MAP PATCHES
-			// CC normal
-		{
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Ruins",
-			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
-			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
-			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
-		},
-			// CC post-completion
-		{
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Refurbished",
-			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
-			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
-			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
-		},
-			// CC joja route
-		{
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Joja",
-			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
-			"FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 6 },
-			"ToArea": { "X": 45, "Y": 14, "Width": 7, "Height": 6 }
-		},
 			// entrance to lighthouse beach
 		{
 			"Action": "EditMap",

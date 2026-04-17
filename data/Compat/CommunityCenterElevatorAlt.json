@@ -1,0 +1,67 @@
+{
+    "Changes": [
+		// COMPAT
+			// CC normal
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Ruins",
+			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
+			"PatchMode": "ReplaceByLayer",
+			"FromArea": { "X": 0, "Y": 1, "Width": 7, "Height": 5 },
+			"ToArea": { "X": 0, "Y": 14, "Width": 7, "Height": 5 },
+		},
+			// CC post-completion
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Refurbished",
+			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
+			"PatchMode": "ReplaceByLayer",
+			"FromArea": { "X": 0, "Y": 1, "Width": 7, "Height": 5 },
+			"ToArea": { "X": 0, "Y": 14, "Width": 7, "Height": 5 },
+		},
+			// CC joja route
+		{
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Joja",
+			"FromFile": "assets/maps/CommunityCenter_RuinsRedux.tmx",
+			"PatchMode": "ReplaceByLayer",
+			"FromArea": { "X": 0, "Y": 1, "Width": 7, "Height": 5 },
+			"ToArea": { "X": 0, "Y": 14, "Width": 7, "Height": 5 },
+		},
+			// Unborking of tiles at top of area
+		{
+			"Action": "EditMap",
+			"Target":"Maps/CommunityCenter_Ruins, Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Joja",
+			"MapTiles": [
+				{
+					"Position":{"X": 0, "Y": 13},
+					"Layer": "Front",
+					"SetIndex": "64"
+				},
+				{
+					"Position":{"X": 1, "Y": 13},
+					"Layer": "Front",
+					"SetIndex": "1286"
+				},
+				{
+					"Position":{"X": 2, "Y": 13},
+					"Layer": "Front",
+					"SetIndex": "1286"
+				},
+				{
+					"Position":{"X": 3, "Y": 13},
+					"Layer": "Front",
+					"SetIndex": "163"
+				}
+			]
+		},
+			// Fixes warp DeadBoyAgency -> CommunityCenter
+		{
+			"Action": "EditMap",
+			"Target":"Maps/{{ModId}}_DeadBoyAgency",
+            "AddWarps": [
+                "6 20 CommunityCenter 5 17"
+            ]
+		},
+	]
+}

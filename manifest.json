@@ -1,7 +1,7 @@
 {
     "Name": "Dead Boy Detectives",
     "Author": "handwrittenhello",
-    "Version": "2.0.0_beta",
+    "Version": "2.0.0-beta",
     "Description": "An expansion exploring the supernatural side of Pelican Town, with ghosts, shapeshifters, and more.",
     "UniqueID": "handwrittenhello.dbda",
     "UpdateKeys": [ "Nexus:31888" ],
