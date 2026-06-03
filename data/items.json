@@ -129,7 +129,7 @@
 				"Price": "2500000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 0,
-				"ContextTags": [ "experimental_planter_banned" ]
+				"ContextTags": [ "experimental_planter_banned", "seedmaker_banned" ]
 			},
 
 			
