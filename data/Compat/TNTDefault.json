@@ -10,8 +10,8 @@
 				"Condition": true,
 				"MarkActionApplied": false,
 				"Actions": [
-					"Spiderbuttons.BETAS_ClearTerrainFeatures Town All 9 62 20 72",
-					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 9 62 12 11",
+					"Spiderbuttons.BETAS_ClearTerrainFeatures Town All 9 62 20 73",
+					"Spiderbuttons.BETAS_RegeneratePathsLayer Town 9 62 12 12",
 				]
 			},
 			"{{ModId}}_TerrainReset_TNT2": {
