@@ -115,7 +115,10 @@
 				"Price": "1500000",
 				"Texture": "Mods/{{ModId}}/itemsAndFurniture",
 				"SpriteIndex": 1,
-				"ContextTags": [ "seedmaker_banned" ],
+				"ContextTags": [ 
+					"seedmaker_banned", 
+					"color_red" 
+				],
 				"ExcludeFromShippingCollection": true,
 			},
 
