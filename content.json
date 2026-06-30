@@ -276,14 +276,14 @@
 			"Action": "Include",
 			"FromFile": "data/Compat/TNTCompat.json",
 			"When": { // compat
-				"Query: ({{TNT_Location |contains=AutoDetect}} AND {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=Cliffside}}": true,
+				"Query: ({{TNT_Location |contains=AutoDetect}} AND {{HasMod |contains=FoodTruck.8BitAlien, ichortower.NCK}}) OR {{TNT_Location |contains=Cliffside}}": true,
 			}
 		},
 		{
 			"Action": "Include",
 			"FromFile": "data/Compat/TNTDefault.json",
 			"When": { // default
-				"Query: ({{TNT_Location |contains=AutoDetect}} AND NOT {{HasMod |contains=FoodTruck.8BitAlien}}) OR {{TNT_Location |contains=TownSquare}}": true,
+				"Query: ({{TNT_Location |contains=AutoDetect}} AND NOT {{HasMod |contains=FoodTruck.8BitAlien, ichortower.NCK}}) OR {{TNT_Location |contains=TownSquare}}": true,
 			}
 		},
 		{
