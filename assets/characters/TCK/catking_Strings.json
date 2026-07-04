@@ -3,7 +3,7 @@
 	{
 		
 		"Action": "EditData",
-		"Target": "Strings/schedules/CatKing",
+		"Target": "Strings/schedules/{{ModId}}_CatKing",
 		"Entries": 
         {
             "Ennui.000": "{{i18n:catking_strings.Ennui.000}}",

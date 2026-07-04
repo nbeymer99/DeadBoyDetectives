@@ -3,13 +3,13 @@
 		
 	{
 		"Action": "Load",
-		"Target": "Portraits/CrystalPalace",
+		"Target": "Portraits/{{ModId}}_CrystalPalace",
 		"FromFile": "assets/characters/Crystal/crystal_portrait.png",
 	},	
 	
 	{
 		"Action": "Load",
-		"Target": "Characters/CrystalPalace",
+		"Target": "Characters/{{ModId}}_CrystalPalace",
 		"FromFile": "assets/characters/Crystal/crystal_sprites.png",
 	},
 		
@@ -18,10 +18,11 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "CrystalPalace": {
+            "{{ModId}}_CrystalPalace": {
 				
 				// Basic Info
                 "DisplayName": "Crystal",
+				"FormerCharacterNames": [ "CrystalPalace" ],
                 "BirthSeason": "summer",
                 "BirthDay": 2,
                 "HomeRegion": "Town",
@@ -39,10 +40,10 @@
 				"Calendar": "HiddenUntilMet",
 				
 				"FriendsAndFamily": {
-                    "EdwinPayne": "",
-					"CharlesRowland": "",
-					"NikoSasaki": "",
-					"JennyButcher": "",
+                    "{{ModId}}_EdwinPayne": "",
+					"{{ModId}}_CharlesRowland": "",
+					"{{ModId}}_NikoSasaki": "",
+					"{{ModId}}_JennyButcher": "",
                 },
 					
 				"DumpsterDiveFriendshipEffect": 0,
@@ -94,7 +95,7 @@
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
 			// changes post 1.3.1: aquamarine -> amethyst, added ghost crystal and crystal fruit to loves
-			"CrystalPalace": "{{i18n: CrystalPalace.love}}/66 348 342 651 611 253 395 561/{{i18n: CrystalPalace.like}}/206 635 595 94 118 414/{{i18n: CrystalPalace.dislike}}/422 815 614 404 420 281 257/{{i18n: CrystalPalace.hate}}/346 148 149 205 251 124/{{i18n: CrystalPalace.neutral}}/"
+			"{{ModId}}_CrystalPalace": "{{i18n: CrystalPalace.love}}/66 348 342 651 611 253 395 561/{{i18n: CrystalPalace.like}}/206 635 595 94 118 414/{{i18n: CrystalPalace.dislike}}/422 815 614 404 420 281 257/{{i18n: CrystalPalace.hate}}/346 148 149 205 251 124/{{i18n: CrystalPalace.neutral}}/"
 		}
 	},
 	
@@ -104,7 +105,7 @@
 		"Action": "EditData", 
 		"Target": "Data/MoviesReactions",	 
 		"Entries": {
-				"CrystalPalace": {
+				"{{ModId}}_CrystalPalace": {
 			"NPCName": "Crystal",
 			"Reactions": [
 				{
@@ -171,7 +172,7 @@
 		"Action": "EditData",
 		"Target": "Data/ConcessionsTastes",
 		"Entries": {
-			"Name": "CrystalPalace",
+			"Name": "{{ModId}}_CrystalPalace",
 			"LovedTags": [
 				"Ice Cream Sandwich",
 				"Popcorn",

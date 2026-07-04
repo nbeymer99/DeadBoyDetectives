@@ -13,8 +13,97 @@
 			"{{ModId}}_Map.002": "{{i18n:StringsFromMaps.{{ModId}}_Map.002}}",
 			"{{ModId}}_Map.003": "{{i18n:StringsFromMaps.{{ModId}}_Map.003}}",
 			"{{ModId}}_Map.004": "{{i18n:StringsFromMaps.{{ModId}}_Map.004}}",
-			"Mountain.1": "{{i18n:StringsFromMaps.Mountain.1}}"
+			"Mountain.1": "{{i18n:StringsFromMaps.Mountain.1}}",
+			
+			// new as of 4/10/2026
+			
+			"{{ModId}}_LockedDoor": "{{i18n:LockedDoor}}",
+			
+			// backpack (TBA)
+			
+			// cannery - done
+			"{{ModId}}_Cannery.1": "{{i18n:Cannery.1}}",
+			"{{ModId}}_Cannery.2": "{{i18n:Cannery.2}}",
+			"{{ModId}}_Cannery.3": "{{i18n:Cannery.3}}",
+			"{{ModId}}_Cannery.4": "{{i18n:Cannery.4}}",
+			"{{ModId}}_Cannery.5": "{{i18n:Cannery.5}}",
+			"{{ModId}}_Cannery.6": "{{i18n:Cannery.6}}",
+			"{{ModId}}_Cannery.7": "{{i18n:Cannery.7}}",
+			"{{ModId}}_Cannery.8": "{{i18n:Cannery.8}}",
+			
+			// crystal niko rooms - done
+			"{{ModId}}_CNRooms.1": "{{i18n:CNRooms.1}}",
+			"{{ModId}}_CNRooms.2": "{{i18n:CNRooms.2}}",
+			"{{ModId}}_CNRooms.3": "{{i18n:CNRooms.3}}",
+			"{{ModId}}_CNRooms.4": "{{i18n:CNRooms.4}}",
+			"{{ModId}}_CNRooms.5": "{{i18n:CNRooms.5}}",
+			"{{ModId}}_CNRooms.6": "{{i18n:CNRooms.6}}",
+			"{{ModId}}_CNRooms.7": "{{i18n:CNRooms.7}}",
+			"{{ModId}}_CNRooms.8": "{{i18n:CNRooms.8}}",
+			"{{ModId}}_CNRooms.9": "{{i18n:CNRooms.9}}",
+			"{{ModId}}_CNRooms.10": "{{i18n:CNRooms.10}}",
+			"{{ModId}}_CNRooms.11": "{{i18n:CNRooms.11}}",
+			"{{ModId}}_CNRooms.12": "{{i18n:CNRooms.12}}",
+			"{{ModId}}_CNRooms.13": "{{i18n:CNRooms.13}}",
+			"{{ModId}}_CNRooms.14": "{{i18n:CNRooms.14}}",
+			"{{ModId}}_CNRooms.15": "{{i18n:CNRooms.15}}",
+			"{{ModId}}_CNRooms.16": "{{i18n:CNRooms.16}}",
+			
+			// dead boy detective agency - done
+			"{{ModId}}_DBDA.1": "{{i18n:DBDA.1}}",
+			"{{ModId}}_DBDA.2": "{{i18n:DBDA.2}}",
+			"{{ModId}}_DBDA.3": "{{i18n:DBDA.3}}",
+			"{{ModId}}_DBDA.4": "{{i18n:DBDA.4}}",
+			"{{ModId}}_DBDA.5": "{{i18n:DBDA.5}}",
+			
+			// finch house - interior - done
+			"{{ModId}}_FinchInt.1": "{{i18n:FinchInt.1}}",
+			"{{ModId}}_FinchInt.2": "{{i18n:FinchInt.2}}",
+			"{{ModId}}_FinchInt.3": "{{i18n:FinchInt.3}}",
+			"{{ModId}}_FinchInt.4": "{{i18n:FinchInt.4}}",
+			"{{ModId}}_FinchInt.5": "{{i18n:FinchInt.5}}",
+			"{{ModId}}_FinchInt.6": "{{i18n:FinchInt.6}}",
+			"{{ModId}}_FinchInt.7": "{{i18n:FinchInt.7}}",
+			"{{ModId}}_FinchInt.8": "{{i18n:FinchInt.8}}",
+			"{{ModId}}_FinchInt.9": "{{i18n:FinchInt.9}}",
+			"{{ModId}}_FinchInt.10": "{{i18n:FinchInt.10}}",
+			"{{ModId}}_FinchInt.11": "{{i18n:FinchInt.11}}",
+			"{{ModId}}_FinchInt.12": "{{i18n:FinchInt.12}}",
+			"{{ModId}}_FinchInt.13": "{{i18n:FinchInt.13}}",
+			"{{ModId}}_FinchInt.14": "{{i18n:FinchInt.14}}",
+			
+			// finch house - exterior - done
+			"{{ModId}}_FinchExt.1": "{{i18n:FinchExt.1}}",
+			"{{ModId}}_FinchExt.2": "{{i18n:FinchExt.2}}",
+			"{{ModId}}_FinchExt.3": "{{i18n:FinchExt.3}} >",
+			
+			// lighthouse - done
+			"{{ModId}}_LighthouseTelescope": "{{i18n:LighthouseTelescope}}",
+		
+			// LNF - done
+			"{{ModId}}_LNF.1": "{{i18n:LNF.1}}",
+			"{{ModId}}_LNF.2": "{{i18n:LNF.2}}",
+			"{{ModId}}_LNF.3": "{{i18n:LNF.3}}",
+	
+			// TNT - interior - done
+			"{{ModId}}_TNTInt.1": "{{i18n:TNTInt.1}}",
+			"{{ModId}}_TNTInt.2": "{{i18n:TNTInt.2}}",
+			"{{ModId}}_TNTInt.3": "{{i18n:TNTInt.3}}",
+			"{{ModId}}_TNTInt.4": "{{i18n:TNTInt.4}}",
+			"{{ModId}}_TNTInt.5": "{{i18n:TNTInt.5}}",
+			"{{ModId}}_TNTInt.6": "{{i18n:TNTInt.6}}",
+			"{{ModId}}_TNTInt.7": "{{i18n:TNTInt.7}}",
+			"{{ModId}}_TNTInt.8": "{{i18n:TNTInt.8}}",
+			
+			// tragic mick's - done
+			"{{ModId}}_TM.1": "{{i18n:TM.1}}",
+			"{{ModId}}_TM.2": "{{i18n:TM.2}}",
+			"{{ModId}}_TM.3": "{{i18n:TM.3}}",
+			"{{ModId}}_TM.4": "{{i18n:TM.4}}",
+			"{{ModId}}_TM.5": "{{i18n:TM.5}}",
+			"{{ModId}}_TM.6": "{{i18n:TM.6}}",
+			
 		}
 	},
-	]
+  ]
 }

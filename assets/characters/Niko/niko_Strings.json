@@ -3,7 +3,7 @@
 	{
 		
 		"Action": "EditData",
-		"Target": "Strings/schedules/NikoSasaki",
+		"Target": "Strings/schedules/{{ModId}}_NikoSasaki",
 		"Entries": 
         {
             "Agency.000": "{{i18n:niko_strings.Agency.000}}",

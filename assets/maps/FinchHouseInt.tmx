@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="31" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="50">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="31" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="65">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="AmbientNightLight" value="130 130 100"/>
@@ -312,25 +312,10 @@
  </layer>
  <objectgroup id="8" name="Back"/>
  <objectgroup id="9" name="Back2"/>
- <objectgroup id="10" name="Buildings" visible="0">
+ <objectgroup id="10" name="Buildings">
   <object id="27" name="TileData" x="96" y="352" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue There are a bunch of crumpled up letters... addressed to Edwin."/>
-   </properties>
-  </object>
-  <object id="30" name="TileData" x="96" y="320" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;The Stars and You: A Guide to Find Your Astrology Truth&quot;"/>
-   </properties>
-  </object>
-  <object id="31" name="TileData" x="80" y="320" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;Calculating Birth Charts For Dummies&quot;"/>
-   </properties>
-  </object>
-  <object id="32" name="TileData" x="48" y="432" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue It's a half-written letter that looks like it's been smudged with drops of water, making it illegible."/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.1"/>
    </properties>
   </object>
   <object id="34" name="TileData" x="16" y="400" width="16" height="16">
@@ -343,74 +328,84 @@
     <property name="Action" value="playSound crow"/>
    </properties>
   </object>
-  <object id="36" name="TileData" x="48" y="320" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange-smelling goop fills the jar by the bed."/>
-   </properties>
-  </object>
-  <object id="37" name="TileData" x="160" y="432" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue The sewing machine has a wickedly sharp needle. Ouch!"/>
-   </properties>
-  </object>
-  <object id="38" name="TileData" x="272" y="400" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Whatever sludge is brewing in here is giving off an incredibly noxious gas."/>
-   </properties>
-  </object>
-  <object id="39" name="TileData" x="336" y="400" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue A birdcage, just like the one in the bedroom."/>
-   </properties>
-  </object>
-  <object id="40" name="TileData" x="352" y="400" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue A birdcage, just like the one in the bedroom."/>
-   </properties>
-  </object>
-  <object id="41" name="TileData" x="352" y="336" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue You think you hear hissing coming from inside..."/>
-   </properties>
-  </object>
   <object id="42" name="TileData" x="272" y="336" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue There are all sorts of strange vials and jars in here, most of them full of unidentifiable substances."/>
    </properties>
   </object>
-  <object id="43" name="TileData" x="256" y="336" width="16" height="16">
+  <object id="50" name="TileData" x="96" y="320" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue There are all sorts of strange vials and jars in here, most of them full of unidentifiable substances."/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.2"/>
    </properties>
   </object>
-  <object id="44" name="TileData" x="304" y="336" width="16" height="16">
+  <object id="51" name="TileData" x="80" y="320" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue There are all sorts of strange vials and jars in here, most of them full of unidentifiable substances."/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.3"/>
    </properties>
   </object>
-  <object id="45" name="TileData" x="176" y="336" width="16" height="16">
+  <object id="52" name="TileData" x="48" y="432" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;You Seem Familiar: Witches and their Companions&quot;"/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.4"/>
    </properties>
   </object>
-  <object id="46" name="TileData" x="160" y="304" width="16" height="16">
+  <object id="53" name="TileData" x="48" y="320" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Top Ten Secrets to Looking Eternally Young&quot;"/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.5"/>
    </properties>
   </object>
-  <object id="47" name="TileData" x="144" y="288" width="16" height="16">
+  <object id="54" name="TileData" x="144" y="432" width="32" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Elementals in the Modern World&quot;"/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.6"/>
    </properties>
   </object>
-  <object id="48" name="TileData" x="192" y="336" width="16" height="16">
+  <object id="55" name="TileData" x="272" y="400" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue &quot;Drawn and Quartered: Four Illustrated Chapters on Medieval Torture&quot;"/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.7"/>
    </properties>
   </object>
-  <object id="49" name="TileData" x="208" y="288" width="16" height="16">
+  <object id="56" name="TileData" x="336" y="400" width="32" height="16">
    <properties>
-    <property name="Action" value="Dialogue It's locked..."/>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.8"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="352" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.9"/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="304" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.10"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="256" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.10"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="176" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.11"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="160" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.12"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="144" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.13"/>
+   </properties>
+  </object>
+  <object id="63" name="TileData" x="192" y="336" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_FinchInt.14"/>
+   </properties>
+  </object>
+  <object id="64" name="TileData" x="208" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_LockedDoor"/>
    </properties>
   </object>
  </objectgroup>

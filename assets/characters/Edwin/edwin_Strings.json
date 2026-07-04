@@ -3,7 +3,7 @@
 	{
 		"LogName": "EdwinStrings",
 		"Action": "EditData",
-		"Target": "Strings/Schedules/EdwinPayne",
+		"Target": "Strings/Schedules/{{ModId}}_EdwinPayne",
 		"Entries": 
         {
             "RuneCircle.000": "{{i18n:edwin_strings.RuneCircle.000}}",

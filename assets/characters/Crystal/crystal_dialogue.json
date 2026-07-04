@@ -3,7 +3,7 @@
 	{
         "LogName": "Crystal Dialogue",
         "Action": "EditData",
-        "Target": "Characters/Dialogue/CrystalPalace",
+        "Target": "Characters/Dialogue/{{ModId}}_CrystalPalace",
 		"Entries": {
 			"Introduction": "{{i18n:crystal_dialogue.Introduction}}",
 			"cc_Begin": "{{i18n:crystal_dialogue.cc_Begin}}",

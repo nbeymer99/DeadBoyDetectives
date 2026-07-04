@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="14" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="70">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="14" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="79">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="Light" value="7 13 4 11 13 4 3 18 5 5 1 4 7 20 4 9 20 4 7 23 4 9 23 4 2 9 4 2 11 4 2 13 4"/>
@@ -239,37 +239,7 @@
   </object>
   <object id="4" name="TileData" x="64" y="176" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Mick doesn't want you back here."/>
-   </properties>
-  </object>
-  <object id="5" name="TileData" x="16" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue It's playing recordings of whales from the deep sea."/>
-   </properties>
-  </object>
-  <object id="6" name="TileData" x="112" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Some of these books look hundreds of years old."/>
-   </properties>
-  </object>
-  <object id="49" name="TileData" x="128" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Some of these books look hundreds of years old."/>
-   </properties>
-  </object>
-  <object id="12" name="TileData" x="160" y="224" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="26" name="TileData" x="32" y="224" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;The Old Man and the Sea&quot;"/>
-   </properties>
-  </object>
-  <object id="27" name="TileData" x="96" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;Animal Transformations for Dummies&quot;"/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.1"/>
    </properties>
   </object>
   <object id="28" name="TileData" x="64" y="208" width="16" height="16">
@@ -277,94 +247,49 @@
     <property name="Action" value="Spiderbuttons.BETAS_DialogueBox TragicMick &quot;Ayup, I might have what you need.&quot; Portraits/TragicMick &quot;Tragic Mick&quot;"/>
    </properties>
   </object>
-  <object id="50" name="TileData" x="144" y="64" width="16" height="16">
+  <object id="70" name="TileData" x="16" y="304" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Some of these books look hundreds of years old."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.2"/>
    </properties>
   </object>
-  <object id="51" name="TileData" x="160" y="64" width="16" height="16">
+  <object id="71" name="TileData" x="112" y="64" width="80" height="16">
    <properties>
-    <property name="Action" value="Dialogue Some of these books look hundreds of years old."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.3"/>
    </properties>
   </object>
-  <object id="52" name="TileData" x="176" y="64" width="16" height="16">
+  <object id="72" name="TileData" x="80" y="352" width="32" height="32">
    <properties>
-    <property name="Action" value="Dialogue Some of these books look hundreds of years old."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.4"/>
    </properties>
   </object>
-  <object id="54" name="TileData" x="176" y="224" width="16" height="16">
+  <object id="73" name="TileData" x="160" y="352" width="32" height="32">
    <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.4"/>
    </properties>
   </object>
-  <object id="55" name="TileData" x="192" y="224" width="16" height="16">
+  <object id="74" name="TileData" x="160" y="224" width="48" height="32">
    <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.4"/>
    </properties>
   </object>
-  <object id="56" name="TileData" x="160" y="240" width="16" height="16">
+  <object id="75" name="TileData" x="160" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.4"/>
    </properties>
   </object>
-  <object id="57" name="TileData" x="176" y="240" width="16" height="16">
+  <object id="76" name="TileData" x="192" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.4"/>
    </properties>
   </object>
-  <object id="58" name="TileData" x="192" y="240" width="16" height="16">
+  <object id="77" name="TileData" x="32" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.5"/>
    </properties>
   </object>
-  <object id="59" name="TileData" x="192" y="256" width="16" height="16">
+  <object id="78" name="TileData" x="96" y="208" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="60" name="TileData" x="160" y="256" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="61" name="TileData" x="80" y="352" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="62" name="TileData" x="96" y="352" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="63" name="TileData" x="96" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="64" name="TileData" x="80" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="66" name="TileData" x="160" y="352" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="67" name="TileData" x="176" y="352" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="68" name="TileData" x="160" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
-   </properties>
-  </object>
-  <object id="69" name="TileData" x="176" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Strange potion ingredients."/>
+    <property name="Action" value="Message handwrittenhello.dbda_TM.6"/>
    </properties>
   </object>
  </objectgroup>

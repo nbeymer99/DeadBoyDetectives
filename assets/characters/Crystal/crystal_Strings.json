@@ -3,7 +3,7 @@
 	{
 		
 		"Action": "EditData",
-		"Target": "Strings/schedules/CrystalPalace",
+		"Target": "Strings/schedules/{{ModId}}_CrystalPalace",
 		"Entries": 
         {
             "Meditation.000": "{{i18n:crystal_strings.Meditation.000}}",

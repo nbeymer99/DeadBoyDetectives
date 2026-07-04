@@ -3,7 +3,7 @@
 	{
         "LogName": "CharlesDialogue",
         "Action": "EditData",
-        "Target": "Characters/Dialogue/CharlesRowland",
+        "Target": "Characters/Dialogue/{{ModId}}_CharlesRowland",
 		"Entries": {
 			"Introduction": "{{i18n:charles_dialogue.Introduction}}",
 			"cc_Begin": "{{i18n:charles_dialogue.cc_Begin}}",
@@ -97,7 +97,7 @@
 	},
 	{
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/CharlesRowland",
+		"Target": "Characters/Dialogue/{{ModId}}_CharlesRowland",
 		"When": {
 			"HasFlag": "ccMovieTheaterJoja",
 		},

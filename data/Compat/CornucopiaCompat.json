@@ -6,7 +6,7 @@
 		"TextOperations": [
 		{
 			"Operation": "Append",
-			"Target": ["Entries", "NikoSasaki"],
+			"Target": ["Entries", "{{ModId}}_NikoSasaki"],
 			"Value": "{{ModId}}_EverbloomFlower",
 			"Delimiter": " "
 		},

@@ -5,19 +5,19 @@
 		"LogName": "Everbloom Quest",
 		"Target": "Data/Quests",
 		"Entries": {
-			"{{ModId}}_EverbloomQuest": "ItemDelivery/{{i18n:{{ModId}}_EverbloomQuest.title}}/{{i18n:{{ModId}}_EverbloomQuest.text}}/{{i18n:{{ModId}}_EverbloomQuest.objective}}/EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/{{i18n:{{ModId}}_EverbloomQuest.reaction}}",
+			"{{ModId}}_EverbloomQuest": "ItemDelivery/{{i18n:{{ModId}}_EverbloomQuest.title}}/{{i18n:{{ModId}}_EverbloomQuest.text}}/{{i18n:{{ModId}}_EverbloomQuest.objective}}/{{ModId}}_EdwinPayne (O){{ModID}}_EverbloomFlower 1/-1/75000/Reward Description/true/{{i18n:{{ModId}}_EverbloomQuest.reaction}}",
 				
 			"{{ModId}}_CatchAngie": "ItemDelivery/{{i18n:{{ModId}}_CatchAngie.title}}/{{i18n:{{ModId}}_CatchAngie.text}}/{{i18n:{{ModId}}_CatchAngie.objective}}/Willy (O){{ModId}}_Angie 1/-1/2500/-1/true/{{i18n:{{ModId}}_CatchAngie.reaction}}",
 			
-			"{{ModId}}_CrystalCactusQuest": "ItemDelivery/{{i18n:{{ModId}}_CrystalCactusQuest.title}}/{{i18n:{{ModId}}_CrystalCactusQuest.text}}/{{i18n:{{ModId}}_CrystalCactusQuest.objective}}/EdwinPayne (O)802 1/-1/300/Reward Description/true/{{i18n:{{ModId}}_CrystalCactusQuest.reaction}}",
+			"{{ModId}}_CrystalCactusQuest": "ItemDelivery/{{i18n:{{ModId}}_CrystalCactusQuest.title}}/{{i18n:{{ModId}}_CrystalCactusQuest.text}}/{{i18n:{{ModId}}_CrystalCactusQuest.objective}}/{{ModId}}_EdwinPayne (O)802 1/-1/300/Reward Description/true/{{i18n:{{ModId}}_CrystalCactusQuest.reaction}}",
 			
 			"{{ModId}}_SeanceInvitationQuest": "Basic/{{i18n:{{ModId}}_SeanceInvitationQuest.title}}/{{i18n:{{ModId}}_SeanceInvitationQuest.text}}/{{i18n:{{ModId}}_SeanceInvitationQuest.objective}}/null/-1/0/-1/false//",
 			
-			"{{ModId}}_SeanceIngredients1": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients1.title}}/{{i18n:{{ModId}}_SeanceIngredients1.text}}/{{i18n:{{ModId}}_SeanceIngredients1.objective}}/EdwinPayne (O)769 10/-1/0/0/false/{{i18n:{{ModId}}_SeanceIngredients1.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients1 received",
+			"{{ModId}}_SeanceIngredients1": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients1.title}}/{{i18n:{{ModId}}_SeanceIngredients1.text}}/{{i18n:{{ModId}}_SeanceIngredients1.objective}}/{{ModId}}_EdwinPayne (O)769 10/-1/0/0/false/{{i18n:{{ModId}}_SeanceIngredients1.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients1 received",
 			
-			"{{ModId}}_SeanceIngredients2": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients2.title}}/{{i18n:{{ModId}}_SeanceIngredients2.text}}/{{i18n:{{ModId}}_SeanceIngredients2.objective}}/CharlesRowland (O)156 1/-1/0/0/false/{{i18n:{{ModId}}_SeanceIngredients2.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients2 received",
+			"{{ModId}}_SeanceIngredients2": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients2.title}}/{{i18n:{{ModId}}_SeanceIngredients2.text}}/{{i18n:{{ModId}}_SeanceIngredients2.objective}}/{{ModId}}_CharlesRowland (O)156 1/-1/0/0/false/{{i18n:{{ModId}}_SeanceIngredients2.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients2 received",
 			
-			"{{ModId}}_SeanceIngredients3": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients3.title}}/{{i18n:{{ModId}}_SeanceIngredients3.text}}/{{i18n:{{ModId}}_SeanceIngredients3.objective}}/CrystalPalace (O)376 1/CuringNiko_{{ModId}}/0/0/false/{{i18n:{{ModId}}_SeanceIngredients3.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients3 received",
+			"{{ModId}}_SeanceIngredients3": "ItemDelivery/{{i18n:{{ModId}}_SeanceIngredients3.title}}/{{i18n:{{ModId}}_SeanceIngredients3.text}}/{{i18n:{{ModId}}_SeanceIngredients3.objective}}/{{ModId}}_CrystalPalace (O)376 1/CuringNiko_{{ModId}}/0/0/false/{{i18n:{{ModId}}_SeanceIngredients3.reaction}}#$action AddMail Host {{ModId}}_SeanceIngredients3 received",
 			
 			"CuringNiko_{{ModId}}": "Basic/{{i18n:{{ModId}}_CuringNiko.title}}/{{i18n:{{ModId}}_CuringNiko.text}}/{{i18n:{{ModId}}_CuringNiko.objective}}/null/-1/0/-1/false//",
 			

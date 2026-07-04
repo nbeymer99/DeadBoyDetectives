@@ -21,7 +21,7 @@
 					"Gender": "MaleOrFemale",
 					
 					"RequiredBuilding": "Coop",
-					"UnlockCondition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 750",
+					"UnlockCondition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_EdwinPayne 750",
 					
 					"EggItemIds": [ "{{ModId}}_SquidEgg" ],
 					"IncubationTime": 12000,

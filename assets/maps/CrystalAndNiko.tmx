@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="41">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="57">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="AmbientNightLight" value="150 150 30"/>
@@ -275,37 +275,7 @@
  <objectgroup id="9" name="Buildings">
   <object id="18" name="TileData" x="176" y="304" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Cookies, as fresh as if they were just baked today."/>
-   </properties>
-  </object>
-  <object id="21" name="TileData" x="320" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Lots and lots of manga."/>
-   </properties>
-  </object>
-  <object id="22" name="TileData" x="336" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Some of the illustrations in these books can't be biologically possible."/>
-   </properties>
-  </object>
-  <object id="23" name="TileData" x="160" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue When you wiggle the mouse, it opens to a website called &quot;Archive of Our Own&quot;.#Wonder what that's for..."/>
-   </properties>
-  </object>
-  <object id="24" name="TileData" x="160" y="224" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue When you wiggle the mouse, it opens to a website called &quot;Archive of Our Own&quot;.#Wonder what that's for..."/>
-   </properties>
-  </object>
-  <object id="25" name="TileData" x="192" y="240" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Scooby and Shaggy are getting themselves into trouble again."/>
-   </properties>
-  </object>
-  <object id="26" name="TileData" x="272" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Full of delicious snacks, though you can't read all the labels."/>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.1"/>
    </properties>
   </object>
   <object id="27" name="TileData" x="304" y="304" width="16" height="16">
@@ -313,64 +283,84 @@
     <property name="Action" value="Dialogue There are several used mugs of tea scattered around."/>
    </properties>
   </object>
-  <object id="28" name="TileData" x="288" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Outfits in every shade of the rainbow."/>
-   </properties>
-  </object>
-  <object id="29" name="TileData" x="272" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Outfits in every shade of the rainbow."/>
-   </properties>
-  </object>
-  <object id="30" name="TileData" x="320" y="176" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue It's an unfinished letter in Japanese.#$b#It's addressed to Niko's mother..."/>
-   </properties>
-  </object>
-  <object id="31" name="TileData" x="320" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue It's an unfinished letter in Japanese.#It's addressed to Niko's mother..."/>
-   </properties>
-  </object>
-  <object id="32" name="TileData" x="624" y="240" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Glittery dresses and clothes for the club...#It doesn't seem like Crystal wears these much."/>
-   </properties>
-  </object>
-  <object id="33" name="TileData" x="512" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;Real Housewives of Pelican Town.&quot;"/>
-   </properties>
-  </object>
-  <object id="34" name="TileData" x="528" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue There's a few of Edwin's books here. He must have left them."/>
-   </properties>
-  </object>
-  <object id="35" name="TileData" x="544" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;The Art of the Apology.&quot;"/>
-   </properties>
-  </object>
-  <object id="36" name="TileData" x="560" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue &quot;Hacks and Hoaxes: A History of Psychic Mediums.&quot;"/>
-   </properties>
-  </object>
-  <object id="37" name="TileData" x="592" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue When you get close enough to this sapling, you can almost hear the sound of generations of women chanting on the wind..."/>
-   </properties>
-  </object>
-  <object id="38" name="TileData" x="528" y="304" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue Lots of takeout containers, some of which seem suspiciously old."/>
-   </properties>
-  </object>
   <object id="40" name="TileData" x="400" y="208" width="16" height="16">
    <properties>
     <property name="Action" value="Warp 12 65 handwrittenhello.dbda_Roof"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="320" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.2"/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="336" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.3"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="160" y="208" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.4"/>
+   </properties>
+  </object>
+  <object id="45" name="TileData" x="192" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.5"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="272" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.6"/>
+   </properties>
+  </object>
+  <object id="47" name="TileData" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.7"/>
+   </properties>
+  </object>
+  <object id="48" name="TileData" x="272" y="160" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.8"/>
+   </properties>
+  </object>
+  <object id="49" name="TileData" x="320" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.9"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="512" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.11"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="624" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.10"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="528" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.12"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="544" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.13"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="560" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.14"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="592" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.15"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="528" y="304" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_CNRooms.16"/>
    </properties>
   </object>
  </objectgroup>

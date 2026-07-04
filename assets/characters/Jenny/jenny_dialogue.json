@@ -3,7 +3,7 @@
 	{
         "LogName": "Jenny Dialogue",
         "Action": "EditData",
-        "Target": "Characters/Dialogue/JennyButcher",
+        "Target": "Characters/Dialogue/{{ModId}}_JennyButcher",
 		"Entries": {
 			"Introduction": "{{i18n:jenny_dialogue.Introduction}}",
 			"Mon": "{{i18n:jenny_dialogue.Mon}}",

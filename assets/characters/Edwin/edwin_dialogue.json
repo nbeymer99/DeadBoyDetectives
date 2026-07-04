@@ -3,7 +3,7 @@
 	{
         "LogName": "Edwin dialogue",
         "Action": "EditData",
-        "Target": "Characters/Dialogue/EdwinPayne",
+        "Target": "Characters/Dialogue/{{ModId}}_EdwinPayne",
 		"Entries": {
 			// conversation topics
 			"Introduction": "{{i18n:edwin_dialogue.Introduction}}",
@@ -111,7 +111,7 @@
 	},
 	{
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/EdwinPayne",
+		"Target": "Characters/Dialogue/{{ModId}}_EdwinPayne",
 		"When": {
 			"HasFlag": "ccMovieTheaterJoja",
 		},

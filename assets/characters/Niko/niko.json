@@ -3,13 +3,13 @@
 		
 	{
 		"Action": "Load",
-		"Target": "Portraits/NikoSasaki",
+		"Target": "Portraits/{{ModId}}_NikoSasaki",
 		"FromFile": "assets/characters/Niko/niko_portraits.png",
 	},	
 	
 	{
 		"Action": "Load",
-		"Target": "Characters/NikoSasaki",
+		"Target": "Characters/{{ModId}}_NikoSasaki",
 		"FromFile": "assets/characters/Niko/niko_sprites.png",
 	},
 		
@@ -18,12 +18,13 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "NikoSasaki": {
+            "{{ModId}}_NikoSasaki": {
 				
 				"UnlockConditions": "PLAYER_HAS_MAIL Host {{ModId}}_NikoCured",
 				
 				// Basic Info
                 "DisplayName": "Niko",
+				"FormerCharacterNames": [ "NikoSasaki" ],
                 "BirthSeason": "winter",
                 "BirthDay": 11,
                 "HomeRegion": "Town",
@@ -42,10 +43,10 @@
 				"SocialTab": "HiddenUntilMet",
 				"IntroductionsQuest": false,
 				"FriendsAndFamily": {
-                    "EdwinPayne": "",
-					"CharlesRowland": "",
-					"CrystalPalace": "",
-					"JennyButcher": "",
+                    "{{ModId}}_EdwinPayne": "",
+					"{{ModId}}_CharlesRowland": "",
+					"{{ModId}}_CrystalPalace": "",
+					"{{ModId}}_JennyButcher": "",
                 },
 					
 				"DumpsterDiveFriendshipEffect": -15,
@@ -97,7 +98,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"NikoSasaki": "{{i18n: NikoSasaki.love}}/555 815 341 614 226 227 228 400 116 {{ModId}}_DandelionSpriteJar/{{i18n: NikoSasaki.like}} /577 578 595 251 -79 18 -80 /{{i18n: NikoSasaki.dislike}}/422 404 420 281 257 346/{{i18n: NikoSasaki.hate}}/22/{{i18n: NikoSasaki.neutral}}/"
+			"{{ModId}}_NikoSasaki": "{{i18n: NikoSasaki.love}}/555 815 341 614 226 227 228 400 116 {{ModId}}_DandelionSpriteJar/{{i18n: NikoSasaki.like}} /577 578 595 251 -79 18 -80 /{{i18n: NikoSasaki.dislike}}/422 404 420 281 257 346/{{i18n: NikoSasaki.hate}}/22/{{i18n: NikoSasaki.neutral}}/"
 		}
 	},
 	
@@ -107,7 +108,7 @@
 		"Action": "EditData", 
 		"Target": "Data/MoviesReactions",	 
 		"Entries": {
-				"NikoSasaki": {
+				"{{ModId}}_NikoSasaki": {
 			"NPCName": "Niko",
 			"Reactions": [
 				{
@@ -215,7 +216,7 @@
 		"Action": "EditData",
 		"Target": "Data/ConcessionsTastes",
 		"Entries": {
-			"Name": "NikoSasaki",
+			"Name": "{{ModId}}_NikoSasaki",
 			"LovedTags": [
 				"JasmineTea",
 				"Salty"

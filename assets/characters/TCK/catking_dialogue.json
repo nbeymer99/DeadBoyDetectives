@@ -2,7 +2,7 @@
 "Changes": [
 	{
         "Action": "EditData",
-        "Target": "Characters/Dialogue/CatKing",
+        "Target": "Characters/Dialogue/{{ModId}}_CatKing",
 		"Entries": {
 			"Introduction": "{{i18n:CatKing.Introduction}}",
 			"cc_Begin": "{{i18n:CatKing.cc_Begin}}",

@@ -52,7 +52,7 @@
 			},
 		],
 		"When": {
-			"Hearts:CrystalPalace": "10, 11, 12, 13",
+			"Hearts:{{ModId}}_CrystalPalace": "10, 11, 12, 13",
 		}
 	},
 		
@@ -72,7 +72,7 @@
 			},
 		],
 		"When": {
-			"Hearts:CrystalPalace": "10, 11, 12, 13",
+			"Hearts:{{ModId}}_CrystalPalace": "10, 11, 12, 13",
 			"HasMod |contains=Spiderbuttons.BETAS": true,
 		}
 	},
@@ -209,16 +209,16 @@
 	// Casper and the Box
 	{
 		"Action": "EditData",
-		"Target": "Characters/schedules/EdwinPayne",
+		"Target": "Characters/schedules/{{ModId}}_EdwinPayne",
 		"Entries": {
-			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\EdwinPayne:Reading.001\"/1100 BusStop 28 14 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
+			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose/0620 {{ModId}}_DeadBoyAgency 8 15 3 edwin_reading2 \"Strings\\schedules\\{{ModId}}_EdwinPayne:Reading.001\"/1100 BusStop 28 14 2 edwin_spells/2000 {{ModId}}_DeadBoyAgency 4 6 2 edwin_pose",
 		}
 	},
 	{
 		"Action": "EditData",
-		"Target": "Characters/schedules/CharlesRowland",
+		"Target": "Characters/schedules/{{ModId}}_CharlesRowland",
 		"Entries": {
-			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\CharlesRowland:Reading.000\"/1100 BusStop 27 15 1 charles_batswing \"Strings\\schedules\\CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",		
+			"spring_Tue": "0610 {{ModId}}_DeadBoyAgency 10 7 3/0620 {{ModId}}_DeadBoyAgency 11 5 3 charles_read \"Strings\\schedules\\{{ModId}}_CharlesRowland:Reading.000\"/1100 BusStop 27 15 1 charles_batswing \"Strings\\schedules\\{{ModId}}_CharlesRowland:Batswing.000\"/2000 {{ModId}}_DeadBoyAgency 10 7 3",		
 		}
 	},
 	

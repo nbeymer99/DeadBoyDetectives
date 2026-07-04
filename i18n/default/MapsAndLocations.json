@@ -35,4 +35,89 @@
 	//SHOPS 
 	"Shops.TM.Dialogue": "Ayup, I might have what you need.",
 	"Shops.Jenny.Dialogue": "What do you want? I don't have all day.",
+	
+// NEW AS OF 7/3/2026 - MAP MESSAGES
+	"LockedDoor": "It's locked...",
+	
+	// CANNERY
+	"Cannery.1": "\"Nine Lives, Eight Deaths - A Memoir\"",
+	"Cannery.2": "\"The Ethical Monarchy\"",
+	"Cannery.3": "Smells like... catnip?",
+	"Cannery.4": "\"Marine Cuisine of the Gem Sea\"",
+	"Cannery.5": "These sheets must be silk.",
+	"Cannery.6": "There's not enough room up here for two ${kings^queens^monarchs}$, sweetheart.",
+	"Cannery.7": "Some invisible force won't let you up on the Cat King's throne.",
+	"Cannery.8": "No fish here today.",
+	
+	// CRYSTAL NIKO ROOMS
+	"CNRooms.1": "Cookies, as fresh as if they were just baked today.",
+	"CNRooms.2": "Lots and lots of manga.",
+	"CNRooms.3": "Some of the illustrations in these books can't be anatomically possible.",
+	"CNRooms.4": "When you wiggle the mouse, it opens to a website called \"Archive of Our Own\".#Wonder what that's for...",
+	"CNRooms.5": "Scooby and Shaggy are getting themselves into trouble again.",
+	"CNRooms.6": "Full of delicious snacks, though you can't read all the labels.",
+	"CNRooms.7": "There are several used mugs of tea scattered around.",
+	"CNRooms.8": "Outfits in every shade of the rainbow.",
+	"CNRooms.9": "It's an unfinished letter in Japanese.#It's addressed to Niko's mother...",
+	"CNRooms.10": "Glittery dresses and clothes for the club...#It doesn't seem like Crystal wears these much.",
+	"CNRooms.11": "\"Real Housewives of Zuzu City\"",
+	"CNRooms.12": "There's a few of Edwin's books here. He must have left them.",
+	"CNRooms.13": "\"The Art of the Apology\"",
+	"CNRooms.14": "\"Hacks and Hoaxes: A History of Psychic Mediums\"",
+	"CNRooms.15": "When you get close enough to this sapling, you can almost hear the sound of generations of women chanting on the wind...",
+	"CNRooms.16": "Lots of takeout containers, some of which seem suspiciously old.",
+	
+	// DBD AGENCY
+	"DBDA.1": "It's the football Charles is always kicking around.",
+	"DBDA.2": "You can't tell what half the items on this desk are.",
+	"DBDA.3": "Who knew ghosts used computers, anyway?",
+	"DBDA.4": "Lots of books on the supernatural. Plenty of time to read when you don't sleep.",
+	"DBDA.5": "Current case file notes.",
+	
+	// FINCH HOUSE - INT
+	"FinchInt.1": "There are a bunch of crumpled up letters... addressed to Edwin.",
+	"FinchInt.2": "\"The Stars and You: A Guide to Find Your Astrology Truth\"",
+	"FinchInt.3": "\"Calculating Birth Charts For Dummies\"",
+	"FinchInt.4": "It's a half-written letter that looks like it's been smudged with drops of water, making it illegible.",
+	"FinchInt.5": "Strange-smelling goop fills the jar by the bed.",
+	"FinchInt.6": "The sewing machine has a wickedly sharp needle. Ouch!",
+	"FinchInt.7": "Whatever sludge is brewing in here is giving off an incredibly noxious gas.",
+	"FinchInt.8": "A birdcage, just like the one in the bedroom.",
+	"FinchInt.9": "You think you hear hissing coming from inside...",
+	"FinchInt.10": "There are all sorts of strange vials and jars in here, most of them full of unidentifiable substances.",
+	"FinchInt.11": "\"You Seem Familiar: Witches and their Companions\"",
+	"FinchInt.12": "\"Top Ten Secrets to Looking Eternally Young\"",
+	"FinchInt.13": "\"Elementals in the Modern World\"",
+	"FinchInt.14": "\"Drawn and Quartered: Four Illustrated Chapters on Medieval Torture\"",
+	
+	// FINCH HOUSE - EXT
+	"FinchExt.1": "The constellation Capricorn fills the lens.",
+	"FinchExt.2": "It's full of feathers... and is that a dead mouse in there?",
+	"FinchExt.3": "To East Scarp",
+	
+	// LIGHTHOUSE 
+	"LighthouseTelescope": "Far down in the depths, you think you see a flicker of light...",
+	
+	// LNF
+	"LNF.1": "How is there so much paperwork?",
+	"LNF.2": "DANGER: Do not enter unless authorized.",
+	"LNF.3": "Dossiers on missing dead children. You could sneak a look at Charles and Edwin's...#No, better not.",
+	
+	// TNT INT
+	"TNTInt.1": "Lots of leftover meat, no good to sell.",
+	"TNTInt.2": "It's a self-help book on fostering troubled teens.",
+	"TNTInt.3": "Looks like Jenny has been watching true crime documentaries.",
+	"TNTInt.4": "\"Recovering a Failed Business\"",
+	"TNTInt.5": "Note to self: this freezer is a little warm. Call Clint about fixing the wiring.",
+	"TNTInt.6": "The stars look bright...",
+	"TNTInt.7": "\"How to Heal from Toxic Parents\"",
+	"TNTInt.8": "Tiny polaroids: Niko, Edwin, and Monty all smiling for the camera.",
+	
+	// TRAGIC MICK
+	"TM.1": "Mick doesn't want you back here.",
+	"TM.2": "It's playing recordings of whales from the deep sea.",
+	"TM.3": "Some of these books look hundreds of years old.",
+	"TM.4": "Strange potion ingredients.",
+	"TM.5": "\"The Old Man and the Sea\"",
+	"TM.6": "\"Animal Transformations for Dummies\"",
 }

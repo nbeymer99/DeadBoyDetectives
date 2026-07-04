@@ -281,6 +281,38 @@
 				"NightTiles": "Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 809 Buildings 27 5 1222 Buildings 28 5 1222 Buildings 27 6 1254 Buildings 28 6 1254 Buildings2 28 7 809 Front 30 15 1347"
 			}
 		},
+			//    80% chance to get fucked
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Cannery",
+			"MapTiles": [
+				{
+					"Layer": "Buildings",
+					"Position": { "X": 18, "Y": 23 },
+					"SetProperties": {
+						"Action": "Message handwrittenhello.dbda_Cannery.8"
+					}
+				}
+			]
+		},
+			//    20% chance to find fish in cannery barrel
+		{
+			"Action": "EditMap",
+			"Target": "Maps/{{ModId}}_Cannery",
+			"When": {
+				"Random:true, false, false, false, false": true,
+			},
+			"MapTiles": [
+				{
+					"Layer": "Buildings",
+					"Position": { "X": 18, "Y": 23 },
+					"SetProperties": {
+						"Action": "Spiderbuttons.BETAS_Action AddItem {{RandomFish}}"
+					}
+				}
+			]
+		}, 
+				
 			//   got the deets on the dollhouse and can access the dungeon
 		{
 			"Action": "EditMap",

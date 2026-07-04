@@ -3,13 +3,13 @@
 	{
        	"LogName": "Edwin Base Portraits",
        	"Action": "Load",
-       	"Target": "Portraits/EdwinPayne",
+       	"Target": "Portraits/{{ModId}}_EdwinPayne",
        	"FromFile": "assets/characters/Edwin/edwin_portrait_greysuit.png",
    	},	
 	{
         "LogName": "Base Sprites",
         "Action": "Load",
-        "Target": "Characters/EdwinPayne",
+        "Target": "Characters/{{ModId}}_EdwinPayne",
         "FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png",
    	},
 		
@@ -18,9 +18,10 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "EdwinPayne": {
+            "{{ModId}}_EdwinPayne": {
 				// Basic Info	
                     "DisplayName": "Edwin",
+					"FormerCharacterNames": [ "EdwinPayne" ],
                     "BirthSeason": "Winter",
                     "BirthDay": 1,
                     "HomeRegion": "Town",
@@ -89,14 +90,14 @@
 	{
 		"Action": "EditData",
 		"Target": "Data/Characters",
-		"TargetField": ["EdwinPayne", "Appearance"],
+		"TargetField": ["{{ModId}}_EdwinPayne", "Appearance"],
 		"Entries":
 		{
-			"EdwinPayne_OutfitGreySuit":
+			"{{ModId}}_EdwinPayne_OutfitGreySuit":
 			{
-				"Id": "EdwinPayne_OutfitGreySuit",
-				"Portrait": "Portraits/EdwinPayneGreySuit",
-				"Sprite": "Characters/EdwinPayneGreySuit",
+				"Id": "{{ModId}}_EdwinPayne_OutfitGreySuit",
+				"Portrait": "Portraits/{{ModId}}_EdwinPayneGreySuit",
+				"Sprite": "Characters/{{ModId}}_EdwinPayneGreySuit",
 				"Indoors": true,
 				"Outdoors": false,
 				"IsIslandAttire": false,
@@ -105,11 +106,11 @@
 				"Weight": 1
 			},
 			
-			"EdwinPayne_OutfitBrownJacket":
+			"{{ModId}}_EdwinPayne_OutfitBrownJacket":
 			{
-				"Id": "EdwinPayne_OutfitBrownJacket",
-				"Portrait": "Portraits/EdwinPayneBrownJacket",
-				"Sprite": "Characters/EdwinPayneBrownJacket",
+				"Id": "{{ModId}}_EdwinPayne_OutfitBrownJacket",
+				"Portrait": "Portraits/{{ModId}}_EdwinPayneBrownJacket",
+				"Sprite": "Characters/{{ModId}}_EdwinPayneBrownJacket",
 				"Indoors": false,
 				"Outdoors": true,
 				"IsIslandAttire": false,
@@ -118,11 +119,11 @@
 				"Weight": 1
 			},
 						
-			"EdwinPayne_OutfitWhiteShirt":
+			"{{ModId}}_EdwinPayne_OutfitWhiteShirt":
 			{
-				"Id": "EdwinPayne_OutfitWhiteShirt",
-				"Portrait": "Portraits/EdwinPayneWhiteShirt",
-				"Sprite": "Characters/EdwinPayneWhiteShirt",
+				"Id": "{{ModId}}_EdwinPayne_OutfitWhiteShirt",
+				"Portrait": "Portraits/{{ModId}}_EdwinPayneWhiteShirt",
+				"Sprite": "Characters/{{ModId}}_EdwinPayneWhiteShirt",
 				"Indoors": true,
 				"Outdoors": true,
 				"IsIslandAttire": true,
@@ -137,27 +138,27 @@
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/EdwinPayneGreySuit",
+		"Target": "Portraits/{{ModId}}_EdwinPayneGreySuit",
 		"FromFile": "assets/characters/Edwin/edwin_portrait_greysuit.png",
 	},
 		
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/EdwinPayneBrownJacket",
+		"Target": "Portraits/{{ModId}}_EdwinPayneBrownJacket",
 		"FromFile": "assets/characters/Edwin/edwin_portrait_brownjacket.png",
 	},
 		
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/EdwinPayneWhiteShirt",
+		"Target": "Portraits/{{ModId}}_EdwinPayneWhiteShirt",
 		"FromFile": "assets/characters/Edwin/edwin_portrait_whiteshirt.png",
 	},
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/EdwinPayne_Hell",
+		"Target": "Portraits/{{ModId}}_EdwinPayne_Hell",
 		"FromFile": "assets/characters/Edwin/edwin_portrait_hell.png",
 	},
 		
@@ -165,27 +166,27 @@
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/EdwinPayneGreySuit",
+		"Target": "Characters/{{ModId}}_EdwinPayneGreySuit",
 		"FromFile": "assets/characters/Edwin/edwin_sprite_greysuit.png",
 	},
 		
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/EdwinPayneBrownJacket",
+		"Target": "Characters/{{ModId}}_EdwinPayneBrownJacket",
 		"FromFile": "assets/characters/Edwin/edwin_sprite_brownjacket.png",
 	},
 		
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/EdwinPayneWhiteShirt",
+		"Target": "Characters/{{ModId}}_EdwinPayneWhiteShirt",
 		"FromFile": "assets/characters/Edwin/edwin_sprite_whiteshirt.png",
 	},
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/EdwinPayne_Hell",
+		"Target": "Characters/{{ModId}}_EdwinPayne_Hell",
 		"FromFile": "assets/characters/Edwin/edwin_sprite_hell.png",
 	},
 		
@@ -195,7 +196,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"EdwinPayne": "{{i18n: EdwinPayne.love}}/96 97 98 99 60 446 338 561 94 104 119 125 -102 -103 ancient_item fossil_item book_item prehistoric_item scroll_item/{{i18n: EdwinPayne.like}}/potion_item elvish_item -80 -28 394 96 97 98 99 261 579 580 581 582 583 584 585 586 587 588 589 -2 -12/{{i18n: EdwinPayne.dislike}}/22 -26/{{i18n: EdwinPayne.hate}}/-79 -75 -7 -6 -5 -17 126 127 103 -4 -14 -27 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873 doll_item/{{i18n: EdwinPayne.neutral}}/86 -4 428 170/"
+			"{{ModId}}_EdwinPayne": "{{i18n: EdwinPayne.love}}/96 97 98 99 60 446 338 561 94 104 119 125 -102 -103 ancient_item fossil_item book_item prehistoric_item scroll_item/{{i18n: EdwinPayne.like}}/potion_item elvish_item -80 -28 394 96 97 98 99 261 579 580 581 582 583 584 585 586 587 588 589 -2 -12/{{i18n: EdwinPayne.dislike}}/22 -26/{{i18n: EdwinPayne.hate}}/-79 -75 -7 -6 -5 -17 126 127 103 -4 -14 -27 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873 doll_item/{{i18n: EdwinPayne.neutral}}/86 -4 428 170/"
 		}
 	},
 	
@@ -205,7 +206,7 @@
 		"Action": "EditData", 
 		"Target": "Data/MoviesReactions",	 
 		"Entries": {
-				"EdwinPayne": {
+				"{{ModId}}_EdwinPayne": {
 			"NPCName": "Edwin",
 			"Reactions": [
 				{

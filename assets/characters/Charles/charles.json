@@ -4,14 +4,14 @@
 	{
     "LogName": "Charles Base Portraits",
     "Action": "Load",
-    "Target": "Portraits/CharlesRowland",
+    "Target": "Portraits/{{ModId}}_CharlesRowland",
     "FromFile": "assets/characters/Charles/charles_portraits_polo.png",
 	},	
 	
 	{
     "LogName": "Base Portraits",
     "Action": "Load",
-    "Target": "Characters/CharlesRowland",
+    "Target": "Characters/{{ModId}}_CharlesRowland",
     "FromFile": "assets/characters/Charles/charles_sprites_polo.png",
 	},
 		
@@ -20,10 +20,11 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "CharlesRowland": {
+            "{{ModId}}_CharlesRowland": {
 				// Basic Info
 		
                 "DisplayName": "Charles",
+				"FormerCharacterNames": [ "CharlesRowland" ],
                 "BirthSeason": "spring",
                 "BirthDay": 25,
                 "HomeRegion": "Town",
@@ -92,14 +93,14 @@
 	{
 		"Action": "EditData",
 		"Target": "Data/Characters",
-		"TargetField": ["CharlesRowland", "Appearance"],
+		"TargetField": ["{{ModId}}_CharlesRowland", "Appearance"],
 		"Entries":
 		{
-			"CharlesRowland_OutfitPolo":
+			"{{ModId}}_CharlesRowland_OutfitPolo":
 			{
-				"Id": "CharlesRowland_OutfitPolo",
-				"Portrait": "Portraits/CharlesRowlandPolo",
-				"Sprite": "Characters/CharlesRowlandPolo",
+				"Id": "{{ModId}}_CharlesRowland_OutfitPolo",
+				"Portrait": "Portraits/{{ModId}}_CharlesRowlandPolo",
+				"Sprite": "Characters/{{ModId}}_CharlesRowlandPolo",
 				"Indoors": true,
 				"Outdoors": false,
 				"IsIslandAttire": false,
@@ -108,11 +109,11 @@
 				"Weight": 1
 			},
 		
-			"CharlesRowland_OutfitBlackJacket":
+			"{{ModId}}_CharlesRowland_OutfitBlackJacket":
 			{
-				"Id": "CharlesRowland_OutfitBlackJacket",
-				"Portrait": "Portraits/CharlesRowland_BlackJacket",
-				"Sprite": "Characters/CharlesRowland_BlackJacket",
+				"Id": "{{ModId}}_CharlesRowland_OutfitBlackJacket",
+				"Portrait": "Portraits/{{ModId}}_CharlesRowland_BlackJacket",
+				"Sprite": "Characters/{{ModId}}_CharlesRowland_BlackJacket",
 				"Indoors": false,
 				"Outdoors": true,
 				"IsIslandAttire": false,
@@ -121,11 +122,11 @@
 				"Weight": 1
 			},
 						
-			"CharlesRowland_OutfitVest":
+			"{{ModId}}_CharlesRowland_OutfitVest":
 			{
 				"Id": "CharlesPayne_OutfitVest",
-				"Portrait": "Portraits/CharlesRowlandVest",
-				"Sprite": "Characters/CharlesRowlandVest",
+				"Portrait": "Portraits/{{ModId}}_CharlesRowlandVest",
+				"Sprite": "Characters/{{ModId}}_CharlesRowlandVest",
 				"Indoors": true,
 				"Outdoors": true,
 				"IsIslandAttire": true,
@@ -140,21 +141,21 @@
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CharlesRowlandPolo",
+		"Target": "Portraits/{{ModId}}_CharlesRowlandPolo",
 		"FromFile": "assets/characters/Charles/Charles_portraits_polo.png",
 	},
 		
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CharlesRowland_BlackJacket",
+		"Target": "Portraits/{{ModId}}_CharlesRowland_BlackJacket",
 		"FromFile": "assets/characters/Charles/Charles_portraits_blackjacket.png",
 	},
 		
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CharlesRowlandVest",
+		"Target": "Portraits/{{ModId}}_CharlesRowlandVest",
 		"FromFile": "assets/characters/Charles/Charles_portraits_vest.png",
 	},
 		
@@ -162,21 +163,21 @@
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CharlesRowlandPolo",
+		"Target": "Characters/{{ModId}}_CharlesRowlandPolo",
 		"FromFile": "assets/characters/Charles/Charles_sprites_polo.png",
 	},
 		
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CharlesRowland_BlackJacket",
+		"Target": "Characters/{{ModId}}_CharlesRowland_BlackJacket",
 		"FromFile": "assets/characters/Charles/Charles_sprites_blackjacket.png",
 	},
 		
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CharlesRowlandVest",
+		"Target": "Characters/{{ModId}}_CharlesRowlandVest",
 		"FromFile": "assets/characters/Charles/Charles_sprites_vest.png",
 	},
 	
@@ -193,7 +194,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"CharlesRowland": "{{i18n: CharlesRowland.love}}/-98 slime_egg_item bomb_item 64 787 561 446 82 109 275 -8 -28 Book_Mystery Book_Bombs bone_item/{{i18n: CharlesRowland.like}}/-2 dwarvish_item elvish_item 428 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 -2 125 124 392 -80 -12/{{i18n: CharlesRowland.dislike}}/246 248 -26 -27 -4 93 292 293 297 298 309 310 311 322 323 324 325 328 329 331 333 395 403 599 621 645 929/{{i18n: CharlesRowland.hate}}/doll_item -14 -20 103 126 127 -5 -6 -7 -75 -79 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873/{{i18n: CharlesRowland.neutral}}//"
+			"{{ModId}}_CharlesRowland": "{{i18n: CharlesRowland.love}}/-98 slime_egg_item bomb_item 64 787 561 446 82 109 275 -8 -28 Book_Mystery Book_Bombs bone_item/{{i18n: CharlesRowland.like}}/-2 dwarvish_item elvish_item 428 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 -2 125 124 392 -80 -12/{{i18n: CharlesRowland.dislike}}/246 248 -26 -27 -4 93 292 293 297 298 309 310 311 322 323 324 325 328 329 331 333 395 403 599 621 645 929/{{i18n: CharlesRowland.hate}}/doll_item -14 -20 103 126 127 -5 -6 -7 -75 -79 216 395 613 634 635 636 637 638 724 459 194 262 304 815 78 873/{{i18n: CharlesRowland.neutral}}//"
 		}
 	},
 	
@@ -203,7 +204,7 @@
 		"Action": "EditData", 
 		"Target": "Data/MoviesReactions",	 
 		"Entries": {
-			"CharlesRowland": {
+			"{{ModId}}_CharlesRowland": {
 			"NPCName": "Charles",
 				"Reactions": [
 					{

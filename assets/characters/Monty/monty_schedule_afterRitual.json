@@ -2,19 +2,19 @@
 	"Changes": [
 	{ // --- !! UNTESTED !!
         "Action": "EditData",
-        "Target": "Characters/schedules/MontyFinch",
+        "Target": "Characters/schedules/{{ModId}}_MontyFinch",
 		"Entries": {			
-			"Mon": "a0900 ArchaeologyHouse 22 4 2 monty_read1/1200 Town 14 73 2 monty_sitbench/a1800 {{ModId}}_CrystalAndNiko 10 11 1 monty_sit \"Strings\\schedules\\MontyFinch:MovieNight.000\"",
+			"Mon": "a0900 ArchaeologyHouse 22 4 2 monty_read1/1200 Town 14 73 2 monty_sitbench/a1800 {{ModId}}_CrystalAndNiko 10 11 1 monty_sit \"Strings\\schedules\\{{ModId}}_MontyFinch:MovieNight.000\"",
 			"Tue": "0610 Forest 22 49 1 square_6_4/1700 {{ModId}}_TongueAndTail 26 9 1/2200 bed", 
-			"Wed": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/1700 Saloon 1 18 1 \"Strings\\schedules\\MontyFinch:Saloon.000\"/2100 bed",
-			"Thu": "0800 {{ModId}}_TongueAndTail 22 24 3 monty_read2/1300 {{ModId}}_TongueAndTail 10 21 1 \"Strings\\schedules\\MontyFinch:Butcher.000\"/1700 {{ModId}}_TongueAndTail 29 14 1/2200 bed",
+			"Wed": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/1700 Saloon 1 18 1 \"Strings\\schedules\\{{ModId}}_MontyFinch:Saloon.000\"/2100 bed",
+			"Thu": "0800 {{ModId}}_TongueAndTail 22 24 3 monty_read2/1300 {{ModId}}_TongueAndTail 10 21 1 \"Strings\\schedules\\{{ModId}}_MontyFinch:Butcher.000\"/1700 {{ModId}}_TongueAndTail 29 14 1/2200 bed",
 			"Fri": "a0930 Town 15 13 2 monty_swingset/1300 {{ModId}}_Docks 11 20 2/a2200 bed",
-			"Sat": "a0900 ArchaeologyHouse 22 4 2 monty_read1/1300 {{ModId}}_TongueAndTail 10 21 1 \"Strings\\schedules\\MontyFinch:Butcher.000\"/1700 {{ModId}}_TongueAndTail 29 14 1/2200 bed",
-			"Sun": "0 {{ModId}}_TragicMicks 3 5 0/1100 {{ModId}}_Lighthouse 38 41 3 \"Strings\\schedules\\MontyFinch:Telescope.000\"/a2100 bed",
+			"Sat": "a0900 ArchaeologyHouse 22 4 2 monty_read1/1300 {{ModId}}_TongueAndTail 10 21 1 \"Strings\\schedules\\{{ModId}}_MontyFinch:Butcher.000\"/1700 {{ModId}}_TongueAndTail 29 14 1/2200 bed",
+			"Sun": "0 {{ModId}}_TragicMicks 3 5 0/1100 {{ModId}}_Lighthouse 38 41 3 \"Strings\\schedules\\{{ModId}}_MontyFinch:Telescope.000\"/a2100 bed",
 			
 			"rain": "GOTO Thu",
 			
-			"spring": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/1600 Saloon 1 18 1 \"Strings\\schedules\\MontyFinch:Saloon.000\"/2100 {{ModId}}_TongueAndTail 29 9 3 montyfinch_sleep",
+			"spring": "a0900 Town 24 97 2 monty_read1/1300 Town 15 13 2 monty_swingset/1600 Saloon 1 18 1 \"Strings\\schedules\\{{ModId}}_MontyFinch:Saloon.000\"/2100 {{ModId}}_TongueAndTail 29 9 3 handwrittenhello.dbda_montyfinch_sleep",
 		}
 	}
   ]

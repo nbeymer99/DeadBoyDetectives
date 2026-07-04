@@ -10,14 +10,14 @@
 			"{{ModId}}_DH_HelpRequest": {
 				"Id": "{{ModId}}_DH_HelpRequest",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 2500, PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 2500, PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 2500, PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 2500", // check players
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Host {{ModId}}_EdwinPayne 2500, PLAYER_FRIENDSHIP_POINTS Host {{ModId}}_CharlesRowland 2500, PLAYER_FRIENDSHIP_POINTS Host {{ModId}}_CrystalPalace 2500, PLAYER_FRIENDSHIP_POINTS Host {{ModId}}_NikoSasaki 2500", // check players
 				"Actions": [
-					"AddMail Current {{ModId}}_DH_HelpRequest now", // check players
-					"SetNpcInvisible EdwinPayne 999", // can only be used by host
+					"AddMail Host {{ModId}}_DH_HelpRequest now", // check players
+					"SetNpcInvisible {{ModId}}_EdwinPayne 999", // can only be used by host
 				]
 			},		
 			//send mail - angie quest
-			"{{ModId}}AngieQuestMail": {
+			"{{ModId}}_AngieQuestMail": {
 				"Id": "{{ModId}}_AngieQuestMail",
 				"Trigger": "DayStarted",
 				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 7",
@@ -35,37 +35,37 @@
 				]
 			},	
 			// send edwin 10 heart event invite
-			"{{ModId}}Edwin10hearts": {
+			"{{ModId}}_EdwinHearts10": {
 				"Id": "{{ModId}}_EdwinHearts10",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 2500",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_EdwinPayne 2500",
 				"Actions": [
 					"AddMail Current {{ModId}}_EdwinProtectionSpellInvite now",
 				]
 			},
 			// send charles 10 heart event invite
-			"{{ModId}}Charles10hearts": {
+			"{{ModId}}_CharlesHearts10": {
 				"Id": "{{ModId}}_CharlesHearts10",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 2500",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_CharlesRowland 2500",
 				"Actions": [
 					"AddMail Current {{ModId}}_CharlesAmuletInvite now",
 				]
 			},	
 			// send mail - crystal void invitation
-			"{{ModId}}Crystal10Hearts": {
+			"{{ModId}}_CrystalHearts10": {
 				"Id": "{{ModId}}_CrystalHearts10",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 2500",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_CrystalPalace 2500",
 				"Actions": [
 					"AddMail Current {{ModId}}_CrystalSapling now",
 				]
 			},		
 			// send niko 10 heart event invite
-			"{{ModId}}Niko10Hearts": {
+			"{{ModId}}_Niko10Hearts": {
 				"Id": "{{ModId}}_Niko10Hearts",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 2500",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_NikoSasaki 2500",
 				"Actions": [
 					"AddMail Current {{ModId}}_NikoHandMirror now",
 				]
@@ -74,7 +74,7 @@
 			"{{ModId}}_EdwinCactusMail": {
 				"Id": "{{ModId}}_EdwinCactusMail",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 1500",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_CrystalPalace 1500",
 				"Actions": [
 					"AddMail Current {{ModId}}_CrystalCactus now",
 				]
@@ -83,14 +83,14 @@
 			// --- NOT MAIL ---
 			
 			// add edwin's 10 heart buff
-			"EdwinPayne_10": {
+			"{{ModId}}_EdwinProtectionSpell": {
 				"Id": "{{ModId}}_EdwinProtectionSpell",
 				"Trigger": "DayStarted",
 				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_edwinhearts10",
 				"HostOnly": false,
 				"MarkActionApplied": false,
 				"Actions": [
-					"AddBuff edwin_defense"
+					"AddBuff {{ModId}}_edwin_defense"
 				]
 			},
 			//add charles' 10 heart buff
@@ -101,7 +101,7 @@
 				"HostOnly": false,
 				"MarkActionApplied": false,
 				"Actions": [
-					"AddBuff charles_attack"
+					"AddBuff {{ModId}}_charles_attack"
 				]
 			},
 			// gathering ingredients quests complete
@@ -137,7 +137,7 @@
 			"{{ModId}}_TM_NewStock_Mail": {
 				"Id": "{{ModId}}_TM_NewStock_Mail",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Current EdwinPayne 750, PLAYER_FRIENDSHIP_POINTS Current CharlesRowland 750, PLAYER_FRIENDSHIP_POINTS Current CrystalPalace 750, PLAYER_FRIENDSHIP_POINTS Current NikoSasaki 750",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_EdwinPayne 750, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_CharlesRowland 750, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_CrystalPalace 750, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_NikoSasaki 750",
 				"Actions": [
 					"AddMail Current {{ModId}}_TM_NewStock now",
 				]
@@ -146,7 +146,7 @@
 			"{{ModId}}_Monty10Hearts": {
 				"Id": "{{ModId}}_Monty10Hearts",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FRIENDSHIP_POINTS Host MontyFinch 2500",
+				"Condition": "PLAYER_FRIENDSHIP_POINTS Host {{ModId}}_MontyFinch 2500",
 				"Actions": [
 					"AddMail Host {{ModId}}_MontyTNT received",
 				]
@@ -217,7 +217,7 @@
 					"Spiderbuttons.BETAS_WarpFarmer handwrittenhello.dbda_LostAndFound 6 6 2",
 					"spacechase0.SpaceCore_ClearSetPiecesFromSpawnable {{ModId}}_SpawnSetPieces Here",
 					"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_CharlesFollower",
-					//"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_EdwinFollower",
+					"mushymato.TrinketTinker_UnequipHiddenTrinket {{ModId}}_EdwinFollower",
 					"mushymato.MMAP_UpdateMapOverride Here RemoveAll"
 				]
 			},

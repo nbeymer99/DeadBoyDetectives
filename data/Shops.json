@@ -99,7 +99,7 @@
 			"TongueAndTail": {
 				"Owners": [
 					{
-						"Name": "JennyButcher",
+						"Name": "{{ModId}}_JennyButcher",
 						"Portrait": "Portraits/{{ModId}}_Jenny",
 						"Dialogues": [
 							{

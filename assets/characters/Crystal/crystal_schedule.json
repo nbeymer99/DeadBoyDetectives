@@ -2,31 +2,31 @@
 	"Changes": [
 	{
         "Action": "EditData",
-        "Target": "Characters/schedules/CrystalPalace",
+        "Target": "Characters/schedules/{{ModId}}_CrystalPalace",
 		"Entries": {
-			"rain": "0930 {{ModId}}_DeadBoyAgency 5 8 2/1300 {{ModId}}_TragicMicks 3 21 3/1800 {{ModId}}_CrystalAndNiko 33 13 2 crystal_meditate \"Strings\\schedules\\CrystalPalace:Meditation.000\"/2430 bed",
+			"rain": "0930 {{ModId}}_DeadBoyAgency 5 8 2/1300 {{ModId}}_TragicMicks 3 21 3/1800 {{ModId}}_CrystalAndNiko 33 13 2 crystal_meditate \"Strings\\schedules\\{{ModId}}_CrystalPalace:Meditation.000\"/2430 bed",
 			
-			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/1700 {{ModId}}_DeadBoyAgency 6 9 2 crystal_read \"Strings\\schedules\\CrystalPalace:Reading.000\"/2400 bed",
+			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/1700 {{ModId}}_DeadBoyAgency 6 9 2 crystal_read \"Strings\\schedules\\{{ModId}}_CrystalPalace:Reading.000\"/2400 bed",
 			
-			"spring_Tue": "0730 ArchaeologyHouse 11 15 3 crystal_laptop \"Strings\\schedules\\CrystalPalace:Reading.002\"/1330 {{ModId}}_CrystalAndNiko 31 20 0/1500 {{ModId}}_CrystalAndNiko 37 14 3 crystal_laptop/1900 {{ModId}}_CrystalAndNiko 33 11 2 crystal_read/2500 bed",
+			"spring_Tue": "0730 ArchaeologyHouse 11 15 3 crystal_laptop \"Strings\\schedules\\{{ModId}}_CrystalPalace:Reading.002\"/1330 {{ModId}}_CrystalAndNiko 31 20 0/1500 {{ModId}}_CrystalAndNiko 37 14 3 crystal_laptop/1900 {{ModId}}_CrystalAndNiko 33 11 2 crystal_read/2500 bed",
 			
 			"spring_Wed": "GOTO spring_Mon",
 			
 			"spring_Thu": "GOTO spring_Tue",
 			
-			"spring_Fri": "1100 {{ModId}}_CrystalAndNiko 31 20 0/1400 Forest 48 27 1 crystal_phone \"Strings\\schedules\\CrystalPalace:Cellphone.000\"/1700 Saloon 36 18 2/2300 bed",
+			"spring_Fri": "1100 {{ModId}}_CrystalAndNiko 31 20 0/1400 Forest 48 27 1 crystal_phone \"Strings\\schedules\\{{ModId}}_CrystalPalace:Cellphone.000\"/1700 Saloon 36 18 2/2300 bed",
 			
-			"spring_Sat": "1000 {{ModId}}_CrystalAndNiko 33 20 0/1100 {{ModId}}_DeadBoyAgency 5 15 1 crystal_phone/1500 {{ModId}}_DeadBoyAgency 9 6 2 crystal_read \"Strings\\schedules\\CrystalPalace:Reading.001\"/1930 Saloon 24 18 2/2300 bed",
+			"spring_Sat": "1000 {{ModId}}_CrystalAndNiko 33 20 0/1100 {{ModId}}_DeadBoyAgency 5 15 1 crystal_phone/1500 {{ModId}}_DeadBoyAgency 9 6 2 crystal_read \"Strings\\schedules\\{{ModId}}_CrystalPalace:Reading.001\"/1930 Saloon 24 18 2/2300 bed",
 			
-			"spring_Sun": "1000 {{ModId}}_Lighthouse 57 25 2/1430 Town 44 88 2 crystal_meditate \"Strings\\schedules\\CrystalPalace:WokenUpTrance.000\"/1730 {{ModId}}_DeadBoyAgency 5 8 2 crystal_read",
+			"spring_Sun": "1000 {{ModId}}_Lighthouse 57 25 2/1430 Town 44 88 2 crystal_meditate \"Strings\\schedules\\{{ModId}}_CrystalPalace:WokenUpTrance.000\"/1730 {{ModId}}_DeadBoyAgency 5 8 2 crystal_read",
 			
 			"summer_Mon": "GOTO spring_Mon",
 			
-			"summer_Tue": "1000 Beach 45 24 2/1530 Town 44 88 2 crystal_meditate/1930 {{ModId}}_DeadBoyAgency 5 8 2 crystal_read \"Strings\\schedules\\CrystalPalace:Reading.000\"",
+			"summer_Tue": "1000 Beach 45 24 2/1530 Town 44 88 2 crystal_meditate/1930 {{ModId}}_DeadBoyAgency 5 8 2 crystal_read \"Strings\\schedules\\{{ModId}}_CrystalPalace:Reading.000\"",
 			
 			"summer_Wed": "GOTO spring_Wed",
 			
-			"summer_Thu": "1100 {{ModId}}_DeadBoyAgency 2 6 2/1500 BathHouse_Pool 10 10 2 crystal_water \"Strings\\schedules\\CrystalPalace:SplishySplashy.000\"/2000 {{ModId}}_CrystalAndNiko 33 13 2 crystal_meditate \"Strings\\schedules\\CrystalPalace:WokenUpTrance.000\"/2500 bed",
+			"summer_Thu": "1100 {{ModId}}_DeadBoyAgency 2 6 2/1500 BathHouse_Pool 10 10 2 crystal_water \"Strings\\schedules\\{{ModId}}_CrystalPalace:SplishySplashy.000\"/2000 {{ModId}}_CrystalAndNiko 33 13 2 crystal_meditate \"Strings\\schedules\\{{ModId}}_CrystalPalace:WokenUpTrance.000\"/2500 bed",
 			
 			"summer_Fri": "GOTO spring_Fri",
 			
@@ -44,11 +44,11 @@
 			
 			"fall_Fri": "GOTO spring_Fri",
 			
-			"fall_Sat": "0900 Town 44 88 2 crystal_meditate \"Strings\\schedules\\CrystalPalace:Meditation.000\"/1630 {{ModId}}_DeadBoyAgency 8 8 2 crystal_read/2400 bed",
+			"fall_Sat": "0900 Town 44 88 2 crystal_meditate \"Strings\\schedules\\{{ModId}}_CrystalPalace:Meditation.000\"/1630 {{ModId}}_DeadBoyAgency 8 8 2 crystal_read/2400 bed",
 			
 			"fall_Sun": "GOTO spring_Sun",
 			
-			"winter_15": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1730 Beach 38 36 3 \"Strings\\schedules\\CrystalPalace:NightMarket.000\"",
+			"winter_15": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1730 Beach 38 36 3 \"Strings\\schedules\\{{ModId}}_CrystalPalace:NightMarket.000\"",
 			
 			"winter_Mon": "GOTO spring_Mon",
 			
@@ -70,12 +70,12 @@
 	{
         "LogName": "Crystal Schedule Conditionals",
         "Action": "EditData",
-        "Target": "Characters/schedules/CrystalPalace",
+        "Target": "Characters/schedules/{{ModId}}_CrystalPalace",
 		"When": {
 			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
 		},
 		"Entries": {
-			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_popcorn \"Strings\\schedules\\CrystalPalace:MovieNight.000\""
+			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_popcorn \"Strings\\schedules\\{{ModId}}_CrystalPalace:MovieNight.000\""
 		}
 	}
   ]

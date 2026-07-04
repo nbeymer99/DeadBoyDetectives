@@ -2,7 +2,7 @@
     "Changes": [
 	{
 		"Action": "EditData",
-		"Target": "Strings/schedules/CharlesRowland",
+		"Target": "Strings/schedules/{{ModId}}_CharlesRowland",
 		"Entries": 
         {
             "Graveyard.000": "{{i18n:charles_strings.Graveyard.000}}",

@@ -3,13 +3,13 @@
 		
 	{
 		"Action": "Load",
-		"Target": "Portraits/MontyFinch",
+		"Target": "Portraits/{{ModId}}_MontyFinch",
 		"FromFile": "assets/characters/Monty/Monty.png",
 	},	
 	
 	{
 		"Action": "Load",
-		"Target": "Characters/MontyFinch",
+		"Target": "Characters/{{ModId}}_MontyFinch",
 		"FromFile": "assets/characters/Monty/monty_sprites.png",
 	},
 		
@@ -18,10 +18,11 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "MontyFinch": {
+            "{{ModId}}_MontyFinch": {
 				
 				// Basic Info
                 "DisplayName": "Monty",
+				"FormerCharacterNames": [ "MontyFinch" ],
                 "BirthSeason": "fall",
                 "BirthDay": 20,
                 "HomeRegion": "Town",
@@ -39,10 +40,10 @@
 				"Calendar": "HiddenUntilMet",
 				
 				"FriendsAndFamily": {
-                    "EdwinPayne": "",
-					"EstherFinch": "",
-					"NikoSasaki": "",
-					"CrystalPalace": ""
+                    "{{ModId}}_EdwinPayne": "",
+					"{{ModId}}_EstherFinch": "",
+					"{{ModId}}_NikoSasaki": "",
+					"{{ModId}}_CrystalPalace": ""
                 },
 					
 				"DumpsterDiveFriendshipEffect": -10,
@@ -76,7 +77,7 @@
 	/* {
 		"Action": "EditData",
 		"Target": "Data/Characters",
-		"TargetField": ["MontyFinch", "Appearance"],
+		"TargetField": ["{{ModId}}_MontyFinch", "Appearance"],
 		"Entries":
 		{
 			"Monty_Human":
@@ -137,7 +138,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"MontyFinch": "{{i18n:MontyFinch.love}}/70 216 235 236 444 566 /{{i18n:MontyFinch.like}}/-74 904 651/{{i18n:MontyFinch.dislike}}/774 309 310 311/{{i18n:MontyFinch.hate}}/260/{{i18n:MontyFinch.neutral}}/"
+			"{{ModId}}_MontyFinch": "{{i18n:MontyFinch.love}}/70 216 235 236 444 566 /{{i18n:MontyFinch.like}}/-74 904 651/{{i18n:MontyFinch.dislike}}/774 309 310 311/{{i18n:MontyFinch.hate}}/260/{{i18n:MontyFinch.neutral}}/"
 		}
 	},
 	

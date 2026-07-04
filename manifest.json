@@ -26,6 +26,10 @@
 			"IsRequired": true
 		},
 		{
+			"UniqueID": "mushymato.TrinketTinker",
+			"IsRequired": true
+		},
+		{
 			"UniqueID": "Aimon111.MoreLivelyQuarryOverhaul",
 			"IsRequired": false
 		},

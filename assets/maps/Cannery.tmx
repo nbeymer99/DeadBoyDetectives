@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="31">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="25" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="41">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="AmbientNightLight" value="120 120 120"/>
@@ -100,10 +100,10 @@
 1,1,1,1,1,1,1,1,1,2328,756,0,0,0,1221,1222,0,0,0,1221,1222,0,756,2330,1,
 1,1,1,1,1,1,1,1,1,2328,788,0,0,0,533,534,0,0,0,2415,2416,0,788,2330,1,
 1,1,1,1,1,1,1,1,1,2328,788,0,0,0,565,566,2625,2626,2627,2447,2448,0,788,2330,1,
-1,1,1,1,1,1,1,1,1,2328,820,0,2243,1920,0,0,2657,2658,2659,0,2212,2213,820,2330,1,
+1,1,1,1,1,1,1,1,1,2328,820,0,2243,1920,0,1179,2657,2658,2659,1179,2212,2213,820,2330,1,
 1,1,1,1,1,1,1,1,1,2328,2428,2429,0,0,0,0,0,0,0,0,887,0,1518,2330,1,
 1,1,1,1,1,1,1,1,1,2328,2458,2639,2640,0,0,0,2721,2722,2723,0,0,0,0,2330,1,
-1,1,1,1,1,1,1,1,1,2328,2578,2579,0,0,0,0,0,0,0,0,0,0,0,2330,1,
+1,1,1,1,1,1,1,1,1,2328,2578,2579,0,0,0,0,0,1179,0,0,0,0,0,2330,1,
 1,1,1,1,1,1,1,1,1,2328,0,0,0,0,0,0,0,0,0,0,644,705,645,2330,1,
 1,1,1,1,1,1,1,1,1,2328,0,2427,0,0,0,0,0,0,0,0,0,0,536,2362,1,
 1,1,1,1,1,2296,2297,2297,2297,2297,2297,2297,2297,2297,2297,2297,2425,0,2424,2298,1,1,1,1,1,
@@ -270,16 +270,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="7" name="Paths" width="25" height="30" visible="0">
+ <layer id="7" name="Paths" width="25" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,3497,3497,0,0,0,3497,3497,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,3497,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3497,0,0,0,0,0,3497,0,0,0,3497,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3497,0,
 0,0,0,0,0,0,0,0,0,3497,0,0,0,0,0,0,0,0,0,0,3497,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3497,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3497,0,0,0,0,
@@ -304,12 +304,18 @@
 0,0,0,0,0,0,0,0,0,0,0,0,3497,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="8" name="Back"/>
+ <objectgroup id="8" name="Back">
+  <object id="38" name="TileData" x="192" y="336" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="Spiderbuttons.BETAS_Action NPCMessage handwrittenhello.dbda_CatKing &quot;String\\StringsFromMaps:handwrittenhello.dbda_Cannery.6/Strings\\StringsFromMaps:handwrittenhello.dbda_Cannery.7&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="9" name="Back2"/>
- <objectgroup id="10" name="Buildings" visible="0">
+ <objectgroup id="10" name="Buildings">
   <object id="28" name="TileData" x="272" y="176" width="16" height="16">
    <properties>
-    <property name="Action" value="Door CatKing"/>
+    <property name="Action" value="Door handwrittenhello.dbda_CatKing"/>
    </properties>
   </object>
   <object id="29" name="TileData" x="144" y="400" width="16" height="16">
@@ -320,6 +326,41 @@
   <object id="30" name="TileData" x="240" y="288" width="16" height="16">
    <properties>
     <property name="Action" value="playSound cat"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="320" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.1"/>
+   </properties>
+  </object>
+  <object id="32" name="TileData" x="336" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.2"/>
+   </properties>
+  </object>
+  <object id="33" name="TileData" x="176" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.3"/>
+   </properties>
+  </object>
+  <object id="34" name="TileData" x="192" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.3"/>
+   </properties>
+  </object>
+  <object id="35" name="TileData" x="160" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.3"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="352" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.4"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="256" y="96" width="48" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Cannery.5"/>
    </properties>
   </object>
  </objectgroup>

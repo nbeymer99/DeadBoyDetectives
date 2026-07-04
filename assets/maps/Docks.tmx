@@ -1424,7 +1424,7 @@
  </layer>
  <objectgroup id="8" name="Back"/>
  <objectgroup id="9" name="Back2"/>
- <objectgroup id="10" name="Buildings" visible="0">
+ <objectgroup id="10" name="Buildings">
   <object id="7" name="TileData" x="224" y="160" width="16" height="16">
    <properties>
     <property name="Action" value="playSound cat"/>
@@ -1442,7 +1442,7 @@
   </object>
   <object id="11" name="TileData" x="592" y="96" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue It's locked..."/>
+    <property name="Action" value="Message handwrittenhello.dbda_LockedDoor"/>
    </properties>
   </object>
  </objectgroup>

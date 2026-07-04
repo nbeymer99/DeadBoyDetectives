@@ -2,7 +2,7 @@
 	"Changes": [
 	{
 		"Action": "EditData",
-		"Target": "Characters/schedules/EstherFinch",
+		"Target": "Characters/schedules/{{ModId}}_EstherFinch",
 		"Entries": {
 			"spring": "0800 {{ModId}}_FinchAttic 6 9",
 		}

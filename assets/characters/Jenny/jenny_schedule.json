@@ -3,7 +3,7 @@
 	{
         "LogName": "Jenny Schedule",
         "Action": "EditData",
-        "Target": "Characters/schedules/JennyButcher",
+        "Target": "Characters/schedules/{{ModId}}_JennyButcher",
 		"Entries": {
 			//"Sun": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/0900 SeedShop 13 28 1/1200 Mountain 49 29 1 jenny_smoke/1600 Town 19 73 2/2100 {{ModId}}_TongueAndTail 16 12 1 jenny_sleep",
 			

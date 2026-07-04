@@ -3,19 +3,19 @@
 	{
        	"LogName": "Cat King Base Portraits",
        	"Action": "Load",
-       	"Target": "Portraits/CatKing",
+       	"Target": "Portraits/{{ModId}}_CatKing",
        	"FromFile": "assets/characters/TCK/catking_portraits_black.png",
    	},	
 	{
         "LogName": "Base Sprites",
         "Action": "Load",
-        "Target": "Characters/CatKing",
+        "Target": "Characters/{{ModId}}_CatKing",
         "FromFile": "assets/characters/TCK/catking_sprites_black.png",
    	},
 	{
         "LogName": "Black Cat Sprites",
         "Action": "Load",
-        "Target": "Characters/CatKing_cat",
+        "Target": "Characters/{{ModId}}_CatKing_cat",
         "FromFile": "assets/characters/TCK/blackcat.png",
 		"When": {
 			"Cat_King_Appearance": "Black"
@@ -24,7 +24,7 @@
 	{
         "LogName": "Orange Cat Sprites",
         "Action": "Load",
-        "Target": "Characters/CatKing_cat",
+        "Target": "Characters/{{ModId}}_CatKing_cat",
         "FromFile": "assets/characters/TCK/orangecat.png", // do this
 		"When": {
 			"Cat_King_Appearance": "Orange"
@@ -36,9 +36,10 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "CatKing": {
+            "{{ModId}}_CatKing": {
 				// Basic Info	
                     "DisplayName": "The Cat King",
+					"FormerCharacterNames": [ "CatKing" ],
                     "BirthSeason": "Summer",
                     "BirthDay": 20,
                     "HomeRegion": "Town",
@@ -58,9 +59,9 @@
 					"Calendar": "HiddenUntilMet",
 					
 					"FriendsAndFamily": {
-                        "EdwinPayne": "",
-						"NikoSasaki": "",
-						"EstherFinch": "",
+                        "{{ModId}}_EdwinPayne": "",
+						"{{ModId}}_NikoSasaki": "",
+						"{{ModId}}_EstherFinch": "",
                     },
 					
 					"DumpsterDiveFriendshipEffect": 0,
@@ -101,24 +102,24 @@
 	{
 		"Action": "EditData",
 		"Target": "Data/Characters",
-		"TargetField": ["CatKing", "Appearance"],
+		"TargetField": ["{{ModId}}_CatKing", "Appearance"],
 		"Entries":
 		{
-			"CatKing_Orange":
+			"{{ModId}}_CatKing_Orange":
 			{
-				"Id": "CatKing_Orange",
-				"Portrait": "Portraits/CatKing_Orange",
-				"Sprite": "Characters/CatKing_Orange",
+				"Id": "{{ModId}}_CatKing_Orange",
+				"Portrait": "Portraits/{{ModId}}_CatKing_Orange",
+				"Sprite": "Characters/{{ModId}}_CatKing_Orange",
 				"Condition": "{{Cat_King_Appearance |contains=Orange}}",
 				"Precedence": 0,
 				"Weight": 1
 			},
 			
-			"CatKing_Black":
+			"{{ModId}}_CatKing_Black":
 			{
-				"Id": "CatKing_Black",
-				"Portrait": "Portraits/CatKing_Black",
-				"Sprite": "Characters/CatKing_Black",
+				"Id": "{{ModId}}_CatKing_Black",
+				"Portrait": "Portraits/{{ModId}}_CatKing_Black",
+				"Sprite": "Characters/{{ModId}}_CatKing_Black",
 				"Condition": "{{Cat_King_Appearance |contains=Black}}",
 				"Precedence": 0,
 				"Weight": 1
@@ -130,13 +131,13 @@
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CatKing_Black",
+		"Target": "Portraits/{{ModId}}_CatKing_Black",
 		"FromFile": "assets/characters/TCK/catking_portraits_black.png",
 	},
 	{
 		"LogName": "Conditional Portraits - Appearance Load",
 		"Action": "Load",
-		"Target": "Portraits/CatKing_Orange",
+		"Target": "Portraits/{{ModId}}_CatKing_Orange",
 		"FromFile": "assets/characters/TCK/catking_portraits.png",
 	}, 
 	
@@ -144,14 +145,14 @@
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CatKing_Black",
+		"Target": "Characters/{{ModId}}_CatKing_Black",
 		"FromFile": "assets/characters/TCK/catking_sprites_black.png",
 	},
 		
 	{
 		"LogName": "Conditional Sprites - Appearance Load",
 		"Action": "Load",
-		"Target": "Characters/CatKing_Orange",
+		"Target": "Characters/{{ModId}}_CatKing_Orange",
 		"FromFile": "assets/characters/TCK/catking_sprites_orange.png",
 	},
 	
@@ -163,7 +164,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"CatKing": "{{i18n:CatKing.love}}/562 104 -6 212 227 228 60/{{i18n:CatKing.like}}/100 202 348 -4 category_meat/{{i18n:CatKing.dislike}}/209 91 103/{{i18n:CatKing.hate}}/398/{{i18n:CatKing.neutral}}//"
+			"{{ModId}}_CatKing": "{{i18n:CatKing.love}}/562 104 -6 212 227 228 60/{{i18n:CatKing.like}}/100 202 348 -4 category_meat/{{i18n:CatKing.dislike}}/209 91 103/{{i18n:CatKing.hate}}/398/{{i18n:CatKing.neutral}}//"
 		}
 	},
 		

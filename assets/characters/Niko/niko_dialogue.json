@@ -3,7 +3,7 @@
 	{
         "LogName": "Niko dialogue",
         "Action": "EditData",
-        "Target": "Characters/Dialogue/NikoSasaki",
+        "Target": "Characters/Dialogue/{{ModId}}_NikoSasaki",
 		"Entries": {
 			"Introduction": "{{i18n:niko_dialogue.Introduction}}",
 			"cc_Begin": "{{i18n:niko_dialogue.cc_Begin}}",

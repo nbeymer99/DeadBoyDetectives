@@ -3,13 +3,13 @@
 		
 	{
 		"Action": "Load",
-		"Target": "Portraits/JennyButcher",
+		"Target": "Portraits/{{ModId}}_JennyButcher",
 		"FromFile": "assets/characters/Jenny/Jenny.png",
 	},	
 	
 	{
 		"Action": "Load",
-		"Target": "Characters/JennyButcher",
+		"Target": "Characters/{{ModId}}_JennyButcher",
 		"FromFile": "assets/characters/Jenny/jenny_sprites.png",
 	},
 		
@@ -18,10 +18,11 @@
 		"Action": "EditData",
         "Target": "Data/Characters",
         "Entries": {
-            "JennyButcher": {
+            "{{ModId}}_JennyButcher": {
 				
 				// Basic Info
                 "DisplayName": "Jenny",
+				"FormerCharacterNames": [ "JennyButcher" ],
                 "BirthSeason": "fall",
                 "BirthDay": 28,
                 "HomeRegion": "Town",
@@ -39,10 +40,10 @@
 				"Calendar": "HiddenUntilMet",
 				
 				"FriendsAndFamily": {
-                    "EdwinPayne": "",
-					"CharlesRowland": "",
-					"NikoSasaki": "",
-					"CrystalPalace": ""
+                    "{{ModId}}_EdwinPayne": "",
+					"{{ModId}}_CharlesRowland": "",
+					"{{ModId}}_NikoSasaki": "",
+					"{{ModId}}_CrystalPalace": ""
                 },
 					
 				"DumpsterDiveFriendshipEffect": -10,
@@ -72,7 +73,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"JennyButcher": "{{i18n: JennyButcher.love}}/814 80 106 202 213 253 342 348 397 395 605 717/{{i18n: JennyButcher.like}}/-4 -5 -6 215 274 283 419 522 563 684 128/{{i18n: JennyButcher.dislike}}/88 220 221 223 610 608/{{i18n: JennyButcher.hate}}/124 148 162 196 225 226 {{ModId}}_DandelionSpriteJar/{{i18n: JennyButcher.neutral}}/"
+			"{{ModId}}_JennyButcher": "{{i18n: JennyButcher.love}}/814 80 106 202 213 253 342 348 397 395 605 717/{{i18n: JennyButcher.like}}/-4 -5 -6 215 274 283 419 522 563 684 128/{{i18n: JennyButcher.dislike}}/88 220 221 223 610 608/{{i18n: JennyButcher.hate}}/124 148 162 196 225 226 {{ModId}}_DandelionSpriteJar/{{i18n: JennyButcher.neutral}}/"
 		}
 	},
 	

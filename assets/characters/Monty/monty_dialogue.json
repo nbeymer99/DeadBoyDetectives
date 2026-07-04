@@ -3,7 +3,7 @@
 	{
 		"LogName": "monty dialogue",
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/MontyFinch",
+		"Target": "Characters/Dialogue/{{ModId}}_MontyFinch",
 		"Entries": {
 			"Introduction": "{{i18n:monty_dialogue.Introduction}}",
 			"cc_Begin": "{{i18n:monty_dialogue.cc_Begin}}",

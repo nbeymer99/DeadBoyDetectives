@@ -3,21 +3,22 @@
 	{
        	"LogName": "Esther Base Portraits",
        	"Action": "Load",
-       	"Target": "Portraits/EstherFinch",
+       	"Target": "Portraits/{{ModId}}_EstherFinch",
        	"FromFile": "assets/characters/zzminorCharacters/Esther.png",
    	},	
 	{
         "LogName": "Base Sprites",
         "Action": "Load",
-        "Target": "Characters/EstherFinch",
+        "Target": "Characters/{{ModId}}_EstherFinch",
         "FromFile": "assets/characters/zzminorCharacters/Esther_sprites.png",
    	},
 	{
 		"Action": "EditData",
 		"Target": "Data/Characters",
 		"Entries": {
-			"EstherFinch": {
+			"{{ModId}}_EstherFinch": {
 				"DisplayName": "Esther",
+				"FormerCharacterNames": [ "EstherFinch" ],
                 "Gender": "Female",
                 "Manner": "Rude",
                 "SocialAnxiety": "Neutral",
@@ -31,7 +32,7 @@
 				"IntroductionsQuest": false,
 				
 				"FriendsAndFamily": {
-					"MontyFinch": "",
+					"{{ModId}}_MontyFinch": "",
                 },
 				
 				"Home": [
@@ -49,7 +50,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"EstherFinch": "...//...//...//...//...//"
+			"{{ModId}}_EstherFinch": "...//...//...//...//...//"
 		}
 	},
 	// include schedules
