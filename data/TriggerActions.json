@@ -94,8 +94,8 @@
 				]
 			},
 			//add charles' 10 heart buff
-			"CharlesRowland_10": {
-				"Id": "CharlesRowland_10",
+			"{{ModId}}_CharlesRowland_10": {
+				"Id": "{{ModId}}_CharlesRowland_10",
 				"Trigger": "DayStarted",
 				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_charleshearts10",
 				"HostOnly": false,
@@ -105,8 +105,8 @@
 				]
 			},
 			// gathering ingredients quests complete
-			"SeanceIngredients": {
-				"Id": "SeanceIngredients",
+			"{{ModId}}_SeanceIngredients": {
+				"Id": "{{ModId}}_SeanceIngredients",
 				"Trigger": "LocationChanged",
 				"Condition": "PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredients1, PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredients2, PLAYER_HAS_MAIL Host {{ModId}}_SeanceIngredients3",
 				"HostOnly": true,

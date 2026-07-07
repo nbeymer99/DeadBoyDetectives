@@ -103,6 +103,40 @@
 	"CallTheWholeThingOff.1": "I see... I apologize, Monty, but I must agree with @.$s#$b#This is a dangerous proposal, and we cannot get involved.$s",
 	"CallTheWholeThingOff.2": "Fine. Some friends you guys are.$a#$b#I'll do it myself.$a",
 	
+	// founder quest - bring case to agency
+	
+	// OM - finding a case
+	
+	// begin dollhouse events
+	"EdwinMissing.0": "Charles, please sit down. You're making me dizzy.$s",
+	"EdwinMissing.1": "She's right, Charles, we need to stop and think.$s",
+	"EdwinMissing.2": "No! Every minute we waste is another minute Edwin has to spend in the literal worst place!$a",
+	"EdwinMissing.3": "Just how many hooligans do you allow into your office unannounced? The unprofessionalism!$a",
+	"EdwinMissing.4": "I invited @ here, Nurse. What else was I supposed to do?$a",
+	"EdwinMissing.5": "Thank god you're here.",
+	"EdwinMissing.6": "#Why is Charles pacing in circles?#You said Edwin is gone?#What do you mean, Nurse? Is someone hurt?",
+	"EdwinMissing.7": "We were just hanging out like normal, organizing case notes, when something crashed right through the wall!$s",
+	"EdwinMissing.8": "It was that demon again. The one that took Edwin last time.$a",
+	"EdwinMissing.9": "Where do I even start...$s#$b#@, long story short, Edwin spent like a hundred years in Hell, he escaped, and they've been looking for him ever since.$s#$b#Something must have tipped them off that he was here in Pelican Town, but we don't know what.$s#$b#And now you have to help me stop Charles from going on a suicide mission to go get Edwin without any sort of plan!$a",
+	"EdwinMissing.10": "I'm going to get him out of there, Crys. You can't stop me.$9",
+	"EdwinMissing.11": "But wouldn't it be better to slow down and make a plan first? Otherwise you'd *both* end up trapped.$s",
+	"EdwinMissing.12": "#Niko and Crystal are right.#There's no time. We have to get Edwin now.",
+	"EdwinMissing.13": "Time moves differently on other planes. It may speed up, or slow down, or even run backwards entirely.#$b#The girls are right; Mr. Rowland, ${Mr.^Ms.^Mx.}$ @, gather what supplies you need and I shall get the paperwork started to open a door.#$b#You may use this mirror to travel to my office. Now do run along.",
+	"EdwinMissing.14": "I'll meet you in the Lost and Found Department. If you wanna come, please hurry.$s",
+	
+	// end dollhouse events
+	"EndDollHouseQuestline.0": "How much longer until they get back?$s",
+	"EndDollHouseQuestline.1": "I don't know, Niko. They might not even--$s",
+	"EndDollHouseQuestline.2": "@! Charles! Edwin! You did it!!$h",
+	"EndDollHouseQuestline.3": "So it's over, then? No more demons coming to kidnap Edwin?$6",
+	"EndDollHouseQuestline.4": "Yes, it won't be reconstituting anytime soon. @ and Charles saw to that.$h",
+	"EndDollHouseQuestline.5": "#It was nothing.#I almost died!#I never should have agreed to go.",
+	"EndDollHouseQuestline.6": "Regardless, if you had not come for me, we all would have been in much more danger.#$b#Thank you, @.$h",
+	"EndDollHouseQuestline.7": "Yes, I cannot even imagine the bureaucratic nightmare that would have resulted had Mr. Payne stayed in the Doll House.",
+	"EndDollHouseQuestline.8": "Right, the paperwork, *that's* the worst thing that would have happened.$6#$b#I'm glad you're back, Edwin. Who else would nitpick me like you do?$h",
+	"EndDollHouseQuestline.9": "Seriously, @, take this. It's nowhere near enough, but it's all I've got right now.",
+	"EndDollHouseQuestline.10": "Right. Back to work, then?$h",
+	
 // BEACH
 	// cat king 5 hearts - lying to willy
 	"catkinghearts5.0": "Oh! Hello there, moggy. Did you wander over from that abandoned cannery?$h",
@@ -260,6 +294,24 @@
 	"crystalhearts10.10": "The guilt was eating me alive.#$b#It turns out that even for a psychic--maybe *especially* for a psychic--it's really hard to get out of your own head.$3#$b#What helps is thinking about my friends, and you've been a big part of that.#$b#I see the way you run around helping people. It reminds me to focus on doing good here, now, instead of dwelling on the past.",
 	"crystalhearts10.11": "To thank you, and as a reminder from me to you about doing good, I wanted to give you this.",
 	"crystalhearts10.12": "And feel free to come here whenever you need a break. Maybe we could hang out in here together sometime?$l",
+	
+// DOLL HOUSE
+	// findin edwin in the spider lair
+	"RescueEdwin.0": "Edwin!$7",
+	"RescueEdwin.1": "Charles? You came...#$b#And @! What are you doing down here? It's unspeakably dangerous!",
+	"RescueEdwin.2": "I told you before, mate. No version of this where I didn't come get you, is there?$9",
+	"RescueEdwin.3": "I didn't ask @ to come, but I wouldn't have been able to find you so quickly without ${him^her^them}$. This place is a proper maze, and I didn't have your notes.$9",
+	"RescueEdwin.4": "Yes, it does appear to have shifted since last time.#$b#Do you have a plan to get out?",
+	"RescueEdwin.5": "I brought plenty of bombs just like last time. And @ is a natural at navigating this place.",
+	"RescueEdwin.6": "No...",
+	"RescueEdwin.7": "Yeah, I memorized the whole maze.",
+	"RescueEdwin.8": "Yeah, we'll find a way out, don't worry.",
+	"RescueEdwin.9": "It was incredibly foolish to come here without a plan...$s#$b#...But you have my eternal gratitude.",
+	"RescueEdwin.10": "That is excellent news. Though I wish neither of you had been forced to endure this operatic horror show, I must say selfishly I am glad you came.",
+	"RescueEdwin.11": "That is not very reassuring...$s#$b#Though of course I am grateful you came at all.",
+	"RescueEdwin.12": "Let's go then, yeah? Back the way we came?",
+	"RescueEdwin.13": "I am afraid it won't be so simple.$s#$b#My captor has sealed all exits from this place in the wake of our last escape attempt.$s#$b#You and @ may be able to leave at will, but I physically cannot until it lets me.",
+	"RescueEdwin.14": "Then we'll just have to take care of it, won't we, @?#$b#What do you say, are you ready to fight a hideous spider demon made out of doll parts?$u",
 	
 // FARM
 	// joja route warning

@@ -88,12 +88,12 @@
  <objectgroup id="6" name="Buildings">
   <object id="2" name="TileData" x="64" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 6 18 handwrittenhello.dbda_DeadBoyAgency"/>
+    <property name="Action" value="spacechase0.SpaceCore_TriggerAction handwrittenhello.dbda_CCElevator"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="80" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 6 18 handwrittenhello.dbda_DeadBoyAgency"/>
+    <property name="Action" value="spacechase0.SpaceCore_TriggerAction handwrittenhello.dbda_CCElevator"/>
    </properties>
   </object>
  </objectgroup>

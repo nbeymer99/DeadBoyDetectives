@@ -1,6 +1,6 @@
 {
 	"Changes": [
-	{
+		{
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
 			"FromFile": "assets/maps/Beach_Docks.tmx",
@@ -15,6 +15,23 @@
 		{
 			"Action": "EditMap",
 			"Target": "Maps/Beach",
+			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10", "104 5 {{ModId}}_Docks 0 7", "104 6 {{ModId}}_Docks 0 8", "104 7 {{ModId}}_Docks 0 9", "104 8 {{ModId}}_Docks 0 10" ],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-NightMarket",
+			"FromFile": "assets/maps/Beach_Docks.tmx",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 11 },
+			"ToArea": { "X": 88, "Y": 0, "Width": 16, "Height": 11 },
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Beach-NightMarket",
+			"AddNPCWarps": [ "0 6 {{ModId}}_Lighthouse 103 8", "103 6 {{ModId}}_Docks 0 7" ],
+		},
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-NightMarket",
 			"AddWarps": ["-1 4 {{ModId}}_Lighthouse 103 7", "-1 5 {{ModId}}_Lighthouse 103 8", "-1 6 {{ModId}}_Lighthouse 103 9", "-1 7 {{ModId}}_Lighthouse 103 10", "-1 8 {{ModId}}_Lighthouse 103 10", "104 5 {{ModId}}_Docks 0 7", "104 6 {{ModId}}_Docks 0 8", "104 7 {{ModId}}_Docks 0 9", "104 8 {{ModId}}_Docks 0 10" ],
 		},
 	

@@ -39,6 +39,19 @@
 // NEW AS OF 7/3/2026 - MAP MESSAGES
 	"LockedDoor": "It's locked...",
 	
+	// BACKPACK
+	"Backpack.1": "Several ingredient vials with labels: ogre toenails, powdered pixie wings, mandrake root...",
+	"Backpack.2": "Looks like this place of honor is where Charles keeps his prized possessions.",
+	"Backpack.3": "This crystal ball is mesmerizing. Better look away.",
+	"Backpack.4": "\"The Sandman: Season of Mists\"",
+	"Backpack.5": "\"Nancy Drew: Secret of the Old Clock\"",
+	"Backpack.6": "It's a Coptic-Aramaic dictionary.",
+	"Backpack.7": "\"Mirror-Travel: A Theoretical Exploration\"",
+	"Backpack.8": "\"Fae Deals and Fateful Feasts\"
+	"Backpack.9": "\"Major Arcana, vol. 4\"",
+	"Backpack.10": "\"Hounds, Hooligans, and Horrors: A Handbook\"",
+	"Backpack.11": "It's where Charles keeps parts of his disguises.",
+	
 	// CANNERY
 	"Cannery.1": "\"Nine Lives, Eight Deaths - A Memoir\"",
 	"Cannery.2": "\"The Ethical Monarchy\"",

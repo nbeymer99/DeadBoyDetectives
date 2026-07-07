@@ -40,5 +40,16 @@
 	"DocksVisit.title": "Dock Talk",
 	"DocksVisit.text": "The Pelican Town Port has re-opened and the people of the town are excited to meet the mysterious benefactor responsible.",
 	"DocksVisit.objective": "Visit the docks east of the beach.",
-
+	
+	"DH_Intro.title": "Trouble at the Agency",
+	"DH_Intro.text": "Crystal needs you at the agency ASAP to discuss Edwin's disappearance.",
+	"DH_Intro.objective": "Visit the agency.",
+	
+	"VisitLNF.title": "The Lost and Found Department",
+	"VisitLNF.text": "Edwin has been taken back to the Dollhouse by his former warden. The Night Nurse might know how to get him back.",
+	"VisitLNF.objective": "Interact with the mirror she left to travel to the Lost and Found Department.",
+	
+	"KillItWithFire.title": "Kill It With Fire",
+	"KillItWithFire.text": "The way out of the Doll House is blocked by Edwin's captor.",
+	"KillItWithFire.objective": "Kill the horrible monster before it kills you.",
 }

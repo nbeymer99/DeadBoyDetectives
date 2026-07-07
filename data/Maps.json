@@ -232,6 +232,13 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 10, "Height": 9 },
 			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 9 }			
 		},	
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-NightMarket",
+			"FromFile": "assets/maps/Beach_DBDA.tmx",
+			"FromArea": { "X": 0, "Y": 0, "Width": 10, "Height": 9 },
+			"ToArea": { "X": 0, "Y": 3, "Width": 10, "Height": 9 }			
+		},
 			// entrance to cemetery
 		{
 			"Action": "EditMap",

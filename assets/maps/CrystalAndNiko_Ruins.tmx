@@ -244,7 +244,7 @@
  <objectgroup id="7" name="Back"/>
  <objectgroup id="8" name="Back2"/>
  <objectgroup id="9" name="Buildings">
-  <object id="115" name="TileData" x="400" y="224" width="16" height="16">
+  <object id="115" name="TileData" x="400" y="208" width="16" height="16">
    <properties>
     <property name="Action" value="Warp 12 65 handwrittenhello.dbda_Roof"/>
    </properties>

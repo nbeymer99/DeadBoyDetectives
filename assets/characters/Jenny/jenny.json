@@ -19,7 +19,6 @@
         "Target": "Data/Characters",
         "Entries": {
             "{{ModId}}_JennyButcher": {
-				
 				// Basic Info
                 "DisplayName": "Jenny",
 				"FormerCharacterNames": [ "JennyButcher" ],
@@ -34,7 +33,7 @@
 				"IsDarkSkinned": false,
 				
 				// Relationships and Social
-                "CanBeRomanced": false,
+                "CanBeRomanced": true,
 				"CanVisitIsland": false,
 				"CanCommentOnPurchasedShopItems": true,
 				"Calendar": "HiddenUntilMet",

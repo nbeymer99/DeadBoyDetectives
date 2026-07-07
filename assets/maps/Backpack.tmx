@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="7">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="28">
  <properties>
   <property name="AmbientLight" value="175 175 175"/>
   <property name="AmbientNightLight" value="200 200 200"/>
@@ -79,14 +79,14 @@
 0,7561,3484,3392,1101,0,0,669,670,0,0,0,
 0,7574,3516,3424,1133,7236,7237,701,702,0,0,0,
 0,0,0,3456,7249,7250,0,0,3494,3495,3496,0,
-0,0,0,0,7262,7263,0,0,3526,3527,3528,0,
-0,2684361033,2684361001,2684360969,0,0,2889,2890,2891,2892,951,0,
-0,2684361034,2684361002,2684360970,0,0,2921,2922,2923,2924,0,0,
-0,2684361035,2684361003,2684360971,0,0,2953,2954,2955,2956,0,0,
-0,2684361036,2684361004,2684360972,0,0,0,0,0,0,0,0,
-0,0,0,0,0,5292,5293,0,0,0,0,0,
-0,0,0,0,0,5324,5325,0,2516,2517,2518,0,
-0,0,0,0,0,5356,5357,2684357000,2548,2549,2550,0
+0,0,0,0,7262,7263,0,0,3526,0,0,0,
+0,2684361033,2684361001,2684360969,3529,3530,2889,2890,2891,2892,0,0,
+0,2684361034,2684361002,2684360970,3561,3562,2921,2922,2923,2924,0,0,
+0,2684361035,2684361003,2684360971,3593,3594,2953,2954,2955,2956,0,0,
+0,2684361036,2684361004,2684360972,0,0,0,2553,2554,0,0,0,
+2514,2515,0,0,0,5292,5293,2585,2586,0,0,0,
+2546,2547,3314,3315,3316,5324,5325,2617,2618,2517,2518,0,
+2578,2579,3346,3347,3348,5356,5357,2684357000,2548,2549,2550,0
 </data>
  </layer>
  <layer id="2" name="Buildings" width="12" height="12">
@@ -95,14 +95,14 @@
 65,0,0,0,0,0,7464,0,0,2583,2584,65,
 65,0,0,0,0,0,0,0,0,0,0,65,
 65,0,0,0,0,0,731,732,0,0,0,65,
-65,0,0,0,7262,0,763,764,7470,0,0,65,
-65,0,0,0,0,6731,854,0,3340,691,0,65,
+65,0,0,0,7262,0,763,764,7470,3527,3528,65,
+65,0,0,0,0,6731,854,0,0,691,951,65,
 65,7366,780,781,0,885,886,0,0,723,724,65,
 65,0,7340,0,0,917,918,0,0,755,756,65,
-65,0,0,780,781,7470,3340,0,0,0,0,65,
-65,7464,0,0,0,0,0,0,0,7464,0,65,
-65,2368,780,781,7314,0,0,0,0,0,2901,65,
-65,65,65,65,65,65,65,65,65,65,65,65
+3309,0,0,780,781,7470,3340,0,0,0,0,65,
+3341,7464,0,0,0,0,0,0,0,7464,0,65,
+2577,2368,780,781,7314,0,0,0,0,0,2901,65,
+2577,2577,2577,2577,2577,2577,2577,65,2577,2577,2577,65
 </data>
  </layer>
  <layer id="11" name="Buildings2" width="12" height="12">
@@ -112,12 +112,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,3340,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,2523,0,0,0,0,0,
 0,0,0,0,0,0,2555,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2516,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -153,7 +153,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="Paths" width="12" height="12">
+ <layer id="4" name="Paths" width="12" height="12" visible="0">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,9,0,0,0,0,0,
@@ -170,7 +170,63 @@
 </data>
  </layer>
  <objectgroup id="5" name="Back"/>
- <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="7" name="TileData" x="160" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.11"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.1"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="96" y="64" width="32" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.2"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.3"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.4"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="32" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.5"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="48" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.6"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.7"/>
+   </properties>
+  </object>
+  <object id="25" name="TileData" x="64" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.8"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="48" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.9"/>
+   </properties>
+  </object>
+  <object id="27" name="TileData" x="32" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message handwrittenhello.dbda_Backpack.10"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Front"/>
  <objectgroup id="8" name="Paths"/>
 </map>

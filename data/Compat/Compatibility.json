@@ -36,7 +36,7 @@
 	},
 	
 	// BETAS
-	{
+	/* {
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_CrystalAndNiko",
 		"MapTiles": [
@@ -54,7 +54,7 @@
 		"When": {
 			"Hearts:{{ModId}}_CrystalPalace": "10, 11, 12, 13",
 		}
-	},
+	}, */
 		
 	{
 		"Action": "EditMap",
@@ -73,11 +73,10 @@
 		],
 		"When": {
 			"Hearts:{{ModId}}_CrystalPalace": "10, 11, 12, 13",
-			"HasMod |contains=Spiderbuttons.BETAS": true,
 		}
 	},
 		
-	{
+	/* {
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_CrystalVoid",
 		"MapTiles": [
@@ -95,9 +94,9 @@
 		"When": {
 			"HasMod |contains=Spiderbuttons.BETAS": true,
 		}
-	},
+	}, */
 		
-	{
+	/* {
 		"Action": "EditMap",
 		"Target": "Maps/CommunityCenter_Ruins",
 		"MapTiles": [
@@ -125,9 +124,9 @@
 		"When": {
 			"HasMod |contains=Spiderbuttons.BETAS": true,
 		}
-	},
+	}, */
 		
-	{
+	/* {
 		"Action": "EditMap",
 		"Target": "Maps/CommunityCenter_Refurbished",
 		"MapTiles": [
@@ -185,7 +184,7 @@
 		"When": {
 			"HasMod |contains=Spiderbuttons.BETAS": true,
 		}
-	},
+	}, */
 	
 	
 	// Disable Everbloom stuff

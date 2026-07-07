@@ -5,7 +5,7 @@
 		"Target": "Strings/StringsFromMaps",
 		"Entries": {
 			"{{ModId}}_TNTConstruction": "{{i18n:StringsFromMaps.{{ModId}}_TNTConstruction}}",
-			"{{ModID}}_TNTPrices": "{{i18n:StringsFromMaps.{{ModID}}_TNTPrices}}",
+			"{{ModId}}_TNTPrices": "{{i18n:StringsFromMaps.{{ModID}}_TNTPrices}}",
 			"{{ModId}}_LighthouseSign": "{{i18n:StringsFromMaps.{{ModId}}_LighthouseSign}}",
 			"{{ModId}}_MountainSign": "{{i18n:StringsFromMaps.{{ModId}}_MountainSign}}",
 			"{{ModId}}_DollHouseExitSign": "{{i18n:StringsFromMaps.{{ModId}}_DollHouseExitSign}}",
@@ -20,6 +20,16 @@
 			"{{ModId}}_LockedDoor": "{{i18n:LockedDoor}}",
 			
 			// backpack (TBA)
+			"{{ModId}}_Backpack.1": "{{i18n:_Backpack.1}}",
+			"{{ModId}}_Backpack.2": "{{i18n:_Backpack.2}}",
+			"{{ModId}}_Backpack.3": "{{i18n:_Backpack.3}}",
+			"{{ModId}}_Backpack.4": "{{i18n:_Backpack.4}}",
+			"{{ModId}}_Backpack.5": "{{i18n:_Backpack.5}}",
+			"{{ModId}}_Backpack.6": "{{i18n:_Backpack.6}}",
+			"{{ModId}}_Backpack.7": "{{i18n:_Backpack.7}}",
+			"{{ModId}}_Backpack.8": "{{i18n:_Backpack.8}}",
+			"{{ModId}}_Backpack.9": "{{i18n:_Backpack.7}}",
+			"{{ModId}}_Backpack.10": "{{i18n:_Backpack.8}}",
 			
 			// cannery - done
 			"{{ModId}}_Cannery.1": "{{i18n:Cannery.1}}",
@@ -102,7 +112,6 @@
 			"{{ModId}}_TM.4": "{{i18n:TM.4}}",
 			"{{ModId}}_TM.5": "{{i18n:TM.5}}",
 			"{{ModId}}_TM.6": "{{i18n:TM.6}}",
-			
 		}
 	},
   ]

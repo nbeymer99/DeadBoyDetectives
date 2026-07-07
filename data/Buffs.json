@@ -56,7 +56,6 @@
 				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
 				"IconSpriteIndex": 3,
 				"Effects": {
-
 					"Speed": -2,
 					"Immunity": 1,
 				},
@@ -64,7 +63,22 @@
 				"CustomFields": null
 			},
 			
-			"edwin_defense": {
+			"{{ModId}}_Webbed": {
+				"DisplayName": "{{i18n:Buffs.WebbedEffect.DisplayName}}",
+				"Description": "{{i18n:Buffs.WebbedEffect.Description}}",
+				"IsDebuff": true,
+				"GlowColor": "white",
+				"Duration": 2000,
+				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
+				"IconSpriteIndex": 4
+				"Effects": {
+					"Speed": -4,
+				},
+				"ActionsOnApply": null,
+				"CustomFields": null
+			},
+			
+			"{{ModId}}_edwin_defense": {
 				"DisplayName": "{{i18n:Buffs.edwin_defense.DisplayName}}",
 				"Description": "{{i18n:Buffs.edwin_defense.Description}}",
 				"IsDebuff": false,
@@ -91,7 +105,7 @@
 				"CustomFields": null
 			},
 			
-			"charles_attack": {
+			"{{ModId}}_charles_attack": {
 				"DisplayName": "{{i18n:Buffs.charles_attack.DisplayName}}",
 				"Description": "{{i18n:Buffs.charles_attack.Description}}",
 				"IsDebuff": false,
@@ -125,5 +139,5 @@
 			},
 		}
 	},
-	]
+  ]
 }

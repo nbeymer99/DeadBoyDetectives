@@ -420,7 +420,7 @@
 	{
 		"Name": "RandomFish",
 		"Value": "{{Random: (O)128, (O)129, (O)130, (O)131, (O)132, (O)146, (O)147, (O)148, (O)149, (O)150, (O)151, (O)267, (O)701, (O)708, (O)717, (O)720}}",
-	}
+	},
 	{
       "Name": "DoorsRandA",
       "Value": "{{Random: Doors1,Doors2,Doors3}}"
