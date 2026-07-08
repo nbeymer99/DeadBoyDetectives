@@ -36,6 +36,11 @@
 			"AllowValues": "1, 7, 14, 21, 28",
 			"Default": 7,
 			"Description": "How many days before the Dead Boy Detective Agency comes to you with another case to solve."
+		},
+		"Change_Vanilla_Schedules": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Adjust vanilla NPC schedules to attend mod-provided events."
 		}
 	},
 
@@ -140,7 +145,7 @@
 			"Target": "Data/GarbageCans",
 			"TargetField": [ "GarbageCans" ],
 			"Entries": {
-				"{{ModID}}_TNT": {
+				"{{ModId}}_TNT": {
 					"Items": [],
 				},
 			}
@@ -252,6 +257,14 @@
 		{
 			"Action": "Include",
 			"FromFile": "data/Compat/Compatibility.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/TeenSchedules.json",
+			"When": {
+				"HasSeenEvent:anyPlayer": "{{ModId}}_jennyhearts10",
+				"{{Change_Vanilla_Schedules}}": true
+			},
 		},
 		/* {
 			"Action": "Include",

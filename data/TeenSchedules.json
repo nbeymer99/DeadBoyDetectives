@@ -1,0 +1,70 @@
+{
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/schedules/Haley",
+		"When": {
+			"{{Random: true, false, false}}": true
+		},
+		"Entries": {
+			"spring_Mon": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1000 HaleyHouse 19 16 0/1100 Forest 77 44 2 haley_photo/1630 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+			"Mon": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1000 HaleyHouse 19 16 0/1100 Forest 77 44 2 haley_photo/1630 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/schedules/Abigail",
+		"When": {
+			"{{Random: true, false, false}}": true
+		},
+		"Entries": {
+			"fall_Mon": "900 SeedShop 10 5 0/1100 CommunityCenter 3 11 0/1800 SeedShop 1 9 3 abigail_sleep",
+			"Mon": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/a1300 CommunityCenter 3 11 0/1630 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep"
+		}	
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/schedules/Penny",
+		"When": {
+			"{{Random: true, false, false}}": true
+		},
+		"Entries": {
+			"Mon": "800 Town 35 89 2 penny_read/a1240 CommunityCenter 9 6 3/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep"
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/schedules/Maru",
+		"When": {
+			"{{Random: true, false, false}}": true
+		},
+		"Entries": {
+			"Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/a1330 CommunityCenter 2 5 2/1830 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",		
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/schedules/Sebastian",
+		"When": {
+			"{{Random: true, false, false}}": true
+		},
+		"Entries": {
+			"spring_Mon": "1030 SebastianRoom 9 4 3 sebastian_computer/a1400 CommunityCenter 7 5 2/a1900 Mountain 58 35 1 sebastian_smoking/2130 SebastianRoom 11 9 1 sebastian_sleep",
+			"fall_Mon": "1030 SebastianRoom 9 4 3 sebastian_computer/a1400 CommunityCenter 7 5 2/1600 ScienceHouse 27 9 0/1730 SebastianRoom 9 4 3 sebastian_computer/2130 SebastianRoom 11 9 1 sebastian_sleep",
+			"Mon": "1030 SebastianRoom 9 4 3 sebastian_computer/a1400 CommunityCenter 7 5 2/a1900 Mountain 58 35 1 sebastian_smoking/2130 SebastianRoom 11 9 1 sebastian_sleep",
+		}	
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/schedules/Alex",
+		"When": {
+			"{{Random: true, false, false}}": true
+		},
+		"Entries": {
+			"summer_Mon": "730 Beach 30 13 2 square_7_7/a1300 CommunityCenter 8 9 3/1700 JoshHouse 14 5 2 alex_lift_weights/1900 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+			"spring_Mon": "800 Town 64 64 2 alex_football/a1300 CommunityCenter 8 9 3/1600 Town 50 68 1/1830 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep",
+			"Mon": "800 Town 64 64 2 alex_football/a1300 CommunityCenter 8 9 3/1600 Town 50 68 1/1830 JoshHouse 8 19 2/2000 JoshHouse 17 5 0/2200 JoshHouse 21 4 1 alex_sleep"
+		}	
+	},
+  ]
+}

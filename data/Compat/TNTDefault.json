@@ -26,6 +26,30 @@
 			},
 		}
 	},
+	// closed on sundays
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"When": {
+			"{{DayOfWeek}}": "Sunday"
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 12, "Y": 72 },
+				"Layer": "Buildings",
+				"SetProperties": [
+					"Action": "LockedDoorWarp 14 29 {{ModId}}_TongueAndTail 0530 0540"
+				]
+			},
+			{
+				"Position": { "X": 13, "Y": 72 },
+				"Layer": "Buildings",
+				"SetProperties": [
+					"Action": "LockedDoorWarp 14 29 {{ModId}}_TongueAndTail 0530 0540"
+				]
+			}
+		]
+	},
 	
 	{
         "Action": "Load",

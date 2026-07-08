@@ -72,10 +72,22 @@
         "Action": "EditData",
         "Target": "Characters/schedules/{{ModId}}_CrystalPalace",
 		"When": {
-			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
+			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed",
+			"HasSeenEvent:anyPlayer |contains={{ModId}}_jennyhearts10": false,
 		},
 		"Entries": {
 			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/1300 Town 44 88 2 crystal_meditate/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_popcorn \"Strings\\schedules\\{{ModId}}_CrystalPalace:MovieNight.000\""
+		}
+	},
+	{
+        "LogName": "Crystal Schedule Conditionals",
+        "Action": "EditData",
+        "Target": "Characters/schedules/{{ModId}}_CrystalPalace",
+		"When": {
+			"HasSeenEvent:anyPlayer": "{{ModId}}_jennyhearts10"
+		},
+		"Entries": {
+			"spring_Mon": "1000 {{ModId}}_TongueAndTail 15 23 1/a1300 CommunityCenter 4 10 0/a1800 {{ModId}}_CrystalAndNiko 12 12 crystal_popcorn \"Strings\\schedules\\{{ModId}}_CrystalPalace:MovieNight.000\""
 		}
 	}
   ]

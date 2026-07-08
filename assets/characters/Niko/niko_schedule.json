@@ -34,10 +34,22 @@
         "Action": "EditData",
         "Target": "Characters/schedules/{{ModId}}_NikoSasaki",
 		"When": {
-			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed"
+			"HasFlag:hostPlayer": "{{ModId}}_MontyTransformed",
+			"HasSeenEvent:anyPlayer |contains={{ModId}}_jennyhearts10": false,
 		},
 		"Entries": {
 			"Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/1200 Forest 79 74 3 square_8_4/a1800 {{ModId}}_CrystalAndNiko 12 11 niko_sit \"Strings\\schedules\\{{ModId}}_NikoSasaki:MovieNight.000\"",
+		}
+	},
+	{
+		"LogName": "Niko Schedule",
+        "Action": "EditData",
+        "Target": "Characters/schedules/{{ModId}}_NikoSasaki",
+		"When": {
+			"HasSeenEvent:anyPlayer": "{{ModId}}_jennyhearts10"
+		},
+		"Entries": {
+			"Mon": "0730 ArchaeologyHouse 18 12 2 niko_read/a1300 CommunityCenter 1 9 1/a1800 {{ModId}}_CrystalAndNiko 12 11 niko_sit \"Strings\\schedules\\{{ModId}}_NikoSasaki:MovieNight.000\"",
 		}
 	}
   ]
