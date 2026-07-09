@@ -76,6 +76,18 @@
 		}
 	},
 	
+	// spacecore
+	{
+		"Action": "EditData",
+		"Target": "spacechase0.SpaceCore/NpcExtensionData",
+		"Entries": {
+			"{{ModId}}_JennyButcher": {
+				"IgnoreMarriageSchedule": true,
+				"SeparateDatability": true,
+			}
+		}
+	},
+	
 	
 	// include schedule
 	{
