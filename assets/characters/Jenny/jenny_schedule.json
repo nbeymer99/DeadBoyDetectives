@@ -6,7 +6,7 @@
         "Target": "Characters/schedules/{{ModId}}_JennyButcher",
 		"Entries": {
 			"winter_Sun": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/0800 FishShop 6 6 0/1200 {{ModId}}_Lighthouse 74 37 1 jenny_smoke/1600 {{ModId}}_TongueAndTail 19 12 0/2100 bed",
-			"Sun": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/0900 SeedShop 13 28 1/1200 Mountain 49 29 1 jenny_smoke/1600 Town 19 73 2/bed", // does not work !!!
+			"Sun": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/0900 SeedShop 13 28 1/1200 Mountain 49 29 1 jenny_smoke/1600 Town 19 73 1/2330 bed",
 			
 			"spring": "0610 {{ModId}}_Roof 18 66 1 jenny_smoke/a0900 {{ModId}}_TongueAndTail 9 21 2/1800 {{ModId}}_TongueAndTail 18 21 0/2000 Saloon 26 18 2 jenny_drink/2330 bed",
 		}

@@ -70,7 +70,7 @@
 				"GlowColor": "white",
 				"Duration": 2000,
 				"IconTexture": "Mods/{{ModId}}/Tilesheets/BuffsIcons",
-				"IconSpriteIndex": 4
+				"IconSpriteIndex": 4,
 				"Effects": {
 					"Speed": -4,
 				},

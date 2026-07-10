@@ -3,9 +3,9 @@
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="AmbientNightLight" value="150 150 30"/>
-  <property name="DayTiles" value="Buildings 17 8 225 Buildings 20 8 225 Buildings 17 9 257 Buildings 20 9 257 Front2 17 10 809 "/>
+  <property name="DayTiles" value="Buildings 17 8 225 Buildings 20 8 225 Buildings 17 9 257 Buildings 20 9 257 Front2 17 10 480 "/>
   <property name="Doors" value="22 18 1 120"/>
-  <property name="NightTiles" value="Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 480 "/>
+  <property name="NightTiles" value="Buildings 17 8 1222 Buildings 20 8 1222 Buildings 17 9 1254 Buildings 20 9 1254 Front2 17 10 809 "/>
   <property name="ViewportClamp" value=""/>
   <property name="Warp" value="13 30 Town 12 73 14 30 Town 13 73 12 16 handwrittenhello.dbda_CrystalAndNiko 25 24"/>
  </properties>

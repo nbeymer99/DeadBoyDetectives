@@ -33,7 +33,7 @@
 				"IsDarkSkinned": false,
 				
 				// Relationships and Social
-                "CanBeRomanced": true,
+                "CanBeRomanced": "{{PlayerGender |contains=Female}}",
 				"CanVisitIsland": false,
 				"CanCommentOnPurchasedShopItems": true,
 				"Calendar": "HiddenUntilMet",
@@ -104,11 +104,11 @@
 	},
 	
 	// include Strings
-	/* {
+	{
 		"LogName": "JennyButcherStrings",
 		"Action": "Include",
 		"FromFile": "assets/characters/Jenny/jenny_Strings.json"
-	}, */
+	},
 	
 	// include dialogue
 	{
@@ -118,10 +118,10 @@
 	},
 	
 	// include marriage dialogue
-	//{
-	//	"LogName": "JennyButcherMarriageDialogue",
-	//	"Action": "Include",
-	//	"FromFile": "assets/characters/Jenny/Jenny_marriageDialogue.json"
-	//},
+	{
+		"LogName": "JennyButcherMarriageDialogue",
+		"Action": "Include",
+		"FromFile": "assets/characters/Jenny/Jenny_marriageDialogue.json"
+	},
 	]
 }

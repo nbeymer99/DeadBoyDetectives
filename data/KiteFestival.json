@@ -1,0 +1,106 @@
+{
+	"Changes": [
+	{
+		"LogName": "Kite Fest - Date",
+		"Action": "EditData",
+		"Target": "Data/Festivals/FestivalDates",
+		"Entries": { "spring17": "Kite Festival", }, // i18n
+    },
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_Lighthouse-KiteFestival",
+		"FromFile": "assets/maps/Lighthouse_KiteFestival.tmx"
+	},
+	{
+		"Action": "EditData",
+		"LogName": "Kite Fest - Data",
+		"Target": "Data/Festivals/spring17",
+		"Entries": {
+			"name": "Kite Festival",
+			"conditions": "{{ModId}}_Lighthouse/0800 1500",
+			//"mainEvent": "", // kite minigame
+			//"shop": "O 628 6000 1 O 629 6000 1 O 630 6000 1 O 631 6000 1 O 632 6000 1 O 633 6000 1 BO 47 2000 4 BO 149 800 4 BBL 153 3000 1 BBL 74 800 1 BBL 72 600 1 BO 48 1000 8",
+			"set-up": "continue/-1000 -1000/farmer 102 9 3/changeToTemporaryMap {{ModId}}_Lighthouse-KiteFestival/loadActors Set-Up/playerControl luau", // custom not luau
+			"Set-Up_additionalCharacters": "Wizard 36 2 down/Willy 20 6 left/Robin 30 9 down/Demetrius 31 9 down/Maru 32 10 left/Jodi 40 10 down/Kent 41 10 down/Sam 42 12 left/Vincent 41 13 left/Alex 18 21 left/Sebastian 20 20 down/Abigail 21 21 left/Harvey 33 30 left/Caroline 40 38 down/Marnie 39 39 right/Shane 42 41 right/Jas 41 42 down/Evelyn 54 18 down/George 55 18 down/Marlon 59 18 down/Leo 56 25 down/Linus 57 25 down/Clint 61 23 right/Lewis 82 9 down/Leah 74 27 right/Elliot 75 26 down/Gus 94 16 down/Pam 95 17 left/Penny 96 19 down/Emily 88 32 down/Haley 87 33 right/Pierre 98 5 down/{{ModId}}_EdwinPayne 34 5 down/{{ModId}}_CharlesRowland 35 5 down/{{ModId}}_CrystalPalace 48 35 right/{{ModId}}_NikoSasaki? 48 36 right/{{ModId}}_MontyFinch 66 19 down/{{ModId}}_JennyButcher 94 20 down/{{ModId}}_EstherFinch 79 9 down/{{ModId}}_CatKing 74 20 down/Wem.Bundle.Tilly? 76 32 right/Wem.Clark.Clark? 78 32 left",
+			"startedMessage": "The Kite Festival has begun at the lighthouse.", //i18n this
+			//"MainEvent_additionalCharacters": "", // TBA after minigame
+			"locationDisplayName": "Point No Point Lighthouse", //i18n this
+			
+			// dialogue
+			"Abigail": "There's a trick to keeping a kite in the air...#$e#Maybe I'll share my secrets with you. After I win this year's contest, of course.",
+			"Robin": "Honey, maybe we should let Maru fly it with her gut instinct instead?",
+			"Demetrius": "If we calculate the velocity of the wind to be 7 m/s, and the angle of the force on the string to be 54 degrees...",
+			"Maru": "If I know all the physics behind flying a kite, why isn't it easier to keep it in the air?",
+			"Sebastian": "Heh. Out here has the best winds, but most people are too scared of high tide.",
+			"Linus": "I made my kite out of sticks I foraged in the woods and canvas I wove myself out of fiber.#$e$It's amazing what kind of materials you can find in nature if you just know where to look.",
+			"Caroline": "I don't know who was looking forward to the Kite Festival more, Abby or Pierre!#$e#Personally, I love any opportunity to mingle with friends.",
+			"Alex": "It takes strength, speed, and agility to fly a kite as well as this.#$e#Good thing I've been working out so much.",
+			"George": "This wind chills me right to the bone... I guess the kids are having fun, though.",
+			"Evelyn": "My George won the kite contest a few times when we first started dating!#$b#He always gifted me the prize, or used his winnings to take me out.#$e#Young love...",
+			"Lewis": "Ready for the kite-flying contest, @?#$e#You know, back in my day, I was something of an ace at flying a kite.$h#$e#These bones are too old to be running around like that now, though.$h",
+			"Clint": "Do you think Emily would be impressed by my kite-flying skills?#$e#What am I even saying...",
+			"Penny": "The kite festival is a good opportunity for the kids to learn about wind, weather, that sort of thing.",
+			"Pam": "Even when Penny was little, she didn't want to fly a kite with the rest of the kids.#$e#I think she was convinced she would fly away!$h",
+			"Emily": "It must be so freeing to be a kite, dancing in the breeze!#$e#Hey, do you think if we tied a rope around my waist...? Just kidding!$h",
+			"Haley": "I hope this wind doesn't mess up my hair too much...#$b#I spent hours on it, wanting to look my best for the festival today.",
+			"Jodi": "I hope Vincent's kite doesn't get stuck in a tree like last year... It took hours to get down and he was so disappointed.",
+			"Kent": "When I squinted, the kites up there almost looked like warplanes high in the atmosphere. They don't have that classic engine roar, though.",
+			"Marlon": "If you handle a kite as well as you handle a sword, you'll be stiff competition to beat!",
+			"Sam": "Watch this! I bet I can make my kite do a triple flip.",
+			"Leah": "Do you like the design I painted on my kite? It's an abstract representation of what spring means to me.",
+			"Shane": "I helped Jas make her kite. What do you think?",
+			"Marnie": "I had to get up early to take care of all the animals before the festival, but it's worth it to watch the kids have fun while catching up with friends!",
+			"Elliott": "One year the wind almost whisked Lewis away. That image lingered with me, and it inspired a scene from my novel, actually!",
+			"Gus": "Everyone is invited to the Saloon after the festivities! This wind goes right through you, so I always make a big pot of soup to warm everyone up.$h",
+			"Wizard": "Flight is freedom. It's a shame the arcane knowledge to command the skies isn't known to everyone.",
+			"Harvey": "Flying a kite can be excellent cardio!#$e#Although I usually spend more time untangling my kite's string than actually flying it...",
+			"Jas": "Look! I can fly it all on my own!",
+			"Vincent": "Do you like my kite? Sam helped me paint it. It's the Prairie King!",
+			"Willy": "Flying a kite isn't all that different from fishing... It's all about the tension of the line.",
+			"Leo": "SQUAWK! Fly, fly, fly!",
+			
+			// DBD
+			"{{ModId}}_CharlesRowland": "Did I ever tell you about that case where Edwin turned into a kite? Ghosts don't weigh anything if they don't want to!#$action Spiderbuttons.BETAS_DialogueBox {{ModId}}_EdwinPayne \"That is an exaggeration, Charles.\"#$b#Mate, you had a string wrapped around your waist and you were thirty feet in the air!$h",
+			"{{ModId}}_EdwinPayne": "Charles wanted to recreate the Case of the Windy Weald, but I'm not eager to repeat the experience.$s#$b#I was not made for heights...",
+			"{{ModId}}_CrystalPalace": "These gusts are so strong, I feel like I might fall off at any moment...$u",
+			"{{ModId}}_NikoSasaki": "It must be nice to be a kite. Even when you fall down, the wind will pick you back up again.$h",
+			"{{ModId}}_CatKing": "I'm happy here, thanks. The cats just wanted to steal some food and chase falling kites, and who am I to say no to a good time?",
+			"{{ModId}}_MontyFinch": "Birds are much more graceful than any of these kites. It's all about catching the air currents.",
+			"{{ModId}}_JennyButcher": "I made a killing on what I sold to Gus for today. I guess that's one thing that came out of this besides ",
+			"{{ModId}}_EstherFinch": "All these kids better watch out along these cliffs. All it takes is one... slip... oops!",
+			
+			// wem cinematic universe
+			"Wem.Bundle.Tilly": "I never flew kites as a kid and it's definitely showing.#$b#I think I'm doing alright though. It's up in the air, at least!",
+			"Wem.Clark.Clark": "This might be my favourite festival. I flew kites through the fields all the time as a kid!",
+			
+			// dolphinaf standalones
+			"DolphINaF.Claire": "I didn't think I'd want to fly one...#$b#Um. Pierre is selling kites, isn't he...?",
+			"DolphINaF.Susan_Susan": "Gus asked me to help with the stew.#$b#Hehe, don't tell him I snuck a taste. It's still as delicious as ever.$1",
+		}
+	},
+	
+	// compat/optional content
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring17",
+		"When": {
+			"HasMod": "Wem.Clark"
+			
+		},
+		"Entries": {
+			"Wem.Bundle.Tilly": "Clark is such a show-off!#$b#...no he's not. I'm just competitive. But to be fair, I didn't grow up flying kites.",
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring17",
+		"When": {
+			"HasMod": "Wem.Bundle"
+			
+		},
+		"Entries": {
+			"Wem.Clark.Clark": "Tilly was complaining before I helped her get her kite up. She's all smiles now.#$e#Ahh, I feel like a kid again."
+		}
+	},
+  ]
+}

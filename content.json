@@ -263,7 +263,7 @@
 			"FromFile": "data/TeenSchedules.json",
 			"When": {
 				"HasSeenEvent:anyPlayer": "{{ModId}}_jennyhearts10",
-				"{{Change_Vanilla_Schedules}}": true
+				"Change_Vanilla_Schedules": true
 			},
 		},
 		/* {
@@ -340,9 +340,7 @@
 		"Name": "FestivalYear",
 		"Value": "_y2", 
 		"When":
-		{
-		"Query: {{Year}} % 2 = 0": true,
-		}
+		{ "Query: {{Year}} % 2 = 0": true, }
 	},
 	{
 		"Name": "Recolor",
